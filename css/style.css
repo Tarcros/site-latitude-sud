@@ -1,0 +1,379 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #FCFCFB;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* révélation au chargement : vague blanche se comprime, couleurs apparaissent */
+@keyframes ls-wave-reveal {
+  from { transform: scaleY(1.0) translateX(0); }
+  to   { transform: scaleY(0.87) translateX(0); }
+}
+@keyframes ls-wave-reveal-2 {
+  from { transform: scaleY(1.0) translateX(0); }
+  to   { transform: scaleY(0.93) translateX(0); }
+}
+
+/* voyage continu */
+@keyframes ls-wave-travel {
+  0%, 100% { transform: scaleY(0.87) translateX(0); }
+  50%       { transform: scaleY(0.87) translateX(-4vw); }
+}
+@keyframes ls-wave-travel-2 {
+  0%, 100% { transform: scaleY(0.93) translateX(0); }
+  50%       { transform: scaleY(0.93) translateX(3vw); }
+}
+@keyframes ls-wave-travel-3 {
+  0%, 100% { transform: translateX(0); }
+  50%       { transform: translateX(-3vw); }
+}
+@keyframes ls-wave-in {
+  from { opacity: 0; transform: translateX(-60%) translateY(18px); }
+  to   { opacity: 1; transform: translateX(-60%) translateY(0); }
+}
+@keyframes ls-fade-up {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes ls-fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes ls-logo-fade {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: .55; transform: translateY(0); }
+}
+
+/* ── GRAIN PAPIER ── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.045;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 180px 180px;
+  mix-blend-mode: multiply;
+}
+
+/* ── WRAPPER VISUEL (fond partagé hero + vague) ── */
+.ls-visual-bg {
+  background: transparent;
+}
+
+/* ── HERO ── */
+.ls-hero {
+  position: relative;
+  width: 100%;
+  height: clamp(700px, 64vw, 1180px);
+  overflow: hidden;
+  opacity: 0;
+  animation: ls-fade 0.7s ease 0s forwards;
+  z-index: 2;
+}
+.ls-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background: #f3cdbd;
+}
+/* image de fond fixe (derrière les couches parallax) */
+.ls-hero-static {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  z-index: 0 !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+/* couches parallax */
+.ls-hero-bg img {
+  position: absolute;
+  top: 8%;
+  left: -3%;
+  width: 106%;
+  height: 108%;
+  object-fit: cover;
+  object-position: center bottom;
+  transition: transform 0.15s ease-out;
+  will-change: transform;
+}
+.ls-pl-sky       { z-index: 1; }
+.ls-pl-mountains { z-index: 2; }
+.ls-pl-hills     { z-index: 3; }
+
+.ls-hero-bg img.ls-pl-banana {
+  display: none;
+}
+
+/* ── WAVE SECTION ── */
+.ls-wave-section {
+  position: relative;
+  margin-top: -300px;
+  height: 500px;
+  overflow: visible;
+  z-index: 3;
+  opacity: 0;
+  animation: ls-fade 0.7s ease 0s forwards;
+}
+/* conteneur SVGs : clip horizontal uniquement, laisse les crêtes dépasser vers le haut */
+.ls-wave-svgs {
+  position: absolute;
+  top: -120px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+/* couvre l'artefact 1px au bas du conteneur SVG */
+.ls-wave-svgs::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 4px;
+  background: #FCFCFB;
+  z-index: 4;
+}
+.ls-wave-3 {
+  position: absolute;
+  top: 0;
+  left: -25vw;
+  width: 150vw;
+  height: 680px;
+  z-index: 1;
+  animation: ls-wave-travel-3 22s ease-in-out 1.5s infinite;
+}
+.ls-wave-3 path { fill: #424e57; }
+.ls-wave-2 {
+  position: absolute;
+  top: 0;
+  left: -25vw;
+  width: 150vw;
+  height: 680px;
+  z-index: 2;
+  transform-origin: bottom center;
+  animation:
+    ls-wave-reveal-2 1.4s ease 0.4s both,
+    ls-wave-travel-2 18s ease-in-out 1.8s infinite;
+}
+.ls-wave-2 path { fill: #566571; }
+.ls-wave {
+  position: absolute;
+  top: 0;
+  left: -25vw;
+  width: 150vw;
+  height: 680px;
+  z-index: 3;
+  transform-origin: bottom center;
+  animation:
+    ls-wave-reveal 1.4s ease 0.4s both,
+    ls-wave-travel 14s ease-in-out 2s infinite;
+}
+.ls-wave path {
+  fill: #FCFCFB;
+}
+.ls-wave-content {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-60%);
+  width: min(1100px, 85vw);
+  z-index: 999;
+  opacity: 0;
+  animation: ls-wave-in 0.9s ease 0.7s forwards;
+}
+.ls-wave-header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 28px;
+}
+.ls-wave-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.ls-wave-logo {
+  height: 170px;
+  width: auto;
+  flex-shrink: 0;
+}
+.ls-wave-title {
+  font-size: 80px;
+  line-height: .9;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: #566571;
+}
+.ls-wave-content h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1c1c1c;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+.ls-wave-content p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #777;
+  line-height: 1.7;
+}
+
+/* ── LOGO MARQUE ── */
+.ls-logo {
+  position: absolute;
+  top: clamp(22px, 3vw, 40px);
+  left: clamp(22px, 3vw, 44px);
+  z-index: 5;
+  width: clamp(92px, 8vw, 132px);
+  height: auto;
+  opacity: 0;
+  animation: ls-fade .6s ease .25s forwards;
+}
+
+/* ── STACK CENTRAL (boutons + vidéo) ── */
+.ls-hero-stack {
+  position: absolute;
+  top: clamp(80px, 11%, 140px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: clamp(12px, 1.6vh, 18px);
+  width: clamp(320px, 50vw, 800px);
+}
+
+/* ── BOUTONS ── */
+.ls-nav {
+  display: flex;
+  gap: 10px;
+  opacity: 0;
+  animation: ls-fade .5s ease .4s forwards;
+}
+.ls-btn {
+  flex: 1;
+  padding: 16px 12px;
+  border-radius: 12px;
+  background: #FCFCFB;
+  color: #1a1a2e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(14px, 1.2vw, 18px);
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(60,50,60,.16);
+  transition: transform .2s ease, box-shadow .2s ease;
+  white-space: nowrap;
+}
+.ls-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(60,50,60,.24); }
+
+/* ── SHOWREEL / VIDÉO ── */
+.ls-showreel {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #c8bfba;
+  box-shadow: 0 22px 55px rgba(45,55,70,.30);
+  opacity: 0;
+  animation: ls-fade .6s ease .55s forwards;
+}
+.ls-showreel iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+/* ── SECTION BLANCHE (logos + footer) ── */
+.ls-content {
+  position: relative;
+  z-index: 2;
+  background: #FCFCFB;
+  padding: 0 clamp(24px, 4vw, 48px) 72px;
+}
+
+/* ── CONTACT INFO ── */
+.ls-contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 20px;
+}
+.ls-contact-info a {
+  color: #566571;
+  font-size: clamp(13px, 1.1vw, 16px);
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  transition: color .2s;
+}
+.ls-contact-info a:hover { color: #424e57; text-decoration: underline; }
+@media (max-width: 600px) {
+  .ls-contact-info { flex-direction: column; align-items: center; gap: 10px; }
+}
+
+.ls-trust-label {
+  text-align: center;
+  font-weight: 600;
+  font-size: clamp(14px, 1.3vw, 19px);
+  color: #566571;
+  margin: -2px 0 40px;
+}
+
+/* ── GRILLE LOGOS ── */
+.ls-clients-grid {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  gap: 30px 14px;
+  align-items: center;
+  justify-items: center;
+}
+.ls-clients-grid img {
+  height: 30px;
+  width: auto;
+  max-width: 100%;
+  opacity: 0;
+  filter: grayscale(100%);
+  object-fit: contain;
+}
+.ls-clients-grid img.ls-logo-lg { height: 42px; }
+.ls-clients-grid img.ls-visible  { animation: ls-logo-fade .55s ease forwards; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+  .ls-clients-grid { grid-template-columns: repeat(7, 1fr); }
+}
+@media (max-width: 768px) {
+  .ls-hero { height: clamp(520px, 124vw, 760px); }
+  .ls-hero-stack { top: 14%; width: 80vw; }
+  .ls-wave-section { margin-top: -260px; }
+  .ls-wave-content { width: 86vw; top: 130px; left: 50%; transform: translateX(-60%); }
+  .ls-wave-header { gap: 20px; }
+  .ls-wave-logo { height: 110px; }
+  .ls-wave-title { font-size: clamp(36px, 8.5vw, 62px); }
+  .ls-wave-content h2 { font-size: clamp(13px, 2.2vw, 18px); }
+  .ls-wave-content p { font-size: clamp(14px, 2.5vw, 20px); }
+  .ls-content { padding-left: 20px !important; padding-right: 20px !important; }
+}
+@media (max-width: 480px) {
+  .ls-hero-stack { top: 12%; width: 88vw; }
+  .ls-wave-section { margin-top: -220px; }
+  .ls-nav { flex-direction: column; }
+  .ls-btn { flex: unset; }
+  .ls-wave-header { flex-direction: column; align-items: flex-start; gap: 10px; }
+  .ls-wave-logo { height: 80px; }
+  .ls-wave-title { font-size: clamp(26px, 8vw, 44px); }
+  .ls-wave-content h2 { font-size: clamp(12px, 3.2vw, 16px); }
+  .ls-wave-content { top: 110px; width: 84vw; left: 50%; transform: translateX(-60%); }
+  .ls-clients-grid { grid-template-columns: repeat(4, 1fr); gap: 22px 12px; }
+}

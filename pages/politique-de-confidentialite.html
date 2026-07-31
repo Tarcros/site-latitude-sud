@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FAF9F7">
+
+  <title>Politique de confidentialité — Latitude Sud</title>
+  <meta name="description" content="Politique de confidentialité et de protection des données personnelles du site de Latitude Sud.">
+  <meta name="robots" content="noindex, follow">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="canonical" href="https://latitudesud.gp/pages/politique-de-confidentialite.html">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; script-src 'self' 'unsafe-inline'; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+
+  <link rel="icon" type="image/svg+xml" href="/site-latitude-sud/assets/logo-sud.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="/site-latitude-sud/css/globals.css?v=42">
+
+  <style>
+    .legal-hero {
+      position: relative;
+      background: var(--color-cream);
+      min-height: 50vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 150px 24px 130px;
+      text-align: center;
+      overflow: hidden;
+    }
+    .legal-hero .hero-surtitle {
+      font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 600;
+      letter-spacing: 0.3em; text-transform: uppercase; color: #1A1A1A; margin-bottom: 18px;
+    }
+    .legal-hero h1 {
+      font-family: 'Poppins', sans-serif; font-weight: 600;
+      font-size: clamp(30px, 4vw, 46px); color: #1A1A1A; letter-spacing: 0;
+      margin-bottom: 32px;
+    }
+
+    /* Wave separator — identical pattern to every other page, instead of
+       the small ad-hoc arc bubble this page had before */
+    .hero-wave { position: absolute; bottom: 0; left: 0; width: 100%; line-height: 0; z-index: 3; pointer-events: none; animation: waveSlideUp 0.8s var(--ease) 0.3s both; }
+    @keyframes waveSlideUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+    .hero-wave > svg.wave-bg { display: block; width: 100%; height: 120px; }
+    .wave-cocotier { position: absolute; bottom: -20px; left: 50%; transform: translateX(-50%); z-index: 5; width: 190px; height: 116px; pointer-events: none; }
+    .wave-cocotier .arc-text-svg { position: absolute; top: 0; left: 0; }
+    .wave-cocotier .arc-palmier-icon {
+      position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%);
+      height: 30px; width: auto;
+      filter: brightness(0) saturate(100%) invert(30%) sepia(12%) saturate(1200%) hue-rotate(46deg) brightness(85%) contrast(92%);
+    }
+
+    .legal-body {
+      background: var(--color-white);
+      padding: 64px var(--gutter) var(--section-gap);
+    }
+    .legal-body-inner {
+      max-width: 760px; margin: 0 auto;
+    }
+    .legal-body h2 {
+      font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 19px;
+      color: var(--color-olive); margin: 38px 0 12px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .legal-body h2::before {
+      content: ''; width: 8px; height: 8px; border-radius: 2px;
+      background: var(--color-olive); flex-shrink: 0;
+    }
+    .legal-body h2:first-of-type { margin-top: 0; }
+    .legal-body p, .legal-body li {
+      font-family: 'Poppins', sans-serif; font-size: 15px;
+      color: var(--color-gray-dark); line-height: 1.85; margin-bottom: 12px;
+    }
+    .legal-body ul { padding-left: 22px; margin-bottom: 12px; }
+    .legal-body li { list-style: disc; margin-bottom: 6px; }
+    .legal-body a { color: var(--color-olive); text-decoration: underline; }
+    .legal-body a:hover { color: #1A1A1A; }
+    .legal-intro {
+      font-family: 'Poppins', sans-serif; font-size: 13.5px; font-style: italic;
+      color: var(--color-gray-mid); padding-bottom: 20px;
+      border-bottom: 1px solid var(--color-gray-light); margin-bottom: 28px;
+    }
+    .legal-note {
+      display: flex; align-items: flex-start; gap: 12px;
+      background: var(--color-beige); border-left: 3px solid var(--color-olive);
+      border-radius: 4px 14px 14px 4px; padding: 18px 22px;
+      font-size: 13.5px; color: var(--color-gray-dark); margin-top: 32px; line-height: 1.7;
+    }
+    .legal-note svg { flex-shrink: 0; margin-top: 2px; color: var(--color-olive); }
+  </style>
+</head>
+<body>
+
+<main id="main-content">
+
+  <section class="legal-hero">
+    <p class="hero-surtitle">Vos données</p>
+    <h1>Politique de confidentialité</h1>
+
+    <div class="hero-wave" aria-hidden="true">
+      <svg class="wave-bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3808.73 500" preserveAspectRatio="none">
+        <path fill="#FCFCFB" d="M3808.73,124.82v4687.56H0V124.82c136.05-33.32,289.72-38.15,429.73-29.41,260.42,10.44,505.18,153.29,769.12,126.73,250.79-13.48,331.33-143.24,546.07-200.65,423.08-102.86,512.96,196.66,894.4,202.69,247.88,12.59,480.49-117.95,725.76-128.72,147.16-10.52,300.1-5.11,443.65,29.36Z"/>
+      </svg>
+      <div class="wave-cocotier">
+        <svg viewBox="0 0 186 116" width="186" height="116" class="arc-text-svg">
+          <defs><path id="arc-pc" d="M 22,100 A 70,70 0 0,1 164,100"/></defs>
+          <text font-family="'Poppins', sans-serif" font-size="8" fill="#56522d" letter-spacing="2.2" font-weight="500">
+            <textPath href="#arc-pc" startOffset="50%" text-anchor="middle">CRÉATION • STRATÉGIE • DIGITAL</textPath>
+          </text>
+        </svg>
+        <img src="/site-latitude-sud/assets/icons/ui/icon-ui-cocotier.svg" class="arc-palmier-icon" alt="" aria-hidden="true">
+      </div>
+    </div>
+  </section>
+
+  <article class="legal-body">
+    <div class="legal-body-inner reveal">
+
+      <p class="legal-intro">Dernière mise à jour : 28 juillet 2026.</p>
+
+      <h2>1. Responsable du traitement</h2>
+      <p>
+        Latitude Sud, agence de communication, située 1<sup>er</sup> étage, Immeuble Le Sommet,
+        Rue Fulton, 97122 Baie-Mahault (Guadeloupe), est responsable du traitement des données
+        personnelles collectées via ce site.
+      </p>
+
+      <h2>2. Données collectées</h2>
+      <p>Nous collectons uniquement les données que vous nous transmettez volontairement, notamment via le formulaire de contact :</p>
+      <ul>
+        <li>Nom et prénom</li>
+        <li>Adresse e-mail</li>
+        <li>Numéro de téléphone (facultatif)</li>
+        <li>Contenu de votre message</li>
+      </ul>
+
+      <h2>3. Finalités</h2>
+      <p>
+        Ces données sont utilisées exclusivement pour répondre à vos demandes, établir un devis
+        et assurer le suivi de la relation commerciale. Elles ne font l'objet d'aucune cession
+        ni revente à des tiers.
+      </p>
+
+      <h2>4. Base légale</h2>
+      <p>
+        Le traitement repose sur votre consentement et sur l'intérêt légitime de Latitude Sud
+        à répondre aux sollicitations reçues.
+      </p>
+
+      <h2>5. Durée de conservation</h2>
+      <p>
+        Les demandes sans suite commerciale sont conservées au maximum trois ans après le dernier
+        contact. Les informations nécessaires à une relation contractuelle sont conservées pendant
+        la durée de cette relation, puis archivées selon les obligations légales applicables.
+      </p>
+
+      <h2>6. Transmission du formulaire</h2>
+      <p>
+        Le formulaire utilise le service <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener noreferrer">FormSubmit</a>
+        pour transmettre votre message par e-mail à Latitude Sud. FormSubmit traite les informations uniquement pour assurer cet acheminement
+        et conserve les soumissions pendant une durée maximale de 30 jours. Nous vous invitons à
+        ne pas communiquer de données sensibles dans le champ libre.
+      </p>
+
+      <h2>7. Cookies</h2>
+      <p>
+        Ce site n'utilise pas de cookies publicitaires ni de traceurs tiers à des fins marketing.
+        Seuls des éléments techniques nécessaires au bon fonctionnement et à l'affichage des contenus
+        (par exemple le lecteur vidéo YouTube en mode protégé de la vie privée) peuvent être chargés.
+      </p>
+
+      <h2>8. Vos droits</h2>
+      <p>Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez des droits suivants :</p>
+      <ul>
+        <li>Droit d'accès à vos données</li>
+        <li>Droit de rectification</li>
+        <li>Droit à l'effacement (« droit à l'oubli »)</li>
+        <li>Droit d'opposition et de limitation du traitement</li>
+        <li>Droit à la portabilité</li>
+      </ul>
+      <p>
+        Pour exercer ces droits, contactez-nous à
+        <a href="mailto:regis.malotaux@latitudesud.gp">regis.malotaux@latitudesud.gp</a>.
+        Vous pouvez également introduire une réclamation auprès de la CNIL.
+      </p>
+
+      <div class="legal-note">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        <span>En envoyant le formulaire, vous demandez à Latitude Sud de vous recontacter au sujet
+        de votre projet. Aucune donnée issue du formulaire n'est vendue à des tiers.</span>
+      </div>
+
+    </div>
+  </article>
+
+</main>
+
+<button id="scroll-top-btn" aria-label="Retour en haut">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <polyline points="18 15 12 9 6 15"/>
+  </svg>
+</button>
+
+<script src="/site-latitude-sud/js/components.js?v=33"></script>
+<script>
+  initComponents('', { stickyBar: false });
+  document.body.style.paddingTop = '0';
+</script>
+
+</body>
+</html>
