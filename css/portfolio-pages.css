@@ -132,19 +132,18 @@
 .catalogue-card .cat-thumb--foir img { filter: none; }
 .catalogue-card .cat-thumb--gamm { background: #F1F7E8; }
 .catalogue-card .cat-thumb--foir { background: #FFF5F4; }
+.catalogue-card .cat-thumb--carrefour { background: #254F9A; }
+.catalogue-card .cat-thumb--carrefour img { filter: brightness(0) invert(1); }
 .catalogue-card .cat-thumb--digilife { background: #090909; }
 .catalogue-list--clients { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .catalogue-list--clients > .catalogue-card { grid-column: span 2; }
-.catalogue-list--clients > .catalogue-card:nth-last-child(-n + 2) { grid-column: span 3; }
-.catalogue-list--clients > .catalogue-card:nth-last-child(-n + 2) .project-visual { aspect-ratio: 16 / 9; }
 @media (max-width: 900px) {
   .project-grid, .project-grid--identity, .project-grid--social, .catalogue-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .project-grid--identity > .project-card,
   .project-grid--social > .project-card,
   .project-grid--identity > .project-card:nth-last-child(-n + 2),
   .project-grid--social > .project-card:nth-last-child(-n + 2) { grid-column: span 1; }
-  .catalogue-list--clients > .catalogue-card,
-  .catalogue-list--clients > .catalogue-card:nth-last-child(-n + 2) { grid-column: span 1; }
+  .catalogue-list--clients > .catalogue-card { grid-column: span 1; }
 }
 @media (max-width: 1200px) {
   .portfolio-hero {

@@ -2189,6 +2189,7 @@ img.arc-palmier-icon { object-fit: contain; }
 .cat-case--mr { --cat-accent:#E6322B; --cat-soft:#FFF2F0; }
 .cat-case--gamm { --cat-accent:#4A8B2C; --cat-soft:#F1F7E8; }
 .cat-case--foir { --cat-accent:#E22722; --cat-soft:#FFF3F2; }
+.cat-case--carrefour { --cat-accent:#254F9A; --cat-soft:#EEF3FA; }
 .cat-case--digilife { --cat-accent:#E2343A; --cat-soft:#0E0E0E; background:#090909; color:#FFF; }
 .cat-case-hero {
   display:grid; grid-template-columns:minmax(0,1.3fr) minmax(190px,.7fr); gap:48px; align-items:center;
