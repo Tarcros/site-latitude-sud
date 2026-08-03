@@ -2206,6 +2206,9 @@ img.arc-palmier-icon { object-fit: contain; }
 .cat-case-heading h3 { margin:0; font-size:clamp(24px,3vw,38px); }
 .cat-case-heading p { margin-top:12px; color:#6A6C70; line-height:1.7; }
 .cat-case--digilife .cat-case-heading p { color:rgba(255,255,255,.62); }
+/* La regle globale h3 force color:var(--color-black) : illisible sur le fond sombre. */
+.cat-case--digilife .cat-case-heading h3,
+.cat-case--digilife .cat-case-hero h2 { color:#FFF; }
 
 /* ── Fiche catalogue : blocs de démonstration (chiffres, enjeu, méthode) ──
    Reprennent --cat-accent / --cat-soft, donc se brandent seuls par enseigne. */
