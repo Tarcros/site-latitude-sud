@@ -130,7 +130,7 @@
 .catalogue-card .cat-thumb--mr img { filter: brightness(0) invert(1); }
 .catalogue-card .cat-thumb--gamm img,
 .catalogue-card .cat-thumb--foir img { filter: none; }
-.catalogue-card .cat-thumb--gamm { background: #F1F7E8; }
+.catalogue-card .cat-thumb--gamm { background: #00664A; }
 .catalogue-card .cat-thumb--foir { background: #FFF5F4; }
 .catalogue-card .cat-thumb--carrefour { background: #254F9A; }
 .catalogue-card .cat-thumb--carrefour img { filter: brightness(0) invert(1); }
