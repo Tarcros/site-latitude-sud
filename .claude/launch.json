@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "latitude-sud",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4253"],
+      "port": 4253
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+{
+  ".claude/launch.json": {
+    "mtime": 1782478734.5340238,
+    "ast_hash": "0c458d3ea80ca2db50d3f51c46b4f5a9",
+    "semantic_hash": ""
+  },
+  ".claude/settings.json": {
+    "mtime": 1781808070.911407,
+    "ast_hash": "e1073342e958ac9f00716938c8f165e3",
+    "semantic_hash": ""
+  },
+  "Support-Latitude-Sud.js": {
+    "mtime": 1781726926.5801408,
+    "ast_hash": "dcf7a0c76052ff1397a61940905a3a3a",
+    "semantic_hash": ""
+  },
+  "components.js": {
+    "mtime": 1782492798.6736734,
+    "ast_hash": "07c73d9c6ddeed97d4a812191fe79ec9",
+    "semantic_hash": ""
+  },
+  ".continue/mcpServers/new-mcp-server.yaml": {
+    "mtime": 1782418341.72791,
+    "ast_hash": "11b23315a0ca3e285787d5c40c6030ea",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1781808070.9103992,
+    "ast_hash": "82efb97a359f5c7290bf2513d14686be",
+    "semantic_hash": ""
+  },
+  "Latitude Sud News.html": {
+    "mtime": 1782493445.7089083,
+    "ast_hash": "3124b7f7a89f0b4c6a76dec80be30f46",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1782493445.7118897,
+    "ast_hash": "624058adefbc42ec9c23ed66b89c4161",
+    "semantic_hash": ""
+  },
+  "parallax-test.html": {
+    "mtime": 1782493445.7129598,
+    "ast_hash": "bd3800993b056177263994b320ab9eab",
+    "semantic_hash": ""
+  },
+  "robots.txt": {
+    "mtime": 1781904758.9663992,
+    "ast_hash": "e612605de2385d3f501a62c2238b1b46",
+    "semantic_hash": ""
+  },
+  "android-chrome-192x192.png": {
+    "mtime": 1781883364.7201648,
+    "ast_hash": "3248cd5d011b0ef372e2508b8a68f4f7",
+    "semantic_hash": ""
+  },
+  "android-chrome-512x512.png": {
+    "mtime": 1781883364.7371955,
+    "ast_hash": "f4c69d5eed8d576222e595395ce8fac9",
+    "semantic_hash": ""
+  },
+  "apple-touch-icon.png": {
+    "mtime": 1781883364.6288013,
+    "ast_hash": "8273d72176b7c10aa64be95ae0377467",
+    "semantic_hash": ""
+  },
+  "assets/backgrounds/image-bg/header-bg-homme.png": {
+    "mtime": 1782414249.982064,
+    "ast_hash": "09cebbb5f4f9fe670c662dab772be558",
+    "semantic_hash": ""
+  },
+  "assets/backgrounds/image-bg/header-bg.jpg": {
+    "mtime": 1781724155.4488218,
+    "ast_hash": "7d7aca223b53304bab640035850eaeca",
+    "semantic_hash": ""
+  },
+  "assets/bg-banana-tree.png": {
+    "mtime": 1781880497.0037146,
+    "ast_hash": "7aae05efda1f30202a735584c85d54a4",
+    "semantic_hash": ""
+  },
+  "assets/bg-banana-tree2.png": {
+    "mtime": 1781880501.4801013,
+    "ast_hash": "7cae96ae3ae40b4c2dd9a1c083bf5f0f",
+    "semantic_hash": ""
+  },
+  "assets/bg-hills.png": {
+    "mtime": 1781880505.2792668,
+    "ast_hash": "a9c2d65c34dd8187f21ca1abf49f651b",
+    "semantic_hash": ""
+  },
+  "assets/bg-mountains.png": {
+    "mtime": 1781880491.6376438,
+    "ast_hash": "fdfdcc18879ed87c921270fb6c765a33",
+    "semantic_hash": ""
+  },
+  "assets/bg-sky.png": {
+    "mtime": 1781880494.9845612,
+    "ast_hash": "c346396349a35a741fb0026d8cee8c24",
+    "semantic_hash": ""
+  },
+  "assets/hero.jpg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "cf01be7c815262ff8c56dc9e917c902b",
+    "semantic_hash": ""
+  },
+  "assets/icons/player/icon-player-play.svg\n.svg": {
+    "mtime": 1782420023.768513,
+    "ast_hash": "8f77038e49dde71da99d4f8d33cbce68",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-arrow-right.svg": {
+    "mtime": 1782420023.5279465,
+    "ast_hash": "58c8b7d496383a35e417b492527639d7",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-calendar.svg": {
+    "mtime": 1782420023.9718492,
+    "ast_hash": "8cd596d969b34475b59d5b173231de91",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-camera.svg": {
+    "mtime": 1782420023.7948658,
+    "ast_hash": "0a1e216823145ed0719c5297d9e0b951",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-cocotier.svg": {
+    "mtime": 1782420023.903596,
+    "ast_hash": "365bf241e3e679d510888487405c9baf",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-color.svg": {
+    "mtime": 1782420023.874022,
+    "ast_hash": "929fd11b675794b61685cc1bf4676c26",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-diagonal.svg": {
+    "mtime": 1782420023.6602173,
+    "ast_hash": "42f00abe43648cf046f746af46589737",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-download.svg": {
+    "mtime": 1782420024.1282268,
+    "ast_hash": "6747170b7efb8b33f27b7393011ccdfa",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-email.svg": {
+    "mtime": 1782420023.756145,
+    "ast_hash": "b1dada3bb9606f72b2a404486cabb0f5",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-eye.svg": {
+    "mtime": 1782420023.7675838,
+    "ast_hash": "913fdcd6de5e763c75fb480d902fd07f",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-file.svg": {
+    "mtime": 1782420023.8729353,
+    "ast_hash": "b2d19e9d4f77e5de777ff91540bcd1ce",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-heart.svg": {
+    "mtime": 1782420023.7401352,
+    "ast_hash": "babac44eb928f74d8843ebf45e486954",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-leaf.svg": {
+    "mtime": 1782420023.8805377,
+    "ast_hash": "619172b9c2572ea433525ba0cc520089",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-location.svg": {
+    "mtime": 1782420023.961286,
+    "ast_hash": "72e1021076d00958c793dbfdcb9f7468",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-monitor.svg": {
+    "mtime": 1782420023.7442303,
+    "ast_hash": "42d2f5ffdbf2c5f41648fb88ae018ad3",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-multi-arrow.svg": {
+    "mtime": 1782420023.889064,
+    "ast_hash": "9d16350a8e512c809cc9f740e4f3d9fb",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-pencil.svg": {
+    "mtime": 1782420023.8001556,
+    "ast_hash": "c716b0d8723d898901e0cca4eaad3d64",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-pencil2.svg": {
+    "mtime": 1782420023.8717968,
+    "ast_hash": "f5aa9500b0f4ee842f1dd37c6ce13144",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-phone.svg": {
+    "mtime": 1782420024.0969553,
+    "ast_hash": "f8b24787162d12ac92d070b10d0c7341",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-social-media.svg": {
+    "mtime": 1782420023.9261045,
+    "ast_hash": "648f8362b65d08ae098c3242dd6d2a04",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/icon-ui-user.svg": {
+    "mtime": 1782420023.9455538,
+    "ast_hash": "dcdbb670c2e941b1bf527657c77349ed",
+    "semantic_hash": ""
+  },
+  "assets/illustrations/moto/Grenat-clean.png": {
+    "mtime": 1781814716.911494,
+    "ast_hash": "6d074a57a963e0c3c1f092046701d540",
+    "semantic_hash": ""
+  },
+  "assets/illustrations/moto/grenat.png": {
+    "mtime": 1781727149.0,
+    "ast_hash": "d0fb309501cd94f914f9d79037a95a75",
+    "semantic_hash": ""
+  },
+  "assets/logo-sud.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "9e00838db90db48cf8b1fc938a175784",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-Capaceo.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "dc51e423dcd5ec72e30ac7c8acf58cc5",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-Affligem.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "4e0ef2993b8359321ccb482dbd121d3a",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-BelAirSup.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "5bdfd8ee411239368415bac47bbfec91",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-CIST.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "6c7547ff90037495e3d43616fff63e4e",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-Canal-plus.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "a184731afd1d679dda17335eaf38ba74",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-CapCreole.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "566aee35f66686cadd1ba45a0160d352",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-Caribois.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "6f4b2e30881938b0958551ee761701ce",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-autodiscount.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "2aa16a2d257e4eac1a350beb9d46cf64",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-bebe-9.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "0cc42631887cfbf438277d496a920617",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-carrefour.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "4566a1a247431f170b6a3b34a39368e8",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-decathlon.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "1543c0cccef8df88074a59016aeee77f",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-digilife.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "b8b84b3f8cfa283dde8ee8c029cf2795",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-histoire-dor.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "655afc24945e0fe5e06fdfaffce45282",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-ioburo.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "b801b0555291e8b2db722d802e435030",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-jose-fabricator.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "03bb5d54f53f84049ac6bb78f55f4071",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-la-foir-fouille.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "9f879a88f6b38624551756f3b7238e7d",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-laroutedurhum.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "737cea1b39b52c00ed2b8a858f99d95e",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-mango.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "a396c1a84401382ddc030df2a3e7aa15",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-montebello.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "e0327b73d418bd4e95fec8a2c07b1d69",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-mr-bricolage.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "d63244cf56872fde52b7c78220b4428e",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-persepolis.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "d0cc1980c64934a03910d1426422804f",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-phoenicia.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "3656202cc3d28483d3f79459cdc2ac30",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-piton.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "b274f1203dcbd7c0513346d9a3dfd47d",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-porter.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "9b88d77fe1078d382378b00661dcdd48",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-siligom.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "7d8077ec8f3a50a69362ba70ae841d25",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logo-Clients-black-sol.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "f2506b2f5fdaecca9afba0c8de02a6cf",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logov2-LS-SUD-black.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "da90247768f9311e83a90bf751af2709",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logov2-LS-latitude-black.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "223567988c83f0e6cf8920d8358ef07c",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logov2-Latitude-Sud-black.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "0b5173dfbce55c92e6c8b534c26f6b08",
+    "semantic_hash": ""
+  },
+  "assets/logos/Logov2-Latitude-Sud-white.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "922148c79c07d0026149a26d0fde4813",
+    "semantic_hash": ""
+  },
+  "assets/title-latitude.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "2205296905164914499c9fb6ff463c45",
+    "semantic_hash": ""
+  },
+  "assets/wave.svg": {
+    "mtime": 1781792896.053601,
+    "ast_hash": "d4077dfc7543ecd4020824a1a1b37d04",
+    "semantic_hash": ""
+  },
+  "favicon-16x16.png": {
+    "mtime": 1781883364.6540573,
+    "ast_hash": "194da818a4e6e314e3f4d87352579ae3",
+    "semantic_hash": ""
+  },
+  "favicon-32x32.png": {
+    "mtime": 1781883364.6431642,
+    "ast_hash": "78d5fa60a05db870742ddadb40095c1b",
+    "semantic_hash": ""
+  },
+  "screenshots/hero3.png": {
+    "mtime": 1781727147.0,
+    "ast_hash": "6a2b488dd60da9df4ef42b2a000716b2",
+    "semantic_hash": ""
+  },
+  "screenshots/hero4.png": {
+    "mtime": 1781727147.0,
+    "ast_hash": "ea14f805bce144bb61026ac1940ec989",
+    "semantic_hash": ""
+  },
+  "screenshots/hero5.png": {
+    "mtime": 1781727147.0,
+    "ast_hash": "c0bbc566a8986ee6ea86f245b684a5ca",
+    "semantic_hash": ""
+  },
+  "screenshots/wavetest.png": {
+    "mtime": 1781727147.0,
+    "ast_hash": "cca0b8410e8314a4bf4b8e626647afe8",
+    "semantic_hash": ""
+  },
+  "uploads/Grenat.png": {
+    "mtime": 1781727143.0,
+    "ast_hash": "d0fb309501cd94f914f9d79037a95a75",
+    "semantic_hash": ""
+  },
+  "uploads/Remplissage ge\u0301ne\u0301ratif 2.jpg": {
+    "mtime": 1781727143.0,
+    "ast_hash": "7d7aca223b53304bab640035850eaeca",
+    "semantic_hash": ""
+  },
+  "uploads/ls.svg": {
+    "mtime": 1781727143.0,
+    "ast_hash": "eb423b2154a046b42ae6e3c3c756f344",
+    "semantic_hash": ""
+  },
+  "uploads/pasted-1781723188147-0.png": {
+    "mtime": 1781727143.0,
+    "ast_hash": "dfaba805e145f890b2ce3a23e201355f",
+    "semantic_hash": ""
+  },
+  "uploads/pasted-1781724308323-0.png": {
+    "mtime": 1781727143.0,
+    "ast_hash": "8e46c673af732cddce7ba9a0232d347a",
+    "semantic_hash": ""
+  },
+  "video.html": {
+    "mtime": 1782493445.716249,
+    "ast_hash": "4794904ed9586a4a36b149f96b7d62db",
+    "semantic_hash": ""
+  },
+  "agence.html": {
+    "mtime": 1782493445.7098026,
+    "ast_hash": "32caf219c58745b512a562543a7e6113",
+    "semantic_hash": ""
+  },
+  "contact.html": {
+    "mtime": 1782493445.7105646,
+    "ast_hash": "67b68853715556768d7c790c70ff7d18",
+    "semantic_hash": ""
+  },
+  "print.html": {
+    "mtime": 1782493445.7141023,
+    "ast_hash": "abedd4fecb79d91850ecd45df3d63512",
+    "semantic_hash": ""
+  },
+  "social.html": {
+    "mtime": 1782493445.7155359,
+    "ast_hash": "0e036e3cda747dc6695a7bc2e9b5cfd8",
+    "semantic_hash": ""
+  },
+  "web.html": {
+    "mtime": 1782493445.7168994,
+    "ast_hash": "7684ae4818505a839dd4bd89e7b7f141",
+    "semantic_hash": ""
+  },
+  ".continue/mcpServers/config.json": {
+    "mtime": 1782490751.7283502,
+    "ast_hash": "d278e9b2ca806a36837bff26421ed1d4",
+    "semantic_hash": ""
+  },
+  "mentions-legales.html": {
+    "mtime": 1782493445.7125132,
+    "ast_hash": "4aa1c9a5eb2966c33fdd93bea86800e8",
+    "semantic_hash": ""
+  },
+  "politique-de-confidentialite.html": {
+    "mtime": 1782493445.7134264,
+    "ast_hash": "9b6d0e08349ee79c09f73babe4b59183",
+    "semantic_hash": ""
+  },
+  "realisations.html": {
+    "mtime": 1782493445.7147458,
+    "ast_hash": "501a6b16fe7034c6924fd8db23f9237d",
+    "semantic_hash": ""
+  },
+  "assets/backgrounds/image-bg/header-bg-homme-v2.png": {
+    "mtime": 1782486206.4895432,
+    "ast_hash": "322097a79136d1eb4b825c80d7049d28",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/Asset-vague-header.svg": {
+    "mtime": 1782489542.9955084,
+    "ast_hash": "820f6d0aeca3c3b44b27158df2094897",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/trait-ls-2.svg": {
+    "mtime": 1782483890.136595,
+    "ast_hash": "de0d444dfc2049e575663bc17b9b0bf9",
+    "semantic_hash": ""
+  },
+  "assets/icons/ui/trait-ls.svg": {
+    "mtime": 1782474941.7887049,
+    "ast_hash": "4ade6cbc4d3b594010141a50850ba66f",
+    "semantic_hash": ""
+  },
+  "assets/illustrations/moto/grenat-print-opt.png": {
+    "mtime": 1782479099.9609241,
+    "ast_hash": "15ee6652dc11e7331a5c7504020d5e10",
+    "semantic_hash": ""
+  },
+  "assets/illustrations/moto/grenat-print.png": {
+    "mtime": 1782475936.7835166,
+    "ast_hash": "60f8ca5ed0dd470fcba04dbefc502ab6",
+    "semantic_hash": ""
+  },
+  "assets/illustrations/moto/grenat-social-opt.png": {
+    "mtime": 1782479098.4502234,
+    "ast_hash": "69639dc889a9968152131787e1b2dc25",
+    "semantic_hash": ""
+  },
+  "assets/illustrations/moto/grenat-social.png": {
+    "mtime": 1782475933.5958107,
+    "ast_hash": "2f69bb558884edc902910bb4d264b9d7",
+    "semantic_hash": ""
+  },
+  "assets/illustrations/moto/grenat-video-opt.png": {
+    "mtime": 1782479097.0956783,
+    "ast_hash": "0b4f9a5f3b1ceb7d67387bca35dffd8e",
+    "semantic_hash": ""
+  },
+  "assets/illustrations/moto/grenat-video.png": {
+    "mtime": 1782475938.3756404,
+    "ast_hash": "637d0b9bab5cfdb8fd53140159ac911b",
+    "semantic_hash": ""
+  },
+  "assets/illustrations/moto/grenat-web-opt.png": {
+    "mtime": 1782479095.5488596,
+    "ast_hash": "64c1eb486312d33876a6d257ec3675a4",
+    "semantic_hash": ""
+  },
+  "assets/illustrations/moto/grenat-web.png": {
+    "mtime": 1782475927.7106433,
+    "ast_hash": "c6be2dd54b5a669e5ace66c2bd1af345",
+    "semantic_hash": ""
+  },
+  "assets/og-image.jpg": {
+    "mtime": 1782478670.0673783,
+    "ast_hash": "5b3b001166009e1a5e3a48bc18dcee2f",
+    "semantic_hash": ""
+  },
+  "assets/prototypes/charte graphique/KIT-UI-LS-2.png": {
+    "mtime": 1782476770.862352,
+    "ast_hash": "50fb078e9704ed7340744f66767a08a7",
+    "semantic_hash": ""
+  },
+  "assets/prototypes/charte graphique/KIT-UI-LS.png": {
+    "mtime": 1782476770.2075438,
+    "ast_hash": "f70195af5f90d930bb132bb368f8548d",
+    "semantic_hash": ""
+  },
+  "assets/prototypes/pages/CTA.jpg": {
+    "mtime": 1782476753.9913244,
+    "ast_hash": "6ce785781f691c49678f83f1e0b9e344",
+    "semantic_hash": ""
+  },
+  "assets/prototypes/pages/Home-Page-V1.png": {
+    "mtime": 1782476740.4504156,
+    "ast_hash": "0d95e6928220faba2337f8d9cfe24d66",
+    "semantic_hash": ""
+  },
+  "assets/prototypes/pages/Home-Page-V2.png": {
+    "mtime": 1782476741.5362175,
+    "ast_hash": "3671616e52c47ba1bc9a72e0f276d4a9",
+    "semantic_hash": ""
+  },
+  "assets/prototypes/pages/PRint.png": {
+    "mtime": 1782476745.307024,
+    "ast_hash": "0f115c1fb0f5993ae6e876be87637bc2",
+    "semantic_hash": ""
+  },
+  "assets/prototypes/pages/Reseaux-.png": {
+    "mtime": 1782476743.7528727,
+    "ast_hash": "d13c816f5108a4a32f1f9d1471b60fcc",
+    "semantic_hash": ""
+  },
+  "assets/prototypes/pages/Video.png": {
+    "mtime": 1782476747.9433908,
+    "ast_hash": "4e895d996da9699c5e4c7a4be0c6781d",
+    "semantic_hash": ""
+  },
+  "assets/prototypes/pages/Web.png": {
+    "mtime": 1782476742.5891027,
+    "ast_hash": "92cb2a4e2ae56e03231ad04273dcc3df",
+    "semantic_hash": ""
+  }
+}

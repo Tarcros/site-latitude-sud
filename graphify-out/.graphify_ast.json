@@ -1,0 +1,1387 @@
+{
+  "nodes": [
+    {
+      "id": "support_latitude_sud",
+      "label": "Support-Latitude-Sud.js",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_getreact",
+      "label": "getReact()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_getreactdom",
+      "label": "getReactDOM()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_parsedcdocument",
+      "label": "parseDcDocument()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_parsedctext",
+      "label": "parseDcText()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L38",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_parsedataprops",
+      "label": "parseDataProps()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L56",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_dcnamefrompath",
+      "label": "dcNameFromPath()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L75",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_rootnamefordocument",
+      "label": "rootNameForDocument()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L130",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_safedecode",
+      "label": "safeDecode()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L140",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_boot",
+      "label": "boot()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L147",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_resolve",
+      "label": "resolve()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L191",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_parenswrapwhole",
+      "label": "parensWrapWhole()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L223",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_findtoplevelequality",
+      "label": "findTopLevelEquality()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L234",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_resolvepath",
+      "label": "resolvePath()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L249",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_encodecase",
+      "label": "encodeCase()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L321",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_kebabtocamel",
+      "label": "kebabToCamel()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L340",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_csstoobj",
+      "label": "cssToObj()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L343",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_compileattr",
+      "label": "compileAttr()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L353",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_collectprops",
+      "label": "collectProps()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L367",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_hostpositionstyle",
+      "label": "hostPositionStyle()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L408",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_compiletemplate",
+      "label": "compileTemplate()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L418",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_walkchildren",
+      "label": "walkChildren()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L434",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_walk",
+      "label": "walk()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L437",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_warnunresolved",
+      "label": "warnUnresolved()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L450",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_walktext",
+      "label": "walkText()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L456",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_walkfor",
+      "label": "walkFor()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L498",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_walkif",
+      "label": "walkIf()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L533",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_walkcomponent",
+      "label": "walkComponent()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L548",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_walkximport",
+      "label": "walkXImport()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L570",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_walkelement",
+      "label": "walkElement()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L638",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_constructor",
+      "label": "constructor()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L662",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_setstate",
+      "label": "setState()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L669",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_forceupdate",
+      "label": "forceUpdate()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L672",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_componentdidmount",
+      "label": "componentDidMount()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L675",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_componentdidupdate",
+      "label": "componentDidUpdate()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L677",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_componentwillunmount",
+      "label": "componentWillUnmount()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L679",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_rendervals",
+      "label": "renderVals()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L682",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_evaldclogic",
+      "label": "evalDcLogic()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L686",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_shallowequal",
+      "label": "shallowEqual()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L698",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_placeholder",
+      "label": "Placeholder()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L706",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_hinttomin",
+      "label": "hintToMin()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L727",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_createcomponentfactory",
+      "label": "createComponentFactory()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L732",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_isrenderabletype",
+      "label": "isRenderableType()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L977",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_resolvedottedpath",
+      "label": "resolveDottedPath()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L981",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_createexternalmodules",
+      "label": "createExternalModules()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L992",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_iselementclass",
+      "label": "isElementClass()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1154",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_createhelmetmanager",
+      "label": "createHelmetManager()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1163",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_createpseudosheet",
+      "label": "createPseudoSheet()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1215",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_createregistry",
+      "label": "createRegistry()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1236",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_createruntime",
+      "label": "createRuntime()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1267",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_hiderawtemplate",
+      "label": "hideRawTemplate()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1428",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_loadscript",
+      "label": "loadScript()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1433",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_loadreactumd",
+      "label": "loadReactUmd()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1446",
+      "_origin": "ast"
+    },
+    {
+      "id": "support_latitude_sud_init",
+      "label": "init()",
+      "file_type": "code",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1454",
+      "_origin": "ast"
+    }
+  ],
+  "edges": [
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_getreact",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_getreactdom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_parsedcdocument",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_parsedctext",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_parsedataprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_dcnamefrompath",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_rootnamefordocument",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_safedecode",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_boot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_resolve",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L191",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_parenswrapwhole",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L223",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_findtoplevelequality",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L234",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_resolvepath",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L249",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_encodecase",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L321",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_kebabtocamel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L340",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_csstoobj",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L343",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_compileattr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L353",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_collectprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L367",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_hostpositionstyle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L408",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_compiletemplate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L418",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_walkchildren",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L434",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_walk",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L437",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_warnunresolved",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L450",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_walktext",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L456",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_walkfor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L498",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_walkif",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L533",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_walkcomponent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L548",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_walkximport",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L570",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_walkelement",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L638",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_constructor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L662",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_setstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L669",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_forceupdate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L672",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_componentdidmount",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L675",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_componentdidupdate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L677",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_componentwillunmount",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L679",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_rendervals",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L682",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_evaldclogic",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L686",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_shallowequal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L698",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_placeholder",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L706",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_hinttomin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L727",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_createcomponentfactory",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L732",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_isrenderabletype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L977",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_resolvedottedpath",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L981",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_createexternalmodules",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L992",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_iselementclass",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1154",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_createhelmetmanager",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1163",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_createpseudosheet",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1215",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_createregistry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1236",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_createruntime",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1267",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_hiderawtemplate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1428",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_loadscript",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1433",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_loadreactumd",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1446",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud",
+      "target": "support_latitude_sud_init",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1454",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_parsedcdocument",
+      "target": "support_latitude_sud_parsedataprops",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_parsedctext",
+      "target": "support_latitude_sud_parsedataprops",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_rootnamefordocument",
+      "target": "support_latitude_sud_safedecode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_rootnamefordocument",
+      "target": "support_latitude_sud_dcnamefrompath",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_boot",
+      "target": "support_latitude_sud_parsedcdocument",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_boot",
+      "target": "support_latitude_sud_getreact",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_boot",
+      "target": "support_latitude_sud_rootnamefordocument",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_boot",
+      "target": "support_latitude_sud_getreactdom",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_resolve",
+      "target": "support_latitude_sud_parenswrapwhole",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L194",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_resolve",
+      "target": "support_latitude_sud_findtoplevelequality",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_resolve",
+      "target": "support_latitude_sud_resolvepath",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L221",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_resolvepath",
+      "target": "support_latitude_sud_resolve",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L272",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_csstoobj",
+      "target": "support_latitude_sud_kebabtocamel",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L349",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_collectprops",
+      "target": "support_latitude_sud_kebabtocamel",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L375",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_collectprops",
+      "target": "support_latitude_sud_compileattr",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L392",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_hostpositionstyle",
+      "target": "support_latitude_sud_csstoobj",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L409",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_compiletemplate",
+      "target": "support_latitude_sud_encodecase",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L421",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_compiletemplate",
+      "target": "support_latitude_sud_walkchildren",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L429",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walk",
+      "target": "support_latitude_sud_walktext",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L438",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walk",
+      "target": "support_latitude_sud_walkfor",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L442",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walk",
+      "target": "support_latitude_sud_walkif",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L443",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walk",
+      "target": "support_latitude_sud_walkximport",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L444",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walk",
+      "target": "support_latitude_sud_walkcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L446",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walk",
+      "target": "support_latitude_sud_walkelement",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L447",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walkfor",
+      "target": "support_latitude_sud_compileattr",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L499",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walkfor",
+      "target": "support_latitude_sud_walkchildren",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L502",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walkif",
+      "target": "support_latitude_sud_compileattr",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L534",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walkif",
+      "target": "support_latitude_sud_walkchildren",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L537",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walkcomponent",
+      "target": "support_latitude_sud_compileattr",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L555",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walkcomponent",
+      "target": "support_latitude_sud_collectprops",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L556",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walkcomponent",
+      "target": "support_latitude_sud_walkchildren",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L557",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walkximport",
+      "target": "support_latitude_sud_compileattr",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L571",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walkximport",
+      "target": "support_latitude_sud_collectprops",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L584",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walkximport",
+      "target": "support_latitude_sud_walkchildren",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L586",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walkelement",
+      "target": "support_latitude_sud_collectprops",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L641",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_walkelement",
+      "target": "support_latitude_sud_walkchildren",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L642",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_evaldclogic",
+      "target": "support_latitude_sud_getreact",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L694",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_createcomponentfactory",
+      "target": "support_latitude_sud_getreact",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L733",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_isrenderabletype",
+      "target": "support_latitude_sud_iselementclass",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L978",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_createruntime",
+      "target": "support_latitude_sud_createregistry",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1268",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_createruntime",
+      "target": "support_latitude_sud_createpseudosheet",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1269",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_createruntime",
+      "target": "support_latitude_sud_createhelmetmanager",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1270",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_createruntime",
+      "target": "support_latitude_sud_createexternalmodules",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1274",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_createruntime",
+      "target": "support_latitude_sud_createcomponentfactory",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1275",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_loadreactumd",
+      "target": "support_latitude_sud_resolve",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1448",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_loadreactumd",
+      "target": "support_latitude_sud_loadscript",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1450",
+      "weight": 1.0
+    },
+    {
+      "source": "support_latitude_sud_init",
+      "target": "support_latitude_sud_createruntime",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Support-Latitude-Sud.js",
+      "source_location": "L1455",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

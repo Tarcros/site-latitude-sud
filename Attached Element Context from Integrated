@@ -1,0 +1,49 @@
+Attached Element Context from Integrated Browser
+
+Element: div.hero-palm-icon
+
+URL: http://127.0.0.1:3000/index.html?vscode-livepreview=true
+
+HTML Path: div.hero-transition > div.hero-transition-inner > div.hero-palm-icon
+
+Outer HTML:
+```html
+<div class="hero-palm-icon">🌴</div>
+```
+
+Dimensions:
+- top: 307px
+- left: 739px
+- width: 32px
+- height: 32px
+
+CSS:
+```css
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+.hero-palm-icon { font-size: 32px;
+      line-height: 1;
+      text-align: center; }
+
+/* Inherited */
+body { font-family: var(--font-poppins); font-size: var(--fs-body); color: var(--color-gray-dark) }
+html { font-size: 16px }
+
+/* Resolved values */
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+color: rgb(46, 46, 46);
+display: block;
+font-family: Poppins, system-ui, sans-serif;
+font-size: 32px;
+height: 32px;
+line-height: 32px;
+text-align: center;
+unicode-bidi: isolate /*UA*/;
+width: 32px;
+
+/* CSS variables */
+--color-gray-dark: #2E2E2E;
+--font-poppins: 'Poppins', system-ui, sans-serif;
+--fs-body: clamp(14px, 1.1vw, 17px);
+```

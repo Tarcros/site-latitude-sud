@@ -1,0 +1,11 @@
+.DS_Store
+.vscode/
+.continue/
+graphify-out/cache/
+*-original.jpeg
+*-original.png
+~ai-*
+*.tmp
+*.textClipping
+tmp/
+screenshots/

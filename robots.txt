@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+Disallow: /uploads/
+
+# Crawlers IA — autorisés explicitement
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://latitudesud.gp/sitemap.xml

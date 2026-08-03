@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FAF9F7">
+
+  <title>Latitude Sud — Agence de communication en Guadeloupe</title>
+  <meta name="description" content="Latitude Sud, agence de communication en Guadeloupe depuis 25 ans. Photographie, identité graphique, réseaux sociaux et supports de communication.">
+  <meta name="keywords" content="agence communication Guadeloupe, photographie de marque, identité visuelle, charte graphique, réseaux sociaux, supports de communication, Latitude Sud, Baie-Mahault">
+  <meta name="author" content="Latitude Sud">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="canonical" href="https://latitudesud.gp/">
+
+  <!-- Security (defense-in-depth; real headers also set in _headers) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; script-src 'self' 'unsafe-inline'; frame-src https://www.youtube-nocookie.com https://www.youtube.com; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+
+  <!-- Open Graph / social link preview -->
+  <meta property="og:site_name"   content="Latitude Sud">
+  <meta property="og:title"       content="Latitude Sud — Agence de communication en Guadeloupe">
+  <meta property="og:description" content="Photographie, identité graphique, réseaux sociaux et supports de communication pour faire rayonner votre marque.">
+  <meta property="og:type"        content="website">
+  <meta property="og:locale"      content="fr_FR">
+  <meta property="og:url"         content="https://latitudesud.gp/">
+  <meta property="og:image"       content="https://latitudesud.gp/assets/og-image.jpg">
+  <meta property="og:image:width"  content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt"   content="Latitude Sud — agence de communication en Guadeloupe">
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Latitude Sud — Agence de communication en Guadeloupe">
+  <meta name="twitter:description" content="Photographie, identité graphique, réseaux sociaux et supports de communication.">
+  <meta name="twitter:image"       content="https://latitudesud.gp/assets/og-image.jpg">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="/assets/logo-sud.svg">
+  <link rel="apple-touch-icon" href="/assets/logo-sud.svg">
+
+  <!-- Performance hints -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="stylesheet" href="/css/globals.css?v=56">
+<link rel="stylesheet" href="/css/hero-wave.css?v=2">
+
+  <!-- Structured data — Organization / LocalBusiness for SEO & AI discovery -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "https://latitudesud.gp/#agence",
+    "name": "Latitude Sud",
+    "description": "Agence de communication en Guadeloupe : photographie, identité graphique, réseaux sociaux et supports de communication.",
+    "url": "https://latitudesud.gp/",
+    "logo": "https://latitudesud.gp/assets/logo-sud.svg",
+    "image": "https://latitudesud.gp/assets/og-image.jpg",
+    "telephone": "+590590922948",
+    "email": "regis.malotaux@latitudesud.gp",
+    "foundingDate": "2000",
+    "slogan": "Des idées ancrées dans le Sud.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1er étage, Imm. Le Sommet, Rue Fulton",
+      "addressLocality": "Baie-Mahault",
+      "postalCode": "97122",
+      "addressRegion": "Guadeloupe",
+      "addressCountry": "GP"
+    },
+    "areaServed": [
+      { "@type": "Place", "name": "Guadeloupe" },
+      { "@type": "Place", "name": "Antilles françaises" }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/latitudesud/",
+      "https://www.linkedin.com/company/latitudesud/"
+    ],
+    "knowsAbout": ["Communication", "Photographie de marque", "Identité visuelle", "Réseaux sociaux", "Supports de communication"]
+  }
+  </script>
+
+  <style>
+    /* ============================================================
+       INDEX.HTML — PAGE-SPECIFIC STYLES
+       ============================================================ */
+
+    /* ── HERO ── background always fills the box (object-fit: cover
+       equivalent) so no whitespace can ever appear; the horizontal anchor
+       shifts fluidly with viewport width instead of jumping at breakpoints ── */
+    .hero {
+      position: relative;
+      width: 100%;
+      min-height: clamp(660px, 64vw, 980px);
+      background-image: url('/backgrounds/image-bg/generated/hero-home-1920.webp?v=6');
+      background-size: cover;
+      background-position: right bottom;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      background-color: #FAF9F7;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: minmax(420px, 0.88fr) minmax(560px, 1.12fr);
+      align-items: center;
+      gap: clamp(40px, 4vw, 72px);
+      max-width: 1440px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 112px 56px 0;
+    }
+
+    /* ── HERO LEFT ── */
+    .hero-left {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-top: 32px;
+    }
+
+    .hero h1 {
+      margin-bottom: 26px;
+      line-height: 1.02;
+    }
+
+    .hero-title-poppins {
+      display: block;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: clamp(44px, 5.4vw, 68px);
+      color: #1A1A1A;
+      letter-spacing: 0;
+    }
+
+    .hero-title-playfair {
+      display: block;
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: clamp(44px, 5.4vw, 68px);
+      color: #605e32;
+      letter-spacing: 0;
+    }
+
+    /* "le Sud." — with hand-drawn trait under */
+    .hero-title-sud {
+      background-image: url('assets/icons/ui/trait-ls-3.svg');
+      background-repeat: no-repeat;
+      background-position: center bottom 2px;
+      background-size: 100% auto;
+      padding-bottom: 10px;
+    }
+
+    .hero-desc {
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      color: #1A1A1A;
+      max-width: 360px;
+      margin-bottom: 32px;
+      line-height: 1.78;
+    }
+
+    /* ── HERO RIGHT — dark video player card ── */
+    .hero-right {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+
+    .video-player-card {
+      background: #1A1A1A;
+      border-radius: 28px;
+      overflow: hidden;
+      width: 100%;
+      max-width: 760px;
+      min-width: min(620px, 100%);
+      box-shadow: 0 28px 84px rgba(0,0,0,0.28);
+      transform: translateZ(0);
+      will-change: transform;
+      isolation: isolate;
+    }
+
+    .vpc-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 18px;
+    }
+
+    .vpc-badge {
+      width: 32px; height: 32px;
+      border-radius: 50%;
+      background: #FCFCFB;
+      display: flex; align-items: center; justify-content: center;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+    .vpc-badge img { width: 32px; height: 32px; object-fit: cover; }
+
+    .vpc-brand { flex: 1; }
+    .vpc-name {
+      display: block;
+      font-family: 'Poppins', sans-serif;
+      font-size: 11px; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: #fff;
+      line-height: 1.2;
+    }
+    .vpc-sub {
+      display: block;
+      font-family: 'Poppins', sans-serif;
+      font-size: 10px; font-weight: 400;
+      color: rgba(255,255,255,0.45);
+    }
+
+    .vpc-actions { display: flex; gap: 14px; }
+    .vpc-actions svg {
+      width: 18px; height: 18px;
+      color: rgba(255,255,255,0.5);
+      cursor: pointer;
+      transition: color var(--dur);
+    }
+    .vpc-actions svg:hover { color: #fff; }
+
+    /* Video area — stylized poster with big play button */
+    .vpc-video {
+      position: relative;
+      aspect-ratio: 16 / 9;
+      background: linear-gradient(180deg, rgba(12,12,12,0.98) 0%, rgba(4,4,4,1) 100%);
+      cursor: pointer;
+      overflow: hidden;
+    }
+    .vpc-video::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 40% 40%, rgba(255,255,255,0.05), transparent 32%),
+                  linear-gradient(180deg, rgba(255,255,255,0.03) 0%, transparent 20%),
+                  linear-gradient(90deg, rgba(255,255,255,0.02) 0%, transparent 5%, transparent 95%, rgba(255,255,255,0.02) 100%);
+      pointer-events: none;
+    }
+    .vpc-video-poster {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 45% 40%, rgba(255,255,255,0.06), transparent 22%),
+                  linear-gradient(180deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.00) 32%);
+      opacity: 0.18;
+      pointer-events: none;
+    }
+    .vpc-video iframe {
+      position: absolute;
+      z-index: 3;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .vpc-video.is-playing::before,
+    .vpc-video.is-playing .vpc-video-poster,
+    .vpc-video.is-playing .vpc-bigplay,
+    .vpc-video.is-playing .vpc-controls { display: none; }
+    .vpc-bigplay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      transition: transform var(--dur) var(--ease);
+    }
+    .vpc-bigplay .vpc-bigplay-circle {
+      width: 72px; height: 72px;
+      border-radius: 50%;
+      background: rgba(252,252,251,0.95);
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 8px 28px rgba(0,0,0,0.35);
+      transition: transform var(--dur) var(--ease), background var(--dur);
+    }
+    .vpc-bigplay:hover .vpc-bigplay-circle {
+      transform: scale(1.06);
+      background: #FCFCFB;
+    }
+    .vpc-bigplay svg { width: 26px; height: 26px; margin-left: 4px; }
+
+    /* Controls bar */
+    .vpc-controls {
+      padding: 10px 16px 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .vpc-play {
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      background: rgba(252,252,251,0.1);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; cursor: pointer;
+    }
+    .vpc-play svg { width: 10px; height: 10px; margin-left: 2px; }
+    .vpc-time {
+      font-family: 'Poppins', sans-serif;
+      font-size: 10px; font-weight: 500;
+      color: rgba(255,255,255,0.5);
+      white-space: nowrap;
+    }
+    .vpc-progress {
+      flex: 1;
+      height: 4px;
+      background: rgba(252,252,251,0.22);
+      border-radius: 2px;
+      position: relative;
+      overflow: hidden;
+    }
+    .vpc-progress-fill {
+      width: 36%;
+      height: 100%;
+      background: rgba(252,252,251,0.88);
+      border-radius: 2px;
+      position: relative;
+    }
+    .vpc-progress-fill::after {
+      content: '';
+      position: absolute; right: -4px; top: 50%;
+      transform: translateY(-50%);
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: #FCFCFB;
+    }
+    .vpc-right-controls {
+      display: flex; gap: 10px; align-items: center; flex-shrink: 0;
+    }
+    .vpc-right-controls svg {
+      width: 14px; height: 14px;
+      color: rgba(255,255,255,0.45);
+      cursor: pointer; transition: color var(--dur);
+    }
+    .vpc-right-controls svg:hover { color: #fff; }
+
+    /* ── HERO WAVE — viewBox 1440×120, preserveAspectRatio none ── */
+    .hero-wave {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      line-height: 0;
+      z-index: 3;
+      pointer-events: none;
+      animation: waveSlideUp 0.8s var(--ease) 0.3s both;
+    }
+    @keyframes waveSlideUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero-wave > svg.wave-bg {
+      display: block;
+      width: 100%;
+      height: 120px;
+    }
+
+    /* ── COCOTIER + ARC DANS LA VAGUE ── */
+    .wave-cocotier {
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 5;
+      width: 186px;
+      height: 108px;
+      pointer-events: none;
+    }
+    .wave-cocotier .arc-text-svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .wave-cocotier .arc-palmier-icon {
+      position: absolute;
+      bottom: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 30px;
+      width: auto;
+      filter: brightness(0) saturate(100%) invert(30%) sepia(12%) saturate(1200%) hue-rotate(46deg) brightness(85%) contrast(92%);
+    }
+
+    /* ── EXPERTISES SECTION ── */
+    .expertises-section {
+      background: var(--color-cream);
+      padding-top: 52px;
+      padding-bottom: clamp(40px, 5vw, 64px);
+    }
+    .expertises-section > .container {
+      max-width: 1500px;
+      padding-inline: clamp(24px, 3vw, 48px);
+    }
+
+    .expertises-header {
+      text-align: center;
+      margin-bottom: clamp(36px, 5vw, 64px);
+    }
+
+    .expertises-header h2 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: clamp(28px, 3.4vw, 42px);
+      line-height: 1.18;
+      max-width: 620px;
+      margin-inline: auto;
+      margin-bottom: 10px;
+      color: #1A1A1A;
+      letter-spacing: 0;
+    }
+
+    .handmade-underline {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 48px;
+    }
+
+    /* Four balanced cards on wide screens, with the section using the page width. */
+    .expertises-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 22px;
+      max-width: 1400px;
+      margin: 0 auto 48px;
+    }
+
+    .expertise-card {
+      background: var(--color-white);
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #ECEAE6;
+      box-shadow: 0 14px 38px rgba(26,26,26,0.07);
+      transition: box-shadow var(--dur) var(--ease), transform var(--dur) var(--ease);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .expertise-card:hover {
+      box-shadow: 0 22px 54px rgba(26,26,26,0.12);
+      transform: translateY(-6px);
+    }
+
+    .expertise-card-img-wrap {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      overflow: hidden;
+    }
+
+    .expertise-card-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .expertise-card-body {
+      padding: 0 20px 24px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    /* push the "Voir nos réalisations" link to the bottom so every card
+       aligns it on the same line regardless of description length */
+    .expertise-card-body .btn-text {
+      margin-top: auto;
+      padding-top: 4px;
+    }
+
+    .expertise-icon-badge {
+      width: 52px; height: 52px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      margin-top: -26px;
+      margin-bottom: 14px;
+      position: relative; z-index: 2;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+    }
+
+    .expertise-icon-badge svg {
+      width: 28px; height: 28px;
+    }
+
+    .expertise-card-title {
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px; font-weight: 700;
+      color: #1A1A1A;
+      margin-bottom: 8px;
+    }
+
+    .expertise-card-desc {
+      font-family: 'Poppins', sans-serif;
+      font-size: 13px; font-weight: 400;
+      color: var(--color-gray-dark);
+      line-height: 1.65;
+      margin-bottom: 16px;
+    }
+
+    .expertises-footer { text-align: center; }
+
+    /* ── CLIENTS SECTION ── */
+    .clients-section {
+      background: #f5eee6;
+      padding-block: var(--section-gap);
+      position: relative;
+    }
+
+    .clients-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .clients-header h2 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: clamp(26px, 3vw, 40px);
+      line-height: 1.18;
+      color: #1A1A1A;
+      max-width: 620px;
+      margin-inline: auto;
+      margin-bottom: 12px;
+      letter-spacing: 0;
+    }
+
+    .clients-line-underline {
+      display: flex;
+      justify-content: center;
+      margin-top: 4px;
+    }
+
+    /* Home CTA: compact horizontal banner matching the reference layout. */
+    .home-cta {
+      padding: 0 24px 26px;
+      background: transparent;
+      border-top: 0;
+      overflow: visible;
+    }
+    .home-cta .ls-project-cta__inner {
+      width: min(1660px, 100%);
+      min-height: 108px;
+      padding: 0 72px 0 112px;
+      grid-template-columns: minmax(210px, 250px) minmax(170px, 190px) minmax(420px, 1fr);
+      gap: 30px;
+      background: #F5EEE6;
+      border-radius: 7px;
+      overflow: visible;
+      position: relative;
+    }
+    .home-cta .ls-project-cta__copy {
+      padding-bottom: 0;
+      position: relative;
+      z-index: 3;
+    }
+    .home-cta .ls-project-cta__copy h2 {
+      margin-bottom: 4px;
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(20px, 1.45vw, 26px);
+      font-weight: 500;
+      line-height: 1.15;
+    }
+    .home-cta .ls-project-cta__copy p {
+      max-width: 250px;
+      font-size: 10px;
+      line-height: 1.45;
+    }
+    .home-cta .ls-project-cta__button {
+      margin: 0;
+      justify-self: start;
+      font-size: 10px;
+      padding: 11px 16px;
+      position: relative;
+      z-index: 3;
+    }
+    .home-cta .ls-project-cta__visual {
+      height: 128px;
+      overflow: visible;
+      z-index: 2;
+    }
+    .home-cta .ls-project-cta__visual--landscape img {
+      width: 115%;
+      height: auto;
+      right: 0;
+      bottom: -1px;
+      max-width: none;
+      object-fit: contain;
+      object-position: right bottom;
+    }
+    @media (max-width: 1024px) {
+      .home-cta { padding-inline: 18px; }
+      .home-cta .ls-project-cta__inner {
+        min-height: 112px;
+        padding-inline: 48px;
+        grid-template-columns: minmax(190px, 1fr) minmax(160px, 190px) minmax(300px, 1.2fr);
+        gap: 20px;
+      }
+      .home-cta .ls-project-cta__visual { height: 132px; }
+      .home-cta .ls-project-cta__visual--landscape img { width: 104%; }
+    }
+    @media (max-width: 768px) {
+      .home-cta { padding: 0 12px 18px; }
+      .home-cta .ls-project-cta__inner {
+        min-height: 0;
+        padding: 28px 24px 0;
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+      .home-cta .ls-project-cta__button { justify-self: start; }
+      .home-cta .ls-project-cta__visual { height: 190px; }
+      .home-cta .ls-project-cta__visual--landscape img {
+        width: 118%;
+        right: -8%;
+      }
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (min-width: 1600px) {
+      .expertises-grid { gap: 24px; max-width: 1400px; }
+    }
+
+    @media (max-width: 1200px) {
+      .hero-content {
+        grid-template-columns: minmax(340px, .85fr) minmax(440px, 1.15fr);
+        padding: 120px 48px 0;
+        gap: 40px;
+      }
+    }
+
+    @media (max-width: 1200px) {
+      .hero {
+        min-height: 760px;
+        background-image: url('/backgrounds/image-bg/generated/hero-home-960.webp?v=6');
+        background-position: center bottom;
+        background-size: auto 100%;
+      }
+      .hero-content {
+        grid-template-columns: 1fr;
+        padding: 110px 32px 260px;
+        gap: 32px;
+      }
+      .hero-left { padding-top: 0; }
+      .hero-right { justify-content: flex-start; }
+      .video-player-card { max-width: 100%; }
+    }
+
+    @media (max-width: 600px) {
+      .hero-right { display: none; }
+    }
+
+    @media (max-width: 1080px) {
+      .expertises-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 768px) {
+      .expertises-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 480px) {
+      .expertises-grid { grid-template-columns: 1fr; gap: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<main id="main-content">
+
+  <!-- ══════════════════════════════════════
+       HERO — full-bleed photo, textes #1A1A1A
+  ══════════════════════════════════════ -->
+  <section class="hero" aria-label="Accueil Latitude Sud">
+
+    <div class="hero-content">
+
+      <!-- Gauche 55%: titre + texte + bouton -->
+      <div class="hero-left">
+        <h1>
+          <span class="hero-title-poppins">Des idées ancrées</span>
+          <span class="hero-title-playfair">dans <span class="hero-title-sud">le Sud</span></span>
+        </h1>
+
+        <p class="hero-desc">
+          Agence de communication en Guadeloupe, nous créons des contenus et des stratégies
+          qui racontent le vrai, mettent en valeur l'essentiel
+          et font rayonner votre marque.
+        </p>
+
+        <a href="/pages/agence.html" class="btn btn-primary btn-arrow">
+          Découvrir l'agence
+        </a>
+      </div>
+
+      <!-- Droite: dark video player card -->
+      <div class="hero-right">
+        <div class="video-player-card">
+
+          <!-- Stylized player card without YouTube ads -->
+          <div class="vpc-video">
+            <div class="vpc-video-poster" aria-hidden="true"></div>
+            <button class="vpc-bigplay" type="button" aria-label="Lire la vidéo">
+              <span class="vpc-bigplay-circle">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="9 8 16 12 9 16 9 8"/>
+                </svg>
+              </span>
+            </button>
+            <div class="vpc-controls" aria-hidden="true">
+              <div class="vpc-play" aria-hidden="true"></div>
+              <span class="vpc-time">00:00</span>
+              <div class="vpc-progress" aria-hidden="true">
+                <div class="vpc-progress-fill"></div>
+              </div>
+              <div class="vpc-right-controls" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6v12"/><path d="M6 12h12"/></svg>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="hero-wave" data-hero-wave aria-hidden="true"></div>
+
+  </section>
+
+
+  <!-- ══════════════════════════════════════
+       NOS RÉALISATIONS / EXPERTISES
+  ══════════════════════════════════════ -->
+  <section id="expertises" class="expertises-section" aria-labelledby="expertises-heading">
+    <div class="container">
+
+      <div class="expertises-header reveal">
+        <span class="section-surtitle">Nos Réalisations</span>
+        <h2 id="expertises-heading">
+          Des projets qui parlent<br>
+          et qui <span class="ls-accent">marquent.</span>
+        </h2>
+      </div>
+
+      <div class="expertises-grid">
+
+        <!-- Photos -->
+        <article class="expertise-card reveal reveal-delay-1">
+          <a href="/pages/photos.html" tabindex="-1" aria-hidden="true">
+            <div class="expertise-card-img-wrap" style="background:#2E3A2E;">
+              <img src="assets/placeholders/patisserie.jpg"
+                   alt="Photographie — expertise photos" loading="lazy">
+            </div>
+          </a>
+          <div class="expertise-card-body">
+            <div class="expertise-icon-badge" style="background:#F5C97A;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="1.2"
+                   stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="23,7 16,12 23,17 23,7"/>
+                <rect x="1" y="5" width="15" height="14" rx="2"/>
+              </svg>
+            </div>
+            <h3 class="expertise-card-title">Photos</h3>
+            <p class="expertise-card-desc">Photographie de marque, séries éditoriales,<br>images produits… Nous donnons une nouvelle force à vos visuels.</p>
+            <a href="/pages/photos.html" class="btn-text">Voir nos réalisations</a>
+          </div>
+        </article>
+
+        <!-- Charte graphique -->
+        <article class="expertise-card reveal reveal-delay-2">
+          <a href="/pages/charte-graphique.html" tabindex="-1" aria-hidden="true">
+            <div class="expertise-card-img-wrap" style="background:#D4C9A8;">
+              <img src="assets/placeholders/identite.jpg"
+                   alt="Charte graphique — identité visuelle" loading="lazy">
+            </div>
+          </a>
+          <div class="expertise-card-body">
+            <div class="expertise-icon-badge" style="background:#F5D4C0;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="1.2"
+                   stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 20h9"/>
+                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+              </svg>
+            </div>
+            <h3 class="expertise-card-title">Charte graphique</h3>
+            <p class="expertise-card-desc">Identités visuelles, univers de marque,<br>déclinaisons… Des créations qui installent une signature.</p>
+            <a href="/pages/charte-graphique.html" class="btn-text">Voir nos réalisations</a>
+          </div>
+        </article>
+
+        <!-- Réseaux Sociaux -->
+        <article class="expertise-card reveal reveal-delay-3">
+          <a href="/pages/social.html" tabindex="-1" aria-hidden="true">
+            <div class="expertise-card-img-wrap" style="background:#C5D4B5;">
+              <img src="assets/placeholders/social.jpg"
+                   alt="Social media — expertise réseaux sociaux" loading="lazy">
+            </div>
+          </a>
+          <div class="expertise-card-body">
+            <div class="expertise-icon-badge" style="background:#C8D9B8;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="1.2"
+                   stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14z"/>
+                <path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/>
+              </svg>
+            </div>
+            <h3 class="expertise-card-title">Réseaux Sociaux</h3>
+            <p class="expertise-card-desc">Stratégie éditoriale, contenus engageants,<br>community management… Nous faisons rayonner votre marque au quotidien.</p>
+            <a href="/pages/social.html" class="btn-text">Voir nos réalisations</a>
+          </div>
+        </article>
+
+        <!-- Catalogue -->
+        <article class="expertise-card reveal reveal-delay-4">
+          <a href="/pages/catalogue.html" tabindex="-1" aria-hidden="true">
+            <div class="expertise-card-img-wrap" style="background:#2A2A3E;">
+              <img src="assets/placeholders/catalogue.jpg"
+                   alt="Catalogue Latitude Sud" loading="lazy">
+            </div>
+          </a>
+          <div class="expertise-card-body">
+            <div class="expertise-icon-badge" style="background:#D4D0E8;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="1.2"
+                   stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+            </div>
+            <h3 class="expertise-card-title">Catalogue</h3>
+            <p class="expertise-card-desc">Nos formats, nos savoir-faire,<br>et les solutions que nous pouvons imaginer ensemble.</p>
+            <a href="/pages/catalogue.html" class="btn-text">Découvrir le catalogue</a>
+          </div>
+        </article>
+
+      </div><!-- .expertises-grid -->
+
+      <div class="expertises-footer reveal">
+        <a href="/pages/realisations.html" class="btn btn-secondary btn-arrow">
+          Voir tous nos projets
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════
+       CTA — "Un projet en tête ?"
+       (sits on top of / merges into the clients section below —
+       same background color, continuous block)
+  ══════════════════════════════════════ -->
+  <section class="home-cta ls-project-cta" aria-labelledby="home-cta-heading">
+    <div class="ls-project-cta__inner">
+      <div class="ls-project-cta__copy reveal">
+        <h2 id="home-cta-heading">Un projet en tête&nbsp;?</h2>
+        <p>Discutons de vos besoins, du choix des formats aux finitions d’impression.</p>
+      </div>
+      <a href="/pages/contact.html" class="btn btn-primary btn-arrow ls-project-cta__button reveal">Parlez-nous de votre projet</a>
+      <div class="ls-project-cta__visual ls-project-cta__visual--landscape reveal reveal-delay-2" aria-hidden="true">
+        <img src="/backgrounds/image-bg/img-bg-cta-wide-transparent.png" alt="" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════
+       CLIENTS / PARTENAIRES
+  ══════════════════════════════════════ -->
+  <section class="clients-section" aria-labelledby="clients-heading">
+    <div class="container">
+      <div class="clients-header reveal">
+        <span class="section-surtitle">Ils nous ont fait confiance</span>
+        <h2 id="clients-heading">
+          De belles collaborations,<br>des relations <span class="ls-accent">durables.</span>
+        </h2>
+      </div>
+    </div>
+
+    <!-- Marquee — deliberately outside .container so the logo band spans
+         the full section width instead of being capped by the 1280px
+         content container (the fade mask handles the edges). -->
+    <div class="ls-marquee-wrapper" aria-label="Nos clients">
+        <div class="ls-marquee-row">
+          <div class="ls-marquee-track">
+            <img src="assets/logos/Logo-Clients-black-Affligem.svg"        alt="Affligem">
+            <img src="assets/logos/Logo-Clients-black-autodiscount.svg"    alt="Auto Discount">
+            <img src="assets/logos/Logo-Clients-black-bebe-9.svg"          alt="Bébé 9">
+            <img src="assets/logos/Logo-Clients-black-BelAirSup.svg"       alt="Bel Air Sup">
+            <img src="assets/logos/Logo-Clients-black-Canal-plus.svg"      alt="Canal+">
+            <img src="assets/logos/Logo-Clients-Capaceo.svg"               alt="Capaceo">
+            <img src="assets/logos/Logo-Clients-black-CapCreole.svg"       alt="Cap Créole" class="ls-logo-lg">
+            <img src="assets/logos/Logo-Clients-black-Caribois.svg"        alt="CariBois">
+            <img src="assets/logos/Logo-Clients-black-carrefour.svg"       alt="Carrefour">
+            <img src="assets/logos/Logo-Clients-black-siligom.svg"         alt="Siligom">
+            <img src="assets/logos/Logo-Clients-black-sol.svg"             alt="Sol">
+            <img src="assets/logos/Logo-Clients-black-laroutedurhum.svg"   alt="La Route du Rhum" class="ls-logo-lg">
+            <img src="assets/logos/Logo-Clients-black-mango.svg"           alt="Mango">
+            <!-- duplicate for seamless loop -->
+            <img src="assets/logos/Logo-Clients-black-Affligem.svg"        alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-autodiscount.svg"    alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-bebe-9.svg"          alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-BelAirSup.svg"       alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-Canal-plus.svg"      alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-Capaceo.svg"               alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-CapCreole.svg"       alt="" aria-hidden="true" class="ls-logo-lg">
+            <img src="assets/logos/Logo-Clients-black-Caribois.svg"        alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-carrefour.svg"       alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-siligom.svg"         alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-sol.svg"             alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-laroutedurhum.svg"   alt="" aria-hidden="true" class="ls-logo-lg">
+            <img src="assets/logos/Logo-Clients-black-mango.svg"           alt="" aria-hidden="true">
+          </div>
+        </div>
+
+        <!-- Marquee row 2 — right scroll -->
+        <div class="ls-marquee-row ls-marquee-row--rtl">
+          <div class="ls-marquee-track">
+            <img src="assets/logos/Logo-Clients-black-CIST.svg"            alt="CIST" class="ls-logo-lg">
+            <img src="assets/logos/Logo-Clients-black-decathlon.svg"       alt="Decathlon">
+            <img src="assets/logos/Logo-Clients-black-digilife.svg"        alt="Digilife">
+            <img src="assets/logos/Logo-Clients-black-histoire-dor.svg"    alt="Histoire d'Or">
+            <img src="assets/logos/Logo-Clients-black-ioburo.svg"          alt="ioBuro">
+            <img src="assets/logos/Logo-Clients-black-jose-fabricator.svg" alt="José Fabricator" class="ls-logo-lg">
+            <img src="assets/logos/Logo-Clients-black-la-foir-fouille.svg" alt="La Foir'Fouille">
+            <img src="assets/logos/Logo-Clients-black-montebello.svg"      alt="Montebello" class="ls-logo-lg">
+            <img src="assets/logos/Logo-Clients-black-mr-bricolage.svg"    alt="Mr. Bricolage">
+            <img src="assets/logos/Logo-Clients-black-persepolis.svg"      alt="Persépolis">
+            <img src="assets/logos/Logo-Clients-black-piton.svg"           alt="Piton">
+            <img src="assets/logos/Logo-Clients-black-porter.svg"          alt="Porter 39">
+            <img src="assets/logos/Logo-Clients-black-phoenicia.svg"       alt="Phoenicia">
+            <!-- duplicate for seamless loop -->
+            <img src="assets/logos/Logo-Clients-black-CIST.svg"            alt="" aria-hidden="true" class="ls-logo-lg">
+            <img src="assets/logos/Logo-Clients-black-decathlon.svg"       alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-digilife.svg"        alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-histoire-dor.svg"    alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-ioburo.svg"          alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-jose-fabricator.svg" alt="" aria-hidden="true" class="ls-logo-lg">
+            <img src="assets/logos/Logo-Clients-black-la-foir-fouille.svg" alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-montebello.svg"      alt="" aria-hidden="true" class="ls-logo-lg">
+            <img src="assets/logos/Logo-Clients-black-mr-bricolage.svg"    alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-persepolis.svg"      alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-piton.svg"           alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-porter.svg"          alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-phoenicia.svg"       alt="" aria-hidden="true">
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+
+</main>
+
+<button id="scroll-top-btn" aria-label="Retour en haut">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+       stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <polyline points="18 15 12 9 6 15"/>
+  </svg>
+</button>
+
+<script src="/js/components.js?v=43"></script>
+<script>
+  initComponents('accueil');
+  document.body.style.paddingTop = '0';
+
+  (function () {
+    const player = document.querySelector('.vpc-video');
+    const playButton = player?.querySelector('.vpc-bigplay');
+    if (!player) return;
+    const startVideo = () => {
+      if (player.classList.contains('is-playing')) return;
+      const frame = document.createElement('iframe');
+      frame.src = 'https://www.youtube-nocookie.com/embed/BLa66j2NZOI?autoplay=1&mute=1&loop=1&playlist=BLa66j2NZOI&controls=0&rel=0&modestbranding=1&playsinline=1';
+      frame.title = 'Showreel Latitude Sud';
+      frame.allow = 'autoplay; encrypted-media; picture-in-picture';
+      frame.allowFullscreen = true;
+      player.classList.add('is-playing');
+      player.appendChild(frame);
+    };
+    startVideo();
+    playButton?.addEventListener('click', startVideo);
+  }());
+</script>
+
+</body>
+</html>
