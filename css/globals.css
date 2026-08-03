@@ -1605,13 +1605,18 @@ p { line-height: 1.7; }
 }
 .cist-website-chrome i { width: 8px; height: 8px; border-radius: 50%; background: #C7D0D6; }
 .cist-website-chrome span { margin-left: 8px; color: #66737D; font-size: 11px; font-family: 'SFMono-Regular', Menlo, monospace; }
+/* Captures de site : ce sont des pages entieres (ratio ~0.75, tres hautes).
+   Affichees en height:auto elles produisaient un bloc de ~1900px qui ecrasait
+   la fiche. On cadre sur le haut de page, comme une fenetre de navigateur. */
 .cist-website-card img {
   width: 100%;
-  height: auto;
+  height: clamp(240px, 27vw, 400px);
   display: block;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: top center;
   background: #F7FAFC;
 }
+.cist-website-card--wide img { height: clamp(300px, 34vw, 520px); }
 .cist-website-card figcaption {
   display: grid;
   gap: 4px;

@@ -25,7 +25,7 @@
   <link rel="icon" type="image/svg+xml" href="/assets/logo-sud.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/css/globals.css?v=60">
+  <link rel="stylesheet" href="/css/globals.css?v=65">
   <link rel="stylesheet" href="/css/hero-wave.css?v=2">
 
   <script type="application/ld+json">
@@ -44,8 +44,8 @@
     .hero {
       position: relative; width: 100%;
       aspect-ratio: 597 / 322; min-height: 660px; max-height: 880px;
-      background-image: url('/backgrounds/image-bg/generated/hero-agence-1920.webp?v=6');
-      background-size: cover; background-position: right bottom; background-repeat: no-repeat;
+      background-image: url('/backgrounds/image-bg/generated/hero-agence-1920.webp?v=7');
+      background-size: cover; background-position: center bottom; background-repeat: no-repeat;
       display: flex; flex-direction: column;
       background-color: #FAF9F7;
     }
@@ -121,14 +121,15 @@
     .approach-step p { font-family: 'Poppins', sans-serif; font-size: 13.5px; color: var(--color-gray-dark); line-height: 1.7; }
 
     @media (max-width: 1000px) { .values-grid { grid-template-columns: repeat(2, 1fr); } .approach-grid { grid-template-columns: repeat(2, 1fr); gap: 40px 24px; } }
+    @media (min-width: 2200px) { .hero { background-image: url('/backgrounds/image-bg/generated/hero-agence-1920.webp?v=7'), url('/backgrounds/image-bg/generated/hero-agence-edge-1920.webp?v=2'); background-position: left bottom; background-size: auto 100%, 100% 100%; } }
     @media (max-width: 1200px) {
-      .hero { aspect-ratio: auto; min-height: 760px; max-height: none; background-image: url('/backgrounds/image-bg/generated/hero-agence-960.webp?v=6'); background-position: center bottom; background-size: auto 100%; }
+      .hero { aspect-ratio: auto; min-height: 760px; max-height: none; background-position: 20% bottom; background-size: auto 100%; }
       .hero-content { align-items: center; text-align: center; width: 100%; max-width: 620px; margin: 0 auto; padding: 112px 24px 0; }
       .hero-desc { margin-left: auto; margin-right: auto; }
       .hero-h1 { font-size: 36px; line-height: 1.04; margin-bottom: 20px; }
       .hero-desc { font-size: 14px; line-height: 1.6; }
     }
-    @media (max-width: 768px) { .story-inner { grid-template-columns: 1fr; gap: 40px; } .story-text { order: 1; } .story-visual { order: 2; aspect-ratio: 4 / 3; } }
+    @media (max-width: 768px) { .hero { background-image: url('/backgrounds/image-bg/generated/hero-agence-960.webp?v=7'); background-position: center bottom; } .story-inner { grid-template-columns: 1fr; gap: 40px; } .story-text { order: 1; } .story-visual { order: 2; aspect-ratio: 4 / 3; } }
     @media (max-width: 560px) { .stats-inner { grid-template-columns: 1fr; } .values-grid { grid-template-columns: 1fr; } .approach-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
@@ -157,8 +158,8 @@
     <div class="story-inner">
       <div class="story-visual reveal">
         <picture>
-          <source media="(max-width: 768px)" srcset="/backgrounds/image-bg/generated/hero-agence-960.webp?v=6">
-          <img src="/backgrounds/image-bg/generated/hero-agence-1920.webp?v=6" alt="Le personnage Latitude Sud avec sa Grenat en Guadeloupe" loading="lazy" decoding="async">
+          <source media="(max-width: 768px)" srcset="/backgrounds/image-bg/generated/hero-agence-960.webp?v=7">
+          <img src="/backgrounds/image-bg/generated/hero-agence-1920.webp?v=7" alt="Le personnage Latitude Sud avec sa Grenat en Guadeloupe" loading="lazy" decoding="async">
         </picture>
       </div>
       <div class="story-text reveal reveal-delay-1">
@@ -222,7 +223,7 @@
   </svg>
 </button>
 
-  <script src="/js/components.js?v=43"></script>
+  <script src="/js/components.js?v=46"></script>
 <script>
   initComponents('agence');
   document.body.style.paddingTop = '0';

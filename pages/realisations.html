@@ -21,7 +21,7 @@
   <link rel="icon" type="image/svg+xml" href="/assets/logo-sud.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/css/globals.css?v=60">
+  <link rel="stylesheet" href="/css/globals.css?v=65">
   <link rel="stylesheet" href="/css/hero-wave.css?v=2">
   <script type="application/ld+json">
   {
@@ -35,7 +35,7 @@
   </script>
 
   <style>
-    .hero { position: relative; width: 100%; aspect-ratio: 597 / 322; min-height: 660px; max-height: 880px; background-image: url('/backgrounds/image-bg/generated/hero-realisations-1920.webp?v=6'); background-size: cover; background-position: left bottom; background-repeat: no-repeat; display: flex; flex-direction: column; background-color: #FAF9F7; }
+    .hero { position: relative; width: 100%; aspect-ratio: 597 / 322; min-height: 660px; max-height: 880px; background-image: url('/backgrounds/image-bg/generated/hero-realisations-1920.webp?v=7'); background-size: cover; background-position: center bottom; background-repeat: no-repeat; display: flex; flex-direction: column; background-color: #FAF9F7; }
     .hero-inner { position: relative; z-index: 2; max-width: 620px; width: calc(100% - 80px); margin: 0 0 0 clamp(40px, 8vw, 140px); text-align: left; padding: 140px 0 0; }
     .hero-surtitle { font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.3em; text-transform: uppercase; color: #1A1A1A; margin-bottom: 24px; }
     .hero-h1 { font-family: 'Poppins', sans-serif; font-weight: 600; font-size: clamp(36px, 5vw, 58px); color: #1A1A1A; line-height: 1.1; letter-spacing: 0; margin-bottom: 28px; }
@@ -57,14 +57,16 @@
     .expertise-block-title { font-family: 'Poppins', sans-serif; font-size: 22px; font-weight: 700; color: #1A1A1A; margin-bottom: 6px; }
     .expertise-block-desc { font-family: 'Poppins', sans-serif; font-size: 14px; color: var(--color-gray-mid); line-height: 1.6; }
 
+    @media (min-width: 2200px) { .hero { background-image: url('/backgrounds/image-bg/generated/hero-realisations-1920.webp?v=7'), url('/backgrounds/image-bg/generated/hero-realisations-edge-1920.webp?v=2'); background-position: left bottom; background-size: auto 100%, 100% 100%; } }
     @media (max-width: 1200px) {
-      .hero { aspect-ratio: auto; min-height: 760px; max-height: none; background-image: url('/backgrounds/image-bg/generated/hero-realisations-960.webp?v=6'); background-position: center bottom; background-size: auto 100%; }
+      .hero { aspect-ratio: auto; min-height: 760px; max-height: none; background-position: 20% bottom; background-size: auto 100%; }
       .hero-inner { width: 100%; max-width: 620px; margin: 0 auto; text-align: center; padding: 112px 24px 0; }
       .hero-desc { margin-left: auto; margin-right: auto; }
       .hero-h1 { font-size: 36px; line-height: 1.04; margin-bottom: 20px; }
       .hero-desc { font-size: 14px; line-height: 1.6; }
     }
     @media (max-width: 1080px) { .expertise-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 768px) { .hero { background-image: url('/backgrounds/image-bg/generated/hero-realisations-960.webp?v=7'); background-position: center bottom; } }
     @media (max-width: 620px) { .expertise-grid { grid-template-columns: 1fr; gap: 28px; } }
   </style>
 </head>
@@ -125,7 +127,7 @@
 </main>
 
 <button id="scroll-top-btn" aria-label="Retour en haut"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="18 15 12 9 6 15"/></svg></button>
-<script src="/js/components.js?v=43"></script>
+<script src="/js/components.js?v=46"></script>
 <script>initComponents('realisations');document.body.style.paddingTop='0';</script>
 </body>
 </html>
