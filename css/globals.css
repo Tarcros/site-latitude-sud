@@ -345,6 +345,15 @@ p { line-height: 1.7; }
   margin-inline: auto;
 }
 
+/* Keep the full navigation aligned with the 1920px hero artwork on very wide
+   canvases. The remaining width is filled by the decorative edge image. */
+@media (min-width: 2200px) {
+  .ls-header-inner {
+    margin-left: 284px;
+    margin-right: 0;
+  }
+}
+
 /* Logo (left anchor) */
 .ls-logo, .ls-nav-logo {
   display: flex; align-items: center; gap: 12px;
@@ -862,6 +871,13 @@ p { line-height: 1.7; }
   object-fit: contain;
   transform: none;
   background: #F2F2F2;
+}
+.marina-system-grid--single .marina-media-card--example {
+  width: min(720px, 100%);
+  justify-self: center;
+}
+.marina-system-grid--single .marina-media-card--example img {
+  aspect-ratio: 3 / 2;
 }
 
 /* ── SO CLASS PHOTO CASE STUDY ──────────────────────────── */
@@ -1529,6 +1545,9 @@ p { line-height: 1.7; }
   grid-template-columns: 1fr;
   gap: 18px;
 }
+.cist-flyer-grid--mockups {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
 .cist-flyer-card {
   margin: 0;
   overflow: hidden;
@@ -1556,6 +1575,13 @@ p { line-height: 1.7; }
 }
 .cist-flyer-card figcaption strong { color: #183755; font-size: 14px; }
 .cist-flyer-card figcaption span { color: #64717C; font-size: 12px; line-height: 1.55; }
+.cist-flyer-grid--mockups .cist-flyer-card > img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  display: block;
+  object-fit: contain;
+  background: #C6C6C6;
+}
 .cist-website-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1581,10 +1607,10 @@ p { line-height: 1.7; }
 .cist-website-chrome span { margin-left: 8px; color: #66737D; font-size: 11px; font-family: 'SFMono-Regular', Menlo, monospace; }
 .cist-website-card img {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: auto;
   display: block;
-  object-fit: cover;
-  object-position: top;
+  object-fit: contain;
+  background: #F7FAFC;
 }
 .cist-website-card figcaption {
   display: grid;
@@ -2691,7 +2717,12 @@ img.arc-palmier-icon { object-fit: contain; }
   display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;
 }
 .hfwi-affligem-a3grid figure, .hfwi-affligem-encarts figure { background: #052448; }
-.hfwi-affligem-a3grid figure { aspect-ratio: 4 / 3; overflow: hidden; }
+/* Les 4 visuels ne partagent pas le meme format : 2 portraits (1273x1800) puis
+   2 paysages (1800x1273). Un cadre 4/3 unique rognait les portraits de ~47%.
+   On regroupe par format, chaque rangee prend le ratio natif de ses images. */
+.hfwi-affligem-a3grid figure { overflow: hidden; }
+.hfwi-affligem-a3grid figure:nth-child(-n+2) { aspect-ratio: 1273 / 1800; }
+.hfwi-affligem-a3grid figure:nth-child(n+3)  { aspect-ratio: 1800 / 1273; }
 .hfwi-project .hfwi-affligem-a3grid img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .hfwi-project .hfwi-affligem-encarts img {
   width: 100%; height: auto; object-fit: contain; display: block;
@@ -2740,6 +2771,42 @@ img.arc-palmier-icon { object-fit: contain; }
   color: #777469; font-size: 11px; letter-spacing: .06em; text-transform: uppercase;
 }
 .hfwi-scouting-grid figcaption strong { color: #071D3A; font-size: 11px; letter-spacing: .1em; }
+.hfwi-scouting--sol { margin-top: 12px; }
+/* Repérage : un portrait (1012x1800) et un paysage (1800x1012) cote a cote.
+   Colonnes proportionnelles a la largeur de chaque image a hauteur egale
+   (0.56 et 1.78 de ratio → 0.32fr / 1fr), pour que les deux photos fassent
+   la meme hauteur sans recadrage ni vide. */
+.hfwi-shooting-grid {
+  display: grid;
+  grid-template-columns: minmax(0, .32fr) minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+.hfwi-shooting-grid figure {
+  display: grid;
+  grid-template-rows: auto auto;
+  min-width: 0;
+  margin: 0;
+  background: #F8F7F3;
+}
+.hfwi-project .hfwi-shooting-grid img {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  object-fit: contain;
+  display: block;
+}
+.hfwi-shooting-grid figcaption {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding-top: 10px;
+  color: #777469;
+  font-size: 11px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.hfwi-shooting-grid figcaption strong { color: #071D3A; letter-spacing: .1em; }
 /* Shared closing CTA for every case-study modal. */
 .ls-case-contact-footer {
   --case-contact-accent: #b98969;
@@ -2865,6 +2932,8 @@ img.arc-palmier-icon { object-fit: contain; }
   .hfwi-scouting-grid figure img { aspect-ratio: 4 / 3; }
   .hfwi-scouting-grid .hfwi-scouting-main img { aspect-ratio: 16 / 9; }
   .hfwi-scouting-grid figcaption { padding: 9px 0 14px; }
+  .hfwi-shooting-grid { grid-template-columns: 1fr; gap: 8px; }
+  .hfwi-shooting-grid figcaption { padding: 9px 0 14px; }
 .ls-case-contact-footer { grid-template-columns: auto 1fr; margin-top: 28px; padding: 20px 18px; }
 .ls-case-contact-footer > a { grid-column: 1 / -1; width: 100%; }
 }
