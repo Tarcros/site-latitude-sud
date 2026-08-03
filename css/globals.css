@@ -2206,6 +2206,48 @@ img.arc-palmier-icon { object-fit: contain; }
 .cat-case-heading h3 { margin:0; font-size:clamp(24px,3vw,38px); }
 .cat-case-heading p { margin-top:12px; color:#6A6C70; line-height:1.7; }
 .cat-case--digilife .cat-case-heading p { color:rgba(255,255,255,.62); }
+
+/* ── Fiche catalogue : blocs de démonstration (chiffres, enjeu, méthode) ──
+   Reprennent --cat-accent / --cat-soft, donc se brandent seuls par enseigne. */
+.cat-case-facts {
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:1px;
+  background:rgba(90,90,90,.15); border:1px solid rgba(90,90,90,.15); border-radius:10px; overflow:hidden;
+}
+.cat-case-facts > div { padding:26px 24px; background:#FFF; }
+.cat-case--digilife .cat-case-facts > div { background:#0E0E0E; }
+.cat-case-facts strong {
+  display:block; margin-bottom:6px; color:var(--cat-accent);
+  font-size:clamp(30px,3.4vw,42px); font-weight:700; line-height:1;
+}
+.cat-case-facts span { color:#6A6C70; font-size:12px; line-height:1.5; }
+.cat-case--digilife .cat-case-facts span { color:rgba(255,255,255,.62); }
+
+.cat-case-split { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; }
+.cat-case-split article { padding:30px 28px; border-radius:10px; background:var(--cat-soft); }
+.cat-case-split article + article { background:#FFF; border:1px solid rgba(90,90,90,.16); }
+.cat-case--digilife .cat-case-split article + article { background:#0E0E0E; }
+.cat-case-split h4 {
+  margin:0 0 12px; color:var(--cat-accent);
+  font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+}
+.cat-case-split p { margin:0 0 10px; color:#4E5155; font-size:14px; line-height:1.75; }
+.cat-case-split p:last-child { margin-bottom:0; }
+.cat-case--digilife .cat-case-split p { color:rgba(255,255,255,.72); }
+
+.cat-case-method { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:20px; counter-reset:step; }
+.cat-case-method article { padding-top:18px; border-top:3px solid var(--cat-accent); counter-increment:step; }
+.cat-case-method article::before {
+  content:counter(step,decimal-leading-zero); display:block; margin-bottom:10px;
+  color:var(--cat-accent); font-size:12px; font-weight:700; letter-spacing:.1em;
+}
+.cat-case-method strong { display:block; margin-bottom:8px; font-size:15px; }
+.cat-case-method p { margin:0; color:#6A6C70; font-size:13px; line-height:1.65; }
+.cat-case--digilife .cat-case-method p { color:rgba(255,255,255,.62); }
+
+@media (max-width:860px) {
+  .cat-case-split { grid-template-columns:1fr; }
+}
+
 .cat-case-pages { display:grid; gap:14px; align-items:stretch; }
 .cat-case-pages--five { grid-template-columns:repeat(5,minmax(0,1fr)); }
 .cat-case-pages--three { grid-template-columns:repeat(3,minmax(0,1fr)); }
