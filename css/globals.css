@@ -2358,6 +2358,20 @@ p { line-height: 1.7; }
   align-items: stretch;
   gap: 20px;
 }
+.bonnes-contact-grid--simple .bonnes-business-card {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+.bonnes-contact-grid--simple .bonnes-business-card img {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 .bonnes-contact-grid > * { min-width: 0; }
 .bonnes-contact-recipes {
   display: flex;
