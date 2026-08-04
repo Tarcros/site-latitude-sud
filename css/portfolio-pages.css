@@ -6,20 +6,20 @@
   background-repeat: no-repeat; text-align: left; padding: 132px 24px 190px;
 }
 .portfolio-hero--photos {
-  background-image: url('/backgrounds/image-bg/generated/hero-photos-1920.webp?v=6');
-  background-position: left bottom;
+  background-image: url('/backgrounds/image-bg/generated/hero-photos-1920.webp?v=7');
+  background-position: center bottom;
 }
 .portfolio-hero--charte {
-  background-image: url('/backgrounds/image-bg/generated/hero-charte-1920.webp?v=6');
-  background-position: right bottom;
+  background-image: url('/backgrounds/image-bg/generated/hero-charte-1920.webp?v=7');
+  background-position: center bottom;
 }
 .portfolio-hero--social {
-  background-image: url('/backgrounds/image-bg/generated/hero-social-1920.webp?v=6');
-  background-position: left bottom;
+  background-image: url('/backgrounds/image-bg/generated/hero-social-1920.webp?v=7');
+  background-position: center bottom;
 }
 .portfolio-hero--catalogue {
-  background-image: url('/backgrounds/image-bg/generated/hero-catalogue-1920.webp?v=6');
-  background-position: right bottom;
+  background-image: url('/backgrounds/image-bg/generated/hero-catalogue-1920.webp?v=7');
+  background-position: center bottom;
 }
 .portfolio-hero::after {
   content: ''; position: absolute; inset: 0;
@@ -65,10 +65,11 @@
 }
 .project-grid--identity > .project-card,
 .project-grid--social > .project-card { grid-column: span 2; }
-.project-grid--identity > .project-card:nth-last-child(-n + 2),
-.project-grid--social > .project-card:nth-last-child(-n + 2) { grid-column: span 3; }
-.project-grid--identity > .project-card:nth-last-child(-n + 2) .project-visual,
-.project-grid--social > .project-card:nth-last-child(-n + 2) .project-visual { aspect-ratio: 16 / 9; }
+/* Elargir les 2 dernieres cartes ne remplit la rangee que sur une grille de 5
+   (charte graphique : 3 + 2). Sur social (7 cartes) cela laissait un trou puis
+   deux cartes surdimensionnees au ratio different : on garde 3 par rangee. */
+.project-grid--identity > .project-card:nth-last-child(-n + 2) { grid-column: span 3; }
+.project-grid--identity > .project-card:nth-last-child(-n + 2) .project-visual { aspect-ratio: 16 / 9; }
 .social-project .project-visual { aspect-ratio: 4 / 3; }
 .social-project .project-visual img { object-position: center top; }
 .social-project .project-visual--brand {
@@ -145,20 +146,33 @@
   .project-grid--social > .project-card:nth-last-child(-n + 2) { grid-column: span 1; }
   .catalogue-list--clients > .catalogue-card { grid-column: span 1; }
 }
+@media (min-width: 2200px) {
+  .portfolio-hero {
+    background-position: left bottom;
+    background-size: auto 100%, 100% 100%;
+  }
+  .portfolio-hero--photos { background-image: url('/backgrounds/image-bg/generated/hero-photos-1920.webp?v=7'), url('/backgrounds/image-bg/generated/hero-photos-edge-1920.webp?v=2'); }
+  .portfolio-hero--charte { background-image: url('/backgrounds/image-bg/generated/hero-charte-1920.webp?v=7'), url('/backgrounds/image-bg/generated/hero-charte-edge-1920.webp?v=2'); }
+  .portfolio-hero--social { background-image: url('/backgrounds/image-bg/generated/hero-social-1920.webp?v=7'), url('/backgrounds/image-bg/generated/hero-social-edge-1920.webp?v=2'); }
+  .portfolio-hero--catalogue { background-image: url('/backgrounds/image-bg/generated/hero-catalogue-1920.webp?v=7'), url('/backgrounds/image-bg/generated/hero-catalogue-edge-1920.webp?v=2'); }
+}
 @media (max-width: 1200px) {
   .portfolio-hero {
     min-height: 760px; max-height: none; aspect-ratio: auto; padding: 112px 20px 150px;
-    place-items: start center; background-position: center bottom; background-size: auto 100%; text-align: center;
+    place-items: start center; background-position: 20% bottom; background-size: auto 100%; text-align: center;
   }
   .portfolio-hero::after { background: linear-gradient(180deg, rgba(250,249,247,.34), rgba(250,249,247,.08) 44%, transparent 66%); }
   .portfolio-hero-inner { width: 100%; margin-left: 0; }
-  .portfolio-hero--photos { background-image: url('/backgrounds/image-bg/generated/hero-photos-960.webp?v=6'); }
-  .portfolio-hero--social { background-image: url('/backgrounds/image-bg/generated/hero-social-960.webp?v=6'); }
-  .portfolio-hero--charte { background-image: url('/backgrounds/image-bg/generated/hero-charte-960.webp?v=6'); }
-  .portfolio-hero--catalogue { background-image: url('/backgrounds/image-bg/generated/hero-catalogue-960.webp?v=6'); }
   .portfolio-hero h1 { font-size: 36px; line-height: 1.02; }
   .portfolio-hero h1, .portfolio-hero p:not(.portfolio-kicker) { margin-left: auto; margin-right: auto; }
   .portfolio-hero p:not(.portfolio-kicker) { font-size: 14px; line-height: 1.65; }
+}
+@media (max-width: 768px) {
+  .portfolio-hero { background-position: center bottom; }
+  .portfolio-hero--photos { background-image: url('/backgrounds/image-bg/generated/hero-photos-960.webp?v=7'); }
+  .portfolio-hero--social { background-image: url('/backgrounds/image-bg/generated/hero-social-960.webp?v=7'); }
+  .portfolio-hero--charte { background-image: url('/backgrounds/image-bg/generated/hero-charte-960.webp?v=7'); }
+  .portfolio-hero--catalogue { background-image: url('/backgrounds/image-bg/generated/hero-catalogue-960.webp?v=7'); }
 }
 @media (max-width: 600px) {
   .portfolio-section, .portfolio-cta { padding-left: 20px; padding-right: 20px; }

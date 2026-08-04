@@ -862,9 +862,12 @@ function initMarinaProject() {
 
         <section class="marina-case-section">
           <h3>Présentation du système</h3>
+          <div class="marina-system-grid marina-system-grid--sim-row">
+            <figure class="marina-media-card"><img src="/assets/projects/marina/simulation-4_3-source.webp" alt="Simulation d'une publication Marina Bas-du-Fort au format 4/3 — fichier source" loading="lazy"></figure>
+            <figure class="marina-media-card"><img src="/assets/projects/marina/simulation-4_3.webp" alt="Simulation d'une publication Marina Bas-du-Fort au format 4/3" loading="lazy"></figure>
+          </div>
           <div class="marina-system-grid marina-system-grid--single">
             <figure class="marina-media-card"><img src="/assets/projects/marina/charte-format-square.webp" alt="Présentation du système de composition au format carré" loading="lazy"></figure>
-            <figure class="marina-media-card marina-media-card--example"><img src="/assets/projects/marina/publication-regate.webp" alt="Déclinaison du système graphique de la Marina Bas-du-Fort pour une publication de régate" loading="lazy"></figure>
           </div>
         </section>
 
@@ -1320,7 +1323,7 @@ function initBonnesEpicesProject() {
             <p>Une refonte pensée pour faire évoluer une marque familiale guadeloupéenne sans effacer son histoire. Le nouveau territoire conserve les feuilles, la chaleur des épices et la figure de Monsieur Maurice, tout en gagnant en impact sur les emballages et les réseaux sociaux.</p>
             <span class="cist-case-meta bonnes-case-meta">Logo · Territoire graphique · Édition · Réseaux sociaux</span>
           </div>
-          <img class="cist-case-logo bonnes-case-logo" src="/assets/projects/bonnes-epices/logo-after.webp" alt="Nouvelle identité Les Bonnes Épices de Monsieur Maurice" loading="eager">
+          <img class="cist-case-logo bonnes-case-logo" src="/assets/projects/bonnes-epices/identity/logo-badge-original.svg" alt="Nouvelle identité Les Bonnes Épices de Monsieur Maurice" loading="eager">
         </header>
 
         <section class="cist-case-section">
@@ -1359,8 +1362,18 @@ function initBonnesEpicesProject() {
             </article>
           </div>
           <figure class="bonnes-process-dossier">
-            <img src="/assets/projects/bonnes-epices/identity/logo-detail-dossier.webp" alt="Planche du dossier de marque détaillant le dessin d'une feuille du logo" loading="lazy" decoding="async">
-            <figcaption>Extrait du dossier de refonte, détail du tracé des feuilles</figcaption>
+            <div class="bonnes-process-dossier__text">
+              <h4>Détail du tracé des feuilles</h4>
+              <p>Les feuilles ont été redessinées avec un dégradé et des épaisseurs variables pour plus de profondeur et de lisibilité.</p>
+              <ul class="bonnes-process-dossier__legend">
+                <li><span style="--dot:#3B8634"></span>Nouveau tracé</li>
+                <li><span style="--dot:#E0B900"></span>Éléments conservés</li>
+              </ul>
+            </div>
+            <div class="bonnes-process-dossier__media">
+              <img src="/assets/projects/bonnes-epices/identity/logo-detail-dossier.webp" alt="Planche du dossier de marque détaillant le dessin d'une feuille du logo" loading="lazy" decoding="async">
+              <figcaption>Extrait du dossier de refonte, détail du tracé des feuilles</figcaption>
+            </div>
           </figure>
         </section>
 
@@ -1372,21 +1385,17 @@ function initBonnesEpicesProject() {
           </div>
           <div class="bonnes-bsys">
             <div class="bonnes-bsys__variants">
-              <div class="bonnes-bsys__card" style="--bsys-bg:#FFFFFF;--bsys-swatch:#FFFFFF;--bsys-border:rgba(30,44,31,.14)">
-                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/bonnes-epices/identity/logo-mono-dark.webp" alt="Logo Les Bonnes Épices version foncée sur fond blanc" loading="lazy" decoding="async"></div>
-                <div class="bonnes-bsys__card-swatch"></div>
+              <div class="bonnes-bsys__card bonnes-bsys__card--svg" style="--bsys-bg:#FFFFFF;--bsys-border:rgba(30,44,31,.14)">
+                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/bonnes-epices/identity/logo-badge-vertfonce.svg" alt="Logo Les Bonnes Épices, version vert foncé" loading="lazy" decoding="async"></div>
               </div>
-              <div class="bonnes-bsys__card" style="--bsys-bg:#1E2C1F;--bsys-swatch:#1E2C1F;--bsys-border:transparent">
-                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/bonnes-epices/identity/logo-mono-light.webp" alt="Logo Les Bonnes Épices version claire sur fond vert foncé" loading="lazy" decoding="async"></div>
-                <div class="bonnes-bsys__card-swatch"></div>
+              <div class="bonnes-bsys__card bonnes-bsys__card--svg" style="--bsys-bg:#FFFFFF;--bsys-border:rgba(30,44,31,.14)">
+                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/bonnes-epices/identity/logo-badge-vert.svg" alt="Logo Les Bonnes Épices, version verte" loading="lazy" decoding="async"></div>
               </div>
-              <div class="bonnes-bsys__card" style="--bsys-bg:#289046;--bsys-swatch:#289046;--bsys-border:transparent">
-                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/bonnes-epices/identity/logo-bichrome-green.webp" alt="Logo Les Bonnes Épices bichrome sur fond vert émeraude" loading="lazy" decoding="async"></div>
-                <div class="bonnes-bsys__card-swatch"></div>
+              <div class="bonnes-bsys__card bonnes-bsys__card--svg" style="--bsys-bg:#FFFFFF;--bsys-border:rgba(30,44,31,.14)">
+                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/bonnes-epices/identity/logo-badge-bicolor-vert.svg" alt="Logo Les Bonnes Épices, version bicolore verte" loading="lazy" decoding="async"></div>
               </div>
-              <div class="bonnes-bsys__card" style="--bsys-bg:#FAEA1D;--bsys-swatch:#FAEA1D;--bsys-border:transparent">
-                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/bonnes-epices/identity/logo-primary.webp" alt="Logo Les Bonnes Épices version principale sur fond jaune" loading="lazy" decoding="async"></div>
-                <div class="bonnes-bsys__card-swatch"></div>
+              <div class="bonnes-bsys__card bonnes-bsys__card--svg" style="--bsys-bg:#FFFFFF;--bsys-border:rgba(30,44,31,.14)">
+                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/bonnes-epices/identity/logo-badge-bicolor-jaune.svg" alt="Logo Les Bonnes Épices, version bicolore jaune" loading="lazy" decoding="async"></div>
               </div>
             </div>
             <div class="bonnes-bsys__horiz-row">
@@ -1394,14 +1403,12 @@ function initBonnesEpicesProject() {
               <figure class="bonnes-bsys__horiz" style="--bsys-bg:#FFFFFF;--bsys-border:rgba(30,44,31,.12)"><img src="/assets/projects/bonnes-epices/identity/logo-horizontal-white.webp" alt="Logo horizontal Les Bonnes Épices sur fond blanc" loading="lazy" decoding="async"></figure>
             </div>
             <p class="bonnes-bsys__horiz-label">VERSION HORIZONTALE ALTERNATIVE</p>
+            <p class="bonnes-bsys__note">Utile pour les formats couchés — couverture Facebook, papier à en-tête, bannières.</p>
             <div class="bonnes-bsys__patterns">
-              <div class="bonnes-bsys__pattern" style="background:#1E2C1F">
-                <img src="/assets/projects/bonnes-epices/applications/icon.webp" alt="Icône aux trois feuilles sur fond vert foncé" loading="lazy" decoding="async">
-              </div>
-              <div class="bonnes-bsys__pattern" style="background:#FAEA1D">
-                <img src="/assets/projects/bonnes-epices/applications/icon.webp" alt="Icône aux trois feuilles sur fond jaune" loading="lazy" decoding="async">
-              </div>
+              <div class="bonnes-bsys__pattern bonnes-bsys__pattern--tile" style="background-image:url('/assets/projects/bonnes-epices/applications/pattern-a-vert.png')" role="img" aria-label="Motif répétitif feuilles sur fond vert foncé"></div>
+              <div class="bonnes-bsys__pattern bonnes-bsys__pattern--tile" style="background-image:url('/assets/projects/bonnes-epices/applications/pattern-b-jaune.jpg')" role="img" aria-label="Motif répétitif feuilles sur fond jaune"></div>
             </div>
+            <p class="bonnes-bsys__note">Un motif signature, déclinable en packaging, présentoirs et habillage de point de vente.</p>
             <figure class="bonnes-bsys__banner">
               <img src="/assets/projects/bonnes-epices/applications/pattern-promotion.webp" alt="Bannière promotionnelle Les Bonnes Épices, Promotion de Monsieur Maurice®" loading="lazy" decoding="async">
             </figure>
@@ -1444,20 +1451,6 @@ function initBonnesEpicesProject() {
           </div>
         </section>
 
-        <section class="cist-case-section bonnes-situation-section">
-          <div class="cist-section-heading bonnes-section-heading">
-            <span>Système de marque</span>
-            <h3>En situation</h3>
-            <p>Le même signe est décliné sur les supports physiques, les formats promotionnels et la page Facebook.</p>
-          </div>
-          <div class="bonnes-situation-grid">
-            <figure class="bonnes-situation-grid__half"><figcaption>Tote bag</figcaption><img src="/assets/projects/bonnes-epices/applications/tote-bag-custom.webp" alt="Logo Les Bonnes Épices appliqué sur un tote bag" loading="lazy" decoding="async"></figure>
-            <figure class="bonnes-situation-grid__half"><figcaption>T-shirt</figcaption><img src="/assets/projects/bonnes-epices/applications/t-shirt-custom.webp" alt="Logo Les Bonnes Épices appliqué sur un t-shirt" loading="lazy" decoding="async"></figure>
-            <figure class="bonnes-situation-grid__small bonnes-situation-grid__icon"><figcaption>Icône</figcaption><img src="/assets/projects/bonnes-epices/applications/icon.webp" alt="Icône aux trois feuilles" loading="lazy" decoding="async"></figure>
-            <figure class="bonnes-situation-grid__large"><figcaption>Facebook</figcaption><img src="/assets/projects/bonnes-epices/applications/facebook.webp" alt="Identité Les Bonnes Épices déployée sur Facebook" loading="lazy" decoding="async"></figure>
-          </div>
-        </section>
-
         <section class="cist-case-section bonnes-terrain-section">
           <div class="cist-section-heading bonnes-section-heading">
             <span>Sur le terrain</span>
@@ -1468,7 +1461,7 @@ function initBonnesEpicesProject() {
             <figure><img src="/assets/projects/bonnes-epices/terrain/rayon-coco-carre.webp" alt="Pots de coco râpée Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
             <figure class="bonnes-terrain-grid__tall"><img src="/assets/projects/bonnes-epices/terrain/rayon-massale-bois-inde.webp" alt="Pots de massale et bois d'Inde Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
             <figure><img src="/assets/projects/bonnes-epices/terrain/rayon-piments-poivre.webp" alt="Piment oiseaux et poivre vert Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
-            <figure><img src="/assets/projects/bonnes-epices/terrain/rayon-coco-portrait.webp" alt="Ancienne et nouvelle étiquette de coco râpée Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
+            <figure><img src="/assets/projects/bonnes-epices/terrain/rayon-cannelle.webp" alt="Pots de cannelle entière Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
           </div>
         </section>
 
@@ -1505,15 +1498,17 @@ function initBonnesEpicesProject() {
           </div>
         </section>
 
-        <section class="cist-case-section bonnes-contact-section">
+        <section class="cist-case-section bonnes-situation-section">
           <div class="cist-section-heading bonnes-section-heading">
-            <span>Applications</span>
-            <h3>De la recette au point de contact</h3>
-            <p>Le système se retrouve jusque sur les réseaux sociaux et les supports commerciaux.</p>
+            <span>Système de marque</span>
+            <h3>En situation</h3>
+            <p>Le même signe est décliné sur les supports physiques, les formats promotionnels et la page Facebook.</p>
           </div>
-          <div class="bonnes-contact-grid bonnes-contact-grid--simple">
-            <figure class="bonnes-contact-phone"><img src="/assets/projects/bonnes-epices/presentation/bonnes-epices-instagram.webp" alt="Compte Instagram Les Bonnes Épices présenté sur téléphone" loading="lazy" decoding="async"><figcaption>Instagram</figcaption></figure>
-            <figure class="bonnes-business-card"><figcaption>Carte de visite</figcaption><img src="/assets/projects/bonnes-epices/presentation/bonnes-epices-cartes-visite-mockup.webp" alt="Recto et verso de la carte de visite Les Bonnes Épices" loading="lazy" decoding="async"></figure>
+          <div class="bonnes-situation-grid">
+            <figure class="bonnes-situation-grid__half"><figcaption>Tote bag</figcaption><img src="/assets/projects/bonnes-epices/applications/tote-bag-custom.webp" alt="Logo Les Bonnes Épices appliqué sur un tote bag" loading="lazy" decoding="async"></figure>
+            <figure class="bonnes-situation-grid__half"><figcaption>T-shirt</figcaption><img src="/assets/projects/bonnes-epices/applications/t-shirt-custom.webp" alt="Logo Les Bonnes Épices appliqué sur un t-shirt" loading="lazy" decoding="async"></figure>
+            <figure class="bonnes-situation-grid__large bonnes-situation-grid__facebook"><figcaption>Facebook</figcaption><img src="/assets/projects/bonnes-epices/applications/facebook.webp?v=2" alt="Identité Les Bonnes Épices déployée sur Facebook" loading="lazy" decoding="async"></figure>
+            <figure class="bonnes-situation-grid__large"><figcaption>Carte de visite</figcaption><img src="/assets/projects/bonnes-epices/presentation/bonnes-epices-cartes-visite-mockup.webp" alt="Recto et verso de la carte de visite Les Bonnes Épices" loading="lazy" decoding="async"></figure>
           </div>
         </section>
       </div>
@@ -1725,8 +1720,8 @@ function initPressingProject() {
             <p>SA Pressing devient Le Pressing — une refonte complète qui installe cette enseigne guadeloupéenne comme la référence du pressing sur le territoire.</p>
             <span class="cist-case-meta pressing-case-meta">Logo · Système de marque · Couleurs · Typographie · Motifs · Applications</span>
           </div>
-          <figure class="pressing-hero-logo">
-            <img src="/assets/projects/le-pressing/charte/page-05.webp" alt="Logo Le Pressing — identité graphique" loading="eager" decoding="async">
+          <figure class="pressing-hero-logo pressing-hero-logo--svg">
+            <img src="/assets/projects/le-pressing/identity/logo-white.svg" alt="Logo Le Pressing — identité graphique" loading="eager" decoding="async">
           </figure>
         </header>
 
@@ -1749,16 +1744,6 @@ function initPressingProject() {
               <h4>Objectif</h4>
               <p>Créer une identité forte, premium et cohérente, revendiquant la référence du pressing sur le territoire guadeloupéen.</p>
             </article>
-          </div>
-          <div class="pressing-avant-preview">
-            <figure>
-              <img src="/assets/projects/le-pressing/avant-apres/avant-agnes.webp" alt="Façade SA Pressing à Jarry avant la refonte" loading="lazy" decoding="async">
-              <figcaption><span class="pressing-label pressing-label--avant">Avant</span>Enseigne Jarry — SA Pressing</figcaption>
-            </figure>
-            <figure>
-              <img src="/assets/projects/le-pressing/avant-apres/avant-gosier.webp" alt="Façade SA Pressing au Gosier avant la refonte" loading="lazy" decoding="async">
-              <figcaption><span class="pressing-label pressing-label--avant">Avant</span>Enseigne Gosier — SA Pressing</figcaption>
-            </figure>
           </div>
         </section>
 
@@ -1812,51 +1797,66 @@ function initPressingProject() {
 
         <section class="cist-case-section cist-case-section--tinted pressing-case-section--tinted">
           <div class="cist-section-heading pressing-section-heading">
-            <span>Avant / Après · 01</span>
-            <h3>La vitrine de Jarry repensée</h3>
-            <p>L'enseigne brutale cède la place à une façade habillée, structurée, reconnaissable. Le même espace, une tout autre lecture.</p>
+            <span>Avant / Après</span>
+            <h3>Les deux vitrines repensées</h3>
+            <p>À Jarry comme au Gosier, l'enseigne brute cède la place à une façade habillée, structurée et reconnaissable.</p>
           </div>
+          <p class="pressing-store-label">Jarry</p>
           <div class="pressing-avant-apres-grid">
             <figure class="pressing-aa-item">
-              <img src="/assets/projects/le-pressing/avant-apres/avant-agnes.webp" alt="Avant — Façade SA Pressing Jarry, identité sans cohérence" loading="lazy" decoding="async">
+              <img src="/assets/projects/le-pressing/avant-apres/avant-agnes.webp" alt="Avant — Façade SA Pressing Jarry" loading="lazy" decoding="async">
               <figcaption><span class="pressing-label pressing-label--avant">Avant</span>SA Pressing — Jarry</figcaption>
             </figure>
             <figure class="pressing-aa-item">
-              <img src="/assets/projects/le-pressing/charte/page-14.webp" alt="Après — Façade Le Pressing Jarry, identité renouvelée" loading="lazy" decoding="async">
+              <img src="/assets/projects/le-pressing/avant-apres/apres-jarry.webp" alt="Après — Façade Le Pressing Jarry" loading="lazy" decoding="async">
               <figcaption><span class="pressing-label pressing-label--apres">Après</span>Le Pressing — Jarry</figcaption>
             </figure>
           </div>
-        </section>
-
-        <section class="cist-case-section">
-          <div class="cist-section-heading pressing-section-heading">
-            <span>Avant / Après · 02</span>
-            <h3>De la façade au terrain</h3>
-            <p>Du Gosier à la route — la nouvelle identité s'affiche partout où Le Pressing est présent, y compris sur ses véhicules utilitaires.</p>
-          </div>
+          <p class="pressing-store-label">Gosier</p>
           <div class="pressing-avant-apres-grid">
             <figure class="pressing-aa-item">
-              <img src="/assets/projects/le-pressing/avant-apres/avant-gosier.webp" alt="Avant — Façade SA Pressing Gosier, enseigne générique" loading="lazy" decoding="async">
+              <img src="/assets/projects/le-pressing/avant-apres/avant-gosier.webp" alt="Avant — Façade SA Pressing Gosier" loading="lazy" decoding="async">
               <figcaption><span class="pressing-label pressing-label--avant">Avant</span>SA Pressing — Gosier</figcaption>
             </figure>
             <figure class="pressing-aa-item">
-              <img src="/assets/projects/le-pressing/terrain/van-face.webp" alt="Après — Van Le Pressing avec la nouvelle identité graphique" loading="lazy" decoding="async">
-              <figcaption><span class="pressing-label pressing-label--apres">Après</span>Le Pressing — en situation</figcaption>
+              <img src="/assets/projects/le-pressing/avant-apres/apres-gosier.webp" alt="Après — Façade Le Pressing Gosier" loading="lazy" decoding="async">
+              <figcaption><span class="pressing-label pressing-label--apres">Après</span>Le Pressing — Gosier</figcaption>
             </figure>
           </div>
         </section>
 
         <section class="cist-case-section">
           <div class="cist-section-heading pressing-section-heading">
+            <span>Sur le terrain</span>
+            <h3>L'identité en circulation</h3>
+            <p>La nouvelle marque s'affiche sur les véhicules utilitaires — une présence mobile et reconnaissable sur tout le territoire guadeloupéen.</p>
+          </div>
+          <div class="pressing-avant-apres-grid">
+            <figure class="pressing-aa-item pressing-aa-item--portrait">
+              <img src="/assets/projects/le-pressing/terrain/van-face.webp" alt="Van Le Pressing — face avant avec la nouvelle identité graphique" loading="lazy" decoding="async">
+            </figure>
+            <figure class="pressing-aa-item">
+              <img src="/assets/projects/le-pressing/terrain/van-lateral.webp" alt="Van Le Pressing — vue latérale en circulation" loading="lazy" decoding="async">
+            </figure>
+          </div>
+        </section>
+
+        <section class="cist-case-section cist-case-section--tinted pressing-case-section--tinted">
+          <div class="cist-section-heading pressing-section-heading">
             <span>Applications</span>
             <h3>Le pressing en situation</h3>
+            <p>La marque prend vie sur les supports du quotidien — tenue, papeterie, façade — avec une même rigueur graphique.</p>
           </div>
-          <figure class="pressing-fullbleed">
-            <img src="/assets/projects/le-pressing/charte/page-13.webp" alt="Tablier uniforme Le Pressing — application sur textile" loading="lazy" decoding="async">
+          <figure class="pressing-fullbleed pressing-fullbleed--contain">
+            <img src="/assets/projects/le-pressing/mockups/second-store.webp" alt="Façade Le Pressing avec la nouvelle identité graphique" loading="lazy" decoding="async">
           </figure>
-          <div class="pressing-apps-grid">
-            <figure><img src="/assets/projects/le-pressing/charte/page-12.webp" alt="Papeterie Le Pressing — carte de visite et lettre à en-tête" loading="lazy" decoding="async"></figure>
-            <figure><img src="/assets/projects/le-pressing/terrain/van-lateral.webp" alt="Van Le Pressing — nouvelle identité en circulation" loading="lazy" decoding="async"></figure>
+          <div class="pressing-apps-grid pressing-apps-grid--mockups">
+            <figure><img src="/assets/projects/le-pressing/mockups/apron.webp" alt="Tablier Le Pressing — mockup textile" loading="lazy" decoding="async"></figure>
+            <figure><img src="/assets/projects/le-pressing/mockups/business-card.webp" alt="Cartes de visite Le Pressing" loading="lazy" decoding="async"></figure>
+            <figure><img src="/assets/projects/le-pressing/mockups/garment-cover.webp" alt="Housse à vêtements Le Pressing" loading="lazy" decoding="async"></figure>
+            <figure><img src="/assets/projects/le-pressing/mockups/garment-tag.webp" alt="Étiquette Le Pressing" loading="lazy" decoding="async"></figure>
+            <figure><img src="/assets/projects/le-pressing/mockups/letterhead.webp" alt="Papeterie Le Pressing — lettre à en-tête et carte de visite" loading="lazy" decoding="async"></figure>
+            <figure><img src="/assets/projects/le-pressing/mockups/brand-card-front.webp" alt="Carte de marque Le Pressing sur fond navy" loading="lazy" decoding="async"></figure>
           </div>
         </section>
 
