@@ -864,6 +864,7 @@ function initMarinaProject() {
           <h3>Présentation du système</h3>
           <div class="marina-system-grid marina-system-grid--single">
             <figure class="marina-media-card"><img src="/assets/projects/marina/charte-format-square.webp" alt="Présentation du système de composition au format carré" loading="lazy"></figure>
+            <figure class="marina-media-card marina-media-card--example"><img src="/assets/projects/marina/publication-regate.webp" alt="Déclinaison du système graphique de la Marina Bas-du-Fort pour une publication de régate" loading="lazy"></figure>
           </div>
         </section>
 
@@ -1187,29 +1188,13 @@ function initCistProject() {
           <div class="cist-section-heading">
             <span>Prévention</span>
             <h3>Des flyers prêts à diffuser</h3>
-            <p>Trois fiches pédagogiques accompagnent les entreprises et les salariés sur des sujets clés de la santé au travail, avec un recto d'accroche et un verso informatif.</p>
           </div>
-          <div class="cist-flyer-grid">
+          <div class="cist-flyer-grid cist-flyer-grid--mockups">
             <figure class="cist-flyer-card">
-              <div class="cist-flyer-card__sides">
-                <img src="/assets/projects/cist/flyer-duerp-front.webp" alt="Flyer DUERP du CIST, recto" loading="lazy">
-                <img src="/assets/projects/cist/flyer-duerp-back.webp" alt="Flyer DUERP du CIST, verso" loading="lazy">
-              </div>
-              <figcaption><strong>DUERP</strong><span>Document Unique d'Élaboration des Risques Professionnels</span></figcaption>
+              <img src="/assets/projects/cist/flyer-rayonnement-ionisant.jpg" alt="Flyer CIST consacré au rayonnement ionisant" loading="lazy">
             </figure>
             <figure class="cist-flyer-card">
-              <div class="cist-flyer-card__sides">
-                <img src="/assets/projects/cist/flyer-employe-libre-service-front.webp" alt="Flyer Employé libre service du CIST, recto" loading="lazy">
-                <img src="/assets/projects/cist/flyer-employe-libre-service-back.webp" alt="Flyer Employé libre service du CIST, verso" loading="lazy">
-              </div>
-              <figcaption><strong>Employé(e) libre service</strong><span>Fiche de prévention dédiée aux métiers de la grande distribution</span></figcaption>
-            </figure>
-            <figure class="cist-flyer-card">
-              <div class="cist-flyer-card__sides">
-                <img src="/assets/projects/cist/flyer-handicap-travail-front.webp" alt="Flyer Handicap et travail du CIST, recto" loading="lazy">
-                <img src="/assets/projects/cist/flyer-handicap-travail-back.webp" alt="Flyer Handicap et travail du CIST, verso" loading="lazy">
-              </div>
-              <figcaption><strong>Handicap et travail</strong><span>Favoriser le maintien dans l'emploi</span></figcaption>
+              <img src="/assets/projects/cist/flyer-boulanger-patissier.jpg" alt="Flyer CIST consacré aux métiers de boulanger et pâtissier" loading="lazy">
             </figure>
           </div>
         </section>
@@ -1248,18 +1233,18 @@ function initCistProject() {
           <div class="cist-website-grid">
             <figure class="cist-website-card cist-website-card--wide">
               <div class="cist-website-chrome"><i></i><i></i><i></i><span>cist-gpe.com</span></div>
-              <img src="/assets/projects/cist/website/cist-site-accueil.webp" alt="Page d'accueil du site internet du CIST" loading="lazy">
-              <figcaption><strong>Accueil</strong><span>Le message clé et les deux parcours salarié / employeur dès l'arrivée sur le site.</span></figcaption>
+              <img src="/assets/projects/cist/website/cist-site-accueil-2026.jpg" alt="Page d'accueil du site internet du CIST" loading="lazy">
+              <figcaption><strong>Accueil</strong><span>Le message d'accueil, les parcours salarié et employeur, puis les offres principales.</span></figcaption>
             </figure>
             <figure class="cist-website-card">
               <div class="cist-website-chrome"><i></i><i></i><i></i><span>cist-gpe.com/adherer</span></div>
-              <img src="/assets/projects/cist/website/cist-site-adherer.webp" alt="Page Adhérer du site internet du CIST" loading="lazy">
-              <figcaption><strong>Adhérer</strong><span>Un parcours guidé pour rejoindre le CIST étape par étape.</span></figcaption>
+              <img src="/assets/projects/cist/website/cist-site-tarifs.jpg" alt="Page des tarifs d'adhésion du site internet du CIST" loading="lazy">
+              <figcaption><strong>Tarif d'adhésion</strong><span>Les cotisations et les services inclus sont présentés dans une lecture directe.</span></figcaption>
             </figure>
             <figure class="cist-website-card">
-              <div class="cist-website-chrome"><i></i><i></i><i></i><span>cist-gpe.com/ressources</span></div>
-              <img src="/assets/projects/cist/website/cist-site-brochures.webp" alt="Page des ressources du site internet du CIST" loading="lazy">
-              <figcaption><strong>Ressources</strong><span>L'ensemble des brochures de prévention, dont les flyers présentés plus haut.</span></figcaption>
+              <div class="cist-website-chrome"><i></i><i></i><i></i><span>cist-gpe.com/faq</span></div>
+              <img src="/assets/projects/cist/website/cist-site-actualites-faq.jpg" alt="Page des actualités et de la foire aux questions du site internet du CIST" loading="lazy">
+              <figcaption><strong>Actualités &amp; FAQ</strong><span>Les articles de prévention et les questions fréquentes sont réunis sur une même page.</span></figcaption>
             </figure>
           </div>
         </section>
@@ -1270,7 +1255,7 @@ function initCistProject() {
             <h3>Une identité qui se raconte</h3>
             <p>Un film de présentation prolonge la charte sur les supports numériques et rend la mission du CIST immédiatement accessible.</p>
           </div>
-          <div class="cist-motion-video"><iframe src="https://www.youtube-nocookie.com/embed/CBANvHPZRgY?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=CBANvHPZRgY&amp;controls=0&amp;modestbranding=1&amp;playsinline=1&amp;rel=0" title="Motion design CIST 971" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+          <div class="cist-motion-video"><iframe src="https://www.youtube-nocookie.com/embed/CBANvHPZRgY?controls=1&amp;modestbranding=1&amp;playsinline=1&amp;rel=0" title="Motion design CIST 971" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
         </section>
       </div>
     </div>`;
@@ -1350,51 +1335,185 @@ function initBonnesEpicesProject() {
           </div>
         </section>
 
-        <section class="cist-case-section bonnes-logo-section">
+        <section class="cist-case-section bonnes-process-section">
           <div class="cist-section-heading bonnes-section-heading">
-            <span>Le logo en détail</span>
-            <h3>Préserver les racines, clarifier le signe</h3>
-            <p>La refonte conserve les codes historiques de la maison tout en simplifiant leur dessin. Les trois feuilles, l'horizon et la date de fondation forment un emblème plus homogène, lisible à petite taille et immédiatement identifiable sur les produits.</p>
+            <span>Dans les coulisses</span>
+            <h3>Ce qu'on a gardé, fait évoluer, ajouté</h3>
+            <p>La refonte préserve les repères déjà installés, puis intervient sur le dessin, la hiérarchie et les éléments qui manquaient au système.</p>
           </div>
-          <div class="bonnes-logo-principles">
-            <article><b>01</b><strong>Les trois feuilles</strong><p>Elles portent l'origine végétale de la marque et deviennent le point focal du symbole.</p></article>
-            <article><b>02</b><strong>L'horizon</strong><p>Les lignes basses évoquent les cultures, le territoire et la continuité de la maison.</p></article>
-            <article><b>03</b><strong>Depuis 1948</strong><p>La signature historique gagne en présence et consolide la dimension patrimoniale.</p></article>
+          <div class="bonnes-process-grid">
+            <article class="bonnes-process-card">
+              <span class="bonnes-process-icon" aria-hidden="true">✓</span>
+              <h4>Gardé</h4>
+              <ul><li>Les codes couleurs</li><li>Les feuilles</li><li>La structure</li></ul>
+            </article>
+            <article class="bonnes-process-card">
+              <span class="bonnes-process-icon" aria-hidden="true">↗</span>
+              <h4>Fait évoluer</h4>
+              <ul><li>Les feuilles : dégradé et épaisseurs</li><li>Le soleil</li><li>Les typographies</li></ul>
+            </article>
+            <article class="bonnes-process-card">
+              <span class="bonnes-process-icon" aria-hidden="true">+</span>
+              <h4>Ajouté</h4>
+              <ul><li>Une accroche</li><li>Un reflet</li></ul>
+            </article>
           </div>
-          <div class="bonnes-logo-board">
-            <div class="bonnes-logo-type"><span>Typographie</span><strong>Une sérif généreuse</strong><p>Des lettres pleines, familières et gourmandes accompagnent le caractère artisanal de la marque.</p></div>
-            <div class="bonnes-logo-palette" aria-label="Palette de la nouvelle identité">
-              <span style="--tone:#009D4F"><i></i><strong>Vert feuille</strong><small>#009D4F</small></span>
-              <span style="--tone:#FFE710"><i></i><strong>Jaune épice</strong><small>#FFE710</small></span>
-              <span style="--tone:#F5A623"><i></i><strong>Or chaud</strong><small>#F5A623</small></span>
-              <span style="--tone:#FFF8E8"><i></i><strong>Crème</strong><small>#FFF8E8</small></span>
+          <figure class="bonnes-process-dossier">
+            <img src="/assets/projects/bonnes-epices/identity/logo-detail-dossier.webp" alt="Planche du dossier de marque détaillant le dessin d'une feuille du logo" loading="lazy" decoding="async">
+            <figcaption>Extrait du dossier de refonte, détail du tracé des feuilles</figcaption>
+          </figure>
+        </section>
+
+        <section class="cist-case-section bonnes-variants-section">
+          <div class="cist-section-heading bonnes-section-heading">
+            <span>Système de marque</span>
+            <h3>Un logo pensé pour tous les supports</h3>
+            <p>Les variantes reprennent strictement le même dessin. Seuls le contraste, le nombre de couleurs et le format changent selon le support.</p>
+          </div>
+          <div class="bonnes-bsys">
+            <div class="bonnes-bsys__variants">
+              <div class="bonnes-bsys__card" style="--bsys-bg:#FFFFFF;--bsys-swatch:#FFFFFF;--bsys-border:rgba(30,44,31,.14)">
+                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/bonnes-epices/identity/logo-mono-dark.webp" alt="Logo Les Bonnes Épices version foncée sur fond blanc" loading="lazy" decoding="async"></div>
+                <div class="bonnes-bsys__card-swatch"></div>
+              </div>
+              <div class="bonnes-bsys__card" style="--bsys-bg:#1E2C1F;--bsys-swatch:#1E2C1F;--bsys-border:transparent">
+                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/bonnes-epices/identity/logo-mono-light.webp" alt="Logo Les Bonnes Épices version claire sur fond vert foncé" loading="lazy" decoding="async"></div>
+                <div class="bonnes-bsys__card-swatch"></div>
+              </div>
+              <div class="bonnes-bsys__card" style="--bsys-bg:#289046;--bsys-swatch:#289046;--bsys-border:transparent">
+                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/bonnes-epices/identity/logo-bichrome-green.webp" alt="Logo Les Bonnes Épices bichrome sur fond vert émeraude" loading="lazy" decoding="async"></div>
+                <div class="bonnes-bsys__card-swatch"></div>
+              </div>
+              <div class="bonnes-bsys__card" style="--bsys-bg:#FAEA1D;--bsys-swatch:#FAEA1D;--bsys-border:transparent">
+                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/bonnes-epices/identity/logo-primary.webp" alt="Logo Les Bonnes Épices version principale sur fond jaune" loading="lazy" decoding="async"></div>
+                <div class="bonnes-bsys__card-swatch"></div>
+              </div>
+            </div>
+            <div class="bonnes-bsys__horiz-row">
+              <figure class="bonnes-bsys__horiz" style="--bsys-bg:#FAEA1D"><img src="/assets/projects/bonnes-epices/identity/logo-horizontal-yellow.webp" alt="Logo horizontal Les Bonnes Épices sur fond jaune" loading="lazy" decoding="async"></figure>
+              <figure class="bonnes-bsys__horiz" style="--bsys-bg:#FFFFFF;--bsys-border:rgba(30,44,31,.12)"><img src="/assets/projects/bonnes-epices/identity/logo-horizontal-white.webp" alt="Logo horizontal Les Bonnes Épices sur fond blanc" loading="lazy" decoding="async"></figure>
+            </div>
+            <p class="bonnes-bsys__horiz-label">VERSION HORIZONTALE ALTERNATIVE</p>
+            <div class="bonnes-bsys__patterns">
+              <div class="bonnes-bsys__pattern" style="background:#1E2C1F">
+                <img src="/assets/projects/bonnes-epices/applications/icon.webp" alt="Icône aux trois feuilles sur fond vert foncé" loading="lazy" decoding="async">
+              </div>
+              <div class="bonnes-bsys__pattern" style="background:#FAEA1D">
+                <img src="/assets/projects/bonnes-epices/applications/icon.webp" alt="Icône aux trois feuilles sur fond jaune" loading="lazy" decoding="async">
+              </div>
+            </div>
+            <figure class="bonnes-bsys__banner">
+              <img src="/assets/projects/bonnes-epices/applications/pattern-promotion.webp" alt="Bannière promotionnelle Les Bonnes Épices, Promotion de Monsieur Maurice®" loading="lazy" decoding="async">
+            </figure>
+          </div>
+        </section>
+
+        <section class="cist-case-section bonnes-colours-section">
+          <div class="cist-section-heading bonnes-section-heading">
+            <span>Couleurs &amp; typographie</span>
+            <h3>Une base claire pour exprimer la marque</h3>
+            <p>Quatre couleurs issues du dossier de marque, associées à Quincy pour les prises de parole éditoriales.</p>
+          </div>
+          <div class="bonnes-colour-grid">
+            <article style="--bonnes-colour:#FFFFFF"><span class="bonnes-colour-swatch"></span><h4>Blanc</h4><code>#FFFFFF</code><div class="bonnes-colour-tones" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></article>
+            <article style="--bonnes-colour:#289046"><span class="bonnes-colour-swatch"></span><h4>Vert Émeraude</h4><code>#289046</code><div class="bonnes-colour-tones" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></article>
+            <article style="--bonnes-colour:#1E2C1F"><span class="bonnes-colour-swatch"></span><h4>Vert Oxyde de Chrome</h4><code>#1E2C1F</code><div class="bonnes-colour-tones" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></article>
+            <article style="--bonnes-colour:#FAEA1D"><span class="bonnes-colour-swatch"></span><h4>Jaune Cobalt</h4><code>#FAEA1D</code><div class="bonnes-colour-tones" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></article>
+          </div>
+          <div class="bonnes-type-dossier">
+            <div class="bonnes-type-dossier__header">
+              <div class="bonnes-type-dossier__meta">
+                <span>POLICE</span><span>INFORMATIONS</span>
+              </div>
+              <div class="bonnes-type-dossier__nameblock">
+                <span class="bonnes-type-dossier__family">Quincy</span>
+                <span class="bonnes-type-dossier__weight">Medium</span>
+                <span class="bonnes-type-dossier__style">Normal</span>
+              </div>
+            </div>
+            <p class="bonnes-type-dossier__section-label">EXEMPLES DES CARACTÈRES</p>
+            <div class="bonnes-type-dossier__chars" aria-label="Alphabet majuscule Quincy">
+              <span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span><span>G</span><span>H</span><span>I</span><span>J</span><span>K</span><span>L</span><span>M</span><span>N</span><span>O</span><span>P</span><span>Q</span><span>R</span><span>S</span><span>T</span><span>U</span><span>V</span><span>W</span><span>X</span><span>Y</span><span>Z</span>
+            </div>
+            <div class="bonnes-type-dossier__chars bonnes-type-dossier__chars--lower" aria-label="Alphabet minuscule Quincy">
+              <span>a</span><span>b</span><span>c</span><span>d</span><span>e</span><span>f</span><span>g</span><span>h</span><span>i</span><span>j</span><span>k</span><span>l</span><span>m</span><span>n</span><span>o</span><span>p</span><span>q</span><span>r</span><span>s</span><span>t</span><span>u</span><span>v</span><span>w</span><span>x</span><span>y</span><span>z</span>
+            </div>
+            <div class="bonnes-type-dossier__nums" aria-label="Chiffres Quincy">
+              <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
             </div>
           </div>
         </section>
 
-        <section class="cist-case-section bonnes-case-section--yellow">
+        <section class="cist-case-section bonnes-situation-section">
           <div class="cist-section-heading bonnes-section-heading">
-            <span>Système visuel</span>
-            <h3>Un langage construit autour du produit</h3>
-            <p>Le jaune devient un repère immédiat. Les compositions associent grands titres, photographies gourmandes et espaces blancs pour rendre les informations produit accessibles sans perdre le caractère artisanal.</p>
+            <span>Système de marque</span>
+            <h3>En situation</h3>
+            <p>Le même signe est décliné sur les supports physiques, les formats promotionnels et la page Facebook.</p>
           </div>
-          <div class="bonnes-system-grid">
-            <figure><img src="/assets/projects/bonnes-epices/presentation/bonnes-epices-information.webp" alt="Présentation du système d'information produit" loading="lazy"></figure>
-            <figure><img src="/assets/projects/bonnes-epices/presentation/bonnes-epices-histoire-systeme.webp" alt="Déclinaisons éditoriales autour de l'histoire des épices" loading="lazy"></figure>
-            <figure><img src="/assets/projects/bonnes-epices/presentation/bonnes-epices-recette-systeme.webp" alt="Système graphique appliqué à une recette" loading="lazy"></figure>
+          <div class="bonnes-situation-grid">
+            <figure class="bonnes-situation-grid__half"><figcaption>Tote bag</figcaption><img src="/assets/projects/bonnes-epices/applications/tote-bag-custom.webp" alt="Logo Les Bonnes Épices appliqué sur un tote bag" loading="lazy" decoding="async"></figure>
+            <figure class="bonnes-situation-grid__half"><figcaption>T-shirt</figcaption><img src="/assets/projects/bonnes-epices/applications/t-shirt-custom.webp" alt="Logo Les Bonnes Épices appliqué sur un t-shirt" loading="lazy" decoding="async"></figure>
+            <figure class="bonnes-situation-grid__small bonnes-situation-grid__icon"><figcaption>Icône</figcaption><img src="/assets/projects/bonnes-epices/applications/icon.webp" alt="Icône aux trois feuilles" loading="lazy" decoding="async"></figure>
+            <figure class="bonnes-situation-grid__large"><figcaption>Facebook</figcaption><img src="/assets/projects/bonnes-epices/applications/facebook.webp" alt="Identité Les Bonnes Épices déployée sur Facebook" loading="lazy" decoding="async"></figure>
           </div>
         </section>
 
-        <section class="cist-case-section">
+        <section class="cist-case-section bonnes-terrain-section">
+          <div class="cist-section-heading bonnes-section-heading">
+            <span>Sur le terrain</span>
+            <h3>La marque telle qu'elle est rencontrée en rayon</h3>
+            <p>Quatre vues prises en magasin, présentées sans décor ajouté ni simulation.</p>
+          </div>
+          <div class="bonnes-terrain-grid">
+            <figure><img src="/assets/projects/bonnes-epices/terrain/rayon-coco-carre.webp" alt="Pots de coco râpée Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
+            <figure class="bonnes-terrain-grid__tall"><img src="/assets/projects/bonnes-epices/terrain/rayon-massale-bois-inde.webp" alt="Pots de massale et bois d'Inde Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
+            <figure><img src="/assets/projects/bonnes-epices/terrain/rayon-piments-poivre.webp" alt="Piment oiseaux et poivre vert Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
+            <figure><img src="/assets/projects/bonnes-epices/terrain/rayon-coco-portrait.webp" alt="Ancienne et nouvelle étiquette de coco râpée Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
+          </div>
+        </section>
+
+        <section class="cist-case-section bonnes-language-section">
+          <div class="cist-section-heading bonnes-section-heading">
+            <span>Système visuel</span>
+            <h3>Un langage construit autour du produit</h3>
+            <p>Les formats carrés et larges conservent la même hiérarchie, jusque dans la mise en récit d'une recette.</p>
+          </div>
+          <div class="bonnes-editorial-block">
+            <div class="bonnes-editorial-label"><span>Information</span><strong>Axe 1</strong></div>
+            <div class="bonnes-colombo-grid">
+              <figure><img src="/assets/projects/bonnes-epices/editorial/colombo-square.webp" alt="Publication carrée consacrée au Colombo" loading="lazy" decoding="async"></figure>
+              <figure><img src="/assets/projects/bonnes-epices/editorial/colombo-wide.webp" alt="Publication large consacrée au Colombo" loading="lazy" decoding="async"></figure>
+            </div>
+          </div>
+          <div class="bonnes-editorial-block">
+            <div class="bonnes-editorial-label"><span>Histoire</span><strong>Axe 2</strong></div>
+            <div class="bonnes-history-grid">
+              <figure><img src="/assets/projects/bonnes-epices/editorial/history-nutmeg.webp" alt="Publication sur l'histoire de la noix de muscade" loading="lazy" decoding="async"></figure>
+              <figure><img src="/assets/projects/bonnes-epices/editorial/history-clove-drying.webp" alt="Publication sur la préparation des clous de girofle" loading="lazy" decoding="async"></figure>
+              <figure><img src="/assets/projects/bonnes-epices/editorial/history-clove-closeup.webp" alt="Publication carrée sur les clous de girofle" loading="lazy" decoding="async"></figure>
+              <figure><img src="/assets/projects/bonnes-epices/editorial/history-clove-wide.webp" alt="Publication large sur les clous de girofle" loading="lazy" decoding="async"></figure>
+            </div>
+          </div>
+          <div class="bonnes-editorial-block">
+            <div class="bonnes-editorial-label"><span>Recette</span><strong>Présentation 1</strong></div>
+            <div class="bonnes-carousel-track" role="region" aria-label="Recette de soupe de crevettes en quatre visuels" tabindex="0">
+              <figure><img src="/assets/projects/bonnes-epices/editorial/recipe-soup-cover.webp" alt="Soupe de crevettes, couverture de la recette" loading="lazy" decoding="async"></figure>
+              <figure><img src="/assets/projects/bonnes-epices/editorial/recipe-soup-ingredients.webp" alt="Ingrédients de la soupe de crevettes" loading="lazy" decoding="async"></figure>
+              <figure><img src="/assets/projects/bonnes-epices/editorial/recipe-soup-step-one.webp" alt="Première partie de la préparation de la soupe de crevettes" loading="lazy" decoding="async"></figure>
+              <figure><img src="/assets/projects/bonnes-epices/editorial/recipe-soup-step-two.webp" alt="Fin de la préparation de la soupe de crevettes" loading="lazy" decoding="async"></figure>
+            </div>
+          </div>
+        </section>
+
+        <section class="cist-case-section bonnes-contact-section">
           <div class="cist-section-heading bonnes-section-heading">
             <span>Applications</span>
             <h3>De la recette au point de contact</h3>
-            <p>La nouvelle grille est pensée comme un système : elle accueille les fiches recettes, la carte de visite et les formats sociaux avec une même voix, claire, généreuse et reconnaissable.</p>
+            <p>Le système se retrouve jusque sur les réseaux sociaux et les supports commerciaux.</p>
           </div>
-          <div class="bonnes-application-grid">
-            <figure class="bonnes-application-grid__wide"><img src="/assets/projects/bonnes-epices/presentation/bonnes-epices-recette-declinaisons.webp" alt="Déclinaison d'une recette Les Bonnes Épices" loading="lazy"><figcaption>Édition recette</figcaption></figure>
-            <figure class="bonnes-application-grid__wide"><img src="/assets/projects/bonnes-epices/presentation/bonnes-epices-cartes-visite.webp" alt="Recto et verso de la carte de visite Les Bonnes Épices" loading="lazy"><figcaption>Carte de visite</figcaption></figure>
-            <figure class="bonnes-application-grid__tall"><img src="/assets/projects/bonnes-epices/presentation/bonnes-epices-instagram.webp" alt="Mise en situation du compte Instagram Les Bonnes Épices" loading="lazy"><figcaption>Déploiement Instagram</figcaption></figure>
+          <div class="bonnes-contact-grid bonnes-contact-grid--simple">
+            <figure class="bonnes-contact-phone"><img src="/assets/projects/bonnes-epices/presentation/bonnes-epices-instagram.webp" alt="Compte Instagram Les Bonnes Épices présenté sur téléphone" loading="lazy" decoding="async"><figcaption>Instagram</figcaption></figure>
+            <figure class="bonnes-business-card"><figcaption>Carte de visite</figcaption><img src="/assets/projects/bonnes-epices/presentation/bonnes-epices-cartes-visite-mockup.webp" alt="Recto et verso de la carte de visite Les Bonnes Épices" loading="lazy" decoding="async"></figure>
           </div>
         </section>
       </div>
