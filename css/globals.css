@@ -1900,6 +1900,512 @@ p { line-height: 1.7; }
 .bonnes-logo-palette strong { color: #284616; font-size: 10px; }
 .bonnes-logo-palette small { color: #7E806E; font-size: 9px; }
 
+.bonnes-process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+.bonnes-process-card {
+  min-height: 280px;
+  padding: 28px;
+  border: 1px solid rgba(30, 44, 31, .12);
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0 12px 28px rgba(52, 64, 31, .07);
+}
+.bonnes-process-icon {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  margin-bottom: 28px;
+  border: 2px solid #286536;
+  border-radius: 50%;
+  color: #286536;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 1;
+}
+.bonnes-process-card h4 {
+  margin: 0 0 17px;
+  color: #32662B;
+  font-size: 12px;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+.bonnes-process-card ul {
+  display: grid;
+  gap: 13px;
+  margin: 0;
+  padding: 0;
+  color: #303632;
+  font-size: 13px;
+  line-height: 1.5;
+  list-style: none;
+}
+.bonnes-process-zoom {
+  display: grid;
+  grid-template-columns: minmax(240px, .85fr) minmax(110px, .4fr) minmax(300px, 1fr);
+  align-items: center;
+  gap: 0;
+  margin-top: 52px;
+  padding: 20px clamp(0px, 2vw, 28px);
+}
+.bonnes-process-zoom__detail {
+  position: relative;
+  z-index: 2;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border: 2px solid rgba(40, 144, 70, .34);
+  border-radius: 50%;
+  background: #FAEA1D;
+  box-shadow: 0 15px 34px rgba(30, 44, 31, .11);
+}
+.bonnes-process-zoom__detail img {
+  width: 220%;
+  max-width: none;
+  height: auto;
+  transform: translate(-27%, -6%);
+}
+.bonnes-process-zoom__line {
+  position: relative;
+  z-index: 1;
+  display: block;
+  height: 46%;
+}
+.bonnes-process-zoom__line::before,
+.bonnes-process-zoom__line::after {
+  position: absolute;
+  left: -8%;
+  right: -8%;
+  height: 1px;
+  background: #344238;
+  content: "";
+  transform-origin: left center;
+}
+.bonnes-process-zoom__line::before { top: 25%; transform: rotate(12deg); }
+.bonnes-process-zoom__line::after { bottom: 25%; transform: rotate(-12deg); }
+.bonnes-process-zoom__logo {
+  position: relative;
+  z-index: 2;
+  width: min(430px, 100%);
+  height: auto;
+  justify-self: center;
+}
+
+.bonnes-variant-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+.bonnes-variant-grid figure,
+.bonnes-situation-grid figure,
+.bonnes-editorial-block,
+.bonnes-recipe-section .bonnes-carousel-track,
+.bonnes-contact-recipes,
+.bonnes-contact-phone,
+.bonnes-business-card {
+  margin: 0;
+  border: 1px solid rgba(30, 44, 31, .12);
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0 12px 28px rgba(52, 64, 31, .07);
+}
+.bonnes-variant-media {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: #F4F4F1;
+}
+.bonnes-variant-media img {
+  width: 82%;
+  height: 82%;
+  object-fit: contain;
+}
+.bonnes-variant-media--green { background: #289046; }
+.bonnes-variant-media--dark { background: #1E2C1F; }
+.bonnes-variant-media--black { background: #050505; }
+.bonnes-variant-media--yellow { background: #FAEA1D; }
+.bonnes-variant-media--gray { background: #E8E8E8; }
+.bonnes-variant-media--green img,
+.bonnes-variant-media--dark img,
+.bonnes-variant-media--black img { filter: brightness(0) invert(1); }
+.bonnes-variant-grid figcaption,
+.bonnes-situation-grid figcaption,
+.bonnes-contact-phone figcaption,
+.bonnes-business-card figcaption {
+  padding: 13px 16px;
+  color: #253428;
+  font-size: 11px;
+  font-weight: 600;
+}
+.bonnes-variant-grid__wide { grid-column: span 2; }
+.bonnes-variant-grid__full { grid-column: 1 / -1; }
+.bonnes-horizontal-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  padding: 16px;
+  background: #E7E8E2;
+}
+.bonnes-horizontal-pair img {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  object-fit: contain;
+}
+
+.bonnes-colour-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+.bonnes-colour-grid article {
+  padding: 10px 10px 16px;
+  border: 1px solid rgba(30, 44, 31, .12);
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0 10px 24px rgba(52, 64, 31, .06);
+}
+.bonnes-colour-swatch {
+  display: block;
+  aspect-ratio: 1;
+  margin-bottom: 18px;
+  border: 1px solid rgba(30, 44, 31, .12);
+  border-radius: 5px;
+  background: var(--bonnes-colour);
+}
+.bonnes-colour-grid h4 { margin: 0 6px 5px; color: #245D2D; font-size: 13px; }
+.bonnes-colour-grid code { display: block; margin: 0 6px 16px; color: #232724; font-size: 11px; }
+.bonnes-colour-tones {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 7px;
+  padding: 0 6px;
+}
+.bonnes-colour-tones i {
+  display: block;
+  aspect-ratio: 1;
+  border: 1px solid rgba(30, 44, 31, .08);
+  border-radius: 4px;
+  background: var(--bonnes-colour);
+}
+.bonnes-colour-tones i:nth-child(2) { opacity: .8; }
+.bonnes-colour-tones i:nth-child(3) { opacity: .6; }
+.bonnes-colour-tones i:nth-child(4) { opacity: .4; }
+.bonnes-colour-tones i:nth-child(5) { opacity: .2; }
+.bonnes-type-specimen {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(100px, .28fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 28px;
+  margin-top: 38px;
+  padding-top: 34px;
+  border-top: 1px solid rgba(30, 44, 31, .12);
+}
+.bonnes-type-specimen > div {
+  min-width: 0;
+  font-family: var(--font-serif);
+}
+.bonnes-type-specimen span,
+.bonnes-type-specimen strong {
+  display: block;
+  font-family: var(--font-serif);
+  color: #151916;
+  line-height: .98;
+}
+.bonnes-type-specimen span { font-size: clamp(36px, 4vw, 60px); font-weight: 800; }
+.bonnes-type-specimen strong { font-size: clamp(34px, 4vw, 56px); font-weight: 800; }
+.bonnes-type-specimen__medium { font-weight: 500 !important; }
+.bonnes-type-specimen p {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(30, 44, 31, .16);
+  color: #2E342F;
+  font-family: var(--font-serif);
+  font-size: 10px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.bonnes-type-specimen img { width: 100%; height: auto; }
+
+.bonnes-situation-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 18px;
+  align-items: start;
+}
+
+:is(
+  .bonnes-process-section,
+  .bonnes-variants-section,
+  .bonnes-colours-section,
+  .bonnes-situation-section,
+  .bonnes-terrain-section,
+  .bonnes-language-section,
+  .bonnes-recipe-section,
+  .bonnes-contact-section
+) {
+  position: relative;
+  margin: 28px 0;
+  padding: clamp(38px, 4.4vw, 62px) clamp(18px, 3.8vw, 52px);
+  border: 1px solid rgba(30, 44, 31, .12);
+  border-radius: 8px;
+  background: #FFFDF4;
+  box-shadow: 0 14px 34px rgba(30, 44, 31, .045);
+}
+
+:is(
+  .bonnes-variants-section,
+  .bonnes-colours-section,
+  .bonnes-situation-section,
+  .bonnes-terrain-section,
+  .bonnes-language-section,
+  .bonnes-recipe-section,
+  .bonnes-contact-section
+)::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -20px;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  transform: translateX(-50%);
+  border: 1px solid rgba(40, 144, 70, .24);
+  border-radius: 50%;
+  background: #FFFDF4 url('/assets/projects/bonnes-epices/applications/icon.webp') center / 31px auto no-repeat;
+  box-shadow: 0 5px 14px rgba(30, 44, 31, .08);
+}
+
+.bonnes-terrain-section { background: #F7F3E8; }
+.bonnes-situation-grid__half { grid-column: span 3; }
+.bonnes-situation-grid__small { grid-column: span 1; }
+.bonnes-situation-grid__large { grid-column: span 4; }
+.bonnes-situation-grid figure { overflow: hidden; }
+.bonnes-situation-grid figcaption { border-bottom: 1px solid rgba(30, 44, 31, .1); }
+.bonnes-situation-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 660px;
+  object-fit: contain;
+  background: #F7F6F1;
+}
+.bonnes-situation-grid__half img { aspect-ratio: 4 / 3; }
+.bonnes-situation-grid__small img { aspect-ratio: 4 / 5; }
+.bonnes-situation-grid__large img { aspect-ratio: 8 / 5; }
+
+.bonnes-terrain-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
+  gap: 18px;
+}
+.bonnes-terrain-grid figure { margin: 0; }
+.bonnes-terrain-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.bonnes-terrain-grid figcaption {
+  padding-top: 10px;
+  color: #596258;
+  font-size: 10px;
+}
+
+.bonnes-editorial-block {
+  padding: 18px;
+}
+.bonnes-editorial-block + .bonnes-editorial-block { margin-top: 22px; }
+.bonnes-editorial-label {
+  display: grid;
+  gap: 3px;
+  margin-bottom: 16px;
+  color: #28332B;
+  text-transform: uppercase;
+}
+.bonnes-editorial-label span { font-size: 11px; font-weight: 500; }
+.bonnes-editorial-label strong { font-size: 10px; }
+.bonnes-colombo-grid {
+  display: grid;
+  grid-template-columns: minmax(220px, .72fr) minmax(0, 1.28fr);
+  align-items: center;
+  gap: 16px;
+}
+.bonnes-colombo-grid figure,
+.bonnes-history-grid figure,
+.bonnes-carousel-track figure {
+  min-width: 0;
+  margin: 0;
+}
+.bonnes-colombo-grid img,
+.bonnes-history-grid img,
+.bonnes-carousel-track img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.bonnes-history-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  align-items: stretch;
+}
+.bonnes-history-grid figure {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: #F6F6F3;
+}
+.bonnes-history-grid img {
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+.bonnes-carousel-track {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  padding: 18px;
+}
+.bonnes-carousel-track:focus-visible { outline: 2px solid #289046; outline-offset: 4px; }
+.bonnes-carousel-track figure {
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(30, 44, 31, .08);
+}
+.bonnes-carousel-track--application {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.bonnes-contact-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(260px, .8fr);
+  align-items: stretch;
+  gap: 20px;
+}
+.bonnes-contact-grid > * { min-width: 0; }
+.bonnes-contact-recipes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  overflow: hidden;
+  padding: 20px;
+}
+.bonnes-contact-phone {
+  align-self: stretch;
+  overflow: hidden;
+}
+.bonnes-contact-phone img {
+  display: block;
+  width: 100%;
+  height: min(540px, 45vw);
+  object-fit: contain;
+  background: #FFFDF4;
+}
+.bonnes-contact-phone figcaption,
+.bonnes-business-card figcaption { border-top: 1px solid rgba(30, 44, 31, .1); }
+.bonnes-business-card {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.bonnes-business-card figcaption { border-top: 0; border-bottom: 1px solid rgba(30, 44, 31, .1); }
+.bonnes-business-card img { display: block; width: 100%; height: auto; }
+
+@media (max-width: 1120px) {
+  .bonnes-variant-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .bonnes-variant-grid__wide { grid-column: span 3; }
+  .bonnes-variant-grid__full { grid-column: 1 / -1; }
+  .bonnes-colour-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .bonnes-situation-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .bonnes-situation-grid__half,
+  .bonnes-situation-grid__small { grid-column: span 1; }
+  .bonnes-situation-grid__large { grid-column: 1 / -1; }
+  .bonnes-contact-grid { grid-template-columns: minmax(0, 1.4fr) minmax(230px, .72fr); }
+}
+
+@media (max-width: 768px) {
+  :is(
+    .bonnes-process-section,
+    .bonnes-variants-section,
+    .bonnes-colours-section,
+    .bonnes-situation-section,
+    .bonnes-terrain-section,
+    .bonnes-language-section,
+    .bonnes-recipe-section,
+    .bonnes-contact-section
+  ) {
+    width: 100%;
+    min-width: 0;
+    margin: 22px 0;
+    padding: 34px 14px 30px;
+  }
+  .bonnes-process-grid,
+  .bonnes-terrain-grid,
+  .bonnes-colombo-grid,
+  .bonnes-contact-grid { grid-template-columns: 1fr; }
+  .bonnes-process-card { min-height: 0; }
+  .bonnes-process-zoom {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+    padding-inline: 0;
+  }
+  .bonnes-process-zoom__detail { width: min(330px, 88%); justify-self: center; }
+  .bonnes-process-zoom__line { display: none; }
+  .bonnes-process-zoom__logo { width: min(380px, 88%); }
+  .bonnes-variant-grid,
+  .bonnes-colour-grid,
+  .bonnes-history-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .bonnes-variant-grid__wide,
+  .bonnes-variant-grid__full { grid-column: 1 / -1; }
+  .bonnes-type-specimen {
+    grid-template-columns: 1fr 74px 1fr;
+    gap: 14px;
+  }
+  .bonnes-type-specimen span,
+  .bonnes-type-specimen strong { font-size: clamp(25px, 7vw, 38px); }
+  .bonnes-situation-grid { grid-template-columns: 1fr; }
+  .bonnes-situation-grid__half,
+  .bonnes-situation-grid__small,
+  .bonnes-situation-grid__large { grid-column: span 1; }
+  .bonnes-situation-grid img { max-height: none; }
+  .bonnes-terrain-grid { gap: 28px; }
+  .bonnes-carousel-track,
+  .bonnes-carousel-track--application {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    grid-template-columns: none;
+    grid-auto-columns: min(82vw, 330px);
+    grid-auto-flow: column;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+  }
+  .bonnes-contact-recipes { padding: 14px; }
+  .bonnes-carousel-track figure { scroll-snap-align: start; }
+  .bonnes-contact-phone img { height: auto; max-height: 680px; }
+}
+
+@media (max-width: 480px) {
+  .bonnes-variant-grid,
+  .bonnes-colour-grid,
+  .bonnes-history-grid { grid-template-columns: 1fr; }
+  .bonnes-variant-grid__wide,
+  .bonnes-variant-grid__full { grid-column: span 1; }
+  .bonnes-horizontal-pair { grid-template-columns: 1fr; }
+  .bonnes-type-specimen { grid-template-columns: 1fr; }
+  .bonnes-type-specimen img { width: 96px; justify-self: center; }
+}
+
 /* Mobile nav section label */
 .ls-mobile-label {
   font-family: var(--font-poppins); font-size: 10px; font-weight: 600;
@@ -2721,21 +3227,21 @@ img.arc-palmier-icon { object-fit: contain; }
 .hfwi-affligem-a3grid {
   display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;
 }
-.hfwi-affligem-a3grid figure, .hfwi-affligem-encarts figure { background: #052448; }
-/* Les 4 visuels ne partagent pas le meme format : 2 portraits (1273x1800) puis
-   2 paysages (1800x1273). Un cadre 4/3 unique rognait les portraits de ~47%.
-   On regroupe par format, chaque rangee prend le ratio natif de ses images. */
-.hfwi-affligem-a3grid figure { overflow: hidden; }
-.hfwi-affligem-a3grid figure:nth-child(-n+2) { aspect-ratio: 1273 / 1800; }
-.hfwi-affligem-a3grid figure:nth-child(n+3)  { aspect-ratio: 1800 / 1273; }
-.hfwi-project .hfwi-affligem-a3grid img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.hfwi-affligem-a3grid figure {
+  min-width: 0; overflow: hidden; background: #052448;
+}
+.hfwi-project .hfwi-affligem-a3grid img {
+  width: 100%; height: auto; object-fit: contain; display: block;
+}
+.hfwi-affligem-encarts figure { background: #052448; }
 .hfwi-project .hfwi-affligem-encarts img {
   width: 100%; height: auto; object-fit: contain; display: block;
 }
 .hfwi-affligem-print-grid {
-  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 12px;
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;
+  width: 100%; margin: 12px 0 0;
 }
-.hfwi-affligem-print-grid figure { background: #052448; }
+.hfwi-affligem-print-grid figure { min-width: 0; background: #052448; }
 .hfwi-project .hfwi-affligem-print-grid img { width: 100%; height: auto; object-fit: contain; display: block; }
 .hfwi-affligem-encarts {
   display: grid; grid-template-columns: 1fr 1fr; gap: 8px;
@@ -2928,6 +3434,10 @@ img.arc-palmier-icon { object-fit: contain; }
   .hfwi-affligem-logo { width: min(182px, 72vw); }
   .hfwi-affligem-lead { min-height: 0; }
   .hfwi-affligem-section { padding-inline: 18px; }
+  .hfwi-affligem-a3grid { grid-template-columns: 1fr; }
+  .hfwi-affligem-print-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%;
+  }
   .hfwi-affligem-grid { grid-template-columns: 1fr; padding: 7px 18px 24px; }
   .hfwi-scouting { padding: 44px 18px 28px; }
   .hfwi-scouting-heading { grid-template-columns: 1fr; gap: 20px; }
