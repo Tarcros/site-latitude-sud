@@ -1591,10 +1591,15 @@ function initSmgeagProject() {
         </section>
 
         <section class="cist-case-section cist-case-section--tinted smgeag-case-section--tinted">
-          <div class="cist-section-heading">
-            <span>Construction</span>
-            <h3>Trouver l'essence sans perdre l'esthétique</h3>
-            <p>L'icône réunit une goutte, symbole de l'eau, et la lettre « G » pour la Guadeloupe. Leur fusion fait apparaître un mouvement proche du yin et du yang, symbole d'équilibre. Le bleu central représente l'assainissement de l'eau par le SMGEAG.</p>
+          <div class="smgeag-construction-heading">
+            <div class="cist-section-heading">
+              <span>Construction</span>
+              <h3>Trouver l'essence sans perdre l'esthétique</h3>
+              <p>L'icône réunit une goutte, symbole de l'eau, et la lettre « G » pour la Guadeloupe. Leur fusion fait apparaître un mouvement proche du yin et du yang, symbole d'équilibre. Le bleu central représente l'assainissement de l'eau par le SMGEAG.</p>
+            </div>
+            <div class="smgeag-construction-logo">
+              <img src="/assets/projects/smgeag/scr-20260804-imjstra.png" alt="Logo SMGEAG sans fond" loading="lazy">
+            </div>
           </div>
           <div class="smgeag-icon-grid">
             <figure><img src="/assets/projects/smgeag/icon-primary-trim.webp" alt="Icône principale du SMGEAG" loading="lazy"><figcaption>Bleu &amp; bleu ciel</figcaption></figure>
@@ -1692,6 +1697,194 @@ function initSmgeagProject() {
     });
   });
   modal.querySelectorAll('[data-smgeag-close]').forEach((element) => element.addEventListener('click', close));
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && modal.classList.contains('open')) close();
+  });
+}
+
+/* ── LE PRESSING CASE STUDY ───────────────────────────────────
+   SA Pressing devient Le Pressing — refonte identitaire 2022.
+   ───────────────────────────────────────────────────────────── */
+function initPressingProject() {
+  const triggers = document.querySelectorAll('[data-pressing-project]');
+  if (!triggers.length) return;
+
+  const modal = document.createElement('div');
+  modal.className = 'cist-case-modal pressing-case-modal';
+  modal.setAttribute('aria-hidden', 'true');
+  modal.innerHTML = `
+    <div class="cist-case-backdrop pressing-case-backdrop" data-pressing-close></div>
+    <div class="cist-case-dialog pressing-case-dialog" role="dialog" aria-modal="true" aria-labelledby="pressing-case-title">
+      <button class="cist-case-close pressing-case-close" type="button" data-pressing-close aria-label="Fermer">&times;</button>
+      <div class="cist-case-content">
+
+        <header class="cist-case-hero pressing-case-hero">
+          <div>
+            <span class="cist-case-badge pressing-case-badge">Rebranding</span>
+            <h2 id="pressing-case-title">Le Pressing</h2>
+            <p>SA Pressing devient Le Pressing — une refonte complète qui installe cette enseigne guadeloupéenne comme la référence du pressing sur le territoire.</p>
+            <span class="cist-case-meta pressing-case-meta">Logo · Système de marque · Couleurs · Typographie · Motifs · Applications</span>
+          </div>
+          <figure class="pressing-hero-logo">
+            <img src="/assets/projects/le-pressing/charte/page-05.webp" alt="Logo Le Pressing — identité graphique" loading="eager" decoding="async">
+          </figure>
+        </header>
+
+        <section class="cist-case-section">
+          <div class="cist-section-heading pressing-section-heading">
+            <span>Dans les coulisses</span>
+            <h3>De l'enseigne brute à la marque premium</h3>
+            <p>SA Pressing, pressing guadeloupéen historique avec deux adresses — Jarry et Gosier — cherchait à s'imposer comme la référence de son secteur. Face à une concurrence sans identité forte, l'opportunité était là : créer une marque digne de son ambition.</p>
+          </div>
+          <div class="pressing-brief-grid">
+            <article class="pressing-brief-card">
+              <h4>Philosophie</h4>
+              <ul><li>Premium</li><li>Professionnel</li><li>Efficacité</li><li>Convivialité</li></ul>
+            </article>
+            <article class="pressing-brief-card pressing-brief-card--accent">
+              <h4>Orientation</h4>
+              <ul><li>Adaptatif</li><li>Typographique</li><li>Sobre</li></ul>
+            </article>
+            <article class="pressing-brief-card pressing-brief-card--wide">
+              <h4>Objectif</h4>
+              <p>Créer une identité forte, premium et cohérente, revendiquant la référence du pressing sur le territoire guadeloupéen.</p>
+            </article>
+          </div>
+          <div class="pressing-avant-preview">
+            <figure>
+              <img src="/assets/projects/le-pressing/avant-apres/avant-agnes.webp" alt="Façade SA Pressing à Jarry avant la refonte" loading="lazy" decoding="async">
+              <figcaption><span class="pressing-label pressing-label--avant">Avant</span>Enseigne Jarry — SA Pressing</figcaption>
+            </figure>
+            <figure>
+              <img src="/assets/projects/le-pressing/avant-apres/avant-gosier.webp" alt="Façade SA Pressing au Gosier avant la refonte" loading="lazy" decoding="async">
+              <figcaption><span class="pressing-label pressing-label--avant">Avant</span>Enseigne Gosier — SA Pressing</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="cist-case-section cist-case-section--tinted pressing-case-section--tinted">
+          <div class="cist-section-heading pressing-section-heading">
+            <span>Notre solution</span>
+            <h3>Un signe typographique, une promesse cachée</h3>
+            <p>Nous avons opté pour un logo typographique assurant une facilité de lecture et d'utilisation. Le point du «&nbsp;i&nbsp;» de «&nbsp;pressing&nbsp;» est remplacé par une étoile — un symbole discret qui affirme la position de l'enseigne&nbsp;: le numéro&nbsp;1 du pressing en Guadeloupe.</p>
+          </div>
+          <figure class="pressing-logo-feature">
+            <img src="/assets/projects/le-pressing/charte/page-05.webp" alt="Logo Le pressing — Notre solution" loading="lazy" decoding="async">
+          </figure>
+          <figure class="pressing-concept-feature">
+            <img src="/assets/projects/le-pressing/charte/page-06.webp" alt="Symbole caché : le i devient 1, numéro 1 du pressing en Guadeloupe" loading="lazy" decoding="async">
+          </figure>
+        </section>
+
+        <section class="cist-case-section">
+          <div class="cist-section-heading pressing-section-heading">
+            <span>Système de marque</span>
+            <h3>Une identité pensée pour tous les supports</h3>
+            <p>Le logo se décline en version mono sur fond sombre ou clair, et en quatre combinaisons couleur — chaque variante conserve la même rigueur typographique et le même impact visuel.</p>
+          </div>
+          <div class="pressing-systeme-grid">
+            <figure><img src="/assets/projects/le-pressing/charte/page-08.webp" alt="Adaptabilité mono : Le pressing sur fond sombre et fond clair" loading="lazy" decoding="async"></figure>
+            <figure><img src="/assets/projects/le-pressing/charte/page-09.webp" alt="Adaptabilité couleur : 4 combinaisons navy et or" loading="lazy" decoding="async"></figure>
+          </div>
+        </section>
+
+        <section class="cist-case-section cist-case-section--tinted pressing-case-section--tinted">
+          <div class="cist-section-heading pressing-section-heading">
+            <span>Couleurs &amp; Typographie</span>
+            <h3>Deux couleurs, une seule police</h3>
+            <p>Le bleu marine #133246 ancre la marque dans la sobriété et le professionnalisme. L'or #F5C832 apporte chaleur et prestige. Poppins regular et bold assurent une lisibilité parfaite sur tous les formats, du numérique à l'enseigne.</p>
+          </div>
+          <figure class="pressing-full-img">
+            <img src="/assets/projects/le-pressing/charte/page-10.webp" alt="Couleurs et typographie Le Pressing : navy, or, Poppins" loading="lazy" decoding="async">
+          </figure>
+        </section>
+
+        <section class="cist-case-section">
+          <div class="cist-section-heading pressing-section-heading">
+            <span>Motifs</span>
+            <h3>Un univers visuel qui se déploie</h3>
+            <p>Un motif géométrique répétitif vient texturer l'espace de marque — déclinable sur fond blanc, navy ou or, il enrichit chaque support sans jamais concurrencer le logo.</p>
+          </div>
+          <figure class="pressing-full-img">
+            <img src="/assets/projects/le-pressing/charte/page-11.webp" alt="Motifs Le Pressing : géométrique répétitif sur trois fonds" loading="lazy" decoding="async">
+          </figure>
+        </section>
+
+        <section class="cist-case-section cist-case-section--tinted pressing-case-section--tinted">
+          <div class="cist-section-heading pressing-section-heading">
+            <span>Avant / Après · 01</span>
+            <h3>La vitrine de Jarry repensée</h3>
+            <p>L'enseigne brutale cède la place à une façade habillée, structurée, reconnaissable. Le même espace, une tout autre lecture.</p>
+          </div>
+          <div class="pressing-avant-apres-grid">
+            <figure class="pressing-aa-item">
+              <img src="/assets/projects/le-pressing/avant-apres/avant-agnes.webp" alt="Avant — Façade SA Pressing Jarry, identité sans cohérence" loading="lazy" decoding="async">
+              <figcaption><span class="pressing-label pressing-label--avant">Avant</span>SA Pressing — Jarry</figcaption>
+            </figure>
+            <figure class="pressing-aa-item">
+              <img src="/assets/projects/le-pressing/charte/page-14.webp" alt="Après — Façade Le Pressing Jarry, identité renouvelée" loading="lazy" decoding="async">
+              <figcaption><span class="pressing-label pressing-label--apres">Après</span>Le Pressing — Jarry</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="cist-case-section">
+          <div class="cist-section-heading pressing-section-heading">
+            <span>Avant / Après · 02</span>
+            <h3>De la façade au terrain</h3>
+            <p>Du Gosier à la route — la nouvelle identité s'affiche partout où Le Pressing est présent, y compris sur ses véhicules utilitaires.</p>
+          </div>
+          <div class="pressing-avant-apres-grid">
+            <figure class="pressing-aa-item">
+              <img src="/assets/projects/le-pressing/avant-apres/avant-gosier.webp" alt="Avant — Façade SA Pressing Gosier, enseigne générique" loading="lazy" decoding="async">
+              <figcaption><span class="pressing-label pressing-label--avant">Avant</span>SA Pressing — Gosier</figcaption>
+            </figure>
+            <figure class="pressing-aa-item">
+              <img src="/assets/projects/le-pressing/terrain/van-face.webp" alt="Après — Van Le Pressing avec la nouvelle identité graphique" loading="lazy" decoding="async">
+              <figcaption><span class="pressing-label pressing-label--apres">Après</span>Le Pressing — en situation</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="cist-case-section">
+          <div class="cist-section-heading pressing-section-heading">
+            <span>Applications</span>
+            <h3>Le pressing en situation</h3>
+          </div>
+          <figure class="pressing-fullbleed">
+            <img src="/assets/projects/le-pressing/charte/page-13.webp" alt="Tablier uniforme Le Pressing — application sur textile" loading="lazy" decoding="async">
+          </figure>
+          <div class="pressing-apps-grid">
+            <figure><img src="/assets/projects/le-pressing/charte/page-12.webp" alt="Papeterie Le Pressing — carte de visite et lettre à en-tête" loading="lazy" decoding="async"></figure>
+            <figure><img src="/assets/projects/le-pressing/terrain/van-lateral.webp" alt="Van Le Pressing — nouvelle identité en circulation" loading="lazy" decoding="async"></figure>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  const open = () => {
+    modal.classList.add('open');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    modal.querySelector('.pressing-case-close').focus();
+  };
+  const close = () => {
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  };
+  triggers.forEach((trigger) => {
+    trigger.setAttribute('role', 'button');
+    trigger.setAttribute('tabindex', '0');
+    trigger.addEventListener('click', (event) => { event.preventDefault(); open(); });
+    trigger.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); open(); }
+    });
+  });
+  modal.querySelectorAll('[data-pressing-close]').forEach((element) => element.addEventListener('click', close));
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape' && modal.classList.contains('open')) close();
   });
@@ -2195,6 +2388,7 @@ function initComponents(activePage, opts) {
   initCistProject();
   initBonnesEpicesProject();
   initSmgeagProject();
+  initPressingProject();
   initBeforeAfterModal();
   initCaseStudyContactCtas();
   initCaseScrollTopButtons();
