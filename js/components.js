@@ -455,6 +455,7 @@ function initProjectModal() {
         <button class="ls-modal-arrow ls-modal-arrow--next" data-modal-next aria-label="Visuel suivant">&#8250;</button>
       </div>
       <div class="ls-modal-dots" id="ls-modal-dots" aria-label="Choisir un visuel"></div>
+      <button class="ls-modal-totop" data-modal-totop aria-label="Remonter en haut">&#8593;</button>
     </div>`;
   document.body.appendChild(modal);
   initModalFocusTrap(modal);
@@ -468,7 +469,14 @@ function initProjectModal() {
   const titleEl = modal.querySelector('#ls-modal-title');
   const clientEl= modal.querySelector('#ls-modal-client');
   const descEl  = modal.querySelector('#ls-modal-desc');
+  const toTopBtn = modal.querySelector('[data-modal-totop]');
+  const viewport = modal.querySelector('.ls-modal-viewport');
   let slides = [], index = 0, mode = 'slider', lastFocus = null;
+
+  toTopBtn.addEventListener('click', () => viewport.scrollTo({ top: 0, behavior: 'smooth' }));
+  viewport.addEventListener('scroll', () => {
+    toTopBtn.classList.toggle('visible', viewport.scrollTop > 480);
+  }, { passive: true });
 
   const safeImageSource = (source) => {
     if (!source || !source.trim()) return '';
@@ -773,6 +781,7 @@ function initProjectModal() {
     track.style.transform = '';
     dialog.scrollTop = 0;
     modal.querySelector('.ls-modal-viewport').scrollTop = 0;
+    toTopBtn.classList.remove('visible');
     renderSlider();
     lastFocus = document.activeElement;
     modal.classList.add('open');
@@ -2363,6 +2372,380 @@ function initStickyBar() {
   onScroll();
 }
 
+/* ── CATALOGUE CASE STUDIES — architecture pilotée par les données ──────
+   Un seul gabarit HTML (renderCatalogueCaseHTML) pour toutes les études de
+   cas catalogue. Ajouter un nouveau client = ajouter une entrée à
+   CATALOGUE_CASE_STUDIES, sans dupliquer de markup.
+
+   cfg.sectionOrder liste les blocs à afficher, dans l'ordre choisi pour ce
+   client (voir CATALOGUE_SECTION_RENDERERS ci-dessous pour les types
+   disponibles). Un type absent de cfg (ex. processSteps) rend une chaîne
+   vide — la section n'apparaît tout simplement pas, sans placeholder.
+   ───────────────────────────────────────────────────────────────────── */
+/* Blocs génériques réutilisés tels quels par chaque étude de cas catalogue :
+   ils décrivent notre propre méthode d'agence, pas les assets du client,
+   donc rien n'est fabriqué en les partageant entre Foir'Fouille / Gamm vert / Carrefour. */
+const CATALOGUE_APPROACH_DEFAULT = {
+  kicker: 'Notre approche',
+  title: 'Une collaboration agile et durable, au service de l’impact en magasin',
+  cards: [
+    { title: 'Un partenaire de confiance depuis plus de 30 ans', text: 'Nous concevons des catalogues qui valorisent l’offre, inspirent les clients et renforcent l’attractivité prix. Une relation fondée sur la réactivité, la créativité et la connaissance fine de l’enseigne.' },
+    { title: 'Une méthode éprouvée', text: 'De la stratégie éditoriale à la production, nous construisons des prises de parole efficaces et cohérentes, pensées pour le parcours client et adaptables à tous les points de contact, du print au digital.' }
+  ]
+};
+const CATALOGUE_EXPERTISE_DEFAULT = {
+  kicker: 'Nos expertises',
+  title: 'Création design, direction éditoriale &amp; exécution',
+  items: [
+    { title: 'Stratégie', text: 'Ligne éditoriale, ton, mise en avant des temps forts et des offres.' },
+    { title: 'Direction éditoriale', text: 'Sélection des produits, hiérarchisation des messages, maquettes.' },
+    { title: 'Design', text: 'Univers graphique, mise en page, iconographie, habillage.' },
+    { title: 'Exécution', text: 'Pré-presse, déclinaisons print &amp; digital, suivi de production.' }
+  ]
+};
+const CATALOGUE_SERVICES_DEFAULT = {
+  kicker: 'Notre accompagnement',
+  title: 'Ce que nous prenons en charge',
+  text: 'Nous accompagnons chaque édition de sa structuration éditoriale jusqu’à ses déclinaisons print et digitales.',
+  items: [
+    { title: 'Direction éditoriale', text: 'Organisation des univers, hiérarchisation des offres et construction du chemin de lecture.' },
+    { title: 'Conception graphique', text: 'Création des maquettes, mise en page et valorisation visuelle des produits.' },
+    { title: 'Exécution &amp; prépresse', text: 'Déclinaisons des pages, contrôles techniques et préparation des fichiers destinés à l’impression.' },
+    { title: 'Campagnes digitales', text: 'Adaptation des univers catalogue aux formats sociaux et publicitaires disponibles.' }
+  ]
+};
+
+const CATALOGUE_CASE_STUDIES = {
+  foirfouille: {
+    client: 'La Foir’Fouille',
+    logo: '/assets/logos/Logo-Clients-black-la-foir-fouille.svg',
+    sector: 'Maison · Décoration · Bons plans',
+    theme: { accent: '#D71920', accentDark: '#A81419', accentSoft: '#FFF1EF' },
+    sectionOrder: ['showcase', 'catalogues', 'campaigns', 'services', 'footer'],
+    intro: {
+      text: 'Une saga print, une exigence retail, une cohérence de marque. Depuis plus de 30 ans, nous accompagnons La Foir’Fouille dans la conception et la production de ses catalogues et de ses prises de parole promotionnelles.'
+    },
+    highlights: [
+      { value: '3', label: 'exemples présentés', desc: 'Sélection représentative, conception et direction artistique complètes' },
+      { value: 'campagnes', label: 'toute l’année', desc: 'Print &amp; digital' },
+      { value: 'print &amp; social', desc: 'Formats tactiques, inserts et prises de parole' }
+    ],
+    approach: CATALOGUE_APPROACH_DEFAULT,
+    expertise: CATALOGUE_EXPERTISE_DEFAULT,
+    /* Réservé aux futures études de cas (Mr Bricolage, Decathlon) : étapes de
+       transformation visuelle affichées entre "Nos expertises" et "Réalisations".
+       undefined ici → aucune section, aucun placeholder sur La Foir'Fouille. */
+    processSteps: undefined,
+    showcase: {
+      kicker: 'Réalisations',
+      title: 'Des supports impactants pour chaque moment de l’année',
+      note: 'Une sélection de trois catalogues parmi les nombreuses éditions conçues pour accompagner les temps forts commerciaux de l’enseigne.',
+      subnote: '',
+      image: '/assets/projects/catalogues/la-foir-fouille/showcase-trois-catalogues.webp',
+      alt: 'Trois couvertures de catalogues La Foir’Fouille : Maison &amp; Rangement, Jardin &amp; Extérieur, Fêtes &amp; fin d’année'
+    },
+    catalogues: [
+      {
+        layout: 'cover-left', label: 'Catalogue', title: 'Maison &amp; Rangement',
+        text: 'Des sélections inspirantes pour organiser, décorer et vivre la maison. Un parcours clair et visuel pour faciliter le choix.',
+        cta: 'Voir un exemple', ctaHref: '/assets/projects/catalogues/la-foir-fouille/maison-cover.webp',
+        cover: '/assets/projects/catalogues/la-foir-fouille/maison-cover.webp', coverAlt: 'Couverture du catalogue La Foir’Fouille Maison &amp; Rangement',
+        pages: [
+          { src: '/assets/projects/catalogues/la-foir-fouille/maison-page-02.webp', alt: 'Page intérieure du catalogue Maison &amp; Rangement' },
+          { src: '/assets/projects/catalogues/la-foir-fouille/maison-page-03.webp', alt: 'Page intérieure du catalogue Maison &amp; Rangement' },
+          { src: '/assets/projects/catalogues/la-foir-fouille/maison-page-05.webp', alt: 'Page intérieure du catalogue Maison &amp; Rangement' },
+          { src: '/assets/projects/catalogues/la-foir-fouille/maison-page-06.webp', alt: 'Page intérieure du catalogue Maison &amp; Rangement' }
+        ]
+      },
+      {
+        layout: 'cover-right', label: 'Catalogue', title: 'Jardin &amp; Extérieur',
+        text: 'Des ambiances conviviales pour profiter pleinement des beaux jours. Des offres mises en scène dans des univers désirables.',
+        cta: 'Voir un exemple', ctaHref: '/assets/projects/catalogues/la-foir-fouille/jardin-cover.webp',
+        cover: '/assets/projects/catalogues/la-foir-fouille/jardin-cover.webp', coverAlt: 'Couverture du catalogue La Foir’Fouille Jardin &amp; Extérieur',
+        pages: [
+          { src: '/assets/projects/catalogues/la-foir-fouille/jardin-page-02.webp', alt: 'Page intérieure du catalogue Jardin &amp; Extérieur' },
+          { src: '/assets/projects/catalogues/la-foir-fouille/jardin-page-03.webp', alt: 'Page intérieure du catalogue Jardin &amp; Extérieur' },
+          { src: '/assets/projects/catalogues/la-foir-fouille/jardin-page-04.webp', alt: 'Page intérieure du catalogue Jardin &amp; Extérieur' },
+          { src: '/assets/projects/catalogues/la-foir-fouille/jardin-page-05.webp', alt: 'Page intérieure du catalogue Jardin &amp; Extérieur' }
+        ]
+      },
+      {
+        layout: 'cover-left', label: 'Catalogue', title: 'Fêtes &amp; Monde de la maison',
+        text: 'Des idées cadeaux et déco pour toutes les occasions. Des inspirations festives et chaleureuses.',
+        cta: 'Voir un exemple', ctaHref: '/assets/projects/catalogues/la-foir-fouille/fetes-cover.webp',
+        cover: '/assets/projects/catalogues/la-foir-fouille/fetes-cover.webp', coverAlt: 'Couverture du catalogue La Foir’Fouille Fêtes &amp; fin d’année',
+        pages: [
+          { src: '/assets/projects/catalogues/la-foir-fouille/fetes-page-02.webp', alt: 'Page intérieure du catalogue Fêtes &amp; Monde de la maison' },
+          { src: '/assets/projects/catalogues/la-foir-fouille/fetes-page-03.webp', alt: 'Page intérieure du catalogue Fêtes &amp; Monde de la maison' },
+          { src: '/assets/projects/catalogues/la-foir-fouille/fetes-page-04.webp', alt: 'Page intérieure du catalogue Fêtes &amp; Monde de la maison' },
+          { src: '/assets/projects/catalogues/la-foir-fouille/fetes-page-05.webp', alt: 'Page intérieure du catalogue Fêtes &amp; Monde de la maison' }
+        ]
+      }
+    ],
+    /* Seul le format story vertical est affiché (à la demande du client) ;
+       les exports carrés réels restent sur disque, non utilisés ici — comme
+       les assets "workflow" réservés aux futures études de cas. */
+    campaigns: {
+      kicker: 'Campagnes', title: 'Campagnes multi-formats',
+      subtitle: 'Exemples de stories verticales, un visuel par univers.',
+      rows: [
+        { universe: 'Maison &amp; Rangement', items: [
+          { src: '/assets/projects/catalogues/la-foir-fouille/campaigns/maison-story.webp', alt: 'Story La Foir’Fouille Maison &amp; Rangement', caption: 'Story — vertical', ratioClass: 'campaign-portrait' }
+        ]},
+        { universe: 'Jardin &amp; Extérieur', items: [
+          { src: '/assets/projects/catalogues/la-foir-fouille/campaigns/jardin-story.webp', alt: 'Story La Foir’Fouille Jardin &amp; Extérieur', caption: 'Story — vertical', ratioClass: 'campaign-portrait' }
+        ]},
+        { universe: 'Fêtes &amp; fin d’année', items: [
+          { src: '/assets/projects/catalogues/la-foir-fouille/campaigns/fetes-story.webp', alt: 'Story La Foir’Fouille Fêtes &amp; fin d’année', caption: 'Story — vertical', ratioClass: 'campaign-portrait' }
+        ]}
+      ]
+    },
+    services: CATALOGUE_SERVICES_DEFAULT,
+    conclusion: 'Une exigence de qualité, une parfaite gestion des délais et une compréhension fine des enjeux retail font de notre collaboration avec La Foir’Fouille une relation durable et performante.',
+    footer: {
+      mark: '◎',
+      eyebrow: 'Prochaine édition',
+      title: 'Donnons plus d’impact à vos prochaines éditions',
+      description: 'Catalogue, exécution print et campagnes digitales : construisons un dispositif cohérent autour de vos temps forts commerciaux.',
+      ctaLabel: 'Parler de votre projet',
+      ctaHref: '/pages/contact.html'
+    }
+  },
+
+  'gamm-vert': {
+    client: 'Gamm vert',
+    logo: '/assets/logos/gamm-vert-official.webp',
+    sector: 'Jardin · Maison · Saisonnalité',
+    theme: { accent: '#4A8B2C', accentDark: '#376B20', accentSoft: '#F1F7E8' },
+    sectionOrder: ['showcase', 'catalogues', 'campaigns', 'services', 'footer'],
+    intro: { text: 'Deux éditions qui passent de l’inspiration au choix produit. Les usages guident la lecture : végétal, potager, extérieur et accompagnement du jardinier.' },
+    highlights: [
+      { value: '2', label: 'exemples présentés', desc: 'Sélection représentative, conception et direction artistique complètes' },
+      { value: '971', label: 'Guadeloupe', desc: 'Réseau de magasins de l’enseigne' },
+      { value: 'Print', desc: 'Catalogue saisonnier, charte enseigne respectée' }
+    ],
+    approach: CATALOGUE_APPROACH_DEFAULT,
+    expertise: CATALOGUE_EXPERTISE_DEFAULT,
+    processSteps: undefined,
+    showcase: {
+      kicker: 'Deux catalogues, deux temps forts', title: 'Des couvertures qui installent immédiatement le sujet',
+      note: 'Deux prises de parole saisonnières distinctes : « Vacances à la maison », diffusée du 29 juin au 27 juillet, et « Bonne fête maman ! », proposée du 18 mai au 11 juin 2023. Chaque couverture réunit la période commerciale, le thème de l’édition et un produit d’appel avant de conduire vers un parcours d’offres organisé par usages.',
+      subnote: '',
+      image: '/assets/projects/catalogues/gamme-vert/couvgamvert.jpg',
+      alt: 'Mockup des catalogues Gamm vert Vacances à la maison et Bonne fête maman'
+    },
+    catalogues: [
+      {
+        layout: 'cover-left', label: 'Catalogue · Été', title: 'Vacances à la maison',
+        text: 'Diffusée du 29 juin au 27 juillet, cette édition s’ouvre sur un hamac mis en situation dans un jardin et déroule ensuite les usages de la saison. Les pages intérieures structurent les offres autour de la détente, des repas en extérieur, de la réception et des loisirs : mobilier de jardin, voiles d’ombrage, piscines, spas, barbecues et équipements pour recevoir. Les bandeaux de rubrique, les grands visuels d’ambiance et les blocs prix permettent de changer d’univers tout en gardant une lecture commerciale continue.',
+        cover: '/assets/projects/catalogues/gamme-vert/couvgammvert1.png', coverAlt: 'Mockup du catalogue Gamm vert Vacances à la maison',
+        pages: [
+          { src: '/assets/projects/catalogues/gamme-vert/catalogue-01-page-02.webp', alt: 'Page intérieure 2 du catalogue Gamm vert Vacances à la maison' },
+          { src: '/assets/projects/catalogues/gamme-vert/catalogue-01-page-03.webp', alt: 'Page intérieure 3 du catalogue Gamm vert Vacances à la maison' },
+          { src: '/assets/projects/catalogues/gamme-vert/catalogue-01-page-04.webp', alt: 'Page intérieure 4 du catalogue Gamm vert Vacances à la maison' },
+          { src: '/assets/projects/catalogues/gamme-vert/catalogue-01-page-05.webp', alt: 'Page intérieure 5 du catalogue Gamm vert Vacances à la maison' }
+        ]
+      },
+      {
+        layout: 'cover-right', label: 'Catalogue · Fête des mères', title: 'Bonne fête maman !',
+        text: 'Proposée du 18 mai au 11 juin 2023, cette édition associe la fête des mères aux univers végétal, jardin et maison. La couverture met en avant une sélection de phalaenopsis, puis les pages présentent fleurs, orchidées, pots, terreaux et accessoires avant d’élargir le parcours à la motoculture et à l’entretien extérieur. Le rose identifie le temps fort cadeau, tandis que le vert Gamm vert et les cartouches rouges assurent la continuité de marque et la visibilité des offres.',
+        cover: '/assets/projects/catalogues/gamme-vert/Catalogue fond blanc vertical.png', coverAlt: 'Mockup du catalogue Gamm vert Bonne fête maman',
+        pages: [
+          { src: '/assets/projects/catalogues/gamme-vert/catalogue-02-page-02.webp', alt: 'Page intérieure 2 du catalogue Gamm vert Bonne fête maman' },
+          { src: '/assets/projects/catalogues/gamme-vert/catalogue-02-page-03.webp', alt: 'Page intérieure 3 du catalogue Gamm vert Bonne fête maman' },
+          { src: '/assets/projects/catalogues/gamme-vert/catalogue-02-page-04.webp', alt: 'Page intérieure 4 du catalogue Gamm vert Bonne fête maman' },
+          { src: '/assets/projects/catalogues/gamme-vert/catalogue-02-page-05.webp', alt: 'Page intérieure 5 du catalogue Gamm vert Bonne fête maman' }
+        ]
+      }
+    ],
+    campaigns: {
+      kicker: 'Campagne multi-formats', title: 'Bien se reposer — voilà mon projet',
+      subtitle: 'Une même prise de parole déclinée pour plusieurs points de contact. La story verticale, la publication carrée et le header Facebook reprennent la période du 26 mars au 25 avril, la promesse « Bien se reposer — voilà mon projet » et l’appel à découvrir le nouveau catalogue, avec une composition adaptée à chaque ratio.',
+      rows: [
+        { universe: 'Story', items: [
+          { src: '/assets/projects/catalogues/gamme-vert/campaigns/bien-se-reposer-story.webp', alt: 'Story Gamm vert Bien se reposer — voilà mon projet', caption: 'Story', ratioClass: 'campaign-portrait' }
+        ]},
+        { universe: 'Carré', items: [
+          { src: '/assets/projects/catalogues/gamme-vert/campaigns/bien-se-reposer-square.webp', alt: 'Visuel carré Gamm vert Bien se reposer — voilà mon projet', caption: 'Carré', ratioClass: 'campaign-square' }
+        ]},
+        { universe: 'Header Facebook', items: [
+          { src: '/assets/projects/catalogues/gamme-vert/campaigns/bien-se-reposer-header-mockup.webp', alt: 'Mockup du header Facebook Gamm vert Bien se reposer — voilà mon projet', caption: 'Header Facebook', ratioClass: 'campaign-square campaign-wide' }
+        ]}
+      ]
+    },
+    services: CATALOGUE_SERVICES_DEFAULT,
+    conclusion: 'Une exigence de qualité, une parfaite gestion des délais et une compréhension fine des enjeux jardinerie font de notre collaboration avec Gamm vert une relation durable et performante.',
+    footer: {
+      mark: '◎', eyebrow: 'Prochaine édition',
+      title: 'Donnons plus d’impact à vos prochaines éditions',
+      description: 'Catalogue, exécution print et campagnes digitales : construisons un dispositif cohérent autour de vos temps forts commerciaux.',
+      ctaLabel: 'Parler de votre projet', ctaHref: '/pages/contact.html'
+    }
+  },
+
+  carrefour: {
+    client: 'Carrefour',
+    logo: '/assets/logos/Logo-Clients-black-carrefour.svg',
+    sector: 'Grande distribution · Guadeloupe',
+    theme: { accent: '#254F9A', accentDark: '#1B3C78', accentSoft: '#EEF3FA' },
+    sectionOrder: ['showcase', 'catalogues', 'campaigns', 'services', 'footer'],
+    intro: { text: 'Trois éditions commerciales qui organisent des univers très différents dans une lecture commune. Les temps forts, les sélections et les repères de rayon restent identifiables dès le premier regard.' },
+    highlights: [
+      { value: '3', label: 'exemples présentés', desc: 'De l’alimentaire aux univers maison' },
+      { value: '971', label: 'Guadeloupe', desc: 'Communication adaptée au marché local' },
+      { value: 'Print', desc: 'Catalogue commercial, charte enseigne respectée' }
+    ],
+    approach: CATALOGUE_APPROACH_DEFAULT,
+    expertise: CATALOGUE_EXPERTISE_DEFAULT,
+    processSteps: undefined,
+    showcase: {
+      kicker: 'Réalisations', title: 'Une collection prête à circuler',
+      note: 'Trois éditions distinctes réunies par les mêmes repères de marque.',
+      subnote: '',
+      image: '/assets/projects/catalogues/carrefour/mockup-catalogue-carrefour.webp',
+      alt: 'Pile de catalogues Carrefour imprimés'
+    },
+    catalogues: [
+      { layout: 'cover-left', label: 'Catalogue', title: 'Le marché frais', text: 'Une entrée directe par la fraîcheur et les produits du quotidien.', cover: '/assets/projects/catalogues/carrefour/catalogue-01.webp', coverAlt: 'Catalogue Carrefour marché frais', pages: [] },
+      { layout: 'cover-right', label: 'Catalogue', title: 'Le quotidien', text: 'Les familles de produits courants, organisées pour une lecture rapide.', cover: '/assets/projects/catalogues/carrefour/catalogue-02.webp', coverAlt: 'Catalogue Carrefour quotidien', pages: [] },
+      { layout: 'cover-left', label: 'Catalogue', title: 'Maison et loisirs', text: 'Un univers plus large, avec la même signature graphique.', cover: '/assets/projects/catalogues/carrefour/catalogue-03.webp', coverAlt: 'Catalogue Carrefour maison et loisirs', pages: [] }
+    ],
+    campaigns: { kicker: 'Campagnes', title: 'Campagnes multi-formats', subtitle: '', comingSoon: true, rows: [] },
+    services: CATALOGUE_SERVICES_DEFAULT,
+    conclusion: 'Une exigence de qualité, une parfaite gestion des délais et une compréhension fine des enjeux retail font de notre collaboration avec Carrefour une relation durable et performante.',
+    footer: {
+      mark: '◎', eyebrow: 'Prochaine édition',
+      title: 'Donnons plus d’impact à vos prochaines éditions',
+      description: 'Catalogue, exécution print et campagnes digitales : construisons un dispositif cohérent autour de vos temps forts commerciaux.',
+      ctaLabel: 'Parler de votre projet', ctaHref: '/pages/contact.html'
+    }
+  }
+};
+
+/* Un renderer par type de section — chacun rend '' si les données
+   correspondantes sont absentes, donc jamais de section ni de
+   placeholder pour un bloc facultatif non renseigné. */
+const CATALOGUE_SECTION_RENDERERS = {
+  hero: (cfg) => `
+        <header class="cat-case-hero"><div><span>${cfg.sector}</span><h2>${cfg.client}</h2><p>${cfg.intro.text}</p></div><img src="${cfg.logo}" alt="${cfg.client}"></header>`,
+
+  overview: (cfg) => cfg.highlights ? `
+        <section>
+          <div class="cat-case-facts cat-case-facts--split">
+            ${cfg.highlights.map(h => `<div><strong>${h.value}</strong>${h.label ? `<b>${h.label}</b>` : ''}<span>${h.desc}</span></div>`).join('\n            ')}
+          </div>
+        </section>` : '',
+
+  approach: (cfg) => cfg.approach ? `
+        <section><div class="cat-case-heading"><span>${cfg.approach.kicker}</span><h3>${cfg.approach.title}</h3></div>
+          <div class="cat-case-split">
+            ${cfg.approach.cards.map(c => `<article><h4>${c.title}</h4><p>${c.text}</p></article>`).join('\n            ')}
+          </div>
+        </section>` : '',
+
+  expertise: (cfg) => cfg.expertise ? `
+        <section><div class="cat-case-heading"><span>${cfg.expertise.kicker}</span><h3>${cfg.expertise.title}</h3></div>
+          <div class="cat-case-method cat-case-method--plain">
+            ${cfg.expertise.items.map(i => `<article><strong>${i.title}</strong><p>${i.text}</p></article>`).join('\n            ')}
+          </div>
+        </section>` : '',
+
+  process: (cfg) => (cfg.processSteps && cfg.processSteps.enabled && cfg.processSteps.steps && cfg.processSteps.steps.length) ? `
+        <section><div class="cat-case-heading"><span>${cfg.processSteps.kicker || 'Notre méthode'}</span><h3>${cfg.processSteps.title}</h3>${cfg.processSteps.description ? `<p>${cfg.processSteps.description}</p>` : ''}</div>
+          <div class="cat-case-workflow">
+            ${cfg.processSteps.steps.map(row => `
+            <div class="cat-case-workflow__row">
+              <figure class="cat-case-workflow__ph"><span>Visuel en attente</span><small>Image brute à ajouter</small></figure>
+              <span class="cat-case-workflow__arrow" aria-hidden="true">→</span>
+              <figure class="cat-case-workflow__media"><img src="${row.media}" alt="${row.alt}" loading="lazy"><figcaption>Image retravaillée</figcaption></figure>
+              <span class="cat-case-workflow__arrow" aria-hidden="true">→</span>
+              <figure class="cat-case-workflow__ph"><span>Visuel en attente</span><small>Intégration finale à ajouter</small></figure>
+            </div>`).join('\n')}
+          </div>
+        </section>` : '',
+
+  showcase: (cfg) => cfg.showcase ? `
+        <section><div class="cat-case-heading"><span>${cfg.showcase.kicker}</span><h3>${cfg.showcase.title}</h3><p>${cfg.showcase.note}</p></div>
+          <figure class="cat-case-showcase"><img src="${cfg.showcase.image}" alt="${cfg.showcase.alt}" loading="lazy"></figure>
+          ${cfg.showcase.subnote ? `<p class="cat-case-showcase-note">${cfg.showcase.subnote}</p>` : ''}
+        </section>` : '',
+
+  catalogues: (cfg) => cfg.catalogues ? `
+        <section>
+          ${cfg.catalogues.map(cat => `<article class="cat-case-catalogue cat-case-catalogue--${cat.layout}">
+            <div class="cat-case-catalogue__text">
+              <span>${cat.label}</span>
+              <h4>${cat.title}</h4>
+              <p>${cat.text}</p>
+            </div>
+            <figure class="cat-case-catalogue__cover"><img src="${cat.cover}" alt="${cat.coverAlt}" loading="lazy"></figure>
+            ${cat.pages && cat.pages.length ? `<div class="cat-case-catalogue__pages">
+              ${cat.pages.map(p => `<figure><img src="${p.src}" alt="${p.alt}" loading="lazy"></figure>`).join('\n              ')}
+            </div>` : `<div class="cat-case-catalogue__soon">Aperçus des pages intérieures à venir</div>`}
+          </article>`).join('\n          ')}
+        </section>` : '',
+
+  campaigns: (cfg) => cfg.campaigns ? `
+        <section><div class="cat-case-heading"><span>${cfg.campaigns.kicker}</span><h3>${cfg.campaigns.title}</h3>${cfg.campaigns.subtitle ? `<p>${cfg.campaigns.subtitle}</p>` : ''}</div>
+          ${cfg.campaigns.comingSoon ? `<p class="cat-case-campaigns__soon">Déclinaisons campagnes à venir</p>` : `<div class="cat-case-campaigns">
+            ${cfg.campaigns.rows.map(row => `<div class="cat-case-campaigns__row">
+              <div class="cat-case-campaigns__items">
+                ${row.items.map(i => `<figure><img class="${i.ratioClass}" src="${i.src}" alt="${i.alt}" loading="lazy"></figure>`).join('\n                ')}
+              </div>
+            </div>`).join('\n            ')}
+          </div>`}
+        </section>` : '',
+
+  services: (cfg) => cfg.services ? `
+        <section><div class="cat-case-heading"><span>${cfg.services.kicker}</span><h3>${cfg.services.title}</h3><p>${cfg.services.text}</p></div>
+          <div class="cat-case-services">
+            ${cfg.services.items.map((s, i) => `<article><b>${String(i + 1).padStart(2, '0')}</b><h4>${s.title}</h4><p>${s.text}</p></article>`).join('\n            ')}
+          </div>
+        </section>` : '',
+
+  footer: (cfg) => cfg.footer ? `
+        ${cfg.conclusion ? `<section><p class="cat-case-conclusion">${cfg.conclusion}</p></section>` : ''}
+        <footer class="ls-case-contact-footer ls-case-contact-footer--rich">
+          <span class="ls-case-contact-icon" aria-hidden="true">${cfg.footer.mark || '◎'}</span>
+          <div>
+            ${cfg.footer.eyebrow ? `<span class="cat-case-footer__eyebrow">${cfg.footer.eyebrow}</span>` : ''}
+            <strong>${cfg.footer.title}</strong>
+            <p>${cfg.footer.description}</p>
+          </div>
+          <a href="${cfg.footer.ctaHref}">${cfg.footer.ctaLabel} <span aria-hidden="true">→</span></a>
+        </footer>` : ''
+};
+
+function renderCatalogueCaseHTML(id, cfg) {
+  const order = cfg.sectionOrder || ['hero', 'overview', 'approach', 'expertise', 'process', 'showcase', 'catalogues', 'campaigns', 'services', 'footer'];
+  const body = order
+    .map((type) => (CATALOGUE_SECTION_RENDERERS[type] ? CATALOGUE_SECTION_RENDERERS[type](cfg) : ''))
+    .join('\n');
+  return `
+      <article class="cat-case cat-case--${id}" style="--cat-accent:${cfg.theme.accent};--cat-accent-dark:${cfg.theme.accentDark || cfg.theme.accent};--cat-soft:${cfg.theme.accentSoft}">${body}
+      </article>`;
+}
+
+function initCatalogueCaseStudies() {
+  Object.keys(CATALOGUE_CASE_STUDIES).forEach((id) => {
+    const cfg = CATALOGUE_CASE_STUDIES[id];
+    const tpl = document.getElementById(`tpl-cat-${id}`);
+    if (!tpl) return;
+    tpl.innerHTML = renderCatalogueCaseHTML(id, cfg);
+    /* The shared modal footer (applyCaseStudyContactCta) overwrites the
+       embedded footer's title/copy from the trigger card's dataset — keep
+       cfg.footer as the single source of truth by setting it here instead
+       of hand-duplicating the text as HTML attributes in catalogue.html. */
+    if (cfg.footer) {
+      const trigger = document.querySelector(`[data-project-custom-template="tpl-cat-${id}"]`);
+      if (trigger) {
+        trigger.dataset.projectCtaTitle = cfg.footer.title;
+        trigger.dataset.projectCtaCopy = cfg.footer.description;
+      }
+    }
+  });
+}
+
 /* ── INIT ALL ──
    Header/footer are inserted synchronously above, so every target element
    already exists. We call the feature inits directly (NOT via
@@ -2370,6 +2753,7 @@ function initStickyBar() {
    otherwise delay reveals / filters / the modal until the tab is focused). */
 function initComponents(activePage, opts) {
   opts = opts || {};
+  initCatalogueCaseStudies();
   /* Sticky bar is disabled by default for now. Set stickyBar: true to re-enable it. */
   const withStickyBar = opts.stickyBar === true;
 
