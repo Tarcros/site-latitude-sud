@@ -5486,8 +5486,8 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
 
 /* ============================================================
    AUTO DISCOUNT (.adc-*) — location de véhicules Antilles-Guyane
-   Identité : bleu marine + orange. object-fit:contain partout
-   (jamais de crop des visuels produit/campagne, cf. retours client).
+   Identité : bleu marine + orange. Les formats éditoriaux remplissent
+   leurs cadres natifs ; les sources produit restent affichées sans crop.
    ============================================================ */
 .ls-modal.custom-mode .ls-modal-dialog:has(.adc-case) { width:min(98vw,1440px); height:94vh; max-height:94vh; border-radius:20px; background:#FFF; }
 .ls-modal.custom-mode .ls-modal-viewport:has(.adc-case) { background:#FFF; }
@@ -5512,28 +5512,13 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
 .adc-case p { margin:0; color:var(--adc-muted); font-size:clamp(14px,1.02vw,15.5px); line-height:1.65; }
 .adc-eyebrow { display:inline-flex; align-items:center; gap:8px; font-family:var(--font-poppins); font-size:11px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--adc-orange); margin-bottom:12px; }
 
-/* 01 — Hero : texte à gauche, téléphones + formes de marque à droite */
-.adc-hero { padding-top:clamp(28px,3vw,44px) !important; padding-bottom:clamp(28px,3vw,44px) !important; overflow:hidden; }
-.adc-hero__grid { display:grid; grid-template-columns:.92fr 1fr; gap:clamp(32px,4vw,64px); align-items:center; }
-.adc-hero__copy p { max-width:440px; margin-top:14px; }
-.adc-hero__visual { position:relative; aspect-ratio:1/.9; }
-.adc-hero__blob {
-  position:absolute; right:-8%; top:50%; transform:translateY(-50%); width:80%; aspect-ratio:1; z-index:0;
-  border-radius:48% 52% 55% 45% / 52% 48% 52% 48%; background:var(--adc-navy);
+/* 01 — Hero final aplati : une image complète desktop + une déclinaison mobile */
+.adc-hero { padding:clamp(12px,1.5vw,22px) !important; overflow:hidden; }
+.adc-hero__complete {
+  display:block; overflow:hidden; margin:0; border:1px solid #E0E3EA; border-radius:24px;
+  background:#F7F8FA; box-shadow:0 18px 48px rgba(25,30,51,.08);
 }
-.adc-hero__leaf {
-  position:absolute; left:0; bottom:2%; width:30%; aspect-ratio:.62; z-index:0; opacity:.55;
-  background:var(--adc-orange); border-radius:0% 100% 0% 100% / 0% 100% 0% 100%;
-}
-.adc-hero__phones { position:absolute; inset:0; z-index:1; }
-.adc-phone {
-  position:absolute; width:46%; aspect-ratio:9/18.5; border-radius:28px; background:#0A0A0A; padding:7px;
-  box-shadow:0 30px 60px rgba(10,15,40,.4);
-}
-.adc-phone__screen { width:100%; height:100%; border-radius:21px; overflow:hidden; background:#FFF; }
-.adc-phone__screen img { width:100%; height:100%; object-fit:cover; display:block; }
-.adc-phone--back { left:6%; top:4%; transform:rotate(-9deg); z-index:1; filter:brightness(.8); }
-.adc-phone--front { right:4%; bottom:2%; transform:rotate(6deg); z-index:2; }
+.adc-hero__complete img { display:block; width:100%; height:auto; object-fit:contain; }
 
 /* 02 — Intro éditoriale légère (au-dessus du 1er workflow) */
 .adc-intro { text-align:left; padding-bottom:0 !important; }
@@ -5550,23 +5535,37 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
 
 /* 03 — Workflow : pile de 3 sources → flèche → composition → flèche → post final */
 .adc-workflow { padding-top:0 !important; }
-.adc-wf__grid { display:grid; grid-template-columns:minmax(110px,170px) auto minmax(0,1.15fr) auto minmax(0,1fr); gap:clamp(12px,1.6vw,22px); align-items:center; }
+.adc-workflow__title { margin-bottom:22px !important; }
+.adc-wf__grid { display:grid; grid-template-columns:minmax(110px,170px) auto minmax(0,1fr) auto minmax(0,1fr); gap:clamp(12px,1.6vw,22px); align-items:center; }
 .adc-wf__sources { display:grid; gap:11px; align-self:stretch; }
-.adc-wf__cell { margin:0; aspect-ratio:1/1; border-radius:12px; overflow:hidden; background:var(--adc-tint); border:1px solid var(--adc-line); }
+.adc-wf__sources--two { align-content:center; }
+.adc-wf__cell {
+  margin:0; aspect-ratio:1/1; border-radius:12px; overflow:hidden; background:#F0F2F6;
+  border:1px solid #DCE0E8; box-shadow:0 8px 18px rgba(32,35,53,.045);
+}
 .adc-wf__cell img { width:100%; height:100%; object-fit:contain; display:block; }
-.adc-wf__cell--main { aspect-ratio:4/5; }
-.adc-wf__cell--final { aspect-ratio:4/5; background:#FAFAFB; }
+.adc-wf__cell--product { background:linear-gradient(145deg,#EAEDF3,#F8F8FA); }
+.adc-wf__cell--product img { padding:8px; box-sizing:border-box; }
+.adc-wf__cell--car img { padding:0; transform:scale(1.2); }
+.adc-wf__cell--main, .adc-wf__cell--final {
+  aspect-ratio:4/5; border:1px solid #D8DDE7; border-radius:16px; background:#F1F3F6;
+  box-shadow:0 14px 30px rgba(31,36,60,.09);
+}
+.adc-wf__cell--main img, .adc-wf__cell--final img { object-fit:cover; }
 .adc-wf__arrow { color:var(--adc-orange); font-size:20px; line-height:1; text-align:center; }
 .adc-cap { margin-top:8px; text-align:center; font-family:var(--font-poppins); font-size:11.5px; font-weight:600; color:var(--adc-ink); }
 
 /* 04 — Duos pleine largeur : carré (autres exemples) et 4:5 (déclinaisons) */
 .adc-duo, .adc-duo45 { display:grid; grid-template-columns:1fr 1fr; gap:clamp(20px,2.4vw,36px); }
-.adc-duo figure, .adc-duo45 figure { margin:0; border-radius:16px; overflow:hidden; background:var(--adc-tint); }
+.adc-duo figure, .adc-duo45 figure {
+  margin:0; border:1px solid #D8DDE7; border-radius:16px; overflow:hidden; background:#F0F2F6;
+  box-shadow:0 12px 28px rgba(31,36,60,.07);
+}
 .adc-duo figure { aspect-ratio:1/1; }
 .adc-duo45 figure { aspect-ratio:4/5; }
-.adc-duo img, .adc-duo45 img { width:100%; height:100%; object-fit:contain; display:block; }
+.adc-duo img, .adc-duo45 img { width:100%; height:100%; object-fit:cover; display:block; }
 
-/* 05 — Châssis Instagram partagé : campagnes (3-up) + galerie (9, 3×3) */
+/* 05 — Châssis Instagram partagé : campagnes et sélection de 3 posts */
 .adc-ig-card { background:#FFF; border:1px solid var(--adc-line); border-radius:14px; overflow:hidden; }
 .adc-ig-card__head { display:flex; align-items:center; gap:9px; padding:11px 13px; }
 .adc-ig-card__avatar { width:26px; height:26px; border-radius:50%; overflow:hidden; flex:none; background:var(--adc-navy); }
@@ -5574,43 +5573,46 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
 .adc-ig-card__id { flex:1; min-width:0; font-family:var(--font-poppins); font-size:11.5px; font-weight:600; color:var(--adc-ink); }
 .adc-ig-card__more { color:var(--adc-ink); font-size:15px; letter-spacing:1px; }
 .adc-ig-card__media { margin:0; aspect-ratio:1/1; background:var(--adc-tint); }
-.adc-ig-card__media img { width:100%; height:100%; object-fit:contain; display:block; }
+.adc-ig-card__media img { width:100%; height:100%; object-fit:cover; display:block; }
 .adc-ig-card__foot { display:flex; gap:11px; padding:9px 13px; color:var(--adc-ink); }
 .adc-ig-card__foot svg { width:17px; height:17px; }
 .adc-ig-card__foot span:last-child { margin-left:auto; }
-.adc-campaigns, .adc-grid9 { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:clamp(18px,2vw,28px); }
+.adc-campaigns, .adc-grid3 { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:clamp(18px,2vw,28px); }
+.adc-campaigns .adc-ig-card__media { aspect-ratio:4/5; }
+.adc-grid3 .adc-ig-card__media { aspect-ratio:4/5; }
 
 /* 06 — Intro production vidéo En Drive */
-.adc-video-intro p { margin-top:10px; max-width:62ch; }
-.adc-video-meta { display:flex; gap:22px; margin-top:16px; font-family:var(--font-poppins); font-size:12.5px; font-weight:600; color:var(--adc-navy); }
+.adc-video-intro { overflow:hidden; }
+.adc-video-heading { display:grid; grid-template-columns:minmax(260px,.66fr) minmax(560px,1.34fr); gap:clamp(32px,4vw,60px); align-items:center; }
+.adc-video-intro p { margin-top:10px; max-width:58ch; }
+.adc-video-meta { display:flex; flex-wrap:wrap; gap:10px 22px; margin-top:18px; font-family:var(--font-poppins); font-size:12px; font-weight:600; color:#FFF; }
 .adc-video-meta span { display:inline-flex; align-items:center; gap:7px; }
+.adc-video-meta span::before { content:''; width:7px; height:7px; border-radius:50%; background:var(--adc-orange); }
+.adc-video-meta { color:var(--adc-navy); }
 .adc-accent { color:var(--adc-orange); }
 
-/* 07 — Pile de vidéos verticales (playlist), une carte dominante devant */
-.adc-reel-stack { position:relative; height:clamp(340px,40vw,500px); margin-top:8px; }
-.adc-reel {
-  position:absolute; left:50%; top:50%; width:clamp(160px,14vw,210px); aspect-ratio:9/16;
-  border-radius:18px; overflow:hidden; background:#0A0A0A; box-shadow:0 20px 50px rgba(15,15,20,.28);
+/* 07 — Lecteurs YouTube verticaux réels */
+.adc-youtube-stack { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:clamp(12px,1.5vw,20px); align-items:center; }
+.adc-youtube-card {
+  position:relative; margin:0; aspect-ratio:9/16; overflow:hidden; border-radius:18px; background:#0B0B0F;
+  box-shadow:0 18px 42px rgba(15,15,20,.2); transform:scale(.92);
 }
-.adc-reel img { width:100%; height:100%; object-fit:cover; display:block; opacity:.95; }
-.adc-reel__shade { position:absolute; inset:0; background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.55)); }
-.adc-reel__play { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; }
-.adc-reel__play span { width:40px; height:40px; border-radius:50%; background:rgba(255,255,255,.94); display:grid; place-items:center; color:var(--adc-navy); font-size:14px; }
-.adc-reel__label { position:absolute; left:12px; bottom:11px; right:12px; color:#FFF; font-family:var(--font-poppins); font-size:11px; font-weight:600; line-height:1.3; text-shadow:0 2px 8px rgba(0,0,0,.5); }
-.adc-reel--p1 { transform:translate(-244%,-50%) scale(.8) rotate(-6deg); z-index:1; filter:brightness(.68); }
-.adc-reel--p2 { transform:translate(-130%,-50%) scale(.9) rotate(-3deg); z-index:2; filter:brightness(.84); }
-.adc-reel--p3 { transform:translate(0,-50%) scale(1); z-index:4; }
-.adc-reel--p4 { transform:translate(130%,-50%) scale(.9) rotate(3deg); z-index:2; filter:brightness(.84); }
-.adc-reel--p5 { transform:translate(244%,-50%) scale(.8) rotate(6deg); z-index:1; filter:brightness(.68); }
-.adc-reel--p3 .adc-reel__play span { width:50px; height:50px; font-size:18px; }
+.adc-youtube-card--featured { transform:scale(1); box-shadow:0 24px 52px rgba(15,15,20,.28); }
+.adc-youtube-card iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+.adc-playlist-link {
+  display:flex; width:max-content; align-items:center; gap:9px; margin:24px auto 0; padding:11px 20px;
+  border:1px solid rgba(40,38,91,.22); border-radius:999px; color:var(--adc-navy); text-decoration:none;
+  font-family:var(--font-poppins); font-size:12px; font-weight:700; transition:color .2s var(--ease),border-color .2s var(--ease),background .2s var(--ease);
+}
+.adc-playlist-link:hover { color:#FFF; border-color:var(--adc-orange); background:var(--adc-orange); }
 
 /* 08 — Statistiques */
-.adc-stats { background:var(--adc-tint); border-radius:20px; }
-.adc-stats-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:20px; margin-top:22px; text-align:center; }
-.adc-stats-grid > div { padding-left:16px; border-left:1px solid var(--adc-line); }
-.adc-stats-grid > div:first-child { border-left:0; padding-left:0; }
-.adc-stats-grid strong { display:block; font-family:var(--font-poppins); font-size:clamp(23px,2.3vw,31px); font-weight:800; color:var(--adc-navy); }
-.adc-stats-grid small { display:block; margin-top:4px; font-size:10.5px; letter-spacing:.04em; text-transform:uppercase; color:var(--adc-muted); }
+.adc-stats { padding-block:clamp(30px,3vw,42px) !important; background:linear-gradient(180deg,#FAFAFC,#F5F5F8); border-radius:20px; text-align:center; }
+.adc-stats-grid { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:12px; margin-top:24px; text-align:left; }
+.adc-stats-grid > div { min-width:0; padding:18px 15px; border:1px solid var(--adc-line); border-radius:14px; background:#FFF; box-shadow:0 8px 22px rgba(31,30,54,.05); }
+.adc-stats-grid strong { display:block; font-family:var(--font-poppins); font-size:clamp(22px,2.15vw,30px); font-weight:800; line-height:1.08; color:var(--adc-orange); }
+.adc-stats-grid span { display:block; margin-top:6px; color:var(--adc-ink); font-family:var(--font-poppins); font-size:11.5px; font-weight:700; line-height:1.35; }
+.adc-stats-grid small { display:block; margin-top:6px; color:var(--adc-muted); font-size:9.5px; line-height:1.35; }
 
 /* 09 — CTA final : bande pleine largeur, fond marine, logo + copie + bouton */
 .adc-case .adc-cta {
@@ -5630,22 +5632,121 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
 .adc-case .adc-cta > a:hover { filter:brightness(1.1); }
 
 @media (max-width:980px) {
-  .adc-hero__grid { grid-template-columns:1fr; }
-  .adc-hero__copy p, .adc-hero__copy { max-width:none; }
-  .adc-hero__visual { aspect-ratio:1/1; margin-top:16px; }
   .adc-wf__grid { grid-template-columns:1fr; }
   .adc-wf__sources { grid-template-columns:repeat(3,1fr); }
+  .adc-wf__sources--two { grid-template-columns:repeat(2,1fr); }
   .adc-wf__arrow { transform:rotate(90deg); justify-self:center; }
   .adc-duo, .adc-duo45 { grid-template-columns:1fr; }
   .adc-campaigns { grid-template-columns:repeat(2,minmax(0,1fr)); }
-  .adc-grid9 { grid-template-columns:repeat(2,minmax(0,1fr)); }
-  .adc-stats-grid { grid-template-columns:repeat(2,minmax(0,1fr)); row-gap:22px; }
-  .adc-stats-grid > div { border-left:0; padding-left:0; }
-  .adc-reel-stack { height:320px; }
-  .adc-reel--p1, .adc-reel--p5 { display:none; }
+  .adc-grid3 { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .adc-stats-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+  .adc-video-heading { grid-template-columns:1fr; }
 }
 @media (max-width:640px) {
   .adc-case > section { padding-inline:20px; }
-  .adc-campaigns, .adc-grid9 { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .adc-hero { padding-inline:10px !important; }
+  .adc-hero__complete { border-radius:18px; }
+  .adc-campaigns, .adc-grid3 { grid-template-columns:1fr; }
+  .adc-youtube-stack { display:flex; gap:14px; overflow-x:auto; margin-inline:-20px; padding:8px 20px 24px; scroll-snap-type:x mandatory; }
+  .adc-youtube-card, .adc-youtube-card--featured { flex:0 0 min(72vw,250px); transform:none; scroll-snap-align:center; }
+  .adc-stats-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+  .adc-stats-grid > div { padding:15px 12px; }
   .adc-case .adc-cta { flex-direction:column; align-items:flex-start; text-align:left; }
+  .adc-case .adc-cta__copy { flex-basis:auto; }
+}
+
+/* ============================================================
+   CAP CRÉOLE — SOCIAL MEDIA (réutilise le namespace .ccr-* déjà
+   défini plus haut — actuellement inutilisé dans le HTML — et
+   le composant pile vidéo .adc-reel* construit pour Auto Discount.
+   Extensions ci-dessous uniquement, rien au-dessus n'est modifié.
+   ============================================================ */
+.ls-modal.custom-mode .ls-modal-dialog:has(.ccr-social) { width:min(98vw,1440px); height:94vh; max-height:94vh; border-radius:20px; background:#FFF; }
+.ls-modal.custom-mode .ls-modal-viewport:has(.ccr-social) { background:#FFF; }
+
+/* Colonne source : plusieurs carrés empilés (jamais côte à côte) */
+.ccr-wf-row__sources { display:grid; gap:11px; }
+.ccr-wf-row__sources .ccr-wf-row__cell { aspect-ratio:1/1; }
+
+/* Variante verticale 4:5 pour mise en situation / post final — jamais 1:1, jamais cover agressif */
+.ccr-wf-row__cell--45 { aspect-ratio:4/5; background:var(--ccr-sand-light); }
+.ccr-wf-row__cell--45 img { object-fit:contain; }
+
+/* Petit inset "passage IA" facultatif sur une étape intermédiaire */
+.ccr-wf-row__inset { position:relative; }
+.ccr-wf-row__inset-tag {
+  position:absolute; left:8px; bottom:8px; z-index:1; background:rgba(15,42,74,.86); color:#FFF;
+  font-family:var(--font-poppins); font-size:9.5px; font-weight:600; letter-spacing:.04em;
+  text-transform:uppercase; padding:4px 9px; border-radius:6px;
+}
+
+/* "Autres exemples" : exactement 2 visuels, chacun garde son ratio réel (jamais forcé en carré) */
+.ccr-duo { display:grid; grid-template-columns:1fr 1fr; gap:clamp(20px,2.4vw,32px); align-items:start; }
+.ccr-duo figure { margin:0; border-radius:14px; overflow:hidden; background:var(--ccr-sand); }
+.ccr-duo img { display:block; width:100%; height:auto; }
+.ccr-duo-cap { margin-top:8px; text-align:center; font-family:var(--font-poppins); font-size:11.5px; font-weight:600; color:var(--ccr-text); }
+
+/* Avant / Après : paires alignées, toujours 4:5, jamais carré ni paysage */
+.ccr-ap { display:grid; gap:22px; }
+.ccr-ap-card { border:1px solid var(--ccr-border); border-radius:18px; padding:clamp(20px,2.2vw,30px); }
+.ccr-ap-card h4 { display:flex; align-items:center; gap:10px; margin:0 0 18px; font-family:var(--font-poppins); font-size:14px; font-weight:700; color:var(--ccr-black); }
+.ccr-ap-card h4 span { display:inline-grid; place-items:center; width:22px; height:22px; border-radius:50%; background:var(--ccr-blue); color:#FFF; font-size:11px; flex:none; }
+.ccr-ap-grid { display:grid; grid-template-columns:1fr auto 1fr; align-items:center; gap:clamp(16px,2vw,26px); }
+.ccr-ap-grid > div { text-align:center; }
+.ccr-ap-grid p { margin:0 0 8px; font-family:var(--font-poppins); font-size:10.5px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--ccr-muted); }
+.ccr-ap-grid figure { margin:0; aspect-ratio:4/5; border-radius:12px; overflow:hidden; background:var(--ccr-sand); }
+.ccr-ap-grid img { width:100%; height:100%; object-fit:contain; display:block; }
+.ccr-ap-arrow { color:var(--ccr-muted); font-size:20px; align-self:center; }
+.ccr-ap-empty {
+  border:1px dashed var(--ccr-border); border-radius:18px; padding:clamp(26px,3vw,40px); text-align:center;
+  color:var(--ccr-muted); font-family:var(--font-poppins); font-size:12px; font-weight:600;
+  text-transform:uppercase; letter-spacing:.04em;
+}
+
+/* Galerie Instagram : 3 posts, média en 4:5 (pas carré), UI minimale mais reconnaissable */
+.ccr-ig3 { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:clamp(20px,2.2vw,30px); }
+.ccr-ig-card__media--45 { aspect-ratio:4/5; }
+.ccr-ig-card__media--45 img { object-fit:contain; }
+
+/* Reels : réutilise tel quel le composant .adc-reel-stack/.adc-reel construit pour Auto Discount */
+.ccr-social .adc-reel-stack { margin-top:6px; }
+.ccr-reels-note { margin-top:14px; font-size:11.5px; color:var(--ccr-muted); }
+
+/* Google Ads : visuel seul, plein cadre, jamais retouché ni entouré */
+.ccr-ads { padding-top:0 !important; }
+.ccr-ads figure { margin:0; }
+.ccr-ads img { display:block; width:100%; height:auto; object-fit:contain; }
+
+/* Stats : simples, alignées, sans grosses cartes */
+.ccr-stats-row { display:flex; flex-wrap:wrap; justify-content:center; gap:clamp(28px,4vw,56px); }
+.ccr-stats-row div { text-align:center; }
+.ccr-stats-row strong { display:block; font-family:var(--font-poppins); font-size:clamp(20px,2vw,26px); font-weight:700; color:var(--ccr-navy); }
+.ccr-stats-row small { display:block; margin-top:4px; font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--ccr-muted); }
+
+/* CTA de fin compact, une seule ligne (remplace le duo cta-block+footer pour cette page) */
+.ccr-social .ccr-cta-compact {
+  display:flex; flex-wrap:wrap; align-items:center; gap:clamp(20px,2.6vw,40px);
+  padding:clamp(24px,2.6vw,36px) clamp(28px,4vw,80px); background:var(--ccr-navy);
+}
+.ccr-cta-compact__logo { flex:0 0 auto; width:54px; height:54px; border-radius:50%; background:#FFF; padding:8px; }
+.ccr-cta-compact__logo img { width:100%; height:100%; object-fit:contain; display:block; }
+.ccr-cta-compact__copy { flex:1 1 260px; }
+.ccr-cta-compact__copy strong { display:block; font-family:var(--font-poppins); font-size:16px; font-weight:700; color:#FFF; }
+.ccr-cta-compact__copy p { margin:2px 0 0; color:rgba(255,255,255,.66); font-size:13px; }
+.ccr-social .ccr-cta-compact > a {
+  flex:none; display:inline-flex; align-items:center; gap:8px; background:var(--ccr-blue); color:#FFF;
+  font-family:var(--font-poppins); font-size:12px; font-weight:700; padding:11px 20px; border-radius:30px; text-decoration:none;
+}
+
+@media (max-width:980px) {
+  .ccr-wf-row__sources { grid-template-columns:repeat(2,1fr); }
+  .ccr-wf-row__sources .ccr-wf-row__cell { aspect-ratio:1/1; }
+  .ccr-duo { grid-template-columns:1fr; }
+  .ccr-ig3 { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .ccr-ap-grid { grid-template-columns:1fr; }
+  .ccr-ap-arrow { transform:rotate(90deg); justify-self:center; }
+}
+@media (max-width:640px) {
+  .ccr-ig3 { grid-template-columns:1fr; }
+  .ccr-social .ccr-cta-compact { flex-direction:column; align-items:flex-start; text-align:left; }
 }

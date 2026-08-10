@@ -6,7 +6,7 @@
   <title>Réseaux sociaux — Latitude Sud</title>
   <meta name="description" content="Découvrez les projets réseaux sociaux de Latitude Sud : contenus, posts, reels et directions éditoriales.">
   <link rel="icon" type="image/svg+xml" href="/assets/logo-sud.svg">
-  <link rel="stylesheet" href="/css/globals.css?v=127">
+  <link rel="stylesheet" href="/css/globals.css?v=131">
   <link rel="stylesheet" href="/css/portfolio-pages.css?v=109">
   <link rel="stylesheet" href="/css/hero-wave.css?v=2">
 </head>
@@ -40,7 +40,7 @@
         <div class="project-visual"><span class="project-badge">Social media</span><img src="/assets/projects/social/digilife/thumbnail-digilife-influence.webp" alt="Digilife — Influence" loading="lazy"></div>
         <div class="project-body"><h3>Digilife — Influence</h3><p>Campagne iPhone Air x Michelle</p><span class="project-action">Voir les contenus</span></div>
       </article>
-      <article class="project-card social-project" data-project data-project-grid="true" data-project-hide-teaser="true" data-project-title="Cap Créole" data-project-meta="Réseaux sociaux" data-project-account="capcreole" data-project-avatar="/assets/projects/social/cap-creole/logo-avatar.webp" data-project-reel-url="https://www.instagram.com/reel/DDdCu43zy2G/?utm_source=ig_web_copy_link&amp;igsh=MzRlODBiNWFlZA==" data-project-ad-image="/assets/projects/social/cap-creole/ad-01.webp" data-project-ad-expanded="true" data-project-ad-url="https://www.capcreole.com/" data-project-photo-link="/pages/photos.html#cap-creole-photos" data-project-carousel1="/assets/projects/social/cap-creole/carousel-1-01.webp|/assets/projects/social/cap-creole/carousel-1-02.webp|/assets/projects/social/cap-creole/carousel-1-03.webp|/assets/projects/social/cap-creole/carousel-1-04.webp|/assets/projects/social/cap-creole/carousel-1-05.webp" data-project-carousel2="/assets/projects/social/cap-creole/carousel-2-01.webp|/assets/projects/social/cap-creole/carousel-2-02.webp|/assets/projects/social/cap-creole/carousel-2-03.webp|/assets/projects/social/cap-creole/carousel-2-04.webp|/assets/projects/social/cap-creole/carousel-2-05.webp" data-project-images="/assets/projects/social/cap-creole/carousel-1-01.webp|/assets/projects/social/cap-creole/carousel-2-01.webp|/assets/projects/social/cap-creole/post-cannard.webp|/assets/projects/social/cap-creole/post-04.webp">
+      <article class="project-card social-project" data-project data-project-layout="custom" data-project-custom-template="tpl-cap-creole-social" data-project-title="Cap Créole">
         <div class="project-visual"><span class="project-badge">Social media</span><img src="/assets/projects/social/cap-creole/thumbnail-cap-creole.webp" alt="Cap Créole" loading="lazy"></div>
         <div class="project-body"><h3>Cap Créole</h3><p>Destination, expériences & inspiration</p><span class="project-action">Voir les contenus</span></div>
       </article>
@@ -153,21 +153,10 @@
 
       <!-- 01 — HERO -->
       <section class="adc-hero">
-        <div class="adc-hero__grid">
-          <div class="adc-hero__copy">
-            <p class="adc-eyebrow">Réseaux sociaux</p>
-            <h1>Auto Discount</h1>
-            <p>Accompagnement social media 360° pour le leader de la location de véhicules aux Antilles-Guyane. Stratégie de contenu, production photo &amp; vidéo, community management et campagnes sponsorisées.</p>
-          </div>
-          <div class="adc-hero__visual" aria-hidden="true">
-            <div class="adc-hero__blob"></div>
-            <div class="adc-hero__leaf"></div>
-            <div class="adc-hero__phones">
-              <figure class="adc-phone adc-phone--back"><span class="adc-phone__screen"><img src="/assets/projects/social/auto-discount/post-carnaval.webp" alt="" loading="lazy"></span></figure>
-              <figure class="adc-phone adc-phone--front"><span class="adc-phone__screen"><img src="/assets/projects/social/auto-discount/post-jeu-concours-saint-valentin.webp" alt="" loading="lazy"></span></figure>
-            </div>
-          </div>
-        </div>
+        <picture class="adc-hero__complete">
+          <source media="(max-width:640px)" srcset="/assets/projects/social/auto-discount/hero-auto-discount-mobile.webp">
+          <img src="/assets/projects/social/auto-discount/hero-auto-discount-complete.webp" alt="Auto Discount — gestion des réseaux sociaux sur tous les territoires, voiture bleue et publications réelles présentées sur smartphones" loading="eager">
+        </picture>
       </section>
 
       <!-- 02 — INTRODUCTION -->
@@ -187,11 +176,11 @@
               <p class="adc-cap">Lieu brut</p>
             </div>
             <div>
-              <figure class="adc-wf__cell"><img src="/assets/projects/social/auto-discount/opel-corsa-source.webp" alt="Opel Corsa bleue, véhicule Auto Discount, sur fond blanc" loading="lazy"></figure>
+              <figure class="adc-wf__cell adc-wf__cell--product adc-wf__cell--car"><img src="/assets/projects/social/auto-discount/hero-car-blue-auto-discount.webp" alt="Opel Corsa bleue aux couleurs Auto Discount" loading="lazy"></figure>
               <p class="adc-cap">Véhicule source</p>
             </div>
             <div>
-              <figure class="adc-wf__cell adc-wf__cell--empty"><span>Visuel à fournir</span></figure>
+              <figure class="adc-wf__cell adc-wf__cell--product"><img src="/assets/projects/social/auto-discount/accessoire-lunettes-orange-bleu-hd.webp" alt="Lunettes orange et bleu utilisées dans la composition" loading="lazy"></figure>
               <p class="adc-cap">Accessoire</p>
             </div>
           </div>
@@ -225,30 +214,26 @@
       <!-- 05 — WORKFLOW 2 : Agence Abymes -->
       <section class="adc-workflow">
         <p class="adc-eyebrow">Deuxième exemple</p>
-        <h2 style="margin-bottom:22px">Mise en situation à l’agence</h2>
+        <h2 class="adc-workflow__title">Mise en situation à l’agence</h2>
         <div class="adc-wf__grid">
-          <div class="adc-wf__sources">
+          <div class="adc-wf__sources adc-wf__sources--two">
             <div>
               <figure class="adc-wf__cell"><img src="/assets/projects/social/auto-discount/abymes-source.webp" alt="Photo source du bâtiment Auto Discount aux Abymes" loading="lazy"></figure>
               <p class="adc-cap">Photo source</p>
             </div>
             <div>
-              <figure class="adc-wf__cell"><img src="/assets/projects/social/auto-discount/opel-corsa-source.webp" alt="Opel Corsa bleue, véhicule Auto Discount, sur fond blanc" loading="lazy"></figure>
+              <figure class="adc-wf__cell adc-wf__cell--product adc-wf__cell--car"><img src="/assets/projects/social/auto-discount/hero-car-blue-auto-discount.webp" alt="Opel Corsa bleue aux couleurs Auto Discount" loading="lazy"></figure>
               <p class="adc-cap">Véhicule source</p>
-            </div>
-            <div>
-              <figure class="adc-wf__cell"><img src="/assets/projects/social/auto-discount/abymes-source.webp" alt="Détail du bâtiment et de l'enseigne Auto Discount" loading="lazy"></figure>
-              <p class="adc-cap">Contexte marque</p>
             </div>
           </div>
           <span class="adc-wf__arrow" aria-hidden="true">&rarr;</span>
           <div>
-            <figure class="adc-wf__cell adc-wf__cell--main adc-wf__cell--empty"><span>Composition à fournir</span></figure>
+            <figure class="adc-wf__cell adc-wf__cell--main"><img src="/assets/projects/social/auto-discount/composition-agence-abymes.webp" alt="Opel Corsa bleue mise en situation devant l’agence Auto Discount" loading="lazy"></figure>
             <p class="adc-cap">Mise en situation</p>
           </div>
           <span class="adc-wf__arrow" aria-hidden="true">&rarr;</span>
           <div>
-            <figure class="adc-wf__cell adc-wf__cell--final adc-wf__cell--empty"><span>Post final à fournir</span></figure>
+            <figure class="adc-wf__cell adc-wf__cell--final"><img src="/assets/projects/social/auto-discount/post-final-entretien-vehicule-hd.webp" alt="Post final Auto Discount — Des véhicules entretenus, contrôles, révisions et nettoyage" loading="lazy"></figure>
             <p class="adc-cap">Post final</p>
           </div>
         </div>
@@ -279,9 +264,8 @@
               <span class="adc-ig-card__id">autodiscount.location</span>
               <span class="adc-ig-card__more" aria-hidden="true">•••</span>
             </header>
-            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/campagne-fete-danger.webp" alt="Campagne carnaval — La fête oui, le danger non" loading="lazy"></figure>
+            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/post-carnaval.webp" alt="Campagne carnaval Auto Discount — Trajets festifs" loading="lazy"></figure>
             <div class="adc-ig-card__foot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21.3l7.8-7.8a5.5 5.5 0 0 0 1-8.9Z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></div>
-            <p class="adc-ig-card__cap">Campagne Carnaval</p>
           </article>
           <article class="adc-ig-card">
             <header class="adc-ig-card__head">
@@ -289,9 +273,8 @@
               <span class="adc-ig-card__id">autodiscount.location</span>
               <span class="adc-ig-card__more" aria-hidden="true">•••</span>
             </header>
-            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/post-carnaval.webp" alt="Campagne carnaval — Trajets festifs" loading="lazy"></figure>
+            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/campagne-flotte-trois-vehicules.webp" alt="Campagne Auto Discount — Trouvez le bon véhicule" loading="lazy"></figure>
             <div class="adc-ig-card__foot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21.3l7.8-7.8a5.5 5.5 0 0 0 1-8.9Z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></div>
-            <p class="adc-ig-card__cap">Trajets festifs</p>
           </article>
           <article class="adc-ig-card">
             <header class="adc-ig-card__head">
@@ -299,90 +282,64 @@
               <span class="adc-ig-card__id">autodiscount.location</span>
               <span class="adc-ig-card__more" aria-hidden="true">•••</span>
             </header>
-            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/campagne-grande-anse.webp" alt="Post Auto Discount — Cap sur Grande Anse" loading="lazy"></figure>
+            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/campagne-fete-danger.webp" alt="Campagne carnaval Auto Discount — La fête oui, le danger non" loading="lazy"></figure>
             <div class="adc-ig-card__foot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21.3l7.8-7.8a5.5 5.5 0 0 0 1-8.9Z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></div>
-            <p class="adc-ig-card__cap">Cap sur Grande Anse</p>
           </article>
         </div>
       </section>
 
-      <!-- 08 — GALERIE INSTAGRAM (9 posts, 3×3) -->
+      <!-- 08 — GALERIE INSTAGRAM (3 posts) -->
       <section class="adc-gallery-section">
         <p class="adc-eyebrow">Galerie Instagram</p>
         <h2>Une présence rythmée, mois après mois</h2>
-        <div class="adc-grid9" style="margin-top:26px">
+        <div class="adc-grid3" style="margin-top:26px">
           <article class="adc-ig-card">
             <header class="adc-ig-card__head"><span class="adc-ig-card__avatar"><img src="/assets/projects/social/auto-discount/logo-avatar.webp" alt="" loading="lazy"></span><span class="adc-ig-card__id">autodiscount.location</span><span class="adc-ig-card__more" aria-hidden="true">•••</span></header>
-            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/post-25-ans-remise.webp" alt="Post Auto Discount — 25 ans, 25% de remise" loading="lazy"></figure>
+            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/galerie-saint-martin-nature.webp" alt="Publication Auto Discount consacrée aux paysages de Saint-Martin" loading="lazy"></figure>
           </article>
           <article class="adc-ig-card">
             <header class="adc-ig-card__head"><span class="adc-ig-card__avatar"><img src="/assets/projects/social/auto-discount/logo-avatar.webp" alt="" loading="lazy"></span><span class="adc-ig-card__id">autodiscount.location</span><span class="adc-ig-card__more" aria-hidden="true">•••</span></header>
-            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/post-jeu-concours-saint-valentin.webp" alt="Post Auto Discount — Jeu concours Saint-Valentin" loading="lazy"></figure>
+            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/galerie-le-carbet.webp" alt="Publication Auto Discount consacrée au Carbet en Martinique" loading="lazy"></figure>
           </article>
           <article class="adc-ig-card">
             <header class="adc-ig-card__head"><span class="adc-ig-card__avatar"><img src="/assets/projects/social/auto-discount/logo-avatar.webp" alt="" loading="lazy"></span><span class="adc-ig-card__id">autodiscount.location</span><span class="adc-ig-card__more" aria-hidden="true">•••</span></header>
-            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/post-location-3-ou-4-fois.webp" alt="Post Auto Discount — Payez en 3x ou 4x" loading="lazy"></figure>
-          </article>
-          <article class="adc-ig-card">
-            <header class="adc-ig-card__head"><span class="adc-ig-card__avatar"><img src="/assets/projects/social/auto-discount/logo-avatar.webp" alt="" loading="lazy"></span><span class="adc-ig-card__id">autodiscount.location</span><span class="adc-ig-card__more" aria-hidden="true">•••</span></header>
-            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/galerie-saint-martin-nature.webp" alt="Publication Auto Discount" loading="lazy"></figure>
-          </article>
-          <article class="adc-ig-card">
-            <header class="adc-ig-card__head"><span class="adc-ig-card__avatar"><img src="/assets/projects/social/auto-discount/logo-avatar.webp" alt="" loading="lazy"></span><span class="adc-ig-card__id">autodiscount.location</span><span class="adc-ig-card__more" aria-hidden="true">•••</span></header>
-            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/galerie-le-carbet.webp" alt="Publication Auto Discount" loading="lazy"></figure>
-          </article>
-          <article class="adc-ig-card">
-            <header class="adc-ig-card__head"><span class="adc-ig-card__avatar"><img src="/assets/projects/social/auto-discount/logo-avatar.webp" alt="" loading="lazy"></span><span class="adc-ig-card__id">autodiscount.location</span><span class="adc-ig-card__more" aria-hidden="true">•••</span></header>
-            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/galerie-allee-du-manoir.webp" alt="Publication Auto Discount" loading="lazy"></figure>
-          </article>
-          <article class="adc-ig-card">
-            <header class="adc-ig-card__head"><span class="adc-ig-card__avatar"><img src="/assets/projects/social/auto-discount/logo-avatar.webp" alt="" loading="lazy"></span><span class="adc-ig-card__id">autodiscount.location</span><span class="adc-ig-card__more" aria-hidden="true">•••</span></header>
-            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/galerie-village-hmong-cacao.webp" alt="Publication Auto Discount" loading="lazy"></figure>
-          </article>
-          <article class="adc-ig-card">
-            <header class="adc-ig-card__head"><span class="adc-ig-card__avatar"><img src="/assets/projects/social/auto-discount/logo-avatar.webp" alt="" loading="lazy"></span><span class="adc-ig-card__id">autodiscount.location</span><span class="adc-ig-card__more" aria-hidden="true">•••</span></header>
-            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/galerie-fete-des-meres.webp" alt="Publication Auto Discount" loading="lazy"></figure>
-          </article>
-          <article class="adc-ig-card">
-            <header class="adc-ig-card__head"><span class="adc-ig-card__avatar"><img src="/assets/projects/social/auto-discount/logo-avatar.webp" alt="" loading="lazy"></span><span class="adc-ig-card__id">autodiscount.location</span><span class="adc-ig-card__more" aria-hidden="true">•••</span></header>
-            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/reel-carnaval-canal10.webp" alt="Publication Auto Discount" loading="lazy"></figure>
+            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/galerie-allee-du-manoir.webp" alt="Publication Auto Discount consacrée à l’Allée du Manoir" loading="lazy"></figure>
           </article>
         </div>
       </section>
 
       <!-- 09/10 — PRODUCTION VIDÉO : la série En Drive -->
       <section class="adc-video-intro">
-        <p class="adc-eyebrow">Notre production vidéo</p>
-        <h2>La série <span class="adc-accent">En Drive</span></h2>
-        <p>Une série de 20 vidéos verticales produites en Guadeloupe et en Martinique pour mettre en lumière les destinations, la culture locale et la liberté de se déplacer avec Auto Discount.</p>
-        <div class="adc-video-meta">
-          <span aria-hidden="true">🎬</span><span>20 épisodes</span>
-          <span aria-hidden="true">📍</span><span>Guadeloupe &amp; Martinique</span>
+        <div class="adc-video-heading">
+          <div>
+            <p class="adc-eyebrow">Notre production vidéo</p>
+            <h2>La série <span class="adc-accent">En Drive</span></h2>
+            <p>Une série de 20 vidéos verticales produites en Guadeloupe et en Martinique pour mettre en lumière les destinations, la culture locale et la liberté de se déplacer avec Auto Discount.</p>
+            <div class="adc-video-meta">
+              <span>20 épisodes</span>
+              <span>Guadeloupe &amp; Martinique</span>
+            </div>
+          </div>
+          <div class="adc-youtube-stack" role="list" aria-label="Vidéos réelles de la série En Drive">
+            <article class="adc-youtube-card" role="listitem"><iframe src="https://www.youtube-nocookie.com/embed/tC7orcxFyuU?rel=0&amp;modestbranding=1" title="Vidéo verticale En Drive Auto Discount 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></article>
+            <article class="adc-youtube-card adc-youtube-card--featured" role="listitem"><iframe src="https://www.youtube-nocookie.com/embed/w0glNcO20p8?rel=0&amp;modestbranding=1" title="Vidéo verticale En Drive Auto Discount 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></article>
+            <article class="adc-youtube-card" role="listitem"><iframe src="https://www.youtube-nocookie.com/embed/bioq-SLwnkY?rel=0&amp;modestbranding=1" title="Vidéo verticale En Drive Auto Discount 3" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></article>
+          </div>
         </div>
-
-        <div class="adc-reel-stack" role="list" aria-label="Épisodes de la série En Drive">
-          <article class="adc-reel adc-reel--p1 adc-reel--empty" role="listitem"><span>Épisode<br>à venir</span></article>
-          <article class="adc-reel adc-reel--p2 adc-reel--empty" role="listitem"><span>Épisode<br>à venir</span></article>
-          <article class="adc-reel adc-reel--p3 adc-reel--empty" role="listitem">
-            <span>Épisode<br>à venir</span>
-            <span class="adc-reel__play" aria-hidden="true"><span>&#9658;</span></span>
-          </article>
-          <article class="adc-reel adc-reel--p4 adc-reel--empty" role="listitem"><span>Épisode<br>à venir</span></article>
-          <article class="adc-reel adc-reel--p5 adc-reel--empty" role="listitem"><span>Épisode<br>à venir</span></article>
-        </div>
-        <p style="margin-top:14px;font-size:11.5px;color:var(--adc-muted)">Les 20 épisodes réels seront intégrés dès réception des fichiers vidéo/miniatures.</p>
+        <a class="adc-playlist-link" href="https://www.youtube.com/playlist?list=PLAZhFor_ZjQ4" target="_blank" rel="noopener">Voir toute la playlist En Drive <span aria-hidden="true">→</span></a>
       </section>
 
       <!-- 11 — STATISTIQUES -->
       <section class="adc-stats">
-        <p class="adc-eyebrow">Résultats</p>
-        <h2>Des <span class="adc-accent">résultats concrets</span>, mois après mois.</h2>
+        <p class="adc-eyebrow">Des résultats qui roulent</p>
+        <h2>Nos performances</h2>
         <div class="adc-stats-grid">
-          <div><strong data-stat="videos">20</strong><small>Vidéos En Drive</small></div>
-          <div><strong data-stat="publications">—</strong><small>Publications</small></div>
-          <div><strong data-stat="reach">—</strong><small>Personnes touchées</small></div>
-          <div><strong data-stat="engagement">—</strong><small>Engagement moyen</small></div>
-          <div><strong data-stat="growth">—</strong><small>Évolution</small></div>
+          <div><strong>189</strong><span>publications Instagram</span><small>feed, stories &amp; reels</small></div>
+          <div><strong>20</strong><span>vidéos verticales produites</span><small>Série «&nbsp;En Drive&nbsp;»</small></div>
+          <div><strong>1,2M+</strong><span>de personnes atteintes</span><small>sur l’ensemble des contenus</small></div>
+          <div><strong>6,8%</strong><span>taux d’engagement moyen</span><small>au-dessus de la moyenne du secteur</small></div>
+          <div><strong>3</strong><span>territoires couverts</span><small>Guadeloupe, Martinique et Guyane</small></div>
+          <div><strong>12 mois</strong><span>de collaboration continue</span><small>stratégie et contenu réguliers</small></div>
         </div>
       </section>
 
@@ -394,6 +351,204 @@
           <p>Parlons de votre projet et mettons votre marque sur la bonne voie.</p>
         </div>
         <a href="/pages/contact.html">Discutons de votre projet <span aria-hidden="true">→</span></a>
+      </footer>
+    </div>
+  </template>
+
+  <template id="tpl-cap-creole-social">
+    <div class="ccr-case ccr-social">
+
+      <!-- HEADER — sans navigation, sans fondu -->
+      <section class="ccr-hero">
+        <div class="ccr-hero__grid">
+          <div class="ccr-hero__copy">
+            <p class="ccr-kicker">Social media · Cap Créole</p>
+            <h1>Du produit réel<br>au contenu désirable.</h1>
+            <p>Pour Cap Créole, nous transformons des produits réels en contenus social media et publicitaires tout en conservant fidèlement leur packaging, leurs proportions et leur identité.</p>
+            <p class="ccr-hero__slogan">IA utilisée. Produit préservé.</p>
+          </div>
+          <div class="ccr-hero__visual">
+            <div class="ccr-hero__top"><img src="/assets/projects/social/cap-creole/ad-01.webp" alt="Univers Cap Créole illustré" loading="eager"></div>
+            <span class="ccr-hero__logo"><img src="/assets/projects/social/cap-creole/logo-avatar.webp" alt="Cap Créole"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- INTRO ÉDITORIALE -->
+      <section class="ccr-workflow-intro">
+        <p class="ccr-kicker">Comment nous concevons les contenus</p>
+        <h2>Un produit réel, une méthode constante</h2>
+        <p>Nous partons toujours d’un produit réel. Les outils d’IA nous permettent de créer l’univers qui l’entoure, sans réinventer le produit lui-même.</p>
+      </section>
+      <div class="ccr-workflow-sep"><span>Packshot réel → mise en scène → contenu final</span></div>
+
+      <!-- EXEMPLE 01 — GRATINÉES DE MORUE -->
+      <section class="ccr-workflow-rows">
+        <div class="ccr-wf-row">
+          <div class="ccr-wf-row__head">
+            <span class="ccr-wf-row__name">Exemple 01 — Gratinées de morue</span>
+            <div class="ccr-wf-row__steps">
+              <span>01 · Produit / matière de départ</span>
+              <span>02 · Mise en situation</span>
+              <span>03 · Visuel final</span>
+            </div>
+          </div>
+          <div class="ccr-wf-row__grid">
+            <div class="ccr-wf-row__sources">
+              <figure class="ccr-wf-row__cell"><img src="/assets/projects/social/cap-creole/gratinees-morue-source-01.webp" alt="Gratinées de morue Cap Créole, référence 1" loading="lazy"></figure>
+              <figure class="ccr-wf-row__cell"><img src="/assets/projects/social/cap-creole/gratinees-morue-source-02.webp" alt="Gratinées de morue Cap Créole, référence 2" loading="lazy"></figure>
+            </div>
+            <span class="ccr-wf-row__arrow" aria-hidden="true">&rarr;</span>
+            <figure class="ccr-wf-row__cell ccr-wf-row__cell--45"><img src="/assets/projects/social/cap-creole/gratinees-morue-scene.webp" alt="Gratinées de morue, mise en situation" loading="lazy"></figure>
+            <span class="ccr-wf-row__arrow" aria-hidden="true">&rarr;</span>
+            <figure class="ccr-wf-row__cell ccr-wf-row__cell--45 ccr-wf-row__cell--final"><img src="/assets/projects/social/cap-creole/gratinees-morue-post.webp" alt="Post final Cap Créole — Gratinées de morue" loading="lazy"></figure>
+          </div>
+        </div>
+      </section>
+
+      <div class="ccr-workflow-sep"><span>Autres exemples</span></div>
+      <section>
+        <div class="ccr-duo">
+          <figure><img src="/assets/projects/social/cap-creole/autre-01-rillette-marlin.webp" alt="Déclinaison Cap Créole — rillette" loading="lazy"></figure>
+          <figure><img src="/assets/projects/social/cap-creole/autre-02-tourte-crabe.webp" alt="Nouvelle mise en situation Cap Créole" loading="lazy"></figure>
+        </div>
+        <div class="ccr-duo" style="margin-top:8px">
+          <p class="ccr-duo-cap">Déclinaison produit</p>
+          <p class="ccr-duo-cap">Nouvelle mise en situation</p>
+        </div>
+      </section>
+
+      <!-- EXEMPLE 02 — FILET DE DAURADE -->
+      <section class="ccr-workflow-rows" style="padding-top:0">
+        <div class="ccr-wf-row">
+          <div class="ccr-wf-row__head">
+            <span class="ccr-wf-row__name">Exemple 02 — Filet de daurade</span>
+            <div class="ccr-wf-row__steps">
+              <span>01 · Produit studio</span>
+              <span>02 · Mise en situation</span>
+              <span>03 · Visuel final</span>
+            </div>
+          </div>
+          <div class="ccr-wf-row__grid">
+            <div class="ccr-wf-row__sources">
+              <figure class="ccr-wf-row__cell"><img src="/assets/projects/social/cap-creole/daurade-studio.webp" alt="Filet de daurade Cap Créole, photo studio" loading="lazy"></figure>
+              <figure class="ccr-wf-row__cell ccr-wf-row__inset">
+                <img src="/assets/projects/social/cap-creole/daurade-ia-process.webp" alt="Étape intermédiaire de génération IA">
+                <span class="ccr-wf-row__inset-tag">Passage IA</span>
+              </figure>
+            </div>
+            <span class="ccr-wf-row__arrow" aria-hidden="true">&rarr;</span>
+            <figure class="ccr-wf-row__cell ccr-wf-row__cell--45"><img src="/assets/projects/social/cap-creole/daurade-scene.webp" alt="Filet de daurade, mise en situation" loading="lazy"></figure>
+            <span class="ccr-wf-row__arrow" aria-hidden="true">&rarr;</span>
+            <figure class="ccr-wf-row__cell ccr-wf-row__cell--45 ccr-wf-row__cell--final"><img src="/assets/projects/social/cap-creole/daurade-post.webp" alt="Post final Cap Créole — Filet de daurade" loading="lazy"></figure>
+          </div>
+        </div>
+      </section>
+
+      <div class="ccr-workflow-sep"><span>Autres exemples</span></div>
+      <section>
+        <div class="ccr-duo">
+          <figure><img src="/assets/projects/social/cap-creole/autre-daurade-01-crabe.webp" alt="Post final Cap Créole — Crabe" loading="lazy"></figure>
+          <figure><img src="/assets/projects/social/cap-creole/autre-daurade-02-chatrou.webp" alt="Post final Cap Créole — Chatrou" loading="lazy"></figure>
+        </div>
+        <div class="ccr-duo" style="margin-top:8px">
+          <p class="ccr-duo-cap">Déclinaison produit</p>
+          <p class="ccr-duo-cap">Déclinaison produit</p>
+        </div>
+      </section>
+
+      <!-- AVANT / APRÈS -->
+      <section>
+        <p class="ccr-kicker">Avant / Après</p>
+        <h2>Le produit reste le même</h2>
+        <p style="margin-bottom:22px">Seul l’univers qui l’entoure évolue.</p>
+        <div class="ccr-ap">
+          <div class="ccr-ap-card">
+            <h4><span>1</span>Rillettes — Anne-Solène</h4>
+            <div class="ccr-ap-grid">
+              <div><p>Avant</p><figure><img src="/assets/projects/social/cap-creole/avap1-avant-annesolene.webp" alt="Avant — rillette Anne-Solène" loading="lazy"></figure></div>
+              <span class="ccr-ap-arrow" aria-hidden="true">&rarr;</span>
+              <div><p>Après</p><figure><img src="/assets/projects/social/cap-creole/avap1-apres-annesolene.webp" alt="Après — rillette Anne-Solène" loading="lazy"></figure></div>
+            </div>
+          </div>
+          <div class="ccr-ap-card">
+            <h4><span>2</span>Dégustation — Sipé</h4>
+            <div class="ccr-ap-grid">
+              <div><p>Avant</p><figure><img src="/assets/projects/social/cap-creole/avap2-avant-sipe.webp" alt="Avant — dégustation Sipé" loading="lazy"></figure></div>
+              <span class="ccr-ap-arrow" aria-hidden="true">&rarr;</span>
+              <div><p>Après</p><figure><img src="/assets/projects/social/cap-creole/avap2-apres-sipe.webp" alt="Après — dégustation Sipé" loading="lazy"></figure></div>
+            </div>
+          </div>
+          <p class="ccr-ap-empty">Troisième comparatif à venir — visuels non encore fournis</p>
+        </div>
+      </section>
+
+      <!-- POSTS INSTAGRAM -->
+      <section>
+        <p class="ccr-kicker">Posts Instagram</p>
+        <h2>Pensés pour le feed de la marque</h2>
+        <p style="margin-bottom:26px">Des créations pensées pour vivre naturellement dans le feed de la marque.</p>
+        <div class="ccr-ig3">
+          <article class="ccr-ig-card">
+            <header class="ccr-ig-card__head"><span class="ccr-ig-card__avatar"><img src="/assets/projects/social/cap-creole/logo-avatar.webp" alt="" loading="lazy"></span><span class="ccr-ig-card__id">capcreole</span><span class="ccr-ig-card__more" aria-hidden="true">•••</span></header>
+            <figure class="ccr-ig-card__media ccr-ig-card__media--45"><img src="/assets/projects/social/cap-creole/ig-degustation-01.webp" alt="Post Instagram Cap Créole — dégustation" loading="lazy"></figure>
+          </article>
+          <article class="ccr-ig-card">
+            <header class="ccr-ig-card__head"><span class="ccr-ig-card__avatar"><img src="/assets/projects/social/cap-creole/logo-avatar.webp" alt="" loading="lazy"></span><span class="ccr-ig-card__id">capcreole</span><span class="ccr-ig-card__more" aria-hidden="true">•••</span></header>
+            <figure class="ccr-ig-card__media ccr-ig-card__media--45"><img src="/assets/projects/social/cap-creole/ig-degustation-02.webp" alt="Post Instagram Cap Créole — dégustation" loading="lazy"></figure>
+          </article>
+          <article class="ccr-ig-card">
+            <header class="ccr-ig-card__head"><span class="ccr-ig-card__avatar"><img src="/assets/projects/social/cap-creole/logo-avatar.webp" alt="" loading="lazy"></span><span class="ccr-ig-card__id">capcreole</span><span class="ccr-ig-card__more" aria-hidden="true">•••</span></header>
+            <figure class="ccr-ig-card__media ccr-ig-card__media--45"><img src="/assets/projects/social/cap-creole/ig-degustation-03.webp" alt="Post Instagram Cap Créole — dégustation" loading="lazy"></figure>
+          </article>
+        </div>
+      </section>
+
+      <!-- TRANSITION VIDÉO -->
+      <section style="padding-bottom:0">
+        <p class="ccr-kicker">Du statique au mouvement</p>
+        <h2>Cap Créole en mouvement</h2>
+        <p>Le même travail de direction artistique se prolonge en vidéo avec des formats courts pensés pour les réseaux sociaux.</p>
+      </section>
+
+      <!-- REELS — réutilise le composant Auto Discount (placeholders temporaires) -->
+      <section>
+        <div class="adc-reel-stack" role="list" aria-label="Formats courts Cap Créole (aperçus temporaires)">
+          <article class="adc-reel adc-reel--p2" role="listitem"><img src="/assets/projects/social/auto-discount/reel-carnaval-canal10.webp" alt="" loading="lazy"><span class="adc-reel__shade" aria-hidden="true"></span></article>
+          <article class="adc-reel adc-reel--p3" role="listitem">
+            <img src="/assets/projects/social/auto-discount/reel-carnaval-canal10.webp" alt="Aperçu temporaire — Reel Cap Créole à venir" loading="lazy">
+            <span class="adc-reel__shade" aria-hidden="true"></span>
+            <span class="adc-reel__play" aria-hidden="true"><span>&#9658;</span></span>
+          </article>
+          <article class="adc-reel adc-reel--p4" role="listitem"><img src="/assets/projects/social/auto-discount/reel-carnaval-canal10.webp" alt="" loading="lazy"><span class="adc-reel__shade" aria-hidden="true"></span></article>
+        </div>
+        <p class="ccr-reels-note">Aperçus temporaires (composant réutilisé d’Auto Discount) — remplacés dès réception des vrais Reels Cap Créole.</p>
+      </section>
+
+      <!-- GOOGLE ADS — visuel seul, plein cadre, non modifié -->
+      <section class="ccr-ads">
+        <p class="ccr-kicker">Google Ads</p>
+        <figure><img src="/assets/projects/social/cap-creole/ad-01.webp" alt="Campagne display Cap Créole" loading="lazy"></figure>
+      </section>
+
+      <!-- STATS — fin de page uniquement -->
+      <section>
+        <p class="ccr-kicker" style="text-align:center">Résultats &amp; impact</p>
+        <div class="ccr-stats-row">
+          <div><strong data-stat="visuels">—</strong><small>Visuels créés</small></div>
+          <div><strong data-stat="engagement">—</strong><small>Engagement moyen</small></div>
+          <div><strong data-stat="authenticite">100&nbsp;%</strong><small>Produit authentique</small></div>
+        </div>
+      </section>
+
+      <!-- CTA FINAL — compact, une ligne -->
+      <footer class="ccr-cta-compact ls-case-contact-footer">
+        <span class="ccr-cta-compact__logo"><img src="/assets/projects/social/cap-creole/logo-avatar.webp" alt="Cap Créole"></span>
+        <div class="ccr-cta-compact__copy">
+          <strong>Votre produit mérite un univers à sa hauteur.</strong>
+          <p>Créons ensemble des contenus qui donnent envie.</p>
+        </div>
+        <a href="/pages/contact.html">Nous contacter <span aria-hidden="true">→</span></a>
       </footer>
     </div>
   </template>
