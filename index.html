@@ -40,7 +40,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link rel="stylesheet" href="/css/globals.css?v=76">
+<link rel="stylesheet" href="/css/globals.css?v=127">
 <link rel="stylesheet" href="/css/hero-wave.css?v=2">
 
   <!-- Structured data — Organization / LocalBusiness for SEO & AI discovery -->
@@ -642,9 +642,10 @@
 
     @media (max-width: 1200px) {
       .hero {
-        min-height: 760px;
-        background-position: 20% bottom;
-        background-size: auto 100%;
+        background-image: url('/backgrounds/image-bg/generated/hero-home-960.webp?v=7');
+        min-height: clamp(760px, 75vw, 900px);
+        background-position: center bottom;
+        background-size: cover;
       }
       .hero-content {
         grid-template-columns: 1fr;
@@ -665,10 +666,6 @@
     }
 
     @media (max-width: 768px) {
-      .hero {
-        background-image: url('/backgrounds/image-bg/generated/hero-home-960.webp?v=7');
-        background-position: center bottom;
-      }
       .expertises-grid { grid-template-columns: repeat(2, 1fr); }
     }
 
@@ -937,7 +934,7 @@
             <img src="assets/logos/Logo-Clients-black-histoire-dor.svg"    alt="Histoire d'Or">
             <img src="assets/logos/Logo-Clients-black-ioburo.svg"          alt="ioBuro">
             <img src="assets/logos/Logo-Clients-black-jose-fabricator.svg" alt="José Fabricator" class="ls-logo-lg">
-            <img src="assets/logos/Logo-Clients-black-la-foir-fouille.svg" alt="La Foir'Fouille">
+            <img src="assets/logos/Logo-Clients-black-la-foir-fouille.png" alt="La Foir'Fouille">
             <img src="assets/logos/Logo-Clients-black-montebello.svg"      alt="Montebello" class="ls-logo-lg">
             <img src="assets/logos/Logo-Clients-black-mr-bricolage.svg"    alt="Mr. Bricolage">
             <img src="assets/logos/Logo-Clients-black-persepolis.svg"      alt="Persépolis">
@@ -951,7 +948,7 @@
             <img src="assets/logos/Logo-Clients-black-histoire-dor.svg"    alt="" aria-hidden="true">
             <img src="assets/logos/Logo-Clients-black-ioburo.svg"          alt="" aria-hidden="true">
             <img src="assets/logos/Logo-Clients-black-jose-fabricator.svg" alt="" aria-hidden="true" class="ls-logo-lg">
-            <img src="assets/logos/Logo-Clients-black-la-foir-fouille.svg" alt="" aria-hidden="true">
+            <img src="assets/logos/Logo-Clients-black-la-foir-fouille.png" alt="" aria-hidden="true">
             <img src="assets/logos/Logo-Clients-black-montebello.svg"      alt="" aria-hidden="true" class="ls-logo-lg">
             <img src="assets/logos/Logo-Clients-black-mr-bricolage.svg"    alt="" aria-hidden="true">
             <img src="assets/logos/Logo-Clients-black-persepolis.svg"      alt="" aria-hidden="true">
@@ -974,7 +971,7 @@
   </svg>
 </button>
 
-<script src="/js/components.js?v=51"></script>
+<script src="/js/components.js?v=92"></script>
 <script>
   initComponents('accueil');
   document.body.style.paddingTop = '0';

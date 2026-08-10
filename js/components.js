@@ -1415,7 +1415,7 @@ function initBonnesEpicesProject() {
             <p class="bonnes-bsys__note">Utile pour les formats couchés — couverture Facebook, papier à en-tête, bannières.</p>
             <div class="bonnes-bsys__patterns">
               <div class="bonnes-bsys__pattern bonnes-bsys__pattern--tile" style="background-image:url('/assets/projects/bonnes-epices/applications/pattern-a-vert.png')" role="img" aria-label="Motif répétitif feuilles sur fond vert foncé"></div>
-              <div class="bonnes-bsys__pattern bonnes-bsys__pattern--tile" style="background-image:url('/assets/projects/bonnes-epices/applications/pattern-b-jaune.jpg')" role="img" aria-label="Motif répétitif feuilles sur fond jaune"></div>
+              <div class="bonnes-bsys__pattern bonnes-bsys__pattern--tile" style="background-image:url('/assets/projects/bonnes-epices/applications/pattern-b-jaune.webp')" role="img" aria-label="Motif répétitif feuilles sur fond jaune"></div>
             </div>
             <p class="bonnes-bsys__note">Un motif signature, déclinable en packaging, présentoirs et habillage de point de vente.</p>
             <figure class="bonnes-bsys__banner">
@@ -2418,7 +2418,7 @@ const CATALOGUE_SERVICES_DEFAULT = {
 const CATALOGUE_CASE_STUDIES = {
   foirfouille: {
     client: 'La Foir’Fouille',
-    logo: '/assets/logos/Logo-Clients-black-la-foir-fouille.svg',
+    logo: '/assets/logos/Logo-Clients-black-la-foir-fouille.png',
     sector: 'Maison · Décoration · Bons plans',
     theme: { accent: '#D71920', accentDark: '#A81419', accentSoft: '#FFF1EF' },
     sectionOrder: ['showcase', 'catalogues', 'campaigns', 'services', 'footer'],
@@ -2531,14 +2531,14 @@ const CATALOGUE_CASE_STUDIES = {
       kicker: 'Deux catalogues, deux temps forts', title: 'Des couvertures qui installent immédiatement le sujet',
       note: 'Deux prises de parole saisonnières distinctes : « Vacances à la maison », diffusée du 29 juin au 27 juillet, et « Bonne fête maman ! », proposée du 18 mai au 11 juin 2023. Chaque couverture réunit la période commerciale, le thème de l’édition et un produit d’appel avant de conduire vers un parcours d’offres organisé par usages.',
       subnote: '',
-      image: '/assets/projects/catalogues/gamme-vert/couvgamvert.jpg',
+      image: '/assets/projects/catalogues/gamme-vert/couvgamvert.webp',
       alt: 'Mockup des catalogues Gamm vert Vacances à la maison et Bonne fête maman'
     },
     catalogues: [
       {
         layout: 'cover-left', label: 'Catalogue · Été', title: 'Vacances à la maison',
         text: 'Diffusée du 29 juin au 27 juillet, cette édition s’ouvre sur un hamac mis en situation dans un jardin et déroule ensuite les usages de la saison. Les pages intérieures structurent les offres autour de la détente, des repas en extérieur, de la réception et des loisirs : mobilier de jardin, voiles d’ombrage, piscines, spas, barbecues et équipements pour recevoir. Les bandeaux de rubrique, les grands visuels d’ambiance et les blocs prix permettent de changer d’univers tout en gardant une lecture commerciale continue.',
-        cover: '/assets/projects/catalogues/gamme-vert/couvgammvert1.png', coverAlt: 'Mockup du catalogue Gamm vert Vacances à la maison',
+        cover: '/assets/projects/catalogues/gamme-vert/couvgammvert1.webp', coverAlt: 'Mockup du catalogue Gamm vert Vacances à la maison',
         pages: [
           { src: '/assets/projects/catalogues/gamme-vert/catalogue-01-page-02.webp', alt: 'Page intérieure 2 du catalogue Gamm vert Vacances à la maison' },
           { src: '/assets/projects/catalogues/gamme-vert/catalogue-01-page-03.webp', alt: 'Page intérieure 3 du catalogue Gamm vert Vacances à la maison' },
@@ -2549,7 +2549,7 @@ const CATALOGUE_CASE_STUDIES = {
       {
         layout: 'cover-right', label: 'Catalogue · Fête des mères', title: 'Bonne fête maman !',
         text: 'Proposée du 18 mai au 11 juin 2023, cette édition associe la fête des mères aux univers végétal, jardin et maison. La couverture met en avant une sélection de phalaenopsis, puis les pages présentent fleurs, orchidées, pots, terreaux et accessoires avant d’élargir le parcours à la motoculture et à l’entretien extérieur. Le rose identifie le temps fort cadeau, tandis que le vert Gamm vert et les cartouches rouges assurent la continuité de marque et la visibilité des offres.',
-        cover: '/assets/projects/catalogues/gamme-vert/Catalogue fond blanc vertical.png', coverAlt: 'Mockup du catalogue Gamm vert Bonne fête maman',
+        cover: '/assets/projects/catalogues/gamme-vert/couvgammvert2.webp', coverAlt: 'Mockup du catalogue Gamm vert Bonne fête maman',
         pages: [
           { src: '/assets/projects/catalogues/gamme-vert/catalogue-02-page-02.webp', alt: 'Page intérieure 2 du catalogue Gamm vert Bonne fête maman' },
           { src: '/assets/projects/catalogues/gamme-vert/catalogue-02-page-03.webp', alt: 'Page intérieure 3 du catalogue Gamm vert Bonne fête maman' },
@@ -2586,37 +2586,86 @@ const CATALOGUE_CASE_STUDIES = {
   carrefour: {
     client: 'Carrefour',
     logo: '/assets/logos/Logo-Clients-black-carrefour.svg',
-    sector: 'Grande distribution · Guadeloupe',
+    sector: 'Grande distribution · Martinique',
     theme: { accent: '#254F9A', accentDark: '#1B3C78', accentSoft: '#EEF3FA' },
     sectionOrder: ['showcase', 'catalogues', 'campaigns', 'services', 'footer'],
-    intro: { text: 'Trois éditions commerciales qui organisent des univers très différents dans une lecture commune. Les temps forts, les sélections et les repères de rayon restent identifiables dès le premier regard.' },
+    intro: { text: 'Deux catalogues commerciaux construits autour de temps forts très identifiables, puis prolongés en magasin par des supports grand format qui reprennent leurs codes visuels.' },
     highlights: [
-      { value: '3', label: 'exemples présentés', desc: 'De l’alimentaire aux univers maison' },
-      { value: '971', label: 'Guadeloupe', desc: 'Communication adaptée au marché local' },
-      { value: 'Print', desc: 'Catalogue commercial, charte enseigne respectée' }
+      { value: '2', label: 'catalogues présentés', desc: 'Promo Goal — Acte 1 et Le Carnaval des promos' },
+      { value: '9', label: 'mises en situation', desc: 'Kakémonos et écrans intégrés au parcours en magasin' },
+      { value: 'Print', desc: 'Catalogue commercial et communication sur le lieu de vente' }
     ],
     approach: CATALOGUE_APPROACH_DEFAULT,
     expertise: CATALOGUE_EXPERTISE_DEFAULT,
     processSteps: undefined,
     showcase: {
-      kicker: 'Réalisations', title: 'Une collection prête à circuler',
-      note: 'Trois éditions distinctes réunies par les mêmes repères de marque.',
+      kicker: 'Catalogue &amp; point de vente', title: 'Une production pensée jusque dans le magasin',
+      note: 'Couverture, pages d’offres et doubles pages composent un ensemble cohérent, conçu pour installer le temps fort commercial avant son relais sur les supports de communication en magasin.',
       subnote: '',
-      image: '/assets/projects/catalogues/carrefour/mockup-catalogue-carrefour.webp',
-      alt: 'Pile de catalogues Carrefour imprimés'
+      image: '/assets/projects/catalogues/carrefour/couvcarrfouf.webp',
+      alt: 'Mockup du catalogue Carrefour Foire aux vins'
     },
     catalogues: [
-      { layout: 'cover-left', label: 'Catalogue', title: 'Le marché frais', text: 'Une entrée directe par la fraîcheur et les produits du quotidien.', cover: '/assets/projects/catalogues/carrefour/catalogue-01.webp', coverAlt: 'Catalogue Carrefour marché frais', pages: [] },
-      { layout: 'cover-right', label: 'Catalogue', title: 'Le quotidien', text: 'Les familles de produits courants, organisées pour une lecture rapide.', cover: '/assets/projects/catalogues/carrefour/catalogue-02.webp', coverAlt: 'Catalogue Carrefour quotidien', pages: [] },
-      { layout: 'cover-left', label: 'Catalogue', title: 'Maison et loisirs', text: 'Un univers plus large, avec la même signature graphique.', cover: '/assets/projects/catalogues/carrefour/catalogue-03.webp', coverAlt: 'Catalogue Carrefour maison et loisirs', pages: [] }
+      {
+        layout: 'cover-left', label: 'Catalogue · Acte 1', title: 'Promo Goal',
+        text: 'Diffusée du 2 au 14 juin 2026, cette édition organise les offres dans un territoire graphique inspiré du sport : aplats bleu, blanc, rouge, vert et jaune, texture textile et grands cartouches prix. Les pages alternent produits du quotidien, sélections locales et mises en avant par rayon, tout en conservant une hiérarchie très directe entre l’offre, le prix et les informations produit.',
+        cover: '/assets/projects/catalogues/carrefour/catalogue-01-cover.webp', coverAlt: 'Couverture du catalogue Carrefour Promo Goal — Acte 1',
+        pages: [
+          { src: '/assets/projects/catalogues/carrefour/catalogue-01-page-02.webp', alt: 'Page intérieure 2 du catalogue Carrefour Promo Goal — Acte 1' },
+          { src: '/assets/projects/catalogues/carrefour/catalogue-01-page-08.webp', alt: 'Page intérieure 8 du catalogue Carrefour Promo Goal — Acte 1' },
+          { src: '/assets/projects/catalogues/carrefour/catalogue-01-page-13.webp', alt: 'Page intérieure 13 du catalogue Carrefour Promo Goal — Acte 1' },
+          { src: '/assets/projects/catalogues/carrefour/catalogue-01-page-18.webp', alt: 'Page intérieure 18 du catalogue Carrefour Promo Goal — Acte 1' }
+        ]
+      },
+      {
+        layout: 'cover-right', label: 'Catalogue · Carnaval', title: 'Le Carnaval des promos',
+        text: 'Proposée du 25 février au 9 mars 2025, cette édition reprend les signes visuels du carnaval pour rythmer les offres : turquoise, rose, rouge, masques, plumes et percussions. La couverture installe immédiatement le temps fort, puis les pages intérieures déclinent cette identité sur l’épicerie, les produits frais, la boulangerie et les offres promotionnelles, avec des blocs prix lisibles malgré la densité des références.',
+        cover: '/assets/projects/catalogues/carrefour/catalogue-02-cover.webp', coverAlt: 'Couverture du catalogue Carrefour Le Carnaval des promos',
+        pages: [
+          { src: '/assets/projects/catalogues/carrefour/catalogue-02-page-08.webp', alt: 'Page intérieure 8 du catalogue Carrefour Le Carnaval des promos' },
+          { src: '/assets/projects/catalogues/carrefour/catalogue-02-page-09.webp', alt: 'Page intérieure 9 du catalogue Carrefour Le Carnaval des promos' },
+          { src: '/assets/projects/catalogues/carrefour/catalogue-02-page-13.webp', alt: 'Page intérieure 13 du catalogue Carrefour Le Carnaval des promos' },
+          { src: '/assets/projects/catalogues/carrefour/catalogue-02-page-15.webp', alt: 'Page intérieure 15 du catalogue Carrefour Le Carnaval des promos' }
+        ]
+      }
     ],
-    campaigns: { kicker: 'Campagnes', title: 'Campagnes multi-formats', subtitle: '', comingSoon: true, rows: [] },
-    services: CATALOGUE_SERVICES_DEFAULT,
+    campaigns: {
+      kicker: 'Communication print en magasin',
+      title: 'Maximiser la visibilité du catalogue dans le parcours client',
+      subtitle: 'Trois temps forts déclinés chacun dans trois mises en situation. Les kakémonos suspendus et les écrans placés dans les univers de vente prolongent les codes du catalogue au plus près des rayons et des zones de passage.',
+      rows: [
+        { universe: 'Foire aux vins', items: [
+          { src: '/assets/projects/catalogues/carrefour/print-instore/set-1-1.webp', alt: 'Kakémono Carrefour Foire aux vins suspendu dans une allée du magasin', caption: '', ratioClass: 'print-landscape' },
+          { src: '/assets/projects/catalogues/carrefour/print-instore/set-1-2.webp', alt: 'Kakémono Carrefour Foire aux vins installé dans l’univers cave', caption: '', ratioClass: 'print-landscape' },
+          { src: '/assets/projects/catalogues/carrefour/print-instore/set-1-3.webp', alt: 'Écran Carrefour Foire aux vins installé au rayon boucherie', caption: '', ratioClass: 'print-landscape' }
+        ]},
+        { universe: 'Petits prix pour gros câlins', items: [
+          { src: '/assets/projects/catalogues/carrefour/print-instore/set-2-1.webp', alt: 'Kakémono Carrefour Petits prix pour gros câlins suspendu dans une allée du magasin', caption: '', ratioClass: 'print-landscape' },
+          { src: '/assets/projects/catalogues/carrefour/print-instore/set-2-2.webp', alt: 'Kakémono Carrefour Petits prix pour gros câlins installé dans l’univers cave', caption: '', ratioClass: 'print-landscape' },
+          { src: '/assets/projects/catalogues/carrefour/print-instore/set-2-3.webp', alt: 'Écran Carrefour Petits prix pour gros câlins installé au rayon boucherie', caption: '', ratioClass: 'print-landscape' }
+        ]},
+        { universe: 'Le Carnaval des promos', items: [
+          { src: '/assets/projects/catalogues/carrefour/print-instore/set-3-1.webp', alt: 'Kakémono Carrefour Le Carnaval des promos suspendu dans une allée du magasin', caption: '', ratioClass: 'print-landscape' },
+          { src: '/assets/projects/catalogues/carrefour/print-instore/set-3-2.webp', alt: 'Kakémono Carrefour Le Carnaval des promos installé dans l’univers vins', caption: '', ratioClass: 'print-landscape' },
+          { src: '/assets/projects/catalogues/carrefour/print-instore/set-3-3.webp', alt: 'Écran Carrefour Le Carnaval des promos installé près des caisses', caption: '', ratioClass: 'print-landscape' }
+        ]}
+      ]
+    },
+    services: {
+      kicker: 'Notre accompagnement', title: 'Ce que nous prenons en charge',
+      text: 'Nous accompagnons chaque édition de sa structuration éditoriale jusqu’à son déploiement sur les supports visibles en magasin.',
+      items: [
+        { title: 'Direction éditoriale', text: 'Organisation des univers, hiérarchisation des offres et construction du chemin de lecture.' },
+        { title: 'Conception graphique', text: 'Création des maquettes, mise en page et valorisation visuelle des produits.' },
+        { title: 'Exécution &amp; prépresse', text: 'Déclinaisons des pages, contrôles techniques et préparation des fichiers destinés à l’impression.' },
+        { title: 'Déploiement magasin', text: 'Adaptation des temps forts catalogue aux kakémonos, écrans et formats de communication sur le lieu de vente.' }
+      ]
+    },
     conclusion: 'Une exigence de qualité, une parfaite gestion des délais et une compréhension fine des enjeux retail font de notre collaboration avec Carrefour une relation durable et performante.',
     footer: {
       mark: '◎', eyebrow: 'Prochaine édition',
       title: 'Donnons plus d’impact à vos prochaines éditions',
-      description: 'Catalogue, exécution print et campagnes digitales : construisons un dispositif cohérent autour de vos temps forts commerciaux.',
+      description: 'Catalogue, exécution print et communication en magasin : construisons un dispositif cohérent autour de vos temps forts commerciaux.',
       ctaLabel: 'Parler de votre projet', ctaHref: '/pages/contact.html'
     }
   }
@@ -2746,6 +2795,1158 @@ function initCatalogueCaseStudies() {
   });
 }
 
+/* ── DIGILIFE / DIGIMAG — étude de cas dédiée ────────────────────────────
+   Direction premium type page produit Apple. Contrairement aux autres
+   études catalogue (Foir'Fouille / Gamm vert / Carrefour) qui partagent
+   CATALOGUE_SECTION_RENDERERS, Digilife a sa propre mise en page : hero
+   pleine largeur, méthode en trois étapes, doubles-pages bord à bord.
+   Toute la donnée est centralisée ici — aucun chemin d'image codé en dur
+   dans le gabarit HTML.
+   ───────────────────────────────────────────────────────────────────── */
+const DGC = '/assets/projects/catalogues/digilife';
+
+const DIGILIFE_CASE_STUDY = {
+  /* Le visuel de fond ne porte aucun texte : le titre, le bouton et les
+     accroches sont posés en HTML/CSS par-dessus, donc redimensionnables et
+     lisibles à tous les formats. Les personnages occupent la moitié droite
+     de l'image, la gauche est du noir pur — le texte s'y pose sans jamais
+     recouvrir ni recadrer un personnage. */
+  hero: {
+    src: `${DGC}/hero-bg.webp`, w: 2400, h: 1027,
+    alt: 'Univers Digimag : personas Apple et logo Apple rétroéclairé',
+    logo: '/assets/logos/Logo-Clients-white-digilife.svg',
+    over: 'Découvrez le nouveau',
+    title: 'Digimag',
+    ctaLabel: 'Cliquez-ici',
+    text: 'Direction artistique, production visuelle par IA et déploiement multi-formats pour le spécialiste Apple en Guadeloupe &amp; Martinique.'
+  },
+  digitalMockup: {
+    src: `${DGC}/mockup-multiscreen.webp`, w: 1448, h: 1086,
+    alt: 'Catalogue Digimag présenté sur plusieurs appareils'
+  },
+  /* Le catalogue était consultable en ligne via Calaméo pendant l'opération.
+     Tant que l'URL réelle n'est pas fournie, le bouton reste masqué —
+     aucun lien inventé. */
+  calameoUrl: '',
+  personaBands: [
+    { src: `${DGC}/personas/band-airpods.webp`,     alt: 'Bandeau persona Digilife — AirPods' },
+    { src: `${DGC}/personas/band-imac-24.webp`,     alt: 'Bandeau persona Digilife — iMac 24' },
+    { src: `${DGC}/personas/band-iphone-air.webp`,  alt: 'Bandeau persona Digilife — iPhone Air' },
+    { src: `${DGC}/personas/band-airpods-pro.webp`, alt: 'Bandeau persona Digilife — AirPods Pro' },
+    { src: `${DGC}/personas/band-watch-11.webp`,    alt: 'Bandeau persona Digilife — Apple Watch 11' },
+    { src: `${DGC}/personas/band-mac-mini.webp`,    alt: 'Bandeau persona Digilife — Mac mini' }
+  ],
+  /* Méthode : une ligne par produit. Ressource officielle → personas
+     locaux générés → intégration dans les pages du catalogue. */
+  processRows: [
+    {
+      product: { src: `${DGC}/process/r1-produit-airpods.webp`, w: 1000, h: 1000, alt: 'AirPods Pro 3, ressource produit officielle sur fond blanc' },
+      personas: { src: `${DGC}/process/r1-personas-airpods.webp`, w: 1400, h: 787, alt: 'Personas locaux portant les AirPods Pro 3' },
+      integration: { src: `${DGC}/process/r1-integration-airpods.webp`, w: 1100, h: 1375, alt: 'Pages AirPods Pro 3 du Digimag affichées sur deux iPhone' }
+    },
+    {
+      product: { src: `${DGC}/process/r2-produit-ipad.webp`, w: 1000, h: 563, alt: 'iPad finition rose, ressource produit officielle sur fond blanc' },
+      personas: { src: `${DGC}/process/r2-personas-ipad.webp`, w: 1400, h: 787, alt: 'Personas locaux avec l’iPad rose' },
+      integration: { src: `${DGC}/process/r2-integration-ipad.webp`, w: 1100, h: 1375, alt: 'Pages iPad du Digimag affichées sur deux iPad' }
+    }
+  ],
+  /* Un seul chapeau introduit l'ensemble des pages présentées : plus aucun
+     texte ne s'intercale entre les doubles-pages. */
+  spreadsLead: {
+    label: 'Un univers, un persona',
+    title: 'Performance et dépassement.',
+    text: 'Une sélection de pages représentatives des différents univers du catalogue et des profils auxquels ils s’adressent.'
+  },
+  catalogueSpreads: [
+    {
+      theme: 'dark',
+      left:  { src: `${DGC}/spreads/spread-01-left.webp`,  w: 1200, h: 2133 },
+      right: { src: `${DGC}/spreads/spread-01-right.webp`, w: 1200, h: 2134 },
+      alt: 'Double-page Digimag consacrée à l’Apple Watch'
+    },
+    {
+      theme: 'light',
+      left:  { src: `${DGC}/spreads/spread-02-left.webp`,  w: 1200, h: 2134 },
+      right: { src: `${DGC}/spreads/spread-02-right.webp`, w: 1200, h: 2134 },
+      alt: 'Double-page Digimag consacrée au MacBook Air'
+    },
+    {
+      theme: 'dark',
+      left:  { src: `${DGC}/spreads/spread-03-left.webp`,  w: 1200, h: 2133 },
+      right: { src: `${DGC}/spreads/spread-03-right.webp`, w: 1200, h: 2134 },
+      alt: 'Double-page Digimag consacrée à l’iPhone'
+    }
+  ],
+  socialPosts: [
+    { src: `${DGC}/posts/post-digimag.webp`, w: 1080, h: 1350,
+      alt: 'Publication Instagram Digilife annonçant le Digimag',
+      caption: 'Découvrez le Digimag Décembre 2025. Le meilleur de l’univers Apple, près de chez vous.' },
+    { src: `${DGC}/posts/post-iphone16.webp`, w: 1080, h: 1350,
+      alt: 'Publication Instagram Digilife pour l’iPhone 16',
+      caption: 'iPhone 16 au prix métropole, et le quotidien devient zen.' },
+    { src: `${DGC}/posts/post-macbook-air-m1.webp`, w: 1080, h: 1350,
+      alt: 'Publication Instagram Digilife pour le MacBook Air M1',
+      caption: 'MacBook Air M1 : l’indispensable rendu accessible.' }
+  ],
+  /* Le film final n'est pas encore livré. Lecteur réel alimenté par une
+     vidéo de démonstration publique, signalée comme telle sous le player.
+     Remplacer videoUrl par le master pour finaliser — rien d'autre à changer. */
+  videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+  videoIsPlaceholder: true,
+  clientLogos: {
+    black: '/assets/logos/Logo-Clients-black-digilife.svg',
+    white: '/assets/logos/Logo-Clients-white-digilife.svg'
+  },
+  cta: {
+    title: 'Un projet, une idée, un défi ?',
+    text: 'Créons ensemble des expériences qui font la différence.',
+    label: 'Nous contacter',
+    href: '/pages/contact.html'
+  }
+};
+
+/* Icônes Instagram inlinées : aucun compteur de likes ou de commentaires
+   n'est affiché, les chiffres réels n'ayant pas été fournis. */
+const DGC_IG_ICONS = `
+            <span aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 20.5 4.6 13a4.7 4.7 0 0 1 6.6-6.7l.8.8.8-.8A4.7 4.7 0 1 1 19.4 13Z"/></svg></span>
+            <span aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9 9 0 0 1-3.8-.8L3 20.7l1.6-4.8a8.3 8.3 0 0 1-.9-3.8 8.4 8.4 0 0 1 8.4-8.4 8.4 8.4 0 0 1 8.9 7.8Z"/></svg></span>
+            <span aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21.5 2.5 11 13M21.5 2.5l-6.7 19-3.8-8.5L2.5 9.2Z"/></svg></span>
+            <span aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M18.5 21 12 16.5 5.5 21V4.5a1.5 1.5 0 0 1 1.5-1.5h10a1.5 1.5 0 0 1 1.5 1.5Z"/></svg></span>`;
+
+function renderDigilifeCaseHTML(cfg) {
+  /* Seule la première section porte le chapeau ; les suivantes n'affichent
+     que les pages, sans titre intercalé, pour un enchaînement continu. */
+  const spread = (s, i) => `
+        <section class="dgc-spread-section dgc-spread-section--${s.theme}${i > 0 ? ' dgc-spread-section--follow' : ''}">
+          ${i === 0 ? `<div class="dgc-lead">
+            <span>${cfg.spreadsLead.label}</span>
+            <h3>${cfg.spreadsLead.title}</h3>
+            <p>${cfg.spreadsLead.text}</p>
+          </div>` : ''}
+          <div class="dgc-spread">
+            <figure><img src="${s.left.src}" width="${s.left.w}" height="${s.left.h}" alt="${s.alt} — page de gauche" loading="lazy" decoding="async"></figure>
+            <figure><img src="${s.right.src}" width="${s.right.w}" height="${s.right.h}" alt="${s.alt} — page de droite" loading="lazy" decoding="async"></figure>
+          </div>
+        </section>`;
+
+  return `
+      <article class="dgc-case">
+
+        <section class="dgc-hero">
+          <div class="dgc-hero__stage">
+            <img class="dgc-hero__bg" src="${cfg.hero.src}" width="${cfg.hero.w}" height="${cfg.hero.h}" alt="${cfg.hero.alt}" fetchpriority="high" decoding="async">
+            <div class="dgc-hero__content">
+              <img class="dgc-hero__logo" src="${cfg.hero.logo}" alt="Digilife">
+              <p class="dgc-hero__over">${cfg.hero.over}</p>
+              <p class="dgc-hero__titlewrap">
+                <span class="dgc-hero__title">${cfg.hero.title}</span>
+              </p>
+              <p class="dgc-hero__text">${cfg.hero.text}</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="dgc-case--tint">
+          <div class="dgc-screens__grid">
+            <div class="dgc-lead">
+              <span>Catalogue 100% digital</span>
+              <h3>Un catalogue pensé pour tous vos écrans.</h3>
+              <p>Une expérience de lecture fluide, interactive et immersive, disponible en ligne pendant toute l’opération.</p>
+              ${cfg.calameoUrl ? `<a class="dgc-btn" href="${cfg.calameoUrl}" target="_blank" rel="noopener noreferrer">Voir le catalogue <span aria-hidden="true">→</span></a>` : ''}
+            </div>
+            <figure class="dgc-screens__visual">
+              <img src="${cfg.digitalMockup.src}" width="${cfg.digitalMockup.w}" height="${cfg.digitalMockup.h}" alt="${cfg.digitalMockup.alt}" loading="lazy" decoding="async">
+            </figure>
+          </div>
+        </section>
+
+        <section>
+          <div class="dgc-personas__grid">
+            <div class="dgc-lead">
+              <span>Des personas locaux, aspirationnels et inspirants</span>
+              <h3>Traduire l’univers Apple dans des personas locaux, réalistes et inspirants.</h3>
+              <p>Chaque persona a été conçu pour refléter la diversité des usages, des profils et des ambitions de nos publics en Guadeloupe et en Martinique.</p>
+            </div>
+            <div class="dgc-bands">
+              ${cfg.personaBands.map(b => `<figure><img src="${b.src}" width="750" height="3500" alt="${b.alt}" loading="lazy" decoding="async"></figure>`).join('\n              ')}
+            </div>
+          </div>
+        </section>
+
+        <section class="dgc-case--tint dgc-method">
+          <div class="dgc-method__head">
+            <div><b>01. Ressources produit</b><span>Officielles fournies par la marque</span></div>
+            <div><b>02. Génération / recomposition</b><span>De personas locaux à des contextes d’usage</span></div>
+            <div><b>03. Intégration</b><span>Dans le catalogue</span></div>
+          </div>
+          ${cfg.processRows.map(r => `<div class="dgc-method__row">
+            <figure class="dgc-method__cell"><img src="${r.product.src}" width="${r.product.w}" height="${r.product.h}" alt="${r.product.alt}" loading="lazy" decoding="async"></figure>
+            <span class="dgc-method__arrow" aria-hidden="true">
+              <svg viewBox="0 0 30 22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 11h24M18 3l8 8-8 8"/></svg>
+            </span>
+            <figure class="dgc-method__cell"><img src="${r.personas.src}" width="${r.personas.w}" height="${r.personas.h}" alt="${r.personas.alt}" loading="lazy" decoding="async"></figure>
+            <figure class="dgc-method__cell dgc-method__cell--plain"><img src="${r.integration.src}" width="${r.integration.w}" height="${r.integration.h}" alt="${r.integration.alt}" loading="lazy" decoding="async"></figure>
+          </div>`).join('\n          ')}
+        </section>
+
+        ${cfg.catalogueSpreads.map(spread).join('\n')}
+
+        <section>
+          <div class="dgc-lead">
+            <span>Déploiement 360°</span>
+            <h3>Un message fort, partout où ça compte.</h3>
+            <p>Une campagne sociale pensée comme le prolongement direct du catalogue.</p>
+          </div>
+          <div class="dgc-posts">
+            ${cfg.socialPosts.map(p => `<article class="dgc-post">
+              <div class="dgc-post__top">
+                <span class="dgc-post__avatar"><img src="${cfg.clientLogos.white}" alt="" aria-hidden="true"></span>
+                <span class="dgc-post__id"><b>digilife</b><span>Guadeloupe &amp; Martinique</span></span>
+                <span class="dgc-post__more" aria-hidden="true">•••</span>
+              </div>
+              <figure class="dgc-post__media"><img src="${p.src}" width="${p.w}" height="${p.h}" alt="${p.alt}" loading="lazy" decoding="async"></figure>
+              <div class="dgc-post__actions">${DGC_IG_ICONS}
+              </div>
+              <p class="dgc-post__caption"><b>digilife</b> <span>${p.caption}</span></p>
+            </article>`).join('\n            ')}
+          </div>
+        </section>
+
+        <section class="dgc-film">
+          <div class="dgc-film__grid">
+            <div class="dgc-lead">
+              <span>Film de lancement</span>
+              <h3>Donner vie à la promesse.</h3>
+              <p>Un film court, dynamique et émotionnel conçu pour dévoiler Digimag et ses différents univers.</p>
+              <a class="dgc-btn" href="#dgc-film-player">Voir le film <span aria-hidden="true">→</span></a>
+            </div>
+            <figure class="dgc-film__player">
+              <video id="dgc-film-player" src="${cfg.videoUrl}" controls playsinline preload="none"></video>
+              ${cfg.videoIsPlaceholder ? `<figcaption class="dgc-film__note">Vidéo de démonstration — le film de lancement final sera intégré ici.</figcaption>` : ''}
+            </figure>
+          </div>
+        </section>
+
+        <footer class="dgc-cta ls-case-contact-footer">
+          <img class="dgc-cta__logo" src="${cfg.clientLogos.black}" alt="Digilife">
+          <div class="dgc-cta__copy">
+            <strong>${cfg.cta.title}</strong>
+            <p>${cfg.cta.text}</p>
+          </div>
+          <a class="dgc-btn" href="${cfg.cta.href}">${cfg.cta.label} <span aria-hidden="true">→</span></a>
+        </footer>
+      </article>`;
+}
+
+/* ── DECATHLON — étude de cas catalogue numérique ────────────────────────
+   Trois catalogues consultables en ligne (jamais présentés comme des
+   imprimés). La méthode de production n'apparaît qu'une fois, en tête de
+   page : elle n'est pas répétée dans chaque catalogue.
+   Tout asset non fourni rend un AssetPlaceholder qui verrouille la
+   composition sans rien inventer — il suffira de renseigner le chemin.
+   ───────────────────────────────────────────────────────────────────── */
+const DKT = '/assets/projects/catalogues/decathlon';
+const ph = (label, ratio) => ({ pending: true, label, ratio: ratio || '210 / 297' });
+
+const DECATHLON_CASE_STUDY = {
+  hero: {
+    logo: '/assets/logos/Logo-Clients-black-decathlon.svg',
+    eyebrow: 'Grande distribution · Sport · Guadeloupe',
+    title: 'Decathlon',
+    subtitle: 'Trois catalogues, trois temps forts, une même exigence de cohérence.',
+    text: 'Direction artistique, production visuelle assistée par IA et mise en page éditoriale pour créer des catalogues numériques adaptés au marché local.',
+    photo: { src: `${DKT}/hero-photo.webp`, w: 1800, h: 1013, alt: 'Deux sportifs à l’entraînement en extérieur, face à la mer' }
+  },
+  digital: {
+    eyebrow: 'Catalogue 100% digital',
+    title: 'Un catalogue qui se consulte partout.',
+    text: 'Pensé pour être parcouru sur téléphone, tablette ou ordinateur : une lecture fluide, des visuels forts et une navigation qui aide à comparer et à décider.',
+    mockup: { src: `${DKT}/mockup-multiscreen.webp`, w: 1800, h: 1013, alt: 'Catalogue Decathlon affiché sur téléphone, tablette et ordinateur portable' }
+  },
+  /* La méthode n'apparaît qu'ici, jamais répétée dans les catalogues.
+     Chaque ligne raconte un type de transformation, du visuel de départ
+     jusqu'à son intégration dans la page. */
+  process: {
+    eyebrow: 'Notre méthodologie',
+    title: 'De l’image brute à la page catalogue.',
+    text: 'Les ressources produit disponibles ne parlent pas au public antillais. Nous les retravaillons — les modèles, les produits portés, les décors — jusqu’à obtenir des visuels qui ressemblent à nos clients et qui s’intègrent directement dans la mise en page.',
+    columns: ['Visuel de départ', 'Transformation', 'Intégration catalogue'],
+    rows: [
+      {
+        /* Rangée spéciale : mise en page dédiée (30/32/38%), voir
+           renderDecathlonCaseHTML — ne partage pas le gabarit des 2 autres
+           rangées. Fichiers réels : contents/.../Decathlon/worklow 2/. */
+        theme: 'Produit en situation', color: '#1E7A4B', layout: 'situation',
+        situation: {
+          plate: { src: `${DKT}/process/situ-products-plate.webp`, w: 1200, h: 1200, alt: 'Planche des produits Decathlon réels utilisés pour la composition : coupelles, ballons, pompe, chronomètre, but, chasuble' },
+          photo: { src: `${DKT}/process/situ-photo-source.webp`, w: 1000, h: 667, alt: 'Photo originale du jeune footballeur, visuel source avant composition' },
+          transform: { src: `${DKT}/process/situ-transform.webp`, alt: 'Composition intégrant le footballeur et les produits Decathlon sur le terrain' },
+          catalog: { src: `${DKT}/process/situ-catalog.webp`, w: 2481, h: 3508, alt: 'Page catalogue Decathlon intégrant le visuel football retravaillé' }
+        }
+      },
+      {
+        theme: 'Modèle localisé', color: '#C1272D',
+        steps: [
+          { src: `${DKT}/process/a1-source.webp`, alt: 'Jeune sportif antillais photographié en studio sur fond blanc' },
+          { src: `${DKT}/process/a2-scene.webp`, alt: 'Le même profil replacé dans une scène de football en extérieur' },
+          { src: `${DKT}/process/c1-integration-foot.webp`, alt: 'Page catalogue football intégrant le visuel retravaillé' }
+        ]
+      },
+      {
+        theme: 'Contexte d’usage', color: '#1D4E9C',
+        steps: [
+          { src: `${DKT}/process/localise-shoes.webp`, alt: 'Visuel chaussure remplaçant le placeholder' },
+          { src: `${DKT}/process/b2-scene.webp`, alt: 'Le même sportif replacé sur un court de badminton' },
+          { src: `${DKT}/process/usage-catalog.webp`, alt: 'Page catalogue intégrée à partir du visuel existant' }
+        ]
+      }
+    ]
+  },
+  catalogues: [
+    {
+      id: 'prepa-ete', eyebrow: 'Catalogue 01',
+      title: 'Reprenez la forme, à petits prix.',
+      description: 'Un catalogue dédié à la remise en forme, aux équipements de fitness et à la préparation physique. Des essentiels fiables pour bouger plus, chaque jour.',
+      cover: { src: `${DKT}/c1-cover.webp`, w: 1091, h: 1544, alt: 'Couverture du catalogue numérique « Reprenez la forme, à petits prix »' },
+      spreads: [
+        { left: { src: `${DKT}/spreads/c1-s1-left.webp` }, right: { src: `${DKT}/spreads/c1-s1-right.webp` }, alt: 'Double-page fitness et textile technique' },
+        { left: { src: `${DKT}/spreads/c1-s2-left.webp` }, right: { src: `${DKT}/spreads/c1-s2-right.webp` }, alt: 'Double-page cardio et matériel d’entraînement' }
+      ]
+    },
+    {
+      id: 'vacances', eyebrow: 'Catalogue 02',
+      title: 'Les vacances à prix juste.',
+      description: 'Un univers estival consacré aux activités aquatiques, aux vacances actives et aux équipements outdoor. Snorkeling, plage et plein air structurent la lecture.',
+      cover: { src: `${DKT}/c2-cover.webp`, w: 1091, h: 1544, alt: 'Couverture du catalogue numérique « Les vacances à prix juste »' },
+      spreads: [
+        { left: { src: `${DKT}/spreads/c2-s1-left.webp` }, right: { src: `${DKT}/spreads/c2-s1-right.webp` }, alt: 'Double-page snorkeling et loisirs d’eau' },
+        { left: { src: `${DKT}/spreads/c2-s2-left.webp` }, right: { src: `${DKT}/spreads/c2-s2-right.webp` }, alt: 'Double-page chasse sous-marine et surf' }
+      ]
+    },
+    {
+      id: 'camping', eyebrow: 'Catalogue 03',
+      title: 'Les bons moments de Pâques.',
+      description: 'Un catalogue camping pensé pour les vacances de Pâques : tentes, couchage et vie en plein air, du matériel compact aux formats familiaux.',
+      cover: { src: `${DKT}/c5-cover.webp`, w: 1091, h: 1544, alt: 'Couverture du catalogue numérique camping « Les bons moments de Pâques »' },
+      spreads: [
+        { left: { src: `${DKT}/spreads/c5-s1-left.webp` }, right: { src: `${DKT}/spreads/c5-s1-right.webp` }, alt: 'Double-page essentiels du camping' },
+        { left: { src: `${DKT}/spreads/c5-s2-left.webp` }, right: { src: `${DKT}/spreads/c5-s2-right.webp` }, alt: 'Double-page tentes familiales' }
+      ]
+    },
+    /* Quatrième édition présentée en composition « showcase » : couverture
+       dominante à gauche, deux doubles-pages détachées à droite. */
+    {
+      id: 'effort', eyebrow: 'Catalogue 04', variant: 'showcase',
+      title: 'L’effort,\nvotre sport préféré.',
+      description: 'Le catalogue dédié à la performance, à la musculation et au cardio. Équipements techniques et textiles résistants pour se dépasser, à chaque entraînement.',
+      cover: { src: `${DKT}/c3-cover.webp`, w: 1091, h: 1544, alt: 'Couverture du catalogue numérique « L’effort, votre sport préféré »' },
+      spreads: [
+        { left: { src: `${DKT}/spreads/c4-s1-left.webp` }, right: { src: `${DKT}/spreads/c4-s1-right.webp` }, alt: 'Double-page cardio training et vélo elliptique' },
+        { left: { src: `${DKT}/spreads/c3-s2-left.webp` }, right: { src: `${DKT}/spreads/c3-s2-right.webp` }, alt: 'Double-page textile homme et matériel cardio' }
+      ]
+    }
+  ],
+  cta: {
+    title: 'Un catalogue pensé pour faire vivre vos offres ?',
+    text: 'Concevons un dispositif numérique clair, attractif et cohérent avec votre marque.',
+    label: 'Nous contacter',
+    href: '/pages/contact.html'
+  }
+};
+
+function dktAsset(a, cls, extraAlt) {
+  if (!a || a.pending) {
+    const label = (a && a.label) || 'Visuel à ajouter';
+    const ratio = (a && a.ratio) || '210 / 297';
+    return `<div class="dkt-ph ${cls || ''}" style="aspect-ratio:${ratio}"><span>${label}</span></div>`;
+  }
+  const dim = a.w && a.h ? ` width="${a.w}" height="${a.h}"` : '';
+  return `<img class="${cls || ''}" src="${a.src}"${dim} alt="${a.alt || extraAlt || ''}" loading="lazy" decoding="async">`;
+}
+
+function renderDecathlonCaseHTML(cfg) {
+  const spread = (s) => s.pending
+    ? `<div class="dkt-spread dkt-spread--pending"><div class="dkt-ph"><span>${s.alt}</span></div></div>`
+    : `<div class="dkt-spread">
+                <figure>${dktAsset(s.left, '', s.alt + ' — page de gauche')}</figure>
+                <figure>${dktAsset(s.right, '', s.alt + ' — page de droite')}</figure>
+              </div>`;
+
+  const catalogue = (c) => `
+        <section class="dkt-cat${c.variant ? ' dkt-cat--' + c.variant : ''}">
+          <div class="dkt-cat__aside">
+            <span class="dkt-eyebrow">${c.eyebrow}</span>
+            <h3>${c.title.replace(/\n/g, "<br>")}</h3>
+            <p>${c.description}</p>
+            <figure class="dkt-cat__cover">${dktAsset(c.cover)}</figure>
+          </div>
+          <div class="dkt-cat__spreads">
+            ${c.spreads.map(spread).join('\n            ')}
+          </div>
+        </section>`;
+
+  return `
+      <article class="dkt-case">
+
+        <section class="dkt-hero">
+          <div class="dkt-hero__grid">
+            <div class="dkt-hero__copy">
+              <img class="dkt-hero__logo" src="${cfg.hero.logo}" alt="Decathlon">
+              <span class="dkt-eyebrow">${cfg.hero.eyebrow}</span>
+              <h2>${cfg.hero.title}</h2>
+              <p class="dkt-hero__sub">${cfg.hero.subtitle}</p>
+              <p class="dkt-hero__text">${cfg.hero.text}</p>
+            </div>
+            <figure class="dkt-hero__photo">${dktAsset(cfg.hero.photo)}</figure>
+          </div>
+        </section>
+
+        <section class="dkt-digital">
+          <div class="dkt-digital__grid">
+            <div class="dkt-lead">
+              <span class="dkt-eyebrow">${cfg.digital.eyebrow}</span>
+              <h3>${cfg.digital.title}</h3>
+              <p>${cfg.digital.text}</p>
+            </div>
+            <figure class="dkt-digital__visual">${dktAsset(cfg.digital.mockup)}</figure>
+          </div>
+        </section>
+
+        <section class="dkt-process">
+          <div class="dkt-lead">
+            <span class="dkt-eyebrow">${cfg.process.eyebrow}</span>
+            <h3>${cfg.process.title}</h3>
+            <p>${cfg.process.text}</p>
+          </div>
+          <div class="dkt-flow">
+            <div class="dkt-flow__head">
+              ${cfg.process.columns.map((c, i) => `<div><b>0${i + 1}</b><span>${c}</span></div>`).join('\n              ')}
+            </div>
+            ${cfg.process.rows.map(r => r.layout === 'situation' ? `<div class="dkt-flow__row dkt-flow__row--situation">
+              <span class="dkt-flow__theme" style="--row:${r.color}">${r.theme}</span>
+              <div class="dkt-situ">
+                <div class="dkt-situ__col dkt-situ__col--start">
+                  <div class="dkt-situ__plate">${dktAsset(r.situation.plate, 'dkt-situ__plate-img', 'VISUEL À AJOUTER — Planche produits Decathlon (coupelles, ballons, pompe, chronomètre, but, chasuble)')}</div>
+                  <span class="dkt-situ__plus" aria-hidden="true">+</span>
+                  <figure class="dkt-situ__photo">${dktAsset(r.situation.photo)}</figure>
+                </div>
+                <span class="dkt-situ__arrow" aria-hidden="true">&rarr;</span>
+                <div class="dkt-situ__col dkt-situ__col--transform">
+                  <figure>${dktAsset(r.situation.transform)}</figure>
+                  <p>Composition, intégration des produits et optimisation visuelle.</p>
+                </div>
+                <span class="dkt-situ__arrow" aria-hidden="true">&rarr;</span>
+                <div class="dkt-situ__col dkt-situ__col--catalog">
+                  <figure class="dkt-situ__catalog">${dktAsset(r.situation.catalog)}</figure>
+                </div>
+              </div>
+            </div>` : `<div class="dkt-flow__row">
+              <span class="dkt-flow__theme" style="--row:${r.color}">${r.theme}</span>
+              ${r.steps.map((st, i) => `${i ? '<span class="dkt-flow__arrow" aria-hidden="true">&rarr;</span>' : ''}<figure>${dktAsset(st)}</figure>`).join('\n              ')}
+            </div>`).join('\n            ')}
+          </div>
+        </section>
+
+        ${cfg.catalogues.map(catalogue).join('\n')}
+
+        <footer class="dkt-cta ls-case-contact-footer">
+          <div class="dkt-cta__copy">
+            <strong>${cfg.cta.title}</strong>
+            <p>${cfg.cta.text}</p>
+          </div>
+          <a href="${cfg.cta.href}">${cfg.cta.label} <span aria-hidden="true">→</span></a>
+        </footer>
+      </article>`;
+}
+
+function initDecathlonCaseStudy() {
+  const tpl = document.getElementById('tpl-cat-decathlon');
+  if (!tpl) return;
+  tpl.innerHTML = renderDecathlonCaseHTML(DECATHLON_CASE_STUDY);
+  const trigger = document.querySelector('[data-project-custom-template="tpl-cat-decathlon"]');
+  if (trigger) {
+    trigger.dataset.projectCtaTitle = DECATHLON_CASE_STUDY.cta.title;
+    trigger.dataset.projectCtaCopy = DECATHLON_CASE_STUDY.cta.text;
+  }
+}
+
+/* ── MR.BRICOLAGE GUADELOUPE — étude de cas catalogue 360° ───────────────
+   Séquence : hero → print & digital → outillage & auto → maison & entretien
+   → réseaux sociaux → vidéo + radio → CTA.
+
+   Sources master : contents/Catalogue/mr bricolage/
+     pages/catalogue  CDP complet HD STC.pdf          → outillage & auto
+     pages/au coeur de la maison complet HD STC.pdf   → maison & entretien
+   Les doubles-pages sont rasterisées à 180 DPI (~2970 × 2100 px) pour rester
+   lisibles en grand format. Les originaux ne sont jamais écrasés.
+
+   Une seule couverture réelle existe par catalogue dans les sources : elle
+   occupe la position « retenue ». Les deux autres propositions restent des
+   emplacements vides — on ne duplique pas la même couverture.
+   ───────────────────────────────────────────────────────────────────── */
+const MRB = '/assets/projects/catalogues/mr-bricolage';
+
+const MRB_CASE = {
+  hero: {
+    logo: `${MRB}/brand/logo-gp-white-circle.svg`,
+    watermark: `${MRB}/brand/logo-m-mark.svg`,
+    chip: 'Mr.Bricolage Guadeloupe',
+    text: 'Depuis 20 ans, nous créons des catalogues utiles, désirables et qui parlent à nos clients, au bon moment et au pouvoir d’achat.'
+  },
+  printDigital: {
+    title: 'Catalogue print &amp; digital',
+    text: 'Un même catalogue décliné en print et en digital pour maximiser la portée, l’impact et l’expérience de lecture.',
+    mockup: `${MRB}/print-digital/mockup.webp`
+  },
+  /* Chaque catalogue affiche 3 pages individuelles sur une seule ligne,
+     en grand (pas de doubles-pages fusionnées, pas de grille 2×2 tassée). */
+  catalogues: [
+    {
+      id: 'outillage-auto',
+      title: 'Catalogue outillage &amp; auto',
+      text: 'Une sélection d’outillage, d’entretien auto et de nettoyage. Une mise en page construite autour des prix et des temps forts promotionnels.',
+      products: [
+        { src: `${MRB}/outillage-auto/products/product-01-batterie-auto.webp`, alt: 'Batterie auto 410 CCA, ressource produit fournie pour le catalogue Outillage et Auto' },
+        { src: `${MRB}/outillage-auto/products/product-02-station-nettoyage.webp`, alt: 'Station de nettoyage SN500, ressource produit fournie pour le catalogue Outillage et Auto' }
+      ],
+      /* 3 vraies propositions (Outillage-auto-Couverture-2.pdf) — la 1ère est retenue. */
+      covers: [
+        { src: `${MRB}/outillage-auto/covers/cover-selected.webp`, selected: true, alt: 'Couverture retenue du catalogue Mr.Bricolage Outillage et Auto' },
+        { src: `${MRB}/outillage-auto/covers/cover-proposal-a.webp`, alt: 'Proposition de couverture 02 — Outillage et Auto' },
+        { src: `${MRB}/outillage-auto/covers/cover-proposal-b.webp`, alt: 'Proposition de couverture 03 — Outillage et Auto' }
+      ],
+      pages: [1, 2, 3].map(n => ({ src: `${MRB}/outillage-auto/pages/p${n}.webp`, alt: `Page ${n} du catalogue Mr.Bricolage Outillage et Auto` }))
+    },
+    {
+      id: 'fete-des-meres',
+      title: 'Catalogue Fête des Mères',
+      text: 'Bouquets, boissons fraîches et attentions du quotidien : une sélection cadeaux pensée pour cette occasion.',
+      products: [
+        { src: `${MRB}/fete-des-meres/products/product-01-slushy.webp`, alt: 'Machine à boisson glacée Slushy, ressource produit fournie pour le catalogue Fête des Mères' },
+        { src: `${MRB}/fete-des-meres/products/product-02-bouquet.webp`, alt: 'Bouquet parfumé Galeo, ressource produit fournie pour le catalogue Fête des Mères' }
+      ],
+      /* 3 vraies propositions (couvs/couve-1.pdf) — la 2e est retenue. */
+      covers: [
+        { src: `${MRB}/fete-des-meres/covers/cover-proposal-a.webp`, alt: 'Proposition de couverture 01 — Fête des Mères' },
+        { src: `${MRB}/fete-des-meres/covers/cover-selected.webp`, selected: true, alt: 'Couverture retenue du catalogue Mr.Bricolage Fête des Mères' },
+        { src: `${MRB}/fete-des-meres/covers/cover-proposal-b.webp`, alt: 'Proposition de couverture 03 — Fête des Mères' }
+      ],
+      /* 4 vraies pages intérieures (OP FDM OK.pdf, pages 2 à 5). */
+      pages: [1, 2, 3].map(n => ({ src: `${MRB}/fete-des-meres/pages/p${n}.webp`, alt: `Page ${n} du catalogue Mr.Bricolage Fête des Mères` }))
+    },
+    {
+      id: 'votre-projet',
+      title: 'Opération Votre Projet, Notre Métier',
+      text: 'Cuisines sur mesure, dressing, salle de bain et ventilation : une opération pensée pour accompagner chaque projet d’aménagement.',
+      products: [
+        { src: `${MRB}/votre-projet/products/product-01-cuisine.webp`, alt: 'Cuisine semi équipée chêne, ressource produit fournie pour l’opération Votre Projet, Notre Métier' },
+        { src: `${MRB}/votre-projet/products/product-02-airfryer.webp`, alt: 'Airfryer Techwood blanc, ressource produit fournie pour l’opération Votre Projet, Notre Métier' }
+      ],
+      /* 3 vraies propositions (couve op projet.pdf) — la 1ère est retenue. */
+      covers: [
+        { src: `${MRB}/votre-projet/covers/cover-selected.webp`, selected: true, alt: 'Couverture retenue de l’opération Votre Projet, Notre Métier' },
+        { src: `${MRB}/votre-projet/covers/cover-proposal-a.webp`, alt: 'Proposition de couverture 02 — Votre Projet, Notre Métier' },
+        { src: `${MRB}/votre-projet/covers/cover-proposal-b.webp`, alt: 'Proposition de couverture 03 — Votre Projet, Notre Métier' }
+      ],
+      /* 4 vraies pages, issues des 2 doubles-pages "op projet 2/3.pdf" et
+         "op projet 4/5.pdf" (une page A4 par moitié). */
+      pages: [1, 2, 3].map(n => ({ src: `${MRB}/votre-projet/pages/p${n}.webp`, alt: `Page ${n} de l’opération Votre Projet, Notre Métier` }))
+    }
+  ],
+  /* 4 vraies déclinaisons d'une campagne Meta Ads, chacune dans son vrai
+     format ET sa vraie intégration publicitaire (Feed post, Feed portrait,
+     Feed link ad large, Stories/Reels) — UI reproduite d'après les repères
+     Meta réels : header compte + « Sponsorisé » hors-image en Feed, overlay
+     avatar/CTA en Stories, bandeau lien + bouton en format large. */
+  socialAccount: { name: 'Mr.Bricolage Guadeloupe', handle: 'mrbricolage.guadeloupe', avatar: `${MRB}/brand/logo-gp-red-circle.svg` },
+  social: [
+    { format: 'feed', src: `${MRB}/social/post-square.webp`,   w: 1080, h: 1080, alt: 'Publication Instagram Mr.Bricolage Guadeloupe — format carré', caption: 'Payez en 5X & 10X sans frais, dès maintenant en magasin !' },
+    { format: 'story', src: `${MRB}/social/post-story.webp`,   w: 1080, h: 1920, alt: 'Story Mr.Bricolage Guadeloupe — format vertical' },
+    { format: 'link', src: `${MRB}/social/post-wide.webp`,     w: 1600, h: 838,  alt: 'Publication Mr.Bricolage Guadeloupe — format large', domain: 'MRBRICOLAGE-GUADELOUPE.COM', headline: 'Le catalogue Mr.Bricolage est arrivé' },
+    { format: 'feed', src: `${MRB}/social/post-portrait.webp`, w: 1080, h: 1350, alt: 'Publication Instagram Mr.Bricolage Guadeloupe — format portrait', caption: 'Le nouveau catalogue Maison et Jardin est disponible !' }
+  ],
+  /* Vidéo réelle fournie par le client (YouTube), le bloc « Film cuisine »
+     a été retiré. */
+  media: {
+    video: { youtubeId: 'maL7cbwWXEg', alt: 'Vidéo promotionnelle du catalogue Mr.Bricolage Guadeloupe' }
+  },
+  cta: { logo: `${MRB}/brand/logo-gp-color.svg` }
+};
+
+/* Rend le visuel réel s'il existe, sinon un emplacement au bon ratio. */
+function mrbMedia(a, id, label, ratio, opts) {
+  opts = opts || {};
+  const cls = opts.className ? ' ' + opts.className : '';
+  if (a && a.src) {
+    return `<img class="mrb-media${cls}" id="${id}" src="${a.src}" alt="${a.alt || label}"
+      style="aspect-ratio:${ratio};object-fit:${opts.fit || 'contain'}" loading="${opts.eager ? 'eager' : 'lazy'}" decoding="async">`;
+  }
+  return `<div class="mrb-ph${cls}" id="${id}" style="aspect-ratio:${ratio}"><span>${label}</span></div>`;
+}
+
+/* Icônes ligne, reprises des repères d'interface Meta Ads réels (Feed :
+   cœur / bulle / avion en papier / signet, Stories : chevron du CTA). */
+const MRB_AD_ICONS = {
+  heart: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M20.8 6.6a5 5 0 0 0-8-1.4L12 6l-.8-.8a5 5 0 0 0-8 6.2c.3.5.6.9 1 1.3L12 21l7.8-8.3c.4-.4.7-.8 1-1.3.7-1.5.7-3.3 0-4.8Z"/></svg>',
+  comment: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5c-1.3 0-2.5-.3-3.6-.8L3 21l1.8-5.4A8.5 8.5 0 1 1 21 11.5Z"/></svg>',
+  share: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m22 2-9.5 9.5M22 2l-7 20-4-9-9-4 20-7Z"/></svg>',
+  bookmark: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1Z"/></svg>',
+  globe: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.7 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.7-3.8-9S9.5 5.5 12 3Z"/></svg>',
+  chevron: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg>',
+  close: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="5" x2="19" y2="19"/><line x1="19" y1="5" x2="5" y2="19"/></svg>'
+};
+
+/* Rend une déclinaison Meta Ads dans sa vraie intégration publicitaire :
+   'feed' = post Feed (header hors-image + barre d'actions + légende),
+   'story' = Stories/Reels (UI superposée : progress bar, header, CTA pill),
+   'link' = Feed link ad grand format (bandeau domaine + bouton CTA). */
+function mrbAdCard(sp, account, i) {
+  const id = `social-post-0${i + 1}`;
+  const ratio = `${sp.w} / ${sp.h}`;
+  const cardW = Math.round(sp.w / sp.h * 420);
+  const media = mrbMedia(sp, id, `VISUEL À AJOUTER — Publication 0${i + 1}`, ratio);
+  const avatar = `<span class="mrb-ad__avatar"><img src="${account.avatar}" alt="" loading="lazy"></span>`;
+
+  if (sp.format === 'story') {
+    return `<article class="mrb-ad mrb-ad--story" style="--ar:${ratio};width:${cardW}px">
+              <div class="mrb-ad__story-bar" aria-hidden="true"><span></span></div>
+              <div class="mrb-ad__story-head">
+                ${avatar}
+                <div class="mrb-ad__who"><b>${account.handle}</b><span>Sponsorisé</span></div>
+                <span class="mrb-ad__close" aria-hidden="true">${MRB_AD_ICONS.close}</span>
+              </div>
+              <figure class="mrb-ad__media">${media}</figure>
+              <div class="mrb-ad__story-foot">
+                <span class="mrb-ad__cta-pill">En savoir plus ${MRB_AD_ICONS.chevron}</span>
+              </div>
+            </article>`;
+  }
+
+  if (sp.format === 'link') {
+    return `<article class="mrb-ad mrb-ad--link" style="--ar:${ratio};width:${cardW}px">
+              <div class="mrb-ad__head">
+                ${avatar}
+                <div class="mrb-ad__who"><b>${account.name}</b><span>Sponsorisé · ${MRB_AD_ICONS.globe}</span></div>
+                <span class="mrb-ad__dots" aria-hidden="true">•••</span>
+              </div>
+              <figure class="mrb-ad__media">${media}</figure>
+              <div class="mrb-ad__linkbar">
+                <div><span class="mrb-ad__domain">${sp.domain}</span><b>${sp.headline}</b></div>
+                <span class="mrb-ad__cta-btn">En savoir plus</span>
+              </div>
+              <div class="mrb-ad__actions">
+                <span class="mrb-ad__icons">${MRB_AD_ICONS.heart}${MRB_AD_ICONS.comment}${MRB_AD_ICONS.share}</span>
+              </div>
+            </article>`;
+  }
+
+  return `<article class="mrb-ad mrb-ad--feed" style="--ar:${ratio};width:${cardW}px">
+              <div class="mrb-ad__head">
+                ${avatar}
+                <div class="mrb-ad__who"><b>${account.name}</b><span>Sponsorisé</span></div>
+                <span class="mrb-ad__dots" aria-hidden="true">•••</span>
+              </div>
+              <figure class="mrb-ad__media">${media}</figure>
+              <div class="mrb-ad__actions">
+                <span class="mrb-ad__icons">${MRB_AD_ICONS.heart}${MRB_AD_ICONS.comment}${MRB_AD_ICONS.share}</span>
+                <span class="mrb-ad__bookmark">${MRB_AD_ICONS.bookmark}</span>
+              </div>
+              <div class="mrb-ad__caption"><b>${account.handle}</b> ${sp.caption || ''}</div>
+            </article>`;
+}
+
+function renderMrBricolageCaseHTML() {
+  const C = MRB_CASE;
+  const A4 = '210 / 297';
+
+  const catalogue = (c) => `
+        <section class="mrb-cat" id="mrb-${c.id}">
+          <div class="mrb-cat__head">
+            <h2>${c.title}</h2>
+            <span class="mrb-rule" aria-hidden="true"></span>
+            <p>${c.text}</p>
+          </div>
+
+          <div class="mrb-work">
+            <div class="mrb-work__products">
+              <span class="mrb-label">Vos images produits</span>
+              <p class="mrb-work__note">Le client nous transmet 1 à 2 visuels du produit à mettre en avant.</p>
+              ${c.products.map((pr, i) => `<figure>${mrbMedia(pr, `${c.id}-product-0${i + 1}`, `VISUEL À AJOUTER — Produit source 0${i + 1}`, '', {})}</figure>`).join('\n              ')}
+            </div>
+            <span class="mrb-work__arrow" aria-hidden="true">&rarr;</span>
+            <div class="mrb-work__covers">
+              <span class="mrb-label">3 propositions de couverture</span>
+              <p class="mrb-work__note">À partir de ces visuels, nous réalisons 3 déclinaisons de couverture ; le client sélectionne celle qu’il préfère.</p>
+              <div class="mrb-covers">
+                ${c.covers.map((cv, i) => `<figure class="mrb-cover${cv && cv.selected ? ' is-selected' : ''}">
+                  ${mrbMedia(cv, `${c.id}-cover-0${i + 1}`, `PROPOSITION ${String(i + 1).padStart(2, '0')} À AJOUTER`, A4)}
+                  ${cv && cv.selected ? '<figcaption><span class="mrb-check" aria-hidden="true">✓</span>Sélection retenue</figcaption>' : ''}
+                </figure>`).join('\n                ')}
+              </div>
+            </div>
+          </div>
+
+          <div class="mrb-pages">
+            <span class="mrb-label">Exemples de pages intérieures</span>
+            <div class="mrb-pages-grid">
+              ${c.pages.map((pg, i) => `<figure>${mrbMedia(pg, `${c.id}-page-0${i + 1}`, `PAGE 0${i + 1} À AJOUTER`, A4)}</figure>`).join('\n              ')}
+            </div>
+          </div>
+        </section>`;
+
+  return `
+      <article class="mrb-case">
+
+        <header class="mrb-hero">
+          <div class="mrb-hero__grid">
+            <div class="mrb-hero__copy">
+              <span class="mrb-chip">${C.hero.chip}</span>
+              <h1>20 ans de collaboration créative<br>au service d’une communication<br><em>catalogue 360°</em></h1>
+              <p>${C.hero.text}</p>
+              <div class="mrb-hero__actions">
+                <a class="mrb-btn mrb-btn--solid" href="#mrb-outillage-auto">Découvrir le projet <span aria-hidden="true">→</span></a>
+                <!-- TODO : pointer vers le catalogue en ligne dès que l'URL est fournie. -->
+                <a class="mrb-btn mrb-btn--ghost" href="#mrb-outillage-auto">Voir le catalogue <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+              </div>
+            </div>
+            <div class="mrb-hero__brand" aria-hidden="true">
+              <span class="mrb-hero__watermark" style="background-image:url('${C.hero.watermark}')"></span>
+              <span class="mrb-hero__badge"><img src="${C.hero.logo}" alt="" class="mrb-hero__logo"></span>
+            </div>
+          </div>
+        </header>
+
+        <section class="mrb-pd">
+          <figure class="mrb-pd__frame">
+            <figcaption class="mrb-pd__copy">
+              <h2>${C.printDigital.title}</h2>
+              <span class="mrb-rule" aria-hidden="true"></span>
+              <p>${C.printDigital.text}</p>
+            </figcaption>
+            ${mrbMedia({ src: C.printDigital.mockup, alt: 'Catalogue Mr.Bricolage Guadeloupe en version imprimée et sur ordinateur, tablette et mobile' }, 'print-digital-mockup', 'VISUEL À AJOUTER — Mock-up print &amp; digital', '4 / 3')}
+          </figure>
+        </section>
+
+        ${C.catalogues.map(catalogue).join('\n')}
+
+        <section class="mrb-social-section">
+          <div class="mrb-head">
+            <h2>Du catalogue aux réseaux sociaux</h2>
+            <span class="mrb-rule" aria-hidden="true"></span>
+            <p>Une même campagne Meta Ads déclinée dans ses 4 vrais formats d’intégration publicitaire — Feed, Stories et lien sponsorisé.</p>
+          </div>
+          <div class="mrb-social">
+            <div class="mrb-social__row">
+              ${C.social.slice(0, 2).map((sp, i) => mrbAdCard(sp, C.socialAccount, i)).join('\n              ')}
+            </div>
+            <div class="mrb-social__row">
+              ${C.social.slice(2).map((sp, i) => mrbAdCard(sp, C.socialAccount, i + 2)).join('\n              ')}
+            </div>
+          </div>
+        </section>
+
+        <section class="mrb-media-section">
+          <div class="mrb-media-grid">
+            <div class="mrb-mcard">
+              <h3>Vidéo promo catalogue</h3>
+              <span class="mrb-rule" aria-hidden="true"></span>
+              <p>Un film court et dynamique pour présenter les temps forts du catalogue et donner envie.</p>
+              <div class="mrb-yt">
+                <iframe src="https://www.youtube-nocookie.com/embed/${C.media.video.youtubeId}" title="${C.media.video.alt}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="mrb-mcard mrb-mcard--radio">
+              <h3>Spot radio</h3>
+              <span class="mrb-rule" aria-hidden="true"></span>
+              <p>Un message court et impactant diffusé sur les radios locales pour toucher tous les publics.</p>
+              <div class="mrb-wave" aria-hidden="true">${Array.from({ length: 34 }, (_, i) => `<i style="height:${18 + Math.abs(((i * 37) % 46) - 23) * 2.4}%"></i>`).join('')}</div>
+              <!-- TODO : brancher le lecteur audio. -->
+              <button class="mrb-btn mrb-btn--ghost" type="button" disabled>Écouter le spot</button>
+            </div>
+          </div>
+        </section>
+
+        <footer class="mrb-cta ls-case-contact-footer">
+          <div class="mrb-cta__brand">
+            <img src="${C.cta.logo}" alt="Mr.Bricolage Guadeloupe">
+            <span class="mrb-rule" aria-hidden="true"></span>
+          </div>
+          <div class="mrb-cta__copy">
+            <strong>Un catalogue, un produit, une campagne ?</strong>
+            <p>Créons ensemble une communication retail claire et impactante.</p>
+          </div>
+          <a href="/pages/contact.html">Nous contacter <span aria-hidden="true">→</span></a>
+        </footer>
+      </article>`;
+}
+
+function initMrBricolageCaseStudy() {
+  const tpl = document.getElementById('tpl-cat-mr-bricolage');
+  if (!tpl) return;
+  tpl.innerHTML = renderMrBricolageCaseHTML();
+  const trigger = document.querySelector('[data-project-custom-template="tpl-cat-mr-bricolage"]');
+  if (trigger) {
+    trigger.dataset.projectCtaTitle = 'Un catalogue, un produit, une campagne ?';
+    trigger.dataset.projectCtaCopy = 'Créons ensemble une communication retail claire et impactante.';
+  }
+}
+
+const LBE = '/assets/projects/les-belles-envies';
+
+const LBE_CASE = {
+  hero: {
+    logo: `${LBE}/logo/lbe-logo-mark-white.webp`,
+    kicker: 'Les Belles Envies',
+    title: 'Photographie<br>gourmande &amp; contenus<br>visuels premium',
+    text: 'Latitude Sud crée pour Les Belles Envies des photographies studio, des retouches haut de gamme et des visuels intégrés au design de marque.',
+    slogan: 'Oubliez le sucre, pas vos envies !',
+    top: { src: `${LBE}/hero/hero-rocher-photo.webp`, alt: 'Le Rocher Chocolat, photographie studio Les Belles Envies' },
+    bottom: { src: `${LBE}/hero/hero-fraisier-composition.webp`, alt: 'Composition finale Le Fraisier, Les Belles Envies' }
+  },
+  workflow: {
+    title: 'Notre workflow photo',
+    text: 'De la prise de vue studio à l’intégration créative.',
+    separator: 'Notre workflow en 3 étapes',
+    rows: [
+      {
+        name: 'Le Fraisier',
+        steps: [
+          { src: `${LBE}/workflow/fraisier/workflow-fraisier-01-brut.webp`, alt: 'Le Fraisier, photo brute studio' },
+          { src: `${LBE}/workflow/fraisier/workflow-fraisier-02-retouche.webp`, alt: 'Le Fraisier, retouche photo' },
+          { src: `${LBE}/workflow/fraisier/workflow-fraisier-03-composition.webp`, alt: 'Le Fraisier, intégration créative finale', final: true }
+        ]
+      },
+      {
+        name: 'Le Rocher Chocolat',
+        steps: [
+          { src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-01-brut.webp`, alt: 'Le Rocher Chocolat, photo brute studio' },
+          { src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-02-retouche.webp`, alt: 'Le Rocher Chocolat, retouche photo' },
+          { src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-03-composition.webp`, alt: 'Le Rocher Chocolat, intégration créative finale', final: true }
+        ]
+      },
+      {
+        name: 'L’Éclair chocolat',
+        steps: [
+          { src: `${LBE}/workflow/eclair-chocolat/workflow-eclair-01-brut.webp`, alt: 'L’Éclair chocolat, photo brute studio' },
+          { src: `${LBE}/workflow/eclair-chocolat/workflow-eclair-02-retouche.webp`, alt: 'L’Éclair chocolat, retouche photo' },
+          { src: `${LBE}/workflow/eclair-chocolat/workflow-eclair-03-composition.webp`, alt: 'L’Éclair chocolat, intégration créative finale', final: true }
+        ]
+      }
+    ]
+  },
+  gallery: [
+    { src: `${LBE}/gallery/gallery-tartelette-passion.webp`, alt: 'Tartelette Passion, composition Les Belles Envies' },
+    { src: `${LBE}/gallery/gallery-brioche-composition.webp`, alt: 'Brioche chocolat, composition Les Belles Envies' },
+    { src: `${LBE}/gallery/gallery-croissant-brut.webp`, alt: 'Croissant au beurre, photo studio' },
+    { src: `${LBE}/gallery/gallery-croissant-composition.webp`, alt: 'Croissant au beurre, composition Les Belles Envies' },
+    { src: `${LBE}/gallery/gallery-brioche-brut.webp`, alt: 'Brioche chocolat, photo studio' }
+  ],
+  instagram: {
+    title: 'Suivez-nous sur<br>Instagram',
+    text: 'Découvrez nos dernières créations, coulisses, nouveautés et inspirations gourmandes.',
+    btnText: 'Voir le compte Instagram',
+    handle: 'lesbellesenvies_gp',
+    cards: [
+      { src: `${LBE}/hero/hero-fraisier-composition.webp`, alt: 'Post Instagram Le Fraisier' },
+      { src: `${LBE}/workflow/eclair-chocolat/workflow-eclair-03-composition.webp`, alt: 'Post Instagram L’Éclair chocolat' },
+      { src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-03-composition.webp`, alt: 'Post Instagram Le Rocher Chocolat' },
+      { src: `${LBE}/gallery/gallery-tartelette-passion.webp`, alt: 'Post Instagram Tartelette Passion' }
+    ]
+  },
+  cta: {
+    title: 'Des contenus pensés<br>pour séduire, valoriser<br>et vendre.',
+    text: 'Un accompagnement visuel global pour renforcer l’image premium et gourmande de Les Belles Envies.',
+    btnText: 'Voir plus de projets',
+    image: { src: `${LBE}/hero/hero-fraisier-composition.webp`, alt: 'Le Fraisier, Les Belles Envies' }
+  },
+  footer: {
+    logo: `${LBE}/logo/lbe-logo-horizontal-white.webp`,
+    mid: 'Projet réalisé par <b>Latitude Sud</b><br>Studio créatif spécialisé en photographie, retouche et contenus visuels pour marques premium.',
+    ctaText: 'Envie de travailler ensemble ?',
+    ctaBtn: 'Nous contacter'
+  }
+};
+
+function renderLesBellesEnviesCaseHTML() {
+  const C = LBE_CASE;
+  const wfRow = (row) => `
+    <div class="lbe-wf-row">
+      <div class="lbe-wf-row__head">
+        <span class="lbe-wf-row__name">${row.name}</span>
+        <div class="lbe-wf-row__steps"><span>01. Photo brute</span><span>02. Retouche photo</span><span>03. Intégration créative</span></div>
+      </div>
+      <div class="lbe-wf-row__grid">
+        <div class="lbe-wf-row__cell"><img src="${row.steps[0].src}" alt="${row.steps[0].alt}" loading="lazy" decoding="async"></div>
+        <span class="lbe-wf-row__arrow" aria-hidden="true">→</span>
+        <div class="lbe-wf-row__cell"><img src="${row.steps[1].src}" alt="${row.steps[1].alt}" loading="lazy" decoding="async"></div>
+        <span class="lbe-wf-row__arrow" aria-hidden="true">→</span>
+        <div class="lbe-wf-row__cell lbe-wf-row__cell--final"><img src="${row.steps[2].src}" alt="${row.steps[2].alt}" loading="lazy" decoding="async"></div>
+      </div>
+    </div>`;
+  return `
+    <article class="lbe-case">
+      <section class="lbe-hero">
+        <div class="lbe-hero__grid">
+          <div class="lbe-hero__copy">
+            <span class="lbe-kicker">${C.hero.kicker}</span>
+            <h1>${C.hero.title}</h1>
+            <p>${C.hero.text}</p>
+            <p class="lbe-hero__slogan">${C.hero.slogan}</p>
+          </div>
+          <div class="lbe-hero__visual">
+            <figure class="lbe-hero__top"><img src="${C.hero.top.src}" alt="${C.hero.top.alt}" loading="eager" decoding="async"></figure>
+            <figure class="lbe-hero__bottom"><img src="${C.hero.bottom.src}" alt="${C.hero.bottom.alt}" loading="eager" decoding="async"></figure>
+            <div class="lbe-hero__logo"><img src="${C.hero.logo}" alt="Les Belles Envies"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="lbe-workflow-intro">
+        <h2>${C.workflow.title}</h2>
+        <p>${C.workflow.text}</p>
+      </section>
+      <section class="lbe-workflow-sep"><span>${C.workflow.separator}</span></section>
+      <section class="lbe-workflow-rows">
+        ${C.workflow.rows.map(wfRow).join('')}
+      </section>
+
+      <section class="lbe-gallery">
+        <h2>Galerie de réalisations</h2>
+        <div class="lbe-gallery-grid">
+          ${C.gallery.map(g => `<figure><img src="${g.src}" alt="${g.alt}" loading="lazy" decoding="async"></figure>`).join('')}
+        </div>
+      </section>
+
+      <section class="lbe-instagram">
+        <div class="lbe-instagram__grid">
+          <div class="lbe-instagram__copy">
+            <h2>${C.instagram.title}</h2>
+            <p>${C.instagram.text}</p>
+            <a class="lbe-instagram__btn" href="https://www.instagram.com/${C.instagram.handle}/" target="_blank" rel="noopener noreferrer">
+              <svg width="15" height="15" viewBox="0 0 28 28" fill="none" aria-hidden="true"><rect x="2" y="2" width="24" height="24" rx="7" stroke="currentColor" stroke-width="1.6"/><circle cx="14" cy="14" r="6" stroke="currentColor" stroke-width="1.6"/><circle cx="21" cy="7" r="1.3" fill="currentColor"/></svg>
+              ${C.instagram.btnText}
+            </a>
+          </div>
+          <div class="lbe-instagram__cards">
+            ${C.instagram.cards.map(card => `
+              <article class="lbe-ig-card">
+                <div class="lbe-ig-card__head">${C.instagram.handle}</div>
+                <div class="lbe-ig-card__media"><img src="${card.src}" alt="${card.alt}" loading="lazy" decoding="async"></div>
+                <div class="lbe-ig-card__foot"><span aria-hidden="true">♡</span><span aria-hidden="true">◇</span></div>
+              </article>`).join('')}
+          </div>
+        </div>
+      </section>
+
+      <section class="lbe-cta">
+        <div class="lbe-cta-block">
+          <div class="lbe-cta-block__copy">
+            <h2>${C.cta.title}</h2>
+            <p>${C.cta.text}</p>
+            <a class="lbe-cta-block__btn" href="/pages/realisations.html">${C.cta.btnText} <span aria-hidden="true">→</span></a>
+          </div>
+          <figure class="lbe-cta-block__visual"><img src="${C.cta.image.src}" alt="${C.cta.image.alt}" loading="lazy" decoding="async"></figure>
+        </div>
+      </section>
+
+      <footer class="lbe-footer ls-case-contact-footer">
+        <div class="lbe-footer__inner">
+          <div class="lbe-footer__logo"><img src="${C.footer.logo}" alt="Les Belles Envies" loading="lazy"></div>
+          <div class="lbe-footer__mid">${C.footer.mid}</div>
+          <div class="lbe-footer__right">
+            <strong>${C.footer.ctaText}</strong>
+            <a class="lbe-footer__btn" href="/pages/contact.html">${C.footer.ctaBtn} <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </footer>
+    </article>`;
+}
+
+function initLesBellesEnviesCaseStudy() {
+  const tpl = document.getElementById('tpl-cat-lbe');
+  if (!tpl) return;
+  tpl.innerHTML = renderLesBellesEnviesCaseHTML();
+  const trigger = document.querySelector('[data-project-custom-template="tpl-cat-lbe"]');
+  if (trigger) trigger.dataset.projectCtaTitle = LBE_CASE.footer.ctaText;
+}
+
+const CCR = '/assets/projects/cap-creole';
+
+const CCR_CASE = {
+  hero: {
+    logo: '/assets/logos/Logo-Clients-black-CapCreole.svg',
+    kicker: 'Cap Créole',
+    title: 'Photographie<br>culinaire &amp; contenus<br>visuels Caraïbes',
+    text: 'Latitude Sud crée pour Cap Créole des photographies produit, des mises en scène et des visuels prêts à publier, ancrés dans le territoire.',
+    slogan: 'Invitez la mer à votre table.',
+    top: { src: `${CCR}/thumbnail/cap-creole-burger.webp`, alt: 'Burger Cap Créole face à la mer' },
+    bottom: { src: `${CCR}/hero/hero-gratinees-morue-composition.webp`, alt: 'Gratinées de morue, composition finale Cap Créole' }
+  },
+  workflow: {
+    title: 'Notre workflow photo',
+    text: 'De la prise de vue à la publication.',
+    separator: 'Notre méthode en 3 étapes',
+    rows: [
+      {
+        name: 'Dégustation',
+        steps: [
+          { src: `${CCR}/workflow/degustation-01-source.webp`, alt: 'Dégustation Cap Créole, photo source' },
+          { src: `${CCR}/workflow/degustation-02-habillage.webp`, alt: 'Dégustation Cap Créole, mise en scène et habillage' },
+          { src: `${CCR}/workflow/degustation-03-publication.webp`, alt: 'Dégustation Cap Créole, publication finale', final: true }
+        ]
+      }
+    ]
+  },
+  gallery: [
+    { src: `${CCR}/thumbnail/cap-creole-burger.webp`, alt: 'Burger Cap Créole face à la mer' },
+    { src: `/assets/projects/social/cap-creole/carousel-1-01.webp`, alt: 'Recette Cap Créole' },
+    { src: `${CCR}/gallery/cap-creole-saucisses-marlin.webp`, alt: 'Saucisses de marlin Cap Créole' },
+    { src: `/assets/projects/social/cap-creole/carousel-2-01.webp`, alt: 'Ravioles Cap Créole' },
+    { src: `${CCR}/gallery/cap-creole-rose-selection.webp`, alt: 'Sélection rosé, boutique Cap Créole' }
+  ],
+  instagram: {
+    title: 'Suivez-nous sur<br>Instagram',
+    text: 'Découvrez nos recettes, coulisses, nouveautés et inspirations autour des produits de la mer.',
+    btnText: 'Voir le compte Instagram',
+    handle: 'capcreole.gp',
+    cards: [
+      { src: `/assets/projects/social/cap-creole/post-cannard.webp`, alt: 'Post Instagram Cap Créole, magret' },
+      { src: `/assets/projects/social/cap-creole/carousel-1-02.webp`, alt: 'Post Instagram Cap Créole, recette' },
+      { src: `/assets/projects/social/cap-creole/carousel-2-02.webp`, alt: 'Post Instagram Cap Créole, crabes farcis' },
+      { src: `${CCR}/gallery/cap-creole-saucisses-marlin.webp`, alt: 'Post Instagram Cap Créole, saucisses de marlin' }
+    ]
+  },
+  cta: {
+    title: 'Des contenus pensés<br>pour donner envie<br>de passer à table.',
+    text: 'Un accompagnement visuel global pour renforcer l’image gourmande et locale de Cap Créole.',
+    btnText: 'Voir plus de projets',
+    image: { src: `${CCR}/gallery/cap-creole-saucisses-marlin.webp`, alt: 'Saucisses de marlin Cap Créole' }
+  },
+  footer: {
+    mid: 'Projet réalisé par <b>Latitude Sud</b><br>Studio créatif spécialisé en photographie, retouche et contenus visuels pour marques premium.',
+    ctaText: 'Envie de travailler ensemble ?',
+    ctaBtn: 'Nous contacter'
+  }
+};
+
+function renderCapCreoleCaseHTML() {
+  const C = CCR_CASE;
+  const wfRow = (row) => `
+    <div class="ccr-wf-row">
+      <div class="ccr-wf-row__head">
+        <span class="ccr-wf-row__name">${row.name}</span>
+        <div class="ccr-wf-row__steps"><span>01. Photo source</span><span>02. Mise en scène &amp; habillage</span><span>03. Publication finale</span></div>
+      </div>
+      <div class="ccr-wf-row__grid">
+        <div class="ccr-wf-row__cell"><img src="${row.steps[0].src}" alt="${row.steps[0].alt}" loading="lazy" decoding="async"></div>
+        <span class="ccr-wf-row__arrow" aria-hidden="true">→</span>
+        <div class="ccr-wf-row__cell"><img src="${row.steps[1].src}" alt="${row.steps[1].alt}" loading="lazy" decoding="async"></div>
+        <span class="ccr-wf-row__arrow" aria-hidden="true">→</span>
+        <div class="ccr-wf-row__cell ccr-wf-row__cell--final"><img src="${row.steps[2].src}" alt="${row.steps[2].alt}" loading="lazy" decoding="async"></div>
+      </div>
+    </div>`;
+  return `
+    <article class="ccr-case">
+      <section class="ccr-hero">
+        <div class="ccr-hero__grid">
+          <div class="ccr-hero__copy">
+            <span class="ccr-kicker">${C.hero.kicker}</span>
+            <h1>${C.hero.title}</h1>
+            <p>${C.hero.text}</p>
+            <p class="ccr-hero__slogan">${C.hero.slogan}</p>
+          </div>
+          <div class="ccr-hero__visual">
+            <figure class="ccr-hero__top"><img src="${C.hero.top.src}" alt="${C.hero.top.alt}" loading="eager" decoding="async"></figure>
+            <figure class="ccr-hero__bottom"><img src="${C.hero.bottom.src}" alt="${C.hero.bottom.alt}" loading="eager" decoding="async"></figure>
+            <div class="ccr-hero__logo"><img src="${C.hero.logo}" alt="Cap Créole"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ccr-workflow-intro">
+        <h2>${C.workflow.title}</h2>
+        <p>${C.workflow.text}</p>
+      </section>
+      <section class="ccr-workflow-sep"><span>${C.workflow.separator}</span></section>
+      <section class="ccr-workflow-rows">
+        ${C.workflow.rows.map(wfRow).join('')}
+      </section>
+
+      <section class="ccr-gallery">
+        <h2>Galerie de réalisations</h2>
+        <div class="ccr-gallery-grid">
+          ${C.gallery.map(g => `<figure><img src="${g.src}" alt="${g.alt}" loading="lazy" decoding="async"></figure>`).join('')}
+        </div>
+      </section>
+
+      <section class="ccr-instagram">
+        <div class="ccr-instagram__grid">
+          <div class="ccr-instagram__copy">
+            <h2>${C.instagram.title}</h2>
+            <p>${C.instagram.text}</p>
+            <a class="ccr-instagram__btn" href="https://www.instagram.com/${C.instagram.handle}/" target="_blank" rel="noopener noreferrer">
+              <svg width="15" height="15" viewBox="0 0 28 28" fill="none" aria-hidden="true"><rect x="2" y="2" width="24" height="24" rx="7" stroke="currentColor" stroke-width="1.6"/><circle cx="14" cy="14" r="6" stroke="currentColor" stroke-width="1.6"/><circle cx="21" cy="7" r="1.3" fill="currentColor"/></svg>
+              ${C.instagram.btnText}
+            </a>
+          </div>
+          <div class="ccr-instagram__cards">
+            ${C.instagram.cards.map(card => `
+              <article class="ccr-ig-card">
+                <div class="ccr-ig-card__head">${C.instagram.handle}</div>
+                <div class="ccr-ig-card__media"><img src="${card.src}" alt="${card.alt}" loading="lazy" decoding="async"></div>
+                <div class="ccr-ig-card__foot"><span aria-hidden="true">♡</span><span aria-hidden="true">◇</span></div>
+              </article>`).join('')}
+          </div>
+        </div>
+      </section>
+
+      <section class="ccr-cta">
+        <div class="ccr-cta-block">
+          <div class="ccr-cta-block__copy">
+            <h2>${C.cta.title}</h2>
+            <p>${C.cta.text}</p>
+            <a class="ccr-cta-block__btn" href="/pages/realisations.html">${C.cta.btnText} <span aria-hidden="true">→</span></a>
+          </div>
+          <figure class="ccr-cta-block__visual"><img src="${C.cta.image.src}" alt="${C.cta.image.alt}" loading="lazy" decoding="async"></figure>
+        </div>
+      </section>
+
+      <footer class="ccr-footer ls-case-contact-footer">
+        <div class="ccr-footer__inner">
+          <div class="ccr-footer__logo"><img src="${C.hero.logo}" alt="Cap Créole" loading="lazy" style="height:40px;width:auto"></div>
+          <div class="ccr-footer__mid">${C.footer.mid}</div>
+          <div class="ccr-footer__right">
+            <strong>${C.footer.ctaText}</strong>
+            <a class="ccr-footer__btn" href="/pages/contact.html">${C.footer.ctaBtn} <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </footer>
+    </article>`;
+}
+
+function initCapCreoleCaseStudy() {
+  const tpl = document.getElementById('tpl-cap-creole-photo');
+  if (!tpl) return;
+  tpl.innerHTML = renderCapCreoleCaseHTML();
+  const trigger = document.querySelector('[data-project-custom-template="tpl-cap-creole-photo"]');
+  if (trigger) trigger.dataset.projectCtaTitle = CCR_CASE.footer.ctaText;
+}
+
+function initDigilifeCaseStudy() {
+  const tpl = document.getElementById('tpl-cat-digilife');
+  if (!tpl) return;
+  tpl.innerHTML = renderDigilifeCaseHTML(DIGILIFE_CASE_STUDY);
+  /* Le footer partagé (applyCaseStudyContactCta) réécrit toujours le
+     <strong>/<p> du .ls-case-contact-footer intégré depuis le dataset du
+     déclencheur — on l'alimente depuis cfg.cta pour garder une seule
+     source de vérité. */
+  const trigger = document.querySelector('[data-project-custom-template="tpl-cat-digilife"]');
+  if (trigger) {
+    trigger.dataset.projectCtaTitle = DIGILIFE_CASE_STUDY.cta.title;
+    trigger.dataset.projectCtaCopy = DIGILIFE_CASE_STUDY.cta.text;
+  }
+}
+
 /* ── INIT ALL ──
    Header/footer are inserted synchronously above, so every target element
    already exists. We call the feature inits directly (NOT via
@@ -2754,6 +3955,11 @@ function initCatalogueCaseStudies() {
 function initComponents(activePage, opts) {
   opts = opts || {};
   initCatalogueCaseStudies();
+  initDigilifeCaseStudy();
+  initDecathlonCaseStudy();
+  initMrBricolageCaseStudy();
+  initLesBellesEnviesCaseStudy();
+  initCapCreoleCaseStudy();
   /* Sticky bar is disabled by default for now. Set stickyBar: true to re-enable it. */
   const withStickyBar = opts.stickyBar === true;
 

@@ -6,8 +6,8 @@
   <title>Photos — Latitude Sud</title>
   <meta name="description" content="Découvrez les projets de photographie de marque réalisés par Latitude Sud.">
   <link rel="icon" type="image/svg+xml" href="/assets/logo-sud.svg">
-<link rel="stylesheet" href="/css/globals.css?v=91">
-  <link rel="stylesheet" href="/css/portfolio-pages.css?v=27">
+<link rel="stylesheet" href="/css/globals.css?v=127">
+  <link rel="stylesheet" href="/css/portfolio-pages.css?v=109">
   <link rel="stylesheet" href="/css/hero-wave.css?v=2">
 </head>
 <body>
@@ -28,9 +28,9 @@
       <p>Chaque série est construite pour révéler un produit, un lieu ou une atmosphère avec justesse.</p>
     </div>
     <div class="project-grid">
-      <article class="project-card project-card--source-missing" aria-label="Les Belles Envies — sources originales à fournir">
-        <div class="project-visual project-source-missing"><span class="project-badge">Sources à fournir</span><div><strong>Les Belles Envies</strong><p>Brut → Retouche → Final</p></div></div>
-        <div class="project-body"><h3>Les Belles Envies</h3><p>La structure de présentation est prête ; les fichiers originaux ne sont pas présents dans le dossier source.</p><span class="project-action project-action--pending">En attente des photos</span></div>
+      <article class="project-card" data-project data-project-layout="custom" data-project-custom-template="tpl-cat-lbe" data-project-title="Les Belles Envies">
+        <div class="project-visual"><span class="project-badge">Produit · Studio</span><img src="/assets/projects/les-belles-envies/hero/hero-fraisier-composition.webp" alt="Les Belles Envies" loading="lazy"></div>
+        <div class="project-body"><h3>Les Belles Envies</h3><p>Photographie gourmande &amp; contenus visuels premium</p><span class="project-action">Découvrir la série</span></div>
       </article>
       <article class="project-card" id="cap-creole-photos" data-project data-project-layout="custom" data-project-custom-template="tpl-cap-creole-photo" data-project-title="Cap Créole">
         <div class="project-visual"><span class="project-badge">Produit · Extérieur</span><img src="/assets/projects/cap-creole/thumbnail/cap-creole-burger.webp" alt="Cap Créole" loading="lazy"></div>
@@ -46,6 +46,8 @@
       </article>
     </div>
   </section>
+
+  <template id="tpl-cat-lbe"><!-- rempli à l'exécution par renderLesBellesEnviesCaseHTML(), voir js/components.js --></template>
 
   <template id="tpl-cap-creole-photo">
     <article class="photo-proof-case">
@@ -224,7 +226,7 @@
   </section>
 </main>
 <button id="scroll-top-btn" aria-label="Retour en haut"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="18 15 12 9 6 15"/></svg></button>
-<script src="/js/components.js?v=65"></script>
+<script src="/js/components.js?v=92"></script>
 <script>initComponents('photos');document.body.style.paddingTop='0';</script>
 </body>
 </html>
