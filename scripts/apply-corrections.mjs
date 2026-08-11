@@ -154,5 +154,30 @@ if (introuvable.length) {
   console.log(`     (cause habituelle : phrase coupée par une balise en plein milieu)`);
 }
 
+/* ---------- remarques (images, blocs, divers) : à traiter à la main ---------- */
+const remarques = donnees.remarques ?? [];
+if (remarques.length) {
+  console.log(`\n${ligne}`);
+  console.log(`  ${remarques.length} REMARQUE(S) — aucune n'est appliquée automatiquement`);
+  console.log(ligne);
+  const parPage = new Map();
+  for (const r of remarques) {
+    if (!parPage.has(r.page)) parPage.set(r.page, []);
+    parPage.get(r.page).push(r);
+  }
+  for (const [page, liste] of parPage) {
+    console.log(`\n  ${page}`);
+    for (const r of liste) {
+      const e = r.element || {};
+      const quoi = e.type === 'image' || e.type === 'vidéo'
+        ? `${e.type} ${e.fichier}${e.alt ? ` (alt : « ${e.alt} »)` : ''}`
+        : `bloc « ${(e.apercu || '').slice(0, 60)} »${e.image ? ` [image : ${e.image}]` : ''}`;
+      console.log(`   □ [${r.categorie}] ${quoi}`);
+      if (r.contexte) console.log(`     emplacement : ${r.contexte}`);
+      if (r.message) console.log(`     note : ${r.message}`);
+    }
+  }
+}
+
 console.log(`\n  Vérifications : node scripts/check-local-assets.mjs && node --check js/components.js`);
 console.log(`  Puis incrémentez ?v= de components.js / globals.css dans les pages HTML.\n`);
