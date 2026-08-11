@@ -86,9 +86,6 @@
 .social-project .project-visual--brand img {
   width: min(56%, 250px); height: auto; object-fit: contain; object-position: center;
 }
-.social-project .project-visual--capaceo { background: linear-gradient(135deg, #12386B, #2876BD); }
-.social-project .project-visual--capaceo img { filter: drop-shadow(0 7px 18px rgba(0,0,0,.12)); }
-.social-project .project-visual--belair { background: linear-gradient(135deg, #F5F0E8, #FFF); }
 .gallery-note { display: inline-flex; align-items: center; gap: 8px; margin-top: 18px; color: var(--color-gray-mid); font-size: 12px; }
 .gallery-note::before { content: ''; display: block; width: 22px; height: 1px; background: #B98969; }
 .project-source-missing { display:grid; place-items:center; padding:28px; background:linear-gradient(145deg,#F1E8DC,#FAF8F4); }

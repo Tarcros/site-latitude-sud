@@ -3315,7 +3315,11 @@ const MRB_CASE = {
         { src: `${MRB}/outillage-auto/covers/cover-proposal-a.webp`, alt: 'Proposition de couverture 02 — Outillage et Auto' },
         { src: `${MRB}/outillage-auto/covers/cover-proposal-b.webp`, alt: 'Proposition de couverture 03 — Outillage et Auto' }
       ],
-      pages: [1, 2, 3].map(n => ({ src: `${MRB}/outillage-auto/pages/p${n}.webp`, alt: `Page ${n} du catalogue Mr.Bricolage Outillage et Auto` }))
+      pages: [
+        { src: `${MRB}/outillage-auto/pages/p1.webp`, alt: 'Page 1 du catalogue Mr.Bricolage Outillage et Auto' },
+        { src: `${MRB}/outillage-auto/pages/p2.webp`, alt: 'Page 2 du catalogue Mr.Bricolage Outillage et Auto' },
+        { src: `${MRB}/outillage-auto/pages/p3.webp`, alt: 'Page 3 du catalogue Mr.Bricolage Outillage et Auto' }
+      ]
     },
     {
       id: 'fete-des-meres',
@@ -3331,8 +3335,11 @@ const MRB_CASE = {
         { src: `${MRB}/fete-des-meres/covers/cover-selected.webp`, selected: true, alt: 'Couverture retenue du catalogue Mr.Bricolage Fête des Mères' },
         { src: `${MRB}/fete-des-meres/covers/cover-proposal-b.webp`, alt: 'Proposition de couverture 03 — Fête des Mères' }
       ],
-      /* 4 vraies pages intérieures (OP FDM OK.pdf, pages 2 à 5). */
-      pages: [1, 2, 3].map(n => ({ src: `${MRB}/fete-des-meres/pages/p${n}.webp`, alt: `Page ${n} du catalogue Mr.Bricolage Fête des Mères` }))
+      pages: [
+        { src: `${MRB}/fete-des-meres/pages/p1.webp`, alt: 'Page 1 du catalogue Mr.Bricolage Fête des Mères' },
+        { src: `${MRB}/fete-des-meres/pages/p2.webp`, alt: 'Page 2 du catalogue Mr.Bricolage Fête des Mères' },
+        { src: `${MRB}/fete-des-meres/pages/p3.webp`, alt: 'Page 3 du catalogue Mr.Bricolage Fête des Mères' }
+      ]
     },
     {
       id: 'votre-projet',
@@ -3348,9 +3355,11 @@ const MRB_CASE = {
         { src: `${MRB}/votre-projet/covers/cover-proposal-a.webp`, alt: 'Proposition de couverture 02 — Votre Projet, Notre Métier' },
         { src: `${MRB}/votre-projet/covers/cover-proposal-b.webp`, alt: 'Proposition de couverture 03 — Votre Projet, Notre Métier' }
       ],
-      /* 4 vraies pages, issues des 2 doubles-pages "op projet 2/3.pdf" et
-         "op projet 4/5.pdf" (une page A4 par moitié). */
-      pages: [1, 2, 3].map(n => ({ src: `${MRB}/votre-projet/pages/p${n}.webp`, alt: `Page ${n} de l’opération Votre Projet, Notre Métier` }))
+      pages: [
+        { src: `${MRB}/votre-projet/pages/p1.webp`, alt: 'Page 1 de l’opération Votre Projet, Notre Métier' },
+        { src: `${MRB}/votre-projet/pages/p2.webp`, alt: 'Page 2 de l’opération Votre Projet, Notre Métier' },
+        { src: `${MRB}/votre-projet/pages/p3.webp`, alt: 'Page 3 de l’opération Votre Projet, Notre Métier' }
+      ]
     }
   ],
   /* 4 vraies déclinaisons d'une campagne Meta Ads, chacune dans son vrai
