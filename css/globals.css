@@ -5288,19 +5288,17 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
 .lbe-gallery-grid figure { margin:0 0 clamp(12px,1.4vw,18px); border-radius:14px; overflow:hidden; background:var(--lbe-cream); break-inside:avoid; }
 .lbe-gallery-grid img { width:100%; height:auto; display:block; }
 
-/* --- 04 Instagram --- */
-.lbe-instagram { background:var(--lbe-pink); }
+/* --- 04 Instagram : section noire, voix case-study (ce que Latitude Sud a
+   produit pour le client), jamais "suivez-nous" / CTA vers le compte client. --- */
+.lbe-instagram { background:var(--lbe-black); }
 .lbe-instagram > .lbe-instagram__grid { max-width:1320px; }
 .lbe-instagram__grid { display:grid; grid-template-columns:.8fr 1.6fr; gap:clamp(28px,3.5vw,56px); align-items:center; }
-.lbe-instagram__copy h2 { color:var(--lbe-brown); }
-.lbe-instagram__copy p { margin-top:10px; max-width:320px; }
-.lbe-instagram__btn {
-  margin-top:20px; display:inline-flex; align-items:center; gap:9px; background:#FFF; color:var(--lbe-black);
-  font-family:var(--font-poppins); font-size:13px; font-weight:600; padding:11px 20px; border-radius:30px;
-  border:1px solid rgba(0,0,0,.08); text-decoration:none;
-}
+.lbe-instagram__eyebrow { display:inline-flex; align-items:center; gap:8px; margin:0 0 14px; font-family:var(--font-poppins); font-size:11px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--lbe-red); }
+.lbe-instagram__eyebrow::before { content:''; width:6px; height:6px; border-radius:50%; background:var(--lbe-red); }
+.lbe-instagram__copy h2 { color:#FFF; }
+.lbe-instagram__copy p { margin-top:10px; max-width:340px; color:rgba(255,255,255,.62); }
 .lbe-instagram__cards { display:grid; grid-template-columns:repeat(4,1fr); gap:clamp(12px,1.4vw,18px); }
-.lbe-ig-card { background:#FFF; border-radius:14px; overflow:hidden; box-shadow:0 10px 26px rgba(86,53,45,.1); }
+.lbe-ig-card { background:#FFF; border-radius:14px; overflow:hidden; box-shadow:0 18px 40px rgba(0,0,0,.35); }
 .lbe-ig-card__head { display:flex; align-items:center; gap:7px; padding:9px 10px; font-family:var(--font-poppins); font-size:10.5px; font-weight:600; color:var(--lbe-black); }
 .lbe-ig-card__head::before { content:''; width:16px; height:16px; border-radius:50%; background:var(--lbe-red); flex-shrink:0; }
 .lbe-ig-card__media { aspect-ratio:1/1; background:var(--lbe-cream); }
@@ -5560,9 +5558,11 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
   border:1px solid #DCE0E8; box-shadow:0 8px 18px rgba(32,35,53,.045);
 }
 .adc-wf__cell img { width:100%; height:100%; object-fit:contain; display:block; }
+.adc-wf__sources .adc-wf__cell { aspect-ratio:auto; }
+.adc-wf__sources .adc-wf__cell img { height:auto; object-fit:contain; }
 .adc-wf__cell--product { background:linear-gradient(145deg,#EAEDF3,#F8F8FA); }
 .adc-wf__cell--product img { padding:8px; box-sizing:border-box; }
-.adc-wf__cell--car img { padding:0; transform:scale(1.2); }
+.adc-wf__cell--car img { padding:0; transform:none; }
 .adc-wf__cell--main, .adc-wf__cell--final {
   aspect-ratio:4/5; border:1px solid #D8DDE7; border-radius:16px; background:#F1F3F6;
   box-shadow:0 14px 30px rgba(31,36,60,.09);
@@ -5596,6 +5596,11 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
 .adc-campaigns, .adc-grid3 { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:clamp(18px,2vw,28px); }
 .adc-campaigns .adc-ig-card__media { aspect-ratio:4/5; }
 .adc-grid3 .adc-ig-card__media { aspect-ratio:4/5; }
+.adc-campaign-visual {
+  margin:0; overflow:hidden; border:1px solid var(--adc-line); border-radius:16px;
+  background:#f4f5f8; box-shadow:0 14px 34px rgba(31,36,60,.075);
+}
+.adc-campaign-visual img { width:100%; height:auto; display:block; object-fit:contain; }
 
 /* 06 — Intro production vidéo En Drive */
 .adc-video-intro { overflow:hidden; }
@@ -5616,7 +5621,7 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
 .adc-youtube-card--featured { transform:scale(1); box-shadow:0 24px 52px rgba(15,15,20,.28); }
 .adc-youtube-card iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
 .adc-playlist-link {
-  display:flex; width:max-content; align-items:center; gap:9px; margin:24px auto 0; padding:11px 20px;
+  display:flex; width:max-content; max-width:100%; align-items:center; gap:9px; margin:24px 0 0; padding:11px 20px;
   border:1px solid rgba(40,38,91,.22); border-radius:999px; color:var(--adc-navy); text-decoration:none;
   font-family:var(--font-poppins); font-size:12px; font-weight:700; transition:color .2s var(--ease),border-color .2s var(--ease),background .2s var(--ease);
 }
@@ -6044,7 +6049,7 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
 .project-grid--social .project-card:hover .project-visual--cap-creole > .cap-creole-card__wordmark {
   transform:translateY(-3px) scale(1.018); filter:drop-shadow(0 18px 32px rgba(1,31,69,.32));
 }
-.project-grid--social .project-card .project-visual--lifeone > img { width:min(62%,380px); filter:brightness(0) invert(1); }
+.project-grid--social .project-card .project-visual--lifeone > img { width:min(62%,380px); filter:none; }
 .project-grid--social .project-card .project-visual--digilife > img { width:min(52%,300px); }
 .project-brand-lockup { display:grid; justify-items:center; gap:20px; width:78%; text-align:center; color:#fff; }
 .project-brand-lockup img { width:min(72%,330px); height:auto; display:block; }
@@ -6066,7 +6071,7 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
 /* En Drive : fond illustré clair, contenu central volontairement calme. */
 .adc-video-decor { display:none; }
 .adc-video-intro .adc-youtube-card { transform:none; border-radius:22px; }
-.adc-video-intro .adc-youtube-card--featured { transform:translateY(-10px); }
+.adc-video-intro .adc-youtube-card--featured { z-index:1; transform:translateY(-12px) scale(1.08); }
 
 @media (min-width:641px) {
   .adc-video-intro h2 { white-space:nowrap; }
@@ -6078,6 +6083,246 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
 }
 @media (max-width:640px) {
   .adc-video-intro .adc-youtube-card--featured { transform:none; }
+}
+
+/* ══════════════════════════════════════════════════════════════════════
+   DIGILIFE — RÉSEAUX SOCIAUX (namespace .digilife-*)
+   Étude de cas longue, fidèle à la maquette : blanc Apple, respirations
+   généreuses, formats natifs et ruptures noires ponctuelles.
+   ══════════════════════════════════════════════════════════════════════ */
+.ls-modal.custom-mode .ls-modal-dialog:has(.digilife-social-case) {
+  width:min(98vw,1800px); max-width:1800px; height:96vh; max-height:96vh;
+  border-radius:18px; background:#fff;
+}
+.ls-modal.custom-mode .ls-modal-viewport:has(.digilife-social-case) { background:#fff; }
+.digilife-social-case {
+  --digilife-ink:#09090b;
+  --digilife-muted:#6a6a72;
+  --digilife-red:#f13b4c;
+  --digilife-pink:#ff5d78;
+  --digilife-line:#ececef;
+  color:var(--digilife-ink); background:#fff; overflow:hidden;
+}
+.digilife-social-case * { box-sizing:border-box; }
+.digilife-social-case figure { margin:0; }
+.digilife-social-case img { max-width:100%; display:block; }
+.digilife-social-case h1,
+.digilife-social-case h2,
+.digilife-social-case h3 { font-family:var(--font-poppins); letter-spacing:-.045em; }
+.digilife-social-case h1 { margin:0; font-size:clamp(46px,5vw,78px); font-weight:740; line-height:.98; }
+.digilife-social-case h2 { margin:0; font-size:clamp(36px,4vw,62px); font-weight:730; line-height:1.02; }
+.digilife-social-case h3 { margin:0; font-size:clamp(25px,2.3vw,34px); font-weight:720; line-height:1.05; }
+.digilife-social-eyebrow {
+  margin:0 0 18px; color:var(--digilife-red); font-family:var(--font-poppins);
+  font-size:10px; font-weight:820; letter-spacing:.18em; line-height:1.4; text-transform:uppercase;
+}
+.digilife-social-button {
+  display:inline-flex; width:max-content; max-width:100%; min-height:42px; align-items:center; justify-content:center; gap:10px;
+  padding:11px 19px; border:1px solid currentColor; border-radius:999px; color:var(--digilife-ink); background:transparent;
+  font-family:var(--font-poppins); font-size:10px; font-weight:790; letter-spacing:.045em; line-height:1.2;
+  text-decoration:none; text-transform:uppercase; cursor:pointer;
+  transition:transform .2s var(--ease),color .2s var(--ease),background .2s var(--ease);
+}
+.digilife-social-button:hover { transform:translateY(-2px); color:#fff; background:var(--digilife-ink); }
+.digilife-social-button--dark { color:#fff; border-color:var(--digilife-ink); background:var(--digilife-ink); }
+.digilife-social-button--dark:hover { background:#2b2b30; }
+
+/* Hero compact : texte à gauche, composition réelle de posts à droite. */
+.digilife-social-hero {
+  min-height:590px; padding:clamp(62px,7vw,108px) clamp(28px,6vw,108px);
+  display:grid; grid-template-columns:minmax(330px,.72fr) minmax(520px,1.28fr);
+  gap:clamp(46px,6vw,104px); align-items:center;
+  background:linear-gradient(110deg,#fff 0%,#fff 56%,#fafafa 100%);
+}
+.digilife-social-hero__copy { max-width:610px; margin-inline:0 !important; }
+.digilife-social-hero__copy > p:not(.digilife-social-eyebrow) {
+  max-width:560px; margin:28px 0 30px; color:var(--digilife-muted); font-size:clamp(15px,1.08vw,18px); line-height:1.72;
+}
+.digilife-social-hero__visual { width:100%; max-width:860px; justify-self:end; }
+.digilife-social-hero__visual img { width:100%; height:auto; object-fit:contain; filter:drop-shadow(0 24px 42px rgba(0,0,0,.06)); }
+
+.digilife-section-intro {
+  width:min(100%,760px); margin:0 auto clamp(42px,5vw,74px); text-align:center;
+}
+.digilife-section-intro > p:last-child {
+  max-width:660px; margin:22px auto 0; color:var(--digilife-muted); font-size:clamp(15px,1.08vw,17px); line-height:1.7;
+}
+.digilife-section-intro--workflow { width:min(100%,860px); margin-bottom:clamp(48px,5vw,82px); }
+
+/* Trois workflows larges : la source reste compacte, les deux résultats dominent. */
+.digilife-workflows { padding:clamp(76px,7vw,116px) clamp(28px,5.5vw,96px) 0; background:#fff; }
+.digilife-workflow {
+  width:min(100%,1520px); margin:0 auto; padding:clamp(52px,5vw,82px) 0;
+  display:grid; grid-template-columns:minmax(220px,.68fr) minmax(108px,.34fr) 26px minmax(250px,1fr) 26px minmax(250px,1fr);
+  gap:clamp(14px,1.7vw,28px); align-items:center; border-top:1px solid var(--digilife-line);
+}
+.digilife-workflow:last-child { border-bottom:1px solid var(--digilife-line); }
+.digilife-workflow__copy { padding-right:clamp(0px,1.4vw,22px); }
+.digilife-workflow__number {
+  margin:0 0 15px; color:var(--digilife-red); font-family:var(--font-poppins);
+  font-size:9px; font-weight:820; letter-spacing:.17em; text-transform:uppercase;
+}
+.digilife-workflow__tagline { margin:18px 0 20px !important; color:#24242a !important; font-weight:620; line-height:1.55 !important; }
+.digilife-workflow__copy > p:not(.digilife-workflow__number):not(.digilife-workflow__tagline) {
+  margin:0; color:var(--digilife-muted); font-size:13px; line-height:1.72;
+}
+.digilife-workflow__legend { display:grid; gap:8px; margin:28px 0 0; padding:0; list-style:none; }
+.digilife-workflow__legend li { display:flex; align-items:center; gap:9px; color:#74747c; font-size:10px; line-height:1.3; }
+.digilife-workflow__dot { width:10px; height:10px; flex:none; border-radius:2px; background:#e8e6e1; }
+.digilife-workflow__dot--scene { background:#76afd0; }
+.digilife-workflow__dot--final { background:#fa6272; }
+.digilife-workflow-step { min-width:0; }
+.digilife-workflow-step img {
+  width:100%; height:auto; border:1px solid #e7e7ea; border-radius:12px; background:#fafafa; object-fit:contain;
+  box-shadow:0 12px 32px rgba(12,12,16,.055);
+}
+.digilife-workflow-step--source img { width:100%; }
+.digilife-workflow-step--large img { border-radius:16px; box-shadow:0 18px 42px rgba(12,12,16,.075); }
+.digilife-workflow-step figcaption {
+  margin-top:12px; color:#888890; font-family:var(--font-poppins); font-size:9px; font-weight:650; text-align:center;
+}
+.digilife-workflow__arrow { color:#9c9ca2; font-size:23px; line-height:1; text-align:center; }
+
+.digilife-social-transition {
+  margin-top:clamp(80px,9vw,150px); padding:clamp(82px,8vw,132px) clamp(28px,6vw,108px);
+  color:#fff; text-align:center; background:#050506;
+}
+.digilife-social-transition > * { max-width:900px; margin-inline:auto; }
+.digilife-social-transition .digilife-social-eyebrow { color:var(--digilife-pink); }
+.digilife-social-transition h2 { color:#fff; }
+.digilife-social-transition > p:last-child {
+  max-width:650px; margin-top:24px; color:#adadb5; font-size:clamp(15px,1.08vw,17px); line-height:1.7;
+}
+
+.digilife-campaign,
+.digilife-wide-campaign { padding:clamp(86px,8vw,138px) clamp(28px,6vw,108px); }
+.digilife-campaign--valentine { background:#faf9f8; }
+.digilife-campaign--tradein { background:#fff; }
+.digilife-campaign--premium { background:#f7f7f8; }
+.digilife-campaign__grid,
+.digilife-wide-campaign__gallery,
+.digilife-premium-grid { width:min(100%,1320px); margin:0 auto; }
+.digilife-campaign__grid { display:grid; gap:clamp(20px,2.3vw,36px); align-items:start; }
+.digilife-campaign__grid figure,
+.digilife-wide-campaign__gallery figure,
+.digilife-premium-grid figure { overflow:hidden; border-radius:16px; background:#f2f2f3; box-shadow:0 18px 46px rgba(8,8,10,.07); }
+.digilife-campaign__grid img,
+.digilife-wide-campaign__gallery img,
+.digilife-premium-grid img { width:100%; height:auto; object-fit:contain; }
+.digilife-campaign__grid--two-portrait { width:min(100%,1080px); grid-template-columns:repeat(2,minmax(0,1fr)); }
+.digilife-campaign__grid--three-portrait { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.digilife-campaign__grid--squares { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.digilife-wide-campaign { background:#f6f6f7; }
+.digilife-wide-campaign__gallery { display:grid; gap:clamp(24px,3vw,44px); }
+.digilife-wide-campaign__gallery figure { border-radius:14px; }
+.digilife-premium-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:clamp(22px,2.6vw,40px); }
+
+.digilife-influence-link {
+  padding:clamp(54px,5vw,78px) clamp(28px,6vw,108px);
+  display:flex; align-items:center; justify-content:space-between; gap:42px; border-top:1px solid var(--digilife-line); background:#fff;
+}
+.digilife-influence-link > div { max-width:840px; margin-inline:0 !important; }
+.digilife-influence-link h2 { font-size:clamp(30px,3vw,46px); }
+.digilife-influence-link p:last-child { margin:16px 0 0; color:var(--digilife-muted); font-size:14px; line-height:1.6; }
+.digilife-influence-link .digilife-social-button { flex:none; }
+
+.digilife-social-stats {
+  padding:clamp(48px,4.5vw,70px) clamp(28px,6vw,108px); display:grid;
+  grid-template-columns:minmax(260px,.72fr) minmax(0,1.4fr); gap:clamp(42px,6vw,100px); align-items:center;
+  color:#fff; background:#050506;
+}
+.digilife-social-stats__intro { margin-inline:0 !important; }
+.digilife-social-stats__intro .digilife-social-eyebrow { color:var(--digilife-pink); }
+.digilife-social-stats__intro h2 { color:#fff; font-size:clamp(28px,2.8vw,43px); }
+.digilife-social-stats__intro > p:last-child { max-width:440px; margin:15px 0 0; color:#a8a8b0; font-size:13px; line-height:1.6; }
+.digilife-social-stats__grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); margin:0; padding:0; }
+.digilife-social-stats__grid > div { min-width:0; padding:8px clamp(16px,2vw,30px); border-left:1px solid rgba(255,255,255,.15); }
+.digilife-social-stats__grid dt { font-family:var(--font-poppins); font-size:clamp(30px,3.1vw,48px); font-weight:620; line-height:1; letter-spacing:-.045em; }
+.digilife-social-stats__grid dd { margin:9px 0 0; color:#a8a8b0; font-size:10px; line-height:1.4; }
+
+.digilife-project-cta {
+  min-height:106px; padding:18px clamp(28px,5vw,84px); display:flex; align-items:center; gap:clamp(20px,3vw,48px);
+  color:var(--digilife-ink); background:#fff; border-top:1px solid var(--digilife-line);
+}
+.digilife-project-cta__title { flex:0 0 auto; max-width:240px; font-family:var(--font-poppins); font-size:clamp(16px,1.4vw,21px); line-height:1.25; }
+.digilife-project-cta > p { flex:1 1 300px; max-width:430px; margin:0; color:var(--digilife-muted); font-size:11px; line-height:1.55; }
+.digilife-project-cta .digilife-social-button { flex:none; }
+.digilife-project-cta__brand { margin-left:auto; display:flex; align-items:center; gap:16px; }
+.digilife-project-cta__brand img { width:clamp(105px,10vw,150px); height:auto; }
+.digilife-project-cta__brand span { max-width:100px; padding-left:16px; border-left:1px solid #d7d7db; color:#626269; font-size:9px; line-height:1.35; }
+
+@media (max-width:1180px) {
+  .digilife-social-hero { grid-template-columns:minmax(300px,.78fr) minmax(430px,1.22fr); gap:40px; }
+  .digilife-workflow {
+    grid-template-columns:minmax(200px,.68fr) minmax(92px,.3fr) 20px minmax(210px,1fr) 20px minmax(210px,1fr);
+    gap:14px;
+  }
+  .digilife-social-stats { grid-template-columns:1fr; }
+  .digilife-social-stats__grid { max-width:900px; }
+  .digilife-project-cta { flex-wrap:wrap; }
+  .digilife-project-cta__brand { margin-left:0; }
+}
+
+@media (max-width:900px) {
+  .ls-modal.custom-mode .ls-modal-dialog:has(.digilife-social-case) { width:100vw; height:100dvh; max-height:100dvh; border-radius:0; }
+  .digilife-social-hero { min-height:0; grid-template-columns:1fr; padding-top:76px; }
+  .digilife-social-hero__copy { max-width:680px; }
+  .digilife-social-hero__visual { max-width:760px; justify-self:center; }
+  .digilife-workflow {
+    grid-template-columns:minmax(0,1fr) 26px minmax(0,1fr); align-items:start; gap:18px;
+  }
+  .digilife-workflow__copy { grid-column:1/-1; max-width:620px; margin-bottom:20px; }
+  .digilife-workflow-step--source { grid-column:1/-1; width:min(190px,36%); justify-self:center; }
+  .digilife-workflow > .digilife-workflow__arrow:first-of-type { grid-column:1/-1; transform:rotate(90deg); justify-self:center; }
+  .digilife-workflow-step--large { grid-row:auto; }
+  .digilife-workflow > .digilife-workflow__arrow:last-of-type { align-self:center; }
+  .digilife-campaign__grid--three-portrait { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .digilife-campaign__grid--three-portrait figure:last-child { grid-column:1/-1; width:calc(50% - 10px); justify-self:center; }
+  .digilife-influence-link { align-items:flex-start; flex-direction:column; }
+  .digilife-project-cta__brand { width:100%; justify-content:flex-start; }
+}
+
+@media (max-width:640px) {
+  .digilife-social-case h1 { font-size:clamp(42px,12vw,56px); }
+  .digilife-social-case h2 { font-size:clamp(33px,9.5vw,46px); }
+  .digilife-social-hero,
+  .digilife-workflows,
+  .digilife-campaign,
+  .digilife-wide-campaign,
+  .digilife-influence-link,
+  .digilife-social-stats { padding-inline:20px; }
+  .digilife-social-hero { padding-block:64px 54px; gap:34px; }
+  .digilife-social-hero__copy > p:not(.digilife-social-eyebrow) { margin-block:22px 26px; font-size:14px; }
+  .digilife-workflows { padding-top:64px; }
+  .digilife-workflow { grid-template-columns:1fr; padding-block:48px; gap:16px; }
+  .digilife-workflow__copy,
+  .digilife-workflow-step--source,
+  .digilife-workflow > .digilife-workflow__arrow:first-of-type,
+  .digilife-workflow-step--large,
+  .digilife-workflow > .digilife-workflow__arrow:last-of-type { grid-column:1; }
+  .digilife-workflow-step--source { width:min(180px,56%); }
+  .digilife-workflow__arrow { transform:rotate(90deg); justify-self:center; }
+  .digilife-workflow-step figcaption { font-size:10px; }
+  .digilife-social-transition { margin-top:76px; padding:72px 20px; }
+  .digilife-campaign,
+  .digilife-wide-campaign { padding-block:76px; }
+  .digilife-section-intro { margin-bottom:38px; text-align:left; }
+  .digilife-section-intro > p:last-child { margin-left:0; font-size:14px; }
+  .digilife-campaign__grid--two-portrait,
+  .digilife-campaign__grid--three-portrait,
+  .digilife-campaign__grid--squares,
+  .digilife-premium-grid { grid-template-columns:1fr; gap:20px; }
+  .digilife-campaign__grid--three-portrait figure:last-child { grid-column:auto; width:100%; }
+  .digilife-wide-campaign__gallery { gap:20px; }
+  .digilife-wide-campaign__gallery figure { border-radius:8px; }
+  .digilife-social-stats__grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:30px 0; }
+  .digilife-social-stats__grid > div:nth-child(odd) { border-left:0; padding-left:0; }
+  .digilife-social-stats__grid dt { font-size:35px; }
+  .digilife-project-cta { min-height:0; padding:26px 20px; align-items:flex-start; gap:16px; }
+  .digilife-project-cta__title,
+  .digilife-project-cta > p { flex-basis:100%; max-width:none; }
+  .digilife-project-cta .digilife-social-button { width:100%; }
+  .digilife-project-cta__brand { margin-top:4px; }
 }
 
 /* ══════════════════════════════════════════════════════════════════════
@@ -6235,15 +6480,28 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
 }
 .dgi-behind__copy > p { max-width:400px; }
 .dgi-behind__gallery {
-  min-width:0; display:flex; gap:18px; height:430px; overflow-x:auto; overflow-y:hidden;
-  padding:4px 4px 16px; scroll-snap-type:x mandatory; scrollbar-color:var(--dgi-pink) rgba(255,255,255,.12);
+  min-width:0; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; height:auto;
 }
 .dgi-behind__gallery figure {
-  flex:0 0 242px; height:100%; margin:0; overflow:hidden; border-radius:18px;
-  background:#18181b; scroll-snap-align:start;
+  min-width:0; aspect-ratio:1688/3000; margin:0; overflow:hidden; border-radius:18px; background:#18181b;
 }
-.dgi-behind__gallery .dgi-behind__wide { flex-basis:760px; }
-.dgi-behind__gallery img { width:100%; height:100%; display:block; object-fit:cover; }
+.dgi-behind__gallery img { width:100%; height:100%; display:block; object-fit:contain; }
+.dgi-behind__all { grid-column:2; width:100%; min-width:0; margin:18px 0 0 !important; }
+.dgi-behind__all summary {
+  display:flex; min-height:44px; align-items:center; justify-content:space-between; gap:18px;
+  padding:11px 17px; border:1px solid rgba(255,255,255,.28); border-radius:999px;
+  color:#fff; font-family:var(--font-poppins); font-size:11px; font-weight:700; cursor:pointer; list-style:none;
+  transition:border-color .2s var(--ease),background .2s var(--ease);
+}
+.dgi-behind__all summary::-webkit-details-marker { display:none; }
+.dgi-behind__all summary:hover { border-color:var(--dgi-pink); background:rgba(255,47,103,.08); }
+.dgi-behind__all summary span { color:var(--dgi-pink); font-size:18px; transition:transform .2s var(--ease); }
+.dgi-behind__all[open] summary span { transform:rotate(45deg); }
+.dgi-behind__all-grid {
+  display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; margin-top:22px;
+}
+.dgi-behind__all-grid figure { margin:0; overflow:hidden; border-radius:14px; background:#18181b; }
+.dgi-behind__all-grid img { width:100%; height:auto; display:block; object-fit:contain; }
 
 /* 06 — Making-of */
 .dgi-making {
@@ -6285,9 +6543,8 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
   .dgi-instagram__numbers { grid-template-columns:repeat(3,minmax(0,1fr)); max-width:620px; }
   .dgi-instagram__numbers div:last-child { grid-column:auto; }
   .dgi-results__grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
-  .dgi-behind__gallery { height:380px; }
-  .dgi-behind__gallery figure { flex-basis:214px; }
-  .dgi-behind__gallery .dgi-behind__wide { flex-basis:676px; }
+  .dgi-behind__gallery { height:auto; }
+  .dgi-behind__all { grid-column:1; }
   .dgi-cta { gap:18px; }
   .dgi-cta__signature { display:none; }
 }
@@ -6326,9 +6583,9 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
   .dgi-instagram__posts { grid-auto-columns:minmax(258px,82vw); margin-inline:-2px; }
   .dgi-results__grid { gap:10px; }
   .dgi-results__grid > div { min-height:150px; padding:22px 12px; border-radius:14px; }
-  .dgi-behind__gallery { height:330px; margin-right:-20px; padding-right:20px; }
-  .dgi-behind__gallery figure { flex-basis:186px; border-radius:14px; }
-  .dgi-behind__gallery .dgi-behind__wide { flex-basis:586px; }
+  .dgi-behind__gallery { height:auto; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
+  .dgi-behind__gallery figure { border-radius:14px; }
+  .dgi-behind__all-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
   .dgi-making__video { border-radius:14px; }
   .dgi-cta { align-items:center; gap:10px 14px; padding:14px 18px; }
   .dgi-cta__logo { width:105px; }

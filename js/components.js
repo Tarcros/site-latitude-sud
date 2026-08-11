@@ -472,6 +472,7 @@ function initProjectModal() {
   const toTopBtn = modal.querySelector('[data-modal-totop]');
   const viewport = modal.querySelector('.ls-modal-viewport');
   let slides = [], index = 0, mode = 'slider', lastFocus = null;
+  let deferredVideoTimers = [];
 
   toTopBtn.addEventListener('click', () => viewport.scrollTo({ top: 0, behavior: 'smooth' }));
   viewport.addEventListener('scroll', () => {
@@ -710,6 +711,37 @@ function initProjectModal() {
     renderSlider();
   };
 
+  const setEmbeddedVideoPlayback = (shouldPlay) => {
+    track.querySelectorAll('video[autoplay]').forEach((video) => {
+      video.muted = true;
+      video.loop = true;
+      if (!shouldPlay) {
+        video.pause();
+        return;
+      }
+      const playback = video.play();
+      if (playback && typeof playback.catch === 'function') playback.catch(() => {});
+    });
+  };
+
+  const stopDeferredVideoEmbeds = () => {
+    deferredVideoTimers.forEach(window.clearTimeout);
+    deferredVideoTimers = [];
+    track.querySelectorAll('iframe[data-video-src]').forEach((frame) => frame.removeAttribute('src'));
+  };
+
+  const startDeferredVideoEmbeds = () => {
+    stopDeferredVideoEmbeds();
+    track.querySelectorAll('iframe[data-video-src]').forEach((frame) => {
+      const delay = Math.max(0, Number.parseInt(frame.dataset.videoDelay || '0', 10) || 0);
+      const timer = window.setTimeout(() => {
+        if (!modal.classList.contains('open') || !frame.isConnected) return;
+        frame.src = frame.dataset.videoSrc;
+      }, delay);
+      deferredVideoTimers.push(timer);
+    });
+  };
+
   const open = (trigger) => {
     const imgs = (trigger.dataset.projectImages || '')
       .split('|')
@@ -788,9 +820,13 @@ function initProjectModal() {
     modal.setAttribute('aria-hidden', 'false');
     setModalBackgroundInert(modal, true);
     document.body.style.overflow = 'hidden';
+    requestAnimationFrame(() => setEmbeddedVideoPlayback(true));
+    startDeferredVideoEmbeds();
     modal.querySelector('.ls-modal-close').focus();
   };
   const close = () => {
+    setEmbeddedVideoPlayback(false);
+    stopDeferredVideoEmbeds();
     modal.classList.remove('open');
     modal.classList.remove('slider-mode', 'grid-mode', 'gallery-mode', 'custom-mode', 'light-surface');
     modal.setAttribute('aria-hidden', 'true');
@@ -3646,14 +3682,11 @@ const LBE_CASE = {
   gallery: [
     { src: `${LBE}/gallery/gallery-tartelette-passion.webp`, alt: 'Tartelette Passion, composition Les Belles Envies' },
     { src: `${LBE}/gallery/gallery-brioche-composition.webp`, alt: 'Brioche chocolat, composition Les Belles Envies' },
-    { src: `${LBE}/gallery/gallery-croissant-brut.webp`, alt: 'Croissant au beurre, photo studio' },
-    { src: `${LBE}/gallery/gallery-croissant-composition.webp`, alt: 'Croissant au beurre, composition Les Belles Envies' },
-    { src: `${LBE}/gallery/gallery-brioche-brut.webp`, alt: 'Brioche chocolat, photo studio' }
+    { src: `${LBE}/gallery/gallery-croissant-composition.webp`, alt: 'Croissant au beurre, composition Les Belles Envies' }
   ],
   instagram: {
-    title: 'Suivez-nous sur<br>Instagram',
-    text: 'Découvrez nos dernières créations, coulisses, nouveautés et inspirations gourmandes.',
-    btnText: 'Voir le compte Instagram',
+    title: 'Du studio<br>au feed',
+    text: 'Les visuels réalisés en studio sont déclinés en publications prêtes à diffuser, pensées pour vivre naturellement dans le feed de la marque.',
     handle: 'lesbellesenvies_gp',
     cards: [
       { src: `${LBE}/hero/hero-fraisier-composition.webp`, alt: 'Post Instagram Le Fraisier' },
@@ -3666,7 +3699,7 @@ const LBE_CASE = {
     title: 'Des contenus pensés<br>pour séduire, valoriser<br>et vendre.',
     text: 'Un accompagnement visuel global pour renforcer l’image premium et gourmande de Les Belles Envies.',
     btnText: 'Voir plus de projets',
-    image: { src: `${LBE}/hero/hero-fraisier-composition.webp`, alt: 'Le Fraisier, Les Belles Envies' }
+    image: { src: `${LBE}/gallery/gallery-brioche-composition.webp`, alt: 'Brioche chocolat, Les Belles Envies' }
   },
   footer: {
     logo: `${LBE}/logo/lbe-logo-horizontal-white.webp`,
@@ -3729,12 +3762,9 @@ function renderLesBellesEnviesCaseHTML() {
       <section class="lbe-instagram">
         <div class="lbe-instagram__grid">
           <div class="lbe-instagram__copy">
+            <p class="lbe-instagram__eyebrow">Réseaux sociaux</p>
             <h2>${C.instagram.title}</h2>
             <p>${C.instagram.text}</p>
-            <a class="lbe-instagram__btn" href="https://www.instagram.com/${C.instagram.handle}/" target="_blank" rel="noopener noreferrer">
-              <svg width="15" height="15" viewBox="0 0 28 28" fill="none" aria-hidden="true"><rect x="2" y="2" width="24" height="24" rx="7" stroke="currentColor" stroke-width="1.6"/><circle cx="14" cy="14" r="6" stroke="currentColor" stroke-width="1.6"/><circle cx="21" cy="7" r="1.3" fill="currentColor"/></svg>
-              ${C.instagram.btnText}
-            </a>
           </div>
           <div class="lbe-instagram__cards">
             ${C.instagram.cards.map(card => `
