@@ -122,7 +122,7 @@ p { line-height: 1.7; }
   font-style: italic;
   font-weight: 400;
   color: #605e32;
-  background-image: url('/assets/icons/ui/trait-ls.svg');
+  background-image: url('/assets/global/icons/ui/trait-ls.svg');
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100% 0.34em;
@@ -135,7 +135,7 @@ p { line-height: 1.7; }
   font-style: italic;
   font-weight: 400;
   color: #605e32;
-  background-image: url('/assets/icons/ui/trait-ls-2.svg');
+  background-image: url('/assets/global/icons/ui/trait-ls-2.svg');
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100% 0.40em;
@@ -2331,7 +2331,7 @@ p { line-height: 1.7; }
   transform: translateX(-50%);
   border: 1px solid rgba(40, 144, 70, .24);
   border-radius: 50%;
-  background: #FFFDF4 url('/assets/projects/bonnes-epices/applications/icon.webp') center / 31px auto no-repeat;
+  background: #FFFDF4 url('/assets/projects/branding/bonnes-epices/applications/icon.webp') center / 31px auto no-repeat;
   box-shadow: 0 5px 14px rgba(30, 44, 31, .08);
 }
 
@@ -3965,7 +3965,7 @@ img.arc-palmier-icon { object-fit: contain; }
 .mrb-hero__watermark {
   content:''; position:absolute; z-index:1; width:145%; aspect-ratio:164/132; left:50%; top:50%;
   transform:translate(-50%,-50%);
-  background:url('/assets/projects/catalogues/mr-bricolage/brand/logo-m-mark.svg') no-repeat center / contain;
+  background:url('/assets/projects/catalogue/mr-bricolage/brand/logo-m-mark.svg') no-repeat center / contain;
   opacity:.06; pointer-events:none;
 }
 .mrb-hero__badge {

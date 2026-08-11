@@ -71,7 +71,7 @@ function initHeroWaves(activePage) {
             <textPath href="#${arcId}" startOffset="50%" text-anchor="middle">CRÉATION • STRATÉGIE • DIGITAL</textPath>
           </text>
         </svg>
-        <img class="hero-wave-mark__palm" src="/assets/icons/ui/icon-ui-cocotier.svg" alt="" decoding="async">
+        <img class="hero-wave-mark__palm" src="/assets/global/icons/ui/icon-ui-cocotier.svg" alt="" decoding="async">
       </div>`;
   });
 }
@@ -86,7 +86,7 @@ function renderHeader(activePage) {
   <div class="ls-header-inner">
 
     <a href="/index.html" class="ls-logo" aria-label="Latitude Sud — Accueil">
-      <img src="/assets/logo-sud.svg" alt="Logo Latitude Sud"
+      <img src="/assets/global/branding/logo-sud.svg" alt="Logo Latitude Sud"
            class="ls-logo-badge" width="50" height="50">
       <div class="ls-logo-text">
         <span class="ls-logo-name">Latitude Sud</span>
@@ -715,7 +715,7 @@ function initProjectModal() {
       .split('|')
       .map(source => safeImageSource(source.trim()))
       .filter(Boolean);
-    slides = imgs.length ? imgs : ['/backgrounds/image-bg/header-bg-homme.png'];
+    slides = imgs.length ? imgs : ['/assets/global/backgrounds/image-bg/header-bg-homme.png'];
     mode = trigger.dataset.projectLayout === 'custom'
       ? 'custom'
       : trigger.dataset.projectLayout === 'gallery'
@@ -850,49 +850,49 @@ function initMarinaProject() {
             <p>Nous avons modernisé l'identité de la Marina Bas-du-Fort en conservant ses repères essentiels : la voile, l'horizon et le bleu du littoral. Le nouveau système gagne en lisibilité et peut vivre avec cohérence sur les supports d'accueil, d'information et d'événementiel.</p>
             <span class="marina-case-meta">Logo · Couleurs · Applications · Déploiement</span>
           </div>
-          <img class="marina-case-logo" src="/assets/projects/marina/logo-blue-transparent.webp" alt="Logo bleu de la Marina Bas-du-Fort" loading="lazy">
+          <img class="marina-case-logo" src="/assets/projects/branding/marina/logo-blue-transparent.webp" alt="Logo bleu de la Marina Bas-du-Fort" loading="lazy">
         </header>
 
         <section class="marina-case-section">
           <h3>Avant &amp; après</h3>
           <div class="marina-before-after">
-            <figure><figcaption><span>Avant</span></figcaption><img src="/assets/projects/marina/logo-before.webp" alt="Ancienne identité de la Marina Bas-du-Fort" loading="lazy"></figure>
+            <figure><figcaption><span>Avant</span></figcaption><img src="/assets/projects/branding/marina/logo-before.webp" alt="Ancienne identité de la Marina Bas-du-Fort" loading="lazy"></figure>
             <span class="marina-before-after-arrow" aria-hidden="true">&rarr;</span>
-            <figure class="marina-after-logo"><figcaption><span>Après</span></figcaption><img src="/assets/projects/marina/logo-after.webp" alt="Nouvelle identité blanche de la Marina Bas-du-Fort sur fond bleu" loading="lazy"></figure>
+            <figure class="marina-after-logo"><figcaption><span>Après</span></figcaption><img src="/assets/projects/branding/marina/logo-after.webp" alt="Nouvelle identité blanche de la Marina Bas-du-Fort sur fond bleu" loading="lazy"></figure>
           </div>
         </section>
 
         <section class="marina-case-section">
           <h3>Fondations de la charte</h3>
           <div class="marina-dossier-grid">
-            <figure class="marina-media-card marina-media-card--wide"><img src="/assets/projects/marina/charte-foundations.webp" alt="Construction du logo, variantes chromatiques, typographies et palette de la Marina Bas-du-Fort" loading="lazy"></figure>
+            <figure class="marina-media-card marina-media-card--wide"><img src="/assets/projects/branding/marina/charte-foundations.webp" alt="Construction du logo, variantes chromatiques, typographies et palette de la Marina Bas-du-Fort" loading="lazy"></figure>
           </div>
         </section>
 
         <section class="marina-case-section">
           <h3>Présentation du système</h3>
           <div class="marina-system-grid marina-system-grid--sim-row">
-            <figure class="marina-media-card"><img src="/assets/projects/marina/simulation-4_3-source.webp" alt="Simulation d'une publication Marina Bas-du-Fort au format 4/3 — fichier source" loading="lazy"></figure>
-            <figure class="marina-media-card"><img src="/assets/projects/marina/simulation-4_3.webp" alt="Simulation d'une publication Marina Bas-du-Fort au format 4/3" loading="lazy"></figure>
+            <figure class="marina-media-card"><img src="/assets/projects/branding/marina/simulation-4_3-source.webp" alt="Simulation d'une publication Marina Bas-du-Fort au format 4/3 — fichier source" loading="lazy"></figure>
+            <figure class="marina-media-card"><img src="/assets/projects/branding/marina/simulation-4_3.webp" alt="Simulation d'une publication Marina Bas-du-Fort au format 4/3" loading="lazy"></figure>
           </div>
           <div class="marina-system-grid marina-system-grid--single">
-            <figure class="marina-media-card"><img src="/assets/projects/marina/charte-format-square.webp" alt="Présentation du système de composition au format carré" loading="lazy"></figure>
+            <figure class="marina-media-card"><img src="/assets/projects/branding/marina/charte-format-square.webp" alt="Présentation du système de composition au format carré" loading="lazy"></figure>
           </div>
         </section>
 
         <section class="marina-case-section">
           <h3>Simulations &amp; déploiement</h3>
           <div class="marina-deployment-grid">
-            <figure class="marina-media-card"><img src="/assets/projects/marina/mockups/marina-equipe-accueil.webp" alt="Mockup de l'identité Marina Bas-du-Fort sur la tenue et le badge de l'équipe d'accueil" loading="lazy"><figcaption>Équipe d'accueil</figcaption></figure>
-            <figure class="marina-media-card"><img src="/assets/projects/marina/mockups/marina-kit-visiteur.webp" alt="Mockup d'un kit visiteur Marina Bas-du-Fort" loading="lazy"><figcaption>Kit visiteur</figcaption></figure>
-            <figure class="marina-media-card"><img src="/assets/projects/marina/mockups/generated/marina-plan-orientation.webp" alt="Mockup du plan d'orientation de la Marina Bas-du-Fort" loading="lazy"><figcaption>Plan d'orientation</figcaption></figure>
-            <figure class="marina-media-card"><img src="/assets/projects/marina/mockups/generated/marina-signaletique.webp" alt="Mockup de la signalétique de la Marina Bas-du-Fort" loading="lazy"><figcaption>Signalétique directionnelle</figcaption></figure>
-            <figure class="marina-media-card"><img src="/assets/projects/marina/mockups/generated/marina-guide-port.webp" alt="Mockup du guide de port de la Marina Bas-du-Fort" loading="lazy"><figcaption>Guide de port</figcaption></figure>
-            <figure class="marina-media-card"><img src="/assets/projects/marina/mockups/generated/marina-borne-digitale.webp" alt="Mockup de la borne digitale de la Marina Bas-du-Fort" loading="lazy"><figcaption>Borne d'information</figcaption></figure>
-            <figure class="marina-media-card"><img src="/assets/projects/marina/mockups/generated/marina-polo-equipe.webp" alt="Mockup du polo de l'équipe de la Marina Bas-du-Fort" loading="lazy"><figcaption>Tenue d'équipe</figcaption></figure>
-            <figure class="marina-media-card"><img src="/assets/projects/marina/mockups/generated/marina-drapeaux.webp" alt="Mockup des drapeaux de la Marina Bas-du-Fort" loading="lazy"><figcaption>Drapeaux d'accueil</figcaption></figure>
-            <figure class="marina-media-card"><img src="/assets/projects/marina/mockups/generated/marina-badge-acces.webp" alt="Mockup du badge d'accès de la Marina Bas-du-Fort" loading="lazy"><figcaption>Badge d'accès</figcaption></figure>
-            <figure class="marina-media-card"><img src="/assets/projects/marina/mockups/generated/marina-poloshirts.webp" alt="Mockup des polos de la Marina Bas-du-Fort" loading="lazy"><figcaption>Collection textile</figcaption></figure>
+            <figure class="marina-media-card"><img src="/assets/projects/branding/marina/mockups/marina-equipe-accueil.webp" alt="Mockup de l'identité Marina Bas-du-Fort sur la tenue et le badge de l'équipe d'accueil" loading="lazy"><figcaption>Équipe d'accueil</figcaption></figure>
+            <figure class="marina-media-card"><img src="/assets/projects/branding/marina/mockups/marina-kit-visiteur.webp" alt="Mockup d'un kit visiteur Marina Bas-du-Fort" loading="lazy"><figcaption>Kit visiteur</figcaption></figure>
+            <figure class="marina-media-card"><img src="/assets/projects/branding/marina/mockups/generated/marina-plan-orientation.webp" alt="Mockup du plan d'orientation de la Marina Bas-du-Fort" loading="lazy"><figcaption>Plan d'orientation</figcaption></figure>
+            <figure class="marina-media-card"><img src="/assets/projects/branding/marina/mockups/generated/marina-signaletique.webp" alt="Mockup de la signalétique de la Marina Bas-du-Fort" loading="lazy"><figcaption>Signalétique directionnelle</figcaption></figure>
+            <figure class="marina-media-card"><img src="/assets/projects/branding/marina/mockups/generated/marina-guide-port.webp" alt="Mockup du guide de port de la Marina Bas-du-Fort" loading="lazy"><figcaption>Guide de port</figcaption></figure>
+            <figure class="marina-media-card"><img src="/assets/projects/branding/marina/mockups/generated/marina-borne-digitale.webp" alt="Mockup de la borne digitale de la Marina Bas-du-Fort" loading="lazy"><figcaption>Borne d'information</figcaption></figure>
+            <figure class="marina-media-card"><img src="/assets/projects/branding/marina/mockups/generated/marina-polo-equipe.webp" alt="Mockup du polo de l'équipe de la Marina Bas-du-Fort" loading="lazy"><figcaption>Tenue d'équipe</figcaption></figure>
+            <figure class="marina-media-card"><img src="/assets/projects/branding/marina/mockups/generated/marina-drapeaux.webp" alt="Mockup des drapeaux de la Marina Bas-du-Fort" loading="lazy"><figcaption>Drapeaux d'accueil</figcaption></figure>
+            <figure class="marina-media-card"><img src="/assets/projects/branding/marina/mockups/generated/marina-badge-acces.webp" alt="Mockup du badge d'accès de la Marina Bas-du-Fort" loading="lazy"><figcaption>Badge d'accès</figcaption></figure>
+            <figure class="marina-media-card"><img src="/assets/projects/branding/marina/mockups/generated/marina-poloshirts.webp" alt="Mockup des polos de la Marina Bas-du-Fort" loading="lazy"><figcaption>Collection textile</figcaption></figure>
           </div>
         </section>
       </div>
@@ -957,7 +957,7 @@ function initSoClassProject() {
             <h2 id="so-class-title">So Class<br><em>Collection Jazz</em></h2>
             <p>Un shooting éditorial réalisé en Guadeloupe pour présenter la collection de lunettes Jazz. Les portraits associent style, caractère et architecture locale dans une lumière franche et solaire.</p>
           </div>
-          <img src="/assets/projects/so-class/gallery/so-class-collection-jazz-cover-clean-2022.webp" alt="Couverture de la collection Jazz de So Class" loading="eager">
+          <img src="/assets/projects/photos/so-class/gallery/so-class-collection-jazz-cover-clean-2022.webp" alt="Couverture de la collection Jazz de So Class" loading="eager">
         </header>
 
         <section class="so-class-section so-class-section--social">
@@ -969,8 +969,8 @@ function initSoClassProject() {
           <div class="so-class-instagram-grid">
             ${[1, 2, 3, 4].map((index) => `
               <article class="so-class-instagram-post">
-                <header><img class="so-class-avatar" src="/assets/projects/so-class/profile/instagram-profile-so-class-2022.webp" alt=""><div><strong>soclass971</strong><small>Guadeloupe</small></div><b>•••</b></header>
-                <img src="/assets/projects/so-class/instagram/so-class-instagram-collection-jazz-2022-${String(index).padStart(2, '0')}.webp?v=4" alt="Publication Instagram So Class, collection Jazz ${index}" loading="lazy">
+                <header><img class="so-class-avatar" src="/assets/projects/photos/so-class/profile/instagram-profile-so-class-2022.webp" alt=""><div><strong>soclass971</strong><small>Guadeloupe</small></div><b>•••</b></header>
+                <img src="/assets/projects/photos/so-class/instagram/so-class-instagram-collection-jazz-2022-${String(index).padStart(2, '0')}.webp?v=4" alt="Publication Instagram So Class, collection Jazz ${index}" loading="lazy">
                 <footer>
                   <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21.3l7.8-7.8a5.5 5.5 0 0 0 1-8.9Z"/></svg></span>
                   <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"/></svg></span>
@@ -989,19 +989,19 @@ function initSoClassProject() {
             <p>Les cadrages alternent silhouettes, portraits serrés et détails produit. Chaque image laisse les lunettes lisibles tout en construisant un univers mode ancré dans les couleurs de Pointe-à-Pitre.</p>
           </div>
           <div class="so-class-gallery">
-            <figure class="so-class-gallery__wide"><img src="/assets/projects/so-class/gallery/so-class-shooting-eglise-pap-fiona-2022.webp" alt="Fiona avec lunettes devant l'église à Pointe-à-Pitre" loading="lazy"></figure>
+            <figure class="so-class-gallery__wide"><img src="/assets/projects/photos/so-class/gallery/so-class-shooting-eglise-pap-fiona-2022.webp" alt="Fiona avec lunettes devant l'église à Pointe-à-Pitre" loading="lazy"></figure>
           </div>
           <p class="so-class-product-intro">Les vues sur fond clair complètent les portraits avec une lecture précise des formes, des couleurs et des finitions de la collection.</p>
           <div class="so-class-product-spreads">
             <article class="so-class-product-spread">
-              <figure class="so-class-product-model"><img src="/assets/projects/so-class/gallery/so-class-portrait-homme-lunettes-2022.webp" alt="Portrait homme portant une monture Jazz" loading="lazy"></figure>
+              <figure class="so-class-product-model"><img src="/assets/projects/photos/so-class/gallery/so-class-portrait-homme-lunettes-2022.webp" alt="Portrait homme portant une monture Jazz" loading="lazy"></figure>
               <div class="so-class-product-pair">
                 <article class="so-class-product-item">
-                  <figure><img src="/assets/projects/so-class/products/so-class-lunettes-noir-transparent.webp?v=4" alt="Monture Jazz noire et transparente" loading="lazy"></figure>
+                  <figure><img src="/assets/projects/photos/so-class/products/so-class-lunettes-noir-transparent.webp?v=4" alt="Monture Jazz noire et transparente" loading="lazy"></figure>
                   <div><span>01</span><h4>Lecture immédiate</h4><p>Un cadrage constant permet de comparer les modèles rapidement, sans détourner l’attention du produit.</p></div>
                 </article>
                 <article class="so-class-product-item">
-                  <figure><img src="/assets/projects/so-class/products/so-class-lunettes-ecaille.webp?v=4" alt="Monture Jazz écaille" loading="lazy"></figure>
+                  <figure><img src="/assets/projects/photos/so-class/products/so-class-lunettes-ecaille.webp?v=4" alt="Monture Jazz écaille" loading="lazy"></figure>
                   <div><span>02</span><h4>Couleurs fidèles</h4><p>La lumière révèle les nuances de l’acétate, les transparences et les détails métalliques des branches.</p></div>
                 </article>
               </div>
@@ -1009,20 +1009,20 @@ function initSoClassProject() {
             <article class="so-class-product-spread so-class-product-spread--reverse">
               <div class="so-class-product-pair">
                 <article class="so-class-product-item">
-                  <figure><img src="/assets/projects/so-class/products/so-class-lunettes-bleu-rouge.webp?v=4" alt="Monture Jazz bleue et rouge" loading="lazy"></figure>
+                  <figure><img src="/assets/projects/photos/so-class/products/so-class-lunettes-bleu-rouge.webp?v=4" alt="Monture Jazz bleue et rouge" loading="lazy"></figure>
                   <div><span>03</span><h4>Déclinaison souple</h4><p>Chaque vue fonctionne seule, en grille ou dans une mise en page éditoriale, du catalogue aux réseaux sociaux.</p></div>
                 </article>
                 <article class="so-class-product-item">
-                  <figure><img src="/assets/projects/so-class/products/so-class-lunettes-blanc-ecaille.webp?v=4" alt="Monture Jazz blanche et écaille" loading="lazy"></figure>
+                  <figure><img src="/assets/projects/photos/so-class/products/so-class-lunettes-blanc-ecaille.webp?v=4" alt="Monture Jazz blanche et écaille" loading="lazy"></figure>
                   <div><span>04</span><h4>Ensemble cohérent</h4><p>Le même fond, la même échelle et le même angle donnent à la collection une présentation homogène.</p></div>
                 </article>
               </div>
-              <figure class="so-class-product-model"><img src="/assets/projects/so-class/gallery/so-class-portrait-femme-lunettes-2022.webp" alt="Portrait femme portant une monture Jazz" loading="lazy"></figure>
+              <figure class="so-class-product-model"><img src="/assets/projects/photos/so-class/gallery/so-class-portrait-femme-lunettes-2022.webp" alt="Portrait femme portant une monture Jazz" loading="lazy"></figure>
             </article>
           </div>
           <div class="so-class-gallery so-class-gallery--closing">
-            <figure class="so-class-gallery__wide"><img src="/assets/projects/so-class/gallery/so-class-portrait-fiona-pap-2022.webp" alt="Portrait Fiona avec lunettes à Pointe-à-Pitre" loading="lazy"></figure>
-            <figure class="so-class-gallery__wide"><img src="/assets/projects/so-class/gallery/so-class-brochure-mockup-jazz-2022.webp" alt="Mockup brochure So Class collection Jazz" loading="lazy"></figure>
+            <figure class="so-class-gallery__wide"><img src="/assets/projects/photos/so-class/gallery/so-class-portrait-fiona-pap-2022.webp" alt="Portrait Fiona avec lunettes à Pointe-à-Pitre" loading="lazy"></figure>
+            <figure class="so-class-gallery__wide"><img src="/assets/projects/photos/so-class/gallery/so-class-brochure-mockup-jazz-2022.webp" alt="Mockup brochure So Class collection Jazz" loading="lazy"></figure>
           </div>
         </section>
       </div>
@@ -1086,7 +1086,7 @@ function initCistProject() {
             <p>Le CIST est un acteur engagé de la santé au travail, au service des entreprises et des salariés de Guadeloupe. Son identité affirme une vision claire, rassurante et accessible, fondée sur trois piliers : la prévention, l'accompagnement des entreprises et la relation humaine.</p>
             <span class="cist-case-meta">Logo · Couleurs · Typographies · Pictogrammes · Photos · Applications</span>
           </div>
-          <img class="cist-case-logo" src="/assets/projects/cist/logo-vertical-trimmed.webp" alt="Logo CIST, ma santé au travail" loading="eager">
+          <img class="cist-case-logo" src="/assets/projects/branding/cist/logo-vertical-trimmed.webp" alt="Logo CIST, ma santé au travail" loading="eager">
         </header>
 
         <section class="cist-case-section">
@@ -1096,9 +1096,9 @@ function initCistProject() {
             <p>Face à la digitalisation, à la multiplication des formats et à l'exigence de lisibilité, le CIST a fait évoluer son identité tout en conservant ses repères essentiels. La refonte modernise l'image, harmonise les prises de parole et valorise la mission de service auprès des salariés et des entreprises.</p>
           </div>
           <div class="cist-before-after">
-            <figure><figcaption>Avant</figcaption><img src="/assets/projects/cist/logo-before.webp" alt="Ancienne version monochrome du logo CIST" loading="lazy"></figure>
+            <figure><figcaption>Avant</figcaption><img src="/assets/projects/branding/cist/logo-before.webp" alt="Ancienne version monochrome du logo CIST" loading="lazy"></figure>
             <span class="cist-before-after-arrow" aria-hidden="true">&rarr;</span>
-            <figure><figcaption>Après</figcaption><img src="/assets/projects/cist/logo-horizontal.webp" alt="Nouvelle identité horizontale colorée du CIST" loading="lazy"></figure>
+            <figure><figcaption>Après</figcaption><img src="/assets/projects/branding/cist/logo-horizontal.webp" alt="Nouvelle identité horizontale colorée du CIST" loading="lazy"></figure>
           </div>
         </section>
 
@@ -1109,8 +1109,8 @@ function initCistProject() {
             <p>Le symbole cœur associe le bleu du bien-être et le vert de la santé. Il évoque la protection, la prévention et la vitalité. La typographie arrondie renforce la dimension humaine, tandis que « ma santé au travail » personnalise le message et crée un lien direct avec chaque salarié.</p>
           </div>
           <div class="cist-logo-grid">
-            <figure class="cist-media-card cist-media-card--logo"><img src="/assets/projects/cist/logo-vertical.webp" alt="Version verticale du logo CIST" loading="lazy"><figcaption><strong>Version principale</strong><span>La version verticale est la représentation prioritaire de l'image du CIST.</span></figcaption></figure>
-            <figure class="cist-media-card cist-media-card--logo"><img src="/assets/projects/cist/logo-horizontal.webp" alt="Version horizontale du logo CIST" loading="lazy"><figcaption><strong>Version horizontale</strong><span>Elle assure une lisibilité optimale sur les formats larges et les espaces restreints en hauteur.</span></figcaption></figure>
+            <figure class="cist-media-card cist-media-card--logo"><img src="/assets/projects/branding/cist/logo-vertical.webp" alt="Version verticale du logo CIST" loading="lazy"><figcaption><strong>Version principale</strong><span>La version verticale est la représentation prioritaire de l'image du CIST.</span></figcaption></figure>
+            <figure class="cist-media-card cist-media-card--logo"><img src="/assets/projects/branding/cist/logo-horizontal.webp" alt="Version horizontale du logo CIST" loading="lazy"><figcaption><strong>Version horizontale</strong><span>Elle assure une lisibilité optimale sur les formats larges et les espaces restreints en hauteur.</span></figcaption></figure>
           </div>
         </section>
 
@@ -1120,9 +1120,9 @@ function initCistProject() {
             <h3>Trois branches, une identité</h3>
           </div>
           <div class="cist-branch-grid">
-            <figure class="cist-branch-card"><img src="/assets/projects/cist/branch-suivi.webp" alt="Déclinaison verte du CIST" loading="lazy"><figcaption><strong>Suivi individuel</strong><span>Une version monochrome verte dédiée à l'accompagnement personnalisé des salariés et au suivi médical.</span></figcaption></figure>
-            <figure class="cist-branch-card"><img src="/assets/projects/cist/branch-risque.webp" alt="Déclinaison bleu bien-être du CIST" loading="lazy"><figcaption><strong>Risque professionnel</strong><span>Le bleu traduit la rigueur, la confiance et l'engagement dans la protection de la santé au travail.</span></figcaption></figure>
-            <figure class="cist-branch-card"><img src="/assets/projects/cist/branch-maintien.webp" alt="Déclinaison bleu institutionnel du CIST" loading="lazy"><figcaption><strong>Maintien de l'emploi</strong><span>Le bleu institutionnel exprime la stabilité, le soutien et la continuité professionnelle.</span></figcaption></figure>
+            <figure class="cist-branch-card"><img src="/assets/projects/branding/cist/branch-suivi.webp" alt="Déclinaison verte du CIST" loading="lazy"><figcaption><strong>Suivi individuel</strong><span>Une version monochrome verte dédiée à l'accompagnement personnalisé des salariés et au suivi médical.</span></figcaption></figure>
+            <figure class="cist-branch-card"><img src="/assets/projects/branding/cist/branch-risque.webp" alt="Déclinaison bleu bien-être du CIST" loading="lazy"><figcaption><strong>Risque professionnel</strong><span>Le bleu traduit la rigueur, la confiance et l'engagement dans la protection de la santé au travail.</span></figcaption></figure>
+            <figure class="cist-branch-card"><img src="/assets/projects/branding/cist/branch-maintien.webp" alt="Déclinaison bleu institutionnel du CIST" loading="lazy"><figcaption><strong>Maintien de l'emploi</strong><span>Le bleu institutionnel exprime la stabilité, le soutien et la continuité professionnelle.</span></figcaption></figure>
           </div>
         </section>
 
@@ -1132,8 +1132,8 @@ function initCistProject() {
             <h3>Protéger la lisibilité</h3>
           </div>
           <div class="cist-guideline-grid">
-            <figure><img src="/assets/projects/cist/guidelines/cist-zone-protection-horizontal.webp" alt="Zone de protection de la version horizontale du logo CIST" loading="lazy"><figcaption><strong>Zone de protection horizontale</strong><span>La hauteur de la baseline sert d'unité X et définit un espace libre identique sur les quatre côtés.</span></figcaption></figure>
-            <figure><img src="/assets/projects/cist/guidelines/cist-zone-protection-vertical.webp" alt="Zone de protection de la version verticale du logo CIST" loading="lazy"><figcaption><strong>Zone de protection verticale</strong><span>L'espace entre le pictogramme et le mot « cist » devient l'unité de respiration minimale.</span></figcaption></figure>
+            <figure><img src="/assets/projects/branding/cist/guidelines/cist-zone-protection-horizontal.webp" alt="Zone de protection de la version horizontale du logo CIST" loading="lazy"><figcaption><strong>Zone de protection horizontale</strong><span>La hauteur de la baseline sert d'unité X et définit un espace libre identique sur les quatre côtés.</span></figcaption></figure>
+            <figure><img src="/assets/projects/branding/cist/guidelines/cist-zone-protection-vertical.webp" alt="Zone de protection de la version verticale du logo CIST" loading="lazy"><figcaption><strong>Zone de protection verticale</strong><span>L'espace entre le pictogramme et le mot « cist » devient l'unité de respiration minimale.</span></figcaption></figure>
           </div>
         </section>
 
@@ -1176,8 +1176,8 @@ function initCistProject() {
             <p>Des pictogrammes en ligne, sobres et épurés structurent l'information, illustrent rapidement les thématiques de santé, de prévention et d'accompagnement et renforcent la cohérence visuelle.</p>
           </div>
           <div class="cist-symbol-layout">
-            <figure><img src="/assets/projects/cist/logo-icon.webp" alt="Icône cœur du CIST" loading="lazy"><figcaption>Le cœur devient avatar, favicon ou repère dans les petits espaces.</figcaption></figure>
-            <figure class="cist-icon-system"><img src="/assets/projects/cist/guidelines/cist-systeme-pictogrammes.webp" alt="Système complet de pictogrammes linéaires du CIST" loading="lazy"><figcaption>Une bibliothèque cohérente couvre la santé, la prévention, l'accompagnement, les services et les environnements de travail.</figcaption></figure>
+            <figure><img src="/assets/projects/branding/cist/logo-icon.webp" alt="Icône cœur du CIST" loading="lazy"><figcaption>Le cœur devient avatar, favicon ou repère dans les petits espaces.</figcaption></figure>
+            <figure class="cist-icon-system"><img src="/assets/projects/branding/cist/guidelines/cist-systeme-pictogrammes.webp" alt="Système complet de pictogrammes linéaires du CIST" loading="lazy"><figcaption>Une bibliothèque cohérente couvre la santé, la prévention, l'accompagnement, les services et les environnements de travail.</figcaption></figure>
           </div>
         </section>
 
@@ -1188,11 +1188,11 @@ function initCistProject() {
             <p>La direction photographique valorise la relation humaine, l'écoute et la confiance. Les images privilégient une lumière douce et naturelle, des cadrages clairs, des situations réelles et des profils identifiables au territoire guadeloupéen.</p>
           </div>
           <div class="cist-photo-grid">
-            <figure class="cist-photo-grid__wide"><img src="/assets/projects/cist/photo-consultation.webp" alt="Salariée en échange avec un professionnel de santé" loading="lazy"><figcaption><strong>Écoute et dialogue</strong><span>Des situations réelles, des attitudes bienveillantes et une proximité humaine.</span></figcaption></figure>
-            <figure><img src="/assets/projects/cist/photo-accompagnement.webp" alt="Professionnel de santé accompagnant un salarié" loading="lazy"><figcaption><strong>Accompagnement</strong><span>La confiance au cœur de la relation entre le salarié et le professionnel.</span></figcaption></figure>
-            <figure><img src="/assets/projects/cist/photo-ecoute.webp" alt="Consultation de santé au travail" loading="lazy"><figcaption><strong>Suivi individuel</strong><span>Une présence attentive dans un environnement clair et naturel.</span></figcaption></figure>
-            <figure><img src="/assets/projects/cist/photo-prevention-collective.webp" alt="Intervention de prévention devant un public" loading="lazy"><figcaption><strong>Prévention en entreprise</strong><span>Informer, alerter et accompagner les collectifs de travail.</span></figcaption></figure>
-            <figure><img src="/assets/projects/cist/photo-dialogue.webp" alt="Échange entre une médecin et une salariée" loading="lazy"><figcaption><strong>Proximité</strong><span>Une photographie positive, accessible et ancrée dans le quotidien.</span></figcaption></figure>
+            <figure class="cist-photo-grid__wide"><img src="/assets/projects/branding/cist/photo-consultation.webp" alt="Salariée en échange avec un professionnel de santé" loading="lazy"><figcaption><strong>Écoute et dialogue</strong><span>Des situations réelles, des attitudes bienveillantes et une proximité humaine.</span></figcaption></figure>
+            <figure><img src="/assets/projects/branding/cist/photo-accompagnement.webp" alt="Professionnel de santé accompagnant un salarié" loading="lazy"><figcaption><strong>Accompagnement</strong><span>La confiance au cœur de la relation entre le salarié et le professionnel.</span></figcaption></figure>
+            <figure><img src="/assets/projects/branding/cist/photo-ecoute.webp" alt="Consultation de santé au travail" loading="lazy"><figcaption><strong>Suivi individuel</strong><span>Une présence attentive dans un environnement clair et naturel.</span></figcaption></figure>
+            <figure><img src="/assets/projects/branding/cist/photo-prevention-collective.webp" alt="Intervention de prévention devant un public" loading="lazy"><figcaption><strong>Prévention en entreprise</strong><span>Informer, alerter et accompagner les collectifs de travail.</span></figcaption></figure>
+            <figure><img src="/assets/projects/branding/cist/photo-dialogue.webp" alt="Échange entre une médecin et une salariée" loading="lazy"><figcaption><strong>Proximité</strong><span>Une photographie positive, accessible et ancrée dans le quotidien.</span></figcaption></figure>
           </div>
         </section>
 
@@ -1203,10 +1203,10 @@ function initCistProject() {
           </div>
           <div class="cist-flyer-grid cist-flyer-grid--mockups">
             <figure class="cist-flyer-card">
-              <img src="/assets/projects/cist/flyer-rayonnement-ionisant.jpg" alt="Flyer CIST consacré au rayonnement ionisant" loading="lazy">
+              <img src="/assets/projects/branding/cist/flyer-rayonnement-ionisant.jpg" alt="Flyer CIST consacré au rayonnement ionisant" loading="lazy">
             </figure>
             <figure class="cist-flyer-card">
-              <img src="/assets/projects/cist/flyer-boulanger-patissier.jpg" alt="Flyer CIST consacré aux métiers de boulanger et pâtissier" loading="lazy">
+              <img src="/assets/projects/branding/cist/flyer-boulanger-patissier.jpg" alt="Flyer CIST consacré aux métiers de boulanger et pâtissier" loading="lazy">
             </figure>
           </div>
         </section>
@@ -1218,8 +1218,8 @@ function initCistProject() {
             <p>Chaque support reprend les mêmes principes : hiérarchie claire, palette maîtrisée, typographies lisibles et présence humaine. L'ensemble reste immédiatement reconnaissable, du document institutionnel à l'événementiel.</p>
           </div>
           <div class="cist-application-grid">
-            <figure class="cist-application-card"><img src="/assets/projects/cist/mockup-business-cards.webp" alt="Cartes de visite du CIST mises en situation" loading="lazy"><figcaption><strong>Carte de visite</strong><span>Un format horizontal, lisible et institutionnel.</span></figcaption></figure>
-            <figure class="cist-application-card"><img src="/assets/projects/cist/mockup-event-rollup.webp" alt="Oriflamme CIST dans un événement professionnel en Guadeloupe" loading="lazy"><figcaption><strong>Événementiel</strong><span>Un support visible qui exprime proximité et expertise.</span></figcaption></figure>
+            <figure class="cist-application-card"><img src="/assets/projects/branding/cist/mockup-business-cards.webp" alt="Cartes de visite du CIST mises en situation" loading="lazy"><figcaption><strong>Carte de visite</strong><span>Un format horizontal, lisible et institutionnel.</span></figcaption></figure>
+            <figure class="cist-application-card"><img src="/assets/projects/branding/cist/mockup-event-rollup.webp" alt="Oriflamme CIST dans un événement professionnel en Guadeloupe" loading="lazy"><figcaption><strong>Événementiel</strong><span>Un support visible qui exprime proximité et expertise.</span></figcaption></figure>
           </div>
           <div class="cist-social-heading">
             <span>Gestion des réseaux sociaux</span>
@@ -1227,11 +1227,11 @@ function initCistProject() {
           </div>
           <div class="cist-social-showcase">
             <article class="cist-social-post">
-              <header><img src="/assets/projects/cist/logo-icon.webp" alt=""><div><strong>cist971</strong><span>Guadeloupe</span></div><b>•••</b></header>
-              <img src="/assets/projects/cist/application-instagram.webp" alt="Publication Instagram du CIST" loading="lazy">
+              <header><img src="/assets/projects/branding/cist/logo-icon.webp" alt=""><div><strong>cist971</strong><span>Guadeloupe</span></div><b>•••</b></header>
+              <img src="/assets/projects/branding/cist/application-instagram.webp" alt="Publication Instagram du CIST" loading="lazy">
               <footer class="cist-instagram-actions"><span aria-label="J'aime"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21l7.8-7.5 1.1-1.1a5.5 5.5 0 0 0-.1-7.8Z"/></svg></span><span aria-label="Commenter"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"/></svg></span><span aria-label="Partager"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></span><b aria-label="Enregistrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4Z"/></svg></b><p><strong>cist971</strong> La prévention et l'accompagnement au plus près des salariés.</p></footer>
             </article>
-            <figure class="cist-social-mockup"><img src="/assets/projects/cist/application-facebook-square.webp" alt="Mise en situation Facebook du CIST" loading="lazy"><figcaption><strong>Publication Facebook</strong><span>La page et sa publication sont présentées en plein format pour conserver une lecture nette.</span></figcaption></figure>
+            <figure class="cist-social-mockup"><img src="/assets/projects/branding/cist/application-facebook-square.webp" alt="Mise en situation Facebook du CIST" loading="lazy"><figcaption><strong>Publication Facebook</strong><span>La page et sa publication sont présentées en plein format pour conserver une lecture nette.</span></figcaption></figure>
           </div>
         </section>
 
@@ -1245,17 +1245,17 @@ function initCistProject() {
           <div class="cist-website-grid">
             <figure class="cist-website-card cist-website-card--wide">
               <div class="cist-website-chrome"><i></i><i></i><i></i><span>cist-gpe.com</span></div>
-              <img src="/assets/projects/cist/website/cist-site-accueil-2026.jpg" alt="Page d'accueil du site internet du CIST" loading="lazy">
+              <img src="/assets/projects/branding/cist/website/cist-site-accueil-2026.jpg" alt="Page d'accueil du site internet du CIST" loading="lazy">
               <figcaption><strong>Accueil</strong><span>Le message d'accueil, les parcours salarié et employeur, puis les offres principales.</span></figcaption>
             </figure>
             <figure class="cist-website-card">
               <div class="cist-website-chrome"><i></i><i></i><i></i><span>cist-gpe.com/adherer</span></div>
-              <img src="/assets/projects/cist/website/cist-site-tarifs.jpg" alt="Page des tarifs d'adhésion du site internet du CIST" loading="lazy">
+              <img src="/assets/projects/branding/cist/website/cist-site-tarifs.jpg" alt="Page des tarifs d'adhésion du site internet du CIST" loading="lazy">
               <figcaption><strong>Tarif d'adhésion</strong><span>Les cotisations et les services inclus sont présentés dans une lecture directe.</span></figcaption>
             </figure>
             <figure class="cist-website-card">
               <div class="cist-website-chrome"><i></i><i></i><i></i><span>cist-gpe.com/faq</span></div>
-              <img src="/assets/projects/cist/website/cist-site-actualites-faq.jpg" alt="Page des actualités et de la foire aux questions du site internet du CIST" loading="lazy">
+              <img src="/assets/projects/branding/cist/website/cist-site-actualites-faq.jpg" alt="Page des actualités et de la foire aux questions du site internet du CIST" loading="lazy">
               <figcaption><strong>Actualités &amp; FAQ</strong><span>Les articles de prévention et les questions fréquentes sont réunis sur une même page.</span></figcaption>
             </figure>
           </div>
@@ -1332,7 +1332,7 @@ function initBonnesEpicesProject() {
             <p>Une refonte pensée pour faire évoluer une marque familiale guadeloupéenne sans effacer son histoire. Le nouveau territoire conserve les feuilles, la chaleur des épices et la figure de Monsieur Maurice, tout en gagnant en impact sur les emballages et les réseaux sociaux.</p>
             <span class="cist-case-meta bonnes-case-meta">Logo · Territoire graphique · Édition · Réseaux sociaux</span>
           </div>
-          <img class="cist-case-logo bonnes-case-logo" src="/assets/projects/bonnes-epices/identity/logo-badge-original.svg" alt="Nouvelle identité Les Bonnes Épices de Monsieur Maurice" loading="eager">
+          <img class="cist-case-logo bonnes-case-logo" src="/assets/projects/branding/bonnes-epices/identity/logo-badge-original.svg" alt="Nouvelle identité Les Bonnes Épices de Monsieur Maurice" loading="eager">
         </header>
 
         <section class="cist-case-section">
@@ -1342,8 +1342,8 @@ function initBonnesEpicesProject() {
             <p>La refonte simplifie la lecture, renforce la hiérarchie et installe une palette solaire. L'identité reste immédiatement familière, mais devient plus souple pour accompagner les produits, les recettes et les histoires de la maison.</p>
           </div>
           <div class="bonnes-evolution-grid">
-            <figure><img src="/assets/projects/bonnes-epices/logo-before.webp" alt="Ancien logo Les Bonnes Épices de Monsieur Maurice, 2017" loading="lazy"><figcaption><span>Avant</span> Un emblème illustré et très détaillé</figcaption></figure>
-            <figure><img src="/assets/projects/bonnes-epices/logo-after.webp" alt="Nouvelle identité Les Bonnes Épices en jaune sur fond vert" loading="lazy"><figcaption><span>Après</span> Une signature plus directe et plus lisible</figcaption></figure>
+            <figure><img src="/assets/projects/branding/bonnes-epices/logo-before.webp" alt="Ancien logo Les Bonnes Épices de Monsieur Maurice, 2017" loading="lazy"><figcaption><span>Avant</span> Un emblème illustré et très détaillé</figcaption></figure>
+            <figure><img src="/assets/projects/branding/bonnes-epices/logo-after.webp" alt="Nouvelle identité Les Bonnes Épices en jaune sur fond vert" loading="lazy"><figcaption><span>Après</span> Une signature plus directe et plus lisible</figcaption></figure>
           </div>
         </section>
 
@@ -1380,7 +1380,7 @@ function initBonnesEpicesProject() {
               </ul>
             </div>
             <div class="bonnes-process-dossier__media">
-              <img src="/assets/projects/bonnes-epices/identity/logo-detail-dossier.webp" alt="Planche du dossier de marque détaillant le dessin d'une feuille du logo" loading="lazy" decoding="async">
+              <img src="/assets/projects/branding/bonnes-epices/identity/logo-detail-dossier.webp" alt="Planche du dossier de marque détaillant le dessin d'une feuille du logo" loading="lazy" decoding="async">
               <figcaption>Extrait du dossier de refonte, détail du tracé des feuilles</figcaption>
             </div>
           </figure>
@@ -1395,31 +1395,31 @@ function initBonnesEpicesProject() {
           <div class="bonnes-bsys">
             <div class="bonnes-bsys__variants">
               <div class="bonnes-bsys__card bonnes-bsys__card--svg" style="--bsys-bg:#FFFFFF;--bsys-border:rgba(30,44,31,.14)">
-                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/bonnes-epices/identity/logo-badge-vertfonce.svg" alt="Logo Les Bonnes Épices, version vert foncé" loading="lazy" decoding="async"></div>
+                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/branding/bonnes-epices/identity/logo-badge-vertfonce.svg" alt="Logo Les Bonnes Épices, version vert foncé" loading="lazy" decoding="async"></div>
               </div>
               <div class="bonnes-bsys__card bonnes-bsys__card--svg" style="--bsys-bg:#FFFFFF;--bsys-border:rgba(30,44,31,.14)">
-                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/bonnes-epices/identity/logo-badge-vert.svg" alt="Logo Les Bonnes Épices, version verte" loading="lazy" decoding="async"></div>
+                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/branding/bonnes-epices/identity/logo-badge-vert.svg" alt="Logo Les Bonnes Épices, version verte" loading="lazy" decoding="async"></div>
               </div>
               <div class="bonnes-bsys__card bonnes-bsys__card--svg" style="--bsys-bg:#FFFFFF;--bsys-border:rgba(30,44,31,.14)">
-                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/bonnes-epices/identity/logo-badge-bicolor-vert.svg" alt="Logo Les Bonnes Épices, version bicolore verte" loading="lazy" decoding="async"></div>
+                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/branding/bonnes-epices/identity/logo-badge-bicolor-vert.svg" alt="Logo Les Bonnes Épices, version bicolore verte" loading="lazy" decoding="async"></div>
               </div>
               <div class="bonnes-bsys__card bonnes-bsys__card--svg" style="--bsys-bg:#FFFFFF;--bsys-border:rgba(30,44,31,.14)">
-                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/bonnes-epices/identity/logo-badge-bicolor-jaune.svg" alt="Logo Les Bonnes Épices, version bicolore jaune" loading="lazy" decoding="async"></div>
+                <div class="bonnes-bsys__card-logo"><img src="/assets/projects/branding/bonnes-epices/identity/logo-badge-bicolor-jaune.svg" alt="Logo Les Bonnes Épices, version bicolore jaune" loading="lazy" decoding="async"></div>
               </div>
             </div>
             <div class="bonnes-bsys__horiz-row">
-              <figure class="bonnes-bsys__horiz" style="--bsys-bg:#FAEA1D"><img src="/assets/projects/bonnes-epices/identity/logo-horizontal-yellow.webp" alt="Logo horizontal Les Bonnes Épices sur fond jaune" loading="lazy" decoding="async"></figure>
-              <figure class="bonnes-bsys__horiz" style="--bsys-bg:#FFFFFF;--bsys-border:rgba(30,44,31,.12)"><img src="/assets/projects/bonnes-epices/identity/logo-horizontal-white.webp" alt="Logo horizontal Les Bonnes Épices sur fond blanc" loading="lazy" decoding="async"></figure>
+              <figure class="bonnes-bsys__horiz" style="--bsys-bg:#FAEA1D"><img src="/assets/projects/branding/bonnes-epices/identity/logo-horizontal-yellow.webp" alt="Logo horizontal Les Bonnes Épices sur fond jaune" loading="lazy" decoding="async"></figure>
+              <figure class="bonnes-bsys__horiz" style="--bsys-bg:#FFFFFF;--bsys-border:rgba(30,44,31,.12)"><img src="/assets/projects/branding/bonnes-epices/identity/logo-horizontal-white.webp" alt="Logo horizontal Les Bonnes Épices sur fond blanc" loading="lazy" decoding="async"></figure>
             </div>
             <p class="bonnes-bsys__horiz-label">VERSION HORIZONTALE ALTERNATIVE</p>
             <p class="bonnes-bsys__note">Utile pour les formats couchés — couverture Facebook, papier à en-tête, bannières.</p>
             <div class="bonnes-bsys__patterns">
-              <div class="bonnes-bsys__pattern bonnes-bsys__pattern--tile" style="background-image:url('/assets/projects/bonnes-epices/applications/pattern-a-vert.png')" role="img" aria-label="Motif répétitif feuilles sur fond vert foncé"></div>
-              <div class="bonnes-bsys__pattern bonnes-bsys__pattern--tile" style="background-image:url('/assets/projects/bonnes-epices/applications/pattern-b-jaune.webp')" role="img" aria-label="Motif répétitif feuilles sur fond jaune"></div>
+              <div class="bonnes-bsys__pattern bonnes-bsys__pattern--tile" style="background-image:url('/assets/projects/branding/bonnes-epices/applications/pattern-a-vert.png')" role="img" aria-label="Motif répétitif feuilles sur fond vert foncé"></div>
+              <div class="bonnes-bsys__pattern bonnes-bsys__pattern--tile" style="background-image:url('/assets/projects/branding/bonnes-epices/applications/pattern-b-jaune.webp')" role="img" aria-label="Motif répétitif feuilles sur fond jaune"></div>
             </div>
             <p class="bonnes-bsys__note">Un motif signature, déclinable en packaging, présentoirs et habillage de point de vente.</p>
             <figure class="bonnes-bsys__banner">
-              <img src="/assets/projects/bonnes-epices/applications/pattern-promotion.webp" alt="Bannière promotionnelle Les Bonnes Épices, Promotion de Monsieur Maurice®" loading="lazy" decoding="async">
+              <img src="/assets/projects/branding/bonnes-epices/applications/pattern-promotion.webp" alt="Bannière promotionnelle Les Bonnes Épices, Promotion de Monsieur Maurice®" loading="lazy" decoding="async">
             </figure>
           </div>
         </section>
@@ -1467,10 +1467,10 @@ function initBonnesEpicesProject() {
             <p>Quatre vues prises en magasin, présentées sans décor ajouté ni simulation.</p>
           </div>
           <div class="bonnes-terrain-grid">
-            <figure><img src="/assets/projects/bonnes-epices/terrain/rayon-coco-carre.webp" alt="Pots de coco râpée Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
-            <figure class="bonnes-terrain-grid__tall"><img src="/assets/projects/bonnes-epices/terrain/rayon-massale-bois-inde.webp" alt="Pots de massale et bois d'Inde Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
-            <figure><img src="/assets/projects/bonnes-epices/terrain/rayon-piments-poivre.webp" alt="Piment oiseaux et poivre vert Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
-            <figure><img src="/assets/projects/bonnes-epices/terrain/rayon-cannelle.webp" alt="Pots de cannelle entière Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
+            <figure><img src="/assets/projects/branding/bonnes-epices/terrain/rayon-coco-carre.webp" alt="Pots de coco râpée Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
+            <figure class="bonnes-terrain-grid__tall"><img src="/assets/projects/branding/bonnes-epices/terrain/rayon-massale-bois-inde.webp" alt="Pots de massale et bois d'Inde Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
+            <figure><img src="/assets/projects/branding/bonnes-epices/terrain/rayon-piments-poivre.webp" alt="Piment oiseaux et poivre vert Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
+            <figure><img src="/assets/projects/branding/bonnes-epices/terrain/rayon-cannelle.webp" alt="Pots de cannelle entière Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
           </div>
         </section>
 
@@ -1483,26 +1483,26 @@ function initBonnesEpicesProject() {
           <div class="bonnes-editorial-block">
             <div class="bonnes-editorial-label"><span>Information</span><strong>Axe 1</strong></div>
             <div class="bonnes-colombo-grid">
-              <figure><img src="/assets/projects/bonnes-epices/editorial/colombo-square.webp" alt="Publication carrée consacrée au Colombo" loading="lazy" decoding="async"></figure>
-              <figure><img src="/assets/projects/bonnes-epices/editorial/colombo-wide.webp" alt="Publication large consacrée au Colombo" loading="lazy" decoding="async"></figure>
+              <figure><img src="/assets/projects/branding/bonnes-epices/editorial/colombo-square.webp" alt="Publication carrée consacrée au Colombo" loading="lazy" decoding="async"></figure>
+              <figure><img src="/assets/projects/branding/bonnes-epices/editorial/colombo-wide.webp" alt="Publication large consacrée au Colombo" loading="lazy" decoding="async"></figure>
             </div>
           </div>
           <div class="bonnes-editorial-block">
             <div class="bonnes-editorial-label"><span>Histoire</span><strong>Axe 2</strong></div>
             <div class="bonnes-history-grid">
-              <figure><img src="/assets/projects/bonnes-epices/editorial/history-nutmeg.webp" alt="Publication sur l'histoire de la noix de muscade" loading="lazy" decoding="async"></figure>
-              <figure><img src="/assets/projects/bonnes-epices/editorial/history-clove-drying.webp" alt="Publication sur la préparation des clous de girofle" loading="lazy" decoding="async"></figure>
-              <figure><img src="/assets/projects/bonnes-epices/editorial/history-clove-closeup.webp" alt="Publication carrée sur les clous de girofle" loading="lazy" decoding="async"></figure>
-              <figure><img src="/assets/projects/bonnes-epices/editorial/history-clove-wide.webp" alt="Publication large sur les clous de girofle" loading="lazy" decoding="async"></figure>
+              <figure><img src="/assets/projects/branding/bonnes-epices/editorial/history-nutmeg.webp" alt="Publication sur l'histoire de la noix de muscade" loading="lazy" decoding="async"></figure>
+              <figure><img src="/assets/projects/branding/bonnes-epices/editorial/history-clove-drying.webp" alt="Publication sur la préparation des clous de girofle" loading="lazy" decoding="async"></figure>
+              <figure><img src="/assets/projects/branding/bonnes-epices/editorial/history-clove-closeup.webp" alt="Publication carrée sur les clous de girofle" loading="lazy" decoding="async"></figure>
+              <figure><img src="/assets/projects/branding/bonnes-epices/editorial/history-clove-wide.webp" alt="Publication large sur les clous de girofle" loading="lazy" decoding="async"></figure>
             </div>
           </div>
           <div class="bonnes-editorial-block">
             <div class="bonnes-editorial-label"><span>Recette</span><strong>Présentation 1</strong></div>
             <div class="bonnes-carousel-track" role="region" aria-label="Recette de soupe de crevettes en quatre visuels" tabindex="0">
-              <figure><img src="/assets/projects/bonnes-epices/editorial/recipe-soup-cover.webp" alt="Soupe de crevettes, couverture de la recette" loading="lazy" decoding="async"></figure>
-              <figure><img src="/assets/projects/bonnes-epices/editorial/recipe-soup-ingredients.webp" alt="Ingrédients de la soupe de crevettes" loading="lazy" decoding="async"></figure>
-              <figure><img src="/assets/projects/bonnes-epices/editorial/recipe-soup-step-one.webp" alt="Première partie de la préparation de la soupe de crevettes" loading="lazy" decoding="async"></figure>
-              <figure><img src="/assets/projects/bonnes-epices/editorial/recipe-soup-step-two.webp" alt="Fin de la préparation de la soupe de crevettes" loading="lazy" decoding="async"></figure>
+              <figure><img src="/assets/projects/branding/bonnes-epices/editorial/recipe-soup-cover.webp" alt="Soupe de crevettes, couverture de la recette" loading="lazy" decoding="async"></figure>
+              <figure><img src="/assets/projects/branding/bonnes-epices/editorial/recipe-soup-ingredients.webp" alt="Ingrédients de la soupe de crevettes" loading="lazy" decoding="async"></figure>
+              <figure><img src="/assets/projects/branding/bonnes-epices/editorial/recipe-soup-step-one.webp" alt="Première partie de la préparation de la soupe de crevettes" loading="lazy" decoding="async"></figure>
+              <figure><img src="/assets/projects/branding/bonnes-epices/editorial/recipe-soup-step-two.webp" alt="Fin de la préparation de la soupe de crevettes" loading="lazy" decoding="async"></figure>
             </div>
           </div>
         </section>
@@ -1514,10 +1514,10 @@ function initBonnesEpicesProject() {
             <p>Le même signe est décliné sur les supports physiques, les formats promotionnels et la page Facebook.</p>
           </div>
           <div class="bonnes-situation-grid">
-            <figure class="bonnes-situation-grid__half"><figcaption>Tote bag</figcaption><img src="/assets/projects/bonnes-epices/applications/tote-bag-custom.webp" alt="Logo Les Bonnes Épices appliqué sur un tote bag" loading="lazy" decoding="async"></figure>
-            <figure class="bonnes-situation-grid__half"><figcaption>T-shirt</figcaption><img src="/assets/projects/bonnes-epices/applications/t-shirt-custom.webp" alt="Logo Les Bonnes Épices appliqué sur un t-shirt" loading="lazy" decoding="async"></figure>
-            <figure class="bonnes-situation-grid__large bonnes-situation-grid__facebook"><figcaption>Facebook</figcaption><img src="/assets/projects/bonnes-epices/applications/facebook.webp?v=2" alt="Identité Les Bonnes Épices déployée sur Facebook" loading="lazy" decoding="async"></figure>
-            <figure class="bonnes-situation-grid__large"><figcaption>Carte de visite</figcaption><img src="/assets/projects/bonnes-epices/presentation/bonnes-epices-cartes-visite-mockup.webp" alt="Recto et verso de la carte de visite Les Bonnes Épices" loading="lazy" decoding="async"></figure>
+            <figure class="bonnes-situation-grid__half"><figcaption>Tote bag</figcaption><img src="/assets/projects/branding/bonnes-epices/applications/tote-bag-custom.webp" alt="Logo Les Bonnes Épices appliqué sur un tote bag" loading="lazy" decoding="async"></figure>
+            <figure class="bonnes-situation-grid__half"><figcaption>T-shirt</figcaption><img src="/assets/projects/branding/bonnes-epices/applications/t-shirt-custom.webp" alt="Logo Les Bonnes Épices appliqué sur un t-shirt" loading="lazy" decoding="async"></figure>
+            <figure class="bonnes-situation-grid__large bonnes-situation-grid__facebook"><figcaption>Facebook</figcaption><img src="/assets/projects/branding/bonnes-epices/applications/facebook.webp?v=2" alt="Identité Les Bonnes Épices déployée sur Facebook" loading="lazy" decoding="async"></figure>
+            <figure class="bonnes-situation-grid__large"><figcaption>Carte de visite</figcaption><img src="/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-cartes-visite-mockup.webp" alt="Recto et verso de la carte de visite Les Bonnes Épices" loading="lazy" decoding="async"></figure>
           </div>
         </section>
       </div>
@@ -1579,7 +1579,7 @@ function initSmgeagProject() {
             <p>La proposition de communication vise à renouer avec la confiance des usagers, retrouver un dialogue apaisé et rendre chaque intervention immédiatement identifiable. Une signature forte, moderne et engageante donne de la visibilité au syndicat et affirme son action sur tout le territoire.</p>
             <span class="cist-case-meta smgeag-case-meta">Stratégie · Symbole · Logo · Couleurs · Typographies · Déploiement</span>
           </div>
-          <img class="cist-case-logo smgeag-case-logo" src="/assets/projects/smgeag/logo-baseline-transparent.webp" alt="Logo SMGEAG, Eaux de Guadeloupe" loading="eager">
+          <img class="cist-case-logo smgeag-case-logo" src="/assets/projects/branding/smgeag/logo-baseline-transparent.webp" alt="Logo SMGEAG, Eaux de Guadeloupe" loading="eager">
         </header>
 
         <section class="cist-case-section">
@@ -1602,13 +1602,13 @@ function initSmgeagProject() {
               <p>L'icône réunit une goutte, symbole de l'eau, et la lettre « G » pour la Guadeloupe. Leur fusion fait apparaître un mouvement proche du yin et du yang, symbole d'équilibre. Le bleu central représente l'assainissement de l'eau par le SMGEAG.</p>
             </div>
             <div class="smgeag-construction-logo">
-              <img src="/assets/projects/smgeag/scr-20260804-imjstra.png" alt="Logo SMGEAG sans fond" loading="lazy">
+              <img src="/assets/projects/branding/smgeag/scr-20260804-imjstra.png" alt="Logo SMGEAG sans fond" loading="lazy">
             </div>
           </div>
           <div class="smgeag-icon-grid">
-            <figure><img src="/assets/projects/smgeag/icon-primary-trim.webp" alt="Icône principale du SMGEAG" loading="lazy"><figcaption>Bleu &amp; bleu ciel</figcaption></figure>
-            <figure><img src="/assets/projects/smgeag/icon-hussard-trim.webp" alt="Variante bleu hussard de l'icône" loading="lazy"><figcaption>Bleu de hussard</figcaption></figure>
-            <figure><img src="/assets/projects/smgeag/icon-silver-trim.webp" alt="Variante gris argent de l'icône" loading="lazy"><figcaption>Gris argent &amp; bleu ciel</figcaption></figure>
+            <figure><img src="/assets/projects/branding/smgeag/icon-primary-trim.webp" alt="Icône principale du SMGEAG" loading="lazy"><figcaption>Bleu &amp; bleu ciel</figcaption></figure>
+            <figure><img src="/assets/projects/branding/smgeag/icon-hussard-trim.webp" alt="Variante bleu hussard de l'icône" loading="lazy"><figcaption>Bleu de hussard</figcaption></figure>
+            <figure><img src="/assets/projects/branding/smgeag/icon-silver-trim.webp" alt="Variante gris argent de l'icône" loading="lazy"><figcaption>Gris argent &amp; bleu ciel</figcaption></figure>
           </div>
         </section>
 
@@ -1619,10 +1619,10 @@ function initSmgeagProject() {
             <p>L'acronyme rend le signe simple et immédiatement compréhensible. Les espacements généreux installent une sensation de liberté et de légèreté ; la goutte conserve une place centrale pour rappeler l'abondance et l'importance de l'eau en Guadeloupe.</p>
           </div>
           <div class="smgeag-logo-grid">
-            <figure><img src="/assets/projects/smgeag/logo-horizontal-card.webp" alt="Version horizontale du logo SMGEAG" loading="lazy"><figcaption>Version horizontale</figcaption></figure>
-            <figure><img src="/assets/projects/smgeag/logo-bicolor-light-card.webp" alt="Version bicolore sur fond clair" loading="lazy"><figcaption>Bicolore sur fond clair</figcaption></figure>
-            <figure><img src="/assets/projects/smgeag/logo-bicolor-blue-card.webp" alt="Version bicolore sur fond bleu" loading="lazy"><figcaption>Bicolore sur fond bleu</figcaption></figure>
-            <figure><img src="/assets/projects/smgeag/logo-mono-dark-card.webp" alt="Version monochrome sur fond sombre" loading="lazy"><figcaption>Monochrome</figcaption></figure>
+            <figure><img src="/assets/projects/branding/smgeag/logo-horizontal-card.webp" alt="Version horizontale du logo SMGEAG" loading="lazy"><figcaption>Version horizontale</figcaption></figure>
+            <figure><img src="/assets/projects/branding/smgeag/logo-bicolor-light-card.webp" alt="Version bicolore sur fond clair" loading="lazy"><figcaption>Bicolore sur fond clair</figcaption></figure>
+            <figure><img src="/assets/projects/branding/smgeag/logo-bicolor-blue-card.webp" alt="Version bicolore sur fond bleu" loading="lazy"><figcaption>Bicolore sur fond bleu</figcaption></figure>
+            <figure><img src="/assets/projects/branding/smgeag/logo-mono-dark-card.webp" alt="Version monochrome sur fond sombre" loading="lazy"><figcaption>Monochrome</figcaption></figure>
           </div>
         </section>
 
@@ -1658,10 +1658,10 @@ function initSmgeagProject() {
             <p>Le système place l'eau, la proximité et la confiance au premier plan. Il s'applique ici à des outils réellement utilisés sur le terrain : véhicule d'intervention, équipement technique, contrôle en laboratoire et inspection du réseau.</p>
           </div>
           <div class="smgeag-showcase-grid">
-            <figure><img src="/assets/projects/smgeag/mockups/smgeag-vehicule-intervention.webp" alt="Mockup d'un véhicule d'intervention SMGEAG" loading="lazy"><figcaption>Véhicule d'intervention</figcaption></figure>
-            <figure><img src="/assets/projects/smgeag/mockups/smgeag-equipement-terrain.webp" alt="Mockup des équipements terrain du SMGEAG" loading="lazy"><figcaption>Équipement terrain</figcaption></figure>
-            <figure><img src="/assets/projects/smgeag/mockups/smgeag-controle-laboratoire.webp" alt="Mockup d'un contrôle de la qualité de l'eau en laboratoire SMGEAG" loading="lazy"><figcaption>Contrôle en laboratoire</figcaption></figure>
-            <figure><img src="/assets/projects/smgeag/mockups/smgeag-controle-reseau.webp" alt="Mockup d'une inspection du réseau d'eau SMGEAG" loading="lazy"><figcaption>Inspection du réseau</figcaption></figure>
+            <figure><img src="/assets/projects/branding/smgeag/mockups/smgeag-vehicule-intervention.webp" alt="Mockup d'un véhicule d'intervention SMGEAG" loading="lazy"><figcaption>Véhicule d'intervention</figcaption></figure>
+            <figure><img src="/assets/projects/branding/smgeag/mockups/smgeag-equipement-terrain.webp" alt="Mockup des équipements terrain du SMGEAG" loading="lazy"><figcaption>Équipement terrain</figcaption></figure>
+            <figure><img src="/assets/projects/branding/smgeag/mockups/smgeag-controle-laboratoire.webp" alt="Mockup d'un contrôle de la qualité de l'eau en laboratoire SMGEAG" loading="lazy"><figcaption>Contrôle en laboratoire</figcaption></figure>
+            <figure><img src="/assets/projects/branding/smgeag/mockups/smgeag-controle-reseau.webp" alt="Mockup d'une inspection du réseau d'eau SMGEAG" loading="lazy"><figcaption>Inspection du réseau</figcaption></figure>
           </div>
         </section>
       </div>
@@ -1730,7 +1730,7 @@ function initPressingProject() {
             <span class="cist-case-meta pressing-case-meta">Logo · Système de marque · Couleurs · Typographie · Motifs · Applications</span>
           </div>
           <figure class="pressing-hero-logo pressing-hero-logo--svg">
-            <img src="/assets/projects/le-pressing/identity/logo-white.svg" alt="Logo Le Pressing — identité graphique" loading="eager" decoding="async">
+            <img src="/assets/projects/branding/le-pressing/identity/logo-white.svg" alt="Logo Le Pressing — identité graphique" loading="eager" decoding="async">
           </figure>
         </header>
 
@@ -1763,10 +1763,10 @@ function initPressingProject() {
             <p>Nous avons opté pour un logo typographique assurant une facilité de lecture et d'utilisation. Le point du «&nbsp;i&nbsp;» de «&nbsp;pressing&nbsp;» est remplacé par une étoile — un symbole discret qui affirme la position de l'enseigne&nbsp;: le numéro&nbsp;1 du pressing en Guadeloupe.</p>
           </div>
           <figure class="pressing-logo-feature">
-            <img src="/assets/projects/le-pressing/charte/page-05.webp" alt="Logo Le pressing — Notre solution" loading="lazy" decoding="async">
+            <img src="/assets/projects/branding/le-pressing/charte/page-05.webp" alt="Logo Le pressing — Notre solution" loading="lazy" decoding="async">
           </figure>
           <figure class="pressing-concept-feature">
-            <img src="/assets/projects/le-pressing/charte/page-06.webp" alt="Symbole caché : le i devient 1, numéro 1 du pressing en Guadeloupe" loading="lazy" decoding="async">
+            <img src="/assets/projects/branding/le-pressing/charte/page-06.webp" alt="Symbole caché : le i devient 1, numéro 1 du pressing en Guadeloupe" loading="lazy" decoding="async">
           </figure>
         </section>
 
@@ -1777,8 +1777,8 @@ function initPressingProject() {
             <p>Le logo se décline en version mono sur fond sombre ou clair, et en quatre combinaisons couleur — chaque variante conserve la même rigueur typographique et le même impact visuel.</p>
           </div>
           <div class="pressing-systeme-grid">
-            <figure><img src="/assets/projects/le-pressing/charte/page-08.webp" alt="Adaptabilité mono : Le pressing sur fond sombre et fond clair" loading="lazy" decoding="async"></figure>
-            <figure><img src="/assets/projects/le-pressing/charte/page-09.webp" alt="Adaptabilité couleur : 4 combinaisons navy et or" loading="lazy" decoding="async"></figure>
+            <figure><img src="/assets/projects/branding/le-pressing/charte/page-08.webp" alt="Adaptabilité mono : Le pressing sur fond sombre et fond clair" loading="lazy" decoding="async"></figure>
+            <figure><img src="/assets/projects/branding/le-pressing/charte/page-09.webp" alt="Adaptabilité couleur : 4 combinaisons navy et or" loading="lazy" decoding="async"></figure>
           </div>
         </section>
 
@@ -1789,7 +1789,7 @@ function initPressingProject() {
             <p>Le bleu marine #133246 ancre la marque dans la sobriété et le professionnalisme. L'or #F5C832 apporte chaleur et prestige. Poppins regular et bold assurent une lisibilité parfaite sur tous les formats, du numérique à l'enseigne.</p>
           </div>
           <figure class="pressing-full-img">
-            <img src="/assets/projects/le-pressing/charte/page-10.webp" alt="Couleurs et typographie Le Pressing : navy, or, Poppins" loading="lazy" decoding="async">
+            <img src="/assets/projects/branding/le-pressing/charte/page-10.webp" alt="Couleurs et typographie Le Pressing : navy, or, Poppins" loading="lazy" decoding="async">
           </figure>
         </section>
 
@@ -1800,7 +1800,7 @@ function initPressingProject() {
             <p>Un motif géométrique répétitif vient texturer l'espace de marque — déclinable sur fond blanc, navy ou or, il enrichit chaque support sans jamais concurrencer le logo.</p>
           </div>
           <figure class="pressing-full-img">
-            <img src="/assets/projects/le-pressing/charte/page-11.webp" alt="Motifs Le Pressing : géométrique répétitif sur trois fonds" loading="lazy" decoding="async">
+            <img src="/assets/projects/branding/le-pressing/charte/page-11.webp" alt="Motifs Le Pressing : géométrique répétitif sur trois fonds" loading="lazy" decoding="async">
           </figure>
         </section>
 
@@ -1813,22 +1813,22 @@ function initPressingProject() {
           <p class="pressing-store-label">Jarry</p>
           <div class="pressing-avant-apres-grid">
             <figure class="pressing-aa-item">
-              <img src="/assets/projects/le-pressing/avant-apres/avant-agnes.webp" alt="Avant — Façade SA Pressing Jarry" loading="lazy" decoding="async">
+              <img src="/assets/projects/branding/le-pressing/avant-apres/avant-agnes.webp" alt="Avant — Façade SA Pressing Jarry" loading="lazy" decoding="async">
               <figcaption><span class="pressing-label pressing-label--avant">Avant</span>SA Pressing — Jarry</figcaption>
             </figure>
             <figure class="pressing-aa-item">
-              <img src="/assets/projects/le-pressing/avant-apres/apres-jarry.webp" alt="Après — Façade Le Pressing Jarry" loading="lazy" decoding="async">
+              <img src="/assets/projects/branding/le-pressing/avant-apres/apres-jarry.webp" alt="Après — Façade Le Pressing Jarry" loading="lazy" decoding="async">
               <figcaption><span class="pressing-label pressing-label--apres">Après</span>Le Pressing — Jarry</figcaption>
             </figure>
           </div>
           <p class="pressing-store-label">Gosier</p>
           <div class="pressing-avant-apres-grid">
             <figure class="pressing-aa-item">
-              <img src="/assets/projects/le-pressing/avant-apres/avant-gosier.webp" alt="Avant — Façade SA Pressing Gosier" loading="lazy" decoding="async">
+              <img src="/assets/projects/branding/le-pressing/avant-apres/avant-gosier.webp" alt="Avant — Façade SA Pressing Gosier" loading="lazy" decoding="async">
               <figcaption><span class="pressing-label pressing-label--avant">Avant</span>SA Pressing — Gosier</figcaption>
             </figure>
             <figure class="pressing-aa-item">
-              <img src="/assets/projects/le-pressing/avant-apres/apres-gosier.webp" alt="Après — Façade Le Pressing Gosier" loading="lazy" decoding="async">
+              <img src="/assets/projects/branding/le-pressing/avant-apres/apres-gosier.webp" alt="Après — Façade Le Pressing Gosier" loading="lazy" decoding="async">
               <figcaption><span class="pressing-label pressing-label--apres">Après</span>Le Pressing — Gosier</figcaption>
             </figure>
           </div>
@@ -1842,10 +1842,10 @@ function initPressingProject() {
           </div>
           <div class="pressing-avant-apres-grid">
             <figure class="pressing-aa-item pressing-aa-item--portrait">
-              <img src="/assets/projects/le-pressing/terrain/van-face.webp" alt="Van Le Pressing — face avant avec la nouvelle identité graphique" loading="lazy" decoding="async">
+              <img src="/assets/projects/branding/le-pressing/terrain/van-face.webp" alt="Van Le Pressing — face avant avec la nouvelle identité graphique" loading="lazy" decoding="async">
             </figure>
             <figure class="pressing-aa-item">
-              <img src="/assets/projects/le-pressing/terrain/van-lateral.webp" alt="Van Le Pressing — vue latérale en circulation" loading="lazy" decoding="async">
+              <img src="/assets/projects/branding/le-pressing/terrain/van-lateral.webp" alt="Van Le Pressing — vue latérale en circulation" loading="lazy" decoding="async">
             </figure>
           </div>
         </section>
@@ -1857,15 +1857,15 @@ function initPressingProject() {
             <p>La marque prend vie sur les supports du quotidien — tenue, papeterie, façade — avec une même rigueur graphique.</p>
           </div>
           <figure class="pressing-fullbleed pressing-fullbleed--contain">
-            <img src="/assets/projects/le-pressing/mockups/second-store.webp" alt="Façade Le Pressing avec la nouvelle identité graphique" loading="lazy" decoding="async">
+            <img src="/assets/projects/branding/le-pressing/mockups/second-store.webp" alt="Façade Le Pressing avec la nouvelle identité graphique" loading="lazy" decoding="async">
           </figure>
           <div class="pressing-apps-grid pressing-apps-grid--mockups">
-            <figure><img src="/assets/projects/le-pressing/mockups/apron.webp" alt="Tablier Le Pressing — mockup textile" loading="lazy" decoding="async"></figure>
-            <figure><img src="/assets/projects/le-pressing/mockups/business-card.webp" alt="Cartes de visite Le Pressing" loading="lazy" decoding="async"></figure>
-            <figure><img src="/assets/projects/le-pressing/mockups/garment-cover.webp" alt="Housse à vêtements Le Pressing" loading="lazy" decoding="async"></figure>
-            <figure><img src="/assets/projects/le-pressing/mockups/garment-tag.webp" alt="Étiquette Le Pressing" loading="lazy" decoding="async"></figure>
-            <figure><img src="/assets/projects/le-pressing/mockups/letterhead.webp" alt="Papeterie Le Pressing — lettre à en-tête et carte de visite" loading="lazy" decoding="async"></figure>
-            <figure><img src="/assets/projects/le-pressing/mockups/brand-card-front.webp" alt="Carte de marque Le Pressing sur fond navy" loading="lazy" decoding="async"></figure>
+            <figure><img src="/assets/projects/branding/le-pressing/mockups/apron.webp" alt="Tablier Le Pressing — mockup textile" loading="lazy" decoding="async"></figure>
+            <figure><img src="/assets/projects/branding/le-pressing/mockups/business-card.webp" alt="Cartes de visite Le Pressing" loading="lazy" decoding="async"></figure>
+            <figure><img src="/assets/projects/branding/le-pressing/mockups/garment-cover.webp" alt="Housse à vêtements Le Pressing" loading="lazy" decoding="async"></figure>
+            <figure><img src="/assets/projects/branding/le-pressing/mockups/garment-tag.webp" alt="Étiquette Le Pressing" loading="lazy" decoding="async"></figure>
+            <figure><img src="/assets/projects/branding/le-pressing/mockups/letterhead.webp" alt="Papeterie Le Pressing — lettre à en-tête et carte de visite" loading="lazy" decoding="async"></figure>
+            <figure><img src="/assets/projects/branding/le-pressing/mockups/brand-card-front.webp" alt="Carte de marque Le Pressing sur fond navy" loading="lazy" decoding="async"></figure>
           </div>
         </section>
 
@@ -2255,7 +2255,7 @@ function initPageTransition() {
   const curtain = document.createElement('div');
   curtain.id = 'ls-curtain';
   curtain.setAttribute('aria-hidden', 'true');
-  curtain.innerHTML = '<img src="/assets/icons/ui/icon-ui-cocotier.svg" alt="" width="56" height="56">';
+  curtain.innerHTML = '<img src="/assets/global/icons/ui/icon-ui-cocotier.svg" alt="" width="56" height="56">';
   document.body.appendChild(curtain);
 
   const isInternal = (a) => {
@@ -2418,7 +2418,7 @@ const CATALOGUE_SERVICES_DEFAULT = {
 const CATALOGUE_CASE_STUDIES = {
   foirfouille: {
     client: 'La Foir’Fouille',
-    logo: '/assets/logos/Logo-Clients-black-la-foir-fouille.png',
+    logo: '/assets/global/branding/logos/Logo-Clients-black-la-foir-fouille.png',
     sector: 'Maison · Décoration · Bons plans',
     theme: { accent: '#D71920', accentDark: '#A81419', accentSoft: '#FFF1EF' },
     sectionOrder: ['showcase', 'catalogues', 'campaigns', 'services', 'footer'],
@@ -2441,44 +2441,44 @@ const CATALOGUE_CASE_STUDIES = {
       title: 'Des supports impactants pour chaque moment de l’année',
       note: 'Une sélection de trois catalogues parmi les nombreuses éditions conçues pour accompagner les temps forts commerciaux de l’enseigne.',
       subnote: '',
-      image: '/assets/projects/catalogues/la-foir-fouille/showcase-trois-catalogues.webp',
+      image: '/assets/projects/catalogue/la-foir-fouille/showcase-trois-catalogues.webp',
       alt: 'Trois couvertures de catalogues La Foir’Fouille : Maison &amp; Rangement, Jardin &amp; Extérieur, Fêtes &amp; fin d’année'
     },
     catalogues: [
       {
         layout: 'cover-left', label: 'Catalogue', title: 'Maison &amp; Rangement',
         text: 'Des sélections inspirantes pour organiser, décorer et vivre la maison. Un parcours clair et visuel pour faciliter le choix.',
-        cta: 'Voir un exemple', ctaHref: '/assets/projects/catalogues/la-foir-fouille/maison-cover.webp',
-        cover: '/assets/projects/catalogues/la-foir-fouille/maison-cover.webp', coverAlt: 'Couverture du catalogue La Foir’Fouille Maison &amp; Rangement',
+        cta: 'Voir un exemple', ctaHref: '/assets/projects/catalogue/la-foir-fouille/maison-cover.webp',
+        cover: '/assets/projects/catalogue/la-foir-fouille/maison-cover.webp', coverAlt: 'Couverture du catalogue La Foir’Fouille Maison &amp; Rangement',
         pages: [
-          { src: '/assets/projects/catalogues/la-foir-fouille/maison-page-02.webp', alt: 'Page intérieure du catalogue Maison &amp; Rangement' },
-          { src: '/assets/projects/catalogues/la-foir-fouille/maison-page-03.webp', alt: 'Page intérieure du catalogue Maison &amp; Rangement' },
-          { src: '/assets/projects/catalogues/la-foir-fouille/maison-page-05.webp', alt: 'Page intérieure du catalogue Maison &amp; Rangement' },
-          { src: '/assets/projects/catalogues/la-foir-fouille/maison-page-06.webp', alt: 'Page intérieure du catalogue Maison &amp; Rangement' }
+          { src: '/assets/projects/catalogue/la-foir-fouille/maison-page-02.webp', alt: 'Page intérieure du catalogue Maison &amp; Rangement' },
+          { src: '/assets/projects/catalogue/la-foir-fouille/maison-page-03.webp', alt: 'Page intérieure du catalogue Maison &amp; Rangement' },
+          { src: '/assets/projects/catalogue/la-foir-fouille/maison-page-05.webp', alt: 'Page intérieure du catalogue Maison &amp; Rangement' },
+          { src: '/assets/projects/catalogue/la-foir-fouille/maison-page-06.webp', alt: 'Page intérieure du catalogue Maison &amp; Rangement' }
         ]
       },
       {
         layout: 'cover-right', label: 'Catalogue', title: 'Jardin &amp; Extérieur',
         text: 'Des ambiances conviviales pour profiter pleinement des beaux jours. Des offres mises en scène dans des univers désirables.',
-        cta: 'Voir un exemple', ctaHref: '/assets/projects/catalogues/la-foir-fouille/jardin-cover.webp',
-        cover: '/assets/projects/catalogues/la-foir-fouille/jardin-cover.webp', coverAlt: 'Couverture du catalogue La Foir’Fouille Jardin &amp; Extérieur',
+        cta: 'Voir un exemple', ctaHref: '/assets/projects/catalogue/la-foir-fouille/jardin-cover.webp',
+        cover: '/assets/projects/catalogue/la-foir-fouille/jardin-cover.webp', coverAlt: 'Couverture du catalogue La Foir’Fouille Jardin &amp; Extérieur',
         pages: [
-          { src: '/assets/projects/catalogues/la-foir-fouille/jardin-page-02.webp', alt: 'Page intérieure du catalogue Jardin &amp; Extérieur' },
-          { src: '/assets/projects/catalogues/la-foir-fouille/jardin-page-03.webp', alt: 'Page intérieure du catalogue Jardin &amp; Extérieur' },
-          { src: '/assets/projects/catalogues/la-foir-fouille/jardin-page-04.webp', alt: 'Page intérieure du catalogue Jardin &amp; Extérieur' },
-          { src: '/assets/projects/catalogues/la-foir-fouille/jardin-page-05.webp', alt: 'Page intérieure du catalogue Jardin &amp; Extérieur' }
+          { src: '/assets/projects/catalogue/la-foir-fouille/jardin-page-02.webp', alt: 'Page intérieure du catalogue Jardin &amp; Extérieur' },
+          { src: '/assets/projects/catalogue/la-foir-fouille/jardin-page-03.webp', alt: 'Page intérieure du catalogue Jardin &amp; Extérieur' },
+          { src: '/assets/projects/catalogue/la-foir-fouille/jardin-page-04.webp', alt: 'Page intérieure du catalogue Jardin &amp; Extérieur' },
+          { src: '/assets/projects/catalogue/la-foir-fouille/jardin-page-05.webp', alt: 'Page intérieure du catalogue Jardin &amp; Extérieur' }
         ]
       },
       {
         layout: 'cover-left', label: 'Catalogue', title: 'Fêtes &amp; Monde de la maison',
         text: 'Des idées cadeaux et déco pour toutes les occasions. Des inspirations festives et chaleureuses.',
-        cta: 'Voir un exemple', ctaHref: '/assets/projects/catalogues/la-foir-fouille/fetes-cover.webp',
-        cover: '/assets/projects/catalogues/la-foir-fouille/fetes-cover.webp', coverAlt: 'Couverture du catalogue La Foir’Fouille Fêtes &amp; fin d’année',
+        cta: 'Voir un exemple', ctaHref: '/assets/projects/catalogue/la-foir-fouille/fetes-cover.webp',
+        cover: '/assets/projects/catalogue/la-foir-fouille/fetes-cover.webp', coverAlt: 'Couverture du catalogue La Foir’Fouille Fêtes &amp; fin d’année',
         pages: [
-          { src: '/assets/projects/catalogues/la-foir-fouille/fetes-page-02.webp', alt: 'Page intérieure du catalogue Fêtes &amp; Monde de la maison' },
-          { src: '/assets/projects/catalogues/la-foir-fouille/fetes-page-03.webp', alt: 'Page intérieure du catalogue Fêtes &amp; Monde de la maison' },
-          { src: '/assets/projects/catalogues/la-foir-fouille/fetes-page-04.webp', alt: 'Page intérieure du catalogue Fêtes &amp; Monde de la maison' },
-          { src: '/assets/projects/catalogues/la-foir-fouille/fetes-page-05.webp', alt: 'Page intérieure du catalogue Fêtes &amp; Monde de la maison' }
+          { src: '/assets/projects/catalogue/la-foir-fouille/fetes-page-02.webp', alt: 'Page intérieure du catalogue Fêtes &amp; Monde de la maison' },
+          { src: '/assets/projects/catalogue/la-foir-fouille/fetes-page-03.webp', alt: 'Page intérieure du catalogue Fêtes &amp; Monde de la maison' },
+          { src: '/assets/projects/catalogue/la-foir-fouille/fetes-page-04.webp', alt: 'Page intérieure du catalogue Fêtes &amp; Monde de la maison' },
+          { src: '/assets/projects/catalogue/la-foir-fouille/fetes-page-05.webp', alt: 'Page intérieure du catalogue Fêtes &amp; Monde de la maison' }
         ]
       }
     ],
@@ -2490,13 +2490,13 @@ const CATALOGUE_CASE_STUDIES = {
       subtitle: 'Exemples de stories verticales, un visuel par univers.',
       rows: [
         { universe: 'Maison &amp; Rangement', items: [
-          { src: '/assets/projects/catalogues/la-foir-fouille/campaigns/maison-story.webp', alt: 'Story La Foir’Fouille Maison &amp; Rangement', caption: 'Story — vertical', ratioClass: 'campaign-portrait' }
+          { src: '/assets/projects/catalogue/la-foir-fouille/campaigns/maison-story.webp', alt: 'Story La Foir’Fouille Maison &amp; Rangement', caption: 'Story — vertical', ratioClass: 'campaign-portrait' }
         ]},
         { universe: 'Jardin &amp; Extérieur', items: [
-          { src: '/assets/projects/catalogues/la-foir-fouille/campaigns/jardin-story.webp', alt: 'Story La Foir’Fouille Jardin &amp; Extérieur', caption: 'Story — vertical', ratioClass: 'campaign-portrait' }
+          { src: '/assets/projects/catalogue/la-foir-fouille/campaigns/jardin-story.webp', alt: 'Story La Foir’Fouille Jardin &amp; Extérieur', caption: 'Story — vertical', ratioClass: 'campaign-portrait' }
         ]},
         { universe: 'Fêtes &amp; fin d’année', items: [
-          { src: '/assets/projects/catalogues/la-foir-fouille/campaigns/fetes-story.webp', alt: 'Story La Foir’Fouille Fêtes &amp; fin d’année', caption: 'Story — vertical', ratioClass: 'campaign-portrait' }
+          { src: '/assets/projects/catalogue/la-foir-fouille/campaigns/fetes-story.webp', alt: 'Story La Foir’Fouille Fêtes &amp; fin d’année', caption: 'Story — vertical', ratioClass: 'campaign-portrait' }
         ]}
       ]
     },
@@ -2514,7 +2514,7 @@ const CATALOGUE_CASE_STUDIES = {
 
   'gamm-vert': {
     client: 'Gamm vert',
-    logo: '/assets/logos/gamm-vert-official.webp',
+    logo: '/assets/global/branding/logos/gamm-vert-official.webp',
     sector: 'Jardin · Maison · Saisonnalité',
     theme: { accent: '#4A8B2C', accentDark: '#376B20', accentSoft: '#F1F7E8' },
     sectionOrder: ['showcase', 'catalogues', 'campaigns', 'services', 'footer'],
@@ -2531,30 +2531,30 @@ const CATALOGUE_CASE_STUDIES = {
       kicker: 'Deux catalogues, deux temps forts', title: 'Des couvertures qui installent immédiatement le sujet',
       note: 'Deux prises de parole saisonnières distinctes : « Vacances à la maison », diffusée du 29 juin au 27 juillet, et « Bonne fête maman ! », proposée du 18 mai au 11 juin 2023. Chaque couverture réunit la période commerciale, le thème de l’édition et un produit d’appel avant de conduire vers un parcours d’offres organisé par usages.',
       subnote: '',
-      image: '/assets/projects/catalogues/gamme-vert/couvgamvert.webp',
+      image: '/assets/projects/catalogue/gamme-vert/couvgamvert.webp',
       alt: 'Mockup des catalogues Gamm vert Vacances à la maison et Bonne fête maman'
     },
     catalogues: [
       {
         layout: 'cover-left', label: 'Catalogue · Été', title: 'Vacances à la maison',
         text: 'Diffusée du 29 juin au 27 juillet, cette édition s’ouvre sur un hamac mis en situation dans un jardin et déroule ensuite les usages de la saison. Les pages intérieures structurent les offres autour de la détente, des repas en extérieur, de la réception et des loisirs : mobilier de jardin, voiles d’ombrage, piscines, spas, barbecues et équipements pour recevoir. Les bandeaux de rubrique, les grands visuels d’ambiance et les blocs prix permettent de changer d’univers tout en gardant une lecture commerciale continue.',
-        cover: '/assets/projects/catalogues/gamme-vert/couvgammvert1.webp', coverAlt: 'Mockup du catalogue Gamm vert Vacances à la maison',
+        cover: '/assets/projects/catalogue/gamme-vert/couvgammvert1.webp', coverAlt: 'Mockup du catalogue Gamm vert Vacances à la maison',
         pages: [
-          { src: '/assets/projects/catalogues/gamme-vert/catalogue-01-page-02.webp', alt: 'Page intérieure 2 du catalogue Gamm vert Vacances à la maison' },
-          { src: '/assets/projects/catalogues/gamme-vert/catalogue-01-page-03.webp', alt: 'Page intérieure 3 du catalogue Gamm vert Vacances à la maison' },
-          { src: '/assets/projects/catalogues/gamme-vert/catalogue-01-page-04.webp', alt: 'Page intérieure 4 du catalogue Gamm vert Vacances à la maison' },
-          { src: '/assets/projects/catalogues/gamme-vert/catalogue-01-page-05.webp', alt: 'Page intérieure 5 du catalogue Gamm vert Vacances à la maison' }
+          { src: '/assets/projects/catalogue/gamme-vert/catalogue-01-page-02.webp', alt: 'Page intérieure 2 du catalogue Gamm vert Vacances à la maison' },
+          { src: '/assets/projects/catalogue/gamme-vert/catalogue-01-page-03.webp', alt: 'Page intérieure 3 du catalogue Gamm vert Vacances à la maison' },
+          { src: '/assets/projects/catalogue/gamme-vert/catalogue-01-page-04.webp', alt: 'Page intérieure 4 du catalogue Gamm vert Vacances à la maison' },
+          { src: '/assets/projects/catalogue/gamme-vert/catalogue-01-page-05.webp', alt: 'Page intérieure 5 du catalogue Gamm vert Vacances à la maison' }
         ]
       },
       {
         layout: 'cover-right', label: 'Catalogue · Fête des mères', title: 'Bonne fête maman !',
         text: 'Proposée du 18 mai au 11 juin 2023, cette édition associe la fête des mères aux univers végétal, jardin et maison. La couverture met en avant une sélection de phalaenopsis, puis les pages présentent fleurs, orchidées, pots, terreaux et accessoires avant d’élargir le parcours à la motoculture et à l’entretien extérieur. Le rose identifie le temps fort cadeau, tandis que le vert Gamm vert et les cartouches rouges assurent la continuité de marque et la visibilité des offres.',
-        cover: '/assets/projects/catalogues/gamme-vert/couvgammvert2.webp', coverAlt: 'Mockup du catalogue Gamm vert Bonne fête maman',
+        cover: '/assets/projects/catalogue/gamme-vert/couvgammvert2.webp', coverAlt: 'Mockup du catalogue Gamm vert Bonne fête maman',
         pages: [
-          { src: '/assets/projects/catalogues/gamme-vert/catalogue-02-page-02.webp', alt: 'Page intérieure 2 du catalogue Gamm vert Bonne fête maman' },
-          { src: '/assets/projects/catalogues/gamme-vert/catalogue-02-page-03.webp', alt: 'Page intérieure 3 du catalogue Gamm vert Bonne fête maman' },
-          { src: '/assets/projects/catalogues/gamme-vert/catalogue-02-page-04.webp', alt: 'Page intérieure 4 du catalogue Gamm vert Bonne fête maman' },
-          { src: '/assets/projects/catalogues/gamme-vert/catalogue-02-page-05.webp', alt: 'Page intérieure 5 du catalogue Gamm vert Bonne fête maman' }
+          { src: '/assets/projects/catalogue/gamme-vert/catalogue-02-page-02.webp', alt: 'Page intérieure 2 du catalogue Gamm vert Bonne fête maman' },
+          { src: '/assets/projects/catalogue/gamme-vert/catalogue-02-page-03.webp', alt: 'Page intérieure 3 du catalogue Gamm vert Bonne fête maman' },
+          { src: '/assets/projects/catalogue/gamme-vert/catalogue-02-page-04.webp', alt: 'Page intérieure 4 du catalogue Gamm vert Bonne fête maman' },
+          { src: '/assets/projects/catalogue/gamme-vert/catalogue-02-page-05.webp', alt: 'Page intérieure 5 du catalogue Gamm vert Bonne fête maman' }
         ]
       }
     ],
@@ -2563,13 +2563,13 @@ const CATALOGUE_CASE_STUDIES = {
       subtitle: 'Une même prise de parole déclinée pour plusieurs points de contact. La story verticale, la publication carrée et le header Facebook reprennent la période du 26 mars au 25 avril, la promesse « Bien se reposer — voilà mon projet » et l’appel à découvrir le nouveau catalogue, avec une composition adaptée à chaque ratio.',
       rows: [
         { universe: 'Story', items: [
-          { src: '/assets/projects/catalogues/gamme-vert/campaigns/bien-se-reposer-story.webp', alt: 'Story Gamm vert Bien se reposer — voilà mon projet', caption: 'Story', ratioClass: 'campaign-portrait' }
+          { src: '/assets/projects/catalogue/gamme-vert/campaigns/bien-se-reposer-story.webp', alt: 'Story Gamm vert Bien se reposer — voilà mon projet', caption: 'Story', ratioClass: 'campaign-portrait' }
         ]},
         { universe: 'Carré', items: [
-          { src: '/assets/projects/catalogues/gamme-vert/campaigns/bien-se-reposer-square.webp', alt: 'Visuel carré Gamm vert Bien se reposer — voilà mon projet', caption: 'Carré', ratioClass: 'campaign-square' }
+          { src: '/assets/projects/catalogue/gamme-vert/campaigns/bien-se-reposer-square.webp', alt: 'Visuel carré Gamm vert Bien se reposer — voilà mon projet', caption: 'Carré', ratioClass: 'campaign-square' }
         ]},
         { universe: 'Header Facebook', items: [
-          { src: '/assets/projects/catalogues/gamme-vert/campaigns/bien-se-reposer-header-mockup.webp', alt: 'Mockup du header Facebook Gamm vert Bien se reposer — voilà mon projet', caption: 'Header Facebook', ratioClass: 'campaign-square campaign-wide' }
+          { src: '/assets/projects/catalogue/gamme-vert/campaigns/bien-se-reposer-header-mockup.webp', alt: 'Mockup du header Facebook Gamm vert Bien se reposer — voilà mon projet', caption: 'Header Facebook', ratioClass: 'campaign-square campaign-wide' }
         ]}
       ]
     },
@@ -2585,7 +2585,7 @@ const CATALOGUE_CASE_STUDIES = {
 
   carrefour: {
     client: 'Carrefour',
-    logo: '/assets/logos/Logo-Clients-black-carrefour.svg',
+    logo: '/assets/global/branding/logos/Logo-Clients-black-carrefour.svg',
     sector: 'Grande distribution · Martinique',
     theme: { accent: '#254F9A', accentDark: '#1B3C78', accentSoft: '#EEF3FA' },
     sectionOrder: ['showcase', 'catalogues', 'campaigns', 'services', 'footer'],
@@ -2602,30 +2602,30 @@ const CATALOGUE_CASE_STUDIES = {
       kicker: 'Catalogue &amp; point de vente', title: 'Une production pensée jusque dans le magasin',
       note: 'Couverture, pages d’offres et doubles pages composent un ensemble cohérent, conçu pour installer le temps fort commercial avant son relais sur les supports de communication en magasin.',
       subnote: '',
-      image: '/assets/projects/catalogues/carrefour/couvcarrfouf.webp',
+      image: '/assets/projects/catalogue/carrefour/couvcarrfouf.webp',
       alt: 'Mockup du catalogue Carrefour Foire aux vins'
     },
     catalogues: [
       {
         layout: 'cover-left', label: 'Catalogue · Acte 1', title: 'Promo Goal',
         text: 'Diffusée du 2 au 14 juin 2026, cette édition organise les offres dans un territoire graphique inspiré du sport : aplats bleu, blanc, rouge, vert et jaune, texture textile et grands cartouches prix. Les pages alternent produits du quotidien, sélections locales et mises en avant par rayon, tout en conservant une hiérarchie très directe entre l’offre, le prix et les informations produit.',
-        cover: '/assets/projects/catalogues/carrefour/catalogue-01-cover.webp', coverAlt: 'Couverture du catalogue Carrefour Promo Goal — Acte 1',
+        cover: '/assets/projects/catalogue/carrefour/catalogue-01-cover.webp', coverAlt: 'Couverture du catalogue Carrefour Promo Goal — Acte 1',
         pages: [
-          { src: '/assets/projects/catalogues/carrefour/catalogue-01-page-02.webp', alt: 'Page intérieure 2 du catalogue Carrefour Promo Goal — Acte 1' },
-          { src: '/assets/projects/catalogues/carrefour/catalogue-01-page-08.webp', alt: 'Page intérieure 8 du catalogue Carrefour Promo Goal — Acte 1' },
-          { src: '/assets/projects/catalogues/carrefour/catalogue-01-page-13.webp', alt: 'Page intérieure 13 du catalogue Carrefour Promo Goal — Acte 1' },
-          { src: '/assets/projects/catalogues/carrefour/catalogue-01-page-18.webp', alt: 'Page intérieure 18 du catalogue Carrefour Promo Goal — Acte 1' }
+          { src: '/assets/projects/catalogue/carrefour/catalogue-01-page-02.webp', alt: 'Page intérieure 2 du catalogue Carrefour Promo Goal — Acte 1' },
+          { src: '/assets/projects/catalogue/carrefour/catalogue-01-page-08.webp', alt: 'Page intérieure 8 du catalogue Carrefour Promo Goal — Acte 1' },
+          { src: '/assets/projects/catalogue/carrefour/catalogue-01-page-13.webp', alt: 'Page intérieure 13 du catalogue Carrefour Promo Goal — Acte 1' },
+          { src: '/assets/projects/catalogue/carrefour/catalogue-01-page-18.webp', alt: 'Page intérieure 18 du catalogue Carrefour Promo Goal — Acte 1' }
         ]
       },
       {
         layout: 'cover-right', label: 'Catalogue · Carnaval', title: 'Le Carnaval des promos',
         text: 'Proposée du 25 février au 9 mars 2025, cette édition reprend les signes visuels du carnaval pour rythmer les offres : turquoise, rose, rouge, masques, plumes et percussions. La couverture installe immédiatement le temps fort, puis les pages intérieures déclinent cette identité sur l’épicerie, les produits frais, la boulangerie et les offres promotionnelles, avec des blocs prix lisibles malgré la densité des références.',
-        cover: '/assets/projects/catalogues/carrefour/catalogue-02-cover.webp', coverAlt: 'Couverture du catalogue Carrefour Le Carnaval des promos',
+        cover: '/assets/projects/catalogue/carrefour/catalogue-02-cover.webp', coverAlt: 'Couverture du catalogue Carrefour Le Carnaval des promos',
         pages: [
-          { src: '/assets/projects/catalogues/carrefour/catalogue-02-page-08.webp', alt: 'Page intérieure 8 du catalogue Carrefour Le Carnaval des promos' },
-          { src: '/assets/projects/catalogues/carrefour/catalogue-02-page-09.webp', alt: 'Page intérieure 9 du catalogue Carrefour Le Carnaval des promos' },
-          { src: '/assets/projects/catalogues/carrefour/catalogue-02-page-13.webp', alt: 'Page intérieure 13 du catalogue Carrefour Le Carnaval des promos' },
-          { src: '/assets/projects/catalogues/carrefour/catalogue-02-page-15.webp', alt: 'Page intérieure 15 du catalogue Carrefour Le Carnaval des promos' }
+          { src: '/assets/projects/catalogue/carrefour/catalogue-02-page-08.webp', alt: 'Page intérieure 8 du catalogue Carrefour Le Carnaval des promos' },
+          { src: '/assets/projects/catalogue/carrefour/catalogue-02-page-09.webp', alt: 'Page intérieure 9 du catalogue Carrefour Le Carnaval des promos' },
+          { src: '/assets/projects/catalogue/carrefour/catalogue-02-page-13.webp', alt: 'Page intérieure 13 du catalogue Carrefour Le Carnaval des promos' },
+          { src: '/assets/projects/catalogue/carrefour/catalogue-02-page-15.webp', alt: 'Page intérieure 15 du catalogue Carrefour Le Carnaval des promos' }
         ]
       }
     ],
@@ -2635,19 +2635,19 @@ const CATALOGUE_CASE_STUDIES = {
       subtitle: 'Trois temps forts déclinés chacun dans trois mises en situation. Les kakémonos suspendus et les écrans placés dans les univers de vente prolongent les codes du catalogue au plus près des rayons et des zones de passage.',
       rows: [
         { universe: 'Foire aux vins', items: [
-          { src: '/assets/projects/catalogues/carrefour/print-instore/set-1-1.webp', alt: 'Kakémono Carrefour Foire aux vins suspendu dans une allée du magasin', caption: '', ratioClass: 'print-landscape' },
-          { src: '/assets/projects/catalogues/carrefour/print-instore/set-1-2.webp', alt: 'Kakémono Carrefour Foire aux vins installé dans l’univers cave', caption: '', ratioClass: 'print-landscape' },
-          { src: '/assets/projects/catalogues/carrefour/print-instore/set-1-3.webp', alt: 'Écran Carrefour Foire aux vins installé au rayon boucherie', caption: '', ratioClass: 'print-landscape' }
+          { src: '/assets/projects/catalogue/carrefour/print-instore/set-1-1.webp', alt: 'Kakémono Carrefour Foire aux vins suspendu dans une allée du magasin', caption: '', ratioClass: 'print-landscape' },
+          { src: '/assets/projects/catalogue/carrefour/print-instore/set-1-2.webp', alt: 'Kakémono Carrefour Foire aux vins installé dans l’univers cave', caption: '', ratioClass: 'print-landscape' },
+          { src: '/assets/projects/catalogue/carrefour/print-instore/set-1-3.webp', alt: 'Écran Carrefour Foire aux vins installé au rayon boucherie', caption: '', ratioClass: 'print-landscape' }
         ]},
         { universe: 'Petits prix pour gros câlins', items: [
-          { src: '/assets/projects/catalogues/carrefour/print-instore/set-2-1.webp', alt: 'Kakémono Carrefour Petits prix pour gros câlins suspendu dans une allée du magasin', caption: '', ratioClass: 'print-landscape' },
-          { src: '/assets/projects/catalogues/carrefour/print-instore/set-2-2.webp', alt: 'Kakémono Carrefour Petits prix pour gros câlins installé dans l’univers cave', caption: '', ratioClass: 'print-landscape' },
-          { src: '/assets/projects/catalogues/carrefour/print-instore/set-2-3.webp', alt: 'Écran Carrefour Petits prix pour gros câlins installé au rayon boucherie', caption: '', ratioClass: 'print-landscape' }
+          { src: '/assets/projects/catalogue/carrefour/print-instore/set-2-1.webp', alt: 'Kakémono Carrefour Petits prix pour gros câlins suspendu dans une allée du magasin', caption: '', ratioClass: 'print-landscape' },
+          { src: '/assets/projects/catalogue/carrefour/print-instore/set-2-2.webp', alt: 'Kakémono Carrefour Petits prix pour gros câlins installé dans l’univers cave', caption: '', ratioClass: 'print-landscape' },
+          { src: '/assets/projects/catalogue/carrefour/print-instore/set-2-3.webp', alt: 'Écran Carrefour Petits prix pour gros câlins installé au rayon boucherie', caption: '', ratioClass: 'print-landscape' }
         ]},
         { universe: 'Le Carnaval des promos', items: [
-          { src: '/assets/projects/catalogues/carrefour/print-instore/set-3-1.webp', alt: 'Kakémono Carrefour Le Carnaval des promos suspendu dans une allée du magasin', caption: '', ratioClass: 'print-landscape' },
-          { src: '/assets/projects/catalogues/carrefour/print-instore/set-3-2.webp', alt: 'Kakémono Carrefour Le Carnaval des promos installé dans l’univers vins', caption: '', ratioClass: 'print-landscape' },
-          { src: '/assets/projects/catalogues/carrefour/print-instore/set-3-3.webp', alt: 'Écran Carrefour Le Carnaval des promos installé près des caisses', caption: '', ratioClass: 'print-landscape' }
+          { src: '/assets/projects/catalogue/carrefour/print-instore/set-3-1.webp', alt: 'Kakémono Carrefour Le Carnaval des promos suspendu dans une allée du magasin', caption: '', ratioClass: 'print-landscape' },
+          { src: '/assets/projects/catalogue/carrefour/print-instore/set-3-2.webp', alt: 'Kakémono Carrefour Le Carnaval des promos installé dans l’univers vins', caption: '', ratioClass: 'print-landscape' },
+          { src: '/assets/projects/catalogue/carrefour/print-instore/set-3-3.webp', alt: 'Écran Carrefour Le Carnaval des promos installé près des caisses', caption: '', ratioClass: 'print-landscape' }
         ]}
       ]
     },
@@ -2803,7 +2803,7 @@ function initCatalogueCaseStudies() {
    Toute la donnée est centralisée ici — aucun chemin d'image codé en dur
    dans le gabarit HTML.
    ───────────────────────────────────────────────────────────────────── */
-const DGC = '/assets/projects/catalogues/digilife';
+const DGC = '/assets/projects/catalogue/digilife';
 
 const DIGILIFE_CASE_STUDY = {
   /* Le visuel de fond ne porte aucun texte : le titre, le bouton et les
@@ -2814,7 +2814,7 @@ const DIGILIFE_CASE_STUDY = {
   hero: {
     src: `${DGC}/hero-bg.webp`, w: 2400, h: 1027,
     alt: 'Univers Digimag : personas Apple et logo Apple rétroéclairé',
-    logo: '/assets/logos/Logo-Clients-white-digilife.svg',
+    logo: '/assets/global/branding/logos/Logo-Clients-white-digilife.svg',
     over: 'Découvrez le nouveau',
     title: 'Digimag',
     ctaLabel: 'Cliquez-ici',
@@ -2894,8 +2894,8 @@ const DIGILIFE_CASE_STUDY = {
   videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
   videoIsPlaceholder: true,
   clientLogos: {
-    black: '/assets/logos/Logo-Clients-black-digilife.svg',
-    white: '/assets/logos/Logo-Clients-white-digilife.svg'
+    black: '/assets/global/branding/logos/Logo-Clients-black-digilife.svg',
+    white: '/assets/global/branding/logos/Logo-Clients-white-digilife.svg'
   },
   cta: {
     title: 'Un projet, une idée, un défi ?',
@@ -3045,12 +3045,12 @@ function renderDigilifeCaseHTML(cfg) {
    Tout asset non fourni rend un AssetPlaceholder qui verrouille la
    composition sans rien inventer — il suffira de renseigner le chemin.
    ───────────────────────────────────────────────────────────────────── */
-const DKT = '/assets/projects/catalogues/decathlon';
+const DKT = '/assets/projects/catalogue/decathlon';
 const ph = (label, ratio) => ({ pending: true, label, ratio: ratio || '210 / 297' });
 
 const DECATHLON_CASE_STUDY = {
   hero: {
-    logo: '/assets/logos/Logo-Clients-black-decathlon.svg',
+    logo: '/assets/global/branding/logos/Logo-Clients-black-decathlon.svg',
     eyebrow: 'Grande distribution · Sport · Guadeloupe',
     title: 'Decathlon',
     subtitle: 'Trois catalogues, trois temps forts, une même exigence de cohérence.',
@@ -3284,7 +3284,7 @@ function initDecathlonCaseStudy() {
    occupe la position « retenue ». Les deux autres propositions restent des
    emplacements vides — on ne duplique pas la même couverture.
    ───────────────────────────────────────────────────────────────────── */
-const MRB = '/assets/projects/catalogues/mr-bricolage';
+const MRB = '/assets/projects/catalogue/mr-bricolage';
 
 const MRB_CASE = {
   hero: {
@@ -3591,7 +3591,7 @@ function initMrBricolageCaseStudy() {
   }
 }
 
-const LBE = '/assets/projects/les-belles-envies';
+const LBE = '/assets/projects/photos/les-belles-envies';
 
 const LBE_CASE = {
   hero: {
@@ -3770,11 +3770,11 @@ function initLesBellesEnviesCaseStudy() {
   if (trigger) trigger.dataset.projectCtaTitle = LBE_CASE.footer.ctaText;
 }
 
-const CCR = '/assets/projects/cap-creole';
+const CCR = '/assets/projects/photos/cap-creole';
 
 const CCR_CASE = {
   hero: {
-    logo: '/assets/logos/Logo-Clients-black-CapCreole.svg',
+    logo: '/assets/global/branding/logos/Logo-Clients-black-CapCreole.svg',
     kicker: 'Cap Créole',
     title: 'Photographie<br>culinaire &amp; contenus<br>visuels Caraïbes',
     text: 'Latitude Sud crée pour Cap Créole des photographies produit, des mises en scène et des visuels prêts à publier, ancrés dans le territoire.',

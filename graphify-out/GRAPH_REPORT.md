@@ -1,13 +1,18 @@
-# Graph Report - Site LS (New) v2  (2026-06-26)
+# Graph Report - Site LS Code  (2026-08-11)
 
 ## Corpus Check
-- 6 files · ~10,345,423 words
+- 16 files · ~8,063,077 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 180 nodes · 218 edges · 50 communities (21 shown, 29 thin omitted)
-- Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 17 edges (avg confidence: 0.89)
+- 313 nodes · 363 edges · 60 communities (27 shown, 33 thin omitted)
+- Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 16 edges (avg confidence: 0.9)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `609e1fb0`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Community 0|Community 0]]
@@ -30,6 +35,7 @@
 - [[_COMMUNITY_Community 17|Community 17]]
 - [[_COMMUNITY_Community 18|Community 18]]
 - [[_COMMUNITY_Community 19|Community 19]]
+- [[_COMMUNITY_Community 20|Community 20]]
 - [[_COMMUNITY_Community 21|Community 21]]
 - [[_COMMUNITY_Community 22|Community 22]]
 - [[_COMMUNITY_Community 23|Community 23]]
@@ -57,41 +63,44 @@
 - [[_COMMUNITY_Community 48|Community 48]]
 - [[_COMMUNITY_Community 49|Community 49]]
 - [[_COMMUNITY_Community 50|Community 50]]
+- [[_COMMUNITY_Community 51|Community 51]]
+- [[_COMMUNITY_Community 52|Community 52]]
+- [[_COMMUNITY_Community 53|Community 53]]
+- [[_COMMUNITY_Community 54|Community 54]]
+- [[_COMMUNITY_Community 55|Community 55]]
+- [[_COMMUNITY_Community 56|Community 56]]
+- [[_COMMUNITY_Community 57|Community 57]]
+- [[_COMMUNITY_Community 58|Community 58]]
+- [[_COMMUNITY_Community 59|Community 59]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `createRuntime()` - 11 edges
-2. `initComponents()` - 11 edges
-3. `boot()` - 8 edges
-4. `walkChildren()` - 8 edges
-5. `walk()` - 8 edges
-6. `resolve()` - 7 edges
-7. `compileAttr()` - 7 edges
+1. `initComponents()` - 30 edges
+2. `Latitude Sud - Brief permanent du projet` - 14 edges
+3. `initModalFocusTrap()` - 9 edges
+4. `Audit du repository Latitude Sud` - 8 edges
+5. `walkChildren()` - 7 edges
+6. `walk()` - 7 edges
+7. `createRuntime()` - 7 edges
 8. `hero5.png - Hero Section Screenshot` - 7 edges
-9. `collectProps()` - 6 edges
-10. `walkComponent()` - 5 edges
+9. `compileAttr()` - 6 edges
+10. `collectProps()` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `dc-runtime — Design Component runtime system` --semantically_similar_to--> `graphify knowledge graph workflow`  [AMBIGUOUS] [semantically similar]
-  Support-Latitude-Sud.js → CLAUDE.md
 - `.claude/settings.json — PreToolUse hooks for graphify enforcement` --rationale_for--> `graphify knowledge graph workflow`  [EXTRACTED]
   .claude/settings.json → CLAUDE.md
 
 ## Import Cycles
 - None detected.
 
-## Communities (50 total, 29 thin omitted)
-
-### Community 0 - "Community 0"
-Cohesion: 0.08
-Nodes (31): dc-runtime — Design Component runtime system, Latitude Sud — Guadeloupe communication agency, Latitude Sud News — agency landing page HTML, boot(), compileTemplate(), createExternalModules(), createHelmetManager(), createPseudoSheet() (+23 more)
+## Communities (60 total, 33 thin omitted)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.53
-Nodes (9): collectProps(), compileAttr(), walk(), walkChildren(), walkComponent(), walkElement(), walkFor(), walkIf() (+1 more)
+Cohesion: 0.06
+Nodes (55): applyCaseStudyContactCta(), CATALOGUE_APPROACH_DEFAULT, CATALOGUE_CASE_STUDIES, CATALOGUE_EXPERTISE_DEFAULT, CATALOGUE_SECTION_RENDERERS, CATALOGUE_SERVICES_DEFAULT, CCR_CASE, DECATHLON_CASE_STUDY (+47 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.26
-Nodes (12): initComponents(), initFilterTabs(), _initHeader(), initLazyImages(), initLogoStagger(), initPageTransition(), initProjectModal(), initScrollReveal() (+4 more)
+Cohesion: 0.07
+Nodes (40): boot(), collectProps(), compileAttr(), compileTemplate(), createComponentFactory(), createExternalModules(), createHelmetManager(), createPseudoSheet() (+32 more)
 
 ### Community 3 - "Community 3"
 Cohesion: 0.36
@@ -114,8 +123,8 @@ Cohesion: 0.47
 Nodes (6): Hero Video Player Card, Red Wave / Platform Band (bottom hero element), wavetest.png – Hero Section Screenshot, Social Link Buttons (Instagram, Linkedin, Nous contacter), SUD Logo Badge (top-left), Tropical Illustrated Background
 
 ### Community 8 - "Community 8"
-Cohesion: 0.40
-Nodes (6): createComponentFactory(), evalDcLogic(), getReact(), Placeholder(), StreamableComponent — React class component wrapping DC, StreamableLogic — base class for DC component logic
+Cohesion: 0.08
+Nodes (25): 10. Page Contact, 11. Optimisation et securite, 12. Etat actuel connu, 13. Methode de travail a partir de maintenant, 1. Objectif, 2. Regles permanentes, 3. Navigation et pages, 4. Accueil (+17 more)
 
 ### Community 9 - "Community 9"
 Cohesion: 0.47
@@ -153,25 +162,49 @@ Nodes (3): Male figure riding a moped - flat vector illustration style, casual c
 Cohesion: 0.67
 Nodes (3): CLAUDE.md — graphify project instructions, graphify knowledge graph workflow, .claude/settings.json — PreToolUse hooks for graphify enforcement
 
-## Ambiguous Edges - Review These
-- `dc-runtime — Design Component runtime system` → `graphify knowledge graph workflow`  [AMBIGUOUS]
-  CLAUDE.md · relation: semantically_similar_to
+### Community 19 - "Community 19"
+Cohesion: 0.17
+Nodes (11): 2026-07-01 — Asset organization and sticky bar disable, 2026-07-01 — Asset organization and sticky bar disable, 2026-07-01 — Home page (index.html), Changelog — Latitude Sud v2, Mise en place workflow (cette session), Passe 1 — Corrections initiales, Passe 2 — Corrections après vérification visuelle, Passe 3 — Alignement strict sur le prototype `Home-Page-horizontale.png` (+3 more)
+
+### Community 20 - "Community 20"
+Cohesion: 0.14
+Nodes (10): IGNORED_DIRECTORIES, missing, referencedAssetBytes, referencedAssetPaths, references, result, ROOT, runtimeAssets (+2 more)
+
+### Community 51 - "Community 51"
+Cohesion: 0.22
+Nodes (8): Architecture actuelle, Architecture cible, Assets utilisés par projet, Audit du repository Latitude Sud, Candidats au rangement, Contrôles disponibles, Taxonomie réelle, État mesuré avant nettoyage
+
+### Community 52 - "Community 52"
+Cohesion: 0.33
+Nodes (5): /latitude-ui, Assets, Avant de coder, Implémentation, Vérification (obligatoire avant de déclarer terminé)
+
+### Community 53 - "Community 53"
+Cohesion: 0.33
+Nodes (5): 🔍 Analyse du projet, ✅ Demandes TRAITÉES, 📁 Fichiers, 📋 Project Context — Latitude Sud v2, 🗓️ Session du 01/07/2026
+
+### Community 54 - "Community 54"
+Cohesion: 0.50
+Nodes (3): Direction commune, Headers Latitude Sud - direction visuelle v2, Scenes
+
+### Community 55 - "Community 55"
+Cohesion: 0.50
+Nodes (3): Direction commune, Headers Latitude Sud V3, Personnages
 
 ## Knowledge Gaps
-- **60 isolated node(s):** `graphify`, `CLAUDE.md — graphify project instructions`, `.claude/settings.json — PreToolUse hooks for graphify enforcement`, `Latitude Sud — Guadeloupe communication agency`, `Banana Tree (foreground element)` (+55 more)
+- **131 isolated node(s):** `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT`, `CATALOGUE_SERVICES_DEFAULT`, `CATALOGUE_CASE_STUDIES`, `CATALOGUE_SECTION_RENDERERS` (+126 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **29 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **33 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **What is the exact relationship between `dc-runtime — Design Component runtime system` and `graphify knowledge graph workflow`?**
-  _Edge tagged AMBIGUOUS (relation: semantically_similar_to) - confidence is low._
-- **Why does `dc-runtime — Design Component runtime system` connect `Community 0` to `Community 18`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
-- **Why does `graphify knowledge graph workflow` connect `Community 18` to `Community 0`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
-- **What connects `graphify`, `CLAUDE.md — graphify project instructions`, `.claude/settings.json — PreToolUse hooks for graphify enforcement` to the rest of the system?**
-  _60 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.07610993657505286 - nodes in this community are weakly interconnected._
+- **What connects `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT`, `CATALOGUE_SERVICES_DEFAULT` to the rest of the system?**
+  _131 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Community 1` be split into smaller, more focused modules?**
+  _Cohesion score 0.05817028027498678 - nodes in this community are weakly interconnected._
+- **Should `Community 2` be split into smaller, more focused modules?**
+  _Cohesion score 0.06918238993710692 - nodes in this community are weakly interconnected._
+- **Should `Community 8` be split into smaller, more focused modules?**
+  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
+- **Should `Community 20` be split into smaller, more focused modules?**
+  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._

@@ -1,22 +1,12 @@
 {
   ".claude/launch.json": {
-    "mtime": 1782478734.5340238,
+    "mtime": 1782478734.0,
     "ast_hash": "0c458d3ea80ca2db50d3f51c46b4f5a9",
     "semantic_hash": ""
   },
   ".claude/settings.json": {
-    "mtime": 1781808070.911407,
+    "mtime": 1781808070.0,
     "ast_hash": "e1073342e958ac9f00716938c8f165e3",
-    "semantic_hash": ""
-  },
-  "Support-Latitude-Sud.js": {
-    "mtime": 1781726926.5801408,
-    "ast_hash": "dcf7a0c76052ff1397a61940905a3a3a",
-    "semantic_hash": ""
-  },
-  "components.js": {
-    "mtime": 1782492798.6736734,
-    "ast_hash": "07c73d9c6ddeed97d4a812191fe79ec9",
     "semantic_hash": ""
   },
   ".continue/mcpServers/new-mcp-server.yaml": {
@@ -25,448 +15,18 @@
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1781808070.9103992,
+    "mtime": 1781808070.0,
     "ast_hash": "82efb97a359f5c7290bf2513d14686be",
     "semantic_hash": ""
   },
-  "Latitude Sud News.html": {
-    "mtime": 1782493445.7089083,
-    "ast_hash": "3124b7f7a89f0b4c6a76dec80be30f46",
-    "semantic_hash": ""
-  },
   "index.html": {
-    "mtime": 1782493445.7118897,
-    "ast_hash": "624058adefbc42ec9c23ed66b89c4161",
-    "semantic_hash": ""
-  },
-  "parallax-test.html": {
-    "mtime": 1782493445.7129598,
-    "ast_hash": "bd3800993b056177263994b320ab9eab",
+    "mtime": 1786452008.648888,
+    "ast_hash": "cf4da9736c362f620c9e9ade7bda04da",
     "semantic_hash": ""
   },
   "robots.txt": {
-    "mtime": 1781904758.9663992,
+    "mtime": 1781904758.0,
     "ast_hash": "e612605de2385d3f501a62c2238b1b46",
-    "semantic_hash": ""
-  },
-  "android-chrome-192x192.png": {
-    "mtime": 1781883364.7201648,
-    "ast_hash": "3248cd5d011b0ef372e2508b8a68f4f7",
-    "semantic_hash": ""
-  },
-  "android-chrome-512x512.png": {
-    "mtime": 1781883364.7371955,
-    "ast_hash": "f4c69d5eed8d576222e595395ce8fac9",
-    "semantic_hash": ""
-  },
-  "apple-touch-icon.png": {
-    "mtime": 1781883364.6288013,
-    "ast_hash": "8273d72176b7c10aa64be95ae0377467",
-    "semantic_hash": ""
-  },
-  "assets/backgrounds/image-bg/header-bg-homme.png": {
-    "mtime": 1782414249.982064,
-    "ast_hash": "09cebbb5f4f9fe670c662dab772be558",
-    "semantic_hash": ""
-  },
-  "assets/backgrounds/image-bg/header-bg.jpg": {
-    "mtime": 1781724155.4488218,
-    "ast_hash": "7d7aca223b53304bab640035850eaeca",
-    "semantic_hash": ""
-  },
-  "assets/bg-banana-tree.png": {
-    "mtime": 1781880497.0037146,
-    "ast_hash": "7aae05efda1f30202a735584c85d54a4",
-    "semantic_hash": ""
-  },
-  "assets/bg-banana-tree2.png": {
-    "mtime": 1781880501.4801013,
-    "ast_hash": "7cae96ae3ae40b4c2dd9a1c083bf5f0f",
-    "semantic_hash": ""
-  },
-  "assets/bg-hills.png": {
-    "mtime": 1781880505.2792668,
-    "ast_hash": "a9c2d65c34dd8187f21ca1abf49f651b",
-    "semantic_hash": ""
-  },
-  "assets/bg-mountains.png": {
-    "mtime": 1781880491.6376438,
-    "ast_hash": "fdfdcc18879ed87c921270fb6c765a33",
-    "semantic_hash": ""
-  },
-  "assets/bg-sky.png": {
-    "mtime": 1781880494.9845612,
-    "ast_hash": "c346396349a35a741fb0026d8cee8c24",
-    "semantic_hash": ""
-  },
-  "assets/hero.jpg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "cf01be7c815262ff8c56dc9e917c902b",
-    "semantic_hash": ""
-  },
-  "assets/icons/player/icon-player-play.svg\n.svg": {
-    "mtime": 1782420023.768513,
-    "ast_hash": "8f77038e49dde71da99d4f8d33cbce68",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-arrow-right.svg": {
-    "mtime": 1782420023.5279465,
-    "ast_hash": "58c8b7d496383a35e417b492527639d7",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-calendar.svg": {
-    "mtime": 1782420023.9718492,
-    "ast_hash": "8cd596d969b34475b59d5b173231de91",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-camera.svg": {
-    "mtime": 1782420023.7948658,
-    "ast_hash": "0a1e216823145ed0719c5297d9e0b951",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-cocotier.svg": {
-    "mtime": 1782420023.903596,
-    "ast_hash": "365bf241e3e679d510888487405c9baf",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-color.svg": {
-    "mtime": 1782420023.874022,
-    "ast_hash": "929fd11b675794b61685cc1bf4676c26",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-diagonal.svg": {
-    "mtime": 1782420023.6602173,
-    "ast_hash": "42f00abe43648cf046f746af46589737",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-download.svg": {
-    "mtime": 1782420024.1282268,
-    "ast_hash": "6747170b7efb8b33f27b7393011ccdfa",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-email.svg": {
-    "mtime": 1782420023.756145,
-    "ast_hash": "b1dada3bb9606f72b2a404486cabb0f5",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-eye.svg": {
-    "mtime": 1782420023.7675838,
-    "ast_hash": "913fdcd6de5e763c75fb480d902fd07f",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-file.svg": {
-    "mtime": 1782420023.8729353,
-    "ast_hash": "b2d19e9d4f77e5de777ff91540bcd1ce",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-heart.svg": {
-    "mtime": 1782420023.7401352,
-    "ast_hash": "babac44eb928f74d8843ebf45e486954",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-leaf.svg": {
-    "mtime": 1782420023.8805377,
-    "ast_hash": "619172b9c2572ea433525ba0cc520089",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-location.svg": {
-    "mtime": 1782420023.961286,
-    "ast_hash": "72e1021076d00958c793dbfdcb9f7468",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-monitor.svg": {
-    "mtime": 1782420023.7442303,
-    "ast_hash": "42d2f5ffdbf2c5f41648fb88ae018ad3",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-multi-arrow.svg": {
-    "mtime": 1782420023.889064,
-    "ast_hash": "9d16350a8e512c809cc9f740e4f3d9fb",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-pencil.svg": {
-    "mtime": 1782420023.8001556,
-    "ast_hash": "c716b0d8723d898901e0cca4eaad3d64",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-pencil2.svg": {
-    "mtime": 1782420023.8717968,
-    "ast_hash": "f5aa9500b0f4ee842f1dd37c6ce13144",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-phone.svg": {
-    "mtime": 1782420024.0969553,
-    "ast_hash": "f8b24787162d12ac92d070b10d0c7341",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-social-media.svg": {
-    "mtime": 1782420023.9261045,
-    "ast_hash": "648f8362b65d08ae098c3242dd6d2a04",
-    "semantic_hash": ""
-  },
-  "assets/icons/ui/icon-ui-user.svg": {
-    "mtime": 1782420023.9455538,
-    "ast_hash": "dcdbb670c2e941b1bf527657c77349ed",
-    "semantic_hash": ""
-  },
-  "assets/illustrations/moto/Grenat-clean.png": {
-    "mtime": 1781814716.911494,
-    "ast_hash": "6d074a57a963e0c3c1f092046701d540",
-    "semantic_hash": ""
-  },
-  "assets/illustrations/moto/grenat.png": {
-    "mtime": 1781727149.0,
-    "ast_hash": "d0fb309501cd94f914f9d79037a95a75",
-    "semantic_hash": ""
-  },
-  "assets/logo-sud.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "9e00838db90db48cf8b1fc938a175784",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-Capaceo.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "dc51e423dcd5ec72e30ac7c8acf58cc5",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-Affligem.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "4e0ef2993b8359321ccb482dbd121d3a",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-BelAirSup.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "5bdfd8ee411239368415bac47bbfec91",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-CIST.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "6c7547ff90037495e3d43616fff63e4e",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-Canal-plus.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "a184731afd1d679dda17335eaf38ba74",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-CapCreole.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "566aee35f66686cadd1ba45a0160d352",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-Caribois.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "6f4b2e30881938b0958551ee761701ce",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-autodiscount.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "2aa16a2d257e4eac1a350beb9d46cf64",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-bebe-9.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "0cc42631887cfbf438277d496a920617",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-carrefour.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "4566a1a247431f170b6a3b34a39368e8",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-decathlon.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "1543c0cccef8df88074a59016aeee77f",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-digilife.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "b8b84b3f8cfa283dde8ee8c029cf2795",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-histoire-dor.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "655afc24945e0fe5e06fdfaffce45282",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-ioburo.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "b801b0555291e8b2db722d802e435030",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-jose-fabricator.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "03bb5d54f53f84049ac6bb78f55f4071",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-la-foir-fouille.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "9f879a88f6b38624551756f3b7238e7d",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-laroutedurhum.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "737cea1b39b52c00ed2b8a858f99d95e",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-mango.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "a396c1a84401382ddc030df2a3e7aa15",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-montebello.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "e0327b73d418bd4e95fec8a2c07b1d69",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-mr-bricolage.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "d63244cf56872fde52b7c78220b4428e",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-persepolis.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "d0cc1980c64934a03910d1426422804f",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-phoenicia.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "3656202cc3d28483d3f79459cdc2ac30",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-piton.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "b274f1203dcbd7c0513346d9a3dfd47d",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-porter.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "9b88d77fe1078d382378b00661dcdd48",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-siligom.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "7d8077ec8f3a50a69362ba70ae841d25",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logo-Clients-black-sol.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "f2506b2f5fdaecca9afba0c8de02a6cf",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logov2-LS-SUD-black.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "da90247768f9311e83a90bf751af2709",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logov2-LS-latitude-black.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "223567988c83f0e6cf8920d8358ef07c",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logov2-Latitude-Sud-black.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "0b5173dfbce55c92e6c8b534c26f6b08",
-    "semantic_hash": ""
-  },
-  "assets/logos/Logov2-Latitude-Sud-white.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "922148c79c07d0026149a26d0fde4813",
-    "semantic_hash": ""
-  },
-  "assets/title-latitude.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "2205296905164914499c9fb6ff463c45",
-    "semantic_hash": ""
-  },
-  "assets/wave.svg": {
-    "mtime": 1781792896.053601,
-    "ast_hash": "d4077dfc7543ecd4020824a1a1b37d04",
-    "semantic_hash": ""
-  },
-  "favicon-16x16.png": {
-    "mtime": 1781883364.6540573,
-    "ast_hash": "194da818a4e6e314e3f4d87352579ae3",
-    "semantic_hash": ""
-  },
-  "favicon-32x32.png": {
-    "mtime": 1781883364.6431642,
-    "ast_hash": "78d5fa60a05db870742ddadb40095c1b",
-    "semantic_hash": ""
-  },
-  "screenshots/hero3.png": {
-    "mtime": 1781727147.0,
-    "ast_hash": "6a2b488dd60da9df4ef42b2a000716b2",
-    "semantic_hash": ""
-  },
-  "screenshots/hero4.png": {
-    "mtime": 1781727147.0,
-    "ast_hash": "ea14f805bce144bb61026ac1940ec989",
-    "semantic_hash": ""
-  },
-  "screenshots/hero5.png": {
-    "mtime": 1781727147.0,
-    "ast_hash": "c0bbc566a8986ee6ea86f245b684a5ca",
-    "semantic_hash": ""
-  },
-  "screenshots/wavetest.png": {
-    "mtime": 1781727147.0,
-    "ast_hash": "cca0b8410e8314a4bf4b8e626647afe8",
-    "semantic_hash": ""
-  },
-  "uploads/Grenat.png": {
-    "mtime": 1781727143.0,
-    "ast_hash": "d0fb309501cd94f914f9d79037a95a75",
-    "semantic_hash": ""
-  },
-  "uploads/Remplissage ge\u0301ne\u0301ratif 2.jpg": {
-    "mtime": 1781727143.0,
-    "ast_hash": "7d7aca223b53304bab640035850eaeca",
-    "semantic_hash": ""
-  },
-  "uploads/ls.svg": {
-    "mtime": 1781727143.0,
-    "ast_hash": "eb423b2154a046b42ae6e3c3c756f344",
-    "semantic_hash": ""
-  },
-  "uploads/pasted-1781723188147-0.png": {
-    "mtime": 1781727143.0,
-    "ast_hash": "dfaba805e145f890b2ce3a23e201355f",
-    "semantic_hash": ""
-  },
-  "uploads/pasted-1781724308323-0.png": {
-    "mtime": 1781727143.0,
-    "ast_hash": "8e46c673af732cddce7ba9a0232d347a",
-    "semantic_hash": ""
-  },
-  "video.html": {
-    "mtime": 1782493445.716249,
-    "ast_hash": "4794904ed9586a4a36b149f96b7d62db",
-    "semantic_hash": ""
-  },
-  "agence.html": {
-    "mtime": 1782493445.7098026,
-    "ast_hash": "32caf219c58745b512a562543a7e6113",
-    "semantic_hash": ""
-  },
-  "contact.html": {
-    "mtime": 1782493445.7105646,
-    "ast_hash": "67b68853715556768d7c790c70ff7d18",
-    "semantic_hash": ""
-  },
-  "print.html": {
-    "mtime": 1782493445.7141023,
-    "ast_hash": "abedd4fecb79d91850ecd45df3d63512",
-    "semantic_hash": ""
-  },
-  "social.html": {
-    "mtime": 1782493445.7155359,
-    "ast_hash": "0e036e3cda747dc6695a7bc2e9b5cfd8",
-    "semantic_hash": ""
-  },
-  "web.html": {
-    "mtime": 1782493445.7168994,
-    "ast_hash": "7684ae4818505a839dd4bd89e7b7f141",
     "semantic_hash": ""
   },
   ".continue/mcpServers/config.json": {
@@ -474,129 +34,3649 @@
     "ast_hash": "d278e9b2ca806a36837bff26421ed1d4",
     "semantic_hash": ""
   },
-  "mentions-legales.html": {
-    "mtime": 1782493445.7125132,
-    "ast_hash": "4aa1c9a5eb2966c33fdd93bea86800e8",
+  "js/Support-Latitude-Sud.js": {
+    "mtime": 1786451960.2417364,
+    "ast_hash": "dcf7a0c76052ff1397a61940905a3a3a",
     "semantic_hash": ""
   },
-  "politique-de-confidentialite.html": {
-    "mtime": 1782493445.7134264,
-    "ast_hash": "9b6d0e08349ee79c09f73babe4b59183",
+  "js/components.js": {
+    "mtime": 1786451960.2449727,
+    "ast_hash": "c7c5dd4194aff87dff3bb7254d67f7dc",
     "semantic_hash": ""
   },
-  "realisations.html": {
-    "mtime": 1782493445.7147458,
-    "ast_hash": "501a6b16fe7034c6924fd8db23f9237d",
+  "scripts/check-local-assets.mjs": {
+    "mtime": 1786452477.8795223,
+    "ast_hash": "19fc870ebd8e378b481eb90feed33ef0",
     "semantic_hash": ""
   },
-  "assets/backgrounds/image-bg/header-bg-homme-v2.png": {
-    "mtime": 1782486206.4895432,
-    "ast_hash": "322097a79136d1eb4b825c80d7049d28",
+  ".claude/skills/latitude-ui/SKILL.md": {
+    "mtime": 1786366915.8053854,
+    "ast_hash": "272005d0867e5df49c77578e47580786",
     "semantic_hash": ""
   },
-  "assets/icons/ui/Asset-vague-header.svg": {
-    "mtime": 1782489542.9955084,
-    "ast_hash": "820f6d0aeca3c3b44b27158df2094897",
+  ".codex/skills/latitude-ui/SKILL.md": {
+    "mtime": 1786366114.565752,
+    "ast_hash": "87441bffd62d4d790b7c88445cad4b2b",
     "semantic_hash": ""
   },
-  "assets/icons/ui/trait-ls-2.svg": {
-    "mtime": 1782483890.136595,
-    "ast_hash": "de0d444dfc2049e575663bc17b9b0bf9",
+  "AGENTS.md": {
+    "mtime": 1786366113.6230679,
+    "ast_hash": "bbcfebbae76120f05e2c066cf8eda397",
     "semantic_hash": ""
   },
-  "assets/icons/ui/trait-ls.svg": {
-    "mtime": 1782474941.7887049,
-    "ast_hash": "4ade6cbc4d3b594010141a50850ba66f",
+  "PROJECT_BRIEF.md": {
+    "mtime": 1785347120.0,
+    "ast_hash": "9102222d6f174425775abe8ddbce77c0",
     "semantic_hash": ""
   },
-  "assets/illustrations/moto/grenat-print-opt.png": {
-    "mtime": 1782479099.9609241,
-    "ast_hash": "15ee6652dc11e7331a5c7504020d5e10",
+  "docs/CHANGES.md": {
+    "mtime": 1782938510.0,
+    "ast_hash": "9cd9602b40f065c98ed9243f6b9b0fe3",
     "semantic_hash": ""
   },
-  "assets/illustrations/moto/grenat-print.png": {
-    "mtime": 1782475936.7835166,
-    "ast_hash": "60f8ca5ed0dd470fcba04dbefc502ab6",
+  "docs/PROJECT_CONTEXT.md": {
+    "mtime": 1782933485.0,
+    "ast_hash": "42f74cb93d3f8ca0c6c8fe1b018e62e1",
     "semantic_hash": ""
   },
-  "assets/illustrations/moto/grenat-social-opt.png": {
-    "mtime": 1782479098.4502234,
-    "ast_hash": "69639dc889a9968152131787e1b2dc25",
+  "docs/manual-review.md": {
+    "mtime": 1786450837.6358888,
+    "ast_hash": "e38c0b25e976ddd98b7acc568493afa3",
     "semantic_hash": ""
   },
-  "assets/illustrations/moto/grenat-social.png": {
-    "mtime": 1782475933.5958107,
-    "ast_hash": "2f69bb558884edc902910bb4d264b9d7",
+  "docs/repository-audit.md": {
+    "mtime": 1786450837.6355743,
+    "ast_hash": "08c2990f01c4bcdb90e2827675a9ae0f",
     "semantic_hash": ""
   },
-  "assets/illustrations/moto/grenat-video-opt.png": {
-    "mtime": 1782479097.0956783,
-    "ast_hash": "0b4f9a5f3b1ceb7d67387bca35dffd8e",
+  "pages/agence.html": {
+    "mtime": 1786452008.731989,
+    "ast_hash": "94ddc13d2b9a96c61ef8ce37e50354e3",
     "semantic_hash": ""
   },
-  "assets/illustrations/moto/grenat-video.png": {
-    "mtime": 1782475938.3756404,
-    "ast_hash": "637d0b9bab5cfdb8fd53140159ac911b",
+  "pages/catalogue.html": {
+    "mtime": 1786452008.7325017,
+    "ast_hash": "262a476ad052573b30762cce8fdce9ec",
     "semantic_hash": ""
   },
-  "assets/illustrations/moto/grenat-web-opt.png": {
-    "mtime": 1782479095.5488596,
-    "ast_hash": "64c1eb486312d33876a6d257ec3675a4",
+  "pages/charte-graphique.html": {
+    "mtime": 1786452008.7329197,
+    "ast_hash": "bec94f13aa585755ce7d76f5a82cab3e",
     "semantic_hash": ""
   },
-  "assets/illustrations/moto/grenat-web.png": {
-    "mtime": 1782475927.7106433,
-    "ast_hash": "c6be2dd54b5a669e5ace66c2bd1af345",
+  "pages/contact.html": {
+    "mtime": 1786452008.7333891,
+    "ast_hash": "cac0e7ccd1f8fd541eb5c6d6e99445cd",
     "semantic_hash": ""
   },
-  "assets/og-image.jpg": {
-    "mtime": 1782478670.0673783,
+  "pages/latitude-sud-news.html": {
+    "mtime": 1786452008.733883,
+    "ast_hash": "607b1f813970ddfec82cfae4f481698f",
+    "semantic_hash": ""
+  },
+  "pages/mentions-legales.html": {
+    "mtime": 1786452008.734355,
+    "ast_hash": "725eae6629c638543da99ecae4249652",
+    "semantic_hash": ""
+  },
+  "pages/photos.html": {
+    "mtime": 1786452008.735228,
+    "ast_hash": "9a92abcb56f87f2d2b378d0fbbf32ad9",
+    "semantic_hash": ""
+  },
+  "pages/politique-de-confidentialite.html": {
+    "mtime": 1786452008.7356853,
+    "ast_hash": "0934a425526444cb73ea18000627e3ca",
+    "semantic_hash": ""
+  },
+  "pages/print.html": {
+    "mtime": 1786452008.7360833,
+    "ast_hash": "fa07989e46f3f7d7498c37846b75a6a7",
+    "semantic_hash": ""
+  },
+  "pages/realisations.html": {
+    "mtime": 1786452008.7364905,
+    "ast_hash": "1b209c7cfc1f28089e4c31fe17e57930",
+    "semantic_hash": ""
+  },
+  "pages/social.html": {
+    "mtime": 1786452008.7372375,
+    "ast_hash": "fee81f7d82534919a3199a95007d44e7",
+    "semantic_hash": ""
+  },
+  "pages/video.html": {
+    "mtime": 1786452008.7378092,
+    "ast_hash": "bd25a1f7a768fb25ec58750ff2792d5e",
+    "semantic_hash": ""
+  },
+  "pages/web.html": {
+    "mtime": 1786452008.7381997,
+    "ast_hash": "24c0e04c0a6b46efd40369e807036ffe",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/abymes-source.webp": {
+    "mtime": 1786376619.6305475,
+    "ast_hash": "291de3c352cad569f1d4ff986aa22800",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/accessoire-lunettes-orange-bleu-hd.webp": {
+    "mtime": 1786385054.1439428,
+    "ast_hash": "2f6d596cbc539cf8e1bea8b754d37a33",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/campagne-fete-danger.webp": {
+    "mtime": 1786376625.1351974,
+    "ast_hash": "ce5f634533bab685b331ecfe9949cfa6",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/campagne-flotte-trois-vehicules.webp": {
+    "mtime": 1786384031.9385989,
+    "ast_hash": "012e1352a2cb284f7ef42629cea6dbf2",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/composition-agence-abymes.webp": {
+    "mtime": 1786379062.3772986,
+    "ast_hash": "d8fc657b6d1297e79fc4072b47b8a085",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/composition-pointe-chateaux.webp": {
+    "mtime": 1786376608.057178,
+    "ast_hash": "67ea77ff0f8a8d45d0e53ae0510f41c8",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/duo-avion-couple-st-martin.webp": {
+    "mtime": 1786376613.9264703,
+    "ast_hash": "a71d0054d636a76742e52b718e035535",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/duo-utilitaire-marche.webp": {
+    "mtime": 1786376619.1425571,
+    "ast_hash": "c851c0c846763cc5c0c4ee8c4de6411c",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/galerie-allee-du-manoir.webp": {
+    "mtime": 1786376628.4732747,
+    "ast_hash": "3503dc507c6ff52d48fb79196e900359",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/galerie-le-carbet.webp": {
+    "mtime": 1786376627.7267368,
+    "ast_hash": "b603ba9fdc993765327b31cd42fcda4f",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/galerie-saint-martin-nature.webp": {
+    "mtime": 1786376626.9039035,
+    "ast_hash": "c79d888006ab0195f5a0b7303f2efb9b",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/hero-auto-discount-visual.webp": {
+    "mtime": 1786396350.6071064,
+    "ast_hash": "8499db9836acdc29e5fdb5026a82a618",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/hero-car-blue-auto-discount.webp": {
+    "mtime": 1786370133.0891507,
+    "ast_hash": "4db6784dc83051287a3286ad2580551e",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/lieu-brut-pointe-chateaux.webp": {
+    "mtime": 1786376601.2339036,
+    "ast_hash": "f89dee6caee8ee3aa710c676d4836804",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/logo-avatar.webp": {
+    "mtime": 1785438820.8433373,
+    "ast_hash": "d135aa5cae2cbc7a6c6cfe14ffcfb70a",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/post-carnaval.webp": {
+    "mtime": 1785344337.0,
+    "ast_hash": "ada3987f4a4324129b134a345be5103b",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/post-final-entretien-vehicule-hd.webp": {
+    "mtime": 1786384777.4767115,
+    "ast_hash": "8cf825bf9208c1d75868f41ad79ab15e",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/post-final-pointe-chateaux.webp": {
+    "mtime": 1786376609.0985296,
+    "ast_hash": "b2837b486268a9f2650f8854c661aecd",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/road-trip-guyane.webp": {
+    "mtime": 1784315598.7141001,
+    "ast_hash": "ad5383c6b3f7cd4ad3598433a36c7dd9",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/road-trip-martinique.webp": {
+    "mtime": 1784317525.321631,
+    "ast_hash": "dc39c2ec0cd025bef35ab8b65ea89bcf",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/thumbnail-auto-discount-logo.webp": {
+    "mtime": 1785438854.412109,
+    "ast_hash": "5ae7abd634bc2d5474d8f0846325e3b4",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/ad-01.webp": {
+    "mtime": 1785421694.9424386,
+    "ast_hash": "2ef23911491542584a5a68c69f7f1fb2",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/autre-01-rillette-marlin.webp": {
+    "mtime": 1786390654.8184028,
+    "ast_hash": "6a755365bd59e9f293bab5bb88167368",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/autre-02-tourte-crabe.webp": {
+    "mtime": 1786390661.135083,
+    "ast_hash": "55078a9851f7d7dd8c64911d67135a73",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/autre-daurade-01-crabe.webp": {
+    "mtime": 1786390700.6362019,
+    "ast_hash": "3ec7cb67b5ec347c8a93a25da98d1ea4",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/autre-daurade-02-chatrou.webp": {
+    "mtime": 1786390704.078603,
+    "ast_hash": "6ef41979a8a3005ab2306513f59d59ff",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/avap1-apres-annesolene.webp": {
+    "mtime": 1786390694.8985531,
+    "ast_hash": "5fd53d4bf0d6ae66610b191e5b24369e",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/avap1-avant-annesolene.webp": {
+    "mtime": 1786390691.749732,
+    "ast_hash": "0c32ced95b67f8530e3d54578c3e4506",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/avap2-apres-sipe.webp": {
+    "mtime": 1786390699.8279724,
+    "ast_hash": "d43ec380b802e8d23a8556f696f8b116",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/avap2-avant-sipe.webp": {
+    "mtime": 1786390697.4121206,
+    "ast_hash": "e57d843e843e6c27311aa7ed011aa9ff",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/carousel-1-01.webp": {
+    "mtime": 1785421665.3436525,
+    "ast_hash": "52510ef34878728ff130cd9ca6aec3ce",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/carousel-1-02.webp": {
+    "mtime": 1785421666.0220509,
+    "ast_hash": "11f656bc553f554da979870a58d64d83",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/carousel-2-01.webp": {
+    "mtime": 1785421676.02019,
+    "ast_hash": "1748e71290305a6a52ab5d9ec21d8ebf",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/carousel-2-02.webp": {
+    "mtime": 1785421678.8699915,
+    "ast_hash": "9daefd50b07a1911bcb91fed3a133ade",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/daurade-ia-process.webp": {
+    "mtime": 1786390672.2971497,
+    "ast_hash": "3d58883663be664a1b9015939729f82e",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/daurade-post.webp": {
+    "mtime": 1786390681.7341654,
+    "ast_hash": "65f1e8911d5c2079a33d6a26e4e38a42",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/daurade-scene.webp": {
+    "mtime": 1786390678.228547,
+    "ast_hash": "eae1132edda8d49a36a4e95c4dde412b",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/daurade-studio.webp": {
+    "mtime": 1786390666.476196,
+    "ast_hash": "fa37bd14d70e7c8dc70dfb174eb53ee7",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/gratinees-morue-post.webp": {
+    "mtime": 1786390648.6388898,
+    "ast_hash": "53554a7dc27df4c2555d5633754cb55f",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/gratinees-morue-scene.webp": {
+    "mtime": 1786390644.8736656,
+    "ast_hash": "5a10a1652bb8f7b245e8c209e3ab3c9f",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/gratinees-morue-source-01.webp": {
+    "mtime": 1786390638.7893605,
+    "ast_hash": "f652306357635675af7f91dd933abfc5",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/gratinees-morue-source-02.webp": {
+    "mtime": 1786390643.09952,
+    "ast_hash": "00a85cda3e90f54d55256513a384902e",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/hero-cap-creole-bg.webp": {
+    "mtime": 1786394678.4886293,
+    "ast_hash": "63460aa993121bdc7ee526045c5b4bed",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/hero-cap-creole-visual.webp": {
+    "mtime": 1786394741.850774,
+    "ast_hash": "e1c7bbdd9e4bc19d2cdb2fadc093e5e4",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/ig-degustation-01.webp": {
+    "mtime": 1786390685.0531383,
+    "ast_hash": "1249f85317b47907d9d8896b15fc6082",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/ig-degustation-02.webp": {
+    "mtime": 1786390687.9744747,
+    "ast_hash": "ea9f17a5331fdb7b2e0efea4b25ce2bc",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/ig-degustation-03.webp": {
+    "mtime": 1786390690.4651878,
+    "ast_hash": "b446cb2904bd8779ba438c29c4a0d7bb",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/logo-avatar.webp": {
+    "mtime": 1785440097.1212585,
+    "ast_hash": "0977b6f7982488481187977c62a6d3f3",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/post-cannard.webp": {
+    "mtime": 1785421688.1207066,
+    "ast_hash": "3bbcb855bfc97573fc23c2a19a235dd5",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/thumbnail-cap-creole.webp": {
+    "mtime": 1785443802.4179986,
+    "ast_hash": "fc880165c65b3f391ba8d6c54197e0cb",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/michelle-campaign-cover.jpg": {
+    "mtime": 1786399751.7713277,
+    "ast_hash": "2cc03d94f552bac6cf4c7ccd2a9b21a3",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/michelle-making-of-cover.jpg": {
+    "mtime": 1786399751.7765875,
+    "ast_hash": "4f5b73bb24bb38c0c59f83b673998327",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/michelle-teaser-cover.jpg": {
+    "mtime": 1786399751.7675223,
+    "ast_hash": "6b16b81596b5d8af0cf7e422f06c0ce9",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/michelmtk-hero.webp": {
+    "mtime": 1785446587.3185441,
+    "ast_hash": "13137d543eba6aa906c250846ec3010f",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/post-01.webp": {
+    "mtime": 1785421655.6572764,
+    "ast_hash": "9156d4228b754709179a050a07b5e897",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/post-02.webp": {
+    "mtime": 1785421656.0495594,
+    "ast_hash": "03ad671843a19ac4f0eb74403cae0f10",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/post-03.webp": {
+    "mtime": 1785421659.647783,
+    "ast_hash": "6f3e644a4b113018bfc138bc7ec7b037",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/post-04.webp": {
+    "mtime": 1785421660.4928157,
+    "ast_hash": "8cb7ccdc86e5564a79376f85937ef8c0",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/post-05.webp": {
+    "mtime": 1785422534.1576931,
+    "ast_hash": "0229132270d241f545f23e24e8bbc462",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/post-06.webp": {
+    "mtime": 1785437379.2105553,
+    "ast_hash": "80fdaa0bdd0945c5a4b53789295fde9c",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/thumbnail-digilife.webp": {
+    "mtime": 1785422533.6392417,
+    "ast_hash": "1dead86525d70915359d21f196db08d6",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeone/logo-lifeon-official.png": {
+    "mtime": 1786396351.411204,
+    "ast_hash": "edf9794231f4cb3dac496113471e9971",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/michelle-making-of.mp4": {
+    "mtime": 1786399752.857153,
+    "ast_hash": "b0e0566b7efcf7c84ed67a26d72bd23d",
+    "semantic_hash": ""
+  },
+  "docs/references/hero-prompts/header-prompts-v2.md": {
+    "mtime": 1785764766.0569406,
+    "ast_hash": "c2bd1e9a7c4b2459adc3bedcb83b2a15",
+    "semantic_hash": ""
+  },
+  "docs/references/hero-prompts/header-prompts-v3.md": {
+    "mtime": 1785772360.8289845,
+    "ast_hash": "ca475914f9c4f5c1c4c836ecd616c9d8",
+    "semantic_hash": ""
+  },
+  "to-del/qa/pages/parallax-test.html": {
+    "mtime": 1786452008.734743,
+    "ast_hash": "7a54ab5ed62a85b91c51286e50e6b853",
+    "semantic_hash": ""
+  },
+  "to-del/qa/qa-responsive-frame.html": {
+    "mtime": 1786374857.3356054,
+    "ast_hash": "dcebaf747870e3f359c272edaf9fb0c5",
+    "semantic_hash": ""
+  },
+  "to-del/work-files/Attached-Element-Context-from-Integrated.txt": {
+    "mtime": 1782486419.0,
+    "ast_hash": "cb9eb60e661f9388e3bff1b633d9077d",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/hero.jpg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "cf01be7c815262ff8c56dc9e917c902b",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-agence-1920.webp": {
+    "mtime": 1786016087.3532531,
+    "ast_hash": "05d84f13c3a5b9a7e63543a955fd542e",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-agence-960.webp": {
+    "mtime": 1786016127.8105934,
+    "ast_hash": "c88235ccf5792e63b909632e3091b3dd",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-agence-edge-1920.webp": {
+    "mtime": 1785783148.3465476,
+    "ast_hash": "ed61538fc016502bd1558bc5a8e2c7e2",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-catalogue-1920.webp": {
+    "mtime": 1786394140.243064,
+    "ast_hash": "97242d4aaf8c644fb2cfe7c82642da24",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-catalogue-960.webp": {
+    "mtime": 1786015948.6983216,
+    "ast_hash": "2db9f470bb4fbd135d11a8658feab2ab",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-catalogue-edge-1920.webp": {
+    "mtime": 1785783151.9926877,
+    "ast_hash": "c917c8d25858f786af64369b404bea45",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-charte-1920.webp": {
+    "mtime": 1786017463.680478,
+    "ast_hash": "2e865885d98a5e9e78ba9a71506328f7",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-charte-960.webp": {
+    "mtime": 1786016848.5336318,
+    "ast_hash": "62406609f61850ca7fe0ad5c13339f81",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-charte-edge-1920.webp": {
+    "mtime": 1785783152.725645,
+    "ast_hash": "71fc3f8cdede39c256f1fdf97e28df2b",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-contact-1920.webp": {
+    "mtime": 1786018080.9863007,
+    "ast_hash": "1d1d761deb294c55d9a43bb05713d6e1",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-contact-960.webp": {
+    "mtime": 1786016757.9445608,
+    "ast_hash": "d5aef37fcdf5ee362de991c14edca9fc",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-contact-edge-1920.webp": {
+    "mtime": 1785783153.462809,
+    "ast_hash": "d0594025b5ea747197ae62c139c1c767",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-home-1920.webp": {
+    "mtime": 1786016651.606378,
+    "ast_hash": "366b51e12d4acf53c594226e27572d34",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-home-960.webp": {
+    "mtime": 1786016681.163381,
+    "ast_hash": "9bd7f089c1464ab7dceccac7c9483244",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-home-edge-1920.webp": {
+    "mtime": 1785783147.549047,
+    "ast_hash": "c178acf684763710f2e90ac1164d6977",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-photos-1920.webp": {
+    "mtime": 1786017311.2210624,
+    "ast_hash": "f6b5a1a1fd9244fb98a745896b31753f",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-photos-960.webp": {
+    "mtime": 1786016549.4626853,
+    "ast_hash": "1aa6f142cd2a7d484bfc8693c2d4faa7",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-photos-edge-1920.webp": {
+    "mtime": 1785783150.4378476,
+    "ast_hash": "ac494f034798ab3af19d59feba88c465",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-realisations-1920.webp": {
+    "mtime": 1786016434.8203788,
+    "ast_hash": "dc8a850ab4fbea0fecea406ec1c731f4",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-realisations-960.webp": {
+    "mtime": 1786016457.1391866,
+    "ast_hash": "2df93614df03ffce2754cc5a38bde7d9",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-realisations-edge-1920.webp": {
+    "mtime": 1785783149.7190926,
+    "ast_hash": "33635f93cebfc590f3c3bbbf41faf5b9",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-social-1920.webp": {
+    "mtime": 1786017529.65827,
+    "ast_hash": "c866478d95d5bb122e9e4ffc1b3b8c63",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-social-960.webp": {
+    "mtime": 1786016334.1796076,
+    "ast_hash": "a37402a366254a01c9748cfa50a02760",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/generated/hero-social-edge-1920.webp": {
+    "mtime": 1785783151.2350824,
+    "ast_hash": "7fa6b92b807572f354778e464a0a4bdc",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/header-bg-homme.png": {
+    "mtime": 1782414249.0,
+    "ast_hash": "09cebbb5f4f9fe670c662dab772be558",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/img-bg-cta-wide-transparent.png": {
+    "mtime": 1785268999.0,
+    "ast_hash": "ef29cf142d581736f2f6f35bbdf4239e",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/image-bg/img-bg-cta.webp": {
+    "mtime": 1785262583.0,
+    "ast_hash": "f816bf37b9a75eb56bb48651e6df8d68",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/\u00e9l\u00e9ments-bg/parallax/bg-banana-tree.png": {
+    "mtime": 1781880497.0,
+    "ast_hash": "7aae05efda1f30202a735584c85d54a4",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/\u00e9l\u00e9ments-bg/parallax/bg-hills.png": {
+    "mtime": 1781880505.0,
+    "ast_hash": "a9c2d65c34dd8187f21ca1abf49f651b",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/\u00e9l\u00e9ments-bg/parallax/bg-mountains.png": {
+    "mtime": 1781880491.0,
+    "ast_hash": "fdfdcc18879ed87c921270fb6c765a33",
+    "semantic_hash": ""
+  },
+  "assets/global/backgrounds/\u00e9l\u00e9ments-bg/parallax/bg-sky.png": {
+    "mtime": 1781880494.0,
+    "ast_hash": "c346396349a35a741fb0026d8cee8c24",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/favicons/android-chrome-192x192.png": {
+    "mtime": 1781883364.0,
+    "ast_hash": "3248cd5d011b0ef372e2508b8a68f4f7",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/favicons/android-chrome-512x512.png": {
+    "mtime": 1781883364.0,
+    "ast_hash": "f4c69d5eed8d576222e595395ce8fac9",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/favicons/apple-touch-icon.png": {
+    "mtime": 1781883364.0,
+    "ast_hash": "8273d72176b7c10aa64be95ae0377467",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/favicons/favicon-16x16.png": {
+    "mtime": 1781883364.0,
+    "ast_hash": "194da818a4e6e314e3f4d87352579ae3",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/favicons/favicon-32x32.png": {
+    "mtime": 1781883364.0,
+    "ast_hash": "78d5fa60a05db870742ddadb40095c1b",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logo-sud.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "9e00838db90db48cf8b1fc938a175784",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-Capaceo.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "dc51e423dcd5ec72e30ac7c8acf58cc5",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-Affligem.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "4e0ef2993b8359321ccb482dbd121d3a",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-BelAirSup.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "5bdfd8ee411239368415bac47bbfec91",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-CIST.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "6c7547ff90037495e3d43616fff63e4e",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-Canal-plus.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "a184731afd1d679dda17335eaf38ba74",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-CapCreole.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "566aee35f66686cadd1ba45a0160d352",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-Caribois.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "6f4b2e30881938b0958551ee761701ce",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-autodiscount.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "2aa16a2d257e4eac1a350beb9d46cf64",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-bebe-9.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "0cc42631887cfbf438277d496a920617",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-carrefour.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "4566a1a247431f170b6a3b34a39368e8",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-decathlon.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "1543c0cccef8df88074a59016aeee77f",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-digilife.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "b8b84b3f8cfa283dde8ee8c029cf2795",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-histoire-dor.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "655afc24945e0fe5e06fdfaffce45282",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-ioburo.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "b801b0555291e8b2db722d802e435030",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-jose-fabricator.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "03bb5d54f53f84049ac6bb78f55f4071",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-la-foir-fouille.png": {
+    "mtime": 1786038060.5949516,
+    "ast_hash": "f953648a9132ff24f654a2caf5d67423",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-laroutedurhum.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "737cea1b39b52c00ed2b8a858f99d95e",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-mango.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "a396c1a84401382ddc030df2a3e7aa15",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-montebello.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "e0327b73d418bd4e95fec8a2c07b1d69",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-mr-bricolage.svg": {
+    "mtime": 1785871689.289869,
+    "ast_hash": "2c13709390c80921096913c94491c265",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-persepolis.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "d0cc1980c64934a03910d1426422804f",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-phoenicia.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "3656202cc3d28483d3f79459cdc2ac30",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-piton.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "b274f1203dcbd7c0513346d9a3dfd47d",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-porter.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "9b88d77fe1078d382378b00661dcdd48",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-siligom.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "7d8077ec8f3a50a69362ba70ae841d25",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-black-sol.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "f2506b2f5fdaecca9afba0c8de02a6cf",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/Logo-Clients-white-digilife.svg": {
+    "mtime": 1786031799.966501,
+    "ast_hash": "56ed3eeae508b53166293e0ff6b6eafb",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logos/gamm-vert-official.webp": {
+    "mtime": 1785504862.4750516,
+    "ast_hash": "819ba592c5693ab62ecc1b8277c78fc4",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/og-image.jpg": {
+    "mtime": 1782478670.0,
     "ast_hash": "5b3b001166009e1a5e3a48bc18dcee2f",
     "semantic_hash": ""
   },
-  "assets/prototypes/charte graphique/KIT-UI-LS-2.png": {
-    "mtime": 1782476770.862352,
-    "ast_hash": "50fb078e9704ed7340744f66767a08a7",
+  "assets/global/icons/ui/icon-ui-cocotier.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "365bf241e3e679d510888487405c9baf",
     "semantic_hash": ""
   },
-  "assets/prototypes/charte graphique/KIT-UI-LS.png": {
-    "mtime": 1782476770.2075438,
-    "ast_hash": "f70195af5f90d930bb132bb368f8548d",
+  "assets/global/icons/ui/trait-ls-2.svg": {
+    "mtime": 1782483890.0,
+    "ast_hash": "de0d444dfc2049e575663bc17b9b0bf9",
     "semantic_hash": ""
   },
-  "assets/prototypes/pages/CTA.jpg": {
-    "mtime": 1782476753.9913244,
-    "ast_hash": "6ce785781f691c49678f83f1e0b9e344",
+  "assets/global/icons/ui/trait-ls-3.svg": {
+    "mtime": 1782917115.0,
+    "ast_hash": "ef51f88d5819d1665e191f6423f30c64",
     "semantic_hash": ""
   },
-  "assets/prototypes/pages/Home-Page-V1.png": {
-    "mtime": 1782476740.4504156,
-    "ast_hash": "0d95e6928220faba2337f8d9cfe24d66",
+  "assets/global/icons/ui/trait-ls.svg": {
+    "mtime": 1782923766.0,
+    "ast_hash": "1dcf462c1ba191d78675d40346bd9df2",
     "semantic_hash": ""
   },
-  "assets/prototypes/pages/Home-Page-V2.png": {
-    "mtime": 1782476741.5362175,
-    "ast_hash": "3671616e52c47ba1bc9a72e0f276d4a9",
+  "assets/global/illustrations/moto/Grenat-clean.webp": {
+    "mtime": 1785262581.0,
+    "ast_hash": "735dd8468d78d86fc5accdd799581aff",
     "semantic_hash": ""
   },
-  "assets/prototypes/pages/PRint.png": {
-    "mtime": 1782476745.307024,
-    "ast_hash": "0f115c1fb0f5993ae6e876be87637bc2",
+  "assets/global/illustrations/moto/grenat-print-cutout.webp": {
+    "mtime": 1785331027.0,
+    "ast_hash": "18388555b63350e29d5fab0d88d02beb",
     "semantic_hash": ""
   },
-  "assets/prototypes/pages/Reseaux-.png": {
-    "mtime": 1782476743.7528727,
-    "ast_hash": "d13c816f5108a4a32f1f9d1471b60fcc",
+  "assets/global/illustrations/moto/grenat-social-cutout.webp": {
+    "mtime": 1785331027.0,
+    "ast_hash": "906ed8064ab71cc054d7b701f6bdb626",
     "semantic_hash": ""
   },
-  "assets/prototypes/pages/Video.png": {
-    "mtime": 1782476747.9433908,
-    "ast_hash": "4e895d996da9699c5e4c7a4be0c6781d",
+  "assets/global/illustrations/moto/grenat-video-cutout.webp": {
+    "mtime": 1785331028.0,
+    "ast_hash": "1ee70159b69037347366dc78fba66d67",
     "semantic_hash": ""
   },
-  "assets/prototypes/pages/Web.png": {
-    "mtime": 1782476742.5891027,
-    "ast_hash": "92cb2a4e2ae56e03231ad04273dcc3df",
+  "assets/global/illustrations/moto/grenat-web-cutout.webp": {
+    "mtime": 1785331028.0,
+    "ast_hash": "284e5260ddda7b9b9457aa93e452eb73",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/applications/facebook.webp": {
+    "mtime": 1785869599.791352,
+    "ast_hash": "798843d48c9318020db607bfa77ed715",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/applications/icon.webp": {
+    "mtime": 1785790880.8430705,
+    "ast_hash": "9ec6d1396d3650810d5fd581f4146877",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/applications/pattern-a-vert.png": {
+    "mtime": 1785867324.138065,
+    "ast_hash": "2b811257b152cda9f5eeed5dbfbc2ecf",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/applications/pattern-b-jaune.webp": {
+    "mtime": 1786142409.578372,
+    "ast_hash": "81296d3a790f7b789931be42d90af045",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/applications/pattern-promotion.webp": {
+    "mtime": 1785790887.801331,
+    "ast_hash": "ef71a8a940bebb3559d77bcb6ce019a5",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/applications/t-shirt-custom.webp": {
+    "mtime": 1785793221.241677,
+    "ast_hash": "c09a4d859cb7323cfd160db54326b397",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/applications/tote-bag-custom.webp": {
+    "mtime": 1785793220.5621774,
+    "ast_hash": "9d3c726395a40abaa54627d303ae53a4",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/editorial/colombo-square.webp": {
+    "mtime": 1785790889.099818,
+    "ast_hash": "100494ae29337fae827c34e044e20baf",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/editorial/colombo-wide.webp": {
+    "mtime": 1785790890.687148,
+    "ast_hash": "cd4e62203e694be34ec670ca87d64045",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/editorial/history-clove-closeup.webp": {
+    "mtime": 1785790892.321354,
+    "ast_hash": "2e41bf51e9d92dbe2d567da6940b7490",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/editorial/history-clove-drying.webp": {
+    "mtime": 1785790891.7867832,
+    "ast_hash": "abd2616b6d435f190a6f5065795a0355",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/editorial/history-clove-wide.webp": {
+    "mtime": 1785790894.3641667,
+    "ast_hash": "5d4f86d710dfc17e2263b1719aea89a7",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/editorial/history-nutmeg.webp": {
+    "mtime": 1785790891.0173717,
+    "ast_hash": "08f49a579fec68fb30bfa5c00ded577a",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/editorial/recipe-soup-cover.webp": {
+    "mtime": 1785790894.6908965,
+    "ast_hash": "9b21b92bebbecb911c42b94a286c15b1",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/editorial/recipe-soup-ingredients.webp": {
+    "mtime": 1785790894.9429195,
+    "ast_hash": "64abe856cae1df3d237fe231f3c25b7b",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/editorial/recipe-soup-step-one.webp": {
+    "mtime": 1785790895.373731,
+    "ast_hash": "2344bc4a6a23eeb2d78425b2b7f4aa47",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/editorial/recipe-soup-step-two.webp": {
+    "mtime": 1785790895.6174154,
+    "ast_hash": "0079df87aff578d6cab81995f702f255",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/identity/logo-badge-bicolor-jaune.svg": {
+    "mtime": 1785869098.0331874,
+    "ast_hash": "f319e5c93f27cb14cd4ed80fb729c519",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/identity/logo-badge-bicolor-vert.svg": {
+    "mtime": 1785869098.0473146,
+    "ast_hash": "686f19e7f133e3ed5a4d8a36404d52f4",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/identity/logo-badge-original.svg": {
+    "mtime": 1785869098.0282257,
+    "ast_hash": "609cd56097c64a5d510afbaca8388741",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/identity/logo-badge-vert.svg": {
+    "mtime": 1785869098.0611145,
+    "ast_hash": "917fe479a52e23cf3e35b4363c8170fb",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/identity/logo-badge-vertfonce.svg": {
+    "mtime": 1785869098.066345,
+    "ast_hash": "f1de9025c6146c57b73bb6fa28d7a68b",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/identity/logo-detail-dossier.webp": {
+    "mtime": 1785854514.607589,
+    "ast_hash": "720d6279132c04574b962998fbdf9c7c",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/identity/logo-horizontal-white.webp": {
+    "mtime": 1785866629.361369,
+    "ast_hash": "4a99fabdc907099c8a311a598c8aa9cb",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/identity/logo-horizontal-yellow.webp": {
+    "mtime": 1785871088.8829198,
+    "ast_hash": "94b5487f43c2eecee5c8b03876536e74",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/logo-after.webp": {
+    "mtime": 1785871689.3009565,
+    "ast_hash": "f26b5f22bcc783d776b0480e6368e393",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/logo-before.webp": {
+    "mtime": 1785871689.3024626,
+    "ast_hash": "cb3dae681a9f7ef1c2317fee748079d2",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/presentation/bonnes-epices-cartes-visite-mockup.webp": {
+    "mtime": 1785854520.679873,
+    "ast_hash": "12f4bb6d472e8ea06c2024c854bff398",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/terrain/rayon-cannelle.webp": {
+    "mtime": 1785869130.8100834,
+    "ast_hash": "c6b06a5f0c2d20ca8c3b4fbb70599a16",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/terrain/rayon-coco-carre.webp": {
+    "mtime": 1785790897.340868,
+    "ast_hash": "60d743ab120874f355c61c604c6d24a5",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/terrain/rayon-massale-bois-inde.webp": {
+    "mtime": 1785854523.3077412,
+    "ast_hash": "4ee859057fbb7df8ced30e3ca7acfaeb",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/terrain/rayon-piments-poivre.webp": {
+    "mtime": 1785790898.3970952,
+    "ast_hash": "42d3364a99185cf37356e6490ce06122",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/bonnes-epices/thumbnail/thumbnail-les-bonnes-epices-rebranding-2023.webp": {
+    "mtime": 1785338040.0,
+    "ast_hash": "f26b5f22bcc783d776b0480e6368e393",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/application-facebook-square.webp": {
+    "mtime": 1785447783.2285936,
+    "ast_hash": "136d73b2a87b4cd6e7ac339ead4f9576",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/application-instagram.webp": {
+    "mtime": 1785272731.0,
+    "ast_hash": "6baea374514a9d1881eb1d12b57b866c",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/branch-maintien.webp": {
+    "mtime": 1785272728.0,
+    "ast_hash": "ef9226f8ece17afced25f77fdff5d24c",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/branch-risque.webp": {
+    "mtime": 1785272728.0,
+    "ast_hash": "337b47eaebe9653bd76e4cac6db24a39",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/branch-suivi.webp": {
+    "mtime": 1785272727.0,
+    "ast_hash": "e34ecefff94faae53abadaed574b9566",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/card-thumbnail-centered.webp": {
+    "mtime": 1785532337.2894607,
+    "ast_hash": "e0ce2e2a893d7b88c71e1d15df3485f3",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/flyer-boulanger-patissier.jpg": {
+    "mtime": 1785785839.3286214,
+    "ast_hash": "811e68ca42ae3e5afeddf456d02a9f15",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/flyer-rayonnement-ionisant.jpg": {
+    "mtime": 1785785824.9850218,
+    "ast_hash": "4dc645e3c5b995746bdd3a5349523baf",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/guidelines/cist-systeme-pictogrammes.webp": {
+    "mtime": 1785338055.0,
+    "ast_hash": "e5ebe03769d1de198d9bc9def91ac41e",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/guidelines/cist-zone-protection-horizontal.webp": {
+    "mtime": 1785345967.0,
+    "ast_hash": "0ff780a4572606f4a82cf190f4b3b726",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/guidelines/cist-zone-protection-vertical.webp": {
+    "mtime": 1785345971.0,
+    "ast_hash": "0bde7443a30124f4c95eb037e2d31ba5",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/logo-before.webp": {
+    "mtime": 1785338285.0,
+    "ast_hash": "c2bf3c8fe5acb143f0b4bd4f005025d4",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/logo-horizontal.webp": {
+    "mtime": 1785338288.0,
+    "ast_hash": "2fd65683c75463924c266db03308a784",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/logo-icon.webp": {
+    "mtime": 1785272727.0,
+    "ast_hash": "9912305b011cd48bec681c8752fba061",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/logo-vertical-trimmed.webp": {
+    "mtime": 1785550935.6617951,
+    "ast_hash": "eae4ce2ccef549607a1a08ddac0f5140",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/logo-vertical.webp": {
+    "mtime": 1785338288.0,
+    "ast_hash": "2d8be00f1f9f0a70dfe8f94a08b9274f",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/mockup-business-cards.webp": {
+    "mtime": 1785328383.0,
+    "ast_hash": "eec006151c4012dd1699b5005c61572d",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/mockup-event-rollup.webp": {
+    "mtime": 1785328384.0,
+    "ast_hash": "51367eefb23fd1c0c70d4f82c3b9b8e2",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/photo-accompagnement.webp": {
+    "mtime": 1785328384.0,
+    "ast_hash": "09abf0f06c6b87055d728427f2b705a4",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/photo-consultation.webp": {
+    "mtime": 1785328384.0,
+    "ast_hash": "b6febef95c403fa3bf98fb635c49262c",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/photo-dialogue.webp": {
+    "mtime": 1785328385.0,
+    "ast_hash": "8d96e3f06b4dbb04e002e29f9f4c17cc",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/photo-ecoute.webp": {
+    "mtime": 1785328384.0,
+    "ast_hash": "6018d13acaf2151bce1f637f833c6ba7",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/photo-prevention-collective.webp": {
+    "mtime": 1785328384.0,
+    "ast_hash": "08f57314f78c8ae7702d76a60bf7ae22",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/website/cist-site-accueil-2026.jpg": {
+    "mtime": 1785788696.1507678,
+    "ast_hash": "f66923b16b90b729ec7ab3296f363785",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/website/cist-site-actualites-faq.jpg": {
+    "mtime": 1785788695.652844,
+    "ast_hash": "9fff5d76cca0232fb18825178aeda135",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/cist/website/cist-site-tarifs.jpg": {
+    "mtime": 1785788695.0913248,
+    "ast_hash": "5dc400db6d1ac5e53a521a5a771f5aed",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/avant-apres/apres-gosier.webp": {
+    "mtime": 1785869416.6851115,
+    "ast_hash": "0b8bd66a7914a25e852d9d08c0560b80",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/avant-apres/apres-jarry.webp": {
+    "mtime": 1785869416.7813869,
+    "ast_hash": "29673259f53b16719a61d9af98793056",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/avant-apres/avant-agnes.webp": {
+    "mtime": 1785857600.0054684,
+    "ast_hash": "cf35c1ebc3d30bcb0308d8442ce29bc6",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/avant-apres/avant-gosier.webp": {
+    "mtime": 1785857596.054047,
+    "ast_hash": "96183959455812ab4f2251b61be7a118",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/charte/page-05.webp": {
+    "mtime": 1785864552.0375297,
+    "ast_hash": "0721526b30fd458eb9ab638236c03053",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/charte/page-06.webp": {
+    "mtime": 1785864553.5939841,
+    "ast_hash": "4f0f2d38ccb2a65c005d4318ccf1e5ee",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/charte/page-08.webp": {
+    "mtime": 1785864555.245742,
+    "ast_hash": "3159411f8cf824ae54fa78bfed2d0a77",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/charte/page-09.webp": {
+    "mtime": 1785864556.9096377,
+    "ast_hash": "a539ab43142e055ff98b6e1b56bb61f1",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/charte/page-10.webp": {
+    "mtime": 1785864558.5400653,
+    "ast_hash": "bbb1425eec1cc5ea31f31c58f877aab7",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/charte/page-11.webp": {
+    "mtime": 1785864560.483753,
+    "ast_hash": "390942794ba16ae05044b4ad2780a20d",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/identity/logo-white.svg": {
+    "mtime": 1785869755.0905185,
+    "ast_hash": "21eec7141e1fcd8b5922022059f6495f",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/mockups/apron.webp": {
+    "mtime": 1785865856.4950728,
+    "ast_hash": "6eb2a137a76f21b037d7adf0f1953aef",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/mockups/brand-card-front.webp": {
+    "mtime": 1785869899.8839061,
+    "ast_hash": "170e0b11ffd9cebdfdfd5cc851254a47",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/mockups/business-card.webp": {
+    "mtime": 1785865857.2887542,
+    "ast_hash": "2379513bb12dbd9fb89b94aad50caabf",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/mockups/garment-cover.webp": {
+    "mtime": 1785865858.2782168,
+    "ast_hash": "4c757af23fc6a4aaa1e7bd966922a0c2",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/mockups/garment-tag.webp": {
+    "mtime": 1785865858.6633859,
+    "ast_hash": "0b925b67e89480a72a8feffe68330726",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/mockups/letterhead.webp": {
+    "mtime": 1785865859.128742,
+    "ast_hash": "528e868e08d4d7006201c887e7c560cf",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/mockups/second-store.webp": {
+    "mtime": 1785865859.7205367,
+    "ast_hash": "29673259f53b16719a61d9af98793056",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/terrain/van-face.webp": {
+    "mtime": 1785865625.8218594,
+    "ast_hash": "6bab296aadd2ed9e6317ab5fad36b634",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/le-pressing/terrain/van-lateral.webp": {
+    "mtime": 1785865629.8404572,
+    "ast_hash": "59c672ed7b89139bffea6ead590113e2",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/marina/charte-format-square.webp": {
+    "mtime": 1785344124.0,
+    "ast_hash": "c97a51d641fa883f8e3e00e01861ebc6",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/marina/charte-foundations.webp": {
+    "mtime": 1785329924.0,
+    "ast_hash": "697f1878713541610f9a3818035d0dc5",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/marina/logo-after.webp": {
+    "mtime": 1785871689.3263798,
+    "ast_hash": "b3e305306132d366be18a6c10b68ed83",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/marina/logo-before.webp": {
+    "mtime": 1785262647.0,
+    "ast_hash": "b5d03c3a56611329aca3e7de0c4f46f9",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/marina/logo-blue-transparent.webp": {
+    "mtime": 1785265532.0,
+    "ast_hash": "12c87eb416a2b04da0548810aa7996d9",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/marina/mockups/generated/marina-badge-acces.webp": {
+    "mtime": 1785503576.449935,
+    "ast_hash": "ed4e839d68554c432710bb4b52b8f7f9",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/marina/mockups/generated/marina-borne-digitale.webp": {
+    "mtime": 1785503575.8545442,
+    "ast_hash": "1400f48cf0d12f1b0bdfa6d535e91549",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/marina/mockups/generated/marina-drapeaux.webp": {
+    "mtime": 1785503576.2968242,
+    "ast_hash": "babcc8c0d6ccc25119cd956bb0f3df36",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/marina/mockups/generated/marina-guide-port.webp": {
+    "mtime": 1785503576.0138006,
+    "ast_hash": "bdfcc45fc541fcd89e6fe679e02c988d",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/marina/mockups/generated/marina-plan-orientation.webp": {
+    "mtime": 1785503575.686959,
+    "ast_hash": "91ca70031049344b31ce4eb36156d508",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/marina/mockups/generated/marina-polo-equipe.webp": {
+    "mtime": 1785503576.4328103,
+    "ast_hash": "2ef5a2fb69978b45a42132614b9c7592",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/marina/mockups/generated/marina-poloshirts.webp": {
+    "mtime": 1785503576.7027044,
+    "ast_hash": "4a79f128d74a5a65e86dfd7d267d273b",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/marina/mockups/generated/marina-signaletique.webp": {
+    "mtime": 1785503575.7576604,
+    "ast_hash": "53c97cf91b0f42b7faeb5398abe9ae98",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/marina/mockups/marina-equipe-accueil.webp": {
+    "mtime": 1785447055.1456332,
+    "ast_hash": "de61fc04025730bc745b3826490d7961",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/marina/mockups/marina-kit-visiteur.webp": {
+    "mtime": 1785447055.6409981,
+    "ast_hash": "a4c3de62f0a9b2c85f5389a81243c28f",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/marina/simulation-4_3-source.webp": {
+    "mtime": 1785864549.2295353,
+    "ast_hash": "ba4dc00ade9bc2633d9ad578761bee89",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/marina/simulation-4_3.webp": {
+    "mtime": 1785864546.860402,
+    "ast_hash": "01021cd8d3f84b00c3b7abb1ffc442d7",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/sa-pressing/brand-card-front-no-url.webp": {
+    "mtime": 1785532337.858854,
+    "ast_hash": "ede4810be7e7781f2c3f6870099168f8",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/smgeag/icon-hussard-trim.webp": {
+    "mtime": 1785447343.952305,
+    "ast_hash": "58c188ac17627c9673cb00769f181231",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/smgeag/icon-primary-trim.webp": {
+    "mtime": 1785447343.871759,
+    "ast_hash": "9ac0eb21b29ee0011b65fad33522ca0e",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/smgeag/icon-silver-trim.webp": {
+    "mtime": 1785447344.0354362,
+    "ast_hash": "b1d9078a1324c392454c57890b6a8232",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/smgeag/logo-baseline-transparent.webp": {
+    "mtime": 1785338285.0,
+    "ast_hash": "a8e784462fb98a554244cc519553b044",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/smgeag/logo-bicolor-blue-card.webp": {
+    "mtime": 1785533202.4201567,
+    "ast_hash": "62cab66ad9221fc05584894e7025cd64",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/smgeag/logo-bicolor-light-card.webp": {
+    "mtime": 1785533202.23673,
+    "ast_hash": "a38983facf7ab57fa29013f803872fec",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/smgeag/logo-horizontal-card.webp": {
+    "mtime": 1785533202.0018182,
+    "ast_hash": "3b1df6366498dccfcfd88e0b48e4f295",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/smgeag/logo-horizontal.webp": {
+    "mtime": 1785329374.0,
+    "ast_hash": "6e0ac35d35e0d0c3c37845531b84fc3b",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/smgeag/logo-mono-dark-card.webp": {
+    "mtime": 1785533202.5993233,
+    "ast_hash": "d4093855748707cfa5f814b3f9510774",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/smgeag/mockups/smgeag-controle-laboratoire.webp": {
+    "mtime": 1785532338.695488,
+    "ast_hash": "d58df11903e5f06a581d19c4ea81b6be",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/smgeag/mockups/smgeag-controle-reseau.webp": {
+    "mtime": 1785532339.2998257,
+    "ast_hash": "063939e4b7d6de356d54179bb8ae50df",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/smgeag/mockups/smgeag-equipement-terrain.webp": {
+    "mtime": 1785447056.6866274,
+    "ast_hash": "177ae80404751176802cb363ca0083c7",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/smgeag/mockups/smgeag-vehicule-intervention.webp": {
+    "mtime": 1785447056.2345006,
+    "ast_hash": "107d8822ba044f31e4e60d053ecbdce4",
+    "semantic_hash": ""
+  },
+  "assets/projects/branding/smgeag/scr-20260804-imjstra.png": {
+    "mtime": 1785861614.3207815,
+    "ast_hash": "1b2f425c2f46a8d7908eeb4fd411ef41",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/catalogue-01-cover.webp": {
+    "mtime": 1785965828.090436,
+    "ast_hash": "457af9beda24c3cf2ea6f192706d52f3",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/catalogue-01-page-02.webp": {
+    "mtime": 1785965825.7712183,
+    "ast_hash": "774c6d289aa1da79d95c267290a47f91",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/catalogue-01-page-08.webp": {
+    "mtime": 1785965822.8660266,
+    "ast_hash": "c1bb2495c09070f9bbc65cec57899700",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/catalogue-01-page-13.webp": {
+    "mtime": 1785965826.4051623,
+    "ast_hash": "6101510d04c62f3538615de31061acaa",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/catalogue-01-page-18.webp": {
+    "mtime": 1785965831.054632,
+    "ast_hash": "4d4cef2cf9884bc695e4da9223192da6",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/catalogue-02-cover.webp": {
+    "mtime": 1785965823.8754103,
+    "ast_hash": "cfcf476a27fbb6ec23ebc7461004fc3d",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/catalogue-02-page-08.webp": {
+    "mtime": 1785965827.5154543,
+    "ast_hash": "28e6fe7b87cc912f22f7994e243c710f",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/catalogue-02-page-09.webp": {
+    "mtime": 1785965829.5153928,
+    "ast_hash": "58b222b43d53c9bfca97a22e6e2593c1",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/catalogue-02-page-13.webp": {
+    "mtime": 1785965826.9396598,
+    "ast_hash": "1d7272c6eb2b75aa9d4b3097b0007666",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/catalogue-02-page-15.webp": {
+    "mtime": 1785965827.9748528,
+    "ast_hash": "b8141932e456b74b267b5e7fda95dc01",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/couvcarrfouf.webp": {
+    "mtime": 1786142407.426039,
+    "ast_hash": "a602320ec5074a7c26531af665a6ba08",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/print-instore/set-1-1.webp": {
+    "mtime": 1785965822.3548336,
+    "ast_hash": "bad0c38a0594b13c3f7fe98245aac254",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/print-instore/set-1-2.webp": {
+    "mtime": 1785965814.3302732,
+    "ast_hash": "52ded7b8d58c4910aa41abe779f726d2",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/print-instore/set-1-3.webp": {
+    "mtime": 1785965814.3725746,
+    "ast_hash": "e666a92681eaa5e6ef955ddcf66e843e",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/print-instore/set-2-1.webp": {
+    "mtime": 1785965815.152954,
+    "ast_hash": "9984f8624170bc93c10d937b57213589",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/print-instore/set-2-2.webp": {
+    "mtime": 1786034434.0,
+    "ast_hash": "884fc5bf36128b003af90bf3cb151655",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/print-instore/set-2-3.webp": {
+    "mtime": 1786034434.0,
+    "ast_hash": "666028885d5a64d14046a81d87d84d39",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/print-instore/set-3-1.webp": {
+    "mtime": 1785967076.5337708,
+    "ast_hash": "e2677586012160d06f3b673b51b5148c",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/print-instore/set-3-2.webp": {
+    "mtime": 1785965820.6433728,
+    "ast_hash": "a47153b8b28631ba2a426b009a95c73d",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/carrefour/print-instore/set-3-3.webp": {
+    "mtime": 1785965821.1201227,
+    "ast_hash": "49bb9f42c5f59ad64fdf1ed95e616c34",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/c1-cover.webp": {
+    "mtime": 1786035375.3744671,
+    "ast_hash": "add251a9b932df8073f428e336a1558e",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/c2-cover.webp": {
+    "mtime": 1786035376.2939603,
+    "ast_hash": "10c8607acacd2109842ec4be629c907a",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/c3-cover.webp": {
+    "mtime": 1786038234.271435,
+    "ast_hash": "947b83631b4a1fe77898c1a6b06ea4a9",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/c5-cover.webp": {
+    "mtime": 1786045300.8221684,
+    "ast_hash": "ca92492ec4fa10260c4428002c2c3a46",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/hero-photo.webp": {
+    "mtime": 1786038118.4180646,
+    "ast_hash": "9e259b094a7f33cb104317b6e1df640f",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/mockup-multiscreen.webp": {
+    "mtime": 1786038119.7433755,
+    "ast_hash": "cb34f284a2ad3283198f657a7328e4e6",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/process/a1-source.webp": {
+    "mtime": 1786129537.1135273,
+    "ast_hash": "067b008edf5609bf709afb92fb246450",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/process/a2-scene.webp": {
+    "mtime": 1786035402.2495267,
+    "ast_hash": "c165bfcf8d20573813e7b0be323b21c9",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/process/b2-scene.webp": {
+    "mtime": 1786142400.6967154,
+    "ast_hash": "6def8cf9fc90dc2ab3be97775f590ff0",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/process/c1-integration-foot.webp": {
+    "mtime": 1786142401.9890044,
+    "ast_hash": "b84d947cc664e950ffc15306e6e398c4",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/process/localise-shoes.webp": {
+    "mtime": 1786138137.7267942,
+    "ast_hash": "c629a9106a417e8e051ba92c5fc3940f",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/process/situ-catalog.webp": {
+    "mtime": 1786138136.4341247,
+    "ast_hash": "9953b4bc49b993b7b7134e5f86977012",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/process/situ-photo-source.webp": {
+    "mtime": 1786134650.1930392,
+    "ast_hash": "fda93a0e26d93d2870deee2a0425fb7d",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/process/situ-products-plate.webp": {
+    "mtime": 1786134651.4610043,
+    "ast_hash": "d13a4b6ca6c8d98dbc9ac3475c12d2bd",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/process/situ-transform.webp": {
+    "mtime": 1786134165.6720235,
+    "ast_hash": "815bf744dc501314e9f83ac5c5a07ccc",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/process/usage-catalog.webp": {
+    "mtime": 1786138139.9747689,
+    "ast_hash": "b836ec4feeb39d63c35432772f1b8d7b",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/spreads/c1-s1-left.webp": {
+    "mtime": 1786035377.180882,
+    "ast_hash": "4f3262e0ba0c50da6d7455448fd7a451",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/spreads/c1-s1-right.webp": {
+    "mtime": 1786035377.7681715,
+    "ast_hash": "7b52f6d8d5e4485f26ebadca74fee410",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/spreads/c1-s2-left.webp": {
+    "mtime": 1786035378.34399,
+    "ast_hash": "e9a999bad11a31dc0321c919db5c4ade",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/spreads/c1-s2-right.webp": {
+    "mtime": 1786035378.884032,
+    "ast_hash": "1255bf3a8c0edb89c02a9f54b0aa63f9",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/spreads/c2-s1-left.webp": {
+    "mtime": 1786035379.7448158,
+    "ast_hash": "f39ab0d309905defe400ff40e05f52aa",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/spreads/c2-s1-right.webp": {
+    "mtime": 1786035380.3803988,
+    "ast_hash": "171be87558899e927109148573c1bf5f",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/spreads/c2-s2-left.webp": {
+    "mtime": 1786035381.0897076,
+    "ast_hash": "29e23e0946c5326928ae1265e10ea4fd",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/spreads/c2-s2-right.webp": {
+    "mtime": 1786035381.6025553,
+    "ast_hash": "acd1d5e3c2ff66a73e6b3905ec22b72c",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/spreads/c3-s2-left.webp": {
+    "mtime": 1786038235.7549422,
+    "ast_hash": "46678128c1e7069f4d14878722510c04",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/spreads/c3-s2-right.webp": {
+    "mtime": 1786038236.399559,
+    "ast_hash": "edf5c2959169f0e56f6497386773a765",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/spreads/c4-s1-left.webp": {
+    "mtime": 1786045296.1221793,
+    "ast_hash": "120abaaef237fbdf29d55f9d78c07673",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/spreads/c4-s1-right.webp": {
+    "mtime": 1786045296.6288385,
+    "ast_hash": "076e1d5f537b6be44734c39d8eda7321",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/spreads/c5-s1-left.webp": {
+    "mtime": 1786045301.349125,
+    "ast_hash": "b2c491be6041bd9638a64dde4d3aab60",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/spreads/c5-s1-right.webp": {
+    "mtime": 1786045301.8742127,
+    "ast_hash": "4598c98ac11ac967e0b177333a1098e6",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/spreads/c5-s2-left.webp": {
+    "mtime": 1786045302.4761806,
+    "ast_hash": "433ba0f44c8a6f7886b2a9bbb9598f0f",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/decathlon/spreads/c5-s2-right.webp": {
+    "mtime": 1786045303.2134666,
+    "ast_hash": "b1d3edea7decc88e3bf631be9ac873f8",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/hero-bg.webp": {
+    "mtime": 1786034348.917142,
+    "ast_hash": "af1bf05e54545c599fd4f79ca0a04f10",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/mockup-multiscreen.webp": {
+    "mtime": 1786031761.3932123,
+    "ast_hash": "a44445051e57e7ded0f62ee0ffbb00cc",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/personas/band-airpods-pro.webp": {
+    "mtime": 1786045996.3367283,
+    "ast_hash": "34ad36cf9c836a8606908e6b51199c85",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/personas/band-airpods.webp": {
+    "mtime": 1786046130.994448,
+    "ast_hash": "8aab1f20d561cd6a0b988ac016d7b4f5",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/personas/band-imac-24.webp": {
+    "mtime": 1786046260.7765384,
+    "ast_hash": "656be949dc15a08ba0bfcf85d995b296",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/personas/band-iphone-air.webp": {
+    "mtime": 1786046327.124998,
+    "ast_hash": "82db2d2f253f8192c761e1e4523e3158",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/personas/band-mac-mini.webp": {
+    "mtime": 1786046364.9450872,
+    "ast_hash": "d6affafa2cfc5c8b1445388abfffc87e",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/personas/band-watch-11.webp": {
+    "mtime": 1786046141.2651315,
+    "ast_hash": "950cba0b8161a10fdf40d17b3d9cbf18",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/posts/post-digimag.webp": {
+    "mtime": 1786031799.1795692,
+    "ast_hash": "6b7f5b6e06368b1a8ee0f7b82b56ab5c",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/posts/post-iphone16.webp": {
+    "mtime": 1786031799.5531406,
+    "ast_hash": "52329df0c494792f1aca7a4778c551be",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/posts/post-macbook-air-m1.webp": {
+    "mtime": 1786031799.9428546,
+    "ast_hash": "a27f1ab1453b57eac947d648111b7bfd",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/process/r1-integration-airpods.webp": {
+    "mtime": 1786049987.342445,
+    "ast_hash": "c3d6e36c1cfd0d940890cb871c78caad",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/process/r1-personas-airpods.webp": {
+    "mtime": 1786050273.5758045,
+    "ast_hash": "09204e93f52d87e8ddd5d21c4e860101",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/process/r1-produit-airpods.webp": {
+    "mtime": 1786049980.4272609,
+    "ast_hash": "296c5fe40fd9e4291c61f09ddd58d78e",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/process/r2-integration-ipad.webp": {
+    "mtime": 1786049989.299845,
+    "ast_hash": "befceae91aadb3ef5341fa70f8996b43",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/process/r2-personas-ipad.webp": {
+    "mtime": 1786050357.5201747,
+    "ast_hash": "a0070c10a7e655ec400f151dba2f482d",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/process/r2-produit-ipad.webp": {
+    "mtime": 1786050012.4000793,
+    "ast_hash": "175b19e8ec835d333105cff6fda7fca7",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/spreads/spread-01-left.webp": {
+    "mtime": 1786031774.821335,
+    "ast_hash": "159c56a3eb11731c86635da95f347190",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/spreads/spread-01-right.webp": {
+    "mtime": 1786031779.9320855,
+    "ast_hash": "37708a2f586a4b150119a7195a8a72f0",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/spreads/spread-02-left.webp": {
+    "mtime": 1786031783.7652085,
+    "ast_hash": "38ace7ad9e96a8482af877fc3c2d850a",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/spreads/spread-02-right.webp": {
+    "mtime": 1786031789.3337605,
+    "ast_hash": "7da2280e51c77458f0cb45cb48bdbc80",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/spreads/spread-03-left.webp": {
+    "mtime": 1786031793.8662994,
+    "ast_hash": "202f89b0dc1e04bd2fd001983398bce8",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/digilife/spreads/spread-03-right.webp": {
+    "mtime": 1786031798.5606778,
+    "ast_hash": "00cf6aa064803cb783892f0d07ae1af3",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/gamme-vert/campaigns/bien-se-reposer-header-mockup.webp": {
+    "mtime": 1785962277.5442073,
+    "ast_hash": "46ff56f3a070dca158d02badfea1921c",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/gamme-vert/campaigns/bien-se-reposer-square.webp": {
+    "mtime": 1785962277.5497334,
+    "ast_hash": "898ed4ee376493edf085a8b85ce3f72c",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/gamme-vert/campaigns/bien-se-reposer-story.webp": {
+    "mtime": 1785962277.5592315,
+    "ast_hash": "07928658b5867dbbdf5172c831be32d0",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/gamme-vert/catalogue-01-page-02.webp": {
+    "mtime": 1785962277.5726388,
+    "ast_hash": "ac02c6de9664cdaa61739207a164e75e",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/gamme-vert/catalogue-01-page-03.webp": {
+    "mtime": 1785962277.579368,
+    "ast_hash": "44850cb57ddd18d005fe77eb27df3fa2",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/gamme-vert/catalogue-01-page-04.webp": {
+    "mtime": 1785962277.5893211,
+    "ast_hash": "12715e74928b725e2bb9803bbe845371",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/gamme-vert/catalogue-01-page-05.webp": {
+    "mtime": 1785962277.5921433,
+    "ast_hash": "292dbf8b0200141c3b4a3e62599d6513",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/gamme-vert/catalogue-02-page-02.webp": {
+    "mtime": 1785962277.619161,
+    "ast_hash": "00817043d80f7ea4a9030d82e94bbfac",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/gamme-vert/catalogue-02-page-03.webp": {
+    "mtime": 1785962277.6288962,
+    "ast_hash": "3c3071903c3e6cc4921e2c54fcbf6b78",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/gamme-vert/catalogue-02-page-04.webp": {
+    "mtime": 1785962277.6415532,
+    "ast_hash": "6e637be6f69d0f69cf79fb50eba4020f",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/gamme-vert/catalogue-02-page-05.webp": {
+    "mtime": 1785962277.6589806,
+    "ast_hash": "45c78781e7c1ab70b1bdb8cc48f470e4",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/gamme-vert/couvgammvert1.webp": {
+    "mtime": 1786142408.4703314,
+    "ast_hash": "24e321d71301ff7340b6f4402c2e5509",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/gamme-vert/couvgammvert2.webp": {
+    "mtime": 1786142558.5051966,
+    "ast_hash": "bfc5feeeb51ac0bb84e5041b01857f68",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/gamme-vert/couvgamvert.webp": {
+    "mtime": 1786142404.779225,
+    "ast_hash": "c4273b45876e860aff0d08ef461922f3",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/campaigns/fetes-story.webp": {
+    "mtime": 1785962277.7600133,
+    "ast_hash": "29e0208181b6fe2ad2ea203fac759a85",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/campaigns/jardin-story.webp": {
+    "mtime": 1785962277.763515,
+    "ast_hash": "70101c0dbec6c2fd59cf8ee90a7066ad",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/campaigns/maison-story.webp": {
+    "mtime": 1785962277.7684822,
+    "ast_hash": "785bc6434d294b8bb838e839f0a93097",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/fetes-cover.webp": {
+    "mtime": 1785962277.8530757,
+    "ast_hash": "9ce4c7d0429fb225b9bd5a886c1c88db",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/fetes-page-02.webp": {
+    "mtime": 1785962277.8993073,
+    "ast_hash": "72f84d35936cc36d2c9d067614661dd2",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/fetes-page-03.webp": {
+    "mtime": 1785962277.914383,
+    "ast_hash": "90631df96b84c9da20d37241d32ef9cc",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/fetes-page-04.webp": {
+    "mtime": 1785962277.928905,
+    "ast_hash": "9c5b7a7e917d49c822596ad569f3bffd",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/fetes-page-05.webp": {
+    "mtime": 1785962277.9365997,
+    "ast_hash": "5da4ebb492c86c0db2b54637d94d9bfa",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/jardin-cover.webp": {
+    "mtime": 1786046859.7834544,
+    "ast_hash": "e2851cb687a73b95e2d9c58634cff5a0",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/jardin-page-02.webp": {
+    "mtime": 1786046788.2341745,
+    "ast_hash": "dfec1af560137b61cb4b32434da7773e",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/jardin-page-03.webp": {
+    "mtime": 1786046742.5646696,
+    "ast_hash": "e8f2ead59100abcc56a2ee5ad89eeb33",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/jardin-page-04.webp": {
+    "mtime": 1786046692.3904214,
+    "ast_hash": "701dc24899bd710fe9eccb50d1da8177",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/jardin-page-05.webp": {
+    "mtime": 1786046544.5468233,
+    "ast_hash": "3ab4240f4b56d2f922500350e11dc53c",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/maison-cover.webp": {
+    "mtime": 1785962278.076999,
+    "ast_hash": "278147ead648dbd23663eb3a5cafbc01",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/maison-page-02.webp": {
+    "mtime": 1785962278.112404,
+    "ast_hash": "e1006a988417ef76332f38cbe296676e",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/maison-page-03.webp": {
+    "mtime": 1785962278.12058,
+    "ast_hash": "1c2a8858171dd254d48cdb50e32c3f51",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/maison-page-05.webp": {
+    "mtime": 1785962278.1385975,
+    "ast_hash": "3f0fd0ee9c3cc0824e293b1473ae239e",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/maison-page-06.webp": {
+    "mtime": 1785962278.1494772,
+    "ast_hash": "7ab5526d785e7eb8284fe75425e8eb3c",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/la-foir-fouille/showcase-trois-catalogues.webp": {
+    "mtime": 1785962278.1559455,
+    "ast_hash": "3e482ca9cfd8c0a964cdc74997c8a0f9",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/brand/logo-gp-color.svg": {
+    "mtime": 1786053296.9979057,
+    "ast_hash": "b3cccb83201706db508d22fca3425e9b",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/brand/logo-gp-red-circle.svg": {
+    "mtime": 1786053296.9701881,
+    "ast_hash": "47798c0252d194d7ef1229ee39439826",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/brand/logo-gp-white-circle.svg": {
+    "mtime": 1786367156.6136348,
+    "ast_hash": "19c32ddf480c8819e611d3510dbadea7",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/brand/logo-m-mark.svg": {
+    "mtime": 1786367160.5103307,
+    "ast_hash": "31d8d640853d258f78429ebb171a5ae9",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/fete-des-meres/covers/cover-proposal-a.webp": {
+    "mtime": 1786137662.9943967,
+    "ast_hash": "d8a8007fe77f0e55bf4280d335e73684",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/fete-des-meres/covers/cover-proposal-b.webp": {
+    "mtime": 1786137664.7538204,
+    "ast_hash": "88770e6b199b98aeccf528da063caeec",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/fete-des-meres/covers/cover-selected.webp": {
+    "mtime": 1786137663.7289364,
+    "ast_hash": "b48e0652fd842c2dcda72211d2af4808",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/fete-des-meres/products/product-01-slushy.webp": {
+    "mtime": 1786136463.906703,
+    "ast_hash": "e8a6eaa1462e18a7d26d2c59b3481ee5",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/fete-des-meres/products/product-02-bouquet.webp": {
+    "mtime": 1786136465.4545333,
+    "ast_hash": "93225e41f50fca2dbc7d7fcf4256fbf5",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/mockup-catalogue-mr-bricolage-guadeloupe.webp": {
+    "mtime": 1785871689.3193161,
+    "ast_hash": "8a6034227f5f46a5b6be7a9d1e388d12",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/outillage-auto/covers/cover-proposal-a.webp": {
+    "mtime": 1786134493.9071805,
+    "ast_hash": "6f27372ca0548172e33a54a627cd3dff",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/outillage-auto/covers/cover-proposal-b.webp": {
+    "mtime": 1786134494.9267457,
+    "ast_hash": "300a3c878d282d946fec6cc961d89d35",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/outillage-auto/covers/cover-selected.webp": {
+    "mtime": 1786134492.7949338,
+    "ast_hash": "03569eb3856b95e18021f194b1194fda",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/outillage-auto/products/product-01-batterie-auto.webp": {
+    "mtime": 1786116203.4319775,
+    "ast_hash": "72e6a27df75c50adbdf1d28733d9cd28",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/outillage-auto/products/product-02-station-nettoyage.webp": {
+    "mtime": 1786116204.6841202,
+    "ast_hash": "bfc46db39f47e54957ffb2037605143a",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/print-digital/mockup.webp": {
+    "mtime": 1786053301.1202295,
+    "ast_hash": "b77d5db34f7c3a9031f38ef99e52dcd9",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/social/post-portrait.webp": {
+    "mtime": 1786366031.8426507,
+    "ast_hash": "73d1d3891ac582cc72844e981b2a37f6",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/social/post-square.webp": {
+    "mtime": 1786366029.4498196,
+    "ast_hash": "18cf97d1a042100e545259312df97f60",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/social/post-story.webp": {
+    "mtime": 1786366030.13727,
+    "ast_hash": "6e1fc7db3f6ccaf2d477821de97a591a",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/social/post-wide.webp": {
+    "mtime": 1786366031.269896,
+    "ast_hash": "a68810705a6e071575c6e8dca3cda08c",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/votre-projet/covers/cover-proposal-a.webp": {
+    "mtime": 1786137669.4558413,
+    "ast_hash": "4dc71ec489ad4b86c3d3ef19b1546e23",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/votre-projet/covers/cover-proposal-b.webp": {
+    "mtime": 1786137670.2787936,
+    "ast_hash": "45dc96d5287e62a11e730bc1fe3e507b",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/votre-projet/covers/cover-selected.webp": {
+    "mtime": 1786137668.6973414,
+    "ast_hash": "e134aaeccc91d5713171dbfb81aa0fb6",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/votre-projet/products/product-01-cuisine.webp": {
+    "mtime": 1786365860.7912302,
+    "ast_hash": "5e0665739414483c1df9524dac5de59f",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/votre-projet/products/product-02-airfryer.webp": {
+    "mtime": 1786365884.7209876,
+    "ast_hash": "79b2c99ad6dd97a98f23ecc5353c7e88",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/cap-creole/gallery/cap-creole-rose-selection.webp": {
+    "mtime": 1785532365.2651017,
+    "ast_hash": "9d999e53b63634af2f883901f16128f9",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/cap-creole/gallery/cap-creole-saucisses-marlin.webp": {
+    "mtime": 1785532365.2738323,
+    "ast_hash": "0bf5eab8f35f05540d6a43139d6cb669",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/cap-creole/hero/hero-gratinees-morue-composition.webp": {
+    "mtime": 1786141519.5462976,
+    "ast_hash": "700380383eed277e95cc498ac0b14d7e",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/cap-creole/thumbnail/cap-creole-burger.webp": {
+    "mtime": 1785349639.0,
+    "ast_hash": "75eea33f79933e5b5540e03213b2f7cc",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/cap-creole/workflow/degustation-01-source.webp": {
+    "mtime": 1785532316.00237,
+    "ast_hash": "fb551cb53b0e9c529e4e19798d54dfc8",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/cap-creole/workflow/degustation-02-habillage.webp": {
+    "mtime": 1785532319.556104,
+    "ast_hash": "f390c7ff8194bcf31e08a259b906b7a1",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/cap-creole/workflow/degustation-03-publication.webp": {
+    "mtime": 1785532322.1716046,
+    "ast_hash": "8f64f96133579f65296447ab6b732c94",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/affligem/20250225-affligem-degustation-A3_A4-planche-A.jpg": {
+    "mtime": 1785530554.165732,
+    "ast_hash": "d5b5b32688954e0a276a90d81e32e169",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/affligem/20250225-affligem-degustation-A3_A4-rillettes.jpg": {
+    "mtime": 1785530554.2505953,
+    "ast_hash": "4c0c36d85b18e4609af4ead3388acd65",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/affligem/affligem-a3-marinades.webp": {
+    "mtime": 1785871689.320799,
+    "ast_hash": "1daffb87df04c4c3679d6c89ca6d1a88",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/affligem/affligem-a3-planches-a.webp": {
+    "mtime": 1785871689.3220649,
+    "ast_hash": "1ffa5f54595ed55d56a11c4ffeca4585",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/affligem/affligem-a3-planches-b.webp": {
+    "mtime": 1785794436.7514098,
+    "ast_hash": "db42144142b19b680f71843c897207e9",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/affligem/affligem-a3-rillettes.webp": {
+    "mtime": 1785871689.3227513,
+    "ast_hash": "796b32e8d153c931e0f309a51cdb97ba",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/affligem/affligem-blason.webp": {
+    "mtime": 1785503409.0863934,
+    "ast_hash": "791715ef4e641fedfa4a24fe0b405526",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/affligem/affligem-encart-planches-b.webp": {
+    "mtime": 1785360426.9234428,
+    "ast_hash": "5c364f8cc35fd75ddee9f3f54a3bca9f",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/affligem/affligem-encart-rillettes.webp": {
+    "mtime": 1785360426.6935894,
+    "ast_hash": "f1824d2abe798e25f56070056863250c",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/affligem/affligem-shooting-marina.webp": {
+    "mtime": 1785360415.250564,
+    "ast_hash": "b530bb1948f9d5fb10baa25503b50704",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/affligem/scouting/affligem-reperage-interieur-large.jpg": {
+    "mtime": 1785443012.7301602,
+    "ast_hash": "95e359ce5b0f41b502f2daf0105a5d3c",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/affligem/scouting/affligem-reperage-interieur-serre.jpg": {
+    "mtime": 1785443012.905709,
+    "ast_hash": "b882a1f3f3e6b444a739dfafdd643667",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/affligem/scouting/affligem-reperage-marina.jpg": {
+    "mtime": 1785443012.5556169,
+    "ast_hash": "56e88492c9aad6429698b31585357118",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/porter-01.webp": {
+    "mtime": 1785413924.8850439,
+    "ast_hash": "78d331881fac0845d0d49262b333af01",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/porter-02.webp": {
+    "mtime": 1785413925.243512,
+    "ast_hash": "5f7b9bf3a7185f5624d4580804f0fdb2",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/porter-photo-studio-frontale.webp": {
+    "mtime": 1785349521.0,
+    "ast_hash": "f8c263aed4358a12523b01c3ef5ce6aa",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/porter-photo-studio-inclinee.webp": {
+    "mtime": 1785349523.0,
+    "ast_hash": "959d6273dd6a7f74c32e487f62816dbb",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/sol-01.webp": {
+    "mtime": 1785413922.2067869,
+    "ast_hash": "240948685572d380be8df01f3dc24a9d",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/sol-02.webp": {
+    "mtime": 1785413922.902769,
+    "ast_hash": "1aa45f984050f435cc535360a4cffd3b",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/sol-03.webp": {
+    "mtime": 1785413923.3946157,
+    "ast_hash": "f17db3e806fc3096d6b22048f1155ee6",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/sol-04.webp": {
+    "mtime": 1785413923.879965,
+    "ast_hash": "726e8408beec0ce436e2073284c759d3",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/sol-05.webp": {
+    "mtime": 1785413924.4847891,
+    "ast_hash": "3cf88afd85d33864d5eaf9166e0814e1",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/sol-originals/sol-contreplongee.webp": {
+    "mtime": 1785360398.6798992,
+    "ast_hash": "20b975192a813efc7411f47aa67331f3",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/sol-originals/sol-coucher-soleil.webp": {
+    "mtime": 1785360411.0600886,
+    "ast_hash": "639c3e3f9d5e33f626128eb35423570a",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/sol-originals/sol-coulisses-controle.jpg": {
+    "mtime": 1785789978.39368,
+    "ast_hash": "ac7cc78d243a686f08eafbde0407a6ad",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/sol-originals/sol-coulisses-installation.jpg": {
+    "mtime": 1785788841.5359542,
+    "ast_hash": "a1d424b97a0165b9b665a3d6fa0e5d0a",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/sol-originals/sol-exterieur-rochers.webp": {
+    "mtime": 1785360397.078749,
+    "ast_hash": "e5332fcee22739d7fd1b9062bcfe975d",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/sol-originals/sol-palmiers.webp": {
+    "mtime": 1785499882.661409,
+    "ast_hash": "be99215720bdcdbe8bce44504cc157c8",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/sol-originals/sol-plage.webp": {
+    "mtime": 1785360400.1998296,
+    "ast_hash": "7b484681b57bdc4b3a4bb15eecfdae21",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/gallery/sol-originals/sol-roche-volcanique.webp": {
+    "mtime": 1785360406.6018984,
+    "ast_hash": "079eab70a37cfca0602b0465ff87cce9",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/hfwi/thumbs/sol-lead.webp": {
+    "mtime": 1785414973.4896698,
+    "ast_hash": "3863c2dea3b3cad539f9774f4bf35900",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/gallery/gallery-brioche-brut.webp": {
+    "mtime": 1786140306.428548,
+    "ast_hash": "29b9865d2923229d9e97d820d433bba4",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/gallery/gallery-brioche-composition.webp": {
+    "mtime": 1786140304.7809987,
+    "ast_hash": "2c78651082c842cc0a000137c41d891b",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/gallery/gallery-croissant-brut.webp": {
+    "mtime": 1786140309.557131,
+    "ast_hash": "a850f869bb2ea5557d33dd2ae587ab0b",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/gallery/gallery-croissant-composition.webp": {
+    "mtime": 1786140307.9293282,
+    "ast_hash": "0580e4c967e0402363139ba14e1165fb",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/gallery/gallery-tartelette-passion.webp": {
+    "mtime": 1786140303.253286,
+    "ast_hash": "2a3dfadf1daddf59fc96d72d0dab835c",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/hero/hero-fraisier-composition.webp": {
+    "mtime": 1786140275.3375103,
+    "ast_hash": "e27436fd85d9c6337afd2fe7a66c43ac",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/hero/hero-rocher-photo.webp": {
+    "mtime": 1786140273.933551,
+    "ast_hash": "2498b4456c7b626e020a19e52a770bb9",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/logo/lbe-logo-horizontal-white.webp": {
+    "mtime": 1786140818.062014,
+    "ast_hash": "ac3f940ff1324d5e735e9aa26a505373",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/logo/lbe-logo-mark-white.webp": {
+    "mtime": 1786140798.0727072,
+    "ast_hash": "7d5e8e3824f09408ff54ac7ae45eb2ec",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/workflow/eclair-chocolat/workflow-eclair-01-brut.webp": {
+    "mtime": 1786140285.6938372,
+    "ast_hash": "f46fe84ba865174196f15905877912e9",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/workflow/eclair-chocolat/workflow-eclair-02-retouche.webp": {
+    "mtime": 1786140287.400981,
+    "ast_hash": "bcd4cba5c425c731d81cd8a8fbc2d62b",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/workflow/eclair-chocolat/workflow-eclair-03-composition.webp": {
+    "mtime": 1786140288.8703291,
+    "ast_hash": "186447efe0890bcad6da49ce349a6f31",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/workflow/fraisier/workflow-fraisier-01-brut.webp": {
+    "mtime": 1786140276.6826713,
+    "ast_hash": "54170e73ffc4615c1f4ac8212ed333e4",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/workflow/fraisier/workflow-fraisier-02-retouche.webp": {
+    "mtime": 1786140278.2445257,
+    "ast_hash": "32b4c77889c92df3f4d93243a54559c2",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/workflow/fraisier/workflow-fraisier-03-composition.webp": {
+    "mtime": 1786140279.5959082,
+    "ast_hash": "25210411b7bd32e1fe0a793d9ae4874b",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/workflow/rocher-chocolat/workflow-rocher-01-brut.webp": {
+    "mtime": 1786140281.1246536,
+    "ast_hash": "afebcd9d7b2ee5460c4c9de824fd7ec9",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/workflow/rocher-chocolat/workflow-rocher-02-retouche.webp": {
+    "mtime": 1786140282.8295867,
+    "ast_hash": "fa15aa16d026031e155e8d24629c812b",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/workflow/rocher-chocolat/workflow-rocher-03-composition.webp": {
+    "mtime": 1786140284.1658819,
+    "ast_hash": "0e3071c4eece81942e0be8574df0a89e",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/so-class/gallery/so-class-brochure-mockup-jazz-2022.webp": {
+    "mtime": 1785356529.3604183,
+    "ast_hash": "781566d52176e16ed95d3e05b1b71c0c",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/so-class/gallery/so-class-collection-jazz-cover-clean-2022.webp": {
+    "mtime": 1785355976.0,
+    "ast_hash": "7cf7033bde9a4732bbadf5400e014055",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/so-class/gallery/so-class-portrait-femme-lunettes-2022.webp": {
+    "mtime": 1785334301.0,
+    "ast_hash": "ce34b6504db6c0c6bf2f4f97c57d4bb9",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/so-class/gallery/so-class-portrait-fiona-pap-2022.webp": {
+    "mtime": 1785355980.0,
+    "ast_hash": "b163a58b0135137573fbfc862776623d",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/so-class/gallery/so-class-portrait-homme-lunettes-2022.webp": {
+    "mtime": 1785334300.0,
+    "ast_hash": "5bc559cb1c95983a436e1fc3bf0f3104",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/so-class/gallery/so-class-shooting-eglise-pap-fiona-2022.webp": {
+    "mtime": 1785355982.0,
+    "ast_hash": "23ef7c5481c8397957f716191d00d16d",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/so-class/products/so-class-lunettes-blanc-ecaille.webp": {
+    "mtime": 1785871689.3271923,
+    "ast_hash": "59ced186e381213c76d5cd71839b5780",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/so-class/products/so-class-lunettes-bleu-rouge.webp": {
+    "mtime": 1785871689.3279345,
+    "ast_hash": "e1d43edd7dcd95770ae163268ed84eb7",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/so-class/products/so-class-lunettes-ecaille.webp": {
+    "mtime": 1785871689.3286803,
+    "ast_hash": "937a4905f7321297f0911577e9538471",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/so-class/products/so-class-lunettes-noir-transparent.webp": {
+    "mtime": 1785871689.3296568,
+    "ast_hash": "2a6b29d02ef39fc41055329c8e936e22",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/so-class/profile/instagram-profile-so-class-2022.webp": {
+    "mtime": 1785338028.0,
+    "ast_hash": "c82503911f7fd0b4fb9fd84a1bc40a9f",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/so-class/thumbnail/thumbnail-so-class-projet-photo-2022.webp": {
+    "mtime": 1785334304.0,
+    "ast_hash": "ed5caf4b77548efd97025b15bd79dc5c",
+    "semantic_hash": ""
+  },
+  "assets/shared/placeholders/catalogue.jpg": {
+    "mtime": 1785186745.0,
+    "ast_hash": "09cf8f08e517bad0499919272566a7c2",
+    "semantic_hash": ""
+  },
+  "assets/shared/placeholders/identite.jpg": {
+    "mtime": 1785186743.0,
+    "ast_hash": "ed2266db96023a617e3b99b397bb3c0a",
+    "semantic_hash": ""
+  },
+  "assets/shared/placeholders/social.jpg": {
+    "mtime": 1785187682.0,
+    "ast_hash": "66f91e44ed0a3b074278de20ba9abd8a",
+    "semantic_hash": ""
+  },
+  "docs/references/qa/cap-creole-card-desktop.png": {
+    "mtime": 1786451454.5056293,
+    "ast_hash": "bd18733915ff0474670036005bc6752d",
+    "semantic_hash": ""
+  },
+  "docs/references/qa/cap-creole-card-mobile.png": {
+    "mtime": 1786451460.9634693,
+    "ast_hash": "717e5712fdc43612cb432179d6df0520",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/backgrounds/image-bg/header-bg-homme-v2-1920.jpg": {
+    "mtime": 1785190084.0,
+    "ast_hash": "a7f69b655564ce5ee29ad55ea2ef713d",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/backgrounds/image-bg/header-bg-homme-v2-960.jpg": {
+    "mtime": 1785190094.0,
+    "ast_hash": "f02a1ae72decc4b118c43d9e9d724d9c",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/backgrounds/image-bg/header-bg-homme-v3-1920.jpg": {
+    "mtime": 1785190053.0,
+    "ast_hash": "a6427254755a33378ce74b621a055059",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/backgrounds/image-bg/header-bg-homme-v3-960.jpg": {
+    "mtime": 1785190062.0,
+    "ast_hash": "d8957a7c2fc2eca112e785e8040dbf24",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/backgrounds/image-bg/img-bg-cta-wide-final.webp": {
+    "mtime": 1785268342.0,
+    "ast_hash": "c86d1dc396a07cef1d0eaa3efc9eb597",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/backgrounds/image-bg/img-bg-cta-wide-v2.webp": {
+    "mtime": 1785268117.0,
+    "ast_hash": "135787e8f1a995c32961497d1e272fa8",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/branding/logos/Affligem-brandmark.png": {
+    "mtime": 1785444276.8490698,
+    "ast_hash": "00d574af99743c571699423eef5dcfa7",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/branding/logos/Logo-Clients-white-la-foir-fouille.png": {
+    "mtime": 1786038060.781413,
+    "ast_hash": "62124d8064bb1eff1619bad215e08f74",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/branding/logos/Logov2-LS-SUD-black.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "da90247768f9311e83a90bf751af2709",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/branding/logos/Logov2-LS-latitude-black.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "223567988c83f0e6cf8920d8358ef07c",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/branding/logos/Logov2-Latitude-Sud-black.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "0b5173dfbce55c92e6c8b534c26f6b08",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/branding/logos/Logov2-Latitude-Sud-white.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "922148c79c07d0026149a26d0fde4813",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/player/icon-player-play.svg\n.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "8f77038e49dde71da99d4f8d33cbce68",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/Asset-vague-header.svg": {
+    "mtime": 1782489542.0,
+    "ast_hash": "820f6d0aeca3c3b44b27158df2094897",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-arrow-right.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "58c8b7d496383a35e417b492527639d7",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-calendar.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "8cd596d969b34475b59d5b173231de91",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-camera.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "0a1e216823145ed0719c5297d9e0b951",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-color.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "929fd11b675794b61685cc1bf4676c26",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-diagonal.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "42f00abe43648cf046f746af46589737",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-download.svg": {
+    "mtime": 1782420024.0,
+    "ast_hash": "6747170b7efb8b33f27b7393011ccdfa",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-email.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "b1dada3bb9606f72b2a404486cabb0f5",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-eye.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "913fdcd6de5e763c75fb480d902fd07f",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-file.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "b2d19e9d4f77e5de777ff91540bcd1ce",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-heart.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "babac44eb928f74d8843ebf45e486954",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-leaf.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "619172b9c2572ea433525ba0cc520089",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-location.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "72e1021076d00958c793dbfdcb9f7468",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-monitor.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "42d2f5ffdbf2c5f41648fb88ae018ad3",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-multi-arrow.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "9d16350a8e512c809cc9f740e4f3d9fb",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-pencil.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "c716b0d8723d898901e0cca4eaad3d64",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-pencil2.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "f5aa9500b0f4ee842f1dd37c6ce13144",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-phone.svg": {
+    "mtime": 1782420024.0,
+    "ast_hash": "f8b24787162d12ac92d070b10d0c7341",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-social-media.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "648f8362b65d08ae098c3242dd6d2a04",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/icon-ui-user.svg": {
+    "mtime": 1782420023.0,
+    "ast_hash": "dcdbb670c2e941b1bf527657c77349ed",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/trait-ls-4.svg": {
+    "mtime": 1782918221.0,
+    "ast_hash": "399053e7a3207162078427185e8594ed",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/trait-ls-5.svg": {
+    "mtime": 1782918221.0,
+    "ast_hash": "e6677918caac7d8aa9f33d5376508f6f",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/trait-ls-6.svg": {
+    "mtime": 1782918221.0,
+    "ast_hash": "df49be223e05e580f3c36848a16eb70f",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/icons/ui/trait-ls-7.svg": {
+    "mtime": 1782918221.0,
+    "ast_hash": "788e999110365ca087a2d4256be84d72",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/illustrations/moto/grenat-print-opt.webp": {
+    "mtime": 1785330980.0,
+    "ast_hash": "18388555b63350e29d5fab0d88d02beb",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/illustrations/moto/grenat-social-opt.webp": {
+    "mtime": 1785330980.0,
+    "ast_hash": "906ed8064ab71cc054d7b701f6bdb626",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/illustrations/moto/grenat-video-opt.webp": {
+    "mtime": 1785330981.0,
+    "ast_hash": "1ee70159b69037347366dc78fba66d67",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/global/illustrations/moto/grenat-web-opt.webp": {
+    "mtime": 1785330981.0,
+    "ast_hash": "284e5260ddda7b9b9457aa93e452eb73",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/applications/t-shirt.webp": {
+    "mtime": 1785790878.1723046,
+    "ast_hash": "a9fb9aef62b1b89e46bce98f09d86cf9",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/applications/tote-bag.webp": {
+    "mtime": 1785790875.803274,
+    "ast_hash": "ea7deb6bb71547450cb0f06b8317c9ee",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/editorial/recipe-beef-cover.webp": {
+    "mtime": 1785790896.0403407,
+    "ast_hash": "48a7314faeeddbb983c06992dfa54ff7",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/editorial/recipe-beef-ingredients.webp": {
+    "mtime": 1785790896.275887,
+    "ast_hash": "190865d2acfd061940ed90a8241db8cf",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/editorial/recipe-beef-step.webp": {
+    "mtime": 1785790896.6014748,
+    "ast_hash": "76889b831dee2cb2f412de9b128afb18",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/identity/brand-system-schema.webp": {
+    "mtime": 1785854516.4577625,
+    "ast_hash": "5be95ffbaf1043b672a6b4f3feb113f3",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/identity/logo-horizontal-white-alt.webp": {
+    "mtime": 1785790874.372537,
+    "ast_hash": "6155254dbb21138f1f0e1fca0ca4b0b0",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/identity/logo-horizontal-yellow-alt.webp": {
+    "mtime": 1785790873.4083326,
+    "ast_hash": "ff742feb89f2a8440467027986dcffe3",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/identity/logo-svg-dark.svg": {
+    "mtime": 1785864562.7856424,
+    "ast_hash": "f1de9025c6146c57b73bb6fa28d7a68b",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/identity/logo-svg-green2.svg": {
+    "mtime": 1785864562.7901018,
+    "ast_hash": "917fe479a52e23cf3e35b4363c8170fb",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/identity/logo-svg-yellow.svg": {
+    "mtime": 1785864562.7776446,
+    "ast_hash": "f319e5c93f27cb14cd4ed80fb729c519",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-cartes-visite.webp": {
+    "mtime": 1785447128.5614762,
+    "ast_hash": "a4c4c8f2aedf0a7e7e9e1cecdcb09d1e",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-facebook.webp": {
+    "mtime": 1785447126.7096415,
+    "ast_hash": "629209a8e4032ec3f288a337cd7a0dc4",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-histoire-systeme.webp": {
+    "mtime": 1785447125.6749907,
+    "ast_hash": "4321b036266d5d87c8c3e465fc721066",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-histoire.webp": {
+    "mtime": 1785447058.2847981,
+    "ast_hash": "7e80980ffafaccf74bd744a32fd9b2bf",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-information.webp": {
+    "mtime": 1785447125.2294497,
+    "ast_hash": "247632b5c506759e267a3260800f8026",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-instagram.webp": {
+    "mtime": 1785447058.6904752,
+    "ast_hash": "bf2b118f8da41129b78e2a7d5f4f4531",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-mise-en-situation.webp": {
+    "mtime": 1785447127.3099773,
+    "ast_hash": "14cc1b7a9dfe44348609ab6c604dbb87",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-recette-declinaisons.webp": {
+    "mtime": 1785447126.3741615,
+    "ast_hash": "291af6c18efcb175bdf87b14c2342285",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-recette-systeme.webp": {
+    "mtime": 1785447126.0204582,
+    "ast_hash": "40bf6ed4e5498489878f5c7b58dbc297",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/bonnes-epices/terrain/rayon-coco-portrait.webp": {
+    "mtime": 1785790900.7976213,
+    "ast_hash": "4ec57baeb45352c72c49cb0bdd912eb2",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/application-card-back.webp": {
+    "mtime": 1785272729.0,
+    "ast_hash": "181960d46d9ec9d9e377b96d54b2572f",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/application-card-front.webp": {
+    "mtime": 1785272729.0,
+    "ast_hash": "6b10de8fb972efc95d54218d1fb8b187",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/application-facebook.webp": {
+    "mtime": 1785272730.0,
+    "ast_hash": "09966731c5aef6cb2c8ac59e875f8226",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/application-letter.webp": {
+    "mtime": 1785272729.0,
+    "ast_hash": "08363031d65db2e9f716a9b71b1674c2",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/application-rollup.webp": {
+    "mtime": 1785272730.0,
+    "ast_hash": "ab7aa61542eeb3de01e363bafa2fb1cd",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/card-thumbnail.webp": {
+    "mtime": 1785273357.0,
+    "ast_hash": "a35d0c64d075a68bb81e20e27097713c",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/flyer-duerp-back.webp": {
+    "mtime": 1785521880.0821717,
+    "ast_hash": "f9f07a3d77960281bf47bd78138971f2",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/flyer-duerp-front.webp": {
+    "mtime": 1785521876.9091399,
+    "ast_hash": "63c826c8851d33c15c901731fa1f6a06",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/flyer-employe-libre-service-back.webp": {
+    "mtime": 1785521887.364325,
+    "ast_hash": "aa81a80801af7372e766203db141a37b",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/flyer-employe-libre-service-front.webp": {
+    "mtime": 1785521883.5413427,
+    "ast_hash": "2e2b3cb2301d72346c287a0881bd7aed",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/flyer-handicap-travail-back.webp": {
+    "mtime": 1785521895.766067,
+    "ast_hash": "d19032b237672a466898e1a3c14d2c56",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/flyer-handicap-travail-front.webp": {
+    "mtime": 1785521891.6823397,
+    "ast_hash": "0e6faa2b9ab462fb8c313b9724362c67",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/guidelines/cist-logo-exemples-interdits.webp": {
+    "mtime": 1785334385.0,
+    "ast_hash": "17ef18e4542b71bacfa343e116ac0556",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/guidelines/cist-logo-taille-minimale-horizontal.webp": {
+    "mtime": 1785345974.0,
+    "ast_hash": "7f5595fb30d29cca47411df96fe235b5",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/guidelines/cist-logo-taille-minimale-vertical.webp": {
+    "mtime": 1785345977.0,
+    "ast_hash": "380c37aa1bbc41f39444ba4e53a85431",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/guidelines/cist-logo-zone-protection-horizontal.webp": {
+    "mtime": 1785334384.0,
+    "ast_hash": "e8a4822a91e657686d8e483e4ecbafc0",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/guidelines/cist-logo-zone-protection-vertical.webp": {
+    "mtime": 1785334384.0,
+    "ast_hash": "69911ebf033b232997dad4ec312657f3",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/guidelines/cist-usage-interdit-couleurs.webp": {
+    "mtime": 1785345980.0,
+    "ast_hash": "9c70201251bc7f3667f583bbaf30390f",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/guidelines/cist-usage-interdit-inclinaison.webp": {
+    "mtime": 1785345985.0,
+    "ast_hash": "e1cc184aff7248c5a26b0b5f6c40286d",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/guidelines/cist-usage-interdit-proportions.webp": {
+    "mtime": 1785345982.0,
+    "ast_hash": "02f1599261e17778ee4acb7f2b5dafb6",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/photo-prevention.webp": {
+    "mtime": 1785272729.0,
+    "ast_hash": "20ec6177db6d44c83fbd4c206a042dae",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/photo-relation.webp": {
+    "mtime": 1785272729.0,
+    "ast_hash": "cdd1d9ac60ffec032c1b19db4ceef214",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/website/cist-site-accueil.webp": {
+    "mtime": 1785527830.6470206,
+    "ast_hash": "2734489bcfa4a195d934b39bf7843a37",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/website/cist-site-adherer.webp": {
+    "mtime": 1785527834.2374892,
+    "ast_hash": "75fdd12877629b51407285fb9cfc9074",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/cist/website/cist-site-brochures.webp": {
+    "mtime": 1785527838.1133723,
+    "ast_hash": "21519ec1f1b89d90f6c18f3f690d9f22",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/le-pressing/charte/page-12.webp": {
+    "mtime": 1785857599.607361,
+    "ast_hash": "9e498b0cec8a4c3a5659235862ff1e39",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/le-pressing/charte/page-13.webp": {
+    "mtime": 1785857599.731955,
+    "ast_hash": "62d7782a4b09d6b4110380e6a7ca8134",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/le-pressing/charte/page-14.webp": {
+    "mtime": 1785857599.727212,
+    "ast_hash": "ff03678e43e54333981758bee597731b",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/marina/logo-after-blue.webp": {
+    "mtime": 1785447058.8667405,
+    "ast_hash": "94bb7077c88f0bb25ce77af07f673b0a",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/sa-pressing/after.jpg": {
+    "mtime": 1785188438.0,
+    "ast_hash": "13d7a17ca959bf4d9b8acc1579a51f4b",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/sa-pressing/apron.jpg": {
+    "mtime": 1785248666.0,
+    "ast_hash": "283c531bc47be9caa4479a497160bcbc",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/sa-pressing/before.jpg": {
+    "mtime": 1785188447.0,
+    "ast_hash": "33c13160c590dfe70da23ac21fc8ae20",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/sa-pressing/brand-card-front.jpg": {
+    "mtime": 1785254314.0,
+    "ast_hash": "4fe1bd678b9b968d2d1792253420df20",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/sa-pressing/business-card.jpg": {
+    "mtime": 1785248665.0,
+    "ast_hash": "96d8df46dc8176b6fbe2c40e184bef0d",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/sa-pressing/garment-cover.jpg": {
+    "mtime": 1785254281.0,
+    "ast_hash": "ffb2d1545e48859a76ca41bc7c85b5fd",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/sa-pressing/garment-tag.jpg": {
+    "mtime": 1785254282.0,
+    "ast_hash": "8088148d4db171436ebc73bb6d43387c",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/sa-pressing/letterhead.jpg": {
+    "mtime": 1785248666.0,
+    "ast_hash": "85c8e5678a8bbacc26ef96cf89415b35",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/sa-pressing/second-store.jpg": {
+    "mtime": 1785254281.0,
+    "ast_hash": "83cffc4ad2ff27f26ee64fcddfe8089a",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/smgeag/campaign-poster.webp": {
+    "mtime": 1785329378.0,
+    "ast_hash": "7df62c5dafac00b8bcae53afffa04d64",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/smgeag/icon-hussard.webp": {
+    "mtime": 1785329373.0,
+    "ast_hash": "4243dfa0308d7c4bab88a7912f4c063f",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/smgeag/icon-primary.webp": {
+    "mtime": 1785329373.0,
+    "ast_hash": "28ae3294c57bfe5440ab3988a244132d",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/smgeag/icon-silver.webp": {
+    "mtime": 1785329373.0,
+    "ast_hash": "af5d4c02efefabad0745ef3be0135e7e",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/smgeag/logo-baseline.webp": {
+    "mtime": 1785329373.0,
+    "ast_hash": "28aa7923f65a61b25cc6ff9778535860",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/smgeag/logo-bicolor-blue.webp": {
+    "mtime": 1785329374.0,
+    "ast_hash": "bbdf2650e2188d337b2a5fabaeab23c6",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/smgeag/logo-bicolor-light.webp": {
+    "mtime": 1785329374.0,
+    "ast_hash": "53fd1e0e347969e03b5acfd83f550d61",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/smgeag/logo-mono-dark.webp": {
+    "mtime": 1785329374.0,
+    "ast_hash": "407a96b2c046bcac1c08aebddb52360c",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/smgeag/mockup-affiche.webp": {
+    "mtime": 1785338053.0,
+    "ast_hash": "56e8ba9ea6bf81518e239df869dd414c",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/smgeag/mockup-billboard-drop.webp": {
+    "mtime": 1785329377.0,
+    "ast_hash": "18c076507b804cd54275d699995855ef",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/smgeag/mockup-billboard-hands.webp": {
+    "mtime": 1785329376.0,
+    "ast_hash": "0c216e7a87f97196b6257b1b72793eb5",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/smgeag/mockup-papeterie.webp": {
+    "mtime": 1785338043.0,
+    "ast_hash": "c02e22c75bbab568568eaf27043d94a1",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/smgeag/mockup-signalisation.webp": {
+    "mtime": 1785338056.0,
+    "ast_hash": "69ffdeccd82c07f112d65fd45c0aba9d",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/branding/smgeag/mockup-stationery.webp": {
+    "mtime": 1785329378.0,
+    "ast_hash": "e70ab8734d5c22414e091b43dffe00fb",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/carrefour/catalogue-01.webp": {
+    "mtime": 1785779515.2938795,
+    "ast_hash": "852bcc9cb0d6a01dfc0923802d7eb59b",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/carrefour/catalogue-02.webp": {
+    "mtime": 1785779515.8779938,
+    "ast_hash": "0ea7d629c0339f771fc977a65a37ae4e",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/carrefour/catalogue-03.webp": {
+    "mtime": 1785779516.5369496,
+    "ast_hash": "b0842c8d2b22b52136080d23e0f6d67b",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/carrefour/interieur-01.webp": {
+    "mtime": 1785779794.8286405,
+    "ast_hash": "d6c84f76305004fc0775bc867d340225",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/carrefour/mockup-catalogue-carrefour.webp": {
+    "mtime": 1785779793.3869898,
+    "ast_hash": "64caf478d74e4a7b0eab5f650571da8b",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/carrefour/print-instore/set-2-2old.webp": {
+    "mtime": 1785965816.8193924,
+    "ast_hash": "2e19e5fa9fd7c7e72b07ff9ed5df67a9",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/carrefour/print-instore/set-2-3old.webp": {
+    "mtime": 1785965817.8690028,
+    "ast_hash": "5d1a101f7437906d51d33d5f51d7c1c0",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/decathlon/catalogue-01.webp": {
+    "mtime": 1785871689.3034215,
+    "ast_hash": "85033de0441659b48e9d9424160cf832",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/decathlon/catalogue-02.webp": {
+    "mtime": 1785871689.304343,
+    "ast_hash": "ea0734055c5a2378482df554e10dd4ac",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/decathlon/catalogue-03.webp": {
+    "mtime": 1785871689.3051615,
+    "ast_hash": "a3003f58049f5543999823d95c951ab0",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/decathlon/catalogue-04.webp": {
+    "mtime": 1785871689.3061078,
+    "ast_hash": "02aeda7c33a26fdcc19ba4c16c6af241",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/decathlon/catalogue-05.webp": {
+    "mtime": 1785871689.3071966,
+    "ast_hash": "05461c445e2e6d56b570c90892eb89c0",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/decathlon/interieur-01.webp": {
+    "mtime": 1785779781.595556,
+    "ast_hash": "501792884514c5ede2d09c575689dfbd",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/decathlon/mockup-catalogue-decathlon.webp": {
+    "mtime": 1785871689.308773,
+    "ast_hash": "baec56412a1139287588aa9ba9946dd0",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/decathlon/spreads/c3-s1-left.webp": {
+    "mtime": 1786038234.940446,
+    "ast_hash": "920692d774da6ed2c15f98ca9573fc97",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/decathlon/spreads/c3-s1-right.webp": {
+    "mtime": 1786038235.3877778,
+    "ast_hash": "6bf6d574f2aa319380f4ffc21515d90b",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/digilife/catalogue-01.webp": {
+    "mtime": 1785272802.0,
+    "ast_hash": "5e4b23bae56e1376ba4f09ec82ac13f3",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/digilife/catalogue-02.webp": {
+    "mtime": 1785272803.0,
+    "ast_hash": "efcfa5556c5dcd1fc7f360ceedec2ab8",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/digilife/process/step1-airpods.webp": {
+    "mtime": 1786031765.5157225,
+    "ast_hash": "c2434c3c27bac6146d7f829c9a9e5323",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/digilife/process/step1-iphone.webp": {
+    "mtime": 1786031766.4349835,
+    "ast_hash": "ce14b6ebf3e85a27b1b2b04cc901b0ef",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/digilife/process/step1-macbook.webp": {
+    "mtime": 1786031767.019548,
+    "ast_hash": "bbc3a0a6cac9d058c34ffb7b29029948",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/digilife/process/step2-recomposition.webp": {
+    "mtime": 1786031769.069385,
+    "ast_hash": "e4b61092902aeca793eb15cbf40d4c78",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/digilife/process/step3-integration.webp": {
+    "mtime": 1786031769.5249345,
+    "ast_hash": "46a5e2ccb9c32577103bf7886121e921",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/gamme-vert/campaigns/bien-se-reposer-wide.webp": {
+    "mtime": 1785962277.5668929,
+    "ast_hash": "c7b50164fc5d471b0cbb20bfdc7949b7",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/gamme-vert/catalogue-01.webp": {
+    "mtime": 1785962278.3188632,
+    "ast_hash": "66d2089576850352ce90b77312ab74ee",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/gamme-vert/catalogue-02.webp": {
+    "mtime": 1785962278.326462,
+    "ast_hash": "1e8021afc26b230581ed11a73626cfe5",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/gamme-vert/catalogue-03.webp": {
+    "mtime": 1785272797.0,
+    "ast_hash": "879acd0d8c72a55d30bcb33db8d4cb41",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/gamme-vert/interieur-01.webp": {
+    "mtime": 1785779790.862292,
+    "ast_hash": "d54a5465bb0fcae4e6040113b1d8f3a3",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/gamme-vert/mockup-catalogue-gamme-vert.webp": {
+    "mtime": 1785871689.311117,
+    "ast_hash": "435a0f865cf0dcb8c6b5e53ef6445b4e",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/gamme-vert/showcase-bien-se-reposer.webp": {
+    "mtime": 1785959469.4292436,
+    "ast_hash": "f18310479895a62d96cd1b79c6c862d2",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/campaigns/fetes-instagram-carre.webp": {
+    "mtime": 1785962277.7573316,
+    "ast_hash": "30b1e20d731d407356d4ef732a2f0126",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/campaigns/fetes-meta-carre.webp": {
+    "mtime": 1785962277.7585013,
+    "ast_hash": "801cc0ad60eceeffc026d68a3712415f",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/campaigns/jardin-instagram-carre.webp": {
+    "mtime": 1785962277.7611756,
+    "ast_hash": "48ff4ad30b4657508c63e2e6d686b991",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/campaigns/jardin-meta-carre.webp": {
+    "mtime": 1785962277.7623274,
+    "ast_hash": "21916278c289922646b43d9d3eb316d8",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/campaigns/maison-instagram-carre.webp": {
+    "mtime": 1785962277.7647977,
+    "ast_hash": "8b5a10ae2065b9ecbc65236ddd8461c2",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/campaigns/maison-meta-carre.webp": {
+    "mtime": 1785962277.7658749,
+    "ast_hash": "35f503614e98882d2460d98162a7964d",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/catalogue-01.webp": {
+    "mtime": 1785871689.3122995,
+    "ast_hash": "e9888dcaa69b14b03c90ce92632d6bcf",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/catalogue-02.webp": {
+    "mtime": 1785871689.3129926,
+    "ast_hash": "1b666fa78d817614ef7677e0abf704ae",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/catalogue-03.webp": {
+    "mtime": 1785871689.3136177,
+    "ast_hash": "f7cf55316d8a5b4d31060afff3e1ba6a",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/interieur-01.webp": {
+    "mtime": 1785779787.8431609,
+    "ast_hash": "dd893b91c7ee12b2ddc9f7b4ed64c555",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/mockup-catalogue-la-foir-fouille.webp": {
+    "mtime": 1785871689.3148448,
+    "ast_hash": "117294b9620d71a9e89d13c30fd1ecd1",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/fete-des-meres/pages/p1.webp": {
+    "mtime": 1786137665.7902997,
+    "ast_hash": "97f1cb35ebe40e8de5563e442b75c9e6",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/fete-des-meres/pages/p2.webp": {
+    "mtime": 1786137666.6073105,
+    "ast_hash": "a681cf3cb7bd07787892222dcb4851b0",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/fete-des-meres/pages/p3.webp": {
+    "mtime": 1786137667.2748716,
+    "ast_hash": "3d738e0621a211abb4c1d9a46ad4a44e",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/media/film-cuisine-poster.webp": {
+    "mtime": 1786116210.659601,
+    "ast_hash": "b8ff1881ab9d3422d5ed332cb1c92417",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/media/video-promo-poster.webp": {
+    "mtime": 1786116211.5946152,
+    "ast_hash": "8fa8c3e8dbf7ab43c8079c33b45d0961",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/outillage-auto/pages/p1.webp": {
+    "mtime": 1786136472.287924,
+    "ast_hash": "495b4b81d04b537e04c35dcc072beaae",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/outillage-auto/pages/p2.webp": {
+    "mtime": 1786136473.3062081,
+    "ast_hash": "47ab91c2f73503dc9bae1a645123b73e",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/outillage-auto/pages/p3.webp": {
+    "mtime": 1786136474.1045783,
+    "ast_hash": "76f067e0d2a23f0f6d902a7b94622b3f",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/votre-projet/pages/p1.webp": {
+    "mtime": 1786137670.2889829,
+    "ast_hash": "456ac2f2c938f7c28c664cee56e02b23",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/votre-projet/pages/p2.webp": {
+    "mtime": 1786137670.2944198,
+    "ast_hash": "3d63c8f3e6462f2a40a7dff1d9bd65e8",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/votre-projet/pages/p3.webp": {
+    "mtime": 1786137670.3108914,
+    "ast_hash": "a3e0d4e9be78c4a635e1be2b30301019",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/photos/hfwi/gallery/affligem/affligem-portrait-01.webp": {
+    "mtime": 1785503405.976626,
+    "ast_hash": "c5764f165b78c81e0741abc3a142f331",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/photos/hfwi/gallery/affligem/affligem-portrait-02.webp": {
+    "mtime": 1785503405.9167376,
+    "ast_hash": "9c1d8fabda6d24783f28838913ddbb78",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/photos/hfwi/gallery/affligem/affligem-portrait-03.webp": {
+    "mtime": 1785503405.8776996,
+    "ast_hash": "61f6c03a8344dcba761a1280ba2cfb4b",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/photos/hfwi/gallery/affligem/affligem-portrait-04.webp": {
+    "mtime": 1785503406.1501172,
+    "ast_hash": "1c51f24408f215c5e7a2f6b77a5175da",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/photos/hfwi/thumbs/porter.jpg": {
+    "mtime": 1785184789.0,
+    "ast_hash": "f80d09e38f451495c8f77276a4566ad9",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/photos/hfwi/thumbs/sol.jpg": {
+    "mtime": 1785184789.0,
+    "ast_hash": "ab7251c8af79e1043b06da954fe75b1c",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/photos/so-class/gallery/so-class-collection-jazz-cover-2022.webp": {
+    "mtime": 1785334298.0,
+    "ast_hash": "0fbae2c4042ef58a8d49311606df60c1",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/photos/so-class/gallery/so-class-portrait-homme-casual-2022.webp": {
+    "mtime": 1785334302.0,
+    "ast_hash": "dd3a252bf8311a823a8b3e342328b46d",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/photos/so-class/gallery/so-class-shooting-architecture-2022.webp": {
+    "mtime": 1785334299.0,
+    "ast_hash": "adc12e0846d3d4839a252c48ec7224e5",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/photos/so-class/gallery/so-class-shooting-look-rouille-2022.webp": {
+    "mtime": 1785334302.0,
+    "ast_hash": "a11f469c92f30ab3da71df5861d87033",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/photos/so-class/instagram/so-class-instagram-collection-jazz-2022-01.webp": {
+    "mtime": 1785503405.7001994,
+    "ast_hash": "40b2087ab487aed8160984e7fd75b794",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/photos/so-class/instagram/so-class-instagram-collection-jazz-2022-02.webp": {
+    "mtime": 1785503406.186375,
+    "ast_hash": "805583d43f430017848777fc56709cad",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/photos/so-class/instagram/so-class-instagram-collection-jazz-2022-03.webp": {
+    "mtime": 1785503406.0653756,
+    "ast_hash": "8a7552eb26bcdd66c3d03af11e746c53",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/photos/so-class/instagram/so-class-instagram-collection-jazz-2022-04.webp": {
+    "mtime": 1785503406.0027726,
+    "ast_hash": "3c130ae0f5a30ae6e7407509532cd456",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/accessoire-lunettes-orange-bleu.webp": {
+    "mtime": 1786379058.676149,
+    "ast_hash": "6e6c37083582242850353a5b0b5b0dd4",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/campagne-grande-anse.webp": {
+    "mtime": 1786376625.8511887,
+    "ast_hash": "abb46cdee264816d3ad8c3de4711e693",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/en-drive-cascade-aux-ecrevisses.webp": {
+    "mtime": 1786379063.3657627,
+    "ast_hash": "e5253a25912ffe310151574faa516df7",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/en-drive-la-route-de-la-traversee.webp": {
+    "mtime": 1786379062.8219576,
+    "ast_hash": "fe9c55f7ebe427347c02240123877939",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/en-drive-le-diamant.webp": {
+    "mtime": 1786379064.4900274,
+    "ast_hash": "07fcca103007c3ac9e856b50c9b84886",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/en-drive-les-fonds-blancs.webp": {
+    "mtime": 1786379063.8196044,
+    "ast_hash": "d3fa3d8d22699c064f8a4837b1533330",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/galerie-fete-des-meres.webp": {
+    "mtime": 1786376630.1776338,
+    "ast_hash": "0cb91948f61022f8868b511ea9012183",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/galerie-village-hmong-cacao.webp": {
+    "mtime": 1786376629.114012,
+    "ast_hash": "2a526a80e4534eebcc8ff22c18ad7d34",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/hero-auto-discount-complete.webp": {
+    "mtime": 1786383027.1936996,
+    "ast_hash": "bd26baf0567a1a512221611bfa83a7cb",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/hero-auto-discount-mobile.webp": {
+    "mtime": 1786383028.4726775,
+    "ast_hash": "d66714477be389163dfea5a3bfe3a69d",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/hero-coast-background.webp": {
+    "mtime": 1786381390.7410498,
+    "ast_hash": "1786b89811d751bfd884318db3a0487a",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/hero-smartphones.webp": {
+    "mtime": 1786379057.7935185,
+    "ast_hash": "b416474054e36ece71756f384ffbe713",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/old-campagne-flotte-trois-vehicules.webp": {
+    "mtime": 1786379058.4179044,
+    "ast_hash": "2978f8f055172f62f04ea073dd85b40a",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/old-hero-car-blue-auto-discount.webp": {
+    "mtime": 1786381391.5804076,
+    "ast_hash": "19b39f2bc22ad96b6a074489c2a4f252",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/old-road-trip-martinique.webp": {
+    "mtime": 1786376624.5363688,
+    "ast_hash": "9332f7fa05fc7745ef6c494718e28d75",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/old.post-final-entretien-vehicule-hd.webp": {
+    "mtime": 1786383715.8072572,
+    "ast_hash": "6539973fe0cc79d8de75354140d0d9be",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/old.road-trip-guyane.webp": {
+    "mtime": 1786376622.2572074,
+    "ast_hash": "ee25cc77a90ab50252b196944813cabf",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/old=post-final-entretien-vehicule-hd.webp": {
+    "mtime": 1786373286.5297809,
+    "ast_hash": "7f85ae4d870d58bc6cf3840c214c81de",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/opel-corsa-source.webp": {
+    "mtime": 1786379836.636922,
+    "ast_hash": "91f17b8b1dfe847222cc20188f1b449d",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/post-25-ans-remise.webp": {
+    "mtime": 1785344332.0,
+    "ast_hash": "a1543e69c1f889cf0e43088e958a693d",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/post-final-entretien-vehicule.webp": {
+    "mtime": 1786379059.6497152,
+    "ast_hash": "0849683a3281f0a6588bb8944c4aaff2",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/post-jeu-concours-saint-valentin.webp": {
+    "mtime": 1785344333.0,
+    "ast_hash": "ea036e1b10277abd354b65ff9c69ae18",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/post-location-3-ou-4-fois.webp": {
+    "mtime": 1785344337.0,
+    "ast_hash": "a2cf1bbbdec1d9dc150df66bb7f704e4",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/reel-carnaval-canal10.webp": {
+    "mtime": 1786376665.4707115,
+    "ast_hash": "3f51c8855b5088ed52b5ab1d97247d1d",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/auto-discount/thumbnail-auto-discount-location.webp": {
+    "mtime": 1785344881.0,
+    "ast_hash": "e32fe88577ad26bee7bc355d0ba4ae9e",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/bel-air-sup/logo.png": {
+    "mtime": 1785448917.5830183,
+    "ast_hash": "97d3a48f8fee3667f8d234e996e740dd",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/bel-air-sup/post-01.png": {
+    "mtime": 1785448918.6908703,
+    "ast_hash": "dd9ac63130338478a11552c271092924",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/bel-air-sup/post-02.jpg": {
+    "mtime": 1785448956.812265,
+    "ast_hash": "acd17278f34447e1e9243e79053e81fa",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/bel-air-sup/post-03.png": {
+    "mtime": 1785448920.1332626,
+    "ast_hash": "0b8e71d9d55afd3aad367eaa818c46cf",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/bel-air-sup/post-04.jpg": {
+    "mtime": 1785448956.935371,
+    "ast_hash": "8bcc69a88ae231fbf8f86369ad9b3c16",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/cap-creole/carousel-1-03.webp": {
+    "mtime": 1785421669.322148,
+    "ast_hash": "7ea79ea7dce083da5bf03be5ed7a79c8",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/cap-creole/carousel-1-04.webp": {
+    "mtime": 1785421670.0295172,
+    "ast_hash": "0bf5eab8f35f05540d6a43139d6cb669",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/cap-creole/carousel-1-05.webp": {
+    "mtime": 1785421673.2664664,
+    "ast_hash": "d1d76b360e1b42c0506d4993b8c41432",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/cap-creole/carousel-2-03.webp": {
+    "mtime": 1785421681.3511305,
+    "ast_hash": "ddb6f49536d6ee585f9908e5e6a18eb4",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/cap-creole/carousel-2-04.webp": {
+    "mtime": 1785421684.7800221,
+    "ast_hash": "1755fd761fe325e2eb8c1dae9f2562dc",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/cap-creole/carousel-2-05.webp": {
+    "mtime": 1785421728.4329813,
+    "ast_hash": "9c7a7869779bd42a3c4af50df25796be",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/cap-creole/logo-wordmark.webp": {
+    "mtime": 1786396350.835094,
+    "ast_hash": "50774b1c158c3e32a3c31e2b6c4e111e",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/cap-creole/post-04.webp": {
+    "mtime": 1785422534.9317775,
+    "ast_hash": "9d999e53b63634af2f883901f16128f9",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/capaceo/logo.png": {
+    "mtime": 1785448913.1225483,
+    "ast_hash": "0dc764ace966162866ccb030667a3698",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/capaceo/post-01.jpg": {
+    "mtime": 1785448914.0050058,
+    "ast_hash": "70eb2171e2f93f25759f15531c5b582a",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/capaceo/post-02.jpg": {
+    "mtime": 1785448914.9870424,
+    "ast_hash": "e3f591c6a6fdb193ef63e7fe87b71c58",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/capaceo/post-03.jpg": {
+    "mtime": 1785448915.8648999,
+    "ast_hash": "b629bbd80f2d8e218a403de6c6cbbd0f",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/capaceo/post-04.jpg": {
+    "mtime": 1785448916.737827,
+    "ast_hash": "4bcd727ab8760419bdb338016cbfe3c9",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/digilife/bandeaux/airpods-pro.jpg": {
+    "mtime": 1785449933.2084363,
+    "ast_hash": "fdc3620715098b013cb3d6f0633bdb07",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/digilife/bandeaux/airpods.jpg": {
+    "mtime": 1785449932.5847101,
+    "ast_hash": "8a912e437f9d6d19df7ee9fd20d19e8d",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/digilife/bandeaux/imac24.jpg": {
+    "mtime": 1785449932.8879845,
+    "ast_hash": "ec2abc288b3d4fd04468d81393d031b1",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/digilife/bandeaux/mac-studio.jpg": {
+    "mtime": 1785449933.932449,
+    "ast_hash": "9b4b8b48c89b8fce26dbb5e8652586dc",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/digilife/bandeaux/watch11.jpg": {
+    "mtime": 1785449933.6237278,
+    "ast_hash": "1494650417cdd6bf8272488e085f2cee",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/projects/social/digilife/thumbnail-digilife-influence.webp": {
+    "mtime": 1785446590.2092862,
+    "ast_hash": "4c7d9ac1b97bdf97a98be1e9d26b6da9",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/shared/placeholders/cap-creole.jpg": {
+    "mtime": 1785186743.0,
+    "ast_hash": "c8c3fcff9c1a16a476e20b11753b115e",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/shared/placeholders/epices.jpg": {
+    "mtime": 1785186745.0,
+    "ast_hash": "f0af91044558bfd4772588c016a77e80",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/shared/placeholders/interieur.jpg": {
+    "mtime": 1785186743.0,
+    "ast_hash": "9f8ad0541107c6e8d827c47511c00ab8",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/shared/placeholders/marine.jpg": {
+    "mtime": 1785186745.0,
+    "ast_hash": "a367e98241ebb1fc7287b2a01b68d880",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/shared/placeholders/patisserie.jpg": {
+    "mtime": 1785186729.0,
+    "ast_hash": "339adfdd20f57a95b63d149c9dd16289",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/shared/placeholders/social-auto-2.jpg": {
+    "mtime": 1785187697.0,
+    "ast_hash": "0c968d9830897dbbed8765b50c6bb310",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/shared/placeholders/social-auto-3.jpg": {
+    "mtime": 1785187698.0,
+    "ast_hash": "5de613d2a93917e145f72c97177df8b4",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/shared/placeholders/social-auto-4.jpg": {
+    "mtime": 1785187698.0,
+    "ast_hash": "6feebdb62bd8aec42178cb55c123dc0b",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/shared/placeholders/social-auto.jpg": {
+    "mtime": 1785186757.0,
+    "ast_hash": "ed20ecc6d46ae599cb8f518d74cbef8a",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/shared/placeholders/social-business.jpg": {
+    "mtime": 1785186757.0,
+    "ast_hash": "847f9640eb0c110a44c3cfc2e2ee66f4",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/shared/placeholders/social-school.jpg": {
+    "mtime": 1785186772.0,
+    "ast_hash": "f68c2e5b971a0488f1d02aa39202512a",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/shared/placeholders/social-tech.jpg": {
+    "mtime": 1785186757.0,
+    "ast_hash": "8be4fd11e605dceec47aeb1f63a34878",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/shared/placeholders/social-travel.jpg": {
+    "mtime": 1785186757.0,
+    "ast_hash": "8302fe578038e8ddec463396415be17b",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/title-latitude.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "2205296905164914499c9fb6ff463c45",
+    "semantic_hash": ""
+  },
+  "to-del/unused-assets/assets/wave.svg": {
+    "mtime": 1785189151.0,
+    "ast_hash": "7000db49caf8e3ce4b53b9c3fceda55b",
     "semantic_hash": ""
   }
 }
