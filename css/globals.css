@@ -6376,3 +6376,22 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
   background:#f1f3f4; color:#5f6368; font-family:var(--font-poppins); font-size:10.5px;
 }
 .ccr-ads__bar strong { color:#202124; font-size:11px; }
+
+/* Galerie photo Cap Créole : rythme éditorial asymétrique (grande, deux
+   moitiés inégales, grande) plutôt qu'une grille uniforme. Aucune image
+   n'a de ratio forcé — width:100%/height:auto uniquement — donc rien
+   n'est jamais recadré, chaque photo garde exactement son cadrage. */
+.ccr-gallery { display:grid; gap:clamp(18px,2vw,30px); }
+.ccr-gallery figure { margin:0; }
+.ccr-gallery__wide { border-radius:20px; overflow:hidden; background:var(--ccr-sand); }
+.ccr-gallery__wide img { display:block; width:100%; height:auto; }
+.ccr-gallery__split { display:grid; grid-template-columns:.62fr 1fr; gap:clamp(18px,2vw,30px); align-items:start; }
+.ccr-gallery__split figure { border-radius:20px; overflow:hidden; background:var(--ccr-sand); }
+.ccr-gallery__split img { display:block; width:100%; height:auto; }
+.ccr-gallery figcaption {
+  padding:10px 14px; font-family:var(--font-poppins); font-size:11.5px; font-weight:600;
+  color:var(--ccr-muted); background:#fff;
+}
+@media (max-width:700px) {
+  .ccr-gallery__split { grid-template-columns:1fr; }
+}
