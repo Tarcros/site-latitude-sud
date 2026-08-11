@@ -1,16 +1,16 @@
 # Graph Report - Site LS Code  (2026-08-11)
 
 ## Corpus Check
-- 16 files · ~8,063,077 words
+- 22 files · ~8,064,388 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 313 nodes · 363 edges · 60 communities (27 shown, 33 thin omitted)
+- 346 nodes · 390 edges · 66 communities (32 shown, 34 thin omitted)
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 16 edges (avg confidence: 0.9)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `609e1fb0`
+- Built from commit: `5551c73f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -72,6 +72,12 @@
 - [[_COMMUNITY_Community 57|Community 57]]
 - [[_COMMUNITY_Community 58|Community 58]]
 - [[_COMMUNITY_Community 59|Community 59]]
+- [[_COMMUNITY_Community 60|Community 60]]
+- [[_COMMUNITY_Community 61|Community 61]]
+- [[_COMMUNITY_Community 62|Community 62]]
+- [[_COMMUNITY_Community 63|Community 63]]
+- [[_COMMUNITY_Community 64|Community 64]]
+- [[_COMMUNITY_Community 65|Community 65]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `initComponents()` - 30 edges
@@ -92,7 +98,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (60 total, 33 thin omitted)
+## Communities (66 total, 34 thin omitted)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.06
@@ -167,8 +173,8 @@ Cohesion: 0.17
 Nodes (11): 2026-07-01 — Asset organization and sticky bar disable, 2026-07-01 — Asset organization and sticky bar disable, 2026-07-01 — Home page (index.html), Changelog — Latitude Sud v2, Mise en place workflow (cette session), Passe 1 — Corrections initiales, Passe 2 — Corrections après vérification visuelle, Passe 3 — Alignement strict sur le prototype `Home-Page-horizontale.png` (+3 more)
 
 ### Community 20 - "Community 20"
-Cohesion: 0.14
-Nodes (10): IGNORED_DIRECTORIES, missing, referencedAssetBytes, referencedAssetPaths, references, result, ROOT, runtimeAssets (+2 more)
+Cohesion: 0.13
+Nodes (11): ASSET_EXTENSIONS, IGNORED_DIRECTORIES, missing, referencedAssetBytes, referencedAssetPaths, references, result, ROOT (+3 more)
 
 ### Community 51 - "Community 51"
 Cohesion: 0.22
@@ -190,16 +196,36 @@ Nodes (3): Direction commune, Headers Latitude Sud - direction visuelle v2, Scen
 Cohesion: 0.50
 Nodes (3): Direction commune, Headers Latitude Sud V3, Personnages
 
+### Community 60 - "Community 60"
+Cohesion: 0.29
+Nodes (6): Carte des assets, Projets Catalogue, Projets Charte graphique, Projets Photos, Projets Réseaux sociaux, Ressources globales
+
+### Community 61 - "Community 61"
+Cohesion: 0.29
+Nodes (6): Architecture du site, Dépendances entre fichiers, Navigation et catégories, Projets et modales, Runtime, Validation
+
+### Community 62 - "Community 62"
+Cohesion: 0.33
+Nodes (5): Actions réalisées, Contrôles exécutés, Résultat mesuré, Résultats du nettoyage, Éléments volontairement conservés
+
+### Community 63 - "Community 63"
+Cohesion: 0.33
+Nodes (5): Contrôles rapides, Documentation, Lancer le site, Pages principales, Site Latitude Sud
+
+### Community 64 - "Community 64"
+Cohesion: 0.50
+Nodes (3): Arborescence, Organisation des assets, Règles
+
 ## Knowledge Gaps
-- **131 isolated node(s):** `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT`, `CATALOGUE_SERVICES_DEFAULT`, `CATALOGUE_CASE_STUDIES`, `CATALOGUE_SECTION_RENDERERS` (+126 more)
+- **153 isolated node(s):** `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT`, `CATALOGUE_SERVICES_DEFAULT`, `CATALOGUE_CASE_STUDIES`, `CATALOGUE_SECTION_RENDERERS` (+148 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **33 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **34 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT`, `CATALOGUE_SERVICES_DEFAULT` to the rest of the system?**
-  _131 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _153 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.05817028027498678 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
@@ -207,4 +233,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `Community 8` be split into smaller, more focused modules?**
   _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
 - **Should `Community 20` be split into smaller, more focused modules?**
-  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._

@@ -1037,7 +1037,7 @@
       "label": "mrbMedia()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3377",
+      "source_location": "L3386",
       "_origin": "ast",
       "id": "js_components_mrbmedia",
       "community": 1,
@@ -1047,7 +1047,7 @@
       "label": "MRB_AD_ICONS",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3389",
+      "source_location": "L3398",
       "_origin": "ast",
       "id": "js_components_mrb_ad_icons",
       "community": 1,
@@ -1057,7 +1057,7 @@
       "label": "mrbAdCard()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3403",
+      "source_location": "L3412",
       "_origin": "ast",
       "id": "js_components_mrbadcard",
       "community": 1,
@@ -1067,7 +1067,7 @@
       "label": "renderMrBricolageCaseHTML()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3458",
+      "source_location": "L3467",
       "_origin": "ast",
       "id": "js_components_rendermrbricolagecasehtml",
       "community": 1,
@@ -1077,7 +1077,7 @@
       "label": "initMrBricolageCaseStudy()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3583",
+      "source_location": "L3592",
       "_origin": "ast",
       "id": "js_components_initmrbricolagecasestudy",
       "community": 1,
@@ -1087,7 +1087,7 @@
       "label": "LBE_CASE",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3596",
+      "source_location": "L3605",
       "_origin": "ast",
       "id": "js_components_lbe_case",
       "community": 1,
@@ -1097,7 +1097,7 @@
       "label": "renderLesBellesEnviesCaseHTML()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3670",
+      "source_location": "L3679",
       "_origin": "ast",
       "id": "js_components_renderlesbellesenviescasehtml",
       "community": 1,
@@ -1107,7 +1107,7 @@
       "label": "initLesBellesEnviesCaseStudy()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3765",
+      "source_location": "L3774",
       "_origin": "ast",
       "id": "js_components_initlesbellesenviescasestudy",
       "community": 1,
@@ -1117,7 +1117,7 @@
       "label": "CCR_CASE",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3775",
+      "source_location": "L3784",
       "_origin": "ast",
       "id": "js_components_ccr_case",
       "community": 1,
@@ -1127,7 +1127,7 @@
       "label": "renderCapCreoleCaseHTML()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3832",
+      "source_location": "L3841",
       "_origin": "ast",
       "id": "js_components_rendercapcreolecasehtml",
       "community": 1,
@@ -1137,7 +1137,7 @@
       "label": "initCapCreoleCaseStudy()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3927",
+      "source_location": "L3936",
       "_origin": "ast",
       "id": "js_components_initcapcreolecasestudy",
       "community": 1,
@@ -1147,7 +1147,7 @@
       "label": "initDigilifeCaseStudy()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3935",
+      "source_location": "L3944",
       "_origin": "ast",
       "id": "js_components_initdigilifecasestudy",
       "community": 1,
@@ -1157,7 +1157,7 @@
       "label": "initComponents()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3955",
+      "source_location": "L3964",
       "_origin": "ast",
       "id": "js_components_initcomponents",
       "community": 1,
@@ -1194,10 +1194,20 @@
       "norm_label": "text_extensions"
     },
     {
-      "label": "IGNORED_DIRECTORIES",
+      "label": "ASSET_EXTENSIONS",
       "file_type": "code",
       "source_file": "scripts/check-local-assets.mjs",
       "source_location": "L10",
+      "_origin": "ast",
+      "id": "scripts_check_local_assets_asset_extensions",
+      "community": 20,
+      "norm_label": "asset_extensions"
+    },
+    {
+      "label": "IGNORED_DIRECTORIES",
+      "file_type": "code",
+      "source_file": "scripts/check-local-assets.mjs",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "scripts_check_local_assets_ignored_directories",
       "community": 20,
@@ -1207,7 +1217,7 @@
       "label": "walk()",
       "file_type": "code",
       "source_file": "scripts/check-local-assets.mjs",
-      "source_location": "L14",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "scripts_check_local_assets_walk",
       "community": 20,
@@ -1217,7 +1227,7 @@
       "label": "walkFiles()",
       "file_type": "code",
       "source_file": "scripts/check-local-assets.mjs",
-      "source_location": "L26",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "scripts_check_local_assets_walkfiles",
       "community": 20,
@@ -1227,7 +1237,7 @@
       "label": "normalizeReference()",
       "file_type": "code",
       "source_file": "scripts/check-local-assets.mjs",
-      "source_location": "L38",
+      "source_location": "L41",
       "_origin": "ast",
       "id": "scripts_check_local_assets_normalizereference",
       "community": 20,
@@ -1237,7 +1247,7 @@
       "label": "references",
       "file_type": "code",
       "source_file": "scripts/check-local-assets.mjs",
-      "source_location": "L49",
+      "source_location": "L52",
       "_origin": "ast",
       "id": "scripts_check_local_assets_references",
       "community": 20,
@@ -1247,7 +1257,7 @@
       "label": "missing",
       "file_type": "code",
       "source_file": "scripts/check-local-assets.mjs",
-      "source_location": "L78",
+      "source_location": "L81",
       "_origin": "ast",
       "id": "scripts_check_local_assets_missing",
       "community": 20,
@@ -1257,7 +1267,7 @@
       "label": "runtimeAssets",
       "file_type": "code",
       "source_file": "scripts/check-local-assets.mjs",
-      "source_location": "L86",
+      "source_location": "L89",
       "_origin": "ast",
       "id": "scripts_check_local_assets_runtimeassets",
       "community": 20,
@@ -1267,7 +1277,7 @@
       "label": "referencedAssetPaths",
       "file_type": "code",
       "source_file": "scripts/check-local-assets.mjs",
-      "source_location": "L88",
+      "source_location": "L92",
       "_origin": "ast",
       "id": "scripts_check_local_assets_referencedassetpaths",
       "community": 20,
@@ -1277,7 +1287,7 @@
       "label": "unreferencedAssets",
       "file_type": "code",
       "source_file": "scripts/check-local-assets.mjs",
-      "source_location": "L91",
+      "source_location": "L95",
       "_origin": "ast",
       "id": "scripts_check_local_assets_unreferencedassets",
       "community": 20,
@@ -1287,7 +1297,7 @@
       "label": "referencedAssetBytes",
       "file_type": "code",
       "source_file": "scripts/check-local-assets.mjs",
-      "source_location": "L94",
+      "source_location": "L98",
       "_origin": "ast",
       "id": "scripts_check_local_assets_referencedassetbytes",
       "community": 20,
@@ -1297,7 +1307,7 @@
       "label": "result",
       "file_type": "code",
       "source_file": "scripts/check-local-assets.mjs",
-      "source_location": "L99",
+      "source_location": "L103",
       "_origin": "ast",
       "id": "scripts_check_local_assets_result",
       "community": 20,
@@ -1694,6 +1704,106 @@
       "norm_label": "13. methode de travail a partir de maintenant"
     },
     {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 63,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Site Latitude Sud",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_site_latitude_sud",
+      "community": 63,
+      "norm_label": "site latitude sud"
+    },
+    {
+      "label": "Lancer le site",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "readme_lancer_le_site",
+      "community": 63,
+      "norm_label": "lancer le site"
+    },
+    {
+      "label": "Pages principales",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "readme_pages_principales",
+      "community": 63,
+      "norm_label": "pages principales"
+    },
+    {
+      "label": "Contr\u00f4les rapides",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "readme_contr\u00f4les_rapides",
+      "community": 63,
+      "norm_label": "controles rapides"
+    },
+    {
+      "label": "Documentation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "readme_documentation",
+      "community": 63,
+      "norm_label": "documentation"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "assets/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "assets_readme",
+      "community": 64,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Organisation des assets",
+      "file_type": "document",
+      "source_file": "assets/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "assets_readme_organisation_des_assets",
+      "community": 64,
+      "norm_label": "organisation des assets"
+    },
+    {
+      "label": "Arborescence",
+      "file_type": "document",
+      "source_file": "assets/README.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "assets_readme_arborescence",
+      "community": 64,
+      "norm_label": "arborescence"
+    },
+    {
+      "label": "R\u00e8gles",
+      "file_type": "document",
+      "source_file": "assets/README.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "assets_readme_r\u00e8gles",
+      "community": 64,
+      "norm_label": "regles"
+    },
+    {
       "label": "CHANGES.md",
       "file_type": "document",
       "source_file": "docs/CHANGES.md",
@@ -1872,6 +1982,136 @@
       "id": "docs_project_context_fichiers",
       "community": 53,
       "norm_label": "\ud83d\udcc1 fichiers"
+    },
+    {
+      "label": "asset-map.md",
+      "file_type": "document",
+      "source_file": "docs/asset-map.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_asset_map",
+      "community": 60,
+      "norm_label": "asset-map.md"
+    },
+    {
+      "label": "Carte des assets",
+      "file_type": "document",
+      "source_file": "docs/asset-map.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_asset_map_carte_des_assets",
+      "community": 60,
+      "norm_label": "carte des assets"
+    },
+    {
+      "label": "Ressources globales",
+      "file_type": "document",
+      "source_file": "docs/asset-map.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_asset_map_ressources_globales",
+      "community": 60,
+      "norm_label": "ressources globales"
+    },
+    {
+      "label": "Projets Photos",
+      "file_type": "document",
+      "source_file": "docs/asset-map.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "docs_asset_map_projets_photos",
+      "community": 60,
+      "norm_label": "projets photos"
+    },
+    {
+      "label": "Projets Charte graphique",
+      "file_type": "document",
+      "source_file": "docs/asset-map.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "docs_asset_map_projets_charte_graphique",
+      "community": 60,
+      "norm_label": "projets charte graphique"
+    },
+    {
+      "label": "Projets R\u00e9seaux sociaux",
+      "file_type": "document",
+      "source_file": "docs/asset-map.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "docs_asset_map_projets_r\u00e9seaux_sociaux",
+      "community": 60,
+      "norm_label": "projets reseaux sociaux"
+    },
+    {
+      "label": "Projets Catalogue",
+      "file_type": "document",
+      "source_file": "docs/asset-map.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "docs_asset_map_projets_catalogue",
+      "community": 60,
+      "norm_label": "projets catalogue"
+    },
+    {
+      "label": "cleanup-results.md",
+      "file_type": "document",
+      "source_file": "docs/cleanup-results.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_cleanup_results",
+      "community": 62,
+      "norm_label": "cleanup-results.md"
+    },
+    {
+      "label": "R\u00e9sultats du nettoyage",
+      "file_type": "document",
+      "source_file": "docs/cleanup-results.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_cleanup_results_r\u00e9sultats_du_nettoyage",
+      "community": 62,
+      "norm_label": "resultats du nettoyage"
+    },
+    {
+      "label": "R\u00e9sultat mesur\u00e9",
+      "file_type": "document",
+      "source_file": "docs/cleanup-results.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_cleanup_results_r\u00e9sultat_mesur\u00e9",
+      "community": 62,
+      "norm_label": "resultat mesure"
+    },
+    {
+      "label": "Actions r\u00e9alis\u00e9es",
+      "file_type": "document",
+      "source_file": "docs/cleanup-results.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "docs_cleanup_results_actions_r\u00e9alis\u00e9es",
+      "community": 62,
+      "norm_label": "actions realisees"
+    },
+    {
+      "label": "Contr\u00f4les ex\u00e9cut\u00e9s",
+      "file_type": "document",
+      "source_file": "docs/cleanup-results.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "docs_cleanup_results_contr\u00f4les_ex\u00e9cut\u00e9s",
+      "community": 62,
+      "norm_label": "controles executes"
+    },
+    {
+      "label": "\u00c9l\u00e9ments volontairement conserv\u00e9s",
+      "file_type": "document",
+      "source_file": "docs/cleanup-results.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "docs_cleanup_results_\u00e9l\u00e9ments_volontairement_conserv\u00e9s",
+      "community": 62,
+      "norm_label": "elements volontairement conserves"
     },
     {
       "label": "manual-review.md",
@@ -2062,6 +2302,96 @@
       "id": "docs_repository_audit_contr\u00f4les_disponibles",
       "community": 51,
       "norm_label": "controles disponibles"
+    },
+    {
+      "label": "site-architecture.md",
+      "file_type": "document",
+      "source_file": "docs/site-architecture.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_site_architecture",
+      "community": 61,
+      "norm_label": "site-architecture.md"
+    },
+    {
+      "label": "Architecture du site",
+      "file_type": "document",
+      "source_file": "docs/site-architecture.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_site_architecture_architecture_du_site",
+      "community": 61,
+      "norm_label": "architecture du site"
+    },
+    {
+      "label": "Runtime",
+      "file_type": "document",
+      "source_file": "docs/site-architecture.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_site_architecture_runtime",
+      "community": 61,
+      "norm_label": "runtime"
+    },
+    {
+      "label": "Navigation et cat\u00e9gories",
+      "file_type": "document",
+      "source_file": "docs/site-architecture.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "docs_site_architecture_navigation_et_cat\u00e9gories",
+      "community": 61,
+      "norm_label": "navigation et categories"
+    },
+    {
+      "label": "Projets et modales",
+      "file_type": "document",
+      "source_file": "docs/site-architecture.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "docs_site_architecture_projets_et_modales",
+      "community": 61,
+      "norm_label": "projets et modales"
+    },
+    {
+      "label": "D\u00e9pendances entre fichiers",
+      "file_type": "document",
+      "source_file": "docs/site-architecture.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "docs_site_architecture_d\u00e9pendances_entre_fichiers",
+      "community": 61,
+      "norm_label": "dependances entre fichiers"
+    },
+    {
+      "label": "Validation",
+      "file_type": "document",
+      "source_file": "docs/site-architecture.md",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "docs_site_architecture_validation",
+      "community": 61,
+      "norm_label": "validation"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "to-del/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "to_del_readme",
+      "community": 65,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Fichiers \u00e9cart\u00e9s du runtime",
+      "file_type": "document",
+      "source_file": "to-del/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "to_del_readme_fichiers_\u00e9cart\u00e9s_du_runtime",
+      "community": 65,
+      "norm_label": "fichiers ecartes du runtime"
     },
     {
       "label": "CLAUDE.md \u2014 graphify project instructions",
@@ -5911,6 +6241,16 @@
       "source_file": "scripts/check-local-assets.mjs",
       "source_location": "L10",
       "weight": 1.0,
+      "source": "scripts_check_local_assets",
+      "target": "scripts_check_local_assets_asset_extensions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/check-local-assets.mjs",
+      "source_location": "L10",
+      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "scripts_check_local_assets",
       "target": "scripts_check_local_assets_ignored_directories"
@@ -5951,9 +6291,9 @@
       "source_file": "scripts/check-local-assets.mjs",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_check_local_assets",
-      "target": "scripts_check_local_assets_referencedassetpaths",
-      "confidence_score": 1.0
+      "target": "scripts_check_local_assets_referencedassetpaths"
     },
     {
       "relation": "contains",
@@ -6011,9 +6351,9 @@
       "source_file": "scripts/check-local-assets.mjs",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_check_local_assets",
-      "target": "scripts_check_local_assets_unreferencedassets",
-      "confidence_score": 1.0
+      "target": "scripts_check_local_assets_unreferencedassets"
     },
     {
       "relation": "contains",
@@ -6378,6 +6718,86 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_site_latitude_sud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "readme_site_latitude_sud",
+      "target": "readme_contr\u00f4les_rapides",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "readme_site_latitude_sud",
+      "target": "readme_documentation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "readme_site_latitude_sud",
+      "target": "readme_lancer_le_site",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "readme_site_latitude_sud",
+      "target": "readme_pages_principales",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "assets_readme",
+      "target": "assets_readme_organisation_des_assets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "assets_readme_organisation_des_assets",
+      "target": "assets_readme_arborescence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/README.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "assets_readme_organisation_des_assets",
+      "target": "assets_readme_r\u00e8gles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/CHANGES.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -6538,6 +6958,116 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/asset-map.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_asset_map",
+      "target": "docs_asset_map_carte_des_assets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/asset-map.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "docs_asset_map_carte_des_assets",
+      "target": "docs_asset_map_projets_catalogue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/asset-map.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "docs_asset_map_carte_des_assets",
+      "target": "docs_asset_map_projets_charte_graphique",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/asset-map.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_asset_map_carte_des_assets",
+      "target": "docs_asset_map_projets_photos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/asset-map.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "docs_asset_map_carte_des_assets",
+      "target": "docs_asset_map_projets_r\u00e9seaux_sociaux",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/asset-map.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_asset_map_carte_des_assets",
+      "target": "docs_asset_map_ressources_globales",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/cleanup-results.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_cleanup_results",
+      "target": "docs_cleanup_results_r\u00e9sultats_du_nettoyage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/cleanup-results.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "docs_cleanup_results_r\u00e9sultats_du_nettoyage",
+      "target": "docs_cleanup_results_actions_r\u00e9alis\u00e9es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/cleanup-results.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "docs_cleanup_results_r\u00e9sultats_du_nettoyage",
+      "target": "docs_cleanup_results_contr\u00f4les_ex\u00e9cut\u00e9s",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/cleanup-results.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_cleanup_results_r\u00e9sultats_du_nettoyage",
+      "target": "docs_cleanup_results_r\u00e9sultat_mesur\u00e9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/cleanup-results.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "docs_cleanup_results_r\u00e9sultats_du_nettoyage",
+      "target": "docs_cleanup_results_\u00e9l\u00e9ments_volontairement_conserv\u00e9s",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/manual-review.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -6551,9 +7081,9 @@
       "source_file": "docs/references/hero-prompts/header-prompts-v2.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hero_prompts_header_prompts_v2",
-      "target": "hero_prompts_header_prompts_v2_headers_latitude_sud_direction_visuelle_v2",
-      "confidence_score": 1.0
+      "target": "hero_prompts_header_prompts_v2_headers_latitude_sud_direction_visuelle_v2"
     },
     {
       "relation": "contains",
@@ -6561,9 +7091,9 @@
       "source_file": "docs/references/hero-prompts/header-prompts-v2.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hero_prompts_header_prompts_v2_headers_latitude_sud_direction_visuelle_v2",
-      "target": "hero_prompts_header_prompts_v2_direction_commune",
-      "confidence_score": 1.0
+      "target": "hero_prompts_header_prompts_v2_direction_commune"
     },
     {
       "relation": "contains",
@@ -6571,9 +7101,9 @@
       "source_file": "docs/references/hero-prompts/header-prompts-v2.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hero_prompts_header_prompts_v2_headers_latitude_sud_direction_visuelle_v2",
-      "target": "hero_prompts_header_prompts_v2_scenes",
-      "confidence_score": 1.0
+      "target": "hero_prompts_header_prompts_v2_scenes"
     },
     {
       "relation": "contains",
@@ -6581,9 +7111,9 @@
       "source_file": "docs/references/hero-prompts/header-prompts-v3.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hero_prompts_header_prompts_v3",
-      "target": "hero_prompts_header_prompts_v3_headers_latitude_sud_v3",
-      "confidence_score": 1.0
+      "target": "hero_prompts_header_prompts_v3_headers_latitude_sud_v3"
     },
     {
       "relation": "contains",
@@ -6591,9 +7121,9 @@
       "source_file": "docs/references/hero-prompts/header-prompts-v3.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hero_prompts_header_prompts_v3_headers_latitude_sud_v3",
-      "target": "hero_prompts_header_prompts_v3_direction_commune",
-      "confidence_score": 1.0
+      "target": "hero_prompts_header_prompts_v3_direction_commune"
     },
     {
       "relation": "contains",
@@ -6601,9 +7131,9 @@
       "source_file": "docs/references/hero-prompts/header-prompts-v3.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hero_prompts_header_prompts_v3_headers_latitude_sud_v3",
-      "target": "hero_prompts_header_prompts_v3_personnages",
-      "confidence_score": 1.0
+      "target": "hero_prompts_header_prompts_v3_personnages"
     },
     {
       "relation": "contains",
@@ -6684,6 +7214,76 @@
       "confidence_score": 1.0,
       "source": "docs_repository_audit_audit_du_repository_latitude_sud",
       "target": "docs_repository_audit_\u00e9tat_mesur\u00e9_avant_nettoyage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/site-architecture.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_site_architecture",
+      "target": "docs_site_architecture_architecture_du_site",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/site-architecture.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "docs_site_architecture_architecture_du_site",
+      "target": "docs_site_architecture_d\u00e9pendances_entre_fichiers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/site-architecture.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "docs_site_architecture_architecture_du_site",
+      "target": "docs_site_architecture_navigation_et_cat\u00e9gories",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/site-architecture.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "docs_site_architecture_architecture_du_site",
+      "target": "docs_site_architecture_projets_et_modales",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/site-architecture.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_site_architecture_architecture_du_site",
+      "target": "docs_site_architecture_runtime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/site-architecture.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "docs_site_architecture_architecture_du_site",
+      "target": "docs_site_architecture_validation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "to-del/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "to_del_readme",
+      "target": "to_del_readme_fichiers_\u00e9cart\u00e9s_du_runtime",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7443,5 +8043,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "609e1fb0b787b0e79a4e6c7f7b5c261a6ec55d84"
+  "built_at_commit": "5551c73fa4ff5bce29df12728534a9dd73c4c6ca"
 }

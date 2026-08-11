@@ -7,6 +7,9 @@ const ROOT = process.cwd();
 const TEXT_EXTENSIONS = new Set([
   '.css', '.html', '.js', '.json', '.mjs', '.svg', '.webmanifest', '.xml',
 ]);
+const ASSET_EXTENSIONS = new Set([
+  '.avif', '.gif', '.ico', '.jpeg', '.jpg', '.mp4', '.otf', '.png', '.svg', '.webm', '.webp',
+]);
 const IGNORED_DIRECTORIES = new Set([
   '.git', 'docs', 'graphify-out', 'screenshots', 'tmp', 'to-del',
 ]);
@@ -84,7 +87,8 @@ for (const [reference, consumers] of references) {
 }
 
 const runtimeAssets = [join(ROOT, 'assets'), join(ROOT, 'backgrounds')]
-  .flatMap((directory) => walkFiles(directory));
+  .flatMap((directory) => walkFiles(directory))
+  .filter((filePath) => ASSET_EXTENSIONS.has(extname(filePath).toLowerCase()));
 const referencedAssetPaths = new Set(
   [...references.keys()].map((reference) => normalize(join(ROOT, reference))),
 );

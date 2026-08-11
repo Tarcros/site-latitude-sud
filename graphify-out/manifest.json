@@ -20,8 +20,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1786452008.648888,
-    "ast_hash": "cf4da9736c362f620c9e9ade7bda04da",
+    "mtime": 1786454279.993022,
+    "ast_hash": "5d47f4525402fd8d3727c64e9aafdf5d",
     "semantic_hash": ""
   },
   "robots.txt": {
@@ -40,13 +40,13 @@
     "semantic_hash": ""
   },
   "js/components.js": {
-    "mtime": 1786451960.2449727,
-    "ast_hash": "c7c5dd4194aff87dff3bb7254d67f7dc",
+    "mtime": 1786454258.141155,
+    "ast_hash": "93cfd694b31acb6db4f8a014cf5c068c",
     "semantic_hash": ""
   },
   "scripts/check-local-assets.mjs": {
-    "mtime": 1786452477.8795223,
-    "ast_hash": "19fc870ebd8e378b481eb90feed33ef0",
+    "mtime": 1786453010.3718472,
+    "ast_hash": "a44446eb83b357833bbcdd34d6e009aa",
     "semantic_hash": ""
   },
   ".claude/skills/latitude-ui/SKILL.md": {
@@ -60,8 +60,8 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1786366113.6230679,
-    "ast_hash": "bbcfebbae76120f05e2c066cf8eda397",
+    "mtime": 1786452933.9864845,
+    "ast_hash": "e93502dfdc57f290611231bf738de04e",
     "semantic_hash": ""
   },
   "PROJECT_BRIEF.md": {
@@ -80,8 +80,8 @@
     "semantic_hash": ""
   },
   "docs/manual-review.md": {
-    "mtime": 1786450837.6358888,
-    "ast_hash": "e38c0b25e976ddd98b7acc568493afa3",
+    "mtime": 1786453056.1890523,
+    "ast_hash": "c5f465238e6ed94ce8c98b8ac14b29cf",
     "semantic_hash": ""
   },
   "docs/repository-audit.md": {
@@ -90,68 +90,68 @@
     "semantic_hash": ""
   },
   "pages/agence.html": {
-    "mtime": 1786452008.731989,
-    "ast_hash": "94ddc13d2b9a96c61ef8ce37e50354e3",
+    "mtime": 1786454279.993636,
+    "ast_hash": "0be05052a7ccf2d44e6f66c8d2493375",
     "semantic_hash": ""
   },
   "pages/catalogue.html": {
-    "mtime": 1786452008.7325017,
-    "ast_hash": "262a476ad052573b30762cce8fdce9ec",
+    "mtime": 1786454279.9942572,
+    "ast_hash": "cc268021accd3e7967e502b7f56c12da",
     "semantic_hash": ""
   },
   "pages/charte-graphique.html": {
-    "mtime": 1786452008.7329197,
-    "ast_hash": "bec94f13aa585755ce7d76f5a82cab3e",
+    "mtime": 1786454279.9947944,
+    "ast_hash": "533e8b00aeb969d595b4365efd742a9a",
     "semantic_hash": ""
   },
   "pages/contact.html": {
-    "mtime": 1786452008.7333891,
-    "ast_hash": "cac0e7ccd1f8fd541eb5c6d6e99445cd",
+    "mtime": 1786454279.9953191,
+    "ast_hash": "dd2a968514440fd5176c1bfd3224ecca",
     "semantic_hash": ""
   },
   "pages/latitude-sud-news.html": {
-    "mtime": 1786452008.733883,
-    "ast_hash": "607b1f813970ddfec82cfae4f481698f",
+    "mtime": 1786454279.9959438,
+    "ast_hash": "f9fca0532f28e6f5cf849226b2db668d",
     "semantic_hash": ""
   },
   "pages/mentions-legales.html": {
-    "mtime": 1786452008.734355,
-    "ast_hash": "725eae6629c638543da99ecae4249652",
+    "mtime": 1786454279.99728,
+    "ast_hash": "50731c32708f7dc1bb19a37c7511f4aa",
     "semantic_hash": ""
   },
   "pages/photos.html": {
-    "mtime": 1786452008.735228,
-    "ast_hash": "9a92abcb56f87f2d2b378d0fbbf32ad9",
+    "mtime": 1786454279.9979239,
+    "ast_hash": "d19ecb67187d9b3439ce6eea4aa44ca1",
     "semantic_hash": ""
   },
   "pages/politique-de-confidentialite.html": {
-    "mtime": 1786452008.7356853,
-    "ast_hash": "0934a425526444cb73ea18000627e3ca",
+    "mtime": 1786454279.9985845,
+    "ast_hash": "1b167785ec8b786235e9df5e1cb8b986",
     "semantic_hash": ""
   },
   "pages/print.html": {
-    "mtime": 1786452008.7360833,
-    "ast_hash": "fa07989e46f3f7d7498c37846b75a6a7",
+    "mtime": 1786454279.9990149,
+    "ast_hash": "31395262b56fa9d59a877bffb47c6b6b",
     "semantic_hash": ""
   },
   "pages/realisations.html": {
-    "mtime": 1786452008.7364905,
-    "ast_hash": "1b209c7cfc1f28089e4c31fe17e57930",
+    "mtime": 1786454279.9994364,
+    "ast_hash": "f21dfc1cb7f8f9a391a63f9a37920897",
     "semantic_hash": ""
   },
   "pages/social.html": {
-    "mtime": 1786452008.7372375,
-    "ast_hash": "fee81f7d82534919a3199a95007d44e7",
+    "mtime": 1786454280.0001767,
+    "ast_hash": "71cd74c8b8b4adf66de92a23afde0cb4",
     "semantic_hash": ""
   },
   "pages/video.html": {
-    "mtime": 1786452008.7378092,
-    "ast_hash": "bd25a1f7a768fb25ec58750ff2792d5e",
+    "mtime": 1786454280.0006318,
+    "ast_hash": "becb06cf72f826edcb573a9c5994cfff",
     "semantic_hash": ""
   },
   "pages/web.html": {
-    "mtime": 1786452008.7381997,
-    "ast_hash": "24c0e04c0a6b46efd40369e807036ffe",
+    "mtime": 1786454280.0011163,
+    "ast_hash": "471b20e28b1556bbdffd1dc9c58d34f2",
     "semantic_hash": ""
   },
   "assets/projects/social/auto-discount/abymes-source.webp": {
@@ -3234,21 +3234,6 @@
     "ast_hash": "117294b9620d71a9e89d13c30fd1ecd1",
     "semantic_hash": ""
   },
-  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/fete-des-meres/pages/p1.webp": {
-    "mtime": 1786137665.7902997,
-    "ast_hash": "97f1cb35ebe40e8de5563e442b75c9e6",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/fete-des-meres/pages/p2.webp": {
-    "mtime": 1786137666.6073105,
-    "ast_hash": "a681cf3cb7bd07787892222dcb4851b0",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/fete-des-meres/pages/p3.webp": {
-    "mtime": 1786137667.2748716,
-    "ast_hash": "3d738e0621a211abb4c1d9a46ad4a44e",
-    "semantic_hash": ""
-  },
   "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/media/film-cuisine-poster.webp": {
     "mtime": 1786116210.659601,
     "ast_hash": "b8ff1881ab9d3422d5ed332cb1c92417",
@@ -3257,36 +3242,6 @@
   "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/media/video-promo-poster.webp": {
     "mtime": 1786116211.5946152,
     "ast_hash": "8fa8c3e8dbf7ab43c8079c33b45d0961",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/outillage-auto/pages/p1.webp": {
-    "mtime": 1786136472.287924,
-    "ast_hash": "495b4b81d04b537e04c35dcc072beaae",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/outillage-auto/pages/p2.webp": {
-    "mtime": 1786136473.3062081,
-    "ast_hash": "47ab91c2f73503dc9bae1a645123b73e",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/outillage-auto/pages/p3.webp": {
-    "mtime": 1786136474.1045783,
-    "ast_hash": "76f067e0d2a23f0f6d902a7b94622b3f",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/votre-projet/pages/p1.webp": {
-    "mtime": 1786137670.2889829,
-    "ast_hash": "456ac2f2c938f7c28c664cee56e02b23",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/votre-projet/pages/p2.webp": {
-    "mtime": 1786137670.2944198,
-    "ast_hash": "3d63c8f3e6462f2a40a7dff1d9bd65e8",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/votre-projet/pages/p3.webp": {
-    "mtime": 1786137670.3108914,
-    "ast_hash": "a3e0d4e9be78c4a635e1be2b30301019",
     "semantic_hash": ""
   },
   "to-del/unused-assets/assets/projects/photos/hfwi/gallery/affligem/affligem-portrait-01.webp": {
@@ -3677,6 +3632,81 @@
   "to-del/unused-assets/assets/wave.svg": {
     "mtime": 1785189151.0,
     "ast_hash": "7000db49caf8e3ce4b53b9c3fceda55b",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1786452933.984033,
+    "ast_hash": "ccbd42c608cb2f239272c5bb548bd430",
+    "semantic_hash": ""
+  },
+  "assets/README.md": {
+    "mtime": 1786453271.556204,
+    "ast_hash": "71f44ece1cfa0d09ecddfad16bf039de",
+    "semantic_hash": ""
+  },
+  "docs/asset-map.md": {
+    "mtime": 1786452933.9850845,
+    "ast_hash": "ac21e0d1056f5613e8bac3400ce58901",
+    "semantic_hash": ""
+  },
+  "docs/cleanup-results.md": {
+    "mtime": 1786454388.9982414,
+    "ast_hash": "2fbb09bb55a51f763d2ce8cad94b6253",
+    "semantic_hash": ""
+  },
+  "docs/site-architecture.md": {
+    "mtime": 1786452933.984772,
+    "ast_hash": "f4f48f4cdd6780076a4ce7c2a4897f1d",
+    "semantic_hash": ""
+  },
+  "to-del/README.md": {
+    "mtime": 1786452933.9857576,
+    "ast_hash": "fb272da8bf4d3d8135145e2a2e8655aa",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/fete-des-meres/pages/p1.webp": {
+    "mtime": 1786137665.7902997,
+    "ast_hash": "97f1cb35ebe40e8de5563e442b75c9e6",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/fete-des-meres/pages/p2.webp": {
+    "mtime": 1786137666.6073105,
+    "ast_hash": "a681cf3cb7bd07787892222dcb4851b0",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/fete-des-meres/pages/p3.webp": {
+    "mtime": 1786137667.2748716,
+    "ast_hash": "3d738e0621a211abb4c1d9a46ad4a44e",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/outillage-auto/pages/p1.webp": {
+    "mtime": 1786136472.287924,
+    "ast_hash": "495b4b81d04b537e04c35dcc072beaae",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/outillage-auto/pages/p2.webp": {
+    "mtime": 1786136473.3062081,
+    "ast_hash": "47ab91c2f73503dc9bae1a645123b73e",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/outillage-auto/pages/p3.webp": {
+    "mtime": 1786136474.1045783,
+    "ast_hash": "76f067e0d2a23f0f6d902a7b94622b3f",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/votre-projet/pages/p1.webp": {
+    "mtime": 1786137670.2889829,
+    "ast_hash": "456ac2f2c938f7c28c664cee56e02b23",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/votre-projet/pages/p2.webp": {
+    "mtime": 1786137670.2944198,
+    "ast_hash": "3d63c8f3e6462f2a40a7dff1d9bd65e8",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/votre-projet/pages/p3.webp": {
+    "mtime": 1786137670.3108914,
+    "ast_hash": "a3e0d4e9be78c4a635e1be2b30301019",
     "semantic_hash": ""
   }
 }
