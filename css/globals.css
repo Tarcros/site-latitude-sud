@@ -6358,3 +6358,13 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
   .dgi-results__grid small { font-size:10px; }
   .dgi-cta__logo { display:none; }
 }
+
+/* Cartes Instagram devenues de vraies vidéos autoplay/muted/loop (au lieu
+   de liens statiques vers Instagram) : même traitement que l'image qu'elles
+   remplacent, plus un petit lien discret vers le post d'origine. */
+.dgi-ig-card figure video { width:100%; height:100%; display:block; object-fit:cover; }
+.dgi-ig-card__source {
+  margin-left:auto; color:#7c7c83; font-size:11px; text-decoration:none; flex:none;
+  transition:color .15s var(--ease);
+}
+.dgi-ig-card__source:hover { color:#17171b; }
