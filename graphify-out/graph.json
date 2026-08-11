@@ -1097,7 +1097,7 @@
       "label": "renderLesBellesEnviesCaseHTML()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3715",
+      "source_location": "L3710",
       "_origin": "ast",
       "id": "js_components_renderlesbellesenviescasehtml",
       "community": 1,
@@ -1107,7 +1107,7 @@
       "label": "initLesBellesEnviesCaseStudy()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3816",
+      "source_location": "L3807",
       "_origin": "ast",
       "id": "js_components_initlesbellesenviescasestudy",
       "community": 1,
@@ -1117,7 +1117,7 @@
       "label": "CCR_CASE",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3826",
+      "source_location": "L3817",
       "_origin": "ast",
       "id": "js_components_ccr_case",
       "community": 1,
@@ -1127,7 +1127,7 @@
       "label": "renderCapCreoleCaseHTML()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3883",
+      "source_location": "L3874",
       "_origin": "ast",
       "id": "js_components_rendercapcreolecasehtml",
       "community": 1,
@@ -1137,7 +1137,7 @@
       "label": "initCapCreoleCaseStudy()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3978",
+      "source_location": "L3969",
       "_origin": "ast",
       "id": "js_components_initcapcreolecasestudy",
       "community": 1,
@@ -1147,7 +1147,7 @@
       "label": "initDigilifeCaseStudy()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3986",
+      "source_location": "L3977",
       "_origin": "ast",
       "id": "js_components_initdigilifecasestudy",
       "community": 1,
@@ -1157,7 +1157,7 @@
       "label": "initComponents()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L4006",
+      "source_location": "L3997",
       "_origin": "ast",
       "id": "js_components_initcomponents",
       "community": 1,
@@ -1174,50 +1174,50 @@
       "norm_label": "relecture.js"
     },
     {
-      "label": "load()",
-      "file_type": "code",
-      "source_file": "js/relecture.js",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "js_relecture_load",
-      "community": 66,
-      "norm_label": "load()"
-    },
-    {
-      "label": "save()",
+      "label": "charger()",
       "file_type": "code",
       "source_file": "js/relecture.js",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "js_relecture_save",
+      "id": "js_relecture_charger",
       "community": 66,
-      "norm_label": "save()"
+      "norm_label": "charger()"
     },
     {
-      "label": "readBlock()",
+      "label": "sauver()",
       "file_type": "code",
       "source_file": "js/relecture.js",
-      "source_location": "L39",
+      "source_location": "L40",
       "_origin": "ast",
-      "id": "js_relecture_readblock",
+      "id": "js_relecture_sauver",
       "community": 66,
-      "norm_label": "readblock()"
+      "norm_label": "sauver()"
     },
     {
-      "label": "writeBlock()",
+      "label": "lire()",
       "file_type": "code",
       "source_file": "js/relecture.js",
-      "source_location": "L52",
+      "source_location": "L49",
       "_origin": "ast",
-      "id": "js_relecture_writeblock",
+      "id": "js_relecture_lire",
       "community": 66,
-      "norm_label": "writeblock()"
+      "norm_label": "lire()"
+    },
+    {
+      "label": "ecrire()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "js_relecture_ecrire",
+      "community": 66,
+      "norm_label": "ecrire()"
     },
     {
       "label": "estCandidat()",
       "file_type": "code",
       "source_file": "js/relecture.js",
-      "source_location": "L60",
+      "source_location": "L63",
       "_origin": "ast",
       "id": "js_relecture_estcandidat",
       "community": 66,
@@ -1227,7 +1227,7 @@
       "label": "contexteDe()",
       "file_type": "code",
       "source_file": "js/relecture.js",
-      "source_location": "L78",
+      "source_location": "L76",
       "_origin": "ast",
       "id": "js_relecture_contextede",
       "community": 66,
@@ -1237,7 +1237,7 @@
       "label": "preparer()",
       "file_type": "code",
       "source_file": "js/relecture.js",
-      "source_location": "L102",
+      "source_location": "L94",
       "_origin": "ast",
       "id": "js_relecture_preparer",
       "community": 66,
@@ -1247,17 +1247,57 @@
       "label": "editer()",
       "file_type": "code",
       "source_file": "js/relecture.js",
-      "source_location": "L109",
+      "source_location": "L102",
       "_origin": "ast",
       "id": "js_relecture_editer",
       "community": 66,
       "norm_label": "editer()"
     },
     {
+      "label": "decrireElement()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L142",
+      "_origin": "ast",
+      "id": "js_relecture_decrireelement",
+      "community": 66,
+      "norm_label": "decrireelement()"
+    },
+    {
+      "label": "ajouterNote()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L161",
+      "_origin": "ast",
+      "id": "js_relecture_ajouternote",
+      "community": 66,
+      "norm_label": "ajouternote()"
+    },
+    {
+      "label": "ouvrirDialogueNote()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L174",
+      "_origin": "ast",
+      "id": "js_relecture_ouvrirdialoguenote",
+      "community": 66,
+      "norm_label": "ouvrirdialoguenote()"
+    },
+    {
+      "label": "fermerDialogue()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L208",
+      "_origin": "ast",
+      "id": "js_relecture_fermerdialogue",
+      "community": 66,
+      "norm_label": "fermerdialogue()"
+    },
+    {
       "label": "reappliquer()",
       "file_type": "code",
       "source_file": "js/relecture.js",
-      "source_location": "L149",
+      "source_location": "L213",
       "_origin": "ast",
       "id": "js_relecture_reappliquer",
       "community": 66,
@@ -1267,37 +1307,77 @@
       "label": "scanner()",
       "file_type": "code",
       "source_file": "js/relecture.js",
-      "source_location": "L158",
+      "source_location": "L223",
       "_origin": "ast",
       "id": "js_relecture_scanner",
       "community": 66,
       "norm_label": "scanner()"
     },
     {
+      "label": "garderParametre()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L233",
+      "_origin": "ast",
+      "id": "js_relecture_garderparametre",
+      "community": 66,
+      "norm_label": "garderparametre()"
+    },
+    {
       "label": "exporter()",
       "file_type": "code",
       "source_file": "js/relecture.js",
-      "source_location": "L170",
+      "source_location": "L247",
       "_origin": "ast",
       "id": "js_relecture_exporter",
       "community": 66,
       "norm_label": "exporter()"
     },
     {
-      "label": "renderPanel()",
+      "label": "copierPourChatGPT()",
       "file_type": "code",
       "source_file": "js/relecture.js",
-      "source_location": "L187",
+      "source_location": "L267",
       "_origin": "ast",
-      "id": "js_relecture_renderpanel",
+      "id": "js_relecture_copierpourchatgpt",
       "community": 66,
-      "norm_label": "renderpanel()"
+      "norm_label": "copierpourchatgpt()"
+    },
+    {
+      "label": "collerDepuisChatGPT()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L281",
+      "_origin": "ast",
+      "id": "js_relecture_collerdepuischatgpt",
+      "community": 66,
+      "norm_label": "collerdepuischatgpt()"
+    },
+    {
+      "label": "flash()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L315",
+      "_origin": "ast",
+      "id": "js_relecture_flash",
+      "community": 66,
+      "norm_label": "flash()"
+    },
+    {
+      "label": "majPanneau()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L324",
+      "_origin": "ast",
+      "id": "js_relecture_majpanneau",
+      "community": 66,
+      "norm_label": "majpanneau()"
     },
     {
       "label": "construirePanneau()",
       "file_type": "code",
       "source_file": "js/relecture.js",
-      "source_location": "L195",
+      "source_location": "L334",
       "_origin": "ast",
       "id": "js_relecture_construirepanneau",
       "community": 66,
@@ -1307,7 +1387,7 @@
       "label": "injecterStyles()",
       "file_type": "code",
       "source_file": "js/relecture.js",
-      "source_location": "L216",
+      "source_location": "L404",
       "_origin": "ast",
       "id": "js_relecture_injecterstyles",
       "community": 66,
@@ -1317,7 +1397,7 @@
       "label": "demarrer()",
       "file_type": "code",
       "source_file": "js/relecture.js",
-      "source_location": "L238",
+      "source_location": "L457",
       "_origin": "ast",
       "id": "js_relecture_demarrer",
       "community": 66,
@@ -2224,6 +2304,26 @@
       "norm_label": "regles"
     },
     {
+      "label": "BRIEF-NOUVELLE-SESSION.md",
+      "file_type": "document",
+      "source_file": "docs/BRIEF-NOUVELLE-SESSION.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_brief_nouvelle_session",
+      "community": 72,
+      "norm_label": "brief-nouvelle-session.md"
+    },
+    {
+      "label": "Prompt de briefing \u2014 \u00e0 copier-coller au d\u00e9but d'une nouvelle session",
+      "file_type": "document",
+      "source_file": "docs/BRIEF-NOUVELLE-SESSION.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_brief_nouvelle_session_prompt_de_briefing_\u00e0_copier_coller_au_d\u00e9but_d_une_nouvelle_session",
+      "community": 72,
+      "norm_label": "prompt de briefing \u2014 a copier-coller au debut d'une nouvelle session"
+    },
+    {
       "label": "CHANGES.md",
       "file_type": "document",
       "source_file": "docs/CHANGES.md",
@@ -2484,6 +2584,26 @@
       "norm_label": "11. instructions codex"
     },
     {
+      "label": "MESSAGE-RELECTEUR.md",
+      "file_type": "document",
+      "source_file": "docs/MESSAGE-RELECTEUR.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_message_relecteur",
+      "community": 73,
+      "norm_label": "message-relecteur.md"
+    },
+    {
+      "label": "Message \u00e0 envoyer au relecteur",
+      "file_type": "document",
+      "source_file": "docs/MESSAGE-RELECTEUR.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_message_relecteur_message_\u00e0_envoyer_au_relecteur",
+      "community": 73,
+      "norm_label": "message a envoyer au relecteur"
+    },
+    {
       "label": "PROJECT_CONTEXT.md",
       "file_type": "document",
       "source_file": "docs/PROJECT_CONTEXT.md",
@@ -2622,6 +2742,176 @@
       "id": "docs_relecture_fichiers_du_syst\u00e8me",
       "community": 68,
       "norm_label": "fichiers du systeme"
+    },
+    {
+      "label": "SITE-COMPLET.md",
+      "file_type": "document",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_site_complet",
+      "community": 71,
+      "norm_label": "site-complet.md"
+    },
+    {
+      "label": "Site Latitude Sud \u2014 rapport complet",
+      "file_type": "document",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_site_complet_site_latitude_sud_rapport_complet",
+      "community": 71,
+      "norm_label": "site latitude sud \u2014 rapport complet"
+    },
+    {
+      "label": "1. Ce qu'est ce projet",
+      "file_type": "document",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "docs_site_complet_1_ce_qu_est_ce_projet",
+      "community": 71,
+      "norm_label": "1. ce qu'est ce projet"
+    },
+    {
+      "label": "2. Nature technique",
+      "file_type": "document",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "docs_site_complet_2_nature_technique",
+      "community": 71,
+      "norm_label": "2. nature technique"
+    },
+    {
+      "label": "Cache-busting \u2014 r\u00e8gle imp\u00e9rative",
+      "file_type": "document",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "docs_site_complet_cache_busting_r\u00e8gle_imp\u00e9rative",
+      "community": 71,
+      "norm_label": "cache-busting \u2014 regle imperative"
+    },
+    {
+      "label": "3. Architecture des pages",
+      "file_type": "document",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "docs_site_complet_3_architecture_des_pages",
+      "community": 71,
+      "norm_label": "3. architecture des pages"
+    },
+    {
+      "label": "4. Le point le plus important \u00e0 comprendre : o\u00f9 vit le contenu",
+      "file_type": "document",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L73",
+      "_origin": "ast",
+      "id": "docs_site_complet_4_le_point_le_plus_important_\u00e0_comprendre_o\u00f9_vit_le_contenu",
+      "community": 71,
+      "norm_label": "4. le point le plus important a comprendre : ou vit le contenu"
+    },
+    {
+      "label": "4.1 Dans le HTML des pages \u2014 environ 25 600 caract\u00e8res",
+      "file_type": "document",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L77",
+      "_origin": "ast",
+      "id": "docs_site_complet_4_1_dans_le_html_des_pages_environ_25_600_caract\u00e8res",
+      "community": 71,
+      "norm_label": "4.1 dans le html des pages \u2014 environ 25 600 caracteres"
+    },
+    {
+      "label": "4.2 Dans `js/components.js` \u2014 559 cha\u00eenes, environ 32 000 caract\u00e8res",
+      "file_type": "document",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "docs_site_complet_4_2_dans_js_components_js_559_cha\u00eenes_environ_32_000_caract\u00e8res",
+      "community": 71,
+      "norm_label": "4.2 dans `js/components.js` \u2014 559 chaines, environ 32 000 caracteres"
+    },
+    {
+      "label": "4.3 Templates par page",
+      "file_type": "document",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L110",
+      "_origin": "ast",
+      "id": "docs_site_complet_4_3_templates_par_page",
+      "community": 71,
+      "norm_label": "4.3 templates par page"
+    },
+    {
+      "label": "5. Conventions CSS",
+      "file_type": "document",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L126",
+      "_origin": "ast",
+      "id": "docs_site_complet_5_conventions_css",
+      "community": 71,
+      "norm_label": "5. conventions css"
+    },
+    {
+      "label": "6. Assets",
+      "file_type": "document",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L153",
+      "_origin": "ast",
+      "id": "docs_site_complet_6_assets",
+      "community": 71,
+      "norm_label": "6. assets"
+    },
+    {
+      "label": "7. V\u00e9rifications obligatoires apr\u00e8s modification",
+      "file_type": "document",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L182",
+      "_origin": "ast",
+      "id": "docs_site_complet_7_v\u00e9rifications_obligatoires_apr\u00e8s_modification",
+      "community": 71,
+      "norm_label": "7. verifications obligatoires apres modification"
+    },
+    {
+      "label": "V\u00e9rification visuelle en local",
+      "file_type": "document",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L195",
+      "_origin": "ast",
+      "id": "docs_site_complet_v\u00e9rification_visuelle_en_local",
+      "community": 71,
+      "norm_label": "verification visuelle en local"
+    },
+    {
+      "label": "8. Syst\u00e8me de relecture des textes",
+      "file_type": "document",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L219",
+      "_origin": "ast",
+      "id": "docs_site_complet_8_syst\u00e8me_de_relecture_des_textes",
+      "community": 71,
+      "norm_label": "8. systeme de relecture des textes"
+    },
+    {
+      "label": "9. Contexte de travail \u00e0 conna\u00eetre",
+      "file_type": "document",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L259",
+      "_origin": "ast",
+      "id": "docs_site_complet_9_contexte_de_travail_\u00e0_conna\u00eetre",
+      "community": 71,
+      "norm_label": "9. contexte de travail a connaitre"
+    },
+    {
+      "label": "10. \u00c9tat actuel et points ouverts",
+      "file_type": "document",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L275",
+      "_origin": "ast",
+      "id": "docs_site_complet_10_\u00e9tat_actuel_et_points_ouverts",
+      "community": 71,
+      "norm_label": "10. etat actuel et points ouverts"
     },
     {
       "label": "asset-map.md",
@@ -6859,120 +7149,10 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "js/relecture.js",
-      "source_location": "L195",
+      "source_location": "L161",
       "weight": 1.0,
       "source": "js_relecture",
-      "target": "js_relecture_construirepanneau",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/relecture.js",
-      "source_location": "L78",
-      "weight": 1.0,
-      "source": "js_relecture",
-      "target": "js_relecture_contextede",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/relecture.js",
-      "source_location": "L238",
-      "weight": 1.0,
-      "source": "js_relecture",
-      "target": "js_relecture_demarrer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/relecture.js",
-      "source_location": "L109",
-      "weight": 1.0,
-      "source": "js_relecture",
-      "target": "js_relecture_editer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/relecture.js",
-      "source_location": "L60",
-      "weight": 1.0,
-      "source": "js_relecture",
-      "target": "js_relecture_estcandidat",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/relecture.js",
-      "source_location": "L170",
-      "weight": 1.0,
-      "source": "js_relecture",
-      "target": "js_relecture_exporter",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/relecture.js",
-      "source_location": "L216",
-      "weight": 1.0,
-      "source": "js_relecture",
-      "target": "js_relecture_injecterstyles",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/relecture.js",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "js_relecture",
-      "target": "js_relecture_load",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/relecture.js",
-      "source_location": "L102",
-      "weight": 1.0,
-      "source": "js_relecture",
-      "target": "js_relecture_preparer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/relecture.js",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "js_relecture",
-      "target": "js_relecture_readblock",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/relecture.js",
-      "source_location": "L149",
-      "weight": 1.0,
-      "source": "js_relecture",
-      "target": "js_relecture_reappliquer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/relecture.js",
-      "source_location": "L187",
-      "weight": 1.0,
-      "source": "js_relecture",
-      "target": "js_relecture_renderpanel",
+      "target": "js_relecture_ajouternote",
       "confidence_score": 1.0
     },
     {
@@ -6982,7 +7162,207 @@
       "source_location": "L32",
       "weight": 1.0,
       "source": "js_relecture",
-      "target": "js_relecture_save",
+      "target": "js_relecture_charger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L281",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_collerdepuischatgpt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L195",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_construirepanneau"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_contextede"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L267",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_copierpourchatgpt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_decrireelement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L238",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_demarrer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_ecrire",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L109",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_editer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_estcandidat"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L170",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_exporter"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L208",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_fermerdialogue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L315",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_flash",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L233",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_garderparametre",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L216",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_injecterstyles"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_lire",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L324",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_majpanneau",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L174",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_ouvrirdialoguenote",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_preparer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L149",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_reappliquer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_sauver",
       "confidence_score": 1.0
     },
     {
@@ -6991,29 +7371,19 @@
       "source_file": "js/relecture.js",
       "source_location": "L158",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "js_relecture",
-      "target": "js_relecture_scanner",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "js/relecture.js",
-      "source_location": "L52",
-      "weight": 1.0,
-      "source": "js_relecture",
-      "target": "js_relecture_writeblock",
-      "confidence_score": 1.0
+      "target": "js_relecture_scanner"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "js/relecture.js",
-      "source_location": "L241",
+      "source_location": "L460",
       "weight": 1.0,
       "source": "js_relecture_demarrer",
-      "target": "js_relecture_load",
+      "target": "js_relecture_charger",
       "confidence_score": 1.0
     },
     {
@@ -7021,10 +7391,10 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "js/relecture.js",
-      "source_location": "L34",
+      "source_location": "L170",
       "weight": 1.0,
-      "source": "js_relecture_save",
-      "target": "js_relecture_renderpanel",
+      "source": "js_relecture_ajouternote",
+      "target": "js_relecture_sauver",
       "confidence_score": 1.0
     },
     {
@@ -7032,10 +7402,43 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "js/relecture.js",
-      "source_location": "L111",
+      "source_location": "L309",
+      "weight": 1.0,
+      "source": "js_relecture_collerdepuischatgpt",
+      "target": "js_relecture_sauver",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "js_relecture_sauver",
+      "target": "js_relecture_majpanneau",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "js_relecture_decrireelement",
+      "target": "js_relecture_lire",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L104",
       "weight": 1.0,
       "source": "js_relecture_editer",
-      "target": "js_relecture_readblock",
+      "target": "js_relecture_lire",
       "confidence_score": 1.0
     },
     {
@@ -7046,7 +7449,7 @@
       "source_location": "L72",
       "weight": 1.0,
       "source": "js_relecture_estcandidat",
-      "target": "js_relecture_readblock",
+      "target": "js_relecture_lire",
       "confidence_score": 1.0
     },
     {
@@ -7054,10 +7457,10 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "js/relecture.js",
-      "source_location": "L105",
+      "source_location": "L97",
       "weight": 1.0,
       "source": "js_relecture_preparer",
-      "target": "js_relecture_readblock",
+      "target": "js_relecture_lire",
       "confidence_score": 1.0
     },
     {
@@ -7067,9 +7470,64 @@
       "source_file": "js/relecture.js",
       "source_location": "L165",
       "weight": 1.0,
-      "source": "js_relecture_scanner",
-      "target": "js_relecture_reappliquer",
+      "source": "js_relecture_ajouternote",
+      "target": "js_relecture_contextede",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "js_relecture_ajouternote",
+      "target": "js_relecture_decrireelement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L176",
+      "weight": 1.0,
+      "source": "js_relecture_ouvrirdialoguenote",
+      "target": "js_relecture_decrireelement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L171",
+      "weight": 1.0,
+      "source": "js_relecture_ajouternote",
+      "target": "js_relecture_flash",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "js_relecture_ouvrirdialoguenote",
+      "target": "js_relecture_fermerdialogue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L165",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_relecture_scanner",
+      "target": "js_relecture_reappliquer"
     },
     {
       "relation": "calls",
@@ -7078,19 +7536,19 @@
       "source_file": "js/relecture.js",
       "source_location": "L242",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "js_relecture_demarrer",
-      "target": "js_relecture_scanner",
-      "confidence_score": 1.0
+      "target": "js_relecture_scanner"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "js/relecture.js",
-      "source_location": "L166",
+      "source_location": "L229",
       "weight": 1.0,
       "source": "js_relecture_scanner",
-      "target": "js_relecture_renderpanel",
+      "target": "js_relecture_majpanneau",
       "confidence_score": 1.0
     },
     {
@@ -7098,10 +7556,43 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "js/relecture.js",
-      "source_location": "L213",
+      "source_location": "L461",
+      "weight": 1.0,
+      "source": "js_relecture_demarrer",
+      "target": "js_relecture_garderparametre",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L263",
+      "weight": 1.0,
+      "source": "js_relecture_exporter",
+      "target": "js_relecture_flash",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L310",
+      "weight": 1.0,
+      "source": "js_relecture_collerdepuischatgpt",
+      "target": "js_relecture_flash",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L401",
       "weight": 1.0,
       "source": "js_relecture_construirepanneau",
-      "target": "js_relecture_renderpanel",
+      "target": "js_relecture_majpanneau",
       "confidence_score": 1.0
     },
     {
@@ -7111,9 +7602,9 @@
       "source_file": "js/relecture.js",
       "source_location": "L240",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "js_relecture_demarrer",
-      "target": "js_relecture_construirepanneau",
-      "confidence_score": 1.0
+      "target": "js_relecture_construirepanneau"
     },
     {
       "relation": "calls",
@@ -7122,9 +7613,9 @@
       "source_file": "js/relecture.js",
       "source_location": "L239",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "js_relecture_demarrer",
-      "target": "js_relecture_injecterstyles",
-      "confidence_score": 1.0
+      "target": "js_relecture_injecterstyles"
     },
     {
       "relation": "contains",
@@ -7132,9 +7623,9 @@
       "source_file": "scripts/apply-corrections.mjs",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_apply_corrections",
-      "target": "scripts_apply_corrections_ambigu",
-      "confidence_score": 1.0
+      "target": "scripts_apply_corrections_ambigu"
     },
     {
       "relation": "contains",
@@ -7142,9 +7633,9 @@
       "source_file": "scripts/apply-corrections.mjs",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_apply_corrections",
-      "target": "scripts_apply_corrections_applique",
-      "confidence_score": 1.0
+      "target": "scripts_apply_corrections_applique"
     },
     {
       "relation": "contains",
@@ -7152,9 +7643,9 @@
       "source_file": "scripts/apply-corrections.mjs",
       "source_location": "L121",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_apply_corrections",
-      "target": "scripts_apply_corrections_court",
-      "confidence_score": 1.0
+      "target": "scripts_apply_corrections_court"
     },
     {
       "relation": "contains",
@@ -7162,9 +7653,9 @@
       "source_file": "scripts/apply-corrections.mjs",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_apply_corrections",
-      "target": "scripts_apply_corrections_donnees",
-      "confidence_score": 1.0
+      "target": "scripts_apply_corrections_donnees"
     },
     {
       "relation": "contains",
@@ -7172,9 +7663,9 @@
       "source_file": "scripts/apply-corrections.mjs",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_apply_corrections",
-      "target": "scripts_apply_corrections_echapregex",
-      "confidence_score": 1.0
+      "target": "scripts_apply_corrections_echapregex"
     },
     {
       "relation": "contains",
@@ -7182,9 +7673,9 @@
       "source_file": "scripts/apply-corrections.mjs",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_apply_corrections",
-      "target": "scripts_apply_corrections_encodercomme",
-      "confidence_score": 1.0
+      "target": "scripts_apply_corrections_encodercomme"
     },
     {
       "relation": "contains",
@@ -7192,9 +7683,9 @@
       "source_file": "scripts/apply-corrections.mjs",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_apply_corrections",
-      "target": "scripts_apply_corrections_fichiers",
-      "confidence_score": 1.0
+      "target": "scripts_apply_corrections_fichiers"
     },
     {
       "relation": "contains",
@@ -7202,9 +7693,9 @@
       "source_file": "scripts/apply-corrections.mjs",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_apply_corrections",
-      "target": "scripts_apply_corrections_introuvable",
-      "confidence_score": 1.0
+      "target": "scripts_apply_corrections_introuvable"
     },
     {
       "relation": "contains",
@@ -7212,9 +7703,9 @@
       "source_file": "scripts/apply-corrections.mjs",
       "source_location": "L120",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_apply_corrections",
-      "target": "scripts_apply_corrections_ligne",
-      "confidence_score": 1.0
+      "target": "scripts_apply_corrections_ligne"
     },
     {
       "relation": "contains",
@@ -7222,9 +7713,9 @@
       "source_file": "scripts/apply-corrections.mjs",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_apply_corrections",
-      "target": "scripts_apply_corrections_motifde",
-      "confidence_score": 1.0
+      "target": "scripts_apply_corrections_motifde"
     },
     {
       "relation": "contains",
@@ -7232,9 +7723,9 @@
       "source_file": "scripts/apply-corrections.mjs",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_apply_corrections",
-      "target": "scripts_apply_corrections_original",
-      "confidence_score": 1.0
+      "target": "scripts_apply_corrections_original"
     },
     {
       "relation": "contains",
@@ -7242,9 +7733,9 @@
       "source_file": "scripts/apply-corrections.mjs",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_apply_corrections",
-      "target": "scripts_apply_corrections_racine",
-      "confidence_score": 1.0
+      "target": "scripts_apply_corrections_racine"
     },
     {
       "relation": "contains",
@@ -7252,9 +7743,9 @@
       "source_file": "scripts/apply-corrections.mjs",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_apply_corrections",
-      "target": "scripts_apply_corrections_sources",
-      "confidence_score": 1.0
+      "target": "scripts_apply_corrections_sources"
     },
     {
       "relation": "contains",
@@ -7262,9 +7753,9 @@
       "source_file": "scripts/apply-corrections.mjs",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_apply_corrections",
-      "target": "scripts_apply_corrections_suspect",
-      "confidence_score": 1.0
+      "target": "scripts_apply_corrections_suspect"
     },
     {
       "relation": "contains",
@@ -7412,9 +7903,9 @@
       "source_file": "to-del/qa/digilife-hero/build_black_composition.py",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "digilife_hero_build_black_composition",
-      "target": "digilife_hero_build_black_composition_main",
-      "confidence_score": 1.0
+      "target": "digilife_hero_build_black_composition_main"
     },
     {
       "relation": "contains",
@@ -7422,9 +7913,9 @@
       "source_file": "to-del/qa/digilife-hero/build_black_composition.py",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "digilife_hero_build_black_composition",
-      "target": "digilife_hero_build_black_composition_scaled_polygon",
-      "confidence_score": 1.0
+      "target": "digilife_hero_build_black_composition_scaled_polygon"
     },
     {
       "relation": "rationale_for",
@@ -7432,9 +7923,9 @@
       "source_file": "to-del/qa/digilife-hero/build_black_composition.py",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "digilife_hero_build_black_composition_rationale_1",
-      "target": "digilife_hero_build_black_composition",
-      "confidence_score": 1.0
+      "target": "digilife_hero_build_black_composition"
     },
     {
       "relation": "calls",
@@ -7443,9 +7934,9 @@
       "source_file": "to-del/qa/digilife-hero/build_black_composition.py",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "digilife_hero_build_black_composition_main",
-      "target": "digilife_hero_build_black_composition_scaled_polygon",
-      "confidence_score": 1.0
+      "target": "digilife_hero_build_black_composition_scaled_polygon"
     },
     {
       "relation": "references",
@@ -7454,9 +7945,9 @@
       "source_file": "to-del/qa/digilife-hero/build_black_composition.py",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "digilife_hero_build_black_composition_scaled_polygon",
-      "target": "imagedraw",
-      "confidence_score": 1.0
+      "target": "imagedraw"
     },
     {
       "relation": "contains",
@@ -7464,9 +7955,9 @@
       "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mrb_mockup_build_screen_assets",
-      "target": "mrb_mockup_build_screen_assets_contain",
-      "confidence_score": 1.0
+      "target": "mrb_mockup_build_screen_assets_contain"
     },
     {
       "relation": "contains",
@@ -7474,9 +7965,9 @@
       "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mrb_mockup_build_screen_assets",
-      "target": "mrb_mockup_build_screen_assets_main",
-      "confidence_score": 1.0
+      "target": "mrb_mockup_build_screen_assets_main"
     },
     {
       "relation": "contains",
@@ -7484,9 +7975,9 @@
       "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mrb_mockup_build_screen_assets",
-      "target": "mrb_mockup_build_screen_assets_trim",
-      "confidence_score": 1.0
+      "target": "mrb_mockup_build_screen_assets_trim"
     },
     {
       "relation": "rationale_for",
@@ -7494,9 +7985,9 @@
       "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mrb_mockup_build_screen_assets_rationale_1",
-      "target": "mrb_mockup_build_screen_assets",
-      "confidence_score": 1.0
+      "target": "mrb_mockup_build_screen_assets"
     },
     {
       "relation": "calls",
@@ -7505,9 +7996,9 @@
       "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mrb_mockup_build_screen_assets_main",
-      "target": "mrb_mockup_build_screen_assets_trim",
-      "confidence_score": 1.0
+      "target": "mrb_mockup_build_screen_assets_trim"
     },
     {
       "relation": "references",
@@ -7516,9 +8007,9 @@
       "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mrb_mockup_build_screen_assets_trim",
-      "target": "image",
-      "confidence_score": 1.0
+      "target": "image"
     },
     {
       "relation": "references",
@@ -7527,9 +8018,9 @@
       "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mrb_mockup_build_screen_assets_contain",
-      "target": "image",
-      "confidence_score": 1.0
+      "target": "image"
     },
     {
       "relation": "calls",
@@ -7538,9 +8029,9 @@
       "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mrb_mockup_build_screen_assets_main",
-      "target": "mrb_mockup_build_screen_assets_contain",
-      "confidence_score": 1.0
+      "target": "mrb_mockup_build_screen_assets_contain"
     },
     {
       "relation": "contains",
@@ -7965,6 +8456,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/BRIEF-NOUVELLE-SESSION.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_brief_nouvelle_session",
+      "target": "docs_brief_nouvelle_session_prompt_de_briefing_\u00e0_copier_coller_au_d\u00e9but_d_une_nouvelle_session",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/CHANGES.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -8205,6 +8706,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/MESSAGE-RELECTEUR.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_message_relecteur",
+      "target": "docs_message_relecteur_message_\u00e0_envoyer_au_relecteur",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/PROJECT_CONTEXT.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -8258,9 +8769,9 @@
       "source_file": "docs/RELECTURE.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_relecture",
-      "target": "docs_relecture_relecture_des_textes_du_site",
-      "confidence_score": 1.0
+      "target": "docs_relecture_relecture_des_textes_du_site"
     },
     {
       "relation": "contains",
@@ -8268,9 +8779,9 @@
       "source_file": "docs/RELECTURE.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_relecture_relecture_des_textes_du_site",
-      "target": "docs_relecture_partie_1_\u00e0_envoyer_au_relecteur",
-      "confidence_score": 1.0
+      "target": "docs_relecture_partie_1_\u00e0_envoyer_au_relecteur"
     },
     {
       "relation": "contains",
@@ -8278,9 +8789,9 @@
       "source_file": "docs/RELECTURE.md",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_relecture_relecture_des_textes_du_site",
-      "target": "docs_relecture_partie_2_c\u00f4t\u00e9_d\u00e9veloppement",
-      "confidence_score": 1.0
+      "target": "docs_relecture_partie_2_c\u00f4t\u00e9_d\u00e9veloppement"
     },
     {
       "relation": "contains",
@@ -8288,9 +8799,9 @@
       "source_file": "docs/RELECTURE.md",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_relecture_partie_2_c\u00f4t\u00e9_d\u00e9veloppement",
-      "target": "docs_relecture_ce_que_le_rapport_indique",
-      "confidence_score": 1.0
+      "target": "docs_relecture_ce_que_le_rapport_indique"
     },
     {
       "relation": "contains",
@@ -8298,9 +8809,9 @@
       "source_file": "docs/RELECTURE.md",
       "source_location": "L111",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_relecture_partie_2_c\u00f4t\u00e9_d\u00e9veloppement",
-      "target": "docs_relecture_fichiers_du_syst\u00e8me",
-      "confidence_score": 1.0
+      "target": "docs_relecture_fichiers_du_syst\u00e8me"
     },
     {
       "relation": "contains",
@@ -8308,9 +8819,9 @@
       "source_file": "docs/RELECTURE.md",
       "source_location": "L100",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_relecture_partie_2_c\u00f4t\u00e9_d\u00e9veloppement",
-      "target": "docs_relecture_o\u00f9_vit_le_texte",
-      "confidence_score": 1.0
+      "target": "docs_relecture_o\u00f9_vit_le_texte"
     },
     {
       "relation": "contains",
@@ -8318,8 +8829,168 @@
       "source_file": "docs/RELECTURE.md",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_relecture_partie_2_c\u00f4t\u00e9_d\u00e9veloppement",
-      "target": "docs_relecture_r\u00e9injecter_les_corrections",
+      "target": "docs_relecture_r\u00e9injecter_les_corrections"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_site_complet",
+      "target": "docs_site_complet_site_latitude_sud_rapport_complet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L275",
+      "weight": 1.0,
+      "source": "docs_site_complet_site_latitude_sud_rapport_complet",
+      "target": "docs_site_complet_10_\u00e9tat_actuel_et_points_ouverts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "docs_site_complet_site_latitude_sud_rapport_complet",
+      "target": "docs_site_complet_1_ce_qu_est_ce_projet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "docs_site_complet_site_latitude_sud_rapport_complet",
+      "target": "docs_site_complet_2_nature_technique",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "docs_site_complet_site_latitude_sud_rapport_complet",
+      "target": "docs_site_complet_3_architecture_des_pages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "docs_site_complet_site_latitude_sud_rapport_complet",
+      "target": "docs_site_complet_4_le_point_le_plus_important_\u00e0_comprendre_o\u00f9_vit_le_contenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "docs_site_complet_site_latitude_sud_rapport_complet",
+      "target": "docs_site_complet_5_conventions_css",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "docs_site_complet_site_latitude_sud_rapport_complet",
+      "target": "docs_site_complet_6_assets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "docs_site_complet_site_latitude_sud_rapport_complet",
+      "target": "docs_site_complet_7_v\u00e9rifications_obligatoires_apr\u00e8s_modification",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "docs_site_complet_site_latitude_sud_rapport_complet",
+      "target": "docs_site_complet_8_syst\u00e8me_de_relecture_des_textes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L259",
+      "weight": 1.0,
+      "source": "docs_site_complet_site_latitude_sud_rapport_complet",
+      "target": "docs_site_complet_9_contexte_de_travail_\u00e0_conna\u00eetre",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "docs_site_complet_2_nature_technique",
+      "target": "docs_site_complet_cache_busting_r\u00e8gle_imp\u00e9rative",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "docs_site_complet_4_le_point_le_plus_important_\u00e0_comprendre_o\u00f9_vit_le_contenu",
+      "target": "docs_site_complet_4_1_dans_le_html_des_pages_environ_25_600_caract\u00e8res",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "docs_site_complet_4_le_point_le_plus_important_\u00e0_comprendre_o\u00f9_vit_le_contenu",
+      "target": "docs_site_complet_4_2_dans_js_components_js_559_cha\u00eenes_environ_32_000_caract\u00e8res",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "docs_site_complet_4_le_point_le_plus_important_\u00e0_comprendre_o\u00f9_vit_le_contenu",
+      "target": "docs_site_complet_4_3_templates_par_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/SITE-COMPLET.md",
+      "source_location": "L195",
+      "weight": 1.0,
+      "source": "docs_site_complet_7_v\u00e9rifications_obligatoires_apr\u00e8s_modification",
+      "target": "docs_site_complet_v\u00e9rification_visuelle_en_local",
       "confidence_score": 1.0
     },
     {
@@ -9400,5 +10071,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "508840335172c5257df70e5c06489af632dabb42"
+  "built_at_commit": "d0731afc0f49641a5cbf9c8f6bd58a1309f9723d"
 }

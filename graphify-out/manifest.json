@@ -20,8 +20,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1786482845.513011,
-    "ast_hash": "7fb9904ea05960ac91547791faf4e9ec",
+    "mtime": 1786484405.5209153,
+    "ast_hash": "1b23949a2e02a53afef513ca29970f70",
     "semantic_hash": ""
   },
   "robots.txt": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "js/components.js": {
-    "mtime": 1786481839.827436,
-    "ast_hash": "1bb6695b81f91381d78be2a7cbd8b2d2",
+    "mtime": 1786483745.4051447,
+    "ast_hash": "7af76cf2777935c07fd893b93e942be0",
     "semantic_hash": ""
   },
   "scripts/check-local-assets.mjs": {
@@ -90,68 +90,68 @@
     "semantic_hash": ""
   },
   "pages/agence.html": {
-    "mtime": 1786482845.514093,
-    "ast_hash": "6373f272ace76e8ec82e807976065b72",
+    "mtime": 1786484405.536027,
+    "ast_hash": "2f42edc631cb919068e02d3327b46579",
     "semantic_hash": ""
   },
   "pages/catalogue.html": {
-    "mtime": 1786482845.514781,
-    "ast_hash": "48598abf7c8f0e038668d7b58aafb43f",
+    "mtime": 1786484405.5439296,
+    "ast_hash": "d7f5bbf1d921c445956133228e83bdee",
     "semantic_hash": ""
   },
   "pages/charte-graphique.html": {
-    "mtime": 1786482845.515542,
-    "ast_hash": "2ad83bbc0eebb2e10e1d1024c615230b",
+    "mtime": 1786484405.567419,
+    "ast_hash": "4087ce2a4d63c31efa35525584200d82",
     "semantic_hash": ""
   },
   "pages/contact.html": {
-    "mtime": 1786482845.5172527,
-    "ast_hash": "93b22bdcee8a25a984113eb534acdca5",
+    "mtime": 1786484405.580012,
+    "ast_hash": "15faaac31368e2184e0777e53e80bb79",
     "semantic_hash": ""
   },
   "pages/latitude-sud-news.html": {
-    "mtime": 1786482845.5202904,
-    "ast_hash": "f43a3ff4b2012866e8faa5375f27f8df",
+    "mtime": 1786484405.6005719,
+    "ast_hash": "73c5bf4e3953863bd722d331bf76e3a1",
     "semantic_hash": ""
   },
   "pages/mentions-legales.html": {
-    "mtime": 1786482845.5213785,
-    "ast_hash": "26dd3b084dda77615153f3ed56a89a15",
+    "mtime": 1786484405.6336045,
+    "ast_hash": "12724e77b1957f3ab9df176ce6e66961",
     "semantic_hash": ""
   },
   "pages/photos.html": {
-    "mtime": 1786482845.5224273,
-    "ast_hash": "9135a8cd17de086e1aa4324e53f06c68",
+    "mtime": 1786484405.65284,
+    "ast_hash": "472445710b1a976cf34b2521bcfec7c6",
     "semantic_hash": ""
   },
   "pages/politique-de-confidentialite.html": {
-    "mtime": 1786482845.5240135,
-    "ast_hash": "fe9151219686bb1e1fc64c06f2fa55d1",
+    "mtime": 1786484405.7036366,
+    "ast_hash": "c64d9f00bead276a507cac0512810904",
     "semantic_hash": ""
   },
   "pages/print.html": {
-    "mtime": 1786482845.5247605,
-    "ast_hash": "03e613992dbeed322242242e359beb7a",
+    "mtime": 1786484405.739058,
+    "ast_hash": "4a4500dac7c4ead4ecee7ec7e11095b9",
     "semantic_hash": ""
   },
   "pages/realisations.html": {
-    "mtime": 1786482845.5256395,
-    "ast_hash": "96f89a893ce710e5e88189c0383194e1",
+    "mtime": 1786484405.7573814,
+    "ast_hash": "3d970e8dee123d11dba3303008f9e978",
     "semantic_hash": ""
   },
   "pages/social.html": {
-    "mtime": 1786482845.5271168,
-    "ast_hash": "b69a2872477c6ed4b590da6b5b57c9c0",
+    "mtime": 1786484405.957333,
+    "ast_hash": "92ec35a0335a800e6e67abe60bfc6d85",
     "semantic_hash": ""
   },
   "pages/video.html": {
-    "mtime": 1786482845.5277557,
-    "ast_hash": "427a4c8b60ecdde0c72ec2a556b6d950",
+    "mtime": 1786484405.984082,
+    "ast_hash": "e362c68861c3ce2f3b7c7743a0bc9237",
     "semantic_hash": ""
   },
   "pages/web.html": {
-    "mtime": 1786482845.528426,
-    "ast_hash": "fae3c27d703c6ef1a6540b91aed385a7",
+    "mtime": 1786484406.0125644,
+    "ast_hash": "e4cc89118c13eec436f1f74cc439b08a",
     "semantic_hash": ""
   },
   "assets/projects/social/auto-discount/abymes-source.webp": {
@@ -2955,13 +2955,13 @@
     "semantic_hash": ""
   },
   "js/relecture.js": {
-    "mtime": 1786482157.3418992,
-    "ast_hash": "67ff32f4171fc72d48df511379b0ce4b",
+    "mtime": 1786483499.0581474,
+    "ast_hash": "e271d0a3962b85e2692ab671b5e525dc",
     "semantic_hash": ""
   },
   "scripts/apply-corrections.mjs": {
-    "mtime": 1786482287.0411212,
-    "ast_hash": "211964d55bcff893166f38cf6a9749c7",
+    "mtime": 1786483659.225557,
+    "ast_hash": "adf3195f203dd26e74ad6828b42a59db",
     "semantic_hash": ""
   },
   "to-del/qa/digilife-hero/build_black_composition.py": {
@@ -2985,8 +2985,8 @@
     "semantic_hash": ""
   },
   "to-del/qa/lbe/qa-current.html": {
-    "mtime": 1786482845.5288856,
-    "ast_hash": "d46046e480fa4252cacd280895bd9376",
+    "mtime": 1786484406.023867,
+    "ast_hash": "e324582fa537ab22d547688c14bc55f9",
     "semantic_hash": ""
   },
   "to-del/qa/mrb-mockup/qa-current.html": {
@@ -3042,6 +3042,46 @@
   "to-del/qa/mrb-mockup/pages/outillage-tablet-screen.webp": {
     "mtime": 1786481478.0503705,
     "ast_hash": "818478b4e6fdea82d852b23b4d4be861",
+    "semantic_hash": ""
+  },
+  "docs/BRIEF-NOUVELLE-SESSION.md": {
+    "mtime": 1786483774.0337427,
+    "ast_hash": "2b42dd1c22f591dbcd9de391f633ac16",
+    "semantic_hash": ""
+  },
+  "docs/MESSAGE-RELECTEUR.md": {
+    "mtime": 1786483972.591263,
+    "ast_hash": "ae583e3a4090a986e1b1ea0721074536",
+    "semantic_hash": ""
+  },
+  "docs/SITE-COMPLET.md": {
+    "mtime": 1786483748.1664572,
+    "ast_hash": "c3d6d5cebce1e0424ad08ddf9ff3a1a6",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/gallery/gallery-eclair-chocolat.webp": {
+    "mtime": 1786483734.448466,
+    "ast_hash": "1286d7aac6186481580207ec46092140",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/showcase/rocher-source.webp": {
+    "mtime": 1786483397.0447092,
+    "ast_hash": "52bdc13b7a6ebb172a5d3c80958ef3a4",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/showcase/rocher-vacances-final.webp": {
+    "mtime": 1786483398.197956,
+    "ast_hash": "2118c7330e04fd06c0af5713eafb1edf",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/showcase/tartelette-source.webp": {
+    "mtime": 1786483397.395067,
+    "ast_hash": "9c69a755b3fb2872aa093fd45495495a",
+    "semantic_hash": ""
+  },
+  "to-del/qa/lbe/lbe-full-desktop.png": {
+    "mtime": 1786484430.0456328,
+    "ast_hash": "41a53c66794878726717a5ad1211c414",
     "semantic_hash": ""
   }
 }

@@ -3645,50 +3645,45 @@ const LBE_CASE = {
   },
   workflowIntro: {
     title: 'Notre workflow photo',
-    text: 'De la prise de vue studio à l’intégration créative.',
-    detail: 'Le produit réel reste au centre. La retouche affine la matière et la lumière, puis le décor installe un univers sans dénaturer la pâtisserie.'
+    text: 'De la prise de vue studio à l’intégration créative.'
   },
   featured: [
     { src: `${LBE}/featured/rocher-chocolat.webp`, alt: 'Création Les Belles Envies pour Le Rocher Chocolat' },
     { src: `${LBE}/featured/fraisier.webp`, alt: 'Création Les Belles Envies pour Le Fraisier' },
     { src: `${LBE}/featured/rocher-individuel.webp`, alt: 'Création Les Belles Envies pour Le Rocher Chocolat individuel' }
   ],
-  workflows: [
+  showcases: [
     {
-      eyebrow: 'Workflow photo 01',
-      title: 'Le Rocher Chocolat',
-      text: 'Une base produit fidèle, une retouche précise, puis une intégration graphique qui valorise les volumes et la gourmandise.',
-      steps: [
-        { label: '01. Photo brute', src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-01-brut.webp`, alt: 'Le Rocher Chocolat, photographie brute en studio' },
-        { label: '02. Retouche photo', src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-02-retouche.webp`, alt: 'Le Rocher Chocolat après retouche photo' },
-        { label: '03. Intégration créative', src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-03-composition.webp`, alt: 'Le Rocher Chocolat intégré à son décor final' }
+      eyebrow: 'Post & Instagram',
+      title: 'Photos mise en valeur du produit',
+      text: 'La photographie studio conserve la pâtisserie comme point de départ. Le décor final enrichit ensuite sa mise en scène sans modifier le produit.',
+      media: [
+        { src: `${LBE}/showcase/rocher-source.webp`, width: 1800, height: 1603, role: 'source', alt: 'Photographie studio brute du gâteau chocolat Les Belles Envies' },
+        { src: `${LBE}/showcase/rocher-vacances-final.webp`, width: 1200, height: 1500, role: 'final', alt: 'Création finale Les Belles Envies pour les vacances de Noël' }
       ]
     },
     {
-      eyebrow: 'Workflow photo 02',
-      title: 'Le Fraisier',
-      text: 'La couleur, les détails et la brillance sont travaillés avec retenue avant de construire un décor cohérent avec l’identité de la marque.',
-      steps: [
-        { label: '01. Photo brute', src: `${LBE}/workflow/fraisier/workflow-fraisier-01-brut.webp`, alt: 'Le Fraisier, photographie brute en studio' },
-        { label: '02. Retouche photo', src: `${LBE}/workflow/fraisier/workflow-fraisier-02-retouche.webp`, alt: 'Le Fraisier après retouche photo' },
-        { label: '03. Intégration créative', src: `${LBE}/workflow/fraisier/workflow-fraisier-03-composition.webp`, alt: 'Le Fraisier intégré à son décor final' }
+      eyebrow: 'Post & Instagram',
+      title: 'Photos mise en valeur du produit',
+      text: 'À partir d’une prise de vue volontairement sobre, la retouche et l’intégration créative installent un univers cohérent avec l’identité gourmande de la marque.',
+      media: [
+        { src: `${LBE}/showcase/tartelette-source.webp`, width: 1800, height: 1200, role: 'source', alt: 'Photographie studio brute de la tartelette passion Les Belles Envies' },
+        { src: `${LBE}/gallery/gallery-tartelette-passion.webp`, width: 1000, height: 1250, role: 'final', alt: 'Création finale Les Belles Envies pour la tartelette passion' }
       ]
     }
   ],
   viennoiseries: {
-    eyebrow: 'Déclinaisons de gamme',
-    title: 'Une direction visuelle jusque dans les détails',
-    text: 'Chaque famille de produits adopte sa propre ambiance tout en conservant un langage de marque immédiatement reconnaissable.',
+    title: 'Notre workflow photo',
+    text: 'De la prise de vue studio à l’intégration créative.',
     posts: [
       { src: `${LBE}/gallery/gallery-croissant-composition.webp`, alt: 'Création Les Belles Envies pour le Croissant au beurre' },
-      { src: `${LBE}/workflow/eclair-chocolat/workflow-eclair-03-composition.webp`, alt: 'Création Les Belles Envies pour l’Éclair chocolat' },
+      { src: `${LBE}/gallery/gallery-eclair-chocolat.webp`, alt: 'Création Les Belles Envies pour l’Éclair chocolat' },
       { src: `${LBE}/gallery/gallery-brioche-composition.webp`, alt: 'Création Les Belles Envies pour la Brioche chocolat' }
     ]
   },
   information: {
-    eyebrow: 'Vie de la marque',
-    title: 'Informer sans casser l’identité',
-    text: 'Au-delà des contenus produit, Latitude Sud conçoit les communications utiles au quotidien de la marque, avec la même exigence graphique.',
+    title: 'POST INFORMATIONS',
+    text: 'Latitude Sud conçoit également les communications liées à la vie de la marque. Horaires, ouvertures et temps forts restent immédiatement lisibles sans rompre l’identité visuelle.',
     posts: [
       { src: `${LBE}/information/ouverture-micareme.webp`, alt: 'Post Les Belles Envies annonçant une ouverture pour la mi-carême' },
       { src: `${LBE}/information/horaires-exceptionnels.webp`, alt: 'Post Les Belles Envies présentant des horaires exceptionnels' },
@@ -3714,20 +3709,18 @@ const LBE_CASE = {
 
 function renderLesBellesEnviesCaseHTML() {
   const C = LBE_CASE;
-  const renderWorkflow = (workflow, index) => `
-    <section class="lbe-workflow${index % 2 ? ' lbe-workflow--alternate' : ''}" aria-labelledby="lbe-workflow-title-${index + 1}">
-      <div class="lbe-workflow__inner">
-        <header class="lbe-workflow__copy">
-          <p class="lbe-eyebrow">${workflow.eyebrow}</p>
-          <h2 id="lbe-workflow-title-${index + 1}">${workflow.title}</h2>
-          <p>${workflow.text}</p>
+  const renderShowcase = (showcase, index) => `
+    <section class="lbe-showcase-row${index % 2 ? ' lbe-showcase-row--alternate' : ''}" aria-labelledby="lbe-showcase-title-${index + 1}">
+      <div class="lbe-showcase-row__inner">
+        <header class="lbe-showcase-row__copy">
+          <p class="lbe-showcase-row__label">${showcase.eyebrow}</p>
+          <h2 id="lbe-showcase-title-${index + 1}">${showcase.title}</h2>
+          <p>${showcase.text}</p>
         </header>
-        <div class="lbe-workflow__steps">
-          ${workflow.steps.map((step, stepIndex) => `
-            ${stepIndex ? '<span class="lbe-workflow__arrow" aria-hidden="true">→</span>' : ''}
-            <figure class="lbe-workflow__step${stepIndex === 2 ? ' lbe-workflow__step--final' : ''}">
-              <figcaption>${step.label}</figcaption>
-              <img src="${step.src}" width="1920" height="2400" alt="${step.alt}" loading="lazy" decoding="async">
+        <div class="lbe-showcase-row__media">
+          ${showcase.media.map(item => `
+            <figure class="lbe-showcase-row__figure lbe-showcase-row__figure--${item.role}">
+              <img src="${item.src}" width="${item.width}" height="${item.height}" alt="${item.alt}" loading="lazy" decoding="async">
             </figure>`).join('')}
         </div>
       </div>
@@ -3751,9 +3744,9 @@ function renderLesBellesEnviesCaseHTML() {
       </section>
 
       <section class="lbe-workflow-intro">
-        <div class="lbe-workflow-intro__grid">
-          <div><p class="lbe-eyebrow">Notre méthode</p><h2>${C.workflowIntro.title}</h2><p>${C.workflowIntro.text}</p></div>
-          <p class="lbe-workflow-intro__detail">${C.workflowIntro.detail}</p>
+        <div class="lbe-workflow-intro__copy">
+          <h2>${C.workflowIntro.title}</h2>
+          <p>${C.workflowIntro.text}</p>
         </div>
       </section>
 
@@ -3763,11 +3756,10 @@ function renderLesBellesEnviesCaseHTML() {
         </div>
       </section>
 
-      ${C.workflows.map(renderWorkflow).join('')}
+      ${C.showcases.map(renderShowcase).join('')}
 
       <section class="lbe-viennoiseries" aria-labelledby="lbe-viennoiseries-title">
         <header class="lbe-section-heading">
-          <p class="lbe-eyebrow">${C.viennoiseries.eyebrow}</p>
           <h2 id="lbe-viennoiseries-title">${C.viennoiseries.title}</h2>
           <p>${C.viennoiseries.text}</p>
         </header>
@@ -3779,7 +3771,6 @@ function renderLesBellesEnviesCaseHTML() {
       <section class="lbe-info-posts" aria-labelledby="lbe-info-title">
         <div class="lbe-info-posts__inner">
           <header class="lbe-info-posts__copy">
-            <p class="lbe-eyebrow">${C.information.eyebrow}</p>
             <h2 id="lbe-info-title">${C.information.title}</h2>
             <p>${C.information.text}</p>
           </header>
@@ -4044,7 +4035,7 @@ function initComponents(activePage, opts) {
    Le site public ne télécharge jamais ce fichier. Voir docs/RELECTURE.md. --- */
 if (typeof location !== 'undefined' && new URLSearchParams(location.search).has('relecture')) {
   const s = document.createElement('script');
-  s.src = '/js/relecture.js?v=1';
+  s.src = '/js/relecture.js?v=2';
   s.defer = true;
   document.head.appendChild(s);
 }

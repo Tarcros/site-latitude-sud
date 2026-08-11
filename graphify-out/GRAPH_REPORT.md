@@ -1,16 +1,16 @@
 # Graph Report - Site LS Code  (2026-08-11)
 
 ## Corpus Check
-- 27 files · ~8,358,433 words
+- 30 files · ~8,601,362 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 408 nodes · 462 edges · 71 communities (38 shown, 33 thin omitted)
+- 437 nodes · 499 edges · 74 communities (39 shown, 35 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 16 edges (avg confidence: 0.9)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `50884033`
+- Built from commit: `d0731afc`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -83,18 +83,21 @@
 - [[_COMMUNITY_Community 68|Community 68]]
 - [[_COMMUNITY_Community 69|Community 69]]
 - [[_COMMUNITY_Community 70|Community 70]]
+- [[_COMMUNITY_Community 71|Community 71]]
+- [[_COMMUNITY_Community 72|Community 72]]
+- [[_COMMUNITY_Community 73|Community 73]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `initComponents()` - 30 edges
 2. `Latitude Sud - Brief permanent du projet` - 14 edges
-3. `initModalFocusTrap()` - 9 edges
-4. `Audit du repository Latitude Sud` - 8 edges
-5. `walkChildren()` - 7 edges
-6. `walk()` - 7 edges
-7. `createRuntime()` - 7 edges
-8. `hero5.png - Hero Section Screenshot` - 7 edges
-9. `compileAttr()` - 6 edges
-10. `collectProps()` - 6 edges
+3. `Site Latitude Sud — rapport complet` - 11 edges
+4. `initModalFocusTrap()` - 9 edges
+5. `Audit du repository Latitude Sud` - 8 edges
+6. `walkChildren()` - 7 edges
+7. `walk()` - 7 edges
+8. `createRuntime()` - 7 edges
+9. `hero5.png - Hero Section Screenshot` - 7 edges
+10. `compileAttr()` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `.claude/settings.json — PreToolUse hooks for graphify enforcement` --rationale_for--> `graphify knowledge graph workflow`  [EXTRACTED]
@@ -103,7 +106,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (71 total, 33 thin omitted)
+## Communities (74 total, 35 thin omitted)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.06
@@ -226,8 +229,8 @@ Cohesion: 0.14
 Nodes (13): 10. Definition of Done, 11. Instructions Codex, 1. Objectif, 2. Fichiers modifiés, 3. Structure de page, 4. Asset map, 5. Assets manquants, 6. Images à générer par Codex (+5 more)
 
 ### Community 66 - "Community 66"
-Cohesion: 0.22
-Nodes (12): construirePanneau(), demarrer(), editer(), estCandidat(), injecterStyles(), load(), preparer(), readBlock() (+4 more)
+Cohesion: 0.16
+Nodes (21): ajouterNote(), charger(), collerDepuisChatGPT(), construirePanneau(), contexteDe(), decrireElement(), demarrer(), editer() (+13 more)
 
 ### Community 67 - "Community 67"
 Cohesion: 0.13
@@ -245,16 +248,20 @@ Nodes (5): Image, contain(), main(), Prépare les vraies pages Outillage Auto po
 Cohesion: 0.50
 Nodes (4): main(), Recompose le hero Digilife sur noir sans modifier les trois visuels.  Le fichier, scaled_polygon(), ImageDraw
 
+### Community 71 - "Community 71"
+Cohesion: 0.12
+Nodes (16): 10. État actuel et points ouverts, 1. Ce qu'est ce projet, 2. Nature technique, 3. Architecture des pages, 4.1 Dans le HTML des pages — environ 25 600 caractères, 4.2 Dans `js/components.js` — 559 chaînes, environ 32 000 caractères, 4.3 Templates par page, 4. Le point le plus important à comprendre : où vit le contenu (+8 more)
+
 ## Knowledge Gaps
-- **180 isolated node(s):** `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT`, `CATALOGUE_SERVICES_DEFAULT`, `CATALOGUE_CASE_STUDIES`, `CATALOGUE_SECTION_RENDERERS` (+175 more)
+- **194 isolated node(s):** `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT`, `CATALOGUE_SERVICES_DEFAULT`, `CATALOGUE_CASE_STUDIES`, `CATALOGUE_SECTION_RENDERERS` (+189 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **33 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **35 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT`, `CATALOGUE_SERVICES_DEFAULT` to the rest of the system?**
-  _182 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _196 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.05817028027498678 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
