@@ -1,16 +1,16 @@
 # Graph Report - Site LS Code  (2026-08-11)
 
 ## Corpus Check
-- 22 files · ~8,170,728 words
+- 27 files · ~8,358,433 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 358 nodes · 402 edges · 66 communities (33 shown, 33 thin omitted)
-- Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 16 edges (avg confidence: 0.9)
+- 408 nodes · 462 edges · 71 communities (38 shown, 33 thin omitted)
+- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 16 edges (avg confidence: 0.9)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `cb62c5f1`
+- Built from commit: `50884033`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -78,6 +78,11 @@
 - [[_COMMUNITY_Community 63|Community 63]]
 - [[_COMMUNITY_Community 64|Community 64]]
 - [[_COMMUNITY_Community 65|Community 65]]
+- [[_COMMUNITY_Community 66|Community 66]]
+- [[_COMMUNITY_Community 67|Community 67]]
+- [[_COMMUNITY_Community 68|Community 68]]
+- [[_COMMUNITY_Community 69|Community 69]]
+- [[_COMMUNITY_Community 70|Community 70]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `initComponents()` - 30 edges
@@ -98,7 +103,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (66 total, 33 thin omitted)
+## Communities (71 total, 33 thin omitted)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.06
@@ -220,8 +225,28 @@ Nodes (3): Arborescence, Organisation des assets, Règles
 Cohesion: 0.14
 Nodes (13): 10. Definition of Done, 11. Instructions Codex, 1. Objectif, 2. Fichiers modifiés, 3. Structure de page, 4. Asset map, 5. Assets manquants, 6. Images à générer par Codex (+5 more)
 
+### Community 66 - "Community 66"
+Cohesion: 0.22
+Nodes (12): construirePanneau(), demarrer(), editer(), estCandidat(), injecterStyles(), load(), preparer(), readBlock() (+4 more)
+
+### Community 67 - "Community 67"
+Cohesion: 0.13
+Nodes (10): ambigu, applique, donnees, fichiers, introuvable, ligne, original, RACINE (+2 more)
+
+### Community 68 - "Community 68"
+Cohesion: 0.25
+Nodes (7): Ce que le rapport indique, Fichiers du système, Où vit le texte, Partie 1 — À envoyer au relecteur, Partie 2 — Côté développement, Relecture des textes du site, Réinjecter les corrections
+
+### Community 69 - "Community 69"
+Cohesion: 0.53
+Nodes (5): Image, contain(), main(), Prépare les vraies pages Outillage Auto pour le mockup multi-supports.  Les expo, trim()
+
+### Community 70 - "Community 70"
+Cohesion: 0.50
+Nodes (4): main(), Recompose le hero Digilife sur noir sans modifier les trois visuels.  Le fichier, scaled_polygon(), ImageDraw
+
 ## Knowledge Gaps
-- **164 isolated node(s):** `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT`, `CATALOGUE_SERVICES_DEFAULT`, `CATALOGUE_CASE_STUDIES`, `CATALOGUE_SECTION_RENDERERS` (+159 more)
+- **180 isolated node(s):** `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT`, `CATALOGUE_SERVICES_DEFAULT`, `CATALOGUE_CASE_STUDIES`, `CATALOGUE_SECTION_RENDERERS` (+175 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **33 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -229,7 +254,7 @@ Nodes (13): 10. Definition of Done, 11. Instructions Codex, 1. Objectif, 2. Fich
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT`, `CATALOGUE_SERVICES_DEFAULT` to the rest of the system?**
-  _164 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _182 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.05817028027498678 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
@@ -240,3 +265,5 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Community 65` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
+- **Should `Community 67` be split into smaller, more focused modules?**
+  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._

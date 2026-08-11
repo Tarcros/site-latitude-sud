@@ -1164,6 +1164,316 @@
       "norm_label": "initcomponents()"
     },
     {
+      "label": "relecture.js",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "js_relecture",
+      "community": 66,
+      "norm_label": "relecture.js"
+    },
+    {
+      "label": "load()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "js_relecture_load",
+      "community": 66,
+      "norm_label": "load()"
+    },
+    {
+      "label": "save()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "js_relecture_save",
+      "community": 66,
+      "norm_label": "save()"
+    },
+    {
+      "label": "readBlock()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "js_relecture_readblock",
+      "community": 66,
+      "norm_label": "readblock()"
+    },
+    {
+      "label": "writeBlock()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "js_relecture_writeblock",
+      "community": 66,
+      "norm_label": "writeblock()"
+    },
+    {
+      "label": "estCandidat()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "js_relecture_estcandidat",
+      "community": 66,
+      "norm_label": "estcandidat()"
+    },
+    {
+      "label": "contexteDe()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "js_relecture_contextede",
+      "community": 66,
+      "norm_label": "contextede()"
+    },
+    {
+      "label": "preparer()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L102",
+      "_origin": "ast",
+      "id": "js_relecture_preparer",
+      "community": 66,
+      "norm_label": "preparer()"
+    },
+    {
+      "label": "editer()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L109",
+      "_origin": "ast",
+      "id": "js_relecture_editer",
+      "community": 66,
+      "norm_label": "editer()"
+    },
+    {
+      "label": "reappliquer()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L149",
+      "_origin": "ast",
+      "id": "js_relecture_reappliquer",
+      "community": 66,
+      "norm_label": "reappliquer()"
+    },
+    {
+      "label": "scanner()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L158",
+      "_origin": "ast",
+      "id": "js_relecture_scanner",
+      "community": 66,
+      "norm_label": "scanner()"
+    },
+    {
+      "label": "exporter()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L170",
+      "_origin": "ast",
+      "id": "js_relecture_exporter",
+      "community": 66,
+      "norm_label": "exporter()"
+    },
+    {
+      "label": "renderPanel()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L187",
+      "_origin": "ast",
+      "id": "js_relecture_renderpanel",
+      "community": 66,
+      "norm_label": "renderpanel()"
+    },
+    {
+      "label": "construirePanneau()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L195",
+      "_origin": "ast",
+      "id": "js_relecture_construirepanneau",
+      "community": 66,
+      "norm_label": "construirepanneau()"
+    },
+    {
+      "label": "injecterStyles()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L216",
+      "_origin": "ast",
+      "id": "js_relecture_injecterstyles",
+      "community": 66,
+      "norm_label": "injecterstyles()"
+    },
+    {
+      "label": "demarrer()",
+      "file_type": "code",
+      "source_file": "js/relecture.js",
+      "source_location": "L238",
+      "_origin": "ast",
+      "id": "js_relecture_demarrer",
+      "community": 66,
+      "norm_label": "demarrer()"
+    },
+    {
+      "label": "apply-corrections.mjs",
+      "file_type": "code",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "scripts_apply_corrections",
+      "community": 67,
+      "norm_label": "apply-corrections.mjs"
+    },
+    {
+      "label": "RACINE",
+      "file_type": "code",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "scripts_apply_corrections_racine",
+      "community": 67,
+      "norm_label": "racine"
+    },
+    {
+      "label": "echapRegex()",
+      "file_type": "code",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "scripts_apply_corrections_echapregex",
+      "community": 67,
+      "norm_label": "echapregex()"
+    },
+    {
+      "label": "motifDe()",
+      "file_type": "code",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "scripts_apply_corrections_motifde",
+      "community": 67,
+      "norm_label": "motifde()"
+    },
+    {
+      "label": "encoderComme()",
+      "file_type": "code",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "scripts_apply_corrections_encodercomme",
+      "community": 67,
+      "norm_label": "encodercomme()"
+    },
+    {
+      "label": "donnees",
+      "file_type": "code",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "scripts_apply_corrections_donnees",
+      "community": 67,
+      "norm_label": "donnees"
+    },
+    {
+      "label": "fichiers",
+      "file_type": "code",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "scripts_apply_corrections_fichiers",
+      "community": 67,
+      "norm_label": "fichiers"
+    },
+    {
+      "label": "sources",
+      "file_type": "code",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L73",
+      "_origin": "ast",
+      "id": "scripts_apply_corrections_sources",
+      "community": 67,
+      "norm_label": "sources"
+    },
+    {
+      "label": "original",
+      "file_type": "code",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L77",
+      "_origin": "ast",
+      "id": "scripts_apply_corrections_original",
+      "community": 67,
+      "norm_label": "original"
+    },
+    {
+      "label": "applique",
+      "file_type": "code",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "scripts_apply_corrections_applique",
+      "community": 67,
+      "norm_label": "applique"
+    },
+    {
+      "label": "ambigu",
+      "file_type": "code",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "scripts_apply_corrections_ambigu",
+      "community": 67,
+      "norm_label": "ambigu"
+    },
+    {
+      "label": "introuvable",
+      "file_type": "code",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "scripts_apply_corrections_introuvable",
+      "community": 67,
+      "norm_label": "introuvable"
+    },
+    {
+      "label": "suspect",
+      "file_type": "code",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "scripts_apply_corrections_suspect",
+      "community": 67,
+      "norm_label": "suspect"
+    },
+    {
+      "label": "ligne",
+      "file_type": "code",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L120",
+      "_origin": "ast",
+      "id": "scripts_apply_corrections_ligne",
+      "community": 67,
+      "norm_label": "ligne"
+    },
+    {
+      "label": "court()",
+      "file_type": "code",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L121",
+      "_origin": "ast",
+      "id": "scripts_apply_corrections_court",
+      "community": 67,
+      "norm_label": "court()"
+    },
+    {
       "label": "check-local-assets.mjs",
       "file_type": "code",
       "source_file": "scripts/check-local-assets.mjs",
@@ -1312,6 +1622,116 @@
       "id": "scripts_check_local_assets_result",
       "community": 20,
       "norm_label": "result"
+    },
+    {
+      "label": "build_black_composition.py",
+      "file_type": "code",
+      "source_file": "to-del/qa/digilife-hero/build_black_composition.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "digilife_hero_build_black_composition",
+      "community": 70,
+      "norm_label": "build_black_composition.py"
+    },
+    {
+      "label": "scaled_polygon()",
+      "file_type": "code",
+      "source_file": "to-del/qa/digilife-hero/build_black_composition.py",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "digilife_hero_build_black_composition_scaled_polygon",
+      "community": 70,
+      "norm_label": "scaled_polygon()"
+    },
+    {
+      "label": "ImageDraw",
+      "file_type": "code",
+      "source_file": "to-del/qa/digilife-hero/build_black_composition.py",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "imagedraw",
+      "community": 70,
+      "norm_label": "imagedraw"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "to-del/qa/digilife-hero/build_black_composition.py",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "digilife_hero_build_black_composition_main",
+      "community": 70,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Recompose le hero Digilife sur noir sans modifier les trois visuels.  Le fichier",
+      "file_type": "rationale",
+      "source_file": "to-del/qa/digilife-hero/build_black_composition.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "digilife_hero_build_black_composition_rationale_1",
+      "community": 70,
+      "norm_label": "recompose le hero digilife sur noir sans modifier les trois visuels.  le fichier"
+    },
+    {
+      "label": "build_screen_assets.py",
+      "file_type": "code",
+      "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mrb_mockup_build_screen_assets",
+      "community": 69,
+      "norm_label": "build_screen_assets.py"
+    },
+    {
+      "label": "trim()",
+      "file_type": "code",
+      "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "mrb_mockup_build_screen_assets_trim",
+      "community": 69,
+      "norm_label": "trim()"
+    },
+    {
+      "label": "Image",
+      "file_type": "code",
+      "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "image",
+      "community": 69,
+      "norm_label": "image"
+    },
+    {
+      "label": "contain()",
+      "file_type": "code",
+      "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "mrb_mockup_build_screen_assets_contain",
+      "community": 69,
+      "norm_label": "contain()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "mrb_mockup_build_screen_assets_main",
+      "community": 69,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Pr\u00e9pare les vraies pages Outillage Auto pour le mockup multi-supports.  Les expo",
+      "file_type": "rationale",
+      "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mrb_mockup_build_screen_assets_rationale_1",
+      "community": 69,
+      "norm_label": "prepare les vraies pages outillage auto pour le mockup multi-supports.  les expo"
     },
     {
       "label": "SKILL.md",
@@ -2122,6 +2542,86 @@
       "id": "docs_project_context_fichiers",
       "community": 53,
       "norm_label": "\ud83d\udcc1 fichiers"
+    },
+    {
+      "label": "RELECTURE.md",
+      "file_type": "document",
+      "source_file": "docs/RELECTURE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_relecture",
+      "community": 68,
+      "norm_label": "relecture.md"
+    },
+    {
+      "label": "Relecture des textes du site",
+      "file_type": "document",
+      "source_file": "docs/RELECTURE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_relecture_relecture_des_textes_du_site",
+      "community": 68,
+      "norm_label": "relecture des textes du site"
+    },
+    {
+      "label": "Partie 1 \u2014 \u00c0 envoyer au relecteur",
+      "file_type": "document",
+      "source_file": "docs/RELECTURE.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "docs_relecture_partie_1_\u00e0_envoyer_au_relecteur",
+      "community": 68,
+      "norm_label": "partie 1 \u2014 a envoyer au relecteur"
+    },
+    {
+      "label": "Partie 2 \u2014 C\u00f4t\u00e9 d\u00e9veloppement",
+      "file_type": "document",
+      "source_file": "docs/RELECTURE.md",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "docs_relecture_partie_2_c\u00f4t\u00e9_d\u00e9veloppement",
+      "community": 68,
+      "norm_label": "partie 2 \u2014 cote developpement"
+    },
+    {
+      "label": "R\u00e9injecter les corrections",
+      "file_type": "document",
+      "source_file": "docs/RELECTURE.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "docs_relecture_r\u00e9injecter_les_corrections",
+      "community": 68,
+      "norm_label": "reinjecter les corrections"
+    },
+    {
+      "label": "Ce que le rapport indique",
+      "file_type": "document",
+      "source_file": "docs/RELECTURE.md",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "docs_relecture_ce_que_le_rapport_indique",
+      "community": 68,
+      "norm_label": "ce que le rapport indique"
+    },
+    {
+      "label": "O\u00f9 vit le texte",
+      "file_type": "document",
+      "source_file": "docs/RELECTURE.md",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "docs_relecture_o\u00f9_vit_le_texte",
+      "community": 68,
+      "norm_label": "ou vit le texte"
+    },
+    {
+      "label": "Fichiers du syst\u00e8me",
+      "file_type": "document",
+      "source_file": "docs/RELECTURE.md",
+      "source_location": "L111",
+      "_origin": "ast",
+      "id": "docs_relecture_fichiers_du_syst\u00e8me",
+      "community": 68,
+      "norm_label": "fichiers du systeme"
     },
     {
       "label": "asset-map.md",
@@ -6358,6 +6858,417 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L195",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_construirepanneau",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_contextede",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L238",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_demarrer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_editer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_estcandidat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_exporter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L216",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_injecterstyles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_load",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_preparer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_readblock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L149",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_reappliquer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_renderpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_save",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_scanner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "js_relecture",
+      "target": "js_relecture_writeblock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L241",
+      "weight": 1.0,
+      "source": "js_relecture_demarrer",
+      "target": "js_relecture_load",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "js_relecture_save",
+      "target": "js_relecture_renderpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "js_relecture_editer",
+      "target": "js_relecture_readblock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "js_relecture_estcandidat",
+      "target": "js_relecture_readblock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "js_relecture_preparer",
+      "target": "js_relecture_readblock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L165",
+      "weight": 1.0,
+      "source": "js_relecture_scanner",
+      "target": "js_relecture_reappliquer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L242",
+      "weight": 1.0,
+      "source": "js_relecture_demarrer",
+      "target": "js_relecture_scanner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L166",
+      "weight": 1.0,
+      "source": "js_relecture_scanner",
+      "target": "js_relecture_renderpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L213",
+      "weight": 1.0,
+      "source": "js_relecture_construirepanneau",
+      "target": "js_relecture_renderpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L240",
+      "weight": 1.0,
+      "source": "js_relecture_demarrer",
+      "target": "js_relecture_construirepanneau",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "js/relecture.js",
+      "source_location": "L239",
+      "weight": 1.0,
+      "source": "js_relecture_demarrer",
+      "target": "js_relecture_injecterstyles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "scripts_apply_corrections",
+      "target": "scripts_apply_corrections_ambigu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "scripts_apply_corrections",
+      "target": "scripts_apply_corrections_applique",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "scripts_apply_corrections",
+      "target": "scripts_apply_corrections_court",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "scripts_apply_corrections",
+      "target": "scripts_apply_corrections_donnees",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "scripts_apply_corrections",
+      "target": "scripts_apply_corrections_echapregex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "scripts_apply_corrections",
+      "target": "scripts_apply_corrections_encodercomme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "scripts_apply_corrections",
+      "target": "scripts_apply_corrections_fichiers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "scripts_apply_corrections",
+      "target": "scripts_apply_corrections_introuvable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "scripts_apply_corrections",
+      "target": "scripts_apply_corrections_ligne",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "scripts_apply_corrections",
+      "target": "scripts_apply_corrections_motifde",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "scripts_apply_corrections",
+      "target": "scripts_apply_corrections_original",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "scripts_apply_corrections",
+      "target": "scripts_apply_corrections_racine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "scripts_apply_corrections",
+      "target": "scripts_apply_corrections_sources",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/apply-corrections.mjs",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "scripts_apply_corrections",
+      "target": "scripts_apply_corrections_suspect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "scripts/check-local-assets.mjs",
       "source_location": "L10",
       "weight": 1.0,
@@ -6494,6 +7405,142 @@
       "confidence_score": 1.0,
       "source": "scripts_check_local_assets",
       "target": "scripts_check_local_assets_walkfiles"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "to-del/qa/digilife-hero/build_black_composition.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "digilife_hero_build_black_composition",
+      "target": "digilife_hero_build_black_composition_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "to-del/qa/digilife-hero/build_black_composition.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "digilife_hero_build_black_composition",
+      "target": "digilife_hero_build_black_composition_scaled_polygon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "to-del/qa/digilife-hero/build_black_composition.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "digilife_hero_build_black_composition_rationale_1",
+      "target": "digilife_hero_build_black_composition",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "to-del/qa/digilife-hero/build_black_composition.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "digilife_hero_build_black_composition_main",
+      "target": "digilife_hero_build_black_composition_scaled_polygon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "to-del/qa/digilife-hero/build_black_composition.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "digilife_hero_build_black_composition_scaled_polygon",
+      "target": "imagedraw",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "mrb_mockup_build_screen_assets",
+      "target": "mrb_mockup_build_screen_assets_contain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "mrb_mockup_build_screen_assets",
+      "target": "mrb_mockup_build_screen_assets_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "mrb_mockup_build_screen_assets",
+      "target": "mrb_mockup_build_screen_assets_trim",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mrb_mockup_build_screen_assets_rationale_1",
+      "target": "mrb_mockup_build_screen_assets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "mrb_mockup_build_screen_assets_main",
+      "target": "mrb_mockup_build_screen_assets_trim",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "mrb_mockup_build_screen_assets_trim",
+      "target": "image",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "mrb_mockup_build_screen_assets_contain",
+      "target": "image",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "to-del/qa/mrb-mockup/build_screen_assets.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "mrb_mockup_build_screen_assets_main",
+      "target": "mrb_mockup_build_screen_assets_contain",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -7204,6 +8251,76 @@
       "confidence_score": 1.0,
       "source": "docs_project_context_project_context_latitude_sud_v2",
       "target": "docs_project_context_session_du_01_07_2026"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/RELECTURE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_relecture",
+      "target": "docs_relecture_relecture_des_textes_du_site",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/RELECTURE.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "docs_relecture_relecture_des_textes_du_site",
+      "target": "docs_relecture_partie_1_\u00e0_envoyer_au_relecteur",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/RELECTURE.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "docs_relecture_relecture_des_textes_du_site",
+      "target": "docs_relecture_partie_2_c\u00f4t\u00e9_d\u00e9veloppement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/RELECTURE.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "docs_relecture_partie_2_c\u00f4t\u00e9_d\u00e9veloppement",
+      "target": "docs_relecture_ce_que_le_rapport_indique",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/RELECTURE.md",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "docs_relecture_partie_2_c\u00f4t\u00e9_d\u00e9veloppement",
+      "target": "docs_relecture_fichiers_du_syst\u00e8me",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/RELECTURE.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "docs_relecture_partie_2_c\u00f4t\u00e9_d\u00e9veloppement",
+      "target": "docs_relecture_o\u00f9_vit_le_texte",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/RELECTURE.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "docs_relecture_partie_2_c\u00f4t\u00e9_d\u00e9veloppement",
+      "target": "docs_relecture_r\u00e9injecter_les_corrections",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8283,5 +9400,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "cb62c5f1624ba1018b9efe1d6c8f69e75255ad8f"
+  "built_at_commit": "508840335172c5257df70e5c06489af632dabb42"
 }

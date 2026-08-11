@@ -20,8 +20,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1786480092.3833747,
-    "ast_hash": "05a62f73599daa4135c4c351ad6805aa",
+    "mtime": 1786482845.513011,
+    "ast_hash": "7fb9904ea05960ac91547791faf4e9ec",
     "semantic_hash": ""
   },
   "robots.txt": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "js/components.js": {
-    "mtime": 1786479819.224983,
-    "ast_hash": "eef7dbe5a57a5bb3bc0d563fb7c834d3",
+    "mtime": 1786481839.827436,
+    "ast_hash": "1bb6695b81f91381d78be2a7cbd8b2d2",
     "semantic_hash": ""
   },
   "scripts/check-local-assets.mjs": {
@@ -90,68 +90,68 @@
     "semantic_hash": ""
   },
   "pages/agence.html": {
-    "mtime": 1786480092.384067,
-    "ast_hash": "da49a3adfaf7c12a4f632e47acb64c22",
+    "mtime": 1786482845.514093,
+    "ast_hash": "6373f272ace76e8ec82e807976065b72",
     "semantic_hash": ""
   },
   "pages/catalogue.html": {
-    "mtime": 1786480092.3845775,
-    "ast_hash": "1a660895b2f5b28af244a88efaec18ff",
+    "mtime": 1786482845.514781,
+    "ast_hash": "48598abf7c8f0e038668d7b58aafb43f",
     "semantic_hash": ""
   },
   "pages/charte-graphique.html": {
-    "mtime": 1786480092.385167,
-    "ast_hash": "0c0f12045434e41bd75cea06183d6f78",
+    "mtime": 1786482845.515542,
+    "ast_hash": "2ad83bbc0eebb2e10e1d1024c615230b",
     "semantic_hash": ""
   },
   "pages/contact.html": {
-    "mtime": 1786480092.3858447,
-    "ast_hash": "3685b2398705fb3e061e20fc28137ed9",
+    "mtime": 1786482845.5172527,
+    "ast_hash": "93b22bdcee8a25a984113eb534acdca5",
     "semantic_hash": ""
   },
   "pages/latitude-sud-news.html": {
-    "mtime": 1786480092.3864424,
-    "ast_hash": "eed63eb66270b3a7d1cd13205ed6bc1f",
+    "mtime": 1786482845.5202904,
+    "ast_hash": "f43a3ff4b2012866e8faa5375f27f8df",
     "semantic_hash": ""
   },
   "pages/mentions-legales.html": {
-    "mtime": 1786480092.386963,
-    "ast_hash": "f438cb3550dbeb822509559e251d6480",
+    "mtime": 1786482845.5213785,
+    "ast_hash": "26dd3b084dda77615153f3ed56a89a15",
     "semantic_hash": ""
   },
   "pages/photos.html": {
-    "mtime": 1786480092.3876421,
-    "ast_hash": "4daea5a68962e45094e67778191a5dc3",
+    "mtime": 1786482845.5224273,
+    "ast_hash": "9135a8cd17de086e1aa4324e53f06c68",
     "semantic_hash": ""
   },
   "pages/politique-de-confidentialite.html": {
-    "mtime": 1786480092.3883388,
-    "ast_hash": "debcb18b0d3c492eb6eafe7f41724881",
+    "mtime": 1786482845.5240135,
+    "ast_hash": "fe9151219686bb1e1fc64c06f2fa55d1",
     "semantic_hash": ""
   },
   "pages/print.html": {
-    "mtime": 1786480092.388843,
-    "ast_hash": "800f2bc7d65ab08c30622df9452b3224",
+    "mtime": 1786482845.5247605,
+    "ast_hash": "03e613992dbeed322242242e359beb7a",
     "semantic_hash": ""
   },
   "pages/realisations.html": {
-    "mtime": 1786480092.3893187,
-    "ast_hash": "293968c812483460755586a70b85426b",
+    "mtime": 1786482845.5256395,
+    "ast_hash": "96f89a893ce710e5e88189c0383194e1",
     "semantic_hash": ""
   },
   "pages/social.html": {
-    "mtime": 1786480092.39052,
-    "ast_hash": "e2429dbb38f0957a6ac118f4d4d91b58",
+    "mtime": 1786482845.5271168,
+    "ast_hash": "b69a2872477c6ed4b590da6b5b57c9c0",
     "semantic_hash": ""
   },
   "pages/video.html": {
-    "mtime": 1786480092.3910537,
-    "ast_hash": "7e880ef8acaafacdc4a9edab00f49052",
+    "mtime": 1786482845.5277557,
+    "ast_hash": "427a4c8b60ecdde0c72ec2a556b6d950",
     "semantic_hash": ""
   },
   "pages/web.html": {
-    "mtime": 1786480092.3914492,
-    "ast_hash": "ab85b7ed0a8ee628db4ebc8255e3fa19",
+    "mtime": 1786482845.528426,
+    "ast_hash": "fae3c27d703c6ef1a6540b91aed385a7",
     "semantic_hash": ""
   },
   "assets/projects/social/auto-discount/abymes-source.webp": {
@@ -2025,8 +2025,8 @@
     "semantic_hash": ""
   },
   "assets/projects/catalogue/mr-bricolage/print-digital/mockup.webp": {
-    "mtime": 1786470559.805053,
-    "ast_hash": "0878f2c40ba9b1a1d79de7bcc6a5bb17",
+    "mtime": 1786481852.623904,
+    "ast_hash": "bfa58c3afea97d002b74d2627976de80",
     "semantic_hash": ""
   },
   "assets/projects/catalogue/mr-bricolage/social/post-portrait.webp": {
@@ -2780,8 +2780,8 @@
     "semantic_hash": ""
   },
   "to-del/qa/mrb-mockup/composer.html": {
-    "mtime": 1786471651.9488292,
-    "ast_hash": "f33e84e1b499f1634c58e24372e96134",
+    "mtime": 1786481597.2112117,
+    "ast_hash": "a476969c1902cf0082bc173f981efd4b",
     "semantic_hash": ""
   },
   "to-del/assets/projects/catalogue/mr-bricolage/print-digital/mockup-gardening.webp": {
@@ -2952,6 +2952,96 @@
   "assets/projects/photos/les-belles-envies/information/ouverture-micareme.webp": {
     "mtime": 1786479657.733679,
     "ast_hash": "196c3e4d73e2d34f5a861e971e0aa3e0",
+    "semantic_hash": ""
+  },
+  "js/relecture.js": {
+    "mtime": 1786482157.3418992,
+    "ast_hash": "67ff32f4171fc72d48df511379b0ce4b",
+    "semantic_hash": ""
+  },
+  "scripts/apply-corrections.mjs": {
+    "mtime": 1786482287.0411212,
+    "ast_hash": "211964d55bcff893166f38cf6a9749c7",
+    "semantic_hash": ""
+  },
+  "to-del/qa/digilife-hero/build_black_composition.py": {
+    "mtime": 1786481156.3309774,
+    "ast_hash": "59e2adb841ab6666750c1306b1de3e8a",
+    "semantic_hash": ""
+  },
+  "to-del/qa/mrb-mockup/build_screen_assets.py": {
+    "mtime": 1786481462.8307576,
+    "ast_hash": "33bcd8c413197f9a7dc8b19ce2ec96bd",
+    "semantic_hash": ""
+  },
+  "docs/RELECTURE.md": {
+    "mtime": 1786482318.2424283,
+    "ast_hash": "148093859cef85516a3fbe3630b4067f",
+    "semantic_hash": ""
+  },
+  "to-del/qa/digilife-hero/qa-current.html": {
+    "mtime": 1786482845.5293062,
+    "ast_hash": "8e95eacba61c37f51e2527545d286020",
+    "semantic_hash": ""
+  },
+  "to-del/qa/lbe/qa-current.html": {
+    "mtime": 1786482845.5288856,
+    "ast_hash": "d46046e480fa4252cacd280895bd9376",
+    "semantic_hash": ""
+  },
+  "to-del/qa/mrb-mockup/qa-current.html": {
+    "mtime": 1786482845.529703,
+    "ast_hash": "39b418fe0b925405038db230d75e146a",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/hero/posts-composition-black.png": {
+    "mtime": 1786481169.2950845,
+    "ast_hash": "a42c0e97639ad2d4ed95a8e78136cee4",
+    "semantic_hash": ""
+  },
+  "to-del/qa/mrb-mockup/base-blank-v2.png": {
+    "mtime": 1786481261.254112,
+    "ast_hash": "9cdccef1a65023f2ebfd673fa7b6e506",
+    "semantic_hash": ""
+  },
+  "to-del/qa/mrb-mockup/base-blank-v3.png": {
+    "mtime": 1786481373.8436081,
+    "ast_hash": "140658daf171e0c0bff25dd3467d26ee",
+    "semantic_hash": ""
+  },
+  "to-del/qa/mrb-mockup/composed-v2.png": {
+    "mtime": 1786481842.2980103,
+    "ast_hash": "098f399b89ad532801b37e8b5027d910",
+    "semantic_hash": ""
+  },
+  "to-del/qa/mrb-mockup/pages/outillage-cover-trim.webp": {
+    "mtime": 1786481475.9476142,
+    "ast_hash": "ab45a1803382e66d42d7e512f7250005",
+    "semantic_hash": ""
+  },
+  "to-del/qa/mrb-mockup/pages/outillage-page-02-trim.webp": {
+    "mtime": 1786481476.622852,
+    "ast_hash": "8e9a5b8d5cea753d11ab3e535ea5d9da",
+    "semantic_hash": ""
+  },
+  "to-del/qa/mrb-mockup/pages/outillage-page-03-trim.webp": {
+    "mtime": 1786481477.3213632,
+    "ast_hash": "e36431375a008e20aca202745bc33a56",
+    "semantic_hash": ""
+  },
+  "to-del/qa/mrb-mockup/pages/outillage-phone-screen.webp": {
+    "mtime": 1786481478.187382,
+    "ast_hash": "5c0feb6729e45cb6de6a5a76028237b5",
+    "semantic_hash": ""
+  },
+  "to-del/qa/mrb-mockup/pages/outillage-spread-screen.webp": {
+    "mtime": 1786481477.7874177,
+    "ast_hash": "51b6931ce8011fbc5d05ff31d7a7c5c8",
+    "semantic_hash": ""
+  },
+  "to-del/qa/mrb-mockup/pages/outillage-tablet-screen.webp": {
+    "mtime": 1786481478.0503705,
+    "ast_hash": "818478b4e6fdea82d852b23b4d4be861",
     "semantic_hash": ""
   }
 }
