@@ -7,13 +7,18 @@
     * { box-sizing: border-box; }
     html, body { width: 1451px; height: 1084px; margin: 0; overflow: hidden; background: #fff; }
     .mockup { position: relative; width: 1451px; height: 1084px; overflow: hidden; }
-    .mockup__base { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+    .mockup__base { position: absolute; z-index: 1; inset: 0; width: 100%; height: 100%; display: block; }
+    .mockup__base--tablet,
+    .mockup__base--phone { pointer-events: none; }
+    .mockup__base--tablet { z-index: 3; clip-path: polygon(74% 35%, 100% 35%, 100% 75%, 74% 75%); }
+    .mockup__base--phone { z-index: 5; clip-path: polygon(86.5% 47%, 98% 47%, 98% 73%, 86.5% 73%); }
     .mockup__page {
       position: absolute; z-index: 2; left: 0; top: 0; width: 1594px; height: 2210px;
       display: block; transform-origin: 0 0; backface-visibility: hidden;
     }
     .mockup__page--paper { filter: saturate(.96) brightness(1.015); }
-    .mockup__page--monitor-right { clip-path: inset(0 36% 0 0); }
+    .mockup__page--tablet { z-index: 4; }
+    .mockup__page--phone { z-index: 6; }
     .mockup__badge {
       position: absolute; z-index: 5; left: 32px; top: 745px; width: 144px; height: 144px;
       display: grid; place-items: center; border-radius: 50%; background: #fff;
@@ -24,15 +29,18 @@
 </head>
 <body>
   <div class="mockup" aria-label="Catalogue Outillage Auto Mr Bricolage présenté en version papier, ordinateur, tablette et mobile">
-    <img class="mockup__base" src="/to-del/qa/mrb-mockup/base-blank.png" alt="">
+    <img class="mockup__base" src="/to-del/qa/mrb-mockup/base-blank-v3.png" alt="">
 
-    <img class="mockup__page mockup__page--paper" data-quad="48,467 267,421 344,774 83,817" src="/to-del/qa/mrb-mockup/pages/outillage-page-02.webp" alt="">
-    <img class="mockup__page mockup__page--paper" data-quad="271,422 638,343 760,700 348,774" src="/to-del/qa/mrb-mockup/pages/outillage-page-03.webp" alt="">
+    <img class="mockup__page mockup__page--paper" data-width="1488" data-height="2104" data-quad="55,460 314,414 408,785 128,835" src="/to-del/qa/mrb-mockup/pages/outillage-page-02-trim.webp" alt="">
+    <img class="mockup__page mockup__page--paper" data-width="1488" data-height="2104" data-quad="328,414 623,356 736,730 425,784" src="/to-del/qa/mrb-mockup/pages/outillage-page-03-trim.webp" alt="">
 
-    <img class="mockup__page" data-quad="739,234 957,234 957,536 739,536" src="/to-del/qa/mrb-mockup/pages/outillage-cover.webp" alt="">
-    <img class="mockup__page mockup__page--monitor-right" data-quad="979,234 1197,234 1197,536 979,536" src="/to-del/qa/mrb-mockup/pages/outillage-page-02.webp" alt="">
-    <img class="mockup__page" data-quad="1129,421 1321,421 1321,687 1129,687" src="/to-del/qa/mrb-mockup/pages/outillage-cover.webp" alt="">
-    <img class="mockup__page" data-quad="1284,571 1390,571 1390,718 1284,718" src="/to-del/qa/mrb-mockup/pages/outillage-cover.webp" alt="">
+    <img class="mockup__page" data-width="1625" data-height="1000" data-quad="715,226 1245,226 1245,552 715,552" src="/to-del/qa/mrb-mockup/pages/outillage-spread-screen.webp" alt="">
+
+    <img class="mockup__base mockup__base--tablet" src="/to-del/qa/mrb-mockup/base-blank-v3.png" alt="">
+    <img class="mockup__page mockup__page--tablet" data-width="707" data-height="1000" data-quad="1105,420 1327,420 1327,734 1105,734" src="/to-del/qa/mrb-mockup/pages/outillage-tablet-screen.webp" alt="">
+
+    <img class="mockup__base mockup__base--phone" src="/to-del/qa/mrb-mockup/base-blank-v3.png" alt="">
+    <img class="mockup__page mockup__page--phone" data-width="481" data-height="1000" data-quad="1283,539 1386,539 1386,753 1283,753" src="/to-del/qa/mrb-mockup/pages/outillage-phone-screen.webp" alt="">
 
     <span class="mockup__badge"><img src="/assets/projects/catalogue/mr-bricolage/brand/logo-gp-color.svg" alt=""></span>
   </div>
@@ -60,8 +68,10 @@
     }
 
     function projectToQuad(element, points) {
-      const width = 1594;
-      const height = 2210;
+      const width = Number(element.dataset.width);
+      const height = Number(element.dataset.height);
+      element.style.width = `${width}px`;
+      element.style.height = `${height}px`;
       const source = [[0, 0], [width, 0], [width, height], [0, height]];
       const coefficients = [];
       const values = [];

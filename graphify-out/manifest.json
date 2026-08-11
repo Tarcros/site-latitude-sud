@@ -20,8 +20,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1786471923.7115626,
-    "ast_hash": "ced5da1d5babd243ef489f4467558605",
+    "mtime": 1786480092.3833747,
+    "ast_hash": "05a62f73599daa4135c4c351ad6805aa",
     "semantic_hash": ""
   },
   "robots.txt": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "js/components.js": {
-    "mtime": 1786471651.9520848,
-    "ast_hash": "191ae6714c190951508464f83eea1192",
+    "mtime": 1786479819.224983,
+    "ast_hash": "eef7dbe5a57a5bb3bc0d563fb7c834d3",
     "semantic_hash": ""
   },
   "scripts/check-local-assets.mjs": {
@@ -85,73 +85,73 @@
     "semantic_hash": ""
   },
   "docs/repository-audit.md": {
-    "mtime": 1786450837.6355743,
-    "ast_hash": "08c2990f01c4bcdb90e2827675a9ae0f",
+    "mtime": 1786476517.2288263,
+    "ast_hash": "17565b6925aecc2f1e7767af4e4a024f",
     "semantic_hash": ""
   },
   "pages/agence.html": {
-    "mtime": 1786471923.7332754,
-    "ast_hash": "ba54e183e2ca8dc024efa5f0edb072d3",
+    "mtime": 1786480092.384067,
+    "ast_hash": "da49a3adfaf7c12a4f632e47acb64c22",
     "semantic_hash": ""
   },
   "pages/catalogue.html": {
-    "mtime": 1786471923.7398527,
-    "ast_hash": "39f2743e67c8762f5ff2932e6f659f78",
+    "mtime": 1786480092.3845775,
+    "ast_hash": "1a660895b2f5b28af244a88efaec18ff",
     "semantic_hash": ""
   },
   "pages/charte-graphique.html": {
-    "mtime": 1786471923.7265413,
-    "ast_hash": "1026f84e447e6cbf6704ec51851bbce5",
+    "mtime": 1786480092.385167,
+    "ast_hash": "0c0f12045434e41bd75cea06183d6f78",
     "semantic_hash": ""
   },
   "pages/contact.html": {
-    "mtime": 1786471923.7769551,
-    "ast_hash": "9dc1a52ec8d3ccc3ff1def7bce8b5298",
+    "mtime": 1786480092.3858447,
+    "ast_hash": "3685b2398705fb3e061e20fc28137ed9",
     "semantic_hash": ""
   },
   "pages/latitude-sud-news.html": {
-    "mtime": 1786471301.159415,
-    "ast_hash": "a0cd1bf232d93c55aa06c4f6371e196a",
+    "mtime": 1786480092.3864424,
+    "ast_hash": "eed63eb66270b3a7d1cd13205ed6bc1f",
     "semantic_hash": ""
   },
   "pages/mentions-legales.html": {
-    "mtime": 1786471923.769181,
-    "ast_hash": "1760d7c90386ec709051b84d555a0cc7",
+    "mtime": 1786480092.386963,
+    "ast_hash": "f438cb3550dbeb822509559e251d6480",
     "semantic_hash": ""
   },
   "pages/photos.html": {
-    "mtime": 1786471923.7477489,
-    "ast_hash": "64570b6b5a0b514cc7f9d9ab01b8cea3",
+    "mtime": 1786480092.3876421,
+    "ast_hash": "4daea5a68962e45094e67778191a5dc3",
     "semantic_hash": ""
   },
   "pages/politique-de-confidentialite.html": {
-    "mtime": 1786471923.718756,
-    "ast_hash": "8caf4b8d361c9f777ded252e880992d6",
+    "mtime": 1786480092.3883388,
+    "ast_hash": "debcb18b0d3c492eb6eafe7f41724881",
     "semantic_hash": ""
   },
   "pages/print.html": {
-    "mtime": 1786471301.1528986,
-    "ast_hash": "a47e84f2461a651c52d21e7ea9f28f42",
+    "mtime": 1786480092.388843,
+    "ast_hash": "800f2bc7d65ab08c30622df9452b3224",
     "semantic_hash": ""
   },
   "pages/realisations.html": {
-    "mtime": 1786471923.7621875,
-    "ast_hash": "e8de31d18035cb281dfe5084b1c898e8",
+    "mtime": 1786480092.3893187,
+    "ast_hash": "293968c812483460755586a70b85426b",
     "semantic_hash": ""
   },
   "pages/social.html": {
-    "mtime": 1786471923.754432,
-    "ast_hash": "3b88c773b50bac990a0e6cc0474bc115",
+    "mtime": 1786480092.39052,
+    "ast_hash": "e2429dbb38f0957a6ac118f4d4d91b58",
     "semantic_hash": ""
   },
   "pages/video.html": {
-    "mtime": 1786471301.172973,
-    "ast_hash": "69c5410aef461efd853f13a9046681aa",
+    "mtime": 1786480092.3910537,
+    "ast_hash": "7e880ef8acaafacdc4a9edab00f49052",
     "semantic_hash": ""
   },
   "pages/web.html": {
-    "mtime": 1786471301.1395292,
-    "ast_hash": "893fc648c647a514a81866a32a0b50d7",
+    "mtime": 1786480092.3914492,
+    "ast_hash": "ab85b7ed0a8ee628db4ebc8255e3fa19",
     "semantic_hash": ""
   },
   "assets/projects/social/auto-discount/abymes-source.webp": {
@@ -457,11 +457,6 @@
   "assets/projects/social/digilife/thumbnail-digilife.webp": {
     "mtime": 1785422533.6392417,
     "ast_hash": "1dead86525d70915359d21f196db08d6",
-    "semantic_hash": ""
-  },
-  "assets/projects/social/lifeone/logo-lifeon-official.png": {
-    "mtime": 1786396351.411204,
-    "ast_hash": "edf9794231f4cb3dac496113471e9971",
     "semantic_hash": ""
   },
   "assets/projects/social/digilife/influence/michelle-making-of.mp4": {
@@ -2455,8 +2450,8 @@
     "semantic_hash": ""
   },
   "docs/asset-map.md": {
-    "mtime": 1786454785.6336563,
-    "ast_hash": "a1cb689573cae4087fc68edfd1455d57",
+    "mtime": 1786476517.2305732,
+    "ast_hash": "ff6c2a0967fb840e11b10b0580d7c04a",
     "semantic_hash": ""
   },
   "docs/cleanup-results.md": {
@@ -2780,8 +2775,8 @@
     "semantic_hash": ""
   },
   "assets/projects/social/digilife/influence/michelle-influence-banner.webp": {
-    "mtime": 1786467327.1840134,
-    "ast_hash": "c218f7a6876b9cb4fb7558b13acba4df",
+    "mtime": 1786472558.4276707,
+    "ast_hash": "eecfd31285e8f9fdc717dfcf588b9b77",
     "semantic_hash": ""
   },
   "to-del/qa/mrb-mockup/composer.html": {
@@ -2822,6 +2817,141 @@
   "to-del/qa/mrb-mockup/pages/outillage-page-03.webp": {
     "mtime": 1786470360.8611186,
     "ast_hash": "da5571b56e060460e84df022e682c0b3",
+    "semantic_hash": ""
+  },
+  "to-del/qa/lbe/qa-lbe-temp.html": {
+    "mtime": 1786476200.5910776,
+    "ast_hash": "e6a35989645e2d5e80d845dd8651385e",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/banner/lifeon-universe-wide.webp": {
+    "mtime": 1786475436.6333961,
+    "ast_hash": "4014a99804c128f2290524d58a87cb63",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/hero/lifeon-store.webp": {
+    "mtime": 1786475435.9911964,
+    "ast_hash": "4abc4dde786eba40763905b4e9072e63",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/logo-lifeon-official.png": {
+    "mtime": 1786396351.411204,
+    "ast_hash": "edf9794231f4cb3dac496113471e9971",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/logo-lifeon-on-dark.png": {
+    "mtime": 1786475514.467161,
+    "ast_hash": "edfc17db289219fcc067c430b315b297",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/posts/bluetooth.webp": {
+    "mtime": 1786475436.9755921,
+    "ast_hash": "cb01cb899c1579b2a73f354b9cdcd790",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/posts/chargeur-surpuissant.webp": {
+    "mtime": 1786475437.7094283,
+    "ast_hash": "5cc8efa4af08be6a01f367fe01afcb1c",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/posts/fete-des-meres.webp": {
+    "mtime": 1786475438.230928,
+    "ast_hash": "28ed842da9f1baae32c93350e318fd88",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/posts/nettoyage-airpods.webp": {
+    "mtime": 1786475437.9733899,
+    "ast_hash": "c62b2cb1cd738dcbd18d8e0ff61af948",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/posts/nettoyage-ecran.webp": {
+    "mtime": 1786475437.3446188,
+    "ast_hash": "0a52ca4ad399062633a020a32fbe5b5f",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/posts/plage.webp": {
+    "mtime": 1786475438.7078216,
+    "ast_hash": "a8a914b341728850bfccaafae127b10e",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/workflow/charger/montage.webp": {
+    "mtime": 1786475442.2781343,
+    "ast_hash": "f0fe99ca409967302721b3f31b80a4bb",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/workflow/charger/personnage-isole.webp": {
+    "mtime": 1786475441.0669653,
+    "ast_hash": "d7e8bd69413170395d98db053be40c9b",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/workflow/charger/post-final.webp": {
+    "mtime": 1786475442.5593424,
+    "ast_hash": "b9787025eae22f5493b8534b64d7cefc",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/workflow/charger/source-personnage.webp": {
+    "mtime": 1786475440.4084797,
+    "ast_hash": "6beb10aeddb0664557531ee7cd4fc7bf",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/workflow/charger/source-powerbank.webp": {
+    "mtime": 1786475439.0331187,
+    "ast_hash": "a73c0eae6d8cb20d5a77c7b47a0ba103",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/workflow/soleil/montage.webp": {
+    "mtime": 1786475444.7454126,
+    "ast_hash": "013c151e0fc67db39772b89a884a4ded",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/workflow/soleil/personnage-isole.webp": {
+    "mtime": 1786475443.8401582,
+    "ast_hash": "ab68869a20b861f48902420b144b184e",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/workflow/soleil/post-final.webp": {
+    "mtime": 1786475445.4278388,
+    "ast_hash": "5fb9447e1ad75910f2f511970a525134",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/workflow/soleil/source-iphone-orange.webp": {
+    "mtime": 1786475443.0243812,
+    "ast_hash": "97b1eccd4bd0a25976cd78875d9b2115",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/lifeon/workflow/soleil/source-voiture.webp": {
+    "mtime": 1786475442.7691333,
+    "ast_hash": "4494c38252924cd0313887fcc48421c3",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/featured/fraisier.webp": {
+    "mtime": 1786479658.694713,
+    "ast_hash": "ff923890d14a9e29178d72757dbab540",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/featured/rocher-chocolat.webp": {
+    "mtime": 1786479658.6842527,
+    "ast_hash": "705f7312d5326d7c5c9b93fbd710f5c8",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/featured/rocher-individuel.webp": {
+    "mtime": 1786479658.5975509,
+    "ast_hash": "f8afa8e2bfbc7f4e57b180dae58be3fc",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/information/horaires-exceptionnels.webp": {
+    "mtime": 1786479658.756494,
+    "ast_hash": "7e80ac9a82dac7cf951292f08604c7d0",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/information/offre-carnaval.webp": {
+    "mtime": 1786479657.7685666,
+    "ast_hash": "09dd454628bc4f950f7d9793821a7ec7",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/les-belles-envies/information/ouverture-micareme.webp": {
+    "mtime": 1786479657.733679,
+    "ast_hash": "196c3e4d73e2d34f5a861e971e0aa3e0",
     "semantic_hash": ""
   }
 }

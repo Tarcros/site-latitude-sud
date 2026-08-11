@@ -3636,61 +3636,63 @@ const LBE = '/assets/projects/photos/les-belles-envies';
 const LBE_CASE = {
   hero: {
     logo: `${LBE}/logo/lbe-logo-mark-white.webp`,
-    kicker: 'Les Belles Envies',
-    title: 'Photographie<br>gourmande &amp; contenus<br>visuels premium',
-    text: 'Latitude Sud crée pour Les Belles Envies des photographies studio, des retouches haut de gamme et des visuels intégrés au design de marque.',
+    kicker: 'LES BELLES ENVIES',
+    title: 'Photographie gourmande<br>&amp; contenus visuels premium',
+    text: 'Latitude Sud accompagne Les Belles Envies de la prise de vue à la création finale : photographie, retouche, mise en scène et contenus prêts à publier.',
     slogan: 'Oubliez le sucre, pas vos envies !',
     top: { src: `${LBE}/hero/hero-rocher-photo.webp`, alt: 'Le Rocher Chocolat, photographie studio Les Belles Envies' },
     bottom: { src: `${LBE}/hero/hero-fraisier-composition.webp`, alt: 'Composition finale Le Fraisier, Les Belles Envies' }
   },
-  workflow: {
+  workflowIntro: {
     title: 'Notre workflow photo',
     text: 'De la prise de vue studio à l’intégration créative.',
-    separator: 'Notre workflow en 3 étapes',
-    rows: [
-      {
-        name: 'Le Rocher Chocolat',
-        steps: [
-          { src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-01-brut.webp`, alt: 'Le Rocher Chocolat, photo brute studio' },
-          { src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-02-retouche.webp`, alt: 'Le Rocher Chocolat, retouche photo' },
-          { src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-03-composition.webp`, alt: 'Le Rocher Chocolat, intégration créative finale', final: true }
-        ]
-      },
-      {
-        name: 'Le Fraisier',
-        steps: [
-          { src: `${LBE}/workflow/fraisier/workflow-fraisier-01-brut.webp`, alt: 'Le Fraisier, photo brute studio' },
-          { src: `${LBE}/workflow/fraisier/workflow-fraisier-02-retouche.webp`, alt: 'Le Fraisier, retouche photo' },
-          { src: `${LBE}/workflow/fraisier/workflow-fraisier-03-composition.webp`, alt: 'Le Fraisier, intégration créative finale', final: true }
-        ]
-      },
-      {
-        name: 'L’Éclair chocolat',
-        steps: [
-          { src: `${LBE}/workflow/eclair-chocolat/workflow-eclair-01-brut.webp`, alt: 'L’Éclair chocolat, photo brute studio' },
-          { src: `${LBE}/workflow/eclair-chocolat/workflow-eclair-02-retouche.webp`, alt: 'L’Éclair chocolat, retouche photo' },
-          { src: `${LBE}/workflow/eclair-chocolat/workflow-eclair-03-composition.webp`, alt: 'L’Éclair chocolat, intégration créative finale', final: true }
-        ]
-      }
+    detail: 'Le produit réel reste au centre. La retouche affine la matière et la lumière, puis le décor installe un univers sans dénaturer la pâtisserie.'
+  },
+  featured: [
+    { src: `${LBE}/featured/rocher-chocolat.webp`, alt: 'Création Les Belles Envies pour Le Rocher Chocolat' },
+    { src: `${LBE}/featured/fraisier.webp`, alt: 'Création Les Belles Envies pour Le Fraisier' },
+    { src: `${LBE}/featured/rocher-individuel.webp`, alt: 'Création Les Belles Envies pour Le Rocher Chocolat individuel' }
+  ],
+  workflows: [
+    {
+      eyebrow: 'Workflow photo 01',
+      title: 'Le Rocher Chocolat',
+      text: 'Une base produit fidèle, une retouche précise, puis une intégration graphique qui valorise les volumes et la gourmandise.',
+      steps: [
+        { label: '01. Photo brute', src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-01-brut.webp`, alt: 'Le Rocher Chocolat, photographie brute en studio' },
+        { label: '02. Retouche photo', src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-02-retouche.webp`, alt: 'Le Rocher Chocolat après retouche photo' },
+        { label: '03. Intégration créative', src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-03-composition.webp`, alt: 'Le Rocher Chocolat intégré à son décor final' }
+      ]
+    },
+    {
+      eyebrow: 'Workflow photo 02',
+      title: 'Le Fraisier',
+      text: 'La couleur, les détails et la brillance sont travaillés avec retenue avant de construire un décor cohérent avec l’identité de la marque.',
+      steps: [
+        { label: '01. Photo brute', src: `${LBE}/workflow/fraisier/workflow-fraisier-01-brut.webp`, alt: 'Le Fraisier, photographie brute en studio' },
+        { label: '02. Retouche photo', src: `${LBE}/workflow/fraisier/workflow-fraisier-02-retouche.webp`, alt: 'Le Fraisier après retouche photo' },
+        { label: '03. Intégration créative', src: `${LBE}/workflow/fraisier/workflow-fraisier-03-composition.webp`, alt: 'Le Fraisier intégré à son décor final' }
+      ]
+    }
+  ],
+  viennoiseries: {
+    eyebrow: 'Déclinaisons de gamme',
+    title: 'Une direction visuelle jusque dans les détails',
+    text: 'Chaque famille de produits adopte sa propre ambiance tout en conservant un langage de marque immédiatement reconnaissable.',
+    posts: [
+      { src: `${LBE}/gallery/gallery-croissant-composition.webp`, alt: 'Création Les Belles Envies pour le Croissant au beurre' },
+      { src: `${LBE}/workflow/eclair-chocolat/workflow-eclair-03-composition.webp`, alt: 'Création Les Belles Envies pour l’Éclair chocolat' },
+      { src: `${LBE}/gallery/gallery-brioche-composition.webp`, alt: 'Création Les Belles Envies pour la Brioche chocolat' }
     ]
   },
-  gallery: [
-    { src: `${LBE}/gallery/gallery-brioche-composition.webp`, alt: 'Brioche chocolat, composition Les Belles Envies' },
-    { src: `${LBE}/workflow/fraisier/workflow-fraisier-02-retouche.webp`, alt: 'Le Fraisier, photographie retouchée en studio' },
-    { src: `${LBE}/gallery/gallery-tartelette-passion.webp`, alt: 'Tartelette Passion, composition Les Belles Envies' },
-    { src: `${LBE}/gallery/gallery-brioche-brut.webp`, alt: 'Brioche chocolat, photographie studio' },
-    { src: `${LBE}/gallery/gallery-croissant-brut.webp`, alt: 'Croissant au beurre, photographie studio' },
-    { src: `${LBE}/workflow/eclair-chocolat/workflow-eclair-02-retouche.webp`, alt: 'L’Éclair chocolat, photographie retouchée en studio' },
-    { src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-02-retouche.webp`, alt: 'Le Rocher Chocolat, photographie retouchée en studio' }
-  ],
-  instagram: {
-    title: 'Du studio<br>au feed',
-    text: 'Les visuels réalisés en studio sont déclinés en publications prêtes à diffuser, pensées pour vivre naturellement dans le feed de la marque.',
-    handle: 'lesbellesenvies_gp',
-    cards: [
-      { src: `${LBE}/workflow/fraisier/workflow-fraisier-03-composition.webp`, alt: 'Post Instagram Le Fraisier' },
-      { src: `${LBE}/workflow/eclair-chocolat/workflow-eclair-03-composition.webp`, alt: 'Post Instagram L’Éclair chocolat' },
-      { src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-03-composition.webp`, alt: 'Post Instagram Le Rocher Chocolat' }
+  information: {
+    eyebrow: 'Vie de la marque',
+    title: 'Informer sans casser l’identité',
+    text: 'Au-delà des contenus produit, Latitude Sud conçoit les communications utiles au quotidien de la marque, avec la même exigence graphique.',
+    posts: [
+      { src: `${LBE}/information/ouverture-micareme.webp`, alt: 'Post Les Belles Envies annonçant une ouverture pour la mi-carême' },
+      { src: `${LBE}/information/horaires-exceptionnels.webp`, alt: 'Post Les Belles Envies présentant des horaires exceptionnels' },
+      { src: `${LBE}/information/offre-carnaval.webp`, alt: 'Post Les Belles Envies présentant une offre spéciale carnaval' }
     ]
   },
   cta: {
@@ -3698,9 +3700,8 @@ const LBE_CASE = {
     text: 'Un accompagnement visuel global pour renforcer l’image premium et gourmande de Les Belles Envies.',
     btnText: 'Voir plus de projets',
     image: {
-      src: `${LBE}/gallery/gallery-brioche-composition.webp`,
-      alt: 'Brioche chocolat, image temporaire de la conclusion Les Belles Envies',
-      pending: true
+      src: `${LBE}/hero/hero-rocher-photo.webp`,
+      alt: 'Le Rocher Chocolat photographié pour Les Belles Envies'
     }
   },
   footer: {
@@ -3713,23 +3714,24 @@ const LBE_CASE = {
 
 function renderLesBellesEnviesCaseHTML() {
   const C = LBE_CASE;
-  const wfRow = (row) => `
-    <div class="lbe-wf-row">
-      <div class="lbe-wf-row__head">
-        <span class="lbe-wf-row__name">${row.name}</span>
-        <div class="lbe-wf-row__steps"><span>01. Photo brute</span><span>02. Retouche photo</span><span>03. Intégration créative</span></div>
+  const renderWorkflow = (workflow, index) => `
+    <section class="lbe-workflow${index % 2 ? ' lbe-workflow--alternate' : ''}" aria-labelledby="lbe-workflow-title-${index + 1}">
+      <div class="lbe-workflow__inner">
+        <header class="lbe-workflow__copy">
+          <p class="lbe-eyebrow">${workflow.eyebrow}</p>
+          <h2 id="lbe-workflow-title-${index + 1}">${workflow.title}</h2>
+          <p>${workflow.text}</p>
+        </header>
+        <div class="lbe-workflow__steps">
+          ${workflow.steps.map((step, stepIndex) => `
+            ${stepIndex ? '<span class="lbe-workflow__arrow" aria-hidden="true">→</span>' : ''}
+            <figure class="lbe-workflow__step${stepIndex === 2 ? ' lbe-workflow__step--final' : ''}">
+              <figcaption>${step.label}</figcaption>
+              <img src="${step.src}" width="1920" height="2400" alt="${step.alt}" loading="lazy" decoding="async">
+            </figure>`).join('')}
+        </div>
       </div>
-      <div class="lbe-wf-row__grid">
-        <span class="lbe-wf-row__mobile-label">01. Photo brute</span>
-        <div class="lbe-wf-row__cell"><img src="${row.steps[0].src}" alt="${row.steps[0].alt}" loading="lazy" decoding="async"></div>
-        <span class="lbe-wf-row__arrow" aria-hidden="true">→</span>
-        <span class="lbe-wf-row__mobile-label">02. Retouche photo</span>
-        <div class="lbe-wf-row__cell"><img src="${row.steps[1].src}" alt="${row.steps[1].alt}" loading="lazy" decoding="async"></div>
-        <span class="lbe-wf-row__arrow" aria-hidden="true">→</span>
-        <span class="lbe-wf-row__mobile-label">03. Intégration créative</span>
-        <div class="lbe-wf-row__cell lbe-wf-row__cell--final"><img src="${row.steps[2].src}" alt="${row.steps[2].alt}" loading="lazy" decoding="async"></div>
-      </div>
-    </div>`;
+    </section>`;
   return `
     <article class="lbe-case">
       <section class="lbe-hero">
@@ -3741,66 +3743,70 @@ function renderLesBellesEnviesCaseHTML() {
             <p class="lbe-hero__slogan">${C.hero.slogan}</p>
           </div>
           <div class="lbe-hero__visual">
-            <figure class="lbe-hero__top"><img src="${C.hero.top.src}" alt="${C.hero.top.alt}" loading="eager" decoding="async"></figure>
-            <figure class="lbe-hero__bottom"><img src="${C.hero.bottom.src}" alt="${C.hero.bottom.alt}" loading="eager" decoding="async"></figure>
-            <div class="lbe-hero__logo"><img src="${C.hero.logo}" alt="Les Belles Envies"></div>
+            <figure class="lbe-hero__top"><img src="${C.hero.top.src}" width="1920" height="2400" alt="${C.hero.top.alt}" loading="eager" decoding="async"></figure>
+            <figure class="lbe-hero__bottom"><img src="${C.hero.bottom.src}" width="1920" height="2400" alt="${C.hero.bottom.alt}" loading="eager" decoding="async"></figure>
+            <div class="lbe-hero__logo"><img src="${C.hero.logo}" width="1620" height="2140" alt="Les Belles Envies"></div>
           </div>
         </div>
       </section>
 
       <section class="lbe-workflow-intro">
-        <h2>${C.workflow.title}</h2>
-        <p>${C.workflow.text}</p>
-        <div class="lbe-workflow-sep"><span>${C.workflow.separator}</span></div>
-      </section>
-      ${C.workflow.rows.map((row, index) => `
-        <section class="lbe-workflow-example" aria-label="Workflow ${index + 1} — ${row.name}">
-          ${wfRow(row)}
-        </section>`).join('')}
-
-      <section class="lbe-gallery">
-        <h2>Galerie de réalisations</h2>
-        <div class="lbe-gallery-grid">
-          ${C.gallery.map(g => `<figure><img src="${g.src}" alt="${g.alt}" loading="lazy" decoding="async"></figure>`).join('')}
+        <div class="lbe-workflow-intro__grid">
+          <div><p class="lbe-eyebrow">Notre méthode</p><h2>${C.workflowIntro.title}</h2><p>${C.workflowIntro.text}</p></div>
+          <p class="lbe-workflow-intro__detail">${C.workflowIntro.detail}</p>
         </div>
       </section>
 
-      <section class="lbe-instagram">
-        <div class="lbe-instagram__grid">
-          <div class="lbe-instagram__copy">
-            <p class="lbe-instagram__eyebrow">Réseaux sociaux</p>
-            <h2>${C.instagram.title}</h2>
-            <p>${C.instagram.text}</p>
-          </div>
-          <div class="lbe-instagram__cards">
-            ${C.instagram.cards.map(card => `
-              <article class="lbe-ig-card">
-                <div class="lbe-ig-card__head">${C.instagram.handle}</div>
-                <div class="lbe-ig-card__media"><img src="${card.src}" alt="${card.alt}" loading="lazy" decoding="async"></div>
-                <div class="lbe-ig-card__foot"><span aria-hidden="true">♡</span><span aria-hidden="true">◇</span></div>
-              </article>`).join('')}
+      <section class="lbe-featured" aria-label="Trois réalisations Les Belles Envies">
+        <div class="lbe-featured__grid">
+          ${C.featured.map(item => `<figure><img src="${item.src}" width="1920" height="2400" alt="${item.alt}" loading="lazy" decoding="async"></figure>`).join('')}
+        </div>
+      </section>
+
+      ${C.workflows.map(renderWorkflow).join('')}
+
+      <section class="lbe-viennoiseries" aria-labelledby="lbe-viennoiseries-title">
+        <header class="lbe-section-heading">
+          <p class="lbe-eyebrow">${C.viennoiseries.eyebrow}</p>
+          <h2 id="lbe-viennoiseries-title">${C.viennoiseries.title}</h2>
+          <p>${C.viennoiseries.text}</p>
+        </header>
+        <div class="lbe-post-grid">
+          ${C.viennoiseries.posts.map(post => `<figure><img src="${post.src}" width="1920" height="2400" alt="${post.alt}" loading="lazy" decoding="async"></figure>`).join('')}
+        </div>
+      </section>
+
+      <section class="lbe-info-posts" aria-labelledby="lbe-info-title">
+        <div class="lbe-info-posts__inner">
+          <header class="lbe-info-posts__copy">
+            <p class="lbe-eyebrow">${C.information.eyebrow}</p>
+            <h2 id="lbe-info-title">${C.information.title}</h2>
+            <p>${C.information.text}</p>
+          </header>
+          <div class="lbe-info-posts__grid">
+            ${C.information.posts.map(post => `<figure><img src="${post.src}" alt="${post.alt}" loading="lazy" decoding="async"></figure>`).join('')}
           </div>
         </div>
       </section>
 
-      <section class="lbe-cta">
-        <div class="lbe-cta-block">
-          <div class="lbe-cta-block__copy">
+      <section class="lbe-final-cta">
+        <div class="lbe-final-cta__inner">
+          <div class="lbe-final-cta__copy">
             <h2>${C.cta.title}</h2>
             <p>${C.cta.text}</p>
-            <a class="lbe-cta-block__btn" href="/pages/realisations.html">${C.cta.btnText} <span aria-hidden="true">→</span></a>
+            <a class="lbe-final-cta__button" href="/pages/realisations.html">${C.cta.btnText} <span aria-hidden="true">→</span></a>
           </div>
-          <figure class="lbe-cta-block__visual${C.cta.image.pending ? ' lbe-cta-block__visual--pending' : ''}"${C.cta.image.pending ? ' data-codex-image-slot="lbe-editorial-final"' : ''}><img src="${C.cta.image.src}" alt="${C.cta.image.alt}" loading="lazy" decoding="async"></figure>
+          <figure class="lbe-final-cta__visual"><img src="${C.cta.image.src}" width="1920" height="2400" alt="${C.cta.image.alt}" loading="lazy" decoding="async"></figure>
         </div>
       </section>
 
-      <footer class="lbe-footer ls-case-contact-footer">
-        <div class="lbe-footer__inner">
-          <div class="lbe-footer__logo"><img src="${C.footer.logo}" alt="Les Belles Envies" loading="lazy"></div>
-          <div class="lbe-footer__mid">${C.footer.mid}</div>
-          <div class="lbe-footer__right">
+      <footer class="lbe-project-footer ls-case-contact-footer">
+        <div class="lbe-project-footer__inner">
+          <div class="lbe-project-footer__logo"><img src="${C.footer.logo}" alt="Les Belles Envies" loading="lazy" decoding="async"></div>
+          <div class="lbe-project-footer__mid">${C.footer.mid}</div>
+          <div class="lbe-project-footer__right">
             <strong>${C.footer.ctaText}</strong>
-            <a class="lbe-footer__btn" href="/pages/contact.html">${C.footer.ctaBtn} <span aria-hidden="true">→</span></a>
+            <a class="lbe-project-footer__button" href="/pages/contact.html">${C.footer.ctaBtn} <span aria-hidden="true">→</span></a>
           </div>
         </div>
       </footer>
@@ -4032,4 +4038,13 @@ function initComponents(activePage, opts) {
   initScrollToTop();
   if (withStickyBar) initStickyBar();
   initPageTransition();
+}
+
+/* --- Mode relecture : chargé uniquement si ?relecture est présent dans l'URL.
+   Le site public ne télécharge jamais ce fichier. Voir docs/RELECTURE.md. --- */
+if (typeof location !== 'undefined' && new URLSearchParams(location.search).has('relecture')) {
+  const s = document.createElement('script');
+  s.src = '/js/relecture.js?v=1';
+  s.defer = true;
+  document.head.appendChild(s);
 }

@@ -18,7 +18,7 @@ Audit réalisé le 11 août 2026, avant toute restructuration d’assets.
 | --- | --- | --- |
 | Photos | `/pages/photos.html` | So Class, HFWI, Les Belles Envies, Cap Créole |
 | Charte graphique | `/pages/charte-graphique.html` | CIST, Les Bonnes Épices, Marina Bas-du-Fort, SMGEAG, Le Pressing |
-| Réseaux sociaux | `/pages/social.html` | Auto Discount, Digilife, Digilife Influence, Cap Créole, Lifeone |
+| Réseaux sociaux | `/pages/social.html` | Auto Discount, Digilife, Digilife Influence, Cap Créole, Les Belles Envies, LifeOn |
 | Catalogue | `/pages/catalogue.html` | Digilife, Decathlon, Mr.Bricolage, Gamm vert, La Foir’Fouille, Carrefour |
 
 ## État mesuré avant nettoyage
@@ -51,7 +51,8 @@ Le graphe exhaustif `asset → fichiers consommateurs` est conservé dans [asset
 | Auto Discount | 21 | hero, méthode, Instagram, reels En Drive |
 | Cap Créole — Social | 29 | hero, carrousels, avant/après, Instagram, Google Ads |
 | Digilife — Social | 12 | miniatures, campagne Influence et making-of |
-| Capaceo / Bel Air Sup / Lifeone | 5 | cartes et contenus simples |
+| Capaceo / Bel Air Sup | 4 | cartes et contenus simples |
+| LifeOn | 19 | étude de cas social media complète : boutique, posts, banner et workflows |
 | Carrefour | 20 | couvertures, pages catalogue et communication magasin |
 | Decathlon | 32 | hero, méthode, couvertures et doubles-pages |
 | Digilife — Catalogue | 23 | hero, personas, méthode, doubles-pages et posts |
@@ -97,4 +98,3 @@ Les sous-dossiers ne seront créés que lorsqu’une section réelle existe. Les
 - `node scripts/check-local-assets.mjs` vérifie les références locales et les fichiers absents.
 - `node --check js/components.js` valide le JavaScript actif.
 - Le site est servi sans build via `python3 -m http.server 4253`.
-

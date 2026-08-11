@@ -31,7 +31,7 @@
 - `auto-discount` : hero, méthode, posts Instagram et série En Drive.
 - `cap-creole` : hero, carrousels, Google Ads, avant/après et Instagram.
 - `digilife` : social media et campagne d’influence Digilife × Michelle MNTK.
-- `lifeone` : logo de la carte en attente des contenus du projet.
+- `lifeon` : logo officiel, photo boutique, posts 4:5, banner wide et deux workflows complets.
 
 ## Projets Catalogue
 
