@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/assets/global/branding/favicons/favicon.ico" sizes="any">
   <title>Réseaux sociaux — Latitude Sud</title>
   <meta name="description" content="Découvrez les projets réseaux sociaux de Latitude Sud : contenus, posts, reels et directions éditoriales.">
   <link rel="icon" type="image/svg+xml" href="/assets/global/branding/logo-sud.svg">
-  <link rel="stylesheet" href="/css/globals.css?v=139">
+  <link rel="stylesheet" href="/css/globals.css?v=154">
   <link rel="stylesheet" href="/css/portfolio-pages.css?v=111">
   <link rel="stylesheet" href="/css/hero-wave.css?v=2">
 </head>
@@ -32,9 +33,13 @@
         <div class="project-visual"><span class="project-badge">Social media</span><img src="/assets/projects/social/auto-discount/thumbnail-auto-discount-logo.webp" alt="Auto Discount" loading="lazy"></div>
         <div class="project-body"><h3>Auto Discount</h3><p>Offres, conseils & contenus rythmés</p><span class="project-action">Voir les contenus</span></div>
       </article>
-      <article class="project-card social-project" data-project data-project-layout="custom" data-project-custom-template="tpl-digilife-catalogue" data-project-title="Digilife">
+      <article class="project-card social-project" data-project data-project-layout="custom" data-project-custom-template="tpl-digilife-catalogue" data-project-title="Digilife" data-project-cta-title="Boostons votre marque, ensemble." data-project-cta-copy="Direction artistique, production et contenus social media pensés pour faire rayonner votre marque.">
         <div class="project-visual project-visual--social-brand project-visual--digilife"><span class="project-badge">Social media</span><img src="/assets/global/branding/logos/Logo-Clients-white-digilife.svg" alt="Digilife" loading="lazy"></div>
         <div class="project-body"><h3>Digilife</h3><p>Direction artistique & contenus social media</p><span class="project-action">Voir les contenus</span></div>
+      </article>
+      <article class="project-card social-project" data-project data-project-layout="custom" data-project-custom-template="tpl-cat-lbe" data-project-title="Les Belles Envies — Réseaux sociaux">
+        <div class="project-visual project-visual--lbe-social"><span class="project-badge">Social media</span><img src="/assets/projects/photos/les-belles-envies/hero/hero-fraisier-composition.webp" alt="Publication Les Belles Envies autour du Fraisier" loading="lazy"></div>
+        <div class="project-body"><h3>Les Belles Envies</h3><p>Du studio au feed · contenus gourmands</p><span class="project-action">Voir les contenus</span></div>
       </article>
       <article class="project-card social-project" data-project data-project-layout="custom" data-project-custom-template="tpl-digilife-influence" data-project-title="Digilife — Réseaux sociaux (Influence)" data-project-cta-title="Prêt à lancer votre campagne d’influence ?" data-project-cta-copy="Direction artistique &amp; production visuelle pour les marques ambitieuses.">
         <div class="project-visual project-visual--social-brand project-visual--digilife project-visual--digilife-influence">
@@ -50,45 +55,129 @@
         </div>
         <div class="project-body"><h3>Cap Créole</h3><p>Destination, expériences & inspiration</p><span class="project-action">Voir les contenus</span></div>
       </article>
-      <article class="project-card project-card--source-missing" aria-label="Lifeone — sources à fournir">
+      <article class="project-card project-card--source-missing" aria-label="LifeOn — sources à fournir">
         <div class="project-visual project-visual--social-brand project-visual--lifeone"><span class="project-badge">Sources à fournir</span><img src="/assets/projects/social/lifeone/logo-lifeon-official.png" alt="Life On" loading="lazy"></div>
-        <div class="project-body"><h3>Lifeone</h3><p>La structure de présentation est prête ; les visuels du client ne sont pas encore fournis.</p><span class="project-action project-action--pending">En attente des contenus</span></div>
+        <div class="project-body"><h3>LifeOn</h3><p>La structure de présentation est prête ; les visuels du client ne sont pas encore fournis.</p><span class="project-action project-action--pending">En attente des contenus</span></div>
       </article>
     </div>
   </section>
 
+  <template id="tpl-cat-lbe"><!-- rempli à l'exécution par renderLesBellesEnviesCaseHTML(), voir js/components.js --></template>
+
   <template id="tpl-digilife-catalogue">
-    <div class="dgl-page">
-      <section class="dgl-hero">
-        <p class="dgl-kicker">Projet</p>
-        <h2 class="dgl-title">DigiLife</h2>
-        <p class="dgl-sub">Réseaux sociaux · Direction artistique</p>
-        <div class="dgl-hero-grid">
-          <p class="dgl-hero-text">Une direction artistique conçue pour installer un langage social immédiatement reconnaissable : cadrages francs, contrastes assumés et compositions adaptées au rythme du feed.</p>
+    <div class="digilife-social-case">
+      <section class="digilife-social-hero">
+        <div class="digilife-social-hero__copy">
+          <p class="digilife-social-eyebrow">Réseaux sociaux</p>
+          <h1>Digilife —<br>Réseaux sociaux</h1>
+          <p>Latitude Sud accompagne Digilife dans la direction artistique et la production de contenus pour ses réseaux sociaux : campagnes, compositions produit et déclinaisons cohérentes avec l’univers Apple.</p>
+          <a class="digilife-social-button digilife-social-button--dark" href="https://www.instagram.com/digilife.fr/" target="_blank" rel="noopener">Voir le feed Instagram <span aria-hidden="true">↗</span></a>
         </div>
-        <button type="button" class="dgl-cta" data-modal-goto="Digilife — Réseaux sociaux (Influence)">Voir la campagne Influence <span>→</span></button>
+        <figure class="digilife-social-hero__visual">
+          <img src="/assets/projects/social/digilife/hero/posts-composition.png" width="1870" height="841" alt="Composition de publications Digilife consacrées à la Fête des Mères, au paiement en dix fois et à l’iPad">
+        </figure>
       </section>
 
-      <hr class="dgl-sep">
-
-      <section class="dgl-section">
-        <p class="dgl-eyebrow">Publications Instagram</p>
-        <h3>Une grille produit cohérente</h3>
-        <p class="dgl-section-lead">Six prises de parole, organisées en trois séries de deux visuels, pour installer une présence régulière sans casser l’unité de la marque.</p>
-        <div class="dgl-posts">
-          <figure><img src="/assets/projects/social/digilife/post-01.webp" alt="Digilife — publication Instagram" loading="lazy"></figure>
-          <figure><img src="/assets/projects/social/digilife/post-02.webp" alt="Digilife — publication Instagram" loading="lazy"></figure>
-          <figure><img src="/assets/projects/social/digilife/post-03.webp" alt="Digilife — publication Instagram" loading="lazy"></figure>
-          <figure><img src="/assets/projects/social/digilife/post-04.webp" alt="Digilife — publication Instagram" loading="lazy"></figure>
-          <figure><img src="/assets/projects/social/digilife/post-05.webp" alt="Digilife — publication Instagram" loading="lazy"></figure>
-          <figure><img src="/assets/projects/social/digilife/post-06.webp" alt="Digilife — publication Instagram" loading="lazy"></figure>
-        </div>
-        <div class="dgl-more" aria-hidden="true">
-          <div class="dgl-more-suggestions"><i></i><i></i></div>
-          <span>•••</span>
+      <section class="digilife-campaign digilife-campaign--neo">
+        <header class="digilife-section-intro">
+          <p class="digilife-social-eyebrow">Campagne produit</p>
+          <h2>Hello, Neo.</h2>
+          <p>Une campagne peut installer sa propre direction visuelle tout en restant immédiatement identifiable dans le feed Digilife.</p>
+        </header>
+        <div class="digilife-campaign__grid digilife-campaign__grid--two-portrait">
+          <figure><img src="/assets/projects/social/digilife/campaigns/neo/hello-neo-pink.png?v=3" width="1080" height="1350" alt="Post Digilife Hello Neo sur fond rose" loading="lazy"></figure>
+          <figure><img src="/assets/projects/social/digilife/campaigns/neo/hello-neo-yellow.png?v=2" width="1080" height="1350" alt="Post Digilife Hello Neo sur fond jaune" loading="lazy"></figure>
         </div>
       </section>
 
+      <section class="digilife-campaign digilife-campaign--valentine">
+        <header class="digilife-section-intro">
+          <p class="digilife-social-eyebrow">Temps fort saisonnier</p>
+          <h2>Saint‑Valentin.</h2>
+          <p>Un territoire chaleureux et décalé, décliné autour de trois produits sans rompre la cohérence de la campagne.</p>
+        </header>
+        <div class="digilife-campaign__grid digilife-campaign__grid--three-portrait">
+          <figure><img src="/assets/projects/social/digilife/campaigns/valentine/ipad-chat.png" width="1080" height="1350" alt="Post Saint-Valentin Digilife pour l’iPad avec un chat" loading="lazy"></figure>
+          <figure><img src="/assets/projects/social/digilife/campaigns/valentine/iphone-16-chevre.png" width="1080" height="1350" alt="Post Saint-Valentin Digilife pour l’iPhone 16 avec une chèvre" loading="lazy"></figure>
+          <figure><img src="/assets/projects/social/digilife/campaigns/valentine/macbook-air-poule.png" width="1080" height="1350" alt="Post Saint-Valentin Digilife pour le MacBook Air avec une poule" loading="lazy"></figure>
+        </div>
+      </section>
+
+      <section class="digilife-campaign digilife-campaign--tradein">
+        <header class="digilife-section-intro">
+          <p class="digilife-social-eyebrow">Communication commerciale</p>
+          <h2>Reprise de votre mobile.</h2>
+          <p>Une mécanique graphique claire, déclinée sur toute la gamme et pensée pour conserver prix, bénéfices et footer parfaitement lisibles.</p>
+        </header>
+        <div class="digilife-campaign__grid digilife-campaign__grid--squares">
+          <figure><img src="/assets/projects/social/digilife/campaigns/tradein/iphone-13.png" width="2160" height="2160" alt="Post carré Digilife Reprise mobile — iPhone 13" loading="lazy"></figure>
+          <figure><img src="/assets/projects/social/digilife/campaigns/tradein/iphone-15-blue.png" width="2160" height="2160" alt="Post carré Digilife Reprise mobile — iPhone 15 bleu" loading="lazy"></figure>
+          <figure><img src="/assets/projects/social/digilife/campaigns/tradein/iphone-15-pink.png" width="2160" height="2160" alt="Post carré Digilife Reprise mobile — iPhone 15 rose" loading="lazy"></figure>
+          <figure><img src="/assets/projects/social/digilife/campaigns/tradein/iphone-16.png" width="2160" height="2160" alt="Post carré Digilife Reprise mobile — iPhone 16" loading="lazy"></figure>
+          <figure><img src="/assets/projects/social/digilife/campaigns/tradein/iphone-16e.png" width="2160" height="2160" alt="Post carré Digilife Reprise mobile — iPhone 16e" loading="lazy"></figure>
+          <figure><img src="/assets/projects/social/digilife/campaigns/tradein/iphone-16-pro.png" width="2160" height="2160" alt="Post carré Digilife Reprise mobile — iPhone 16 Pro" loading="lazy"></figure>
+        </div>
+      </section>
+
+      <section class="digilife-wide-campaign">
+        <header class="digilife-section-intro">
+          <p class="digilife-social-eyebrow">Déclinaisons multi-formats</p>
+          <h2>Voir plus large.</h2>
+          <p>Les mêmes exigences de clarté et de hiérarchie s’étendent aux formats horizontaux, sans recadrer ni comprimer les créations.</p>
+        </header>
+        <div class="digilife-wide-campaign__gallery">
+          <figure><img src="/assets/projects/social/digilife/campaigns/wide/iphone-17.jpg" width="1910" height="1000" alt="Création Digilife wide pour l’iPhone 17" loading="lazy"></figure>
+          <figure><img src="/assets/projects/social/digilife/campaigns/wide/iphone-air.jpg" width="1910" height="1000" alt="Création Digilife wide pour l’iPhone Air" loading="lazy"></figure>
+        </div>
+      </section>
+
+      <section class="digilife-campaign digilife-campaign--premium">
+        <header class="digilife-section-intro">
+          <p class="digilife-social-eyebrow">Produits premium</p>
+          <h2>Deux produits.<br>Deux directions créatives.</h2>
+          <p>Du noir intense de l’iPhone 17 Pro à la lumière des AirPods Pro 3, le territoire s’adapte au produit tout en gardant la signature Digilife.</p>
+        </header>
+        <div class="digilife-premium-grid">
+          <figure><img src="/assets/projects/social/digilife/campaigns/premium/iphone-17-pro.png" width="1080" height="1080" alt="Post carré premium Digilife pour l’iPhone 17 Pro" loading="lazy"></figure>
+          <figure><img src="/assets/projects/social/digilife/campaigns/premium/airpods-pro-3.jpg" width="1080" height="1080" alt="Post carré premium Digilife pour les AirPods Pro 3" loading="lazy"></figure>
+        </div>
+      </section>
+
+      <section class="digilife-influence-link">
+        <div class="digilife-influence-link__copy">
+          <p class="digilife-social-eyebrow">Influence</p>
+          <h2>Des collaborations qui amplifient l’impact.</h2>
+          <p>Découvrez notre campagne d’influence Digilife avec Michelle MNTK.</p>
+          <button type="button" class="digilife-social-button" data-modal-goto="Digilife — Réseaux sociaux (Influence)">Voir la campagne d’influence <span aria-hidden="true">→</span></button>
+        </div>
+        <figure class="digilife-influence-link__visual">
+          <img src="/assets/projects/social/digilife/influence/michelle-influence-banner.webp" width="2172" height="724" alt="Michelle MNTK présentant l’iPhone Air pour Digilife" loading="lazy">
+        </figure>
+      </section>
+
+      <section class="digilife-social-stats" aria-labelledby="digilife-stats-title">
+        <div class="digilife-social-stats__intro">
+          <p class="digilife-social-eyebrow">Résultats</p>
+          <h2 id="digilife-stats-title">Des contenus qui performent.</h2>
+          <p>Une présence sociale forte et des résultats qui parlent d’eux-mêmes.</p>
+        </div>
+        <dl class="digilife-social-stats__grid">
+          <div><dt>850K+</dt><dd>Vues cumulées</dd></div>
+          <div><dt>24K+</dt><dd>Interactions</dd></div>
+          <div><dt>7,8&nbsp;%</dt><dd>Taux d’engagement</dd></div>
+          <div><dt>+35K</dt><dd>Abonnés gagnés</dd></div>
+        </dl>
+      </section>
+
+      <footer class="digilife-project-cta ls-case-contact-footer">
+        <div class="digilife-project-cta__title"><strong>Boostons votre marque, ensemble.</strong></div>
+        <p>Direction artistique, production et contenus social media pensés pour faire rayonner votre marque.</p>
+        <a class="digilife-social-button" href="/pages/contact.html">Nous contacter <span aria-hidden="true">→</span></a>
+        <div class="digilife-project-cta__brand">
+          <img src="/assets/global/branding/logos/Logo-Clients-black-digilife.svg" width="300" height="80" alt="Digilife">
+          <span>Apple Premium Reseller</span>
+        </div>
+      </footer>
     </div>
   </template>
 
@@ -135,21 +224,27 @@
             <p>Un contenu naturel, premium et aligné avec l’univers Digilife pour générer désir, engagement et conversion.</p>
           </div>
         </div>
-        <div class="dgi-concept__collage">
-          <figure class="dgi-concept__main">
-            <img src="/assets/projects/social/digilife/influence/michelle-campaign-cover.jpg" width="1194" height="2116" alt="Michelle MNTK assise dans un fauteuil blanc avec l’iPhone Air" loading="lazy">
-          </figure>
-          <div class="dgi-concept__secondary">
-            <figure>
-              <img src="/assets/projects/social/digilife/influence/michelle-teaser-cover.jpg" width="640" height="1136" alt="Michelle MNTK pendant le tournage en studio" loading="lazy">
+        <div class="dgi-concept__media">
+          <div class="dgi-concept__collage" aria-label="Sélection de photos de la campagne">
+            <figure class="dgi-concept__main">
+              <img src="/assets/projects/social/digilife/influence/behind-scenes/tar-1232-b.webp" width="1688" height="3000" alt="Portrait de campagne de Michelle MNTK avec l’iPhone Air" loading="lazy">
             </figure>
-            <figure>
-              <img src="/assets/projects/social/digilife/michelmtk-hero.webp" width="900" height="1596" alt="Michelle MNTK présentant la boîte blanche de l’iPhone Air" loading="lazy">
-            </figure>
-            <figure class="dgi-concept__wide">
-              <img src="/assets/projects/social/digilife/influence/michelle-making-of-cover.jpg" width="1920" height="1080" alt="Préparation, tournage et maquillage de la campagne Digilife" loading="lazy">
-            </figure>
+            <div class="dgi-concept__secondary">
+              <figure><img src="/assets/projects/social/digilife/influence/behind-scenes/tar-1371.webp" width="1687" height="3000" alt="Photo de campagne Digilife avec Michelle MNTK, sélection 2" loading="lazy"></figure>
+              <figure><img src="/assets/projects/social/digilife/influence/behind-scenes/tar-1411.webp" width="1687" height="3000" alt="Photo de campagne Digilife avec Michelle MNTK, sélection 3" loading="lazy"></figure>
+            </div>
           </div>
+          <details class="dgi-concept__all">
+            <summary>Voir toute la galerie photo <span aria-hidden="true">＋</span></summary>
+            <div class="dgi-concept__all-grid">
+              <figure><img src="/assets/projects/social/digilife/influence/behind-scenes/tar-1501.webp" width="1688" height="3000" alt="Photo de campagne Digilife avec Michelle MNTK, vue 4" loading="lazy"></figure>
+              <figure><img src="/assets/projects/social/digilife/influence/behind-scenes/tar-1502.webp" width="1688" height="3000" alt="Photo de campagne Digilife avec Michelle MNTK, vue 5" loading="lazy"></figure>
+              <figure><img src="/assets/projects/social/digilife/influence/behind-scenes/tar-1661.webp" width="1687" height="3000" alt="Photo de campagne Digilife avec Michelle MNTK, vue 6" loading="lazy"></figure>
+              <figure><img src="/assets/projects/social/digilife/influence/behind-scenes/tar-1667.webp" width="1687" height="3000" alt="Photo de campagne Digilife avec Michelle MNTK, vue 7" loading="lazy"></figure>
+              <figure><img src="/assets/projects/social/digilife/influence/behind-scenes/tar-2086.webp" width="1688" height="3000" alt="Photo de campagne Digilife avec Michelle MNTK, vue 8" loading="lazy"></figure>
+              <figure><img src="/assets/projects/social/digilife/influence/behind-scenes/tar-2119.webp" width="1687" height="3000" alt="Photo de campagne Digilife avec Michelle MNTK, vue 9" loading="lazy"></figure>
+            </div>
+          </details>
         </div>
       </section>
 
@@ -233,16 +328,10 @@
           <h2>Un shooting pro,<br>une direction<br>artistique maîtrisée</h2>
           <p>De la direction artistique à la production, chaque détail a été pensé pour sublimer Michelle MNTK et l’iPhone Air.</p>
         </div>
-        <div class="dgi-behind__gallery" aria-label="Galerie des coulisses de la campagne">
-          <figure><img src="/assets/projects/social/digilife/influence/behind-scenes/tar-1232-b.webp" width="1688" height="3000" alt="Coulisses du shooting Digilife avec Michelle MNTK, prise 1" loading="lazy"></figure>
-          <figure><img src="/assets/projects/social/digilife/influence/behind-scenes/tar-1371.webp" width="1687" height="3000" alt="Coulisses du shooting Digilife avec Michelle MNTK, prise 2" loading="lazy"></figure>
-          <figure><img src="/assets/projects/social/digilife/influence/behind-scenes/tar-1411.webp" width="1687" height="3000" alt="Coulisses du shooting Digilife avec Michelle MNTK, prise 3" loading="lazy"></figure>
-          <figure><img src="/assets/projects/social/digilife/influence/behind-scenes/tar-1501.webp" width="1688" height="3000" alt="Coulisses du shooting Digilife avec Michelle MNTK, prise 4" loading="lazy"></figure>
-          <figure><img src="/assets/projects/social/digilife/influence/behind-scenes/tar-1502.webp" width="1688" height="3000" alt="Coulisses du shooting Digilife avec Michelle MNTK, prise 5" loading="lazy"></figure>
-          <figure><img src="/assets/projects/social/digilife/influence/behind-scenes/tar-1661.webp" width="1687" height="3000" alt="Coulisses du shooting Digilife avec Michelle MNTK, prise 6" loading="lazy"></figure>
-          <figure><img src="/assets/projects/social/digilife/influence/behind-scenes/tar-1667.webp" width="1687" height="3000" alt="Coulisses du shooting Digilife avec Michelle MNTK, prise 7" loading="lazy"></figure>
-          <figure><img src="/assets/projects/social/digilife/influence/behind-scenes/tar-2086.webp" width="1688" height="3000" alt="Coulisses du shooting Digilife avec Michelle MNTK, prise 8" loading="lazy"></figure>
-          <figure><img src="/assets/projects/social/digilife/influence/behind-scenes/tar-2119.webp" width="1687" height="3000" alt="Coulisses du shooting Digilife avec Michelle MNTK, prise 9" loading="lazy"></figure>
+        <div class="dgi-behind__gallery" aria-label="Aperçu des coulisses de la campagne">
+          <figure class="dgi-behind__preview-main"><img src="/assets/projects/social/digilife/influence/backstage-frames/backstage-02.jpg" width="1200" height="675" alt="Installation lumière, tournage et maquillage de la campagne Digilife" loading="lazy"></figure>
+          <figure><img src="/assets/projects/social/digilife/influence/michelle-teaser-cover.jpg" width="640" height="1136" alt="Michelle MNTK pendant le tournage de la campagne Digilife" loading="lazy"></figure>
+          <figure><img src="/assets/projects/social/digilife/influence/michelle-campaign-cover.jpg" width="1194" height="2116" alt="Visuel principal tourné avec Michelle MNTK pour Digilife" loading="lazy"></figure>
         </div>
       </section>
 
@@ -252,6 +341,7 @@
           <p class="dgi-eyebrow">Making of</p>
           <h2>Retour en coulisses</h2>
           <p>Découvrez les dessous de la production de cette campagne d’influence.</p>
+          <a class="dgi-making__link" href="https://www.instagram.com/p/DYFdqLflOs4/" target="_blank" rel="noopener">Voir le making-of sur Instagram <span aria-hidden="true">↗</span></a>
         </div>
         <div class="dgi-making__video">
           <video autoplay muted loop controls preload="metadata" playsinline poster="/assets/projects/social/digilife/influence/michelle-making-of-cover.jpg" aria-label="Making-of horizontal de la campagne Digilife x Michelle MNTK">
@@ -388,33 +478,9 @@
         <p class="adc-eyebrow">Mises en situation</p>
         <h2>Des campagnes qui prennent la route</h2>
         <div class="adc-campaigns" style="margin-top:26px">
-          <article class="adc-ig-card">
-            <header class="adc-ig-card__head">
-              <span class="adc-ig-card__avatar"><img src="/assets/projects/social/auto-discount/logo-avatar.webp" alt="" loading="lazy"></span>
-              <span class="adc-ig-card__id">autodiscount.location</span>
-              <span class="adc-ig-card__more" aria-hidden="true">•••</span>
-            </header>
-            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/post-carnaval.webp" alt="Campagne carnaval Auto Discount — Trajets festifs" loading="lazy"></figure>
-            <div class="adc-ig-card__foot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21.3l7.8-7.8a5.5 5.5 0 0 0 1-8.9Z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></div>
-          </article>
-          <article class="adc-ig-card">
-            <header class="adc-ig-card__head">
-              <span class="adc-ig-card__avatar"><img src="/assets/projects/social/auto-discount/logo-avatar.webp" alt="" loading="lazy"></span>
-              <span class="adc-ig-card__id">autodiscount.location</span>
-              <span class="adc-ig-card__more" aria-hidden="true">•••</span>
-            </header>
-            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/campagne-flotte-trois-vehicules.webp" alt="Campagne Auto Discount — Trouvez le bon véhicule" loading="lazy"></figure>
-            <div class="adc-ig-card__foot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21.3l7.8-7.8a5.5 5.5 0 0 0 1-8.9Z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></div>
-          </article>
-          <article class="adc-ig-card">
-            <header class="adc-ig-card__head">
-              <span class="adc-ig-card__avatar"><img src="/assets/projects/social/auto-discount/logo-avatar.webp" alt="" loading="lazy"></span>
-              <span class="adc-ig-card__id">autodiscount.location</span>
-              <span class="adc-ig-card__more" aria-hidden="true">•••</span>
-            </header>
-            <figure class="adc-ig-card__media"><img src="/assets/projects/social/auto-discount/campagne-fete-danger.webp" alt="Campagne carnaval Auto Discount — La fête oui, le danger non" loading="lazy"></figure>
-            <div class="adc-ig-card__foot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21.3l7.8-7.8a5.5 5.5 0 0 0 1-8.9Z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></div>
-          </article>
+          <figure class="adc-campaign-visual"><img src="/assets/projects/social/auto-discount/post-carnaval.webp" width="1080" height="1350" alt="Campagne carnaval Auto Discount — Trajets festifs" loading="lazy"></figure>
+          <figure class="adc-campaign-visual"><img src="/assets/projects/social/auto-discount/campagne-flotte-trois-vehicules.webp" width="1080" height="1350" alt="Campagne Auto Discount — Trouvez le bon véhicule" loading="lazy"></figure>
+          <figure class="adc-campaign-visual"><img src="/assets/projects/social/auto-discount/campagne-fete-danger.webp" width="1080" height="1350" alt="Campagne carnaval Auto Discount — La fête oui, le danger non" loading="lazy"></figure>
         </div>
       </section>
 
@@ -453,14 +519,14 @@
               <span>20 épisodes</span>
               <span>Guadeloupe &amp; Martinique</span>
             </div>
+            <a class="adc-playlist-link" href="https://www.youtube.com/playlist?list=PLAZhFor_ZjQ4" target="_blank" rel="noopener">Voir toute la playlist En Drive <span aria-hidden="true">→</span></a>
           </div>
           <div class="adc-youtube-stack" role="list" aria-label="Vidéos réelles de la série En Drive">
-            <article class="adc-youtube-card" role="listitem"><iframe src="https://www.youtube-nocookie.com/embed/tC7orcxFyuU?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=tC7orcxFyuU&amp;controls=1&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" title="Vidéo verticale En Drive Auto Discount 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></article>
-            <article class="adc-youtube-card adc-youtube-card--featured" role="listitem"><iframe src="https://www.youtube-nocookie.com/embed/w0glNcO20p8?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=w0glNcO20p8&amp;controls=1&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" title="Vidéo verticale En Drive Auto Discount 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></article>
-            <article class="adc-youtube-card" role="listitem"><iframe src="https://www.youtube-nocookie.com/embed/bioq-SLwnkY?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=bioq-SLwnkY&amp;controls=1&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" title="Vidéo verticale En Drive Auto Discount 3" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></article>
+            <article class="adc-youtube-card" role="listitem"><iframe data-video-src="https://www.youtube-nocookie.com/embed/tC7orcxFyuU?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=tC7orcxFyuU&amp;controls=1&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" title="Vidéo verticale En Drive Auto Discount 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></article>
+            <article class="adc-youtube-card adc-youtube-card--featured" role="listitem"><iframe data-video-src="https://www.youtube-nocookie.com/embed/w0glNcO20p8?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=w0glNcO20p8&amp;controls=1&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" title="Vidéo verticale En Drive Auto Discount 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></article>
+            <article class="adc-youtube-card" role="listitem"><iframe data-video-src="https://www.youtube-nocookie.com/embed/bioq-SLwnkY?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=bioq-SLwnkY&amp;controls=1&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" title="Vidéo verticale En Drive Auto Discount 3" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></article>
           </div>
         </div>
-        <a class="adc-playlist-link" href="https://www.youtube.com/playlist?list=PLAZhFor_ZjQ4" target="_blank" rel="noopener">Voir toute la playlist En Drive <span aria-hidden="true">→</span></a>
       </section>
 
       <!-- 11 — STATISTIQUES -->
@@ -639,14 +705,6 @@
               <div><p>Après</p><figure><img src="/assets/projects/social/cap-creole/avap2-apres-sipe.webp" alt="Après — dégustation Sipé" loading="lazy"></figure></div>
             </div>
           </div>
-          <div class="ccr-ap-card ccr-ap-card--pending">
-            <h4><span>3</span>Avant / Après — à compléter</h4>
-            <div class="ccr-ap-grid">
-              <div><p>Avant</p><figure class="ccr-ap-placeholder"><span>Visuel à venir</span></figure></div>
-              <span class="ccr-ap-arrow" aria-hidden="true">&rarr;</span>
-              <div><p>Après</p><figure class="ccr-ap-placeholder"><span>Visuel à venir</span></figure></div>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -711,7 +769,7 @@
   </section>
 </main>
 <button id="scroll-top-btn" aria-label="Retour en haut"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="18 15 12 9 6 15"/></svg></button>
-<script src="/js/components.js?v=95"></script>
+<script src="/js/components.js?v=101"></script>
 <script>initComponents('social');document.body.style.paddingTop='0';</script>
 </body>
 </html>

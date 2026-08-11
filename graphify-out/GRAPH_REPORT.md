@@ -1,16 +1,16 @@
 # Graph Report - Site LS Code  (2026-08-11)
 
 ## Corpus Check
-- 22 files · ~8,064,388 words
+- 22 files · ~8,024,555 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 346 nodes · 390 edges · 66 communities (32 shown, 34 thin omitted)
+- 358 nodes · 402 edges · 66 communities (33 shown, 33 thin omitted)
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 16 edges (avg confidence: 0.9)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5551c73f`
+- Built from commit: `828c7b0b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -98,7 +98,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (66 total, 34 thin omitted)
+## Communities (66 total, 33 thin omitted)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.06
@@ -216,16 +216,20 @@ Nodes (5): Contrôles rapides, Documentation, Lancer le site, Pages principales,
 Cohesion: 0.50
 Nodes (3): Arborescence, Organisation des assets, Règles
 
+### Community 65 - "Community 65"
+Cohesion: 0.14
+Nodes (13): 10. Definition of Done, 11. Instructions Codex, 1. Objectif, 2. Fichiers modifiés, 3. Structure de page, 4. Asset map, 5. Assets manquants, 6. Images à générer par Codex (+5 more)
+
 ## Knowledge Gaps
-- **153 isolated node(s):** `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT`, `CATALOGUE_SERVICES_DEFAULT`, `CATALOGUE_CASE_STUDIES`, `CATALOGUE_SECTION_RENDERERS` (+148 more)
+- **164 isolated node(s):** `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT`, `CATALOGUE_SERVICES_DEFAULT`, `CATALOGUE_CASE_STUDIES`, `CATALOGUE_SECTION_RENDERERS` (+159 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **34 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **33 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT`, `CATALOGUE_SERVICES_DEFAULT` to the rest of the system?**
-  _153 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _164 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.05817028027498678 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
@@ -234,3 +238,5 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
 - **Should `Community 20` be split into smaller, more focused modules?**
   _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
+- **Should `Community 65` be split into smaller, more focused modules?**
+  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._

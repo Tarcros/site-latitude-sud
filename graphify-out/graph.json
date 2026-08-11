@@ -687,7 +687,7 @@
       "label": "initMarinaProject()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L834",
+      "source_location": "L862",
       "_origin": "ast",
       "id": "js_components_initmarinaproject",
       "community": 1,
@@ -697,7 +697,7 @@
       "label": "initSoClassProject()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L942",
+      "source_location": "L970",
       "_origin": "ast",
       "id": "js_components_initsoclassproject",
       "community": 1,
@@ -707,7 +707,7 @@
       "label": "initCistProject()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L1070",
+      "source_location": "L1098",
       "_origin": "ast",
       "id": "js_components_initcistproject",
       "community": 1,
@@ -717,7 +717,7 @@
       "label": "initBonnesEpicesProject()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L1316",
+      "source_location": "L1344",
       "_origin": "ast",
       "id": "js_components_initbonnesepicesproject",
       "community": 1,
@@ -727,7 +727,7 @@
       "label": "initSmgeagProject()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L1563",
+      "source_location": "L1591",
       "_origin": "ast",
       "id": "js_components_initsmgeagproject",
       "community": 1,
@@ -737,7 +737,7 @@
       "label": "initPressingProject()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L1712",
+      "source_location": "L1740",
       "_origin": "ast",
       "id": "js_components_initpressingproject",
       "community": 1,
@@ -747,7 +747,7 @@
       "label": "initBeforeAfterModal()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L1906",
+      "source_location": "L1934",
       "_origin": "ast",
       "id": "js_components_initbeforeaftermodal",
       "community": 1,
@@ -757,7 +757,7 @@
       "label": "getPageCaseStudyContactMessage()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2043",
+      "source_location": "L2071",
       "_origin": "ast",
       "id": "js_components_getpagecasestudycontactmessage",
       "community": 1,
@@ -767,7 +767,7 @@
       "label": "getCaseStudyContactMessage()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2069",
+      "source_location": "L2097",
       "_origin": "ast",
       "id": "js_components_getcasestudycontactmessage",
       "community": 1,
@@ -777,7 +777,7 @@
       "label": "updateCaseStudyContactFooter()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2082",
+      "source_location": "L2110",
       "_origin": "ast",
       "id": "js_components_updatecasestudycontactfooter",
       "community": 1,
@@ -787,7 +787,7 @@
       "label": "applyCaseStudyContactCta()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2089",
+      "source_location": "L2117",
       "_origin": "ast",
       "id": "js_components_applycasestudycontactcta",
       "community": 1,
@@ -797,7 +797,7 @@
       "label": "initCaseStudyContactCtas()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2115",
+      "source_location": "L2143",
       "_origin": "ast",
       "id": "js_components_initcasestudycontactctas",
       "community": 1,
@@ -807,7 +807,7 @@
       "label": "initCaseScrollTopButtons()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2138",
+      "source_location": "L2166",
       "_origin": "ast",
       "id": "js_components_initcasescrolltopbuttons",
       "community": 1,
@@ -817,7 +817,7 @@
       "label": "initProductGallery()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2161",
+      "source_location": "L2189",
       "_origin": "ast",
       "id": "js_components_initproductgallery",
       "community": 1,
@@ -827,7 +827,7 @@
       "label": "initSmoothScroll()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2214",
+      "source_location": "L2242",
       "_origin": "ast",
       "id": "js_components_initsmoothscroll",
       "community": 1,
@@ -837,7 +837,7 @@
       "label": "initLazyImages()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2228",
+      "source_location": "L2256",
       "_origin": "ast",
       "id": "js_components_initlazyimages",
       "community": 1,
@@ -847,7 +847,7 @@
       "label": "initPageTransition()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2248",
+      "source_location": "L2276",
       "_origin": "ast",
       "id": "js_components_initpagetransition",
       "community": 1,
@@ -857,7 +857,7 @@
       "label": "initScrollToTop()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2287",
+      "source_location": "L2315",
       "_origin": "ast",
       "id": "js_components_initscrolltotop",
       "community": 1,
@@ -867,7 +867,7 @@
       "label": "renderStickyBar()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2306",
+      "source_location": "L2334",
       "_origin": "ast",
       "id": "js_components_renderstickybar",
       "community": 1,
@@ -877,7 +877,7 @@
       "label": "initStickyBar()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2349",
+      "source_location": "L2377",
       "_origin": "ast",
       "id": "js_components_initstickybar",
       "community": 1,
@@ -887,7 +887,7 @@
       "label": "CATALOGUE_APPROACH_DEFAULT",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2388",
+      "source_location": "L2416",
       "_origin": "ast",
       "id": "js_components_catalogue_approach_default",
       "community": 1,
@@ -897,7 +897,7 @@
       "label": "CATALOGUE_EXPERTISE_DEFAULT",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2396",
+      "source_location": "L2424",
       "_origin": "ast",
       "id": "js_components_catalogue_expertise_default",
       "community": 1,
@@ -907,7 +907,7 @@
       "label": "CATALOGUE_SERVICES_DEFAULT",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2406",
+      "source_location": "L2434",
       "_origin": "ast",
       "id": "js_components_catalogue_services_default",
       "community": 1,
@@ -917,7 +917,7 @@
       "label": "CATALOGUE_CASE_STUDIES",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2418",
+      "source_location": "L2446",
       "_origin": "ast",
       "id": "js_components_catalogue_case_studies",
       "community": 1,
@@ -927,7 +927,7 @@
       "label": "CATALOGUE_SECTION_RENDERERS",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2677",
+      "source_location": "L2705",
       "_origin": "ast",
       "id": "js_components_catalogue_section_renderers",
       "community": 1,
@@ -937,7 +937,7 @@
       "label": "renderCatalogueCaseHTML()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2768",
+      "source_location": "L2796",
       "_origin": "ast",
       "id": "js_components_rendercataloguecasehtml",
       "community": 1,
@@ -947,7 +947,7 @@
       "label": "initCatalogueCaseStudies()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2778",
+      "source_location": "L2806",
       "_origin": "ast",
       "id": "js_components_initcataloguecasestudies",
       "community": 1,
@@ -957,7 +957,7 @@
       "label": "DIGILIFE_CASE_STUDY",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2808",
+      "source_location": "L2836",
       "_origin": "ast",
       "id": "js_components_digilife_case_study",
       "community": 1,
@@ -967,7 +967,7 @@
       "label": "renderDigilifeCaseHTML()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L2916",
+      "source_location": "L2944",
       "_origin": "ast",
       "id": "js_components_renderdigilifecasehtml",
       "community": 1,
@@ -977,7 +977,7 @@
       "label": "ph()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3049",
+      "source_location": "L3077",
       "_origin": "ast",
       "id": "js_components_ph",
       "community": 1,
@@ -987,7 +987,7 @@
       "label": "DECATHLON_CASE_STUDY",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3051",
+      "source_location": "L3079",
       "_origin": "ast",
       "id": "js_components_decathlon_case_study",
       "community": 1,
@@ -997,7 +997,7 @@
       "label": "dktAsset()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3157",
+      "source_location": "L3185",
       "_origin": "ast",
       "id": "js_components_dktasset",
       "community": 1,
@@ -1007,7 +1007,7 @@
       "label": "renderDecathlonCaseHTML()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3167",
+      "source_location": "L3195",
       "_origin": "ast",
       "id": "js_components_renderdecathloncasehtml",
       "community": 1,
@@ -1017,7 +1017,7 @@
       "label": "initDecathlonCaseStudy()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3262",
+      "source_location": "L3290",
       "_origin": "ast",
       "id": "js_components_initdecathloncasestudy",
       "community": 1,
@@ -1027,7 +1027,7 @@
       "label": "MRB_CASE",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3289",
+      "source_location": "L3317",
       "_origin": "ast",
       "id": "js_components_mrb_case",
       "community": 1,
@@ -1037,7 +1037,7 @@
       "label": "mrbMedia()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3386",
+      "source_location": "L3414",
       "_origin": "ast",
       "id": "js_components_mrbmedia",
       "community": 1,
@@ -1047,7 +1047,7 @@
       "label": "MRB_AD_ICONS",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3398",
+      "source_location": "L3426",
       "_origin": "ast",
       "id": "js_components_mrb_ad_icons",
       "community": 1,
@@ -1057,7 +1057,7 @@
       "label": "mrbAdCard()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3412",
+      "source_location": "L3440",
       "_origin": "ast",
       "id": "js_components_mrbadcard",
       "community": 1,
@@ -1067,7 +1067,7 @@
       "label": "renderMrBricolageCaseHTML()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3467",
+      "source_location": "L3495",
       "_origin": "ast",
       "id": "js_components_rendermrbricolagecasehtml",
       "community": 1,
@@ -1077,7 +1077,7 @@
       "label": "initMrBricolageCaseStudy()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3592",
+      "source_location": "L3623",
       "_origin": "ast",
       "id": "js_components_initmrbricolagecasestudy",
       "community": 1,
@@ -1087,7 +1087,7 @@
       "label": "LBE_CASE",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3605",
+      "source_location": "L3636",
       "_origin": "ast",
       "id": "js_components_lbe_case",
       "community": 1,
@@ -1097,7 +1097,7 @@
       "label": "renderLesBellesEnviesCaseHTML()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3679",
+      "source_location": "L3714",
       "_origin": "ast",
       "id": "js_components_renderlesbellesenviescasehtml",
       "community": 1,
@@ -1107,7 +1107,7 @@
       "label": "initLesBellesEnviesCaseStudy()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3774",
+      "source_location": "L3810",
       "_origin": "ast",
       "id": "js_components_initlesbellesenviescasestudy",
       "community": 1,
@@ -1117,7 +1117,7 @@
       "label": "CCR_CASE",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3784",
+      "source_location": "L3820",
       "_origin": "ast",
       "id": "js_components_ccr_case",
       "community": 1,
@@ -1127,7 +1127,7 @@
       "label": "renderCapCreoleCaseHTML()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3841",
+      "source_location": "L3877",
       "_origin": "ast",
       "id": "js_components_rendercapcreolecasehtml",
       "community": 1,
@@ -1137,7 +1137,7 @@
       "label": "initCapCreoleCaseStudy()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3936",
+      "source_location": "L3972",
       "_origin": "ast",
       "id": "js_components_initcapcreolecasestudy",
       "community": 1,
@@ -1147,7 +1147,7 @@
       "label": "initDigilifeCaseStudy()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3944",
+      "source_location": "L3980",
       "_origin": "ast",
       "id": "js_components_initdigilifecasestudy",
       "community": 1,
@@ -1157,7 +1157,7 @@
       "label": "initComponents()",
       "file_type": "code",
       "source_file": "js/components.js",
-      "source_location": "L3964",
+      "source_location": "L4000",
       "_origin": "ast",
       "id": "js_components_initcomponents",
       "community": 1,
@@ -1924,6 +1924,146 @@
       "norm_label": "passe 4 \u2014 retours apres le premier commit"
     },
     {
+      "label": "HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_handoff_codex_les_belles_envies",
+      "community": 65,
+      "norm_label": "handoff_codex_les_belles_envies.md"
+    },
+    {
+      "label": "Handoff Codex \u2014 Les Belles Envies",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_handoff_codex_les_belles_envies_handoff_codex_les_belles_envies",
+      "community": 65,
+      "norm_label": "handoff codex \u2014 les belles envies"
+    },
+    {
+      "label": "1. Objectif",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_handoff_codex_les_belles_envies_1_objectif",
+      "community": 65,
+      "norm_label": "1. objectif"
+    },
+    {
+      "label": "2. Fichiers modifi\u00e9s",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "docs_handoff_codex_les_belles_envies_2_fichiers_modifi\u00e9s",
+      "community": 65,
+      "norm_label": "2. fichiers modifies"
+    },
+    {
+      "label": "3. Structure de page",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "docs_handoff_codex_les_belles_envies_3_structure_de_page",
+      "community": 65,
+      "norm_label": "3. structure de page"
+    },
+    {
+      "label": "4. Asset map",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "docs_handoff_codex_les_belles_envies_4_asset_map",
+      "community": 65,
+      "norm_label": "4. asset map"
+    },
+    {
+      "label": "5. Assets manquants",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "docs_handoff_codex_les_belles_envies_5_assets_manquants",
+      "community": 65,
+      "norm_label": "5. assets manquants"
+    },
+    {
+      "label": "6. Images \u00e0 g\u00e9n\u00e9rer par Codex",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "docs_handoff_codex_les_belles_envies_6_images_\u00e0_g\u00e9n\u00e9rer_par_codex",
+      "community": 65,
+      "norm_label": "6. images a generer par codex"
+    },
+    {
+      "label": "Conclusion \u00e9ditoriale large",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "docs_handoff_codex_les_belles_envies_conclusion_\u00e9ditoriale_large",
+      "community": 65,
+      "norm_label": "conclusion editoriale large"
+    },
+    {
+      "label": "7. Posts sociaux",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "docs_handoff_codex_les_belles_envies_7_posts_sociaux",
+      "community": 65,
+      "norm_label": "7. posts sociaux"
+    },
+    {
+      "label": "8. Responsive",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L96",
+      "_origin": "ast",
+      "id": "docs_handoff_codex_les_belles_envies_8_responsive",
+      "community": 65,
+      "norm_label": "8. responsive"
+    },
+    {
+      "label": "9. QA checklist",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L104",
+      "_origin": "ast",
+      "id": "docs_handoff_codex_les_belles_envies_9_qa_checklist",
+      "community": 65,
+      "norm_label": "9. qa checklist"
+    },
+    {
+      "label": "10. Definition of Done",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L121",
+      "_origin": "ast",
+      "id": "docs_handoff_codex_les_belles_envies_10_definition_of_done",
+      "community": 65,
+      "norm_label": "10. definition of done"
+    },
+    {
+      "label": "11. Instructions Codex",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L136",
+      "_origin": "ast",
+      "id": "docs_handoff_codex_les_belles_envies_11_instructions_codex",
+      "community": 65,
+      "norm_label": "11. instructions codex"
+    },
+    {
       "label": "PROJECT_CONTEXT.md",
       "file_type": "document",
       "source_file": "docs/PROJECT_CONTEXT.md",
@@ -2357,7 +2497,7 @@
       "label": "D\u00e9pendances entre fichiers",
       "file_type": "document",
       "source_file": "docs/site-architecture.md",
-      "source_location": "L36",
+      "source_location": "L37",
       "_origin": "ast",
       "id": "docs_site_architecture_d\u00e9pendances_entre_fichiers",
       "community": 61,
@@ -2367,31 +2507,11 @@
       "label": "Validation",
       "file_type": "document",
       "source_file": "docs/site-architecture.md",
-      "source_location": "L50",
+      "source_location": "L51",
       "_origin": "ast",
       "id": "docs_site_architecture_validation",
       "community": 61,
       "norm_label": "validation"
-    },
-    {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "to-del/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "to_del_readme",
-      "community": 65,
-      "norm_label": "readme.md"
-    },
-    {
-      "label": "Fichiers \u00e9cart\u00e9s du runtime",
-      "file_type": "document",
-      "source_file": "to-del/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "to_del_readme_fichiers_\u00e9cart\u00e9s_du_runtime",
-      "community": 65,
-      "norm_label": "fichiers ecartes du runtime"
     },
     {
       "label": "CLAUDE.md \u2014 graphify project instructions",
@@ -6241,9 +6361,9 @@
       "source_file": "scripts/check-local-assets.mjs",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_check_local_assets",
-      "target": "scripts_check_local_assets_asset_extensions",
-      "confidence_score": 1.0
+      "target": "scripts_check_local_assets_asset_extensions"
     },
     {
       "relation": "contains",
@@ -6721,9 +6841,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_site_latitude_sud",
-      "confidence_score": 1.0
+      "target": "readme_site_latitude_sud"
     },
     {
       "relation": "contains",
@@ -6731,9 +6851,9 @@
       "source_file": "README.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_site_latitude_sud",
-      "target": "readme_contr\u00f4les_rapides",
-      "confidence_score": 1.0
+      "target": "readme_contr\u00f4les_rapides"
     },
     {
       "relation": "contains",
@@ -6741,9 +6861,9 @@
       "source_file": "README.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_site_latitude_sud",
-      "target": "readme_documentation",
-      "confidence_score": 1.0
+      "target": "readme_documentation"
     },
     {
       "relation": "contains",
@@ -6751,9 +6871,9 @@
       "source_file": "README.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_site_latitude_sud",
-      "target": "readme_lancer_le_site",
-      "confidence_score": 1.0
+      "target": "readme_lancer_le_site"
     },
     {
       "relation": "contains",
@@ -6761,9 +6881,9 @@
       "source_file": "README.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_site_latitude_sud",
-      "target": "readme_pages_principales",
-      "confidence_score": 1.0
+      "target": "readme_pages_principales"
     },
     {
       "relation": "contains",
@@ -6771,9 +6891,9 @@
       "source_file": "assets/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "assets_readme",
-      "target": "assets_readme_organisation_des_assets",
-      "confidence_score": 1.0
+      "target": "assets_readme_organisation_des_assets"
     },
     {
       "relation": "contains",
@@ -6781,9 +6901,9 @@
       "source_file": "assets/README.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "assets_readme_organisation_des_assets",
-      "target": "assets_readme_arborescence",
-      "confidence_score": 1.0
+      "target": "assets_readme_arborescence"
     },
     {
       "relation": "contains",
@@ -6791,9 +6911,9 @@
       "source_file": "assets/README.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "assets_readme_organisation_des_assets",
-      "target": "assets_readme_r\u00e8gles",
-      "confidence_score": 1.0
+      "target": "assets_readme_r\u00e8gles"
     },
     {
       "relation": "contains",
@@ -6908,6 +7028,136 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L121",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_codex_les_belles_envies",
+      "target": "docs_handoff_codex_les_belles_envies_10_definition_of_done"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L136",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_codex_les_belles_envies",
+      "target": "docs_handoff_codex_les_belles_envies_11_instructions_codex"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_codex_les_belles_envies",
+      "target": "docs_handoff_codex_les_belles_envies_1_objectif"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_codex_les_belles_envies",
+      "target": "docs_handoff_codex_les_belles_envies_2_fichiers_modifi\u00e9s"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_codex_les_belles_envies",
+      "target": "docs_handoff_codex_les_belles_envies_3_structure_de_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_codex_les_belles_envies",
+      "target": "docs_handoff_codex_les_belles_envies_4_asset_map"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_codex_les_belles_envies",
+      "target": "docs_handoff_codex_les_belles_envies_5_assets_manquants"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_codex_les_belles_envies",
+      "target": "docs_handoff_codex_les_belles_envies_6_images_\u00e0_g\u00e9n\u00e9rer_par_codex"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_codex_les_belles_envies",
+      "target": "docs_handoff_codex_les_belles_envies_7_posts_sociaux"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L96",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_codex_les_belles_envies",
+      "target": "docs_handoff_codex_les_belles_envies_8_responsive"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_codex_les_belles_envies",
+      "target": "docs_handoff_codex_les_belles_envies_9_qa_checklist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_codex_les_belles_envies",
+      "target": "docs_handoff_codex_les_belles_envies_handoff_codex_les_belles_envies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_codex_les_belles_envies_6_images_\u00e0_g\u00e9n\u00e9rer_par_codex",
+      "target": "docs_handoff_codex_les_belles_envies_conclusion_\u00e9ditoriale_large"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/PROJECT_CONTEXT.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -6961,9 +7211,9 @@
       "source_file": "docs/asset-map.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_asset_map",
-      "target": "docs_asset_map_carte_des_assets",
-      "confidence_score": 1.0
+      "target": "docs_asset_map_carte_des_assets"
     },
     {
       "relation": "contains",
@@ -6971,9 +7221,9 @@
       "source_file": "docs/asset-map.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_asset_map_carte_des_assets",
-      "target": "docs_asset_map_projets_catalogue",
-      "confidence_score": 1.0
+      "target": "docs_asset_map_projets_catalogue"
     },
     {
       "relation": "contains",
@@ -6981,9 +7231,9 @@
       "source_file": "docs/asset-map.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_asset_map_carte_des_assets",
-      "target": "docs_asset_map_projets_charte_graphique",
-      "confidence_score": 1.0
+      "target": "docs_asset_map_projets_charte_graphique"
     },
     {
       "relation": "contains",
@@ -6991,9 +7241,9 @@
       "source_file": "docs/asset-map.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_asset_map_carte_des_assets",
-      "target": "docs_asset_map_projets_photos",
-      "confidence_score": 1.0
+      "target": "docs_asset_map_projets_photos"
     },
     {
       "relation": "contains",
@@ -7001,9 +7251,9 @@
       "source_file": "docs/asset-map.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_asset_map_carte_des_assets",
-      "target": "docs_asset_map_projets_r\u00e9seaux_sociaux",
-      "confidence_score": 1.0
+      "target": "docs_asset_map_projets_r\u00e9seaux_sociaux"
     },
     {
       "relation": "contains",
@@ -7011,9 +7261,9 @@
       "source_file": "docs/asset-map.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_asset_map_carte_des_assets",
-      "target": "docs_asset_map_ressources_globales",
-      "confidence_score": 1.0
+      "target": "docs_asset_map_ressources_globales"
     },
     {
       "relation": "contains",
@@ -7021,9 +7271,9 @@
       "source_file": "docs/cleanup-results.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_cleanup_results",
-      "target": "docs_cleanup_results_r\u00e9sultats_du_nettoyage",
-      "confidence_score": 1.0
+      "target": "docs_cleanup_results_r\u00e9sultats_du_nettoyage"
     },
     {
       "relation": "contains",
@@ -7031,9 +7281,9 @@
       "source_file": "docs/cleanup-results.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_cleanup_results_r\u00e9sultats_du_nettoyage",
-      "target": "docs_cleanup_results_actions_r\u00e9alis\u00e9es",
-      "confidence_score": 1.0
+      "target": "docs_cleanup_results_actions_r\u00e9alis\u00e9es"
     },
     {
       "relation": "contains",
@@ -7041,9 +7291,9 @@
       "source_file": "docs/cleanup-results.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_cleanup_results_r\u00e9sultats_du_nettoyage",
-      "target": "docs_cleanup_results_contr\u00f4les_ex\u00e9cut\u00e9s",
-      "confidence_score": 1.0
+      "target": "docs_cleanup_results_contr\u00f4les_ex\u00e9cut\u00e9s"
     },
     {
       "relation": "contains",
@@ -7051,9 +7301,9 @@
       "source_file": "docs/cleanup-results.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_cleanup_results_r\u00e9sultats_du_nettoyage",
-      "target": "docs_cleanup_results_r\u00e9sultat_mesur\u00e9",
-      "confidence_score": 1.0
+      "target": "docs_cleanup_results_r\u00e9sultat_mesur\u00e9"
     },
     {
       "relation": "contains",
@@ -7061,9 +7311,9 @@
       "source_file": "docs/cleanup-results.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_cleanup_results_r\u00e9sultats_du_nettoyage",
-      "target": "docs_cleanup_results_\u00e9l\u00e9ments_volontairement_conserv\u00e9s",
-      "confidence_score": 1.0
+      "target": "docs_cleanup_results_\u00e9l\u00e9ments_volontairement_conserv\u00e9s"
     },
     {
       "relation": "contains",
@@ -7221,9 +7471,9 @@
       "source_file": "docs/site-architecture.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_site_architecture",
-      "target": "docs_site_architecture_architecture_du_site",
-      "confidence_score": 1.0
+      "target": "docs_site_architecture_architecture_du_site"
     },
     {
       "relation": "contains",
@@ -7231,9 +7481,9 @@
       "source_file": "docs/site-architecture.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_site_architecture_architecture_du_site",
-      "target": "docs_site_architecture_d\u00e9pendances_entre_fichiers",
-      "confidence_score": 1.0
+      "target": "docs_site_architecture_d\u00e9pendances_entre_fichiers"
     },
     {
       "relation": "contains",
@@ -7241,9 +7491,9 @@
       "source_file": "docs/site-architecture.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_site_architecture_architecture_du_site",
-      "target": "docs_site_architecture_navigation_et_cat\u00e9gories",
-      "confidence_score": 1.0
+      "target": "docs_site_architecture_navigation_et_cat\u00e9gories"
     },
     {
       "relation": "contains",
@@ -7251,9 +7501,9 @@
       "source_file": "docs/site-architecture.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_site_architecture_architecture_du_site",
-      "target": "docs_site_architecture_projets_et_modales",
-      "confidence_score": 1.0
+      "target": "docs_site_architecture_projets_et_modales"
     },
     {
       "relation": "contains",
@@ -7261,9 +7511,9 @@
       "source_file": "docs/site-architecture.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_site_architecture_architecture_du_site",
-      "target": "docs_site_architecture_runtime",
-      "confidence_score": 1.0
+      "target": "docs_site_architecture_runtime"
     },
     {
       "relation": "contains",
@@ -7271,19 +7521,9 @@
       "source_file": "docs/site-architecture.md",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_site_architecture_architecture_du_site",
-      "target": "docs_site_architecture_validation",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "to-del/README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "to_del_readme",
-      "target": "to_del_readme_fichiers_\u00e9cart\u00e9s_du_runtime",
-      "confidence_score": 1.0
+      "target": "docs_site_architecture_validation"
     },
     {
       "relation": "references",
@@ -8043,5 +8283,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "5551c73fa4ff5bce29df12728534a9dd73c4c6ca"
+  "built_at_commit": "828c7b0ba63fcb9f78116ee06db2e693433e11a1"
 }

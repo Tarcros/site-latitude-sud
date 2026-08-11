@@ -20,8 +20,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1786454279.993022,
-    "ast_hash": "5d47f4525402fd8d3727c64e9aafdf5d",
+    "mtime": 1786471923.7115626,
+    "ast_hash": "ced5da1d5babd243ef489f4467558605",
     "semantic_hash": ""
   },
   "robots.txt": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "js/components.js": {
-    "mtime": 1786454258.141155,
-    "ast_hash": "93cfd694b31acb6db4f8a014cf5c068c",
+    "mtime": 1786471651.9520848,
+    "ast_hash": "191ae6714c190951508464f83eea1192",
     "semantic_hash": ""
   },
   "scripts/check-local-assets.mjs": {
@@ -90,68 +90,68 @@
     "semantic_hash": ""
   },
   "pages/agence.html": {
-    "mtime": 1786454279.993636,
-    "ast_hash": "0be05052a7ccf2d44e6f66c8d2493375",
+    "mtime": 1786471923.7332754,
+    "ast_hash": "ba54e183e2ca8dc024efa5f0edb072d3",
     "semantic_hash": ""
   },
   "pages/catalogue.html": {
-    "mtime": 1786454279.9942572,
-    "ast_hash": "cc268021accd3e7967e502b7f56c12da",
+    "mtime": 1786471923.7398527,
+    "ast_hash": "39f2743e67c8762f5ff2932e6f659f78",
     "semantic_hash": ""
   },
   "pages/charte-graphique.html": {
-    "mtime": 1786454279.9947944,
-    "ast_hash": "533e8b00aeb969d595b4365efd742a9a",
+    "mtime": 1786471923.7265413,
+    "ast_hash": "1026f84e447e6cbf6704ec51851bbce5",
     "semantic_hash": ""
   },
   "pages/contact.html": {
-    "mtime": 1786454279.9953191,
-    "ast_hash": "dd2a968514440fd5176c1bfd3224ecca",
+    "mtime": 1786471923.7769551,
+    "ast_hash": "9dc1a52ec8d3ccc3ff1def7bce8b5298",
     "semantic_hash": ""
   },
   "pages/latitude-sud-news.html": {
-    "mtime": 1786454279.9959438,
-    "ast_hash": "f9fca0532f28e6f5cf849226b2db668d",
+    "mtime": 1786471301.159415,
+    "ast_hash": "a0cd1bf232d93c55aa06c4f6371e196a",
     "semantic_hash": ""
   },
   "pages/mentions-legales.html": {
-    "mtime": 1786454279.99728,
-    "ast_hash": "50731c32708f7dc1bb19a37c7511f4aa",
+    "mtime": 1786471923.769181,
+    "ast_hash": "1760d7c90386ec709051b84d555a0cc7",
     "semantic_hash": ""
   },
   "pages/photos.html": {
-    "mtime": 1786454279.9979239,
-    "ast_hash": "d19ecb67187d9b3439ce6eea4aa44ca1",
+    "mtime": 1786471923.7477489,
+    "ast_hash": "64570b6b5a0b514cc7f9d9ab01b8cea3",
     "semantic_hash": ""
   },
   "pages/politique-de-confidentialite.html": {
-    "mtime": 1786454279.9985845,
-    "ast_hash": "1b167785ec8b786235e9df5e1cb8b986",
+    "mtime": 1786471923.718756,
+    "ast_hash": "8caf4b8d361c9f777ded252e880992d6",
     "semantic_hash": ""
   },
   "pages/print.html": {
-    "mtime": 1786454279.9990149,
-    "ast_hash": "31395262b56fa9d59a877bffb47c6b6b",
+    "mtime": 1786471301.1528986,
+    "ast_hash": "a47e84f2461a651c52d21e7ea9f28f42",
     "semantic_hash": ""
   },
   "pages/realisations.html": {
-    "mtime": 1786454279.9994364,
-    "ast_hash": "f21dfc1cb7f8f9a391a63f9a37920897",
+    "mtime": 1786471923.7621875,
+    "ast_hash": "e8de31d18035cb281dfe5084b1c898e8",
     "semantic_hash": ""
   },
   "pages/social.html": {
-    "mtime": 1786454280.0001767,
-    "ast_hash": "71cd74c8b8b4adf66de92a23afde0cb4",
+    "mtime": 1786471923.754432,
+    "ast_hash": "3b88c773b50bac990a0e6cc0474bc115",
     "semantic_hash": ""
   },
   "pages/video.html": {
-    "mtime": 1786454280.0006318,
-    "ast_hash": "becb06cf72f826edcb573a9c5994cfff",
+    "mtime": 1786471301.172973,
+    "ast_hash": "69c5410aef461efd853f13a9046681aa",
     "semantic_hash": ""
   },
   "pages/web.html": {
-    "mtime": 1786454280.0011163,
-    "ast_hash": "471b20e28b1556bbdffd1dc9c58d34f2",
+    "mtime": 1786471301.1395292,
+    "ast_hash": "893fc648c647a514a81866a32a0b50d7",
     "semantic_hash": ""
   },
   "assets/projects/social/auto-discount/abymes-source.webp": {
@@ -477,21 +477,6 @@
   "docs/references/hero-prompts/header-prompts-v3.md": {
     "mtime": 1785772360.8289845,
     "ast_hash": "ca475914f9c4f5c1c4c836ecd616c9d8",
-    "semantic_hash": ""
-  },
-  "to-del/qa/pages/parallax-test.html": {
-    "mtime": 1786452008.734743,
-    "ast_hash": "7a54ab5ed62a85b91c51286e50e6b853",
-    "semantic_hash": ""
-  },
-  "to-del/qa/qa-responsive-frame.html": {
-    "mtime": 1786374857.3356054,
-    "ast_hash": "dcebaf747870e3f359c272edaf9fb0c5",
-    "semantic_hash": ""
-  },
-  "to-del/work-files/Attached-Element-Context-from-Integrated.txt": {
-    "mtime": 1782486419.0,
-    "ast_hash": "cb9eb60e661f9388e3bff1b633d9077d",
     "semantic_hash": ""
   },
   "assets/global/backgrounds/hero.jpg": {
@@ -2045,8 +2030,8 @@
     "semantic_hash": ""
   },
   "assets/projects/catalogue/mr-bricolage/print-digital/mockup.webp": {
-    "mtime": 1786053301.1202295,
-    "ast_hash": "b77d5db34f7c3a9031f38ef99e52dcd9",
+    "mtime": 1786470559.805053,
+    "ast_hash": "0878f2c40ba9b1a1d79de7bcc6a5bb17",
     "semantic_hash": ""
   },
   "assets/projects/catalogue/mr-bricolage/social/post-portrait.webp": {
@@ -2459,1184 +2444,9 @@
     "ast_hash": "717e5712fdc43612cb432179d6df0520",
     "semantic_hash": ""
   },
-  "to-del/unused-assets/assets/global/backgrounds/image-bg/header-bg-homme-v2-1920.jpg": {
-    "mtime": 1785190084.0,
-    "ast_hash": "a7f69b655564ce5ee29ad55ea2ef713d",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/backgrounds/image-bg/header-bg-homme-v2-960.jpg": {
-    "mtime": 1785190094.0,
-    "ast_hash": "f02a1ae72decc4b118c43d9e9d724d9c",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/backgrounds/image-bg/header-bg-homme-v3-1920.jpg": {
-    "mtime": 1785190053.0,
-    "ast_hash": "a6427254755a33378ce74b621a055059",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/backgrounds/image-bg/header-bg-homme-v3-960.jpg": {
-    "mtime": 1785190062.0,
-    "ast_hash": "d8957a7c2fc2eca112e785e8040dbf24",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/backgrounds/image-bg/img-bg-cta-wide-final.webp": {
-    "mtime": 1785268342.0,
-    "ast_hash": "c86d1dc396a07cef1d0eaa3efc9eb597",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/backgrounds/image-bg/img-bg-cta-wide-v2.webp": {
-    "mtime": 1785268117.0,
-    "ast_hash": "135787e8f1a995c32961497d1e272fa8",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/branding/logos/Affligem-brandmark.png": {
-    "mtime": 1785444276.8490698,
-    "ast_hash": "00d574af99743c571699423eef5dcfa7",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/branding/logos/Logo-Clients-white-la-foir-fouille.png": {
-    "mtime": 1786038060.781413,
-    "ast_hash": "62124d8064bb1eff1619bad215e08f74",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/branding/logos/Logov2-LS-SUD-black.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "da90247768f9311e83a90bf751af2709",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/branding/logos/Logov2-LS-latitude-black.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "223567988c83f0e6cf8920d8358ef07c",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/branding/logos/Logov2-Latitude-Sud-black.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "0b5173dfbce55c92e6c8b534c26f6b08",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/branding/logos/Logov2-Latitude-Sud-white.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "922148c79c07d0026149a26d0fde4813",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/player/icon-player-play.svg\n.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "8f77038e49dde71da99d4f8d33cbce68",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/Asset-vague-header.svg": {
-    "mtime": 1782489542.0,
-    "ast_hash": "820f6d0aeca3c3b44b27158df2094897",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-arrow-right.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "58c8b7d496383a35e417b492527639d7",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-calendar.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "8cd596d969b34475b59d5b173231de91",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-camera.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "0a1e216823145ed0719c5297d9e0b951",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-color.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "929fd11b675794b61685cc1bf4676c26",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-diagonal.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "42f00abe43648cf046f746af46589737",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-download.svg": {
-    "mtime": 1782420024.0,
-    "ast_hash": "6747170b7efb8b33f27b7393011ccdfa",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-email.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "b1dada3bb9606f72b2a404486cabb0f5",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-eye.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "913fdcd6de5e763c75fb480d902fd07f",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-file.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "b2d19e9d4f77e5de777ff91540bcd1ce",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-heart.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "babac44eb928f74d8843ebf45e486954",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-leaf.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "619172b9c2572ea433525ba0cc520089",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-location.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "72e1021076d00958c793dbfdcb9f7468",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-monitor.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "42d2f5ffdbf2c5f41648fb88ae018ad3",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-multi-arrow.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "9d16350a8e512c809cc9f740e4f3d9fb",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-pencil.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "c716b0d8723d898901e0cca4eaad3d64",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-pencil2.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "f5aa9500b0f4ee842f1dd37c6ce13144",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-phone.svg": {
-    "mtime": 1782420024.0,
-    "ast_hash": "f8b24787162d12ac92d070b10d0c7341",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-social-media.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "648f8362b65d08ae098c3242dd6d2a04",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/icon-ui-user.svg": {
-    "mtime": 1782420023.0,
-    "ast_hash": "dcdbb670c2e941b1bf527657c77349ed",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/trait-ls-4.svg": {
-    "mtime": 1782918221.0,
-    "ast_hash": "399053e7a3207162078427185e8594ed",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/trait-ls-5.svg": {
-    "mtime": 1782918221.0,
-    "ast_hash": "e6677918caac7d8aa9f33d5376508f6f",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/trait-ls-6.svg": {
-    "mtime": 1782918221.0,
-    "ast_hash": "df49be223e05e580f3c36848a16eb70f",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/icons/ui/trait-ls-7.svg": {
-    "mtime": 1782918221.0,
-    "ast_hash": "788e999110365ca087a2d4256be84d72",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/illustrations/moto/grenat-print-opt.webp": {
-    "mtime": 1785330980.0,
-    "ast_hash": "18388555b63350e29d5fab0d88d02beb",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/illustrations/moto/grenat-social-opt.webp": {
-    "mtime": 1785330980.0,
-    "ast_hash": "906ed8064ab71cc054d7b701f6bdb626",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/illustrations/moto/grenat-video-opt.webp": {
-    "mtime": 1785330981.0,
-    "ast_hash": "1ee70159b69037347366dc78fba66d67",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/global/illustrations/moto/grenat-web-opt.webp": {
-    "mtime": 1785330981.0,
-    "ast_hash": "284e5260ddda7b9b9457aa93e452eb73",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/applications/t-shirt.webp": {
-    "mtime": 1785790878.1723046,
-    "ast_hash": "a9fb9aef62b1b89e46bce98f09d86cf9",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/applications/tote-bag.webp": {
-    "mtime": 1785790875.803274,
-    "ast_hash": "ea7deb6bb71547450cb0f06b8317c9ee",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/editorial/recipe-beef-cover.webp": {
-    "mtime": 1785790896.0403407,
-    "ast_hash": "48a7314faeeddbb983c06992dfa54ff7",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/editorial/recipe-beef-ingredients.webp": {
-    "mtime": 1785790896.275887,
-    "ast_hash": "190865d2acfd061940ed90a8241db8cf",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/editorial/recipe-beef-step.webp": {
-    "mtime": 1785790896.6014748,
-    "ast_hash": "76889b831dee2cb2f412de9b128afb18",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/identity/brand-system-schema.webp": {
-    "mtime": 1785854516.4577625,
-    "ast_hash": "5be95ffbaf1043b672a6b4f3feb113f3",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/identity/logo-horizontal-white-alt.webp": {
-    "mtime": 1785790874.372537,
-    "ast_hash": "6155254dbb21138f1f0e1fca0ca4b0b0",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/identity/logo-horizontal-yellow-alt.webp": {
-    "mtime": 1785790873.4083326,
-    "ast_hash": "ff742feb89f2a8440467027986dcffe3",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/identity/logo-svg-dark.svg": {
-    "mtime": 1785864562.7856424,
-    "ast_hash": "f1de9025c6146c57b73bb6fa28d7a68b",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/identity/logo-svg-green2.svg": {
-    "mtime": 1785864562.7901018,
-    "ast_hash": "917fe479a52e23cf3e35b4363c8170fb",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/identity/logo-svg-yellow.svg": {
-    "mtime": 1785864562.7776446,
-    "ast_hash": "f319e5c93f27cb14cd4ed80fb729c519",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-cartes-visite.webp": {
-    "mtime": 1785447128.5614762,
-    "ast_hash": "a4c4c8f2aedf0a7e7e9e1cecdcb09d1e",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-facebook.webp": {
-    "mtime": 1785447126.7096415,
-    "ast_hash": "629209a8e4032ec3f288a337cd7a0dc4",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-histoire-systeme.webp": {
-    "mtime": 1785447125.6749907,
-    "ast_hash": "4321b036266d5d87c8c3e465fc721066",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-histoire.webp": {
-    "mtime": 1785447058.2847981,
-    "ast_hash": "7e80980ffafaccf74bd744a32fd9b2bf",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-information.webp": {
-    "mtime": 1785447125.2294497,
-    "ast_hash": "247632b5c506759e267a3260800f8026",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-instagram.webp": {
-    "mtime": 1785447058.6904752,
-    "ast_hash": "bf2b118f8da41129b78e2a7d5f4f4531",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-mise-en-situation.webp": {
-    "mtime": 1785447127.3099773,
-    "ast_hash": "14cc1b7a9dfe44348609ab6c604dbb87",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-recette-declinaisons.webp": {
-    "mtime": 1785447126.3741615,
-    "ast_hash": "291af6c18efcb175bdf87b14c2342285",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/presentation/bonnes-epices-recette-systeme.webp": {
-    "mtime": 1785447126.0204582,
-    "ast_hash": "40bf6ed4e5498489878f5c7b58dbc297",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/bonnes-epices/terrain/rayon-coco-portrait.webp": {
-    "mtime": 1785790900.7976213,
-    "ast_hash": "4ec57baeb45352c72c49cb0bdd912eb2",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/application-card-back.webp": {
-    "mtime": 1785272729.0,
-    "ast_hash": "181960d46d9ec9d9e377b96d54b2572f",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/application-card-front.webp": {
-    "mtime": 1785272729.0,
-    "ast_hash": "6b10de8fb972efc95d54218d1fb8b187",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/application-facebook.webp": {
-    "mtime": 1785272730.0,
-    "ast_hash": "09966731c5aef6cb2c8ac59e875f8226",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/application-letter.webp": {
-    "mtime": 1785272729.0,
-    "ast_hash": "08363031d65db2e9f716a9b71b1674c2",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/application-rollup.webp": {
-    "mtime": 1785272730.0,
-    "ast_hash": "ab7aa61542eeb3de01e363bafa2fb1cd",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/card-thumbnail.webp": {
-    "mtime": 1785273357.0,
-    "ast_hash": "a35d0c64d075a68bb81e20e27097713c",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/flyer-duerp-back.webp": {
-    "mtime": 1785521880.0821717,
-    "ast_hash": "f9f07a3d77960281bf47bd78138971f2",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/flyer-duerp-front.webp": {
-    "mtime": 1785521876.9091399,
-    "ast_hash": "63c826c8851d33c15c901731fa1f6a06",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/flyer-employe-libre-service-back.webp": {
-    "mtime": 1785521887.364325,
-    "ast_hash": "aa81a80801af7372e766203db141a37b",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/flyer-employe-libre-service-front.webp": {
-    "mtime": 1785521883.5413427,
-    "ast_hash": "2e2b3cb2301d72346c287a0881bd7aed",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/flyer-handicap-travail-back.webp": {
-    "mtime": 1785521895.766067,
-    "ast_hash": "d19032b237672a466898e1a3c14d2c56",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/flyer-handicap-travail-front.webp": {
-    "mtime": 1785521891.6823397,
-    "ast_hash": "0e6faa2b9ab462fb8c313b9724362c67",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/guidelines/cist-logo-exemples-interdits.webp": {
-    "mtime": 1785334385.0,
-    "ast_hash": "17ef18e4542b71bacfa343e116ac0556",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/guidelines/cist-logo-taille-minimale-horizontal.webp": {
-    "mtime": 1785345974.0,
-    "ast_hash": "7f5595fb30d29cca47411df96fe235b5",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/guidelines/cist-logo-taille-minimale-vertical.webp": {
-    "mtime": 1785345977.0,
-    "ast_hash": "380c37aa1bbc41f39444ba4e53a85431",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/guidelines/cist-logo-zone-protection-horizontal.webp": {
-    "mtime": 1785334384.0,
-    "ast_hash": "e8a4822a91e657686d8e483e4ecbafc0",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/guidelines/cist-logo-zone-protection-vertical.webp": {
-    "mtime": 1785334384.0,
-    "ast_hash": "69911ebf033b232997dad4ec312657f3",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/guidelines/cist-usage-interdit-couleurs.webp": {
-    "mtime": 1785345980.0,
-    "ast_hash": "9c70201251bc7f3667f583bbaf30390f",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/guidelines/cist-usage-interdit-inclinaison.webp": {
-    "mtime": 1785345985.0,
-    "ast_hash": "e1cc184aff7248c5a26b0b5f6c40286d",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/guidelines/cist-usage-interdit-proportions.webp": {
-    "mtime": 1785345982.0,
-    "ast_hash": "02f1599261e17778ee4acb7f2b5dafb6",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/photo-prevention.webp": {
-    "mtime": 1785272729.0,
-    "ast_hash": "20ec6177db6d44c83fbd4c206a042dae",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/photo-relation.webp": {
-    "mtime": 1785272729.0,
-    "ast_hash": "cdd1d9ac60ffec032c1b19db4ceef214",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/website/cist-site-accueil.webp": {
-    "mtime": 1785527830.6470206,
-    "ast_hash": "2734489bcfa4a195d934b39bf7843a37",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/website/cist-site-adherer.webp": {
-    "mtime": 1785527834.2374892,
-    "ast_hash": "75fdd12877629b51407285fb9cfc9074",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/cist/website/cist-site-brochures.webp": {
-    "mtime": 1785527838.1133723,
-    "ast_hash": "21519ec1f1b89d90f6c18f3f690d9f22",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/le-pressing/charte/page-12.webp": {
-    "mtime": 1785857599.607361,
-    "ast_hash": "9e498b0cec8a4c3a5659235862ff1e39",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/le-pressing/charte/page-13.webp": {
-    "mtime": 1785857599.731955,
-    "ast_hash": "62d7782a4b09d6b4110380e6a7ca8134",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/le-pressing/charte/page-14.webp": {
-    "mtime": 1785857599.727212,
-    "ast_hash": "ff03678e43e54333981758bee597731b",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/marina/logo-after-blue.webp": {
-    "mtime": 1785447058.8667405,
-    "ast_hash": "94bb7077c88f0bb25ce77af07f673b0a",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/sa-pressing/after.jpg": {
-    "mtime": 1785188438.0,
-    "ast_hash": "13d7a17ca959bf4d9b8acc1579a51f4b",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/sa-pressing/apron.jpg": {
-    "mtime": 1785248666.0,
-    "ast_hash": "283c531bc47be9caa4479a497160bcbc",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/sa-pressing/before.jpg": {
-    "mtime": 1785188447.0,
-    "ast_hash": "33c13160c590dfe70da23ac21fc8ae20",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/sa-pressing/brand-card-front.jpg": {
-    "mtime": 1785254314.0,
-    "ast_hash": "4fe1bd678b9b968d2d1792253420df20",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/sa-pressing/business-card.jpg": {
-    "mtime": 1785248665.0,
-    "ast_hash": "96d8df46dc8176b6fbe2c40e184bef0d",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/sa-pressing/garment-cover.jpg": {
-    "mtime": 1785254281.0,
-    "ast_hash": "ffb2d1545e48859a76ca41bc7c85b5fd",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/sa-pressing/garment-tag.jpg": {
-    "mtime": 1785254282.0,
-    "ast_hash": "8088148d4db171436ebc73bb6d43387c",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/sa-pressing/letterhead.jpg": {
-    "mtime": 1785248666.0,
-    "ast_hash": "85c8e5678a8bbacc26ef96cf89415b35",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/sa-pressing/second-store.jpg": {
-    "mtime": 1785254281.0,
-    "ast_hash": "83cffc4ad2ff27f26ee64fcddfe8089a",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/smgeag/campaign-poster.webp": {
-    "mtime": 1785329378.0,
-    "ast_hash": "7df62c5dafac00b8bcae53afffa04d64",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/smgeag/icon-hussard.webp": {
-    "mtime": 1785329373.0,
-    "ast_hash": "4243dfa0308d7c4bab88a7912f4c063f",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/smgeag/icon-primary.webp": {
-    "mtime": 1785329373.0,
-    "ast_hash": "28ae3294c57bfe5440ab3988a244132d",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/smgeag/icon-silver.webp": {
-    "mtime": 1785329373.0,
-    "ast_hash": "af5d4c02efefabad0745ef3be0135e7e",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/smgeag/logo-baseline.webp": {
-    "mtime": 1785329373.0,
-    "ast_hash": "28aa7923f65a61b25cc6ff9778535860",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/smgeag/logo-bicolor-blue.webp": {
-    "mtime": 1785329374.0,
-    "ast_hash": "bbdf2650e2188d337b2a5fabaeab23c6",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/smgeag/logo-bicolor-light.webp": {
-    "mtime": 1785329374.0,
-    "ast_hash": "53fd1e0e347969e03b5acfd83f550d61",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/smgeag/logo-mono-dark.webp": {
-    "mtime": 1785329374.0,
-    "ast_hash": "407a96b2c046bcac1c08aebddb52360c",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/smgeag/mockup-affiche.webp": {
-    "mtime": 1785338053.0,
-    "ast_hash": "56e8ba9ea6bf81518e239df869dd414c",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/smgeag/mockup-billboard-drop.webp": {
-    "mtime": 1785329377.0,
-    "ast_hash": "18c076507b804cd54275d699995855ef",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/smgeag/mockup-billboard-hands.webp": {
-    "mtime": 1785329376.0,
-    "ast_hash": "0c216e7a87f97196b6257b1b72793eb5",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/smgeag/mockup-papeterie.webp": {
-    "mtime": 1785338043.0,
-    "ast_hash": "c02e22c75bbab568568eaf27043d94a1",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/smgeag/mockup-signalisation.webp": {
-    "mtime": 1785338056.0,
-    "ast_hash": "69ffdeccd82c07f112d65fd45c0aba9d",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/branding/smgeag/mockup-stationery.webp": {
-    "mtime": 1785329378.0,
-    "ast_hash": "e70ab8734d5c22414e091b43dffe00fb",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/carrefour/catalogue-01.webp": {
-    "mtime": 1785779515.2938795,
-    "ast_hash": "852bcc9cb0d6a01dfc0923802d7eb59b",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/carrefour/catalogue-02.webp": {
-    "mtime": 1785779515.8779938,
-    "ast_hash": "0ea7d629c0339f771fc977a65a37ae4e",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/carrefour/catalogue-03.webp": {
-    "mtime": 1785779516.5369496,
-    "ast_hash": "b0842c8d2b22b52136080d23e0f6d67b",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/carrefour/interieur-01.webp": {
-    "mtime": 1785779794.8286405,
-    "ast_hash": "d6c84f76305004fc0775bc867d340225",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/carrefour/mockup-catalogue-carrefour.webp": {
-    "mtime": 1785779793.3869898,
-    "ast_hash": "64caf478d74e4a7b0eab5f650571da8b",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/carrefour/print-instore/set-2-2old.webp": {
-    "mtime": 1785965816.8193924,
-    "ast_hash": "2e19e5fa9fd7c7e72b07ff9ed5df67a9",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/carrefour/print-instore/set-2-3old.webp": {
-    "mtime": 1785965817.8690028,
-    "ast_hash": "5d1a101f7437906d51d33d5f51d7c1c0",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/decathlon/catalogue-01.webp": {
-    "mtime": 1785871689.3034215,
-    "ast_hash": "85033de0441659b48e9d9424160cf832",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/decathlon/catalogue-02.webp": {
-    "mtime": 1785871689.304343,
-    "ast_hash": "ea0734055c5a2378482df554e10dd4ac",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/decathlon/catalogue-03.webp": {
-    "mtime": 1785871689.3051615,
-    "ast_hash": "a3003f58049f5543999823d95c951ab0",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/decathlon/catalogue-04.webp": {
-    "mtime": 1785871689.3061078,
-    "ast_hash": "02aeda7c33a26fdcc19ba4c16c6af241",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/decathlon/catalogue-05.webp": {
-    "mtime": 1785871689.3071966,
-    "ast_hash": "05461c445e2e6d56b570c90892eb89c0",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/decathlon/interieur-01.webp": {
-    "mtime": 1785779781.595556,
-    "ast_hash": "501792884514c5ede2d09c575689dfbd",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/decathlon/mockup-catalogue-decathlon.webp": {
-    "mtime": 1785871689.308773,
-    "ast_hash": "baec56412a1139287588aa9ba9946dd0",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/decathlon/spreads/c3-s1-left.webp": {
-    "mtime": 1786038234.940446,
-    "ast_hash": "920692d774da6ed2c15f98ca9573fc97",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/decathlon/spreads/c3-s1-right.webp": {
-    "mtime": 1786038235.3877778,
-    "ast_hash": "6bf6d574f2aa319380f4ffc21515d90b",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/digilife/catalogue-01.webp": {
-    "mtime": 1785272802.0,
-    "ast_hash": "5e4b23bae56e1376ba4f09ec82ac13f3",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/digilife/catalogue-02.webp": {
-    "mtime": 1785272803.0,
-    "ast_hash": "efcfa5556c5dcd1fc7f360ceedec2ab8",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/digilife/process/step1-airpods.webp": {
-    "mtime": 1786031765.5157225,
-    "ast_hash": "c2434c3c27bac6146d7f829c9a9e5323",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/digilife/process/step1-iphone.webp": {
-    "mtime": 1786031766.4349835,
-    "ast_hash": "ce14b6ebf3e85a27b1b2b04cc901b0ef",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/digilife/process/step1-macbook.webp": {
-    "mtime": 1786031767.019548,
-    "ast_hash": "bbc3a0a6cac9d058c34ffb7b29029948",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/digilife/process/step2-recomposition.webp": {
-    "mtime": 1786031769.069385,
-    "ast_hash": "e4b61092902aeca793eb15cbf40d4c78",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/digilife/process/step3-integration.webp": {
-    "mtime": 1786031769.5249345,
-    "ast_hash": "46a5e2ccb9c32577103bf7886121e921",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/gamme-vert/campaigns/bien-se-reposer-wide.webp": {
-    "mtime": 1785962277.5668929,
-    "ast_hash": "c7b50164fc5d471b0cbb20bfdc7949b7",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/gamme-vert/catalogue-01.webp": {
-    "mtime": 1785962278.3188632,
-    "ast_hash": "66d2089576850352ce90b77312ab74ee",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/gamme-vert/catalogue-02.webp": {
-    "mtime": 1785962278.326462,
-    "ast_hash": "1e8021afc26b230581ed11a73626cfe5",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/gamme-vert/catalogue-03.webp": {
-    "mtime": 1785272797.0,
-    "ast_hash": "879acd0d8c72a55d30bcb33db8d4cb41",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/gamme-vert/interieur-01.webp": {
-    "mtime": 1785779790.862292,
-    "ast_hash": "d54a5465bb0fcae4e6040113b1d8f3a3",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/gamme-vert/mockup-catalogue-gamme-vert.webp": {
-    "mtime": 1785871689.311117,
-    "ast_hash": "435a0f865cf0dcb8c6b5e53ef6445b4e",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/gamme-vert/showcase-bien-se-reposer.webp": {
-    "mtime": 1785959469.4292436,
-    "ast_hash": "f18310479895a62d96cd1b79c6c862d2",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/campaigns/fetes-instagram-carre.webp": {
-    "mtime": 1785962277.7573316,
-    "ast_hash": "30b1e20d731d407356d4ef732a2f0126",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/campaigns/fetes-meta-carre.webp": {
-    "mtime": 1785962277.7585013,
-    "ast_hash": "801cc0ad60eceeffc026d68a3712415f",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/campaigns/jardin-instagram-carre.webp": {
-    "mtime": 1785962277.7611756,
-    "ast_hash": "48ff4ad30b4657508c63e2e6d686b991",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/campaigns/jardin-meta-carre.webp": {
-    "mtime": 1785962277.7623274,
-    "ast_hash": "21916278c289922646b43d9d3eb316d8",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/campaigns/maison-instagram-carre.webp": {
-    "mtime": 1785962277.7647977,
-    "ast_hash": "8b5a10ae2065b9ecbc65236ddd8461c2",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/campaigns/maison-meta-carre.webp": {
-    "mtime": 1785962277.7658749,
-    "ast_hash": "35f503614e98882d2460d98162a7964d",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/catalogue-01.webp": {
-    "mtime": 1785871689.3122995,
-    "ast_hash": "e9888dcaa69b14b03c90ce92632d6bcf",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/catalogue-02.webp": {
-    "mtime": 1785871689.3129926,
-    "ast_hash": "1b666fa78d817614ef7677e0abf704ae",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/catalogue-03.webp": {
-    "mtime": 1785871689.3136177,
-    "ast_hash": "f7cf55316d8a5b4d31060afff3e1ba6a",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/interieur-01.webp": {
-    "mtime": 1785779787.8431609,
-    "ast_hash": "dd893b91c7ee12b2ddc9f7b4ed64c555",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/la-foir-fouille/mockup-catalogue-la-foir-fouille.webp": {
-    "mtime": 1785871689.3148448,
-    "ast_hash": "117294b9620d71a9e89d13c30fd1ecd1",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/media/film-cuisine-poster.webp": {
-    "mtime": 1786116210.659601,
-    "ast_hash": "b8ff1881ab9d3422d5ed332cb1c92417",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/catalogue/mr-bricolage/media/video-promo-poster.webp": {
-    "mtime": 1786116211.5946152,
-    "ast_hash": "8fa8c3e8dbf7ab43c8079c33b45d0961",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/photos/hfwi/gallery/affligem/affligem-portrait-01.webp": {
-    "mtime": 1785503405.976626,
-    "ast_hash": "c5764f165b78c81e0741abc3a142f331",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/photos/hfwi/gallery/affligem/affligem-portrait-02.webp": {
-    "mtime": 1785503405.9167376,
-    "ast_hash": "9c1d8fabda6d24783f28838913ddbb78",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/photos/hfwi/gallery/affligem/affligem-portrait-03.webp": {
-    "mtime": 1785503405.8776996,
-    "ast_hash": "61f6c03a8344dcba761a1280ba2cfb4b",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/photos/hfwi/gallery/affligem/affligem-portrait-04.webp": {
-    "mtime": 1785503406.1501172,
-    "ast_hash": "1c51f24408f215c5e7a2f6b77a5175da",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/photos/hfwi/thumbs/porter.jpg": {
-    "mtime": 1785184789.0,
-    "ast_hash": "f80d09e38f451495c8f77276a4566ad9",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/photos/hfwi/thumbs/sol.jpg": {
-    "mtime": 1785184789.0,
-    "ast_hash": "ab7251c8af79e1043b06da954fe75b1c",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/photos/so-class/gallery/so-class-collection-jazz-cover-2022.webp": {
-    "mtime": 1785334298.0,
-    "ast_hash": "0fbae2c4042ef58a8d49311606df60c1",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/photos/so-class/gallery/so-class-portrait-homme-casual-2022.webp": {
-    "mtime": 1785334302.0,
-    "ast_hash": "dd3a252bf8311a823a8b3e342328b46d",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/photos/so-class/gallery/so-class-shooting-architecture-2022.webp": {
-    "mtime": 1785334299.0,
-    "ast_hash": "adc12e0846d3d4839a252c48ec7224e5",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/photos/so-class/gallery/so-class-shooting-look-rouille-2022.webp": {
-    "mtime": 1785334302.0,
-    "ast_hash": "a11f469c92f30ab3da71df5861d87033",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/photos/so-class/instagram/so-class-instagram-collection-jazz-2022-01.webp": {
-    "mtime": 1785503405.7001994,
-    "ast_hash": "40b2087ab487aed8160984e7fd75b794",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/photos/so-class/instagram/so-class-instagram-collection-jazz-2022-02.webp": {
-    "mtime": 1785503406.186375,
-    "ast_hash": "805583d43f430017848777fc56709cad",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/photos/so-class/instagram/so-class-instagram-collection-jazz-2022-03.webp": {
-    "mtime": 1785503406.0653756,
-    "ast_hash": "8a7552eb26bcdd66c3d03af11e746c53",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/photos/so-class/instagram/so-class-instagram-collection-jazz-2022-04.webp": {
-    "mtime": 1785503406.0027726,
-    "ast_hash": "3c130ae0f5a30ae6e7407509532cd456",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/accessoire-lunettes-orange-bleu.webp": {
-    "mtime": 1786379058.676149,
-    "ast_hash": "6e6c37083582242850353a5b0b5b0dd4",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/campagne-grande-anse.webp": {
-    "mtime": 1786376625.8511887,
-    "ast_hash": "abb46cdee264816d3ad8c3de4711e693",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/en-drive-cascade-aux-ecrevisses.webp": {
-    "mtime": 1786379063.3657627,
-    "ast_hash": "e5253a25912ffe310151574faa516df7",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/en-drive-la-route-de-la-traversee.webp": {
-    "mtime": 1786379062.8219576,
-    "ast_hash": "fe9c55f7ebe427347c02240123877939",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/en-drive-le-diamant.webp": {
-    "mtime": 1786379064.4900274,
-    "ast_hash": "07fcca103007c3ac9e856b50c9b84886",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/en-drive-les-fonds-blancs.webp": {
-    "mtime": 1786379063.8196044,
-    "ast_hash": "d3fa3d8d22699c064f8a4837b1533330",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/galerie-fete-des-meres.webp": {
-    "mtime": 1786376630.1776338,
-    "ast_hash": "0cb91948f61022f8868b511ea9012183",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/galerie-village-hmong-cacao.webp": {
-    "mtime": 1786376629.114012,
-    "ast_hash": "2a526a80e4534eebcc8ff22c18ad7d34",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/hero-auto-discount-complete.webp": {
-    "mtime": 1786383027.1936996,
-    "ast_hash": "bd26baf0567a1a512221611bfa83a7cb",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/hero-auto-discount-mobile.webp": {
-    "mtime": 1786383028.4726775,
-    "ast_hash": "d66714477be389163dfea5a3bfe3a69d",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/hero-coast-background.webp": {
-    "mtime": 1786381390.7410498,
-    "ast_hash": "1786b89811d751bfd884318db3a0487a",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/hero-smartphones.webp": {
-    "mtime": 1786379057.7935185,
-    "ast_hash": "b416474054e36ece71756f384ffbe713",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/old-campagne-flotte-trois-vehicules.webp": {
-    "mtime": 1786379058.4179044,
-    "ast_hash": "2978f8f055172f62f04ea073dd85b40a",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/old-hero-car-blue-auto-discount.webp": {
-    "mtime": 1786381391.5804076,
-    "ast_hash": "19b39f2bc22ad96b6a074489c2a4f252",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/old-road-trip-martinique.webp": {
-    "mtime": 1786376624.5363688,
-    "ast_hash": "9332f7fa05fc7745ef6c494718e28d75",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/old.post-final-entretien-vehicule-hd.webp": {
-    "mtime": 1786383715.8072572,
-    "ast_hash": "6539973fe0cc79d8de75354140d0d9be",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/old.road-trip-guyane.webp": {
-    "mtime": 1786376622.2572074,
-    "ast_hash": "ee25cc77a90ab50252b196944813cabf",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/old=post-final-entretien-vehicule-hd.webp": {
-    "mtime": 1786373286.5297809,
-    "ast_hash": "7f85ae4d870d58bc6cf3840c214c81de",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/opel-corsa-source.webp": {
-    "mtime": 1786379836.636922,
-    "ast_hash": "91f17b8b1dfe847222cc20188f1b449d",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/post-25-ans-remise.webp": {
-    "mtime": 1785344332.0,
-    "ast_hash": "a1543e69c1f889cf0e43088e958a693d",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/post-final-entretien-vehicule.webp": {
-    "mtime": 1786379059.6497152,
-    "ast_hash": "0849683a3281f0a6588bb8944c4aaff2",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/post-jeu-concours-saint-valentin.webp": {
-    "mtime": 1785344333.0,
-    "ast_hash": "ea036e1b10277abd354b65ff9c69ae18",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/post-location-3-ou-4-fois.webp": {
-    "mtime": 1785344337.0,
-    "ast_hash": "a2cf1bbbdec1d9dc150df66bb7f704e4",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/reel-carnaval-canal10.webp": {
-    "mtime": 1786376665.4707115,
-    "ast_hash": "3f51c8855b5088ed52b5ab1d97247d1d",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/auto-discount/thumbnail-auto-discount-location.webp": {
-    "mtime": 1785344881.0,
-    "ast_hash": "e32fe88577ad26bee7bc355d0ba4ae9e",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/bel-air-sup/logo.png": {
-    "mtime": 1785448917.5830183,
-    "ast_hash": "97d3a48f8fee3667f8d234e996e740dd",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/bel-air-sup/post-01.png": {
-    "mtime": 1785448918.6908703,
-    "ast_hash": "dd9ac63130338478a11552c271092924",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/bel-air-sup/post-02.jpg": {
-    "mtime": 1785448956.812265,
-    "ast_hash": "acd17278f34447e1e9243e79053e81fa",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/bel-air-sup/post-03.png": {
-    "mtime": 1785448920.1332626,
-    "ast_hash": "0b8e71d9d55afd3aad367eaa818c46cf",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/bel-air-sup/post-04.jpg": {
-    "mtime": 1785448956.935371,
-    "ast_hash": "8bcc69a88ae231fbf8f86369ad9b3c16",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/cap-creole/carousel-1-03.webp": {
-    "mtime": 1785421669.322148,
-    "ast_hash": "7ea79ea7dce083da5bf03be5ed7a79c8",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/cap-creole/carousel-1-04.webp": {
-    "mtime": 1785421670.0295172,
-    "ast_hash": "0bf5eab8f35f05540d6a43139d6cb669",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/cap-creole/carousel-1-05.webp": {
-    "mtime": 1785421673.2664664,
-    "ast_hash": "d1d76b360e1b42c0506d4993b8c41432",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/cap-creole/carousel-2-03.webp": {
-    "mtime": 1785421681.3511305,
-    "ast_hash": "ddb6f49536d6ee585f9908e5e6a18eb4",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/cap-creole/carousel-2-04.webp": {
-    "mtime": 1785421684.7800221,
-    "ast_hash": "1755fd761fe325e2eb8c1dae9f2562dc",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/cap-creole/carousel-2-05.webp": {
-    "mtime": 1785421728.4329813,
-    "ast_hash": "9c7a7869779bd42a3c4af50df25796be",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/cap-creole/logo-wordmark.webp": {
-    "mtime": 1786396350.835094,
-    "ast_hash": "50774b1c158c3e32a3c31e2b6c4e111e",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/cap-creole/post-04.webp": {
-    "mtime": 1785422534.9317775,
-    "ast_hash": "9d999e53b63634af2f883901f16128f9",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/capaceo/logo.png": {
-    "mtime": 1785448913.1225483,
-    "ast_hash": "0dc764ace966162866ccb030667a3698",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/capaceo/post-01.jpg": {
-    "mtime": 1785448914.0050058,
-    "ast_hash": "70eb2171e2f93f25759f15531c5b582a",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/capaceo/post-02.jpg": {
-    "mtime": 1785448914.9870424,
-    "ast_hash": "e3f591c6a6fdb193ef63e7fe87b71c58",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/capaceo/post-03.jpg": {
-    "mtime": 1785448915.8648999,
-    "ast_hash": "b629bbd80f2d8e218a403de6c6cbbd0f",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/capaceo/post-04.jpg": {
-    "mtime": 1785448916.737827,
-    "ast_hash": "4bcd727ab8760419bdb338016cbfe3c9",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/digilife/bandeaux/airpods-pro.jpg": {
-    "mtime": 1785449933.2084363,
-    "ast_hash": "fdc3620715098b013cb3d6f0633bdb07",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/digilife/bandeaux/airpods.jpg": {
-    "mtime": 1785449932.5847101,
-    "ast_hash": "8a912e437f9d6d19df7ee9fd20d19e8d",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/digilife/bandeaux/imac24.jpg": {
-    "mtime": 1785449932.8879845,
-    "ast_hash": "ec2abc288b3d4fd04468d81393d031b1",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/digilife/bandeaux/mac-studio.jpg": {
-    "mtime": 1785449933.932449,
-    "ast_hash": "9b4b8b48c89b8fce26dbb5e8652586dc",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/digilife/bandeaux/watch11.jpg": {
-    "mtime": 1785449933.6237278,
-    "ast_hash": "1494650417cdd6bf8272488e085f2cee",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/projects/social/digilife/thumbnail-digilife-influence.webp": {
-    "mtime": 1785446590.2092862,
-    "ast_hash": "4c7d9ac1b97bdf97a98be1e9d26b6da9",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/shared/placeholders/cap-creole.jpg": {
-    "mtime": 1785186743.0,
-    "ast_hash": "c8c3fcff9c1a16a476e20b11753b115e",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/shared/placeholders/epices.jpg": {
-    "mtime": 1785186745.0,
-    "ast_hash": "f0af91044558bfd4772588c016a77e80",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/shared/placeholders/interieur.jpg": {
-    "mtime": 1785186743.0,
-    "ast_hash": "9f8ad0541107c6e8d827c47511c00ab8",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/shared/placeholders/marine.jpg": {
-    "mtime": 1785186745.0,
-    "ast_hash": "a367e98241ebb1fc7287b2a01b68d880",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/shared/placeholders/patisserie.jpg": {
-    "mtime": 1785186729.0,
-    "ast_hash": "339adfdd20f57a95b63d149c9dd16289",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/shared/placeholders/social-auto-2.jpg": {
-    "mtime": 1785187697.0,
-    "ast_hash": "0c968d9830897dbbed8765b50c6bb310",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/shared/placeholders/social-auto-3.jpg": {
-    "mtime": 1785187698.0,
-    "ast_hash": "5de613d2a93917e145f72c97177df8b4",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/shared/placeholders/social-auto-4.jpg": {
-    "mtime": 1785187698.0,
-    "ast_hash": "6feebdb62bd8aec42178cb55c123dc0b",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/shared/placeholders/social-auto.jpg": {
-    "mtime": 1785186757.0,
-    "ast_hash": "ed20ecc6d46ae599cb8f518d74cbef8a",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/shared/placeholders/social-business.jpg": {
-    "mtime": 1785186757.0,
-    "ast_hash": "847f9640eb0c110a44c3cfc2e2ee66f4",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/shared/placeholders/social-school.jpg": {
-    "mtime": 1785186772.0,
-    "ast_hash": "f68c2e5b971a0488f1d02aa39202512a",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/shared/placeholders/social-tech.jpg": {
-    "mtime": 1785186757.0,
-    "ast_hash": "8be4fd11e605dceec47aeb1f63a34878",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/shared/placeholders/social-travel.jpg": {
-    "mtime": 1785186757.0,
-    "ast_hash": "8302fe578038e8ddec463396415be17b",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/title-latitude.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "2205296905164914499c9fb6ff463c45",
-    "semantic_hash": ""
-  },
-  "to-del/unused-assets/assets/wave.svg": {
-    "mtime": 1785189151.0,
-    "ast_hash": "7000db49caf8e3ce4b53b9c3fceda55b",
-    "semantic_hash": ""
-  },
   "README.md": {
-    "mtime": 1786452933.984033,
-    "ast_hash": "ccbd42c608cb2f239272c5bb548bd430",
+    "mtime": 1786454785.6326015,
+    "ast_hash": "a1ebfdf5995b1dff9b361f90b8b52050",
     "semantic_hash": ""
   },
   "assets/README.md": {
@@ -3645,8 +2455,8 @@
     "semantic_hash": ""
   },
   "docs/asset-map.md": {
-    "mtime": 1786452933.9850845,
-    "ast_hash": "ac21e0d1056f5613e8bac3400ce58901",
+    "mtime": 1786454785.6336563,
+    "ast_hash": "a1cb689573cae4087fc68edfd1455d57",
     "semantic_hash": ""
   },
   "docs/cleanup-results.md": {
@@ -3655,13 +2465,8 @@
     "semantic_hash": ""
   },
   "docs/site-architecture.md": {
-    "mtime": 1786452933.984772,
-    "ast_hash": "f4f48f4cdd6780076a4ce7c2a4897f1d",
-    "semantic_hash": ""
-  },
-  "to-del/README.md": {
-    "mtime": 1786452933.9857576,
-    "ast_hash": "fb272da8bf4d3d8135145e2a2e8655aa",
+    "mtime": 1786454552.013715,
+    "ast_hash": "1f164a00b4a3806ba302e37c8061e1c4",
     "semantic_hash": ""
   },
   "assets/projects/catalogue/mr-bricolage/fete-des-meres/pages/p1.webp": {
@@ -3707,6 +2512,316 @@
   "assets/projects/catalogue/mr-bricolage/votre-projet/pages/p3.webp": {
     "mtime": 1786137670.3108914,
     "ast_hash": "a3e0d4e9be78c4a635e1be2b30301019",
+    "semantic_hash": ""
+  },
+  "docs/HANDOFF_CODEX_LES_BELLES_ENVIES.md": {
+    "mtime": 1786469880.1039658,
+    "ast_hash": "bd97ad7d6a505d2c403900a2a3170c6e",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/cap-creole/gallery/cap-creole-accras-citron-vert.webp": {
+    "mtime": 1786460481.7263021,
+    "ast_hash": "127e7ca808867ee632e2bd0fa20e7b15",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/cap-creole/gallery/cap-creole-burger-ocean.webp": {
+    "mtime": 1786460460.1321092,
+    "ast_hash": "fadbad188a08a032db3b0d10349dc0cb",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/cap-creole/gallery/cap-creole-croquettes-tablee.webp": {
+    "mtime": 1786460467.0445232,
+    "ast_hash": "5a7f000047f43c1aeb4cdf19f80ebfb5",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/cap-creole/gallery/cap-creole-croquettes-vue-mer.webp": {
+    "mtime": 1786460472.6292453,
+    "ast_hash": "d6c0fdb758fe4c6018e24d0187304c5e",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/auto-discount/en-drive/en-drive-section-bg.webp": {
+    "mtime": 1786457462.3000934,
+    "ast_hash": "eb8fe721b0d6766bb4ca3033ba907559",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/cap-creole/logo-wordmark-horizontal.png": {
+    "mtime": 1786455583.4176166,
+    "ast_hash": "5588f5498fde39122f6a6db73e17c397",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/campaigns/neo/hello-neo-pink.png": {
+    "mtime": 1786462734.914946,
+    "ast_hash": "8996dd2ed501bea9244d04108920effe",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/campaigns/neo/hello-neo-yellow.png": {
+    "mtime": 1786462604.308495,
+    "ast_hash": "9cbbe20bebab7dd8c7be9e1a5cdc73bc",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/campaigns/premium/airpods-pro-3.jpg": {
+    "mtime": 1786461955.0344799,
+    "ast_hash": "d9af2b443bf2b0e02c86c458c6df8f12",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/campaigns/premium/iphone-17-pro.png": {
+    "mtime": 1786461954.7557428,
+    "ast_hash": "6fb975c2af374b4feebc6051ceae7cac",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/campaigns/tradein/iphone-13.png": {
+    "mtime": 1786461951.8605757,
+    "ast_hash": "c873e3d2951f65cc78b7cef47c1e5c0a",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/campaigns/tradein/iphone-15-blue.png": {
+    "mtime": 1786461952.1030436,
+    "ast_hash": "4e4dde8fb0ed4251296df2fe599c51d7",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/campaigns/tradein/iphone-15-pink.png": {
+    "mtime": 1786461952.731448,
+    "ast_hash": "476ef1e7297aff48e37527536bef6965",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/campaigns/tradein/iphone-16-pro.png": {
+    "mtime": 1786461953.3919675,
+    "ast_hash": "2d8a0feda58bf71bbcce83568e0baf95",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/campaigns/tradein/iphone-16.png": {
+    "mtime": 1786461952.8969612,
+    "ast_hash": "a8403be4505a2d442bb1c7a8b27a716e",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/campaigns/tradein/iphone-16e.png": {
+    "mtime": 1786461953.0868504,
+    "ast_hash": "1b0e15b5324c42f20127104bc495d19b",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/campaigns/valentine/ipad-chat.png": {
+    "mtime": 1786461950.1537127,
+    "ast_hash": "ed21ee030754c06c17a323515ea39d1f",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/campaigns/valentine/iphone-16-chevre.png": {
+    "mtime": 1786461950.6455722,
+    "ast_hash": "517a5e4b9c6fae1c27954635d1bbe874",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/campaigns/valentine/macbook-air-poule.png": {
+    "mtime": 1786461951.3252017,
+    "ast_hash": "5b1ce84490087775187f18107c828757",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/campaigns/wide/iphone-17.jpg": {
+    "mtime": 1786461953.5279582,
+    "ast_hash": "1b23e42c4823c1dcb0fe560f0bb44c9b",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/campaigns/wide/iphone-air.jpg": {
+    "mtime": 1786461954.3099906,
+    "ast_hash": "2038546d16b8af4a585030188b555467",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/hero/posts-composition.png": {
+    "mtime": 1786461947.2270043,
+    "ast_hash": "ff93a83832f333139cc5f9fb74e525b3",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/behind-scenes/tar-1232-b.webp": {
+    "mtime": 1786455401.637464,
+    "ast_hash": "d56b76d3a028294028942abe4574a679",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/behind-scenes/tar-1371.webp": {
+    "mtime": 1786455404.6463716,
+    "ast_hash": "2b41d47dc947dbebf9a21b1c4a12ffcc",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/behind-scenes/tar-1411.webp": {
+    "mtime": 1786455407.2235286,
+    "ast_hash": "2c6947f96085f7a80cb7a8a0421b4463",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/behind-scenes/tar-1501.webp": {
+    "mtime": 1786455409.3890388,
+    "ast_hash": "4d4bbb48dd76bb74b1523e2d0d903676",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/behind-scenes/tar-1502.webp": {
+    "mtime": 1786455411.789515,
+    "ast_hash": "e504a68dc1f206732b0d489ccf8c1b15",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/behind-scenes/tar-1661.webp": {
+    "mtime": 1786455414.4304752,
+    "ast_hash": "221c1a034a732d7ce908c01f0822f1ca",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/behind-scenes/tar-1667.webp": {
+    "mtime": 1786455417.3540573,
+    "ast_hash": "2b85dcc9e5d234304b1acb2b3261a58a",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/behind-scenes/tar-2086.webp": {
+    "mtime": 1786455420.1766565,
+    "ast_hash": "aadbd95b13bc61338d7a6d417efab907",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/behind-scenes/tar-2119.webp": {
+    "mtime": 1786455422.7116354,
+    "ast_hash": "887721547d4c5b77ea1277179b7f7013",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/michelle-unboxing-cover.jpg": {
+    "mtime": 1786457299.0826492,
+    "ast_hash": "fef2dfd3c550f213fbdc992fd84389e8",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/workflow/iphone16-final.webp": {
+    "mtime": 1786461963.1561208,
+    "ast_hash": "f07534c1ea49f0b00c5e4ee334b82c46",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/workflow/iphone16-scene.webp": {
+    "mtime": 1786461962.1110184,
+    "ast_hash": "f611f677767cc963bffeb14ceebdf390",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/workflow/iphone16-source.webp": {
+    "mtime": 1786461960.8640637,
+    "ast_hash": "3f44b713829cb416759efffa4aafca6e",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/workflow/macbook-final.webp": {
+    "mtime": 1786461959.1692994,
+    "ast_hash": "c5ede72f42577b43df352bb59ea49896",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/workflow/macbook-scene.webp": {
+    "mtime": 1786461957.9004781,
+    "ast_hash": "19e69264f50011f29668ecff96d27f57",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/workflow/macbook-source.webp": {
+    "mtime": 1786461956.7415888,
+    "ast_hash": "510da13bf183db3a298fe9a8723feab8",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/workflow/mothers-day-final.webp": {
+    "mtime": 1786461965.387128,
+    "ast_hash": "0034f5410a65d4cef965f92df74debd3",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/workflow/mothers-day-scene.webp": {
+    "mtime": 1786461964.6552632,
+    "ast_hash": "56bf330be4bff78a2d7162629ffd6a16",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/workflow/mothers-day-source.webp": {
+    "mtime": 1786461963.706936,
+    "ast_hash": "8809eaabd4d0d4e33a3f77e8d39013a2",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/michelle-campaign.mp4": {
+    "mtime": 1786455580.5266929,
+    "ast_hash": "18e6f2c6d98c3ee3dc47b0fb65875e4c",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/michelle-teaser.mp4": {
+    "mtime": 1786455580.5153139,
+    "ast_hash": "79d46f0bdf5b8f56292e884292007d06",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/michelle-unboxing.mp4": {
+    "mtime": 1786457259.7869985,
+    "ast_hash": "51f877012c66fd6fb4d65339be4e307b",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/backstage-frames/backstage-02.jpg": {
+    "mtime": 1786463549.3723798,
+    "ast_hash": "083339ddfb1ca0232f320d4ccb165b8c",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/backstage-frames/backstage-03.jpg": {
+    "mtime": 1786463550.1696782,
+    "ast_hash": "c4618d92f82ca914e3c61d36266d628d",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/backstage-frames/backstage-04.jpg": {
+    "mtime": 1786463551.0078008,
+    "ast_hash": "e0a4588ce2cf835582c016ec48c39487",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/backstage-frames/backstage-05.jpg": {
+    "mtime": 1786463551.8900914,
+    "ast_hash": "fc44a1f1ce74b9fa4e856bae2d1af5d2",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/backstage-frames/backstage-06.jpg": {
+    "mtime": 1786463552.7848964,
+    "ast_hash": "b81b1d5ebe8a7dd44b0d024ce4897104",
+    "semantic_hash": ""
+  },
+  "to-del/assets/projects/social/digilife/influence/backstage-frames/backstage-01.jpg": {
+    "mtime": 1786463547.3538294,
+    "ast_hash": "c305fab0621cac6fce5bd53545db11de",
+    "semantic_hash": ""
+  },
+  "to-del/qa/qa-lbe-temp.html": {
+    "mtime": 1786468316.8666146,
+    "ast_hash": "9643928d0b3c0c2bb6862d5a3e8c9474",
+    "semantic_hash": ""
+  },
+  "to-del/qa/responsive-project-wrapper.html": {
+    "mtime": 1786468805.6337574,
+    "ast_hash": "523ecc51966097183ae542959522b7ab",
+    "semantic_hash": ""
+  },
+  "assets/projects/social/digilife/influence/michelle-influence-banner.webp": {
+    "mtime": 1786467327.1840134,
+    "ast_hash": "c218f7a6876b9cb4fb7558b13acba4df",
+    "semantic_hash": ""
+  },
+  "to-del/qa/mrb-mockup/composer.html": {
+    "mtime": 1786471651.9488292,
+    "ast_hash": "f33e84e1b499f1634c58e24372e96134",
+    "semantic_hash": ""
+  },
+  "to-del/assets/projects/catalogue/mr-bricolage/print-digital/mockup-gardening.webp": {
+    "mtime": 1786053301.1202295,
+    "ast_hash": "b77d5db34f7c3a9031f38ef99e52dcd9",
+    "semantic_hash": ""
+  },
+  "to-del/qa/mrb-mockup/base-blank.png": {
+    "mtime": 1786470340.8937676,
+    "ast_hash": "0d57ff5294ab97520d2d58d98621a37b",
+    "semantic_hash": ""
+  },
+  "to-del/qa/mrb-mockup/composed.png": {
+    "mtime": 1786470541.2251878,
+    "ast_hash": "4fde5df024c0d066b4edbdd1128c0062",
+    "semantic_hash": ""
+  },
+  "assets/projects/catalogue/mr-bricolage/documents/outillage-auto.pdf": {
+    "mtime": 1786471278.6063132,
+    "ast_hash": "f25d28cbcc5a798fd9e1e7ed22c2a8c1",
+    "semantic_hash": ""
+  },
+  "to-del/qa/mrb-mockup/pages/outillage-cover.webp": {
+    "mtime": 1786470356.481269,
+    "ast_hash": "e9e8b28391c150a1ce66d10fc5c6948d",
+    "semantic_hash": ""
+  },
+  "to-del/qa/mrb-mockup/pages/outillage-page-02.webp": {
+    "mtime": 1786470358.6548767,
+    "ast_hash": "f0bb6c9109da5066380b25ebfb458729",
+    "semantic_hash": ""
+  },
+  "to-del/qa/mrb-mockup/pages/outillage-page-03.webp": {
+    "mtime": 1786470360.8611186,
+    "ast_hash": "da5571b56e060460e84df022e682c0b3",
     "semantic_hash": ""
   }
 }

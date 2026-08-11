@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Mr Bricolage — composition du mockup Outillage Auto</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { width: 1451px; height: 1084px; margin: 0; overflow: hidden; background: #fff; }
+    .mockup { position: relative; width: 1451px; height: 1084px; overflow: hidden; }
+    .mockup__base { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+    .mockup__page {
+      position: absolute; z-index: 2; left: 0; top: 0; width: 1594px; height: 2210px;
+      display: block; transform-origin: 0 0; backface-visibility: hidden;
+    }
+    .mockup__page--paper { filter: saturate(.96) brightness(1.015); }
+    .mockup__page--monitor-right { clip-path: inset(0 36% 0 0); }
+    .mockup__badge {
+      position: absolute; z-index: 5; left: 32px; top: 745px; width: 144px; height: 144px;
+      display: grid; place-items: center; border-radius: 50%; background: #fff;
+      box-shadow: 0 13px 30px rgba(31, 31, 31, .16), 0 2px 7px rgba(31, 31, 31, .08);
+    }
+    .mockup__badge img { width: 78%; height: 78%; display: block; object-fit: contain; }
+  </style>
+</head>
+<body>
+  <div class="mockup" aria-label="Catalogue Outillage Auto Mr Bricolage présenté en version papier, ordinateur, tablette et mobile">
+    <img class="mockup__base" src="/to-del/qa/mrb-mockup/base-blank.png" alt="">
+
+    <img class="mockup__page mockup__page--paper" data-quad="48,467 267,421 344,774 83,817" src="/to-del/qa/mrb-mockup/pages/outillage-page-02.webp" alt="">
+    <img class="mockup__page mockup__page--paper" data-quad="271,422 638,343 760,700 348,774" src="/to-del/qa/mrb-mockup/pages/outillage-page-03.webp" alt="">
+
+    <img class="mockup__page" data-quad="739,234 957,234 957,536 739,536" src="/to-del/qa/mrb-mockup/pages/outillage-cover.webp" alt="">
+    <img class="mockup__page mockup__page--monitor-right" data-quad="979,234 1197,234 1197,536 979,536" src="/to-del/qa/mrb-mockup/pages/outillage-page-02.webp" alt="">
+    <img class="mockup__page" data-quad="1129,421 1321,421 1321,687 1129,687" src="/to-del/qa/mrb-mockup/pages/outillage-cover.webp" alt="">
+    <img class="mockup__page" data-quad="1284,571 1390,571 1390,718 1284,718" src="/to-del/qa/mrb-mockup/pages/outillage-cover.webp" alt="">
+
+    <span class="mockup__badge"><img src="/assets/projects/catalogue/mr-bricolage/brand/logo-gp-color.svg" alt=""></span>
+  </div>
+  <script>
+    function solveLinearSystem(matrix, vector) {
+      const n = vector.length;
+      for (let column = 0; column < n; column += 1) {
+        let pivot = column;
+        for (let row = column + 1; row < n; row += 1) {
+          if (Math.abs(matrix[row][column]) > Math.abs(matrix[pivot][column])) pivot = row;
+        }
+        [matrix[column], matrix[pivot]] = [matrix[pivot], matrix[column]];
+        [vector[column], vector[pivot]] = [vector[pivot], vector[column]];
+        const divisor = matrix[column][column];
+        for (let cell = column; cell < n; cell += 1) matrix[column][cell] /= divisor;
+        vector[column] /= divisor;
+        for (let row = 0; row < n; row += 1) {
+          if (row === column) continue;
+          const factor = matrix[row][column];
+          for (let cell = column; cell < n; cell += 1) matrix[row][cell] -= factor * matrix[column][cell];
+          vector[row] -= factor * vector[column];
+        }
+      }
+      return vector;
+    }
+
+    function projectToQuad(element, points) {
+      const width = 1594;
+      const height = 2210;
+      const source = [[0, 0], [width, 0], [width, height], [0, height]];
+      const coefficients = [];
+      const values = [];
+      source.forEach(([x, y], index) => {
+        const [targetX, targetY] = points[index];
+        coefficients.push([x, y, 1, 0, 0, 0, -targetX * x, -targetX * y]);
+        values.push(targetX);
+        coefficients.push([0, 0, 0, x, y, 1, -targetY * x, -targetY * y]);
+        values.push(targetY);
+      });
+      const h = solveLinearSystem(coefficients, values);
+      const matrix3d = [
+        h[0], h[3], 0, h[6],
+        h[1], h[4], 0, h[7],
+        0, 0, 1, 0,
+        h[2], h[5], 0, 1
+      ];
+      element.style.transform = `matrix3d(${matrix3d.join(',')})`;
+    }
+
+    document.querySelectorAll('[data-quad]').forEach((element) => {
+      const points = element.dataset.quad.split(' ').map((point) => point.split(',').map(Number));
+      projectToQuad(element, points);
+    });
+  </script>
+</body>
+</html>

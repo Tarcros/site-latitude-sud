@@ -472,7 +472,6 @@ function initProjectModal() {
   const toTopBtn = modal.querySelector('[data-modal-totop]');
   const viewport = modal.querySelector('.ls-modal-viewport');
   let slides = [], index = 0, mode = 'slider', lastFocus = null;
-  let deferredVideoTimers = [];
 
   toTopBtn.addEventListener('click', () => viewport.scrollTo({ top: 0, behavior: 'smooth' }));
   viewport.addEventListener('scroll', () => {
@@ -725,20 +724,13 @@ function initProjectModal() {
   };
 
   const stopDeferredVideoEmbeds = () => {
-    deferredVideoTimers.forEach(window.clearTimeout);
-    deferredVideoTimers = [];
     track.querySelectorAll('iframe[data-video-src]').forEach((frame) => frame.removeAttribute('src'));
   };
 
   const startDeferredVideoEmbeds = () => {
     stopDeferredVideoEmbeds();
     track.querySelectorAll('iframe[data-video-src]').forEach((frame) => {
-      const delay = Math.max(0, Number.parseInt(frame.dataset.videoDelay || '0', 10) || 0);
-      const timer = window.setTimeout(() => {
-        if (!modal.classList.contains('open') || !frame.isConnected) return;
-        frame.src = frame.dataset.videoSrc;
-      }, delay);
-      deferredVideoTimers.push(timer);
+      frame.src = frame.dataset.videoSrc;
     });
   };
 
@@ -3310,11 +3302,11 @@ function initDecathlonCaseStudy() {
    Séquence : hero → print & digital → outillage & auto → maison & entretien
    → réseaux sociaux → vidéo + radio → CTA.
 
-   Sources master : contents/Catalogue/mr bricolage/
-     pages/catalogue  CDP complet HD STC.pdf          → outillage & auto
-     pages/au coeur de la maison complet HD STC.pdf   → maison & entretien
-   Les doubles-pages sont rasterisées à 180 DPI (~2970 × 2100 px) pour rester
-   lisibles en grand format. Les originaux ne sont jamais écrasés.
+   Sources master du header print & digital :
+     pages/couv-outillage-HD-BP.pdf → couverture Outillage Auto
+     pages/OUTILLAGE AUTO HD.pdf    → pages intérieures 1594 × 2210
+   Ces pages sont composées sans altération dans un mockup final 1451 × 1084.
+   Les originaux PDF ne sont jamais écrasés.
 
    Une seule couverture réelle existe par catalogue dans les sources : elle
    occupe la position « retenue ». Les deux autres propositions restent des
@@ -3550,8 +3542,7 @@ function renderMrBricolageCaseHTML() {
               <p>${C.hero.text}</p>
               <div class="mrb-hero__actions">
                 <a class="mrb-btn mrb-btn--solid" href="#mrb-outillage-auto">Découvrir le projet <span aria-hidden="true">→</span></a>
-                <!-- TODO : pointer vers le catalogue en ligne dès que l'URL est fournie. -->
-                <a class="mrb-btn mrb-btn--ghost" href="#mrb-outillage-auto">Voir le catalogue <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                <a class="mrb-btn mrb-btn--ghost" href="${MRB}/documents/outillage-auto.pdf" target="_blank" rel="noopener">Voir le catalogue <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
               </div>
             </div>
             <div class="mrb-hero__brand" aria-hidden="true">
@@ -3568,7 +3559,11 @@ function renderMrBricolageCaseHTML() {
               <span class="mrb-rule" aria-hidden="true"></span>
               <p>${C.printDigital.text}</p>
             </figcaption>
-            ${mrbMedia({ src: C.printDigital.mockup, alt: 'Catalogue Mr.Bricolage Guadeloupe en version imprimée et sur ordinateur, tablette et mobile' }, 'print-digital-mockup', 'VISUEL À AJOUTER — Mock-up print &amp; digital', '4 / 3')}
+            ${mrbMedia({ src: C.printDigital.mockup, alt: 'Catalogue Outillage Auto Mr.Bricolage Guadeloupe en version imprimée et sur ordinateur, tablette et mobile' }, 'print-digital-mockup', 'VISUEL À AJOUTER — Mock-up print &amp; digital', '1451 / 1084')}
+            <div class="mrb-pd__mobile-views">
+              <figure class="mrb-pd__mobile-view mrb-pd__mobile-view--paper"><img src="${C.printDigital.mockup}" alt="Double-page intérieure du catalogue Outillage Auto Mr.Bricolage Guadeloupe"></figure>
+              <figure class="mrb-pd__mobile-view mrb-pd__mobile-view--devices"><img src="${C.printDigital.mockup}" alt="Couverture et page du catalogue Outillage Auto sur ordinateur, tablette et mobile"></figure>
+            </div>
           </figure>
         </section>
 
@@ -3654,19 +3649,19 @@ const LBE_CASE = {
     separator: 'Notre workflow en 3 étapes',
     rows: [
       {
-        name: 'Le Fraisier',
-        steps: [
-          { src: `${LBE}/workflow/fraisier/workflow-fraisier-01-brut.webp`, alt: 'Le Fraisier, photo brute studio' },
-          { src: `${LBE}/workflow/fraisier/workflow-fraisier-02-retouche.webp`, alt: 'Le Fraisier, retouche photo' },
-          { src: `${LBE}/workflow/fraisier/workflow-fraisier-03-composition.webp`, alt: 'Le Fraisier, intégration créative finale', final: true }
-        ]
-      },
-      {
         name: 'Le Rocher Chocolat',
         steps: [
           { src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-01-brut.webp`, alt: 'Le Rocher Chocolat, photo brute studio' },
           { src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-02-retouche.webp`, alt: 'Le Rocher Chocolat, retouche photo' },
           { src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-03-composition.webp`, alt: 'Le Rocher Chocolat, intégration créative finale', final: true }
+        ]
+      },
+      {
+        name: 'Le Fraisier',
+        steps: [
+          { src: `${LBE}/workflow/fraisier/workflow-fraisier-01-brut.webp`, alt: 'Le Fraisier, photo brute studio' },
+          { src: `${LBE}/workflow/fraisier/workflow-fraisier-02-retouche.webp`, alt: 'Le Fraisier, retouche photo' },
+          { src: `${LBE}/workflow/fraisier/workflow-fraisier-03-composition.webp`, alt: 'Le Fraisier, intégration créative finale', final: true }
         ]
       },
       {
@@ -3680,26 +3675,33 @@ const LBE_CASE = {
     ]
   },
   gallery: [
-    { src: `${LBE}/gallery/gallery-tartelette-passion.webp`, alt: 'Tartelette Passion, composition Les Belles Envies' },
     { src: `${LBE}/gallery/gallery-brioche-composition.webp`, alt: 'Brioche chocolat, composition Les Belles Envies' },
-    { src: `${LBE}/gallery/gallery-croissant-composition.webp`, alt: 'Croissant au beurre, composition Les Belles Envies' }
+    { src: `${LBE}/workflow/fraisier/workflow-fraisier-02-retouche.webp`, alt: 'Le Fraisier, photographie retouchée en studio' },
+    { src: `${LBE}/gallery/gallery-tartelette-passion.webp`, alt: 'Tartelette Passion, composition Les Belles Envies' },
+    { src: `${LBE}/gallery/gallery-brioche-brut.webp`, alt: 'Brioche chocolat, photographie studio' },
+    { src: `${LBE}/gallery/gallery-croissant-brut.webp`, alt: 'Croissant au beurre, photographie studio' },
+    { src: `${LBE}/workflow/eclair-chocolat/workflow-eclair-02-retouche.webp`, alt: 'L’Éclair chocolat, photographie retouchée en studio' },
+    { src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-02-retouche.webp`, alt: 'Le Rocher Chocolat, photographie retouchée en studio' }
   ],
   instagram: {
     title: 'Du studio<br>au feed',
     text: 'Les visuels réalisés en studio sont déclinés en publications prêtes à diffuser, pensées pour vivre naturellement dans le feed de la marque.',
     handle: 'lesbellesenvies_gp',
     cards: [
-      { src: `${LBE}/hero/hero-fraisier-composition.webp`, alt: 'Post Instagram Le Fraisier' },
+      { src: `${LBE}/workflow/fraisier/workflow-fraisier-03-composition.webp`, alt: 'Post Instagram Le Fraisier' },
       { src: `${LBE}/workflow/eclair-chocolat/workflow-eclair-03-composition.webp`, alt: 'Post Instagram L’Éclair chocolat' },
-      { src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-03-composition.webp`, alt: 'Post Instagram Le Rocher Chocolat' },
-      { src: `${LBE}/gallery/gallery-tartelette-passion.webp`, alt: 'Post Instagram Tartelette Passion' }
+      { src: `${LBE}/workflow/rocher-chocolat/workflow-rocher-03-composition.webp`, alt: 'Post Instagram Le Rocher Chocolat' }
     ]
   },
   cta: {
     title: 'Des contenus pensés<br>pour séduire, valoriser<br>et vendre.',
     text: 'Un accompagnement visuel global pour renforcer l’image premium et gourmande de Les Belles Envies.',
     btnText: 'Voir plus de projets',
-    image: { src: `${LBE}/gallery/gallery-brioche-composition.webp`, alt: 'Brioche chocolat, Les Belles Envies' }
+    image: {
+      src: `${LBE}/gallery/gallery-brioche-composition.webp`,
+      alt: 'Brioche chocolat, image temporaire de la conclusion Les Belles Envies',
+      pending: true
+    }
   },
   footer: {
     logo: `${LBE}/logo/lbe-logo-horizontal-white.webp`,
@@ -3718,10 +3720,13 @@ function renderLesBellesEnviesCaseHTML() {
         <div class="lbe-wf-row__steps"><span>01. Photo brute</span><span>02. Retouche photo</span><span>03. Intégration créative</span></div>
       </div>
       <div class="lbe-wf-row__grid">
+        <span class="lbe-wf-row__mobile-label">01. Photo brute</span>
         <div class="lbe-wf-row__cell"><img src="${row.steps[0].src}" alt="${row.steps[0].alt}" loading="lazy" decoding="async"></div>
         <span class="lbe-wf-row__arrow" aria-hidden="true">→</span>
+        <span class="lbe-wf-row__mobile-label">02. Retouche photo</span>
         <div class="lbe-wf-row__cell"><img src="${row.steps[1].src}" alt="${row.steps[1].alt}" loading="lazy" decoding="async"></div>
         <span class="lbe-wf-row__arrow" aria-hidden="true">→</span>
+        <span class="lbe-wf-row__mobile-label">03. Intégration créative</span>
         <div class="lbe-wf-row__cell lbe-wf-row__cell--final"><img src="${row.steps[2].src}" alt="${row.steps[2].alt}" loading="lazy" decoding="async"></div>
       </div>
     </div>`;
@@ -3746,11 +3751,12 @@ function renderLesBellesEnviesCaseHTML() {
       <section class="lbe-workflow-intro">
         <h2>${C.workflow.title}</h2>
         <p>${C.workflow.text}</p>
+        <div class="lbe-workflow-sep"><span>${C.workflow.separator}</span></div>
       </section>
-      <section class="lbe-workflow-sep"><span>${C.workflow.separator}</span></section>
-      <section class="lbe-workflow-rows">
-        ${C.workflow.rows.map(wfRow).join('')}
-      </section>
+      ${C.workflow.rows.map((row, index) => `
+        <section class="lbe-workflow-example" aria-label="Workflow ${index + 1} — ${row.name}">
+          ${wfRow(row)}
+        </section>`).join('')}
 
       <section class="lbe-gallery">
         <h2>Galerie de réalisations</h2>
@@ -3784,7 +3790,7 @@ function renderLesBellesEnviesCaseHTML() {
             <p>${C.cta.text}</p>
             <a class="lbe-cta-block__btn" href="/pages/realisations.html">${C.cta.btnText} <span aria-hidden="true">→</span></a>
           </div>
-          <figure class="lbe-cta-block__visual"><img src="${C.cta.image.src}" alt="${C.cta.image.alt}" loading="lazy" decoding="async"></figure>
+          <figure class="lbe-cta-block__visual${C.cta.image.pending ? ' lbe-cta-block__visual--pending' : ''}"${C.cta.image.pending ? ' data-codex-image-slot="lbe-editorial-final"' : ''}><img src="${C.cta.image.src}" alt="${C.cta.image.alt}" loading="lazy" decoding="async"></figure>
         </div>
       </section>
 
@@ -3998,7 +4004,8 @@ function initComponents(activePage, opts) {
   initDecathlonCaseStudy();
   initMrBricolageCaseStudy();
   initLesBellesEnviesCaseStudy();
-  initCapCreoleCaseStudy();
+  /* Cap Créole photo possède désormais son template éditorial complet dans
+     pages/photos.html. Ne pas le remplacer par l’ancien renderer CCR_CASE. */
   /* Sticky bar is disabled by default for now. Set stickyBar: true to re-enable it. */
   const withStickyBar = opts.stickyBar === true;
 

@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/assets/global/branding/favicons/favicon.ico" sizes="any">
   <title>Photos — Latitude Sud</title>
   <meta name="description" content="Découvrez les projets de photographie de marque réalisés par Latitude Sud.">
   <link rel="icon" type="image/svg+xml" href="/assets/global/branding/logo-sud.svg">
-<link rel="stylesheet" href="/css/globals.css?v=141">
+<link rel="stylesheet" href="/css/globals.css?v=154">
   <link rel="stylesheet" href="/css/portfolio-pages.css?v=111">
   <link rel="stylesheet" href="/css/hero-wave.css?v=2">
 </head>
@@ -27,12 +28,14 @@
       <h2>Photos</h2>
       <p>Chaque série est construite pour révéler un produit, un lieu ou une atmosphère avec justesse.</p>
     </div>
-    <div class="project-grid">
-      <article class="project-card" data-project data-project-layout="custom" data-project-custom-template="tpl-cat-lbe" data-project-title="Les Belles Envies">
+    <div class="project-grid project-grid--photos-curated">
+      <!-- Conservée en cache : cette étude de cas reste accessible depuis la page Réseaux sociaux. -->
+      <article class="project-card" hidden data-project data-project-layout="custom" data-project-custom-template="tpl-cat-lbe" data-project-title="Les Belles Envies">
         <div class="project-visual"><span class="project-badge">Produit · Studio</span><img src="/assets/projects/photos/les-belles-envies/hero/hero-fraisier-composition.webp" alt="Les Belles Envies" loading="lazy"></div>
         <div class="project-body"><h3>Les Belles Envies</h3><p>Photographie gourmande &amp; contenus visuels premium</p><span class="project-action">Découvrir la série</span></div>
       </article>
-      <article class="project-card" id="cap-creole-photos" data-project data-project-layout="custom" data-project-custom-template="tpl-cap-creole-photo" data-project-title="Cap Créole">
+      <!-- Conservée en cache pour une réactivation ultérieure dans la sélection Photos. -->
+      <article class="project-card" hidden id="cap-creole-photos" data-project data-project-layout="custom" data-project-custom-template="tpl-cap-creole-photo" data-project-title="Cap Créole">
         <div class="project-visual"><span class="project-badge">Produit · Extérieur</span><img src="/assets/projects/photos/cap-creole/thumbnail/cap-creole-burger.webp" alt="Cap Créole" loading="lazy"></div>
         <div class="project-body"><h3>Cap Créole</h3><p>Produit, territoire & mise en scène</p><span class="project-action">Découvrir la série</span></div>
       </article>
@@ -197,14 +200,6 @@
               <div><p>Avant</p><figure><img src="/assets/projects/social/cap-creole/avap2-avant-sipe.webp" alt="Avant — dégustation Sipé" loading="lazy"></figure></div>
               <span class="ccr-ap-arrow" aria-hidden="true">&rarr;</span>
               <div><p>Après</p><figure><img src="/assets/projects/social/cap-creole/avap2-apres-sipe.webp" alt="Après — dégustation Sipé" loading="lazy"></figure></div>
-            </div>
-          </div>
-          <div class="ccr-ap-card ccr-ap-card--pending">
-            <h4><span>3</span>Avant / Après — à compléter</h4>
-            <div class="ccr-ap-grid">
-              <div><p>Avant</p><figure class="ccr-ap-placeholder"><span>Visuel à venir</span></figure></div>
-              <span class="ccr-ap-arrow" aria-hidden="true">&rarr;</span>
-              <div><p>Après</p><figure class="ccr-ap-placeholder"><span>Visuel à venir</span></figure></div>
             </div>
           </div>
         </div>
@@ -404,7 +399,7 @@
   </section>
 </main>
 <button id="scroll-top-btn" aria-label="Retour en haut"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="18 15 12 9 6 15"/></svg></button>
-<script src="/js/components.js?v=97"></script>
+<script src="/js/components.js?v=101"></script>
 <script>initComponents('photos');document.body.style.paddingTop='0';</script>
 </body>
 </html>
