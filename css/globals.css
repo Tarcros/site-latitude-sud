@@ -390,20 +390,26 @@ p { line-height: 1.7; }
   z-index: 2;
 }
 
-/* Individual nav link */
+/* Individual nav link — au survol, la pastille verte se remplit et le texte
+   passe en blanc ; le soulignement reste pour l'onglet actif. */
 .ls-nav-link {
   font-family: var(--font-poppins); font-size: 13px; font-weight: 500;
   color: var(--color-black); text-decoration: none;
   position: relative; white-space: nowrap;
-  transition: color var(--dur) var(--ease);
+  padding: 7px 13px; border-radius: 999px;
+  transition: color var(--dur) var(--ease), background-color var(--dur) var(--ease);
 }
 .ls-nav-link::after {
-  content: ''; position: absolute; bottom: -3px; left: 0; right: 0;
+  content: ''; position: absolute; bottom: 1px; left: 13px; right: 13px;
   height: 1.5px; background: var(--color-olive);
   transform: scaleX(0); transform-origin: left;
-  transition: transform var(--dur) var(--ease);
+  transition: transform var(--dur) var(--ease), background-color var(--dur) var(--ease);
 }
-.ls-nav-link:hover       { color: var(--color-olive); }
+.ls-nav-link:hover {
+  color: #fff;
+  background: var(--color-olive);
+}
+.ls-nav-link:hover::after { background: #fff; }
 .ls-nav-link.active      { color: var(--color-black); }
 .ls-nav-link:hover::after,
 .ls-nav-link.active::after { transform: scaleX(1); }
@@ -593,26 +599,22 @@ p { line-height: 1.7; }
 .ls-project-cta {
   position: relative;
   overflow: hidden;
-  padding: 34px var(--gutter);
-  background: var(--color-white);
+  background: #F5EEE6;
+  border-top: 1px solid #E9E2D9;
 }
 .ls-project-cta__inner {
   width: min(1400px, 100%);
-  min-height: 280px;
+  min-height: 330px;
   margin: 0 auto;
-  padding: 32px clamp(28px, 3vw, 48px) 0;
+  padding: 48px var(--gutter) 0;
   display: grid;
-  grid-template-columns: minmax(270px, 390px) auto minmax(340px, 1fr);
+  grid-template-columns: minmax(250px, 370px) auto minmax(300px, 1fr);
   align-items: center;
   gap: clamp(22px, 3.4vw, 58px);
-  overflow: hidden;
-  border: 1px solid #E9E2D9;
-  border-radius: 16px;
-  background: #F5EEE6;
 }
 .ls-project-cta__copy {
   align-self: center;
-  padding-bottom: 30px;
+  padding-bottom: 46px;
 }
 .ls-project-cta__copy h2 {
   margin: 0 0 10px;
@@ -632,14 +634,14 @@ p { line-height: 1.7; }
 .ls-project-cta__button {
   justify-self: start;
   align-self: center;
-  margin-bottom: 30px;
+  margin-bottom: 46px;
   white-space: nowrap;
 }
 .ls-project-cta__visual {
   position: relative;
   align-self: end;
   min-width: 0;
-  height: 248px;
+  height: 280px;
   overflow: hidden;
 }
 .ls-project-cta__visual img {
@@ -652,11 +654,19 @@ p { line-height: 1.7; }
   object-fit: contain;
   object-position: right bottom;
 }
+/* Visuel panoramique (accueil) : il file jusqu'au bord droit du bandeau au
+   lieu de s'arrêter sur la gouttière, sinon une bande vide reste à droite. */
+.ls-project-cta__visual--landscape {
+  margin-right: calc(var(--gutter) * -1);
+  overflow: visible;
+}
 .ls-project-cta__visual--landscape img {
   width: 100%;
-  height: auto;
-  max-width: 100%;
+  height: 100%;
+  max-width: none;
   right: 0;
+  object-fit: contain;
+  object-position: right bottom;
 }
 
 /* ── MARINA BAS-DU-FORT CASE STUDY ───────────────────────── */
@@ -4700,14 +4710,14 @@ img.arc-palmier-icon { object-fit: contain; }
   .ls-footer-bottom-links { justify-content: center; }
   .ls-clients-grid { padding: 40px 40px; gap: 32px 48px; }
   .ls-project-cta__inner {
-    min-height: 270px;
+    min-height: 300px;
     grid-template-columns: minmax(230px, 320px) auto minmax(240px, 1fr);
     gap: 22px;
     padding-inline: 28px;
   }
   .ls-project-cta__copy { padding-bottom: 34px; }
   .ls-project-cta__button { margin-bottom: 34px; }
-  .ls-project-cta__visual { height: 230px; }
+  .ls-project-cta__visual { height: 250px; }
 }
 
 /* Bascule vers le menu mobile dès 1024px : en dessous, logo + nav + icônes
@@ -4754,11 +4764,11 @@ img.arc-palmier-icon { object-fit: contain; }
     min-height: 0;
     grid-template-columns: 1fr;
     gap: 18px;
-    padding: 38px 24px 0;
+    padding: 46px 24px 0;
   }
   .ls-project-cta__copy { padding-bottom: 0; }
   .ls-project-cta__button { margin: 0; padding-bottom: 0; }
-  .ls-project-cta__visual { width: min(620px, 100%); height: clamp(180px, 46vw, 260px); justify-self: center; }
+  .ls-project-cta__visual { width: min(520px, 100%); height: 230px; justify-self: end; }
   .marina-case-modal { padding: 8px; }
   .marina-case-dialog { max-height: calc(100vh - 16px); }
   .marina-case-content { padding: 54px 22px 34px; }

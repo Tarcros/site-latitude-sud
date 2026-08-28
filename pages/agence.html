@@ -28,7 +28,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/css/globals.css?v=169">
+  <link rel="stylesheet" href="/css/globals.css?v=173">
   <link rel="stylesheet" href="/css/hero-wave.css?v=3">
 
   <script type="application/ld+json">
@@ -97,6 +97,15 @@
     .story-visual img { object-fit: contain; object-position: center; }
     .story-visual::after { content: ''; position: absolute; inset: 0; border: 1px solid rgba(26,26,26,.08); pointer-events: none; }
     .story-text { order: 1; }
+    /* Sans visuel : le texte occupe toute la largeur, en deux colonnes pour
+       éviter des lignes trop longues et garder une lecture confortable. */
+    .story-section--sans-visuel .story-inner { grid-template-columns: 1fr; gap: 0; }
+    .story-section--sans-visuel .story-text { max-width: none; }
+    .story-section--sans-visuel .story-text h2 { max-width: 18ch; }
+    .story-section--sans-visuel .story-text p { columns: 2; column-gap: clamp(38px, 5vw, 80px); }
+    @media (max-width: 860px) {
+      .story-section--sans-visuel .story-text p { columns: 1; }
+    }
     .story-text .section-surtitle { text-align: left; }
     .story-text h2 { font-family: 'Poppins', sans-serif; font-weight: 500; font-size: clamp(32px, 4vw, 52px); color: #1A1A1A; line-height: 1.12; margin-bottom: 28px; letter-spacing: 0; }
     .story-text p { font-family: 'Poppins', sans-serif; font-size: 15px; color: var(--color-gray-dark); line-height: 1.85; margin-bottom: 18px; }
@@ -166,13 +175,8 @@
     <div class="hero-wave" data-hero-wave aria-hidden="true"></div>
   </section>
 
-  <section class="story-section" aria-labelledby="story-heading">
+  <section class="story-section story-section--sans-visuel" aria-labelledby="story-heading">
     <div class="story-inner">
-      <div class="story-visual reveal">
-        <picture>
-          <img src="/assets/global/illustrations/agence/agence-collaboration-guadeloupe.webp" alt="Équipe créative Latitude Sud travaillant ensemble en Guadeloupe" loading="lazy" decoding="async">
-        </picture>
-      </div>
       <div class="story-text reveal reveal-delay-1">
         <span class="section-surtitle">Notre histoire</span>
         <h2 id="story-heading">Une agence ancrée<br>dans le <span class="ls-accent">vrai.</span></h2>
@@ -234,7 +238,7 @@
   </svg>
 </button>
 
-  <script src="/js/components.js?v=114"></script>
+  <script src="/js/components.js?v=115"></script>
 <script>
   initComponents('agence');
   document.body.style.paddingTop = '0';

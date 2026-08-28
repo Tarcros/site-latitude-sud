@@ -57,7 +57,6 @@ function initHeroWaves(activePage) {
   const wavePath = 'M3808.73,124.82v4687.56H0V124.82c136.05-33.32,289.72-38.15,429.73-29.41,260.42,10.44,505.18,153.29,769.12,126.73,250.79-13.48,331.33-143.24,546.07-200.65,423.08-102.86,512.96,196.66,894.4,202.69,247.88,12.59,480.49-117.95,725.76-128.72,147.16-10.52,300.1-5.11,443.65,29.36Z';
 
   document.querySelectorAll('.hero-wave').forEach((wave, index) => {
-    const arcId = `ls-hero-wave-arc-${index}`;
     wave.dataset.heroWave = '';
     wave.setAttribute('aria-hidden', 'true');
     wave.innerHTML = `
@@ -65,12 +64,6 @@ function initHeroWaves(activePage) {
         <path class="hero-wave-surface" d="${wavePath}"></path>
       </svg>
       <div class="hero-wave-mark">
-        <svg class="hero-wave-mark__arc" viewBox="0 0 186 116" focusable="false">
-          <defs><path id="${arcId}" d="M 22,100 A 70,70 0 0,1 164,100"></path></defs>
-          <text font-family="Poppins, sans-serif" font-size="8" fill="#56522d" letter-spacing="2.2" font-weight="500">
-            <textPath href="#${arcId}" startOffset="50%" text-anchor="middle">CRÉATION • STRATÉGIE • DIGITAL</textPath>
-          </text>
-        </svg>
         <img class="hero-wave-mark__palm" src="/assets/global/icons/ui/icon-ui-cocotier.svg" alt="" decoding="async">
       </div>`;
   });
@@ -105,10 +98,10 @@ function renderHeader(activePage) {
           Réalisations <span class="ls-nav-caret" aria-hidden="true">▾</span>
         </a>
         <div class="ls-nav-dropdown-menu" role="menu">
-          <a href="/pages/photos.html" role="menuitem">Photos</a>
-<a href="/pages/charte-graphique.html" role="menuitem">Identité de marque</a>
+          <a href="/pages/photos.html" role="menuitem">Photographies</a>
+          <a href="/pages/charte-graphique.html" role="menuitem">Identité de marque</a>
           <a href="/pages/social.html" role="menuitem">Réseaux Sociaux</a>
-          <a href="/pages/catalogue.html" role="menuitem">Catalogue</a>
+          <a href="/pages/catalogue.html" role="menuitem">Catalogues</a>
         </div>
       </div>
 
@@ -169,10 +162,10 @@ function renderHeader(activePage) {
   <a href="/index.html">Accueil</a>
   <a href="/pages/agence.html">Agence</a>
   <a href="/pages/realisations.html">Réalisations</a>
-  <a href="/pages/photos.html"       class="ls-mobile-sub">Photos</a>
-<a href="/pages/charte-graphique.html" class="ls-mobile-sub">Identité de marque</a>
+  <a href="/pages/photos.html"       class="ls-mobile-sub">Photographies</a>
+  <a href="/pages/charte-graphique.html" class="ls-mobile-sub">Identité de marque</a>
   <a href="/pages/social.html"       class="ls-mobile-sub">Réseaux Sociaux</a>
-  <a href="/pages/catalogue.html"    class="ls-mobile-sub">Catalogue</a>
+  <a href="/pages/catalogue.html"    class="ls-mobile-sub">Catalogues</a>
   <a href="/pages/contact.html">Contact</a>
   <a href="/pages/contact.html" class="btn btn-primary btn-arrow ls-mobile-cta">
     Nous contacter
@@ -283,10 +276,10 @@ function renderFooter() {
 
     <div class="ls-footer-expertises-col">
       <p class="ls-footer-col-title">Expertises</p>
-      <a href="/pages/photos.html">Photos</a>
-<a href="/pages/charte-graphique.html">Identité de marque</a>
+      <a href="/pages/photos.html">Photographies</a>
+      <a href="/pages/charte-graphique.html">Identité de marque</a>
       <a href="/pages/social.html">Réseaux Sociaux</a>
-      <a href="/pages/catalogue.html">Catalogue</a>
+      <a href="/pages/catalogue.html">Catalogues</a>
     </div>
 
     <div class="ls-footer-contact-col">

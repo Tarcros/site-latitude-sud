@@ -42,7 +42,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link rel="stylesheet" href="/css/globals.css?v=169">
+  <link rel="stylesheet" href="/css/globals.css?v=173">
 <link rel="stylesheet" href="/css/hero-wave.css?v=3">
 
   <!-- Structured data — Organization / LocalBusiness for SEO & AI discovery -->
@@ -532,89 +532,9 @@
       margin-top: 4px;
     }
 
-    /* Home CTA: compact horizontal banner matching the reference layout. */
-    .home-cta {
-      padding: 0 24px 26px;
-      background: transparent;
-      border-top: 0;
-      overflow: visible;
-    }
-    .home-cta .ls-project-cta__inner {
-      width: min(1660px, 100%);
-      min-height: 108px;
-      padding: 0 72px 0 112px;
-      grid-template-columns: minmax(210px, 250px) minmax(170px, 190px) minmax(420px, 1fr);
-      gap: 30px;
-      background: #F5EEE6;
-      border-radius: 7px;
-      overflow: visible;
-      position: relative;
-    }
-    .home-cta .ls-project-cta__copy {
-      padding-bottom: 0;
-      position: relative;
-      z-index: 3;
-    }
-    .home-cta .ls-project-cta__copy h2 {
-      margin-bottom: 4px;
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(20px, 1.45vw, 26px);
-      font-weight: 500;
-      line-height: 1.15;
-    }
-    .home-cta .ls-project-cta__copy p {
-      max-width: 250px;
-      font-size: 10px;
-      line-height: 1.45;
-    }
-    .home-cta .ls-project-cta__button {
-      margin: 0;
-      justify-self: start;
-      font-size: 10px;
-      padding: 11px 16px;
-      position: relative;
-      z-index: 3;
-    }
-    .home-cta .ls-project-cta__visual {
-      height: 128px;
-      overflow: visible;
-      z-index: 2;
-    }
-    .home-cta .ls-project-cta__visual--landscape img {
-      width: 115%;
-      height: auto;
-      right: 0;
-      bottom: -1px;
-      max-width: none;
-      object-fit: contain;
-      object-position: right bottom;
-    }
-    @media (max-width: 1024px) {
-      .home-cta { padding-inline: 18px; }
-      .home-cta .ls-project-cta__inner {
-        min-height: 112px;
-        padding-inline: 48px;
-        grid-template-columns: minmax(190px, 1fr) minmax(160px, 190px) minmax(300px, 1.2fr);
-        gap: 20px;
-      }
-      .home-cta .ls-project-cta__visual { height: 132px; }
-      .home-cta .ls-project-cta__visual--landscape img { width: 104%; }
-    }
-    @media (max-width: 768px) {
-      .home-cta { padding: 0 12px 18px; overflow: hidden; }
-      .home-cta .ls-project-cta__inner {
-        min-height: 0;
-        padding: 28px 24px 0;
-        grid-template-columns: 1fr;
-        gap: 16px;
-      }
-      .home-cta .ls-project-cta__button { justify-self: start; }
-      .home-cta .ls-project-cta__visual { height: 190px; }
-      .home-cta .ls-project-cta__visual--landscape img {
-        width: 118%;
-        right: -8%;
-      }
-    }
+    /* L'accueil réutilise tel quel le CTA partagé (.ls-project-cta) : mêmes
+       proportions, même typographie et même visuel que sur les pages
+       Catalogues, Photographies… Aucune surcharge locale. */
 
     /* ── RESPONSIVE ── */
     @media (min-width: 1600px) {
@@ -964,7 +884,7 @@
   </svg>
 </button>
 
-<script src="/js/components.js?v=114"></script>
+<script src="/js/components.js?v=115"></script>
 <script>
   initComponents('accueil');
   document.body.style.paddingTop = '0';
