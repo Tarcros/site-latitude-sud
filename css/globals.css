@@ -1886,9 +1886,14 @@ p { line-height: 1.7; }
 .bonnes-evolution-grid img,
 .bonnes-system-grid img,
 .bonnes-application-grid img { width: 100%; height: auto; display: block; }
+/* Hauteur fixe de 260 px : les deux logos (1.45:1 et 1.78:1) flottaient dans
+   un cadre en 2.3:1, avec près de 60 % de vide sur les côtés. Un ratio proche
+   de celui des sources les fait respirer sans les déformer ni les recadrer. */
 .bonnes-evolution-grid img {
   background: #F6F0DC;
-  height: 260px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
   object-fit: contain;
 }
 .bonnes-system-grid img { background: #FFF; }
@@ -2117,9 +2122,12 @@ p { line-height: 1.7; }
   aspect-ratio: 1;
   overflow: hidden;
 }
+/* Les motifs sont des aplats répétitifs en 1.41:1 : « contain » les
+   laissait flotter au milieu d'un cadre carré avec de grandes bandes vides.
+   « cover » remplit la tuile sans rien perdre de lisible. */
 .bonnes-bsys__pattern--tile {
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
@@ -5005,9 +5013,15 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
 #scroll-top-btn.ls-raised { bottom: 88px; }
 
 /* ── LE PRESSING CASE STUDY ──────────────────────────────────────────── */
+/* Contrairement au hero CIST (fond blanc, à fleur de page), celui-ci est un
+   bloc de couleur : il lui faut ses propres marges intérieures, sinon le texte
+   vient coller le bord. */
 .pressing-case-hero {
   background: #133246;
-  grid-template-columns: minmax(0, 1.2fr) minmax(260px, .8fr);
+  grid-template-columns: minmax(0, 1.2fr) minmax(240px, .78fr);
+  align-items: center;
+  gap: clamp(32px, 5vw, 72px);
+  padding: clamp(36px, 4.4vw, 60px) clamp(28px, 4vw, 56px);
   color: #fff;
 }
 .pressing-case-badge {
@@ -5342,8 +5356,10 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
   letter-spacing:.05em; text-decoration:none; text-transform:uppercase; transition:transform .2s ease,background .2s ease;
 }
 .lbe-final-cta__button:hover { transform:translateY(-2px); background:#bd171f; }
-.lbe-final-cta__visual { min-height:360px; height:clamp(380px,30vw,450px); }
-.lbe-final-cta__visual img { width:100%; height:100%; object-fit:cover; object-position:center 42%; }
+/* La hauteur suit celle de la colonne texte : une hauteur fixe laissait une
+   bande crème sous l'image quand le texte était plus haut. */
+.lbe-final-cta__visual { min-height:clamp(340px,28vw,420px); height:100%; align-self:stretch; }
+.lbe-final-cta__visual img { width:100%; height:100%; object-fit:cover; object-position:center 42%; display:block; }
 
 /* 09 — Bande de fin de projet compacte. */
 .lbe-project-footer { min-height:112px; padding:22px clamp(24px,5vw,82px); background:var(--lbe-black); }
@@ -5986,7 +6002,7 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
 .ccr-stats__heading { text-align:center; }
 .ccr-social .ccr-stats .ccr-kicker { color:#fff; }
 .ccr-social .ccr-stats h2 { color:#fff; }
-.ccr-social .ccr-stats-row { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; margin-top:30px; }
+.ccr-social .ccr-stats-row { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; margin-top:30px; }
 .ccr-social .ccr-stats-row > div {
   min-width:0; padding:24px 18px; border:1px solid rgba(255,255,255,.18); border-radius:18px;
   background:rgba(255,255,255,.08); box-shadow:inset 0 1px rgba(255,255,255,.12); backdrop-filter:blur(8px);

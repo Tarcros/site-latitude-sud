@@ -873,7 +873,7 @@ function initMarinaProject() {
       <div class="marina-case-content">
         <header class="marina-case-hero">
           <div>
-            <span class="marina-case-badge">Charte graphique</span>
+            <span class="marina-case-badge">Identité de marque</span>
             <h2 id="marina-case-title">Marina Bas-du-Fort</h2>
             <p>Une identité repensée pour moderniser l’image de la Marina sans perdre ses repères essentiels. Voile, horizon et bleu du littoral sont conservés, puis simplifiés et structurés pour créer un système plus lisible, plus cohérent et plus facile à déployer.</p>
             <span class="marina-case-meta"></span>
@@ -1109,7 +1109,7 @@ function initCistProject() {
       <div class="cist-case-content">
         <header class="cist-case-hero">
           <div>
-            <span class="cist-case-badge">Charte graphique</span>
+            <span class="cist-case-badge">Identité de marque</span>
             <h2 id="cist-case-title">CIST 971</h2>
             <p>Une identité plus claire pour une mission essentielle.Le CIST accompagne entreprises et salariés autour des enjeux de santé au travail. Latitude Sud a repensé son identité pour la rendre plus lisible, plus humaine et plus adaptée à la diversité de ses missions et de ses points de contact.</p>
             <span class="cist-case-meta">Logo · Identité visuelle · Système graphique · Direction photo · Supports · Digital</span>
@@ -1775,7 +1775,7 @@ function initPressingProject() {
             </article>
             <article class="pressing-brief-card pressing-brief-card--accent">
               <h4>Orientation</h4>
-              <ul><li>* Adaptable</li><li>Typographique</li><li>Sobre</li></ul>
+              <ul><li>Adaptable</li><li>Typographique</li><li>Sobre</li></ul>
             </article>
             <article class="pressing-brief-card pressing-brief-card--wide">
               <h4>Objectif</h4>
@@ -2459,9 +2459,9 @@ const CATALOGUE_SERVICES_DEFAULT = {
   title: 'Une édition maîtrisée de bout en bout.',
   text: 'Chaque catalogue mobilise une chaîne de production complète, de l’organisation de l’offre jusqu’au déploiement final.',
   items: [
-    { title: 'Structure éditoriale', text: 'Organisation des univers, hiérarchisation des offres et construction du chemin de lecture.' },
-    { title: 'Direction graphique', text: 'Création des maquettes, mise en page et valorisation visuelle des produits.' },
-    { title: 'Exécution &amp; prépresse', text: 'Déclinaisons des pages, contrôles techniques et préparation des fichiers destinés à l’impression.' },
+    { title: 'Structure éditoriale', text: 'Organisation des univers, hiérarchisation des produits et construction du parcours de lecture.' },
+    { title: 'Direction graphique', text: 'Définition de l’univers de l’édition, création des maquettes et mise en valeur des produits.' },
+    { title: 'Exécution &amp; prépresse', text: 'Déclinaison des pages, contrôle des informations, vérifications techniques et préparation des fichiers d’impression.' },
     { title: 'Campagnes digitales', text: 'Adaptation de la campagne aux formats sociaux et publicitaires pour prolonger l’opération au-delà du print.' }
   ]
 };
@@ -2706,9 +2706,9 @@ const CATALOGUE_CASE_STUDIES = {
       kicker: 'Notre accompagnement', title: 'Une édition maîtrisée de bout en bout.',
       text: 'Nous accompagnons chaque édition de sa structuration éditoriale jusqu’à son déploiement sur les supports visibles en magasin.',
       items: [
-        { title: 'Structure éditoriale', text: 'Organisation des univers, hiérarchisation des offres et construction du chemin de lecture.' },
-        { title: 'Direction graphique', text: 'Création des maquettes, mise en page et valorisation visuelle des produits.' },
-        { title: 'Exécution &amp; prépresse', text: 'Déclinaisons des pages, contrôles techniques et préparation des fichiers destinés à l’impression.' },
+        { title: 'Structure éditoriale', text: 'Organisation des univers, hiérarchisation des produits et construction du parcours de lecture.' },
+        { title: 'Direction graphique', text: 'Définition de l’univers de l’édition, création des maquettes et mise en valeur des produits.' },
+        { title: 'Exécution &amp; prépresse', text: 'Déclinaison des pages, contrôle des informations, vérifications techniques et préparation des fichiers d’impression.' },
         { title: 'Déploiement magasin', text: 'Adaptation des temps forts catalogue aux kakémonos, écrans et formats de communication sur le lieu de vente.' }
       ]
     },
