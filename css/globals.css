@@ -47,6 +47,7 @@
 
   --max-width: 1480px;
   --gutter:    clamp(24px, 8vw, 120px);
+  --content-edge: max(24px, calc((100% - var(--max-width)) / 2 + 40px));
   --col-gap:   24px;
 
   --shadow-card:  0 4px 24px rgba(0,0,0,0.07);

@@ -28,8 +28,8 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/css/globals.css?v=181">
-  <link rel="stylesheet" href="/css/hero-wave.css?v=5">
+  <link rel="stylesheet" href="/css/globals.css?v=183">
+  <link rel="stylesheet" href="/css/hero-wave.css?v=6">
 
   <script type="application/ld+json">
   {
@@ -45,9 +45,10 @@
   <style>
     /* ── HERO — même image que la home ── */
     .hero {
+      --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-agence-1920.webp?v=7');
       position: relative; width: 100%;
-      min-height: max(400px, min(34svh, 470px));
-      background-image: url('/assets/global/backgrounds/image-bg/generated/hero-agence-1920.webp?v=7');
+      min-height: clamp(500px, 46svh, 620px);
+      background-image: var(--hero-image);
       background-size: cover; background-position: 12% bottom; background-repeat: no-repeat;
       display: flex; flex-direction: column;
       background-color: #FAF9F7;
@@ -56,7 +57,7 @@
       position: relative; z-index: 2;
       display: flex; flex-direction: column; align-items: flex-start;
       text-align: left;
-      width: min(830px, calc(100% - 48px)); max-width: none; margin: 0 0 0 max(24px, calc((100% - var(--max-width)) / 2 + 40px));
+      width: min(880px, calc(100% - 48px)); max-width: none; margin: 0 0 0 var(--content-edge);
       padding: clamp(78px, 8.4vh, 96px) 0 clamp(84px, 9vh, 104px);
     }
     .hero-surtitle {
@@ -80,14 +81,14 @@
     }
     /* Chapô devenu bien plus long : on le garde dans la zone claire de
        l'illustration, à gauche du personnage, sinon il devient illisible. */
-    .hero-h1--long ~ .hero-desc { max-width: 540px; line-height: 1.65; }
+    .hero-h1--long ~ .hero-desc { max-width: 700px; line-height: 1.65; }
 
     .hero-wave { position: absolute; bottom: 0; left: 0; width: 100%; line-height: 0; z-index: 3; pointer-events: none; }
     .hero-wave > svg.wave-bg { display: block; width: 100%; height: clamp(64px, 5.6vw, 88px); }
 
     /* ── MANIFESTE / NOTRE HISTOIRE ── */
-    .story-section { background: var(--color-white); padding: 52px 0 76px; }
-    .story-inner { max-width: 1320px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.25fr); gap: clamp(54px, 7vw, 110px); align-items: center; padding: 0 var(--gutter); }
+    .story-section { background: var(--color-white); padding: 68px 0 62px; }
+    .story-inner { width: calc(100% - (2 * var(--content-edge))); max-width: none; margin: 0 var(--content-edge); display: grid; grid-template-columns: 1fr; gap: 0; align-items: center; padding: 0; }
     .story-visual { position: relative; order: 2; overflow: hidden; aspect-ratio: 16 / 9; background: var(--color-cream); box-shadow: 0 22px 58px rgba(26,26,26,0.10); }
     .story-visual picture, .story-visual img { width: 100%; height: 100%; display: block; }
     .story-visual img { object-fit: contain; object-position: center; }
@@ -98,7 +99,7 @@
        en deux laissait des lignes orphelines flottant à droite. */
     .story-section--sans-visuel .story-inner { grid-template-columns: 1fr; gap: 0; }
     .story-section--sans-visuel .story-text { max-width: none; }
-    .story-section--sans-visuel .story-text p { max-width: 74ch; }
+    .story-section--sans-visuel .story-text p { max-width: none; }
     .story-text .section-surtitle { text-align: left; }
     .story-text h2 { font-family: 'Poppins', sans-serif; font-weight: 500; font-size: clamp(32px, 4vw, 52px); color: #1A1A1A; line-height: 1.12; margin-bottom: 28px; letter-spacing: 0; }
     .story-text p { font-family: 'Poppins', sans-serif; font-size: 15px; color: var(--color-gray-dark); line-height: 1.85; margin-bottom: 18px; }
@@ -107,7 +108,7 @@
     .story-sign-name { font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 700; color: #1A1A1A; }
     .story-sign-role { font-family: 'Poppins', sans-serif; font-size: 12px; color: var(--color-gray-mid); }
 
-    .stats-band { background: var(--color-olive); padding: 64px var(--gutter); }
+    .stats-band { background: var(--color-olive); padding: 50px var(--gutter); }
     .stats-inner { max-width: 1080px; margin: 0 auto; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; text-align: center; }
     .stat-num { font-family: 'Poppins', sans-serif; font-weight: 700; font-size: clamp(32px, 4vw, 48px); color: #fff; line-height: 1; margin-bottom: 8px; }
     .stat-num em { font-family: 'Playfair Display', serif; font-style: italic; font-weight: 400; color: #F5E3D0; }
@@ -136,14 +137,21 @@
     @media (max-width: 1000px) { .values-grid { grid-template-columns: repeat(2, 1fr); } .approach-grid { grid-template-columns: repeat(2, 1fr); gap: 40px 24px; } }
     @media (min-width: 2200px) { .hero { background-image: url('/assets/global/backgrounds/image-bg/generated/hero-agence-1920.webp?v=7'), url('/assets/global/backgrounds/image-bg/generated/hero-agence-edge-1920.webp?v=2'); background-position: left bottom; background-size: auto 100%, 100% 100%; } }
     @media (max-width: 1200px) {
-      .hero { min-height: clamp(500px, 56vw, 640px); max-height: none; background-image: url('/assets/global/backgrounds/image-bg/generated/hero-agence-960.webp?v=7'); background-position: center bottom; background-size: cover; }
+      .hero { --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-agence-960.webp?v=7'); min-height: clamp(500px, 56vw, 640px); max-height: none; background-image: var(--hero-image); background-position: center bottom; background-size: cover; }
       .hero-content { align-items: center; text-align: center; width: 100%; max-width: 620px; margin: 0 auto; padding: 88px 24px 0; }
       .hero-desc { margin-left: auto; margin-right: auto; }
       .hero-h1 { font-size: 36px; line-height: 1.04; margin-bottom: 20px; }
       .hero-desc { font-size: 14px; line-height: 1.6; }
     }
-    @media (max-width: 768px) { .story-inner { grid-template-columns: 1fr; gap: 40px; } .story-text { order: 1; } .story-visual { order: 2; aspect-ratio: 16 / 9; } }
-    @media (max-width: 560px) { .stats-inner { grid-template-columns: 1fr; } .values-grid { grid-template-columns: 1fr; } .approach-grid { grid-template-columns: 1fr; } }
+    @media (max-width: 768px) { .story-section { padding-top: 58px; } .story-inner { width: calc(100% - 48px); margin-inline: 24px; grid-template-columns: 1fr; gap: 40px; } .story-text { order: 1; } .story-visual { order: 2; aspect-ratio: 16 / 9; } }
+    @media (max-width: 560px) {
+      .hero-content { padding-top: 80px; }
+      .hero-h1 { font-size: clamp(29px, 8.2vw, 32px); }
+      .hero-desc { font-size: 13px; line-height: 1.5; }
+      .stats-inner { grid-template-columns: 1fr; }
+      .values-grid { grid-template-columns: 1fr; }
+      .approach-grid { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
@@ -231,7 +239,7 @@
   </svg>
 </button>
 
-  <script src="/js/components.js?v=117"></script>
+  <script src="/js/components.js?v=118"></script>
 <script>
   initComponents('agence');
   document.body.style.paddingTop = '0';
