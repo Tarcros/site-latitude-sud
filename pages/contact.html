@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#FAF9F7">
 
-  <title>Contact — Latitude Sud | Agence de communication en Guadeloupe</title>
+  <title>Contact — Latitude Sud | Agence créative caribéenne</title>
   <meta name="description" content="Contactez Latitude Sud, agence de communication en Guadeloupe. Parlons de votre projet vidéo, print, réseaux sociaux ou web — réponse sous 48h.">
   <meta name="keywords" content="contact agence communication Guadeloupe, devis, Latitude Sud, Baie-Mahault, projet communication">
   <meta name="robots" content="index, follow">
@@ -26,7 +26,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="/css/globals.css?v=166">
-  <link rel="stylesheet" href="/css/hero-wave.css?v=2">
+  <link rel="stylesheet" href="/css/hero-wave.css?v=3">
 
   <script type="application/ld+json">
   {
@@ -64,8 +64,7 @@
     .hero-h1 { font-family: 'Poppins', sans-serif; font-weight: 600; font-size: clamp(36px, 5vw, 58px); color: #1A1A1A; line-height: 1.1; letter-spacing: 0; margin-bottom: 24px; }
     .hero-desc { font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 400; color: #1A1A1A; line-height: 1.85; max-width: 520px; margin: 0 0 56px; }
 
-    .hero-wave { position: absolute; bottom: 0; left: 0; width: 100%; line-height: 0; z-index: 3; pointer-events: none; animation: waveSlideUp 0.8s var(--ease) 0.3s both; }
-    @keyframes waveSlideUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+    .hero-wave { position: absolute; bottom: 0; left: 0; width: 100%; line-height: 0; z-index: 3; pointer-events: none; }
     .hero-wave > svg.wave-bg { display: block; width: 100%; height: 120px; }
     .wave-cocotier { position: absolute; bottom: -20px; left: 50%; transform: translateX(-50%); z-index: 5; width: 200px; height: 140px; pointer-events: none; }
     .wave-cocotier .arc-text-svg { position: absolute; top: 0; left: 0; }
@@ -131,7 +130,7 @@
     <div class="hero-inner">
       <p class="hero-surtitle">Contact</p>
       <h1 class="hero-h1" id="contact-h1">Parlons de votre <span class="ls-accent">projet.</span></h1>
-      <p class="hero-desc">Une idée en tête, une marque à faire rayonner, une simple question ? Écrivez-nous : on vous répond vite, et avec le sourire.</p>
+      <p class="hero-desc">Lancement, image de marque, campagne, contenus, présence digitale ou besoin plus ponctuel : partagez-nous votre objectif, votre contexte et vos enjeux. Nous vous aiderons à construire la réponse la plus juste.</p>
     </div>
 
     <div class="hero-wave" data-hero-wave aria-hidden="true"></div>
@@ -140,8 +139,8 @@
   <section class="contact-section">
     <div class="contact-inner">
       <div class="contact-form-wrap reveal">
-        <h2>Envoyez-nous un message</h2>
-        <p class="form-sub">Remplissez le formulaire, nous revenons vers vous sous 48h.</p>
+        <h2>Parlez-nous de votre projet</h2>
+        <p class="form-sub">Quelques lignes suffisent pour commencer. Partagez-nous votre contexte, votre objectif ou simplement ce que vous avez en tête. Nous revenons vers vous sous 48h</p>
         <form id="contact-form" action="https://formsubmit.co/regis.malotaux@latitudesud.gp" method="POST" novalidate>
           <input type="hidden" name="_subject" value="Nouvelle demande depuis latitudesud.gp">
           <input type="hidden" name="_template" value="table">
@@ -153,9 +152,9 @@
           </div>
           <div class="form-row-2">
             <div class="form-row"><label class="form-label" for="cf-phone">Téléphone</label><input class="form-input" type="tel" id="cf-phone" name="phone" placeholder="+590 ..." autocomplete="tel" aria-describedby="cf-phone-error"><p class="form-error" id="cf-phone-error" data-for="cf-phone">Numéro non valide.</p></div>
-            <div class="form-row"><label class="form-label" for="cf-subject">Votre besoin <span class="req">*</span></label><select class="form-select" id="cf-subject" name="subject" required aria-describedby="cf-subject-error"><option value="">Choisir…</option><option value="photos">Photos</option><option value="charte">Charte graphique</option><option value="social">Réseaux Sociaux</option><option value="catalogue">Catalogue</option><option value="autre">Autre / Plusieurs</option></select><p class="form-error" id="cf-subject-error" data-for="cf-subject">Merci de sélectionner un besoin.</p></div>
+            <div class="form-row"><label class="form-label" for="cf-subject">Votre projet concerne <span class="req">*</span></label><select class="form-select" id="cf-subject" name="subject" required aria-describedby="cf-subject-error"><option value="">Choisir…</option><option value="campagnes">Campagnes</option><option value="photos">Photographie</option><option value="charte">Identités de marque</option><option value="social">Réseaux sociaux</option><option value="catalogue">Catalogues</option><option value="plusieurs">Plusieurs expertises</option><option value="autre">Autre</option></select><p class="form-error" id="cf-subject-error" data-for="cf-subject">Merci de sélectionner un besoin.</p></div>
           </div>
-          <div class="form-row"><label class="form-label" for="cf-message">Message <span class="req">*</span></label><textarea class="form-textarea" id="cf-message" name="message" placeholder="Parlez-nous de votre projet…" required minlength="10" aria-describedby="cf-message-error"></textarea><p class="form-error" id="cf-message-error" data-for="cf-message">Merci d'écrire quelques mots (10 caractères min.).</p></div>
+          <div class="form-row"><label class="form-label" for="cf-message">Votre projet <span class="req">*</span></label><textarea class="form-textarea" id="cf-message" name="message" placeholder="Parlez-nous de votre projet…" required minlength="10" aria-describedby="cf-message-error"></textarea><p class="form-error" id="cf-message-error" data-for="cf-message">Merci d'écrire quelques mots (10 caractères min.).</p></div>
           <div class="form-submit-row"><button type="submit" class="btn btn-primary btn-arrow">Envoyer le message</button><div class="form-feedback" id="form-feedback" role="status" aria-live="polite"></div></div>
         </form>
       </div>
@@ -163,7 +162,7 @@
       <div class="contact-info reveal reveal-delay-1">
         <span class="section-surtitle">Coordonnées</span>
         <h2>Venez nous <span class="ls-accent">rencontrer.</span></h2>
-        <p>Notre studio est basé à Baie-Mahault, au cœur de la Guadeloupe. Un café et une bonne idée vous y attendent.</p>
+        <p>Latitude Sud est installée à Baie-Mahault. Passez nous voir, appelez-nous ou écrivez-nous : les bons projets commencent souvent par un premier échange.</p>
         <div class="info-item"><div class="info-ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="info-label">Adresse</div><div class="info-value">1<sup>er</sup> étage, Imm. Le Sommet<br>Rue Fulton, Baie-Mahault 97122</div></div></div>
         <div class="info-item"><div class="info-ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div><div><div class="info-label">Téléphone</div><div class="info-value"><a href="tel:+590590922948">+590 590 92 29 48</a></div></div></div>
         <div class="info-item"><div class="info-ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></div><div><div class="info-label">Email</div><div class="info-value"><a href="mailto:regis.malotaux@latitudesud.gp">regis.malotaux@latitudesud.gp</a></div></div></div>
@@ -182,7 +181,7 @@
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="18 15 12 9 6 15"/></svg>
 </button>
 
-  <script src="/js/components.js?v=107"></script>
+  <script src="/js/components.js?v=112"></script>
 <script>
   initComponents('contact');
   document.body.style.paddingTop = '0';

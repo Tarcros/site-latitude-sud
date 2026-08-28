@@ -90,7 +90,7 @@ function renderHeader(activePage) {
            class="ls-logo-badge" width="50" height="50">
       <div class="ls-logo-text">
         <span class="ls-logo-name">Latitude Sud</span>
-        <span class="ls-logo-sub">Agence de communication</span>
+        <span class="ls-logo-sub">Agence de communication caribéenne</span>
       </div>
     </a>
 
@@ -270,7 +270,7 @@ function renderFooter() {
     <div class="ls-footer-brand">
       <div class="ls-logo-badge-div" aria-label="Logo Latitude Sud">SUD</div>
       <p class="ls-footer-agency-name">Latitude Sud</p>
-      <p class="ls-footer-agency-sub">Agence de communication<br>en Guadeloupe</p>
+      <p class="ls-footer-agency-sub">Agence créative caribéenne</p>
     </div>
 
     <div class="ls-footer-nav-col">
@@ -875,14 +875,14 @@ function initMarinaProject() {
           <div>
             <span class="marina-case-badge">Charte graphique</span>
             <h2 id="marina-case-title">Marina Bas-du-Fort</h2>
-            <p>Nous avons modernisé l'identité de la Marina Bas-du-Fort en conservant ses repères essentiels : la voile, l'horizon et le bleu du littoral. Le nouveau système gagne en lisibilité et peut vivre avec cohérence sur les supports d'accueil, d'information et d'événementiel.</p>
-            <span class="marina-case-meta">Logo · Couleurs · Applications · Déploiement</span>
+            <p>Une identité repensée pour moderniser l’image de la Marina sans perdre ses repères essentiels. Voile, horizon et bleu du littoral sont conservés, puis simplifiés et structurés pour créer un système plus lisible, plus cohérent et plus facile à déployer.</p>
+            <span class="marina-case-meta"></span>
           </div>
           <img class="marina-case-logo" src="/assets/projects/branding/marina/logo-blue-transparent.webp" alt="Logo bleu de la Marina Bas-du-Fort" loading="lazy">
         </header>
 
         <section class="marina-case-section">
-          <h3>Avant &amp; après</h3>
+          <h3>Moderniser sans perdre les repères</h3>
           <div class="marina-before-after">
             <figure><figcaption><span>Avant</span></figcaption><img src="/assets/projects/branding/marina/logo-before.webp" alt="Ancienne identité de la Marina Bas-du-Fort" loading="lazy"></figure>
             <span class="marina-before-after-arrow" aria-hidden="true">&rarr;</span>
@@ -983,7 +983,7 @@ function initSoClassProject() {
           <div>
             <span class="so-class-eyebrow">Photographie · 2022</span>
             <h2 id="so-class-title">So Class<br><em>Collection Jazz</em></h2>
-            <p>Un shooting éditorial réalisé en Guadeloupe pour présenter la collection de lunettes Jazz. Les portraits associent style, caractère et architecture locale dans une lumière franche et solaire.</p>
+            <p>Pour le lancement de la collection Jazz, So Class nous confie la création d’un univers photographique capable de mettre en valeur les montures tout en affirmant le caractère mode de la marque. Un shooting imaginé entre architecture urbaine, lumière caribéenne et portraits de caractère.</p>
           </div>
           <img src="/assets/projects/photos/so-class/gallery/so-class-collection-jazz-cover-clean-2022.webp" alt="Couverture de la collection Jazz de So Class" loading="eager">
         </header>
@@ -991,8 +991,8 @@ function initSoClassProject() {
         <section class="so-class-section so-class-section--social">
           <div class="so-class-heading">
             <span>Déploiement social</span>
-            <h3>La collection dans le feed</h3>
-            <p>Quatre compositions carrées prolongent le shooting sur Instagram avec une signature cohérente et une lecture immédiate de la collection.</p>
+            <h3>La collection prend place dans le feed</h3>
+            <p>Le shooting se décline en compositions pensées pour Instagram, avec une direction artistique cohérente qui permet à chaque monture d’exister seule tout en construisant un univers de collection identifiable.</p>
           </div>
           <div class="so-class-instagram-grid">
             ${[1, 2, 3, 4].map((index) => `
@@ -1013,24 +1013,24 @@ function initSoClassProject() {
         <section class="so-class-section">
           <div class="so-class-heading">
             <span>Le shooting</span>
-            <h3>Des montures mises en situation</h3>
-            <p>Les cadrages alternent silhouettes, portraits serrés et détails produit. Chaque image laisse les lunettes lisibles tout en construisant un univers mode ancré dans les couleurs de Pointe-à-Pitre.</p>
+            <h3>La monture au cœur de l’image</h3>
+            <p>Portraits serrés, silhouettes et détails produit alternent pour faire vivre la collection sans jamais perdre de vue l’essentiel : les montures. L’architecture et les couleurs de Pointe-à-Pitre donnent au shooting un décor graphique, vivant et immédiatement identifiable.</p>
           </div>
           <div class="so-class-gallery">
             <figure class="so-class-gallery__wide"><img src="/assets/projects/photos/so-class/gallery/so-class-shooting-eglise-pap-fiona-2022.webp" alt="Fiona avec lunettes devant l'église à Pointe-à-Pitre" loading="lazy"></figure>
           </div>
-          <p class="so-class-product-intro">Les vues sur fond clair complètent les portraits avec une lecture précise des formes, des couleurs et des finitions de la collection.</p>
+          <p class="so-class-product-intro">Les prises de vue sur fond clair complètent la série éditoriale avec une approche plus précise du produit : formes, matières, couleurs et finitions restent parfaitement lisibles.</p>
           <div class="so-class-product-spreads">
             <article class="so-class-product-spread">
               <figure class="so-class-product-model"><img src="/assets/projects/photos/so-class/gallery/so-class-portrait-homme-lunettes-2022.webp" alt="Portrait homme portant une monture Jazz" loading="lazy"></figure>
               <div class="so-class-product-pair">
                 <article class="so-class-product-item">
                   <figure><img src="/assets/projects/photos/so-class/products/so-class-lunettes-noir-transparent.webp?v=4" alt="Monture Jazz noire et transparente" loading="lazy"></figure>
-                  <div><span>01</span><h4>Lecture immédiate</h4><p>Un cadrage constant permet de comparer les modèles rapidement, sans détourner l’attention du produit.</p></div>
+                  <div><span>01</span><h4>Le produit d’abord</h4><p>Un cadrage et une échelle constants facilitent la lecture de chaque modèle et permettent de comparer rapidement les différentes montures.</p></div>
                 </article>
                 <article class="so-class-product-item">
                   <figure><img src="/assets/projects/photos/so-class/products/so-class-lunettes-ecaille.webp?v=4" alt="Monture Jazz écaille" loading="lazy"></figure>
-                  <div><span>02</span><h4>Couleurs fidèles</h4><p>La lumière révèle les nuances de l’acétate, les transparences et les détails métalliques des branches.</p></div>
+                  <div><span>02</span><h4>Matières & couleurs</h4><p>Une lumière maîtrisée restitue les nuances de l’acétate, les transparences et les détails des branches avec fidélité.</p></div>
                 </article>
               </div>
             </article>
@@ -1038,11 +1038,11 @@ function initSoClassProject() {
               <div class="so-class-product-pair">
                 <article class="so-class-product-item">
                   <figure><img src="/assets/projects/photos/so-class/products/so-class-lunettes-bleu-rouge.webp?v=4" alt="Monture Jazz bleue et rouge" loading="lazy"></figure>
-                  <div><span>03</span><h4>Déclinaison souple</h4><p>Chaque vue fonctionne seule, en grille ou dans une mise en page éditoriale, du catalogue aux réseaux sociaux.</p></div>
+                  <div><span>03</span><h4>Pensées pour se décliner</h4><p>Chaque image peut vivre seule ou s’intégrer dans une composition, du social media aux supports éditoriaux et commerciaux.</p></div>
                 </article>
                 <article class="so-class-product-item">
                   <figure><img src="/assets/projects/photos/so-class/products/so-class-lunettes-blanc-ecaille.webp?v=4" alt="Monture Jazz blanche et écaille" loading="lazy"></figure>
-                  <div><span>04</span><h4>Ensemble cohérent</h4><p>Le même fond, la même échelle et le même angle donnent à la collection une présentation homogène.</p></div>
+                  <div><span>04</span><h4>Une collection cohérente</h4><p>Fond, angle, cadrage et échelle créent un langage visuel commun qui donne à l’ensemble de la gamme une présentation immédiatement homogène.</p></div>
                 </article>
               </div>
               <figure class="so-class-product-model"><img src="/assets/projects/photos/so-class/gallery/so-class-portrait-femme-lunettes-2022.webp" alt="Portrait femme portant une monture Jazz" loading="lazy"></figure>
@@ -1111,8 +1111,8 @@ function initCistProject() {
           <div>
             <span class="cist-case-badge">Charte graphique</span>
             <h2 id="cist-case-title">CIST 971</h2>
-            <p>Le CIST est un acteur engagé de la santé au travail, au service des entreprises et des salariés de Guadeloupe. Son identité affirme une vision claire, rassurante et accessible, fondée sur trois piliers : la prévention, l'accompagnement des entreprises et la relation humaine.</p>
-            <span class="cist-case-meta">Logo · Couleurs · Typographies · Pictogrammes · Photos · Applications</span>
+            <p>Une identité plus claire pour une mission essentielle.Le CIST accompagne entreprises et salariés autour des enjeux de santé au travail. Latitude Sud a repensé son identité pour la rendre plus lisible, plus humaine et plus adaptée à la diversité de ses missions et de ses points de contact.</p>
+            <span class="cist-case-meta">Logo · Identité visuelle · Système graphique · Direction photo · Supports · Digital</span>
           </div>
           <img class="cist-case-logo" src="/assets/projects/branding/cist/logo-vertical-trimmed.webp" alt="Logo CIST, ma santé au travail" loading="eager">
         </header>
@@ -1120,8 +1120,8 @@ function initCistProject() {
         <section class="cist-case-section">
           <div class="cist-section-heading">
             <span>Évolution</span>
-            <h3>Avant &amp; après</h3>
-            <p>Face à la digitalisation, à la multiplication des formats et à l'exigence de lisibilité, le CIST a fait évoluer son identité tout en conservant ses repères essentiels. La refonte modernise l'image, harmonise les prises de parole et valorise la mission de service auprès des salariés et des entreprises.</p>
+            <h3>Moderniser sans perdre les repères</h3>
+            <p>Avec la multiplication des supports et des usages digitaux, l’identité du CIST devait gagner en lisibilité, en cohérence et en souplesse. La refonte conserve les éléments de reconnaissance existants tout en construisant un système visuel capable de mieux accompagner ses différentes missions.</p>
           </div>
           <div class="cist-before-after">
             <figure><figcaption>Avant</figcaption><img src="/assets/projects/branding/cist/logo-before.webp" alt="Ancienne version monochrome du logo CIST" loading="lazy"></figure>
@@ -1133,43 +1133,43 @@ function initCistProject() {
         <section class="cist-case-section">
           <div class="cist-section-heading">
             <span>Le logo</span>
-            <h3>Un symbole d'accompagnement</h3>
-            <p>Le symbole cœur associe le bleu du bien-être et le vert de la santé. Il évoque la protection, la prévention et la vitalité. La typographie arrondie renforce la dimension humaine, tandis que « ma santé au travail » personnalise le message et crée un lien direct avec chaque salarié.</p>
+            <h3>Un symbole qui rapproche santé et accompagnement</h3>
+            <p>Le cœur devient le signe central de l’identité. Associé au bleu et au vert, il traduit à la fois la santé, la protection et l’accompagnement. La typographie arrondie apporte proximité et accessibilité, tandis que la signature « ma santé au travail » place directement le salarié au cœur du message.</p>
           </div>
           <div class="cist-logo-grid">
-            <figure class="cist-media-card cist-media-card--logo"><img src="/assets/projects/branding/cist/logo-vertical.webp" alt="Version verticale du logo CIST" loading="lazy"><figcaption><strong>Version principale</strong><span>La version verticale est la représentation prioritaire de l'image du CIST.</span></figcaption></figure>
-            <figure class="cist-media-card cist-media-card--logo"><img src="/assets/projects/branding/cist/logo-horizontal.webp" alt="Version horizontale du logo CIST" loading="lazy"><figcaption><strong>Version horizontale</strong><span>Elle assure une lisibilité optimale sur les formats larges et les espaces restreints en hauteur.</span></figcaption></figure>
+            <figure class="cist-media-card cist-media-card--logo"><img src="/assets/projects/branding/cist/logo-vertical.webp" alt="Version verticale du logo CIST" loading="lazy"><figcaption><strong>Version principale</strong><span>La composition verticale constitue la version de référence de l’identité.</span></figcaption></figure>
+            <figure class="cist-media-card cist-media-card--logo"><img src="/assets/projects/branding/cist/logo-horizontal.webp" alt="Version horizontale du logo CIST" loading="lazy"><figcaption><strong>Version horizontale</strong><span>Une déclinaison pensée pour préserver lisibilité et reconnaissance sur les formats plus larges.</span></figcaption></figure>
           </div>
         </section>
 
         <section class="cist-case-section cist-case-section--tinted">
           <div class="cist-section-heading">
             <span>Les missions</span>
-            <h3>Trois branches, une identité</h3>
+            <h3>Une identité, plusieurs missions</h3>
           </div>
           <div class="cist-branch-grid">
-            <figure class="cist-branch-card"><img src="/assets/projects/branding/cist/branch-suivi.webp" alt="Déclinaison verte du CIST" loading="lazy"><figcaption><strong>Suivi individuel</strong><span>Une version monochrome verte dédiée à l'accompagnement personnalisé des salariés et au suivi médical.</span></figcaption></figure>
-            <figure class="cist-branch-card"><img src="/assets/projects/branding/cist/branch-risque.webp" alt="Déclinaison bleu bien-être du CIST" loading="lazy"><figcaption><strong>Risque professionnel</strong><span>Le bleu traduit la rigueur, la confiance et l'engagement dans la protection de la santé au travail.</span></figcaption></figure>
-            <figure class="cist-branch-card"><img src="/assets/projects/branding/cist/branch-maintien.webp" alt="Déclinaison bleu institutionnel du CIST" loading="lazy"><figcaption><strong>Maintien de l'emploi</strong><span>Le bleu institutionnel exprime la stabilité, le soutien et la continuité professionnelle.</span></figcaption></figure>
+            <figure class="cist-branch-card"><img src="/assets/projects/branding/cist/branch-suivi.webp" alt="Déclinaison verte du CIST" loading="lazy"><figcaption><strong>Suivi individuel</strong><span>Le vert distingue les prises de parole liées au suivi et à l’accompagnement individuel des salariés.</span></figcaption></figure>
+            <figure class="cist-branch-card"><img src="/assets/projects/branding/cist/branch-risque.webp" alt="Déclinaison bleu bien-être du CIST" loading="lazy"><figcaption><strong>Risque professionnel</strong><span>Le bleu structure les contenus consacrés à la prévention et à la maîtrise des risques professionnels.</span></figcaption></figure>
+            <figure class="cist-branch-card"><img src="/assets/projects/branding/cist/branch-maintien.webp" alt="Déclinaison bleu institutionnel du CIST" loading="lazy"><figcaption><strong>Maintien de l'emploi</strong><span>Une déclinaison dédiée aux enjeux d’accompagnement et de continuité professionnelle.</span></figcaption></figure>
           </div>
         </section>
 
         <section class="cist-case-section">
           <div class="cist-section-heading">
             <span>Règles d'usage</span>
-            <h3>Protéger la lisibilité</h3>
+            <h3>Préserver la reconnaissance</h3>
           </div>
           <div class="cist-guideline-grid">
-            <figure><img src="/assets/projects/branding/cist/guidelines/cist-zone-protection-horizontal.webp" alt="Zone de protection de la version horizontale du logo CIST" loading="lazy"><figcaption><strong>Zone de protection horizontale</strong><span>La hauteur de la baseline sert d'unité X et définit un espace libre identique sur les quatre côtés.</span></figcaption></figure>
-            <figure><img src="/assets/projects/branding/cist/guidelines/cist-zone-protection-vertical.webp" alt="Zone de protection de la version verticale du logo CIST" loading="lazy"><figcaption><strong>Zone de protection verticale</strong><span>L'espace entre le pictogramme et le mot « cist » devient l'unité de respiration minimale.</span></figcaption></figure>
+            <figure><img src="/assets/projects/branding/cist/guidelines/cist-zone-protection-horizontal.webp" alt="Zone de protection de la version horizontale du logo CIST" loading="lazy"><figcaption><strong>Zone de protection horizontale</strong><span>Une zone de respiration constante protège le logo des autres éléments graphiques.</span></figcaption></figure>
+            <figure><img src="/assets/projects/branding/cist/guidelines/cist-zone-protection-vertical.webp" alt="Zone de protection de la version verticale du logo CIST" loading="lazy"><figcaption><strong>Zone de protection verticale</strong><span>La même logique assure une présence claire et identifiable dans les compositions verticales.</span></figcaption></figure>
           </div>
         </section>
 
         <section class="cist-case-section cist-case-section--tinted">
           <div class="cist-section-heading">
             <span>Palette</span>
-            <h3>Une couleur pour chaque mission</h3>
-            <p>L'identité visuelle repose sur une palette structurée, issue directement du logo générique et déclinée pour identifier ses trois grandes branches. Chaque couleur incarne une mission spécifique tout en garantissant la cohérence graphique globale.</p>
+            <h3>Des couleurs pour structurer les prises de parole</h3>
+            <p>La palette reprend les couleurs fondatrices du logo et les organise en un système capable d’identifier les grandes missions du CIST tout en maintenant une identité commune.</p>
           </div>
           <div class="cist-palette cist-palette--primary">
             <article style="--swatch:#3B8634"><span class="cist-palette-main"></span><strong>Vert santé</strong><small>RGB 59 · 134 · 52<br>#3B8634</small><div class="cist-tone-row" aria-label="Tons de vert santé"><i style="opacity:1"></i><i style="opacity:.8"></i><i style="opacity:.6"></i><i style="opacity:.4"></i><i style="opacity:.2"></i></div></article>
@@ -1189,7 +1189,7 @@ function initCistProject() {
         <section class="cist-case-section">
           <div class="cist-section-heading">
             <span>Typographies</span>
-            <h3>Accessible dans chaque contexte</h3>
+            <h3>Lisibilité et personnalité</h3>
           </div>
           <div class="cist-type-grid">
             <article><span>Police principale</span><strong class="cist-type-harabara">Harabara Mais</strong><p>Ses courbes modernes et structurées expriment le professionnalisme, l'accessibilité et la contemporanéité. Cette sans serif légèrement arrondie est utilisée pour les titres, sous-titres et éléments forts.</p></article>
@@ -1212,22 +1212,22 @@ function initCistProject() {
         <section class="cist-case-section">
           <div class="cist-section-heading">
             <span>Direction photo</span>
-            <h3>La relation humaine au premier plan</h3>
-            <p>La direction photographique valorise la relation humaine, l'écoute et la confiance. Les images privilégient une lumière douce et naturelle, des cadrages clairs, des situations réelles et des profils identifiables au territoire guadeloupéen.</p>
+            <h3>Montrer la santé au travail à hauteur d’humain</h3>
+            <p>La direction photographique privilégie des situations crédibles, une lumière naturelle et des interactions sincères. L’objectif : rendre les sujets de santé au travail plus proches, plus accessibles et mieux connectés aux réalités des salariés et des entreprises du territoire.</p>
           </div>
           <div class="cist-photo-grid">
-            <figure class="cist-photo-grid__wide"><img src="/assets/projects/branding/cist/photo-consultation.webp" alt="Salariée en échange avec un professionnel de santé" loading="lazy"><figcaption><strong>Écoute et dialogue</strong><span>Des situations réelles, des attitudes bienveillantes et une proximité humaine.</span></figcaption></figure>
-            <figure><img src="/assets/projects/branding/cist/photo-accompagnement.webp" alt="Professionnel de santé accompagnant un salarié" loading="lazy"><figcaption><strong>Accompagnement</strong><span>La confiance au cœur de la relation entre le salarié et le professionnel.</span></figcaption></figure>
-            <figure><img src="/assets/projects/branding/cist/photo-ecoute.webp" alt="Consultation de santé au travail" loading="lazy"><figcaption><strong>Suivi individuel</strong><span>Une présence attentive dans un environnement clair et naturel.</span></figcaption></figure>
-            <figure><img src="/assets/projects/branding/cist/photo-prevention-collective.webp" alt="Intervention de prévention devant un public" loading="lazy"><figcaption><strong>Prévention en entreprise</strong><span>Informer, alerter et accompagner les collectifs de travail.</span></figcaption></figure>
-            <figure><img src="/assets/projects/branding/cist/photo-dialogue.webp" alt="Échange entre une médecin et une salariée" loading="lazy"><figcaption><strong>Proximité</strong><span>Une photographie positive, accessible et ancrée dans le quotidien.</span></figcaption></figure>
+            <figure class="cist-photo-grid__wide"><img src="/assets/projects/branding/cist/photo-consultation.webp" alt="Salariée en échange avec un professionnel de santé" loading="lazy"><figcaption><strong>Écoute et dialogue</strong><span>Des situations qui privilégient la proximité et la qualité de l’échange.</span></figcaption></figure>
+            <figure><img src="/assets/projects/branding/cist/photo-accompagnement.webp" alt="Professionnel de santé accompagnant un salarié" loading="lazy"><figcaption><strong>Accompagnement</strong><span>Une relation de confiance entre salarié et professionnel.</span></figcaption></figure>
+            <figure><img src="/assets/projects/branding/cist/photo-ecoute.webp" alt="Consultation de santé au travail" loading="lazy"><figcaption><strong>Suivi individuel</strong><span>Une présence attentive, dans un environnement clair et naturel.</span></figcaption></figure>
+            <figure><img src="/assets/projects/branding/cist/photo-prevention-collective.webp" alt="Intervention de prévention devant un public" loading="lazy"><figcaption><strong>Prévention en entreprise</strong><span>Informer et sensibiliser au plus près des situations de travail.</span></figcaption></figure>
+            <figure><img src="/assets/projects/branding/cist/photo-dialogue.webp" alt="Échange entre une médecin et une salariée" loading="lazy"><figcaption><strong>Des situations reconnaissables</strong><span>Une photographie ancrée dans le quotidien et les réalités locales.</span></figcaption></figure>
           </div>
         </section>
 
         <section class="cist-case-section">
           <div class="cist-section-heading">
             <span>Prévention</span>
-            <h3>Des flyers prêts à diffuser</h3>
+            <h3>Une identité au service de la prévention</h3>
           </div>
           <div class="cist-flyer-grid cist-flyer-grid--mockups">
             <figure class="cist-flyer-card">
@@ -1242,16 +1242,16 @@ function initCistProject() {
         <section class="cist-case-section cist-case-section--applications">
           <div class="cist-section-heading">
             <span>Déploiement</span>
-            <h3>Une identité prête à vivre</h3>
-            <p>Chaque support reprend les mêmes principes : hiérarchie claire, palette maîtrisée, typographies lisibles et présence humaine. L'ensemble reste immédiatement reconnaissable, du document institutionnel à l'événementiel.</p>
+            <h3>Une identité pensée pour tous les points de contact</h3>
+            <p>Du document institutionnel à l’événementiel, chaque support reprend les mêmes codes pour garantir cohérence, lisibilité et reconnaissance.Carte de visite Une déclinaison sobre et immédiatement identifiable.Événementiel Une présence visuelle forte, adaptée aux prises de parole sur le terrain</p>
           </div>
           <div class="cist-application-grid">
             <figure class="cist-application-card"><img src="/assets/projects/branding/cist/mockup-business-cards.webp" alt="Cartes de visite du CIST mises en situation" loading="lazy"><figcaption><strong>Carte de visite</strong><span>Un format horizontal, lisible et institutionnel.</span></figcaption></figure>
             <figure class="cist-application-card"><img src="/assets/projects/branding/cist/mockup-event-rollup.webp" alt="Oriflamme CIST dans un événement professionnel en Guadeloupe" loading="lazy"><figcaption><strong>Événementiel</strong><span>Un support visible qui exprime proximité et expertise.</span></figcaption></figure>
           </div>
           <div class="cist-social-heading">
-            <span>Gestion des réseaux sociaux</span>
-            <h4>Des publications cohérentes et accessibles</h4>
+            <span>DÉPLOIEMENT SOCIAL MEDIA</span>
+            <h4>Une identité reconnaissable jusque dans le feed</h4>
           </div>
           <div class="cist-social-showcase">
             <article class="cist-social-post">
@@ -1266,25 +1266,25 @@ function initCistProject() {
         <section class="cist-case-section">
           <div class="cist-section-heading">
             <span>Site internet</span>
-            <h3>Une identité digitale complète</h3>
-            <p>La charte graphique se prolonge sur le site institutionnel du CIST : navigation claire, parcours différenciés salarié/employeur et mise en avant des ressources de prévention.</p>
+            <h3>L’identité devient une expérience digitale</h3>
+            <p>Le système graphique se prolonge sur le site institutionnel avec une navigation claire, des parcours adaptés aux salariés et aux employeurs, et un accès simplifié aux ressources de prévention.</p>
             <a class="cist-website-visit" href="https://www.cist-gpe.com/" target="_blank" rel="noopener">Visiter cist-gpe.com <span aria-hidden="true">→</span></a>
           </div>
           <div class="cist-website-grid">
             <figure class="cist-website-card cist-website-card--wide">
               <div class="cist-website-chrome"><i></i><i></i><i></i><span>cist-gpe.com</span></div>
               <img src="/assets/projects/branding/cist/website/cist-site-accueil-2026.jpg" alt="Page d'accueil du site internet du CIST" loading="lazy">
-              <figcaption><strong>Accueil</strong><span>Le message d'accueil, les parcours salarié et employeur, puis les offres principales.</span></figcaption>
+              <figcaption><strong>Accueil</strong><span>Les principaux parcours et services sont accessibles dès l’entrée du site.Adhésion Tarifs, cotisations et services inclus sont structurés pour faciliter la compréhension.Actualités & FAQ Prévention, actualités et réponses pratiques sont regroupées dans un espace facilement accessible.</span></figcaption>
             </figure>
             <figure class="cist-website-card">
               <div class="cist-website-chrome"><i></i><i></i><i></i><span>cist-gpe.com/adherer</span></div>
               <img src="/assets/projects/branding/cist/website/cist-site-tarifs.jpg" alt="Page des tarifs d'adhésion du site internet du CIST" loading="lazy">
-              <figcaption><strong>Tarif d'adhésion</strong><span>Les cotisations et les services inclus sont présentés dans une lecture directe.</span></figcaption>
+              <figcaption><strong>Tarif d'adhésion</strong><span>Tarifs, cotisations et services inclus sont structurés pour faciliter la compréhension.</span></figcaption>
             </figure>
             <figure class="cist-website-card">
               <div class="cist-website-chrome"><i></i><i></i><i></i><span>cist-gpe.com/faq</span></div>
               <img src="/assets/projects/branding/cist/website/cist-site-actualites-faq.jpg" alt="Page des actualités et de la foire aux questions du site internet du CIST" loading="lazy">
-              <figcaption><strong>Actualités &amp; FAQ</strong><span>Les articles de prévention et les questions fréquentes sont réunis sur une même page.</span></figcaption>
+              <figcaption><strong>Actualités &amp; FAQ</strong><span>Prévention, actualités et réponses pratiques sont regroupées dans un espace facilement accessible.</span></figcaption>
             </figure>
           </div>
         </section>
@@ -1292,8 +1292,8 @@ function initCistProject() {
         <section class="cist-case-section cist-case-section--tinted">
           <div class="cist-section-heading">
             <span>Motion design</span>
-            <h3>Une identité qui se raconte</h3>
-            <p>Un film de présentation prolonge la charte sur les supports numériques et rend la mission du CIST immédiatement accessible.</p>
+            <h3>Faire vivre l’identité en mouvement</h3>
+            <p>Le motion design prolonge les codes graphiques et permet de présenter les missions du CIST dans un format plus pédagogique, dynamique et immédiatement accessible.</p>
           </div>
           <div class="cist-motion-video"><iframe src="https://www.youtube-nocookie.com/embed/CBANvHPZRgY?controls=1&amp;modestbranding=1&amp;playsinline=1&amp;rel=0" title="Motion design CIST 971" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
         </section>
@@ -1357,8 +1357,8 @@ function initBonnesEpicesProject() {
           <div>
             <span class="cist-case-badge bonnes-case-badge">Rebranding</span>
             <h2 id="bonnes-case-title">Les Bonnes Épices</h2>
-            <p>Une refonte pensée pour faire évoluer une marque familiale guadeloupéenne sans effacer son histoire. Le nouveau territoire conserve les feuilles, la chaleur des épices et la figure de Monsieur Maurice, tout en gagnant en impact sur les emballages et les réseaux sociaux.</p>
-            <span class="cist-case-meta bonnes-case-meta">Logo · Territoire graphique · Édition · Réseaux sociaux</span>
+            <p>Les Bonnes Épices de Monsieur Maurice portent une histoire, des codes et une forte présence en rayon. La refonte fait évoluer l’identité sans rompre avec ses repères : feuilles, couleurs, chaleur des épices sont conservées, puis simplifiées et structurées pour gagner en lisibilité et en impact.</p>
+            <span class="cist-case-meta bonnes-case-meta">Identité visuelle · Système graphique · Édition · Contenus · Déploiement</span>
           </div>
           <img class="cist-case-logo bonnes-case-logo" src="/assets/projects/branding/bonnes-epices/identity/logo-badge-original.svg" alt="Nouvelle identité Les Bonnes Épices de Monsieur Maurice" loading="eager">
         </header>
@@ -1367,7 +1367,7 @@ function initBonnesEpicesProject() {
           <div class="cist-section-heading bonnes-section-heading">
             <span>Évolution</span>
             <h3>Faire mûrir une marque historique</h3>
-            <p>La refonte simplifie la lecture, renforce la hiérarchie et installe une palette solaire. L'identité reste immédiatement familière, mais devient plus souple pour accompagner les produits, les recettes et les histoires de la maison.</p>
+            <p>La refonte conserve les éléments qui faisaient déjà la reconnaissance des Bonnes Épices, tout en simplifiant le dessin, la hiérarchie et les usages. L’identité gagne en clarté et devient plus souple pour accompagner les produits, les prises de parole et les nouveaux formats de la marque</p>
           </div>
           <div class="bonnes-evolution-grid">
             <figure><img src="/assets/projects/branding/bonnes-epices/logo-before.webp" alt="Ancien logo Les Bonnes Épices de Monsieur Maurice, 2017" loading="lazy"><figcaption><span>Avant</span> Un emblème illustré et très détaillé</figcaption></figure>
@@ -1377,31 +1377,31 @@ function initBonnesEpicesProject() {
 
         <section class="cist-case-section bonnes-process-section">
           <div class="cist-section-heading bonnes-section-heading">
-            <span>Dans les coulisses</span>
-            <h3>Ce qu'on a gardé, fait évoluer, ajouté</h3>
-            <p>La refonte préserve les repères déjà installés, puis intervient sur le dessin, la hiérarchie et les éléments qui manquaient au système.</p>
+            <span>PRINCIPES DE REFONTE</span>
+            <h3>Garder l’essentiel. Faire évoluer le reste.</h3>
+            <p>La refonte part des actifs déjà reconnus de la marque. Certains sont conservés, d’autres redessinés, et de nouveaux éléments viennent compléter le système pour le rendre plus distinctif et plus adaptable.</p>
           </div>
           <div class="bonnes-process-grid">
             <article class="bonnes-process-card">
               <span class="bonnes-process-icon" aria-hidden="true">✓</span>
               <h4>Gardé</h4>
-              <ul><li>Les codes couleurs</li><li>Les feuilles</li><li>La structure</li></ul>
+              <ul><li>Les couleurs fondatrices</li><li>Les feuilles</li><li>La structure générale</li></ul>
             </article>
             <article class="bonnes-process-card">
               <span class="bonnes-process-icon" aria-hidden="true">↗</span>
               <h4>Fait évoluer</h4>
-              <ul><li>Les feuilles : dégradé et épaisseurs</li><li>Le soleil</li><li>Les typographies</li></ul>
+              <ul><li>Le dessin des feuilles</li><li>Le soleil</li><li>Les typographies</li></ul>
             </article>
             <article class="bonnes-process-card">
               <span class="bonnes-process-icon" aria-hidden="true">+</span>
               <h4>Ajouté</h4>
-              <ul><li>Une accroche</li><li>Un reflet</li></ul>
+              <ul><li>Une accroche</li><li>Un jeu de lumière / reflet</li></ul>
             </article>
           </div>
           <figure class="bonnes-process-dossier">
             <div class="bonnes-process-dossier__text">
               <h4>Détail du tracé des feuilles</h4>
-              <p>Les feuilles ont été redessinées avec un dégradé et des épaisseurs variables pour plus de profondeur et de lisibilité.</p>
+              <p>Les feuilles ont été redessinées pour gagner en profondeur, en contraste et en lisibilité, tout en conservant un signe déjà associé à l’univers de la marque.</p>
               <ul class="bonnes-process-dossier__legend">
                 <li><span style="--dot:#3B8634"></span>Nouveau tracé</li>
                 <li><span style="--dot:#E0B900"></span>Éléments conservés</li>
@@ -1417,8 +1417,8 @@ function initBonnesEpicesProject() {
         <section class="cist-case-section bonnes-variants-section">
           <div class="cist-section-heading bonnes-section-heading">
             <span>Système de marque</span>
-            <h3>Un logo pensé pour tous les supports</h3>
-            <p>Les variantes reprennent strictement le même dessin. Seuls le contraste, le nombre de couleurs et le format changent selon le support.</p>
+            <h3>Une identité capable de s’adapter</h3>
+            <p>Versions principales, monochromes, bicolores ou horizontales : le système permet à la marque de conserver sa reconnaissance quels que soient le support, le format ou les contraintes de reproduction.</p>
           </div>
           <div class="bonnes-bsys">
             <div class="bonnes-bsys__variants">
@@ -1440,12 +1440,12 @@ function initBonnesEpicesProject() {
               <figure class="bonnes-bsys__horiz" style="--bsys-bg:#FFFFFF;--bsys-border:rgba(30,44,31,.12)"><img src="/assets/projects/branding/bonnes-epices/identity/logo-horizontal-white.webp" alt="Logo horizontal Les Bonnes Épices sur fond blanc" loading="lazy" decoding="async"></figure>
             </div>
             <p class="bonnes-bsys__horiz-label">VERSION HORIZONTALE ALTERNATIVE</p>
-            <p class="bonnes-bsys__note">Utile pour les formats couchés — couverture Facebook, papier à en-tête, bannières.</p>
+            <p class="bonnes-bsys__note">Une déclinaison adaptée aux formats larges : bannières, papeterie, couvertures et supports digitaux.</p>
             <div class="bonnes-bsys__patterns">
               <div class="bonnes-bsys__pattern bonnes-bsys__pattern--tile" style="background-image:url('/assets/projects/branding/bonnes-epices/applications/pattern-a-vert.png')" role="img" aria-label="Motif répétitif feuilles sur fond vert foncé"></div>
               <div class="bonnes-bsys__pattern bonnes-bsys__pattern--tile" style="background-image:url('/assets/projects/branding/bonnes-epices/applications/pattern-b-jaune.webp')" role="img" aria-label="Motif répétitif feuilles sur fond jaune"></div>
             </div>
-            <p class="bonnes-bsys__note">Un motif signature, déclinable en packaging, présentoirs et habillage de point de vente.</p>
+            <p class="bonnes-bsys__note">Un motif signature prolonge l’identité au-delà du logo et peut être utilisé sur les packagings, opérations promotionnelles et supports en point de vente.</p>
             <figure class="bonnes-bsys__banner">
               <img src="/assets/projects/branding/bonnes-epices/applications/pattern-promotion.webp" alt="Bannière promotionnelle Les Bonnes Épices, Promotion de Monsieur Maurice®" loading="lazy" decoding="async">
             </figure>
@@ -1455,14 +1455,14 @@ function initBonnesEpicesProject() {
         <section class="cist-case-section bonnes-colours-section">
           <div class="cist-section-heading bonnes-section-heading">
             <span>Couleurs &amp; typographie</span>
-            <h3>Une base claire pour exprimer la marque</h3>
-            <p>Quatre couleurs issues du dossier de marque, associées à Quincy pour les prises de parole éditoriales.</p>
+            <h3>Des codes immédiatement identifiables</h3>
+            <p>La palette conserve les couleurs historiques de la marque et les organise dans un système plus cohérent. Associée à Quincy, elle donne aux prises de parole une personnalité chaleureuse, populaire et facilement reconnaissable.</p>
           </div>
           <div class="bonnes-colour-grid">
             <article style="--bonnes-colour:#FFFFFF"><span class="bonnes-colour-swatch"></span><h4>Blanc</h4><code>#FFFFFF</code><div class="bonnes-colour-tones" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></article>
             <article style="--bonnes-colour:#289046"><span class="bonnes-colour-swatch"></span><h4>Vert Émeraude</h4><code>#289046</code><div class="bonnes-colour-tones" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></article>
             <article style="--bonnes-colour:#1E2C1F"><span class="bonnes-colour-swatch"></span><h4>Vert Oxyde de Chrome</h4><code>#1E2C1F</code><div class="bonnes-colour-tones" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></article>
-            <article style="--bonnes-colour:#FAEA1D"><span class="bonnes-colour-swatch"></span><h4>Jaune Cobalt</h4><code>#FAEA1D</code><div class="bonnes-colour-tones" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></article>
+            <article style="--bonnes-colour:#FAEA1D"><span class="bonnes-colour-swatch"></span><h4>Jaune de Cobalt</h4><code>#FAEA1D</code><div class="bonnes-colour-tones" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></article>
           </div>
           <div class="bonnes-type-dossier">
             <div class="bonnes-type-dossier__header">
@@ -1491,8 +1491,8 @@ function initBonnesEpicesProject() {
         <section class="cist-case-section bonnes-terrain-section">
           <div class="cist-section-heading bonnes-section-heading">
             <span>Sur le terrain</span>
-            <h3>La marque telle qu'elle est rencontrée en rayon</h3>
-            <p>Quatre vues prises en magasin, présentées sans décor ajouté ni simulation.</p>
+            <h3>Une identité pensée pour exister en rayon</h3>
+            <p>La marque ne vit pas dans une charte, mais au milieu de dizaines d’autres produits. Ces prises de vue montrent l’identité dans son environnement réel et permettent d’en mesurer la visibilité, la cohérence et la capacité de reconnaissance.</p>
           </div>
           <div class="bonnes-terrain-grid">
             <figure><img src="/assets/projects/branding/bonnes-epices/terrain/rayon-coco-carre.webp" alt="Pots de coco râpée Les Bonnes Épices en rayon" loading="lazy" decoding="async"><figcaption>Repéré en rayon, Guadeloupe</figcaption></figure>
@@ -1504,9 +1504,9 @@ function initBonnesEpicesProject() {
 
         <section class="cist-case-section bonnes-language-section">
           <div class="cist-section-heading bonnes-section-heading">
-            <span>Système visuel</span>
-            <h3>Un langage construit autour du produit</h3>
-            <p>Les formats carrés et larges conservent la même hiérarchie, jusque dans la mise en récit d'une recette.</p>
+            <span>CONTENUS DE MARQUE</span>
+            <h3>Une identité qui sait aussi raconter</h3>
+            <p>Le système visuel ne sert pas seulement à signer les produits. Il structure également les contenus de marque autour de trois registres complémentaires : informer, raconter l’histoire des épices et inspirer par les recettes.</p>
           </div>
           <div class="bonnes-editorial-block">
             <div class="bonnes-editorial-label"><span>Information</span><strong>Axe 1</strong></div>
@@ -1539,7 +1539,7 @@ function initBonnesEpicesProject() {
           <div class="cist-section-heading bonnes-section-heading">
             <span>Système de marque</span>
             <h3>En situation</h3>
-            <p>Le même signe est décliné sur les supports physiques, les formats promotionnels et la page Facebook.</p>
+            <p>Supports physiques, promotion, merchandising, réseaux sociaux ou papeterie : les mêmes codes permettent à la marque de rester identifiable tout en s’adaptant à des usages très différents.</p>
           </div>
           <div class="bonnes-situation-grid">
             <figure class="bonnes-situation-grid__half"><figcaption>Tote bag</figcaption><img src="/assets/projects/branding/bonnes-epices/applications/tote-bag-custom.webp" alt="Logo Les Bonnes Épices appliqué sur un tote bag" loading="lazy" decoding="async"></figure>
@@ -1604,8 +1604,8 @@ function initSmgeagProject() {
           <div>
             <span class="cist-case-badge smgeag-case-badge">Appel d'offre</span>
             <h2 id="smgeag-case-title">SMGEAG</h2>
-            <p>La proposition de communication vise à renouer avec la confiance des usagers, retrouver un dialogue apaisé et rendre chaque intervention immédiatement identifiable. Une signature forte, moderne et engageante donne de la visibilité au syndicat et affirme son action sur tout le territoire.</p>
-            <span class="cist-case-meta smgeag-case-meta">Stratégie · Symbole · Logo · Couleurs · Typographies · Déploiement</span>
+            <p>Une nouvelle identité pour recréer des repères.Dans un contexte marqué par les difficultés du service de l’eau, le SMGEAG devait installer une identité capable d’incarner une nouvelle étape : plus lisible, plus identifiable et plus proche des usagers. La proposition construit un système visuel contemporain pensé pour rendre l’action du syndicat reconnaissable sur l’ensemble du territoire.</p>
+            <span class="cist-case-meta smgeag-case-meta">Stratégie · Identité visuelle · Système graphique · Déploiement terrain</span>
           </div>
           <img class="cist-case-logo smgeag-case-logo" src="/assets/projects/branding/smgeag/logo-baseline-transparent.webp" alt="Logo SMGEAG, Eaux de Guadeloupe" loading="eager">
         </header>
@@ -1613,12 +1613,12 @@ function initSmgeagProject() {
         <section class="cist-case-section">
           <div class="cist-section-heading">
             <span>Stratégie</span>
-            <h3>Deux réflexions, un seul objectif</h3>
+            <h3>Deux enjeux pour reconstruire la confiance</h3>
             <p>La proposition s'appuie sur deux actions complémentaires : rassurer les usagers après des années de difficultés et différencier clairement la nouvelle structure de l'ancienne image de marque.</p>
           </div>
           <div class="smgeag-strategy-grid">
-            <article><b>01</b><strong>Réassurer</strong><p>Le bleu évoque l'eau et l'expertise. Les capitales installent un sentiment de sérieux, de rigueur et de stabilité.</p></article>
-            <article><b>02</b><strong>Se différencier</strong><p>Un langage contemporain permet de marquer une rupture, d'affirmer la présence du SMGEAG et de rendre ses prises de parole plus visibles.</p></article>
+            <article><b>01</b><strong>Rassurer</strong><p>Après plusieurs années marquées par les difficultés du service, la nouvelle identité doit installer des repères plus clairs, plus stables et plus facilement identifiables pour les usagers.</p></article>
+            <article><b>02</b><strong>Marquer une nouvelle étape</strong><p>02 — Le nouveau langage visuel distingue clairement le SMGEAG de l’identité précédente et affirme une structure nouvelle, visible dans ses prises de parole comme dans ses interventions sur le terrain.</p></article>
           </div>
         </section>
 
@@ -1626,8 +1626,8 @@ function initSmgeagProject() {
           <div class="smgeag-construction-heading">
             <div class="cist-section-heading">
               <span>Construction</span>
-              <h3>Trouver l'essence sans perdre l'esthétique</h3>
-              <p>L'icône réunit une goutte, symbole de l'eau, et la lettre « G » pour la Guadeloupe. Leur fusion fait apparaître un mouvement proche du yin et du yang, symbole d'équilibre. Le bleu central représente l'assainissement de l'eau par le SMGEAG.</p>
+              <h3>Un signe construit autour de l’eau et du territoire</h3>
+              <p>Le symbole associe la goutte d’eau à la lettre « G », référence directe à la Guadeloupe. Leur rencontre crée un signe fluide et équilibré, suffisamment simple pour devenir un repère identifiable dans les différents usages de la marque.</p>
             </div>
             <div class="smgeag-construction-logo">
               <img src="/assets/projects/branding/smgeag/scr-20260804-imjstra.png" alt="Logo SMGEAG sans fond" loading="lazy">
@@ -1644,7 +1644,7 @@ function initSmgeagProject() {
           <div class="cist-section-heading">
             <span>Système de logo</span>
             <h3>Un logo qui recherche la pureté</h3>
-            <p>L'acronyme rend le signe simple et immédiatement compréhensible. Les espacements généreux installent une sensation de liberté et de légèreté ; la goutte conserve une place centrale pour rappeler l'abondance et l'importance de l'eau en Guadeloupe.</p>
+            <p>Le symbole, l’acronyme et la signature « Eaux de Guadeloupe » composent une identité capable de s’adapter aux différents formats sans perdre sa lisibilité. Les variantes chromatiques et monochromes assurent la même reconnaissance, du document institutionnel aux usages terrain.</p>
           </div>
           <div class="smgeag-logo-grid">
             <figure><img src="/assets/projects/branding/smgeag/logo-horizontal-card.webp" alt="Version horizontale du logo SMGEAG" loading="lazy"><figcaption>Version horizontale</figcaption></figure>
@@ -1657,8 +1657,8 @@ function initSmgeagProject() {
         <section class="cist-case-section cist-case-section--tinted smgeag-case-section--tinted">
           <div class="cist-section-heading">
             <span>Codes couleurs</span>
-            <h3>Une famille de couleurs, une seule harmonie</h3>
-            <p>La palette se tourne naturellement vers les nuances de bleu, accompagnées de deux gris riches qui jouent le rôle du noir et du blanc. Elle porte les valeurs de rigueur et d'expertise de la proposition.</p>
+            <h3>Les codes d’un service public contemporain</h3>
+            <p>Les nuances de bleu structurent l’identité autour de l’univers de l’eau, tandis que les gris apportent contraste et stabilité. L’ensemble crée une palette sobre, identifiable et suffisamment souple pour fonctionner aussi bien dans la communication institutionnelle que sur le terrain.</p>
           </div>
           <div class="cist-palette cist-palette--primary smgeag-palette">
             <article style="--swatch:#171C26"><span class="cist-palette-main"></span><strong>Gris anthracite</strong><small>RGB 23 · 28 · 38<br>#171C26</small><div class="cist-tone-row"><i style="opacity:1"></i><i style="opacity:.8"></i><i style="opacity:.6"></i><i style="opacity:.4"></i><i style="opacity:.2"></i></div></article>
@@ -1674,16 +1674,16 @@ function initSmgeagProject() {
             <h3>Modernité et sobriété</h3>
           </div>
           <div class="cist-type-grid smgeag-type-grid">
-            <article><span>Titre</span><strong>Nexa Bold</strong><p>Une sans serif moderne qui exprime le sérieux et donne aux messages une présence nette.</p></article>
-            <article><span>Signature</span><strong class="smgeag-type-light">Nexa Light</strong><p>Une graisse plus légère pour la baseline « Eaux de Guadeloupe », lisible et équilibrée.</p></article>
+            <article><span>Titre</span><strong>Nexa Bold</strong><p>Une typographie nette et structurée, choisie pour donner de la présence aux prises de parole tout en conservant une lecture immédiate.</p></article>
+            <article><span>Signature</span><strong class="smgeag-type-light">Nexa Light</strong><p>Une graisse plus légère qui accompagne « Eaux de Guadeloupe » et équilibre l’ensemble du système.</p></article>
           </div>
         </section>
 
         <section class="cist-case-section cist-case-section--applications">
           <div class="cist-section-heading">
-            <span>Mises en situation</span>
-            <h3>Une présence visible et engageante</h3>
-            <p>Le système place l'eau, la proximité et la confiance au premier plan. Il s'applique ici à des outils réellement utilisés sur le terrain : véhicule d'intervention, équipement technique, contrôle en laboratoire et inspection du réseau.</p>
+            <span>DÉPLOIEMENT TERRAIN</span>
+            <h3>Rendre l’action immédiatement identifiable</h3>
+            <p>Une identité de service public doit être reconnaissable là où l’action se déroule. Véhicules, équipements, contrôles et interventions prolongent le système visuel sur le terrain pour rendre la présence du SMGEAG plus claire et plus visible auprès des usagers.</p>
           </div>
           <div class="smgeag-showcase-grid">
             <figure><img src="/assets/projects/branding/smgeag/mockups/smgeag-vehicule-intervention.webp" alt="Mockup d'un véhicule d'intervention SMGEAG" loading="lazy"><figcaption>Véhicule d'intervention</figcaption></figure>
@@ -1754,8 +1754,8 @@ function initPressingProject() {
           <div>
             <span class="cist-case-badge pressing-case-badge">Rebranding</span>
             <h2 id="pressing-case-title">Le Pressing</h2>
-            <p>SA Pressing devient Le Pressing — une refonte complète qui installe cette enseigne guadeloupéenne comme la référence du pressing sur le territoire.</p>
-            <span class="cist-case-meta pressing-case-meta">Logo · Système de marque · Couleurs · Typographie · Motifs · Applications</span>
+            <p>SA Pressing devient Le Pressing. Une refonte pensée pour faire évoluer une enseigne historique vers une marque plus distinctive, plus premium et immédiatement reconnaissable.</p>
+            <span class="cist-case-meta pressing-case-meta">Logo · Identité visuelle · Système de marque · Couleurs · Typographie · Motifs · Déploiement</span>
           </div>
           <figure class="pressing-hero-logo pressing-hero-logo--svg">
             <img src="/assets/projects/branding/le-pressing/identity/logo-white.svg" alt="Logo Le Pressing — identité graphique" loading="eager" decoding="async">
@@ -1764,34 +1764,34 @@ function initPressingProject() {
 
         <section class="cist-case-section">
           <div class="cist-section-heading pressing-section-heading">
-            <span>Dans les coulisses</span>
-            <h3>De l'enseigne brute à la marque premium</h3>
-            <p>SA Pressing, pressing guadeloupéen historique avec deux adresses — Jarry et Gosier — cherchait à s'imposer comme la référence de son secteur. Face à une concurrence sans identité forte, l'opportunité était là : créer une marque digne de son ambition.</p>
+            <span>PRINCIPES DE REFONTE</span>
+            <h3>Passer de l’enseigne à la marque</h3>
+            <p>Présent à Jarry et au Gosier, SA Pressing souhaitait faire évoluer son image pour mieux traduire la qualité de son service et renforcer sa place sur son marché. L’enjeu : construire une identité plus statutaire, cohérente et reconnaissable, sans perdre la simplicité attendue d’un service du quotidien.</p>
           </div>
           <div class="pressing-brief-grid">
             <article class="pressing-brief-card">
-              <h4>Philosophie</h4>
-              <ul><li>Premium</li><li>Professionnel</li><li>Efficacité</li><li>Convivialité</li></ul>
+              <h4>PERSONNALITÉ</h4>
+              <ul><li>Premium</li><li>Professionnelle</li><li>Efficace</li><li>Accessible</li></ul>
             </article>
             <article class="pressing-brief-card pressing-brief-card--accent">
               <h4>Orientation</h4>
-              <ul><li>Adaptatif</li><li>Typographique</li><li>Sobre</li></ul>
+              <ul><li>* Adaptable</li><li>Typographique</li><li>Sobre</li></ul>
             </article>
             <article class="pressing-brief-card pressing-brief-card--wide">
               <h4>Objectif</h4>
-              <p>Créer une identité forte, premium et cohérente, revendiquant la référence du pressing sur le territoire guadeloupéen.</p>
+              <p>Faire de Le Pressing une marque forte et identifiable, capable d’exprimer la qualité de service sur l’ensemble de ses points de contact.</p>
             </article>
           </div>
         </section>
 
         <section class="cist-case-section cist-case-section--tinted pressing-case-section--tinted">
           <div class="cist-section-heading pressing-section-heading">
-            <span>Notre solution</span>
-            <h3>Un signe typographique, une promesse cachée</h3>
-            <p>Nous avons opté pour un logo typographique assurant une facilité de lecture et d'utilisation. Le point du «&nbsp;i&nbsp;» de «&nbsp;pressing&nbsp;» est remplacé par une étoile — un symbole discret qui affirme la position de l'enseigne&nbsp;: le numéro&nbsp;1 du pressing en Guadeloupe.</p>
+            <span>NOTRE RÉPONSE</span>
+            <h3>Un nom plus direct. Un signe plus distinctif.</h3>
+            <p>Le passage de « SA Pressing » à « Le Pressing » simplifie le nom et installe une prise de parole plus affirmée. L’identité repose sur un logotype typographique clair, complété par un signe distinctif intégré au « i » de « pressing ».L’étoile vient ponctuer le mot comme un marqueur de qualité et traduit l’ambition de l’enseigne : s’imposer comme une référence de son secteur.</p>
           </div>
           <figure class="pressing-logo-feature">
-            <img src="/assets/projects/branding/le-pressing/charte/page-05.webp" alt="Logo Le pressing — Notre solution" loading="lazy" decoding="async">
+            <img src="/assets/projects/branding/le-pressing/charte/page-05.webp" alt="Logo Le pressing — NOTRE RÉPONSE" loading="lazy" decoding="async">
           </figure>
           <figure class="pressing-concept-feature">
             <img src="/assets/projects/branding/le-pressing/charte/page-06.webp" alt="Symbole caché : le i devient 1, numéro 1 du pressing en Guadeloupe" loading="lazy" decoding="async">
@@ -1801,8 +1801,8 @@ function initPressingProject() {
         <section class="cist-case-section">
           <div class="cist-section-heading pressing-section-heading">
             <span>Système de marque</span>
-            <h3>Une identité pensée pour tous les supports</h3>
-            <p>Le logo se décline en version mono sur fond sombre ou clair, et en quatre combinaisons couleur — chaque variante conserve la même rigueur typographique et le même impact visuel.</p>
+            <h3>Une identité conçue pour s’adapter</h3>
+            <p>Versions monochromes, fonds clairs ou sombres, combinaisons colorées : le système conserve la même structure et la même reconnaissance quels que soient le format ou le support.</p>
           </div>
           <div class="pressing-systeme-grid">
             <figure><img src="/assets/projects/branding/le-pressing/charte/page-08.webp" alt="Adaptabilité mono : Le pressing sur fond sombre et fond clair" loading="lazy" decoding="async"></figure>
@@ -1813,8 +1813,8 @@ function initPressingProject() {
         <section class="cist-case-section cist-case-section--tinted pressing-case-section--tinted">
           <div class="cist-section-heading pressing-section-heading">
             <span>Couleurs &amp; Typographie</span>
-            <h3>Deux couleurs, une seule police</h3>
-            <p>Le bleu marine #133246 ancre la marque dans la sobriété et le professionnalisme. L'or #F5C832 apporte chaleur et prestige. Poppins regular et bold assurent une lisibilité parfaite sur tous les formats, du numérique à l'enseigne.</p>
+            <h3>Sobriété, contraste et reconnaissance</h3>
+            <p>Le bleu marine installe un territoire sobre et statutaire, tandis que le jaune apporte contraste, chaleur et visibilité. La typographie Poppins complète le système avec une lecture claire et homogène, du digital à la signalétique.</p>
           </div>
           <figure class="pressing-full-img">
             <img src="/assets/projects/branding/le-pressing/charte/page-10.webp" alt="Couleurs et typographie Le Pressing : navy, or, Poppins" loading="lazy" decoding="async">
@@ -1824,8 +1824,8 @@ function initPressingProject() {
         <section class="cist-case-section">
           <div class="cist-section-heading pressing-section-heading">
             <span>Motifs</span>
-            <h3>Un univers visuel qui se déploie</h3>
-            <p>Un motif géométrique répétitif vient texturer l'espace de marque — déclinable sur fond blanc, navy ou or, il enrichit chaque support sans jamais concurrencer le logo.</p>
+            <h3>Prolonger l’identité au-delà du logo</h3>
+            <p>Un motif géométrique vient enrichir le langage de marque et créer de la reconnaissance sur les différents supports. Il peut se déployer sur plusieurs fonds tout en laissant au logo son rôle central.</p>
           </div>
           <figure class="pressing-full-img">
             <img src="/assets/projects/branding/le-pressing/charte/page-11.webp" alt="Motifs Le Pressing : géométrique répétitif sur trois fonds" loading="lazy" decoding="async">
@@ -1835,8 +1835,8 @@ function initPressingProject() {
         <section class="cist-case-section cist-case-section--tinted pressing-case-section--tinted">
           <div class="cist-section-heading pressing-section-heading">
             <span>Avant / Après</span>
-            <h3>Les deux vitrines repensées</h3>
-            <p>À Jarry comme au Gosier, l'enseigne brute cède la place à une façade habillée, structurée et reconnaissable.</p>
+            <h3>La transformation devient visible</h3>
+            <p>À Jarry comme au Gosier, la nouvelle identité change immédiatement la perception de l’enseigne. Façades, couleurs et signalétique composent désormais un environnement plus cohérent et plus facilement identifiable.</p>
           </div>
           <p class="pressing-store-label">Jarry</p>
           <div class="pressing-avant-apres-grid">
@@ -1865,8 +1865,8 @@ function initPressingProject() {
         <section class="cist-case-section">
           <div class="cist-section-heading pressing-section-heading">
             <span>Sur le terrain</span>
-            <h3>L'identité en circulation</h3>
-            <p>La nouvelle marque s'affiche sur les véhicules utilitaires — une présence mobile et reconnaissable sur tout le territoire guadeloupéen.</p>
+            <h3>Une marque visible au quotidien</h3>
+            <p>Les véhicules prolongent l’identité hors des points de vente et transforment chaque déplacement en point de contact supplémentaire avec la marque.</p>
           </div>
           <div class="pressing-avant-apres-grid">
             <figure class="pressing-aa-item pressing-aa-item--portrait">
@@ -1881,8 +1881,8 @@ function initPressingProject() {
         <section class="cist-case-section cist-case-section--tinted pressing-case-section--tinted">
           <div class="cist-section-heading pressing-section-heading">
             <span>Applications</span>
-            <h3>Le pressing en situation</h3>
-            <p>La marque prend vie sur les supports du quotidien — tenue, papeterie, façade — avec une même rigueur graphique.</p>
+            <h3>Une identité pensée jusque dans les détails</h3>
+            <p>Façades, tenues, papeterie, housses, étiquettes ou supports de relation client : les mêmes codes graphiques assurent une expérience cohérente à chaque étape.</p>
           </div>
           <figure class="pressing-fullbleed pressing-fullbleed--contain">
             <img src="/assets/projects/branding/le-pressing/mockups/second-store.webp" alt="Façade Le Pressing avec la nouvelle identité graphique" loading="lazy" decoding="async">
@@ -2073,11 +2073,11 @@ function getPageCaseStudyContactMessage() {
   const messages = {
     'photos.html': {
       title: client => `Un projet photo comme ${client} ?`,
-      copy: 'Parlons de votre univers et imaginons ensemble les images qui le mettront en valeur.'
+      copy: 'Imaginons une direction photographique capable de mettre vos produits en valeur et de faire vivre votre marque sur tous ses points de contact.'
     },
     'charte-graphique.html': {
       title: client => `Une identité comme ${client} ?`,
-      copy: 'Construisons une identité claire, singulière et prête à vivre sur tous vos supports.'
+      copy: 'Création, refonte ou déploiement : construisons un système de marque reconnaissable, cohérent et capable de vivre sur tous vos points de contact.'
     },
     'catalogue.html': {
       title: client => `Un catalogue comme ${client} ?`,
@@ -2094,6 +2094,27 @@ function getPageCaseStudyContactMessage() {
   };
 }
 
+/* Accroches propres à certains clients : elles remplacent la formulation
+   générique « Un projet … comme <client> ? » par une question tournée vers
+   le besoin du visiteur plutôt que vers la référence citée. */
+const CASE_STUDY_CTA_TITLES = {
+  'So Class': 'Envie de donner à votre collection son propre univers ?',
+  'HFWI': 'Un produit à mettre en image ?',
+  'CIST 971': 'Une identité à faire évoluer ?',
+  'Les Bonnes Épices': 'Une marque à faire évoluer ?',
+  'Marina Bas-du-Fort': 'Un lieu à faire rayonner ?',
+  'SMGEAG': 'Une identité à repositionner ?',
+  'Auto Discount': 'Votre marque doit parler à plusieurs territoires ?',
+  'Cap Créole': 'Un produit à faire vivre autrement ?',
+  /* Ajoutés pour que chaque étude de cas ait sa propre accroche : ces
+     pop-ups retombaient sur la formule générique ou partageaient la même. */
+  'Le Pressing': 'Une enseigne de proximité à moderniser ?',
+  'LifeOn — Réseaux sociaux': 'Une marque à lancer sur les réseaux ?',
+  'La Foir’Fouille': 'Une offre très large à rendre lisible ?',
+  'Gamm vert': 'Une saison à transformer en temps fort ?',
+  'Carrefour Guadeloupe': 'Un gros volume d’offres à orchestrer ?'
+};
+
 function getCaseStudyContactMessage(trigger) {
   const fallback = getPageCaseStudyContactMessage();
   const cardTitle = trigger?.querySelector('h3')?.textContent?.trim();
@@ -2102,7 +2123,9 @@ function getCaseStudyContactMessage(trigger) {
     || cardTitle
     || 'votre marque';
   return {
-    title: trigger?.dataset.projectCtaTitle || fallback.title(client),
+    title: trigger?.dataset.projectCtaTitle
+      || CASE_STUDY_CTA_TITLES[client]
+      || fallback.title(client),
     copy: trigger?.dataset.projectCtaCopy || fallback.copy
   };
 }
@@ -2426,20 +2449,20 @@ const CATALOGUE_EXPERTISE_DEFAULT = {
   title: 'Création design, direction éditoriale &amp; exécution',
   items: [
     { title: 'Stratégie', text: 'Ligne éditoriale, ton, mise en avant des temps forts et des offres.' },
-    { title: 'Direction éditoriale', text: 'Sélection des produits, hiérarchisation des messages, maquettes.' },
+    { title: 'Structure éditoriale', text: 'Sélection des produits, hiérarchisation des messages, maquettes.' },
     { title: 'Design', text: 'Univers graphique, mise en page, iconographie, habillage.' },
     { title: 'Exécution', text: 'Pré-presse, déclinaisons print &amp; digital, suivi de production.' }
   ]
 };
 const CATALOGUE_SERVICES_DEFAULT = {
   kicker: 'Notre accompagnement',
-  title: 'Ce que nous prenons en charge',
-  text: 'Nous accompagnons chaque édition de sa structuration éditoriale jusqu’à ses déclinaisons print et digitales.',
+  title: 'Une édition maîtrisée de bout en bout.',
+  text: 'Chaque catalogue mobilise une chaîne de production complète, de l’organisation de l’offre jusqu’au déploiement final.',
   items: [
-    { title: 'Direction éditoriale', text: 'Organisation des univers, hiérarchisation des offres et construction du chemin de lecture.' },
-    { title: 'Conception graphique', text: 'Création des maquettes, mise en page et valorisation visuelle des produits.' },
+    { title: 'Structure éditoriale', text: 'Organisation des univers, hiérarchisation des offres et construction du chemin de lecture.' },
+    { title: 'Direction graphique', text: 'Création des maquettes, mise en page et valorisation visuelle des produits.' },
     { title: 'Exécution &amp; prépresse', text: 'Déclinaisons des pages, contrôles techniques et préparation des fichiers destinés à l’impression.' },
-    { title: 'Campagnes digitales', text: 'Adaptation des univers catalogue aux formats sociaux et publicitaires disponibles.' }
+    { title: 'Campagnes digitales', text: 'Adaptation de la campagne aux formats sociaux et publicitaires pour prolonger l’opération au-delà du print.' }
   ]
 };
 
@@ -2466,8 +2489,8 @@ const CATALOGUE_CASE_STUDIES = {
     processSteps: undefined,
     showcase: {
       kicker: 'Réalisations',
-      title: 'Des supports impactants pour chaque moment de l’année',
-      note: 'Une sélection de trois catalogues parmi les nombreuses éditions conçues pour accompagner les temps forts commerciaux de l’enseigne.',
+      title: 'Faire vivre l’enseigne au rythme de ses temps forts commerciaux.',
+      note: 'Trois éditions. Trois univers. Une même exigence commerciale.Une sélection de catalogues conçus pour accompagner différents moments de l’année, chacun avec son propre rythme, ses produits prioritaires et son territoire visuel.',
       subnote: '',
       image: '/assets/projects/catalogue/la-foir-fouille/showcase-trois-catalogues.webp',
       alt: 'Trois couvertures de catalogues La Foir’Fouille : Maison &amp; Rangement, Jardin &amp; Extérieur, Fêtes &amp; fin d’année'
@@ -2475,7 +2498,7 @@ const CATALOGUE_CASE_STUDIES = {
     catalogues: [
       {
         layout: 'cover-left', label: 'Catalogue', title: 'Maison &amp; Rangement',
-        text: 'Des sélections inspirantes pour organiser, décorer et vivre la maison. Un parcours clair et visuel pour faciliter le choix.',
+        text: 'Rendre l’offre simple à parcourir.Organisation, rangement, décoration et équipement de la maison : une édition structurée pour guider rapidement le lecteur entre inspirations, solutions pratiques et offres commerciales.La mise en page alterne respirations, mises en situation et sélections produits pour maintenir une lecture claire malgré la densité de l’offre.',
         cta: 'Voir un exemple', ctaHref: '/assets/projects/catalogue/la-foir-fouille/maison-cover.webp',
         cover: '/assets/projects/catalogue/la-foir-fouille/maison-cover.webp', coverAlt: 'Couverture du catalogue La Foir’Fouille Maison &amp; Rangement',
         pages: [
@@ -2487,7 +2510,7 @@ const CATALOGUE_CASE_STUDIES = {
       },
       {
         layout: 'cover-right', label: 'Catalogue', title: 'Jardin &amp; Extérieur',
-        text: 'Des ambiances conviviales pour profiter pleinement des beaux jours. Des offres mises en scène dans des univers désirables.',
+        text: 'Donner envie de se projeter.Mobilier, décoration, repas et vie en extérieur composent un univers davantage tourné vers l’inspiration et les usages.Les produits sont mis en scène pour aider le lecteur à imaginer les différents moments de vie tout en conservant une lecture immédiate des offres.',
         cta: 'Voir un exemple', ctaHref: '/assets/projects/catalogue/la-foir-fouille/jardin-cover.webp',
         cover: '/assets/projects/catalogue/la-foir-fouille/jardin-cover.webp', coverAlt: 'Couverture du catalogue La Foir’Fouille Jardin &amp; Extérieur',
         pages: [
@@ -2499,7 +2522,7 @@ const CATALOGUE_CASE_STUDIES = {
       },
       {
         layout: 'cover-left', label: 'Catalogue', title: 'Fêtes &amp; Monde de la maison',
-        text: 'Des idées cadeaux et déco pour toutes les occasions. Des inspirations festives et chaleureuses.',
+        text: 'Installer un temps fort dès la première page.Décoration, idées cadeaux et produits festifs construisent une édition plus émotionnelle, pensée pour accompagner les achats de fin d’année.La direction graphique crée une atmosphère chaleureuse sans perdre les fondamentaux du catalogue promotionnel : hiérarchie, prix et lisibilité.',
         cta: 'Voir un exemple', ctaHref: '/assets/projects/catalogue/la-foir-fouille/fetes-cover.webp',
         cover: '/assets/projects/catalogue/la-foir-fouille/fetes-cover.webp', coverAlt: 'Couverture du catalogue La Foir’Fouille Fêtes &amp; fin d’année',
         pages: [
@@ -2514,8 +2537,8 @@ const CATALOGUE_CASE_STUDIES = {
        les exports carrés réels restent sur disque, non utilisés ici — comme
        les assets "workflow" réservés aux futures études de cas. */
     campaigns: {
-      kicker: 'Campagnes', title: 'Campagnes multi-formats',
-      subtitle: 'Exemples de stories verticales, un visuel par univers.',
+      kicker: 'Campagnes', title: 'DÉCLINAISONS DIGITALES',
+      subtitle: 'Prolonger chaque édition au-delà du catalogue.Les univers graphiques développés pour les catalogues se déclinent sur les formats sociaux et publicitaires afin de prolonger chaque temps fort commercial sur les points de contact digitaux.Stories, formats verticaux et créations publicitaires reprennent les mêmes codes tout en adaptant la composition aux usages de chaque plateforme.',
       rows: [
         { universe: 'Maison &amp; Rangement', items: [
           { src: '/assets/projects/catalogue/la-foir-fouille/campaigns/maison-story.webp', alt: 'Story La Foir’Fouille Maison &amp; Rangement', caption: 'Story — vertical', ratioClass: 'campaign-portrait' }
@@ -2529,11 +2552,11 @@ const CATALOGUE_CASE_STUDIES = {
       ]
     },
     services: CATALOGUE_SERVICES_DEFAULT,
-    conclusion: 'Une exigence de qualité, une parfaite gestion des délais et une compréhension fine des enjeux retail font de notre collaboration avec La Foir’Fouille une relation durable et performante.',
+    conclusion: 'Créativité, rigueur et délais font partie du même métier.En communication promotionnelle, une bonne idée ne suffit pas. Il faut aussi maîtriser une grande quantité d’informations, respecter les contraintes commerciales, tenir les délais et garantir la cohérence de chaque support jusqu’à sa diffusion.C’est cette combinaison entre création et maîtrise opérationnelle qui structure notre accompagnement de La Foir’Fouille.',
     footer: {
       mark: '◎',
       eyebrow: 'Prochaine édition',
-      title: 'Donnons plus d’impact à vos prochaines éditions',
+      title: 'Une offre très large à rendre lisible ?',
       description: 'Catalogue, exécution print et campagnes digitales : construisons un dispositif cohérent autour de vos temps forts commerciaux.',
       ctaLabel: 'Parler de votre projet',
       ctaHref: '/pages/contact.html'
@@ -2556,8 +2579,8 @@ const CATALOGUE_CASE_STUDIES = {
     expertise: CATALOGUE_EXPERTISE_DEFAULT,
     processSteps: undefined,
     showcase: {
-      kicker: 'Deux catalogues, deux temps forts', title: 'Des couvertures qui installent immédiatement le sujet',
-      note: 'Deux prises de parole saisonnières distinctes : « Vacances à la maison », diffusée du 29 juin au 27 juillet, et « Bonne fête maman ! », proposée du 18 mai au 11 juin 2023. Chaque couverture réunit la période commerciale, le thème de l’édition et un produit d’appel avant de conduire vers un parcours d’offres organisé par usages.',
+      kicker: 'DEUX CATALOGUES, DEUX TEMPS FORTS', title: 'Deux saisons, deux univers, une même exigence commerciale',
+      note: '« Vacances à la maison » et « Bonne fête maman ! » traduisent deux moments très différents de l’année, avec une même logique : installer immédiatement le temps fort, mettre en avant les produits d’appel et organiser l’offre par usages pour faciliter la lecture.',
       subnote: '',
       image: '/assets/projects/catalogue/gamme-vert/couvgamvert.webp',
       alt: 'Mockup des catalogues Gamm vert Vacances à la maison et Bonne fête maman'
@@ -2565,7 +2588,7 @@ const CATALOGUE_CASE_STUDIES = {
     catalogues: [
       {
         layout: 'cover-left', label: 'Catalogue · Été', title: 'Vacances à la maison',
-        text: 'Diffusée du 29 juin au 27 juillet, cette édition s’ouvre sur un hamac mis en situation dans un jardin et déroule ensuite les usages de la saison. Les pages intérieures structurent les offres autour de la détente, des repas en extérieur, de la réception et des loisirs : mobilier de jardin, voiles d’ombrage, piscines, spas, barbecues et équipements pour recevoir. Les bandeaux de rubrique, les grands visuels d’ambiance et les blocs prix permettent de changer d’univers tout en gardant une lecture commerciale continue.',
+        text: 'transforme la saison estivale en parcours d’usages : se détendre, recevoir, cuisiner dehors, profiter du jardin.Mobilier, ombrage, piscines, spas et barbecues s’organisent dans une mise en page qui alterne inspiration, produits et offres pour maintenir une lecture fluide et commerciale.',
         cover: '/assets/projects/catalogue/gamme-vert/couvgammvert1.webp', coverAlt: 'Mockup du catalogue Gamm vert Vacances à la maison',
         pages: [
           { src: '/assets/projects/catalogue/gamme-vert/catalogue-01-page-02.webp', alt: 'Page intérieure 2 du catalogue Gamm vert Vacances à la maison' },
@@ -2576,7 +2599,7 @@ const CATALOGUE_CASE_STUDIES = {
       },
       {
         layout: 'cover-right', label: 'Catalogue · Fête des mères', title: 'Bonne fête maman !',
-        text: 'Proposée du 18 mai au 11 juin 2023, cette édition associe la fête des mères aux univers végétal, jardin et maison. La couverture met en avant une sélection de phalaenopsis, puis les pages présentent fleurs, orchidées, pots, terreaux et accessoires avant d’élargir le parcours à la motoculture et à l’entretien extérieur. Le rose identifie le temps fort cadeau, tandis que le vert Gamm vert et les cartouches rouges assurent la continuité de marque et la visibilité des offres.',
+        text: 'Bonne fête maman !Pour la Fête des Mères, l’univers végétal devient le point d’entrée du catalogue.Fleurs, orchidées, pots et accessoires installent un territoire plus émotionnel, tandis que les codes Gamm vert et la hiérarchie promotionnelle assurent la continuité de marque et la lisibilité des offres.',
         cover: '/assets/projects/catalogue/gamme-vert/couvgammvert2.webp', coverAlt: 'Mockup du catalogue Gamm vert Bonne fête maman',
         pages: [
           { src: '/assets/projects/catalogue/gamme-vert/catalogue-02-page-02.webp', alt: 'Page intérieure 2 du catalogue Gamm vert Bonne fête maman' },
@@ -2587,8 +2610,8 @@ const CATALOGUE_CASE_STUDIES = {
       }
     ],
     campaigns: {
-      kicker: 'Campagne multi-formats', title: 'Bien se reposer — voilà mon projet',
-      subtitle: 'Une même prise de parole déclinée pour plusieurs points de contact. La story verticale, la publication carrée et le header Facebook reprennent la période du 26 mars au 25 avril, la promesse « Bien se reposer — voilà mon projet » et l’appel à découvrir le nouveau catalogue, avec une composition adaptée à chaque ratio.',
+      kicker: 'CAMPAGNE MULTI-FORMATS', title: 'Une idée, plusieurs points de contact',
+      subtitle: 'La prise de parole « Bien se reposer — voilà mon projet » se décline en story, publication carrée et header Facebook.Chaque format conserve le même message, le même temps fort et les mêmes codes graphiques, tout en adaptant sa composition aux usages de chaque support.',
       rows: [
         { universe: 'Story', items: [
           { src: '/assets/projects/catalogue/gamme-vert/campaigns/bien-se-reposer-story.webp', alt: 'Story Gamm vert Bien se reposer — voilà mon projet', caption: 'Story', ratioClass: 'campaign-portrait' }
@@ -2602,10 +2625,10 @@ const CATALOGUE_CASE_STUDIES = {
       ]
     },
     services: CATALOGUE_SERVICES_DEFAULT,
-    conclusion: 'Une exigence de qualité, une parfaite gestion des délais et une compréhension fine des enjeux jardinerie font de notre collaboration avec Gamm vert une relation durable et performante.',
+    conclusion: 'LE BON TEMPS FORT, AU BON MOMENTAdapter l’offre sans perdre la marqueSaisonnalité, usages, produits prioritaires et contexte commercial changent d’une édition à l’autre. Notre rôle est de faire évoluer le ton et l’univers tout en conservant la cohérence de l’enseigne.',
     footer: {
       mark: '◎', eyebrow: 'Prochaine édition',
-      title: 'Donnons plus d’impact à vos prochaines éditions',
+      title: 'Une saison à transformer en temps fort ?',
       description: 'Catalogue, exécution print et campagnes digitales : construisons un dispositif cohérent autour de vos temps forts commerciaux.',
       ctaLabel: 'Parler de votre projet', ctaHref: '/pages/contact.html'
     }
@@ -2627,8 +2650,8 @@ const CATALOGUE_CASE_STUDIES = {
     expertise: CATALOGUE_EXPERTISE_DEFAULT,
     processSteps: undefined,
     showcase: {
-      kicker: 'Catalogue &amp; point de vente', title: 'Une production pensée jusque dans le magasin',
-      note: 'Couverture, pages d’offres et doubles pages composent un ensemble cohérent, conçu pour installer le temps fort commercial avant son relais sur les supports de communication en magasin.',
+      kicker: 'CARREFOUR · CATALOGUES &amp; POINT DE VENTE', title: 'Du catalogue au magasin, un même temps fort commercial.',
+      note: 'Catalogues, offres promotionnelles et communication en point de vente sont pensés comme un ensemble cohérent. Chaque opération installe son propre territoire graphique, puis le prolonge tout au long du parcours client pour renforcer la visibilité des offres.',
       subnote: '',
       image: '/assets/projects/catalogue/carrefour/couvcarrfouf.webp',
       alt: 'Mockup du catalogue Carrefour Foire aux vins'
@@ -2636,7 +2659,7 @@ const CATALOGUE_CASE_STUDIES = {
     catalogues: [
       {
         layout: 'cover-left', label: 'Catalogue · Acte 1', title: 'Promo Goal',
-        text: 'Diffusée du 2 au 14 juin 2026, cette édition organise les offres dans un territoire graphique inspiré du sport : aplats bleu, blanc, rouge, vert et jaune, texture textile et grands cartouches prix. Les pages alternent produits du quotidien, sélections locales et mises en avant par rayon, tout en conservant une hiérarchie très directe entre l’offre, le prix et les informations produit.',
+        text: 'Pour cette opération diffusée du 2 au 14 juin 2026, l’univers graphique emprunte les codes du sport pour donner du rythme à la promotion.Couleurs franches, textures et grands marqueurs prix structurent les différentes familles de produits tout en maintenant une hiérarchie très directe entre l’offre, le produit et son avantage commercial.',
         cover: '/assets/projects/catalogue/carrefour/catalogue-01-cover.webp', coverAlt: 'Couverture du catalogue Carrefour Promo Goal — Acte 1',
         pages: [
           { src: '/assets/projects/catalogue/carrefour/catalogue-01-page-02.webp', alt: 'Page intérieure 2 du catalogue Carrefour Promo Goal — Acte 1' },
@@ -2647,7 +2670,7 @@ const CATALOGUE_CASE_STUDIES = {
       },
       {
         layout: 'cover-right', label: 'Catalogue · Carnaval', title: 'Le Carnaval des promos',
-        text: 'Proposée du 25 février au 9 mars 2025, cette édition reprend les signes visuels du carnaval pour rythmer les offres : turquoise, rose, rouge, masques, plumes et percussions. La couverture installe immédiatement le temps fort, puis les pages intérieures déclinent cette identité sur l’épicerie, les produits frais, la boulangerie et les offres promotionnelles, avec des blocs prix lisibles malgré la densité des références.',
+        text: 'Pour cette édition du 25 février au 9 mars 2025, le temps fort commercial s’inscrit dans l’univers du carnaval.Couleurs, motifs, masques et éléments festifs donnent son identité à l’opération, tandis que la structure des pages permet de conserver une lecture claire des prix et des offres malgré la densité des références.',
         cover: '/assets/projects/catalogue/carrefour/catalogue-02-cover.webp', coverAlt: 'Couverture du catalogue Carrefour Le Carnaval des promos',
         pages: [
           { src: '/assets/projects/catalogue/carrefour/catalogue-02-page-08.webp', alt: 'Page intérieure 8 du catalogue Carrefour Le Carnaval des promos' },
@@ -2658,9 +2681,9 @@ const CATALOGUE_CASE_STUDIES = {
       }
     ],
     campaigns: {
-      kicker: 'Communication print en magasin',
-      title: 'Maximiser la visibilité du catalogue dans le parcours client',
-      subtitle: 'Trois temps forts déclinés chacun dans trois mises en situation. Les kakémonos suspendus et les écrans placés dans les univers de vente prolongent les codes du catalogue au plus près des rayons et des zones de passage.',
+      kicker: 'COMMUNICATION EN POINT DE VENTE',
+      title: 'Faire vivre l’opération jusqu’au rayon.',
+      subtitle: 'Le territoire graphique du catalogue se prolonge dans le magasin pour accompagner le client au plus près de l’acte d’achat.Kakémonos, affichage et écrans reprennent les codes de chaque temps fort et les adaptent aux différents espaces du parcours : allées, univers produits, rayons et zones de passage.',
       rows: [
         { universe: 'Foire aux vins', items: [
           { src: '/assets/projects/catalogue/carrefour/print-instore/set-1-1.webp', alt: 'Kakémono Carrefour Foire aux vins suspendu dans une allée du magasin', caption: '', ratioClass: 'print-landscape' },
@@ -2680,19 +2703,19 @@ const CATALOGUE_CASE_STUDIES = {
       ]
     },
     services: {
-      kicker: 'Notre accompagnement', title: 'Ce que nous prenons en charge',
+      kicker: 'Notre accompagnement', title: 'Une édition maîtrisée de bout en bout.',
       text: 'Nous accompagnons chaque édition de sa structuration éditoriale jusqu’à son déploiement sur les supports visibles en magasin.',
       items: [
-        { title: 'Direction éditoriale', text: 'Organisation des univers, hiérarchisation des offres et construction du chemin de lecture.' },
-        { title: 'Conception graphique', text: 'Création des maquettes, mise en page et valorisation visuelle des produits.' },
+        { title: 'Structure éditoriale', text: 'Organisation des univers, hiérarchisation des offres et construction du chemin de lecture.' },
+        { title: 'Direction graphique', text: 'Création des maquettes, mise en page et valorisation visuelle des produits.' },
         { title: 'Exécution &amp; prépresse', text: 'Déclinaisons des pages, contrôles techniques et préparation des fichiers destinés à l’impression.' },
         { title: 'Déploiement magasin', text: 'Adaptation des temps forts catalogue aux kakémonos, écrans et formats de communication sur le lieu de vente.' }
       ]
     },
-    conclusion: 'Une exigence de qualité, une parfaite gestion des délais et une compréhension fine des enjeux retail font de notre collaboration avec Carrefour une relation durable et performante.',
+    conclusion: 'UNE OFFRE QUI SE LIT. UNE CAMPAGNE QUI SE VOIT.Construire la continuité jusqu’au point de vente.Un catalogue promotionnel prend encore plus de force lorsque ses codes accompagnent le client jusqu’en magasin. Notre rôle est d’assurer cette continuité entre offre, création et parcours commercial.',
     footer: {
       mark: '◎', eyebrow: 'Prochaine édition',
-      title: 'Donnons plus d’impact à vos prochaines éditions',
+      title: 'Un gros volume d’offres à orchestrer ?',
       description: 'Catalogue, exécution print et communication en magasin : construisons un dispositif cohérent autour de vos temps forts commerciaux.',
       ctaLabel: 'Parler de votre projet', ctaHref: '/pages/contact.html'
     }
@@ -2843,10 +2866,10 @@ const DIGILIFE_CASE_STUDY = {
     src: `${DGC}/hero-bg.webp`, w: 2400, h: 1027,
     alt: 'Univers Digimag : personas Apple et logo Apple rétroéclairé',
     logo: '/assets/global/branding/logos/Logo-Clients-white-digilife.svg',
-    over: 'Découvrez le nouveau',
+    over: 'Le catalogue promotionnel repensé pour le digital.',
     title: 'Digimag',
     ctaLabel: 'Cliquez-ici',
-    text: 'Direction artistique, production visuelle par IA et déploiement multi-formats pour le spécialiste Apple en Guadeloupe &amp; Martinique.'
+    text: 'Pour Digilife, nous avons imaginé un catalogue 100 % digital capable de conjuguer offre commerciale, univers Apple et contextes d’usage proches des publics de Guadeloupe et de Martinique.Direction artistique, création visuelle assistée par IA, conception éditoriale et déploiement multi-formats composent un dispositif pensé pour informer, donner envie et prolonger l’expérience au-delà du catalogue.'
   },
   digitalMockup: {
     src: `${DGC}/mockup-multiscreen.webp`, w: 1448, h: 1086,
@@ -2881,9 +2904,9 @@ const DIGILIFE_CASE_STUDY = {
   /* Un seul chapeau introduit l'ensemble des pages présentées : plus aucun
      texte ne s'intercale entre les doubles-pages. */
   spreadsLead: {
-    label: 'Un univers, un persona',
-    title: 'Performance et dépassement.',
-    text: 'Une sélection de pages représentatives des différents univers du catalogue et des profils auxquels ils s’adressent.'
+    label: 'UN PRODUIT, UN USAGE, UN UNIVERS',
+    title: 'Donner du contexte à chaque gamme.',
+    text: 'Sport, mobilité, travail, création, musique ou quotidien : chaque famille de produits prend place dans un univers qui permet au lecteur de se projeter dans son usage.Les différentes doubles pages conservent une même architecture éditoriale tout en adaptant leur direction créative au produit et au public auquel elles s’adressent.'
   },
   catalogueSpreads: [
     {
@@ -2926,8 +2949,8 @@ const DIGILIFE_CASE_STUDY = {
     white: '/assets/global/branding/logos/Logo-Clients-white-digilife.svg'
   },
   cta: {
-    title: 'Un projet, une idée, un défi ?',
-    text: 'Créons ensemble des expériences qui font la différence.',
+    title: 'UN CATALOGUE À REPENSER POUR LE DIGITAL ?',
+    text: 'Direction artistique, conception éditoriale, contenus, IA et déploiement de campagne : transformons votre catalogue en un dispositif commercial capable de vivre sur tous les écrans.',
     label: 'Nous contacter',
     href: '/pages/contact.html'
   }
@@ -2978,8 +3001,8 @@ function renderDigilifeCaseHTML(cfg) {
           <div class="dgc-screens__grid">
             <div class="dgc-lead">
               <span>Catalogue 100% digital</span>
-              <h3>Un catalogue pensé pour tous vos écrans.</h3>
-              <p>Une expérience de lecture fluide, interactive et immersive, disponible en ligne pendant toute l’opération.</p>
+              <h3>Une expérience pensée pour tous les écrans.</h3>
+              <p>Digimag est conçu pour être consulté directement en ligne, sur mobile, tablette ou ordinateur. Une lecture adaptée aux usages digitaux permet de parcourir les offres, découvrir les produits et accéder au catalogue pendant toute la durée de l’opération.</p>
               ${cfg.calameoUrl ? `<a class="dgc-btn" href="${cfg.calameoUrl}" target="_blank" rel="noopener noreferrer">Voir le catalogue <span aria-hidden="true">→</span></a>` : ''}
             </div>
             <figure class="dgc-screens__visual">
@@ -3022,8 +3045,8 @@ function renderDigilifeCaseHTML(cfg) {
         <section>
           <div class="dgc-lead">
             <span>Déploiement 360°</span>
-            <h3>Un message fort, partout où ça compte.</h3>
-            <p>Une campagne sociale pensée comme le prolongement direct du catalogue.</p>
+            <h3>Faire vivre le catalogue au-delà de sa lecture.</h3>
+            <p>Les codes graphiques et les offres du Digimag se déclinent sur les réseaux sociaux afin de multiplier les points de contact et de prolonger les temps forts commerciaux auprès des communautés Digilife.Les contenus social media ne reproduisent pas simplement les pages du catalogue : ils en reprennent l’univers pour construire des prises de parole adaptées aux usages du feed.</p>
           </div>
           <div class="dgc-posts">
             ${cfg.socialPosts.map(p => `<article class="dgc-post">
@@ -3044,8 +3067,8 @@ function renderDigilifeCaseHTML(cfg) {
           <div class="dgc-film__grid">
             <div class="dgc-lead">
               <span>Film de lancement</span>
-              <h3>Donner vie à la promesse.</h3>
-              <p>Un film court, dynamique et émotionnel conçu pour dévoiler Digimag et ses différents univers.</p>
+              <h3>Donner envie d’entrer dans le Digimag.</h3>
+              <p>Un film court accompagne le lancement du catalogue en mettant en mouvement ses produits, ses univers et sa direction artistique.Pensé comme une porte d’entrée vers l’opération, il installe l’univers du Digimag avant même la première page.</p>
               <a class="dgc-btn" href="#dgc-film-player">Voir le film <span aria-hidden="true">→</span></a>
             </div>
             <figure class="dgc-film__player">
@@ -3079,25 +3102,25 @@ const ph = (label, ratio) => ({ pending: true, label, ratio: ratio || '210 / 297
 const DECATHLON_CASE_STUDY = {
   hero: {
     logo: '/assets/global/branding/logos/Logo-Clients-black-decathlon.svg',
-    eyebrow: 'Grande distribution · Sport · Guadeloupe',
+    eyebrow: 'RETAIL · SPORT · GUADELOUPE',
     title: 'Decathlon',
-    subtitle: 'Trois catalogues, trois temps forts, une même exigence de cohérence.',
-    text: 'Direction artistique, production visuelle assistée par IA et mise en page éditoriale pour créer des catalogues numériques adaptés au marché local.',
+    subtitle: 'Quatre catalogues, quatre temps forts, une même marque.',
+    text: 'Latitude Sud accompagne Decathlon dans la conception de catalogues digitaux adaptés aux temps forts commerciaux et aux usages du marché local.Direction artistique, conception éditoriale et création visuelle assistée par IA permettent de contextualiser les produits tout en préservant les codes et la cohérence de la marque Decathlon.',
     photo: { src: `${DKT}/hero-photo.webp`, w: 1800, h: 1013, alt: 'Deux sportifs à l’entraînement en extérieur, face à la mer' }
   },
   digital: {
     eyebrow: 'Catalogue 100% digital',
-    title: 'Un catalogue qui se consulte partout.',
-    text: 'Pensé pour être parcouru sur téléphone, tablette ou ordinateur : une lecture fluide, des visuels forts et une navigation qui aide à comparer et à décider.',
+    title: 'Des offres pensées pour être parcourues sur tous les écrans.',
+    text: 'Mobile, tablette ou ordinateur : chaque catalogue est conçu pour proposer une lecture claire, rythmée et adaptée aux usages digitaux.Produits, prix et univers sportifs s’organisent pour permettre au lecteur d’identifier rapidement les offres et de se projeter dans les pratiques proposées.',
     mockup: { src: `${DKT}/mockup-multiscreen.webp`, w: 1800, h: 1013, alt: 'Catalogue Decathlon affiché sur téléphone, tablette et ordinateur portable' }
   },
   /* La méthode n'apparaît qu'ici, jamais répétée dans les catalogues.
      Chaque ligne raconte un type de transformation, du visuel de départ
      jusqu'à son intégration dans la page. */
   process: {
-    eyebrow: 'Notre méthodologie',
-    title: 'De l’image brute à la page catalogue.',
-    text: 'Les ressources produit disponibles ne parlent pas au public antillais. Nous les retravaillons — les modèles, les produits portés, les décors — jusqu’à obtenir des visuels qui ressemblent à nos clients et qui s’intègrent directement dans la mise en page.',
+    eyebrow: 'NOTRE MÉTHODE',
+    title: 'Du produit à son contexte d’usage.',
+    text: 'Les ressources fournies par la marque constituent notre point de départ. Nous les adaptons ensuite aux contextes, aux profils et aux pratiques que nous souhaitons mettre en scène pour construire des visuels plus proches des usages locaux.',
     columns: ['Visuel de départ', 'Transformation', 'Intégration catalogue'],
     rows: [
       {
@@ -3132,9 +3155,9 @@ const DECATHLON_CASE_STUDY = {
   },
   catalogues: [
     {
-      id: 'prepa-ete', eyebrow: 'Catalogue 01',
+      id: 'prepa-ete', eyebrow: 'Catalogue',
       title: 'Reprenez la forme, à petits prix.',
-      description: 'Un catalogue dédié à la remise en forme, aux équipements de fitness et à la préparation physique. Des essentiels fiables pour bouger plus, chaque jour.',
+      description: 'Fitness, préparation physique, textile et équipements : une édition construite autour de la reprise d’activité et d’une sélection accessible pour retrouver le rythme.Les pages alternent équipements, usages et prix pour conserver une lecture dynamique malgré la diversité de l’offre',
       cover: { src: `${DKT}/c1-cover.webp`, w: 1091, h: 1544, alt: 'Couverture du catalogue numérique « Reprenez la forme, à petits prix »' },
       spreads: [
         { left: { src: `${DKT}/spreads/c1-s1-left.webp` }, right: { src: `${DKT}/spreads/c1-s1-right.webp` }, alt: 'Double-page fitness et textile technique' },
@@ -3142,9 +3165,9 @@ const DECATHLON_CASE_STUDY = {
       ]
     },
     {
-      id: 'vacances', eyebrow: 'Catalogue 02',
+      id: 'vacances', eyebrow: 'Catalogue',
       title: 'Les vacances à prix juste.',
-      description: 'Un univers estival consacré aux activités aquatiques, aux vacances actives et aux équipements outdoor. Snorkeling, plage et plein air structurent la lecture.',
+      description: 'Activités aquatiques, plage, snorkeling, surf et plein air composent un univers directement connecté aux usages de la période.Une édition où les produits sont organisés par moments de pratique pour faciliter la projection et la découverte de l’offre.',
       cover: { src: `${DKT}/c2-cover.webp`, w: 1091, h: 1544, alt: 'Couverture du catalogue numérique « Les vacances à prix juste »' },
       spreads: [
         { left: { src: `${DKT}/spreads/c2-s1-left.webp` }, right: { src: `${DKT}/spreads/c2-s1-right.webp` }, alt: 'Double-page snorkeling et loisirs d’eau' },
@@ -3152,9 +3175,9 @@ const DECATHLON_CASE_STUDY = {
       ]
     },
     {
-      id: 'camping', eyebrow: 'Catalogue 03',
+      id: 'camping', eyebrow: 'Catalogue',
       title: 'Les bons moments de Pâques.',
-      description: 'Un catalogue camping pensé pour les vacances de Pâques : tentes, couchage et vie en plein air, du matériel compact aux formats familiaux.',
+      description: 'Camping, couchage, tentes et vie en plein air : le catalogue accompagne un temps fort particulièrement lié aux habitudes locales des vacances de Pâques. L’offre est structurée pour aller de l’équipement individuel aux solutions familiales et permettre une lecture simple des différents usages.',
       cover: { src: `${DKT}/c5-cover.webp`, w: 1091, h: 1544, alt: 'Couverture du catalogue numérique camping « Les bons moments de Pâques »' },
       spreads: [
         { left: { src: `${DKT}/spreads/c5-s1-left.webp` }, right: { src: `${DKT}/spreads/c5-s1-right.webp` }, alt: 'Double-page essentiels du camping' },
@@ -3166,7 +3189,7 @@ const DECATHLON_CASE_STUDY = {
     {
       id: 'effort', eyebrow: 'Catalogue 04', variant: 'showcase',
       title: 'L’effort,\nvotre sport préféré.',
-      description: 'Le catalogue dédié à la performance, à la musculation et au cardio. Équipements techniques et textiles résistants pour se dépasser, à chaque entraînement.',
+      description: 'Musculation, cardio, entraînement et textile technique composent une édition davantage orientée performance.La direction visuelle et la hiérarchie des pages donnent une place centrale à l’effort, au mouvement et aux équipements conçus pour progresser.',
       cover: { src: `${DKT}/c3-cover.webp`, w: 1091, h: 1544, alt: 'Couverture du catalogue numérique « L’effort, votre sport préféré »' },
       spreads: [
         { left: { src: `${DKT}/spreads/c4-s1-left.webp` }, right: { src: `${DKT}/spreads/c4-s1-right.webp` }, alt: 'Double-page cardio training et vélo elliptique' },
@@ -3175,8 +3198,8 @@ const DECATHLON_CASE_STUDY = {
     }
   ],
   cta: {
-    title: 'Un catalogue pensé pour faire vivre vos offres ?',
-    text: 'Concevons un dispositif numérique clair, attractif et cohérent avec votre marque.',
+    title: 'UNE OFFRE À ADAPTER À VOTRE MARCHÉ ?',
+    text: 'Catalogue digital, direction artistique, contextualisation des contenus et mise en page commerciale : construisons un dispositif capable de préserver la force de votre marque tout en parlant aux usages de vos publics.',
     label: 'Nous contacter',
     href: '/pages/contact.html'
   }
@@ -3298,7 +3321,7 @@ function initDecathlonCaseStudy() {
   }
 }
 
-/* ── MR.BRICOLAGE GUADELOUPE — étude de cas catalogue 360° ───────────────
+/* ── MR.BRICOLAGE GUADELOUPE — étude de cas 15 ans à transformer les offres en temps forts commerciaux. ───────────────
    Séquence : hero → print & digital → outillage & auto → maison & entretien
    → réseaux sociaux → vidéo + radio → CTA.
 
@@ -3318,12 +3341,12 @@ const MRB_CASE = {
   hero: {
     logo: `${MRB}/brand/logo-gp-white-circle.svg`,
     watermark: `${MRB}/brand/logo-m-mark.svg`,
-    chip: 'Mr.Bricolage Guadeloupe',
-    text: 'Depuis 20 ans, nous créons des catalogues utiles, désirables et qui parlent à nos clients, au bon moment et au pouvoir d’achat.'
+    chip: 'Mr.Bricolage · 15 ans de collaboration',
+    text: 'Depuis 15 ans, Latitude Sud accompagne Mr.Bricolage dans la conception de ses catalogues et de ses opérations promotionnelles.Print, digital, social media, vidéo, radio : chaque édition est pensée comme le point de départ d’un dispositif capable de rendre l’offre claire, attractive et visible sur l’ensemble des points de contact.'
   },
   printDigital: {
-    title: 'Catalogue print &amp; digital',
-    text: 'Un même catalogue décliné en print et en digital pour maximiser la portée, l’impact et l’expérience de lecture.',
+    title: 'PRINT &amp; DIGITAL',
+    text: 'Un même catalogue, plusieurs usages.Chaque édition est conçue pour fonctionner aussi bien en version imprimée que digitale. Hiérarchie des offres, rythme des pages, lisibilité des prix et impact des temps forts restent cohérents quel que soit le support de consultation.',
     mockup: `${MRB}/print-digital/mockup.webp`
   },
   /* Chaque catalogue affiche 3 pages individuelles sur une seule ligne,
@@ -3332,7 +3355,7 @@ const MRB_CASE = {
     {
       id: 'outillage-auto',
       title: 'Catalogue outillage &amp; auto',
-      text: 'Une sélection d’outillage, d’entretien auto et de nettoyage. Une mise en page construite autour des prix et des temps forts promotionnels.',
+      text: 'Donner de l’impact à une offre très dense.Outillage, entretien automobile, nettoyage, équipements : cette édition organise une grande diversité de références autour d’une hiérarchie commerciale claire, pensée pour guider rapidement le lecteur vers les produits et les offres fortes.',
       products: [
         { src: `${MRB}/outillage-auto/products/product-01-batterie-auto.webp`, alt: 'Batterie auto 410 CCA, ressource produit fournie pour le catalogue Outillage et Auto' },
         { src: `${MRB}/outillage-auto/products/product-02-station-nettoyage.webp`, alt: 'Station de nettoyage SN500, ressource produit fournie pour le catalogue Outillage et Auto' }
@@ -3352,7 +3375,7 @@ const MRB_CASE = {
     {
       id: 'fete-des-meres',
       title: 'Catalogue Fête des Mères',
-      text: 'Bouquets, boissons fraîches et attentions du quotidien : une sélection cadeaux pensée pour cette occasion.',
+      text: 'Adapter le ton à chaque temps fort. Pour la Fête des Mères, la mécanique promotionnelle laisse davantage de place à la désirabilité et à l’univers cadeau. Produits, couleurs et mise en page créent une édition plus émotionnelle sans perdre l’efficacité commerciale du catalogue.',
       products: [
         { src: `${MRB}/fete-des-meres/products/product-01-slushy.webp`, alt: 'Machine à boisson glacée Slushy, ressource produit fournie pour le catalogue Fête des Mères' },
         { src: `${MRB}/fete-des-meres/products/product-02-bouquet.webp`, alt: 'Bouquet parfumé Galeo, ressource produit fournie pour le catalogue Fête des Mères' }
@@ -3372,7 +3395,7 @@ const MRB_CASE = {
     {
       id: 'votre-projet',
       title: 'Opération Votre Projet, Notre Métier',
-      text: 'Cuisines sur mesure, dressing, salle de bain et ventilation : une opération pensée pour accompagner chaque projet d’aménagement.',
+      text: 'Passer de la promotion à l’accompagnement.Cuisine, dressing, salle de bain, ventilation : cette opération ne présente pas seulement des produits, elle organise l’offre autour de projets d’aménagement et des besoins du client.La création traduit cette logique de conseil tout en conservant les codes commerciaux de l’enseigne.',
       products: [
         { src: `${MRB}/votre-projet/products/product-01-cuisine.webp`, alt: 'Cuisine semi équipée chêne, ressource produit fournie pour l’opération Votre Projet, Notre Métier' },
         { src: `${MRB}/votre-projet/products/product-02-airfryer.webp`, alt: 'Airfryer Techwood blanc, ressource produit fournie pour l’opération Votre Projet, Notre Métier' }
@@ -3538,7 +3561,7 @@ function renderMrBricolageCaseHTML() {
           <div class="mrb-hero__grid">
             <div class="mrb-hero__copy">
               <span class="mrb-chip">${C.hero.chip}</span>
-              <h1>20 ans de collaboration créative<br>au service d’une communication<br><em>catalogue 360°</em></h1>
+              <h1>20 ans de collaboration créative<br>au service d’une communication<br><em>15 ans à transformer les offres en temps forts commerciaux.</em></h1>
               <p>${C.hero.text}</p>
               <div class="mrb-hero__actions">
                 <a class="mrb-btn mrb-btn--solid" href="#mrb-outillage-auto">Découvrir le projet <span aria-hidden="true">→</span></a>
@@ -3571,9 +3594,9 @@ function renderMrBricolageCaseHTML() {
 
         <section class="mrb-social-section">
           <div class="mrb-head">
-            <h2>Du catalogue aux réseaux sociaux</h2>
+            <h2>DU CATALOGUE À LA CAMPAGNE</h2>
             <span class="mrb-rule" aria-hidden="true"></span>
-            <p>Une même campagne Meta Ads déclinée dans ses 4 vrais formats d’intégration publicitaire — Feed, Stories et lien sponsorisé.</p>
+            <p>Faire vivre l’opération au-delà des pages.Les temps forts du catalogue se prolongent sur les réseaux sociaux à travers des formats publicitaires adaptés aux différents emplacements Meta : carré, portrait, story et format horizontal sponsorisé.L’objectif : conserver le même message commercial tout en adaptant sa hiérarchie et sa composition aux usages de chaque format.</p>
           </div>
           <div class="mrb-social">
             <div class="mrb-social__row">
@@ -3590,7 +3613,7 @@ function renderMrBricolageCaseHTML() {
             <div class="mrb-mcard">
               <h3>Vidéo promo catalogue</h3>
               <span class="mrb-rule" aria-hidden="true"></span>
-              <p>Un film court et dynamique pour présenter les temps forts du catalogue et donner envie.</p>
+              <p>Mettre le catalogue en mouvement.Un format court reprend les produits, les offres et les temps forts de l’édition pour créer une prise de parole plus dynamique et prolonger la campagne sur les supports vidéo.</p>
               <div class="mrb-yt">
                 <iframe src="https://www.youtube-nocookie.com/embed/${C.media.video.youtubeId}" title="${C.media.video.alt}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -3598,7 +3621,7 @@ function renderMrBricolageCaseHTML() {
             <div class="mrb-mcard mrb-mcard--radio">
               <h3>Spot radio</h3>
               <span class="mrb-rule" aria-hidden="true"></span>
-              <p>Un message court et impactant diffusé sur les radios locales pour toucher tous les publics.</p>
+              <p>Faire entendre l’opération.Le dispositif se prolonge également en radio avec un message court, construit autour des offres et du temps fort commercial pour élargir la couverture de la campagne.</p>
               <div class="mrb-wave" aria-hidden="true">${Array.from({ length: 34 }, (_, i) => `<i style="height:${18 + Math.abs(((i * 37) % 46) - 23) * 2.4}%"></i>`).join('')}</div>
               <!-- TODO : brancher le lecteur audio. -->
               <button class="mrb-btn mrb-btn--ghost" type="button" disabled>Écouter le spot</button>
@@ -3612,8 +3635,8 @@ function renderMrBricolageCaseHTML() {
             <span class="mrb-rule" aria-hidden="true"></span>
           </div>
           <div class="mrb-cta__copy">
-            <strong>Un catalogue, un produit, une campagne ?</strong>
-            <p>Créons ensemble une communication retail claire et impactante.</p>
+            <strong>UN TEMPS FORT COMMERCIAL À METTRE EN CAMPAGNE ?</strong>
+            <p>Catalogue print ou digital, social media, vidéo, radio : construisons un dispositif capable de donner à vos offres toute la visibilité qu’elles méritent.</p>
           </div>
           <a href="/pages/contact.html">Nous contacter <span aria-hidden="true">→</span></a>
         </footer>
@@ -3626,8 +3649,8 @@ function initMrBricolageCaseStudy() {
   tpl.innerHTML = renderMrBricolageCaseHTML();
   const trigger = document.querySelector('[data-project-custom-template="tpl-cat-mr-bricolage"]');
   if (trigger) {
-    trigger.dataset.projectCtaTitle = 'Un catalogue, un produit, une campagne ?';
-    trigger.dataset.projectCtaCopy = 'Créons ensemble une communication retail claire et impactante.';
+    trigger.dataset.projectCtaTitle = 'UN TEMPS FORT COMMERCIAL À METTRE EN CAMPAGNE ?';
+    trigger.dataset.projectCtaCopy = 'Catalogue print ou digital, social media, vidéo, radio : construisons un dispositif capable de donner à vos offres toute la visibilité qu’elles méritent.';
   }
 }
 
@@ -3702,7 +3725,7 @@ const LBE_CASE = {
   footer: {
     logo: `${LBE}/logo/lbe-logo-horizontal-white.webp`,
     mid: 'Projet réalisé par <b>Latitude Sud</b><br>Studio créatif spécialisé en photographie, retouche et contenus visuels pour marques premium.',
-    ctaText: 'Envie de travailler ensemble ?',
+    ctaText: 'Un produit gourmand à sublimer ?',
     ctaBtn: 'Nous contacter'
   }
 };
@@ -3866,7 +3889,7 @@ const CCR_CASE = {
   },
   footer: {
     mid: 'Projet réalisé par <b>Latitude Sud</b><br>Studio créatif spécialisé en photographie, retouche et contenus visuels pour marques premium.',
-    ctaText: 'Envie de travailler ensemble ?',
+    ctaText: 'Un produit à faire vivre autrement ?',
     ctaBtn: 'Nous contacter'
   }
 };

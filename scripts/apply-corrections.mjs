@@ -94,7 +94,7 @@ const original = new Map(sources);
    endroits n'est pas appliquée d'office : elle est mise de côté et listée,
    sauf demande explicite avec --multi. */
 const MULTI = process.argv.includes('--multi');
-const applique = [], retenu = [], introuvable = [];
+const applique = [], retenu = [], introuvable = [], dejaFait = [];
 
 for (const c of corrections) {
   if (!c || typeof c.avant !== 'string' || typeof c.apres !== 'string') continue;
@@ -113,7 +113,22 @@ for (const c of corrections) {
   }
 
   const touches = [...parFichier.keys()].map(f => path.relative(RACINE, f));
-  if (!total) { introuvable.push(c); continue; }
+
+  if (!total) {
+    // Le texte d'origine est absent : soit la correction a DÉJÀ été appliquée
+    // lors d'un envoi précédent (le relecteur exporte tout le site à chaque
+    // fois, les fichiers se recouvrent), soit elle est réellement introuvable.
+    const apresMotif = motifDe(c.apres);
+    let dejaLa = 0;
+    for (const [, contenu] of sources) {
+      apresMotif.lastIndex = 0;
+      dejaLa += [...contenu.matchAll(apresMotif)].length;
+    }
+    if (dejaLa) dejaFait.push({ c, n: dejaLa });
+    else introuvable.push(c);
+    continue;
+  }
+
   if (total > 1 && !MULTI) { retenu.push({ c, n: total, touches }); continue; }
 
   for (const [f, trouves] of parFichier) {
@@ -143,6 +158,7 @@ console.log(`\n${DRY ? 'SIMULATION — aucun fichier écrit (ajoutez --write pou
 console.log(ligne);
 console.log(`  Reçues            : ${corrections.length}`);
 console.log(`  Appliquées        : ${applique.length}`);
+console.log(`  Déjà en place     : ${dejaFait.length}`);
 console.log(`  Mises de côté     : ${retenu.length}`);
 console.log(`  Introuvables      : ${introuvable.length}`);
 console.log(ligne);
@@ -151,6 +167,11 @@ for (const a of applique) {
   console.log(`  ✓ ${a.touches.join(', ')}${a.n > 1 ? `  (${a.n}×)` : ''}`);
   console.log(`      avant : ${court(a.c.avant)}`);
   console.log(`      après : ${court(a.c.apres)}`);
+}
+
+if (dejaFait.length) {
+  console.log(`\n  Déjà en place — corrections d'un envoi précédent, rien à refaire :`);
+  for (const d of dejaFait) console.log(`   · ${court(d.c.apres)}`);
 }
 
 if (retenu.length) {

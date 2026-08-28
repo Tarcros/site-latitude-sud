@@ -30,9 +30,9 @@ body[data-page="news"] { --page-accent: #d6c1a3; --hero-wave-surface: #f6eee5; }
   overflow: hidden;
   line-height: 0;
   pointer-events: none;
-  opacity: 0;
-  transform: translate3d(0, 22px, 0);
-  animation: lsHeroWaveEnter .7s cubic-bezier(.22, 1, .36, 1) .15s forwards;
+  /* Pas d'animation d'entrée : la vague est la jonction entre le hero et la
+     section qui suit. Comme cette section s'affiche immédiatement, toute
+     apparition différée de la vague créait une cassure visible au chargement. */
 }
 
 [data-hero-wave].hero-wave > .wave-bg {
@@ -73,10 +73,6 @@ body[data-page="news"] { --page-accent: #d6c1a3; --hero-wave-surface: #f6eee5; }
   height: clamp(34px, 3vw, 42px);
   transform: translate3d(-50%, 0, 0);
   filter: brightness(0) saturate(100%) invert(29%) sepia(12%) saturate(1067%) hue-rotate(20deg) brightness(91%) contrast(89%);
-}
-
-@keyframes lsHeroWaveEnter {
-  to { opacity: 1; transform: translate3d(0, 0, 0); }
 }
 
 @media (max-width: 700px) {
