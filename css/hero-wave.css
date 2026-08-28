@@ -88,7 +88,7 @@ body[data-page="news"] { --page-accent: #d6c1a3; --hero-wave-surface: #f6eee5; }
 /* À très grand viewport — cas typique d'un navigateur fortement dézoomé —
    l'illustration conserve sa taille et son centre. Le même visuel, agrandi et
    flouté derrière, remplit uniquement les bandes qui dépassent. */
-@media (min-width: 2200px) {
+@media (min-width: 3600px) {
   .hero,
   .portfolio-hero {
     isolation: isolate;

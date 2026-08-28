@@ -179,7 +179,7 @@
   .project-grid--social > .project-card:nth-last-child(-n + 2) { grid-column: span 1; }
   .catalogue-list--clients > .catalogue-card { grid-column: span 1; }
 }
-@media (min-width: 2200px) {
+@media (min-width: 3600px) {
   .portfolio-hero {
     background-position: left bottom;
     background-size: auto 100%, 100% 100%;
