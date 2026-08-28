@@ -2129,7 +2129,7 @@ p { line-height: 1.7; }
 }
 .bonnes-bsys__pattern {
   border-radius: 8px;
-  aspect-ratio: 1;
+  aspect-ratio: 4 / 3;
   overflow: hidden;
 }
 /* Les motifs sont des aplats répétitifs en 1.41:1 : « contain » les
@@ -2322,8 +2322,10 @@ p { line-height: 1.7; }
   .bonnes-contact-section
 ) {
   position: relative;
-  margin: 28px 0;
-  padding: clamp(38px, 4.4vw, 62px) clamp(18px, 3.8vw, 52px);
+  /* Espacement resserré : l'étude dépassait 8000 px de haut, dont environ
+     720 px de pur espacement entre les huit sections. */
+  margin: 18px 0;
+  padding: clamp(28px, 3vw, 42px) clamp(18px, 3.8vw, 52px);
   border: 1px solid rgba(30, 44, 31, .12);
   border-radius: 8px;
   background: #FFFDF4;
