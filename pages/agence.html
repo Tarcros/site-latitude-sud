@@ -22,10 +22,13 @@
   <meta property="og:image"       content="https://latitudesud.gp/assets/global/branding/og-image.jpg">
   <meta name="twitter:card"       content="summary_large_image">
 
-  <link rel="icon" type="image/svg+xml" href="/assets/global/branding/logo-sud-vert.svg">
+  <link rel="icon" href="/assets/favicon/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/css/globals.css?v=167">
+  <link rel="stylesheet" href="/css/globals.css?v=169">
   <link rel="stylesheet" href="/css/hero-wave.css?v=3">
 
   <script type="application/ld+json">
@@ -89,7 +92,7 @@
     /* ── MANIFESTE / NOTRE HISTOIRE ── */
     .story-section { background: var(--color-white); padding: 108px 0; }
     .story-inner { max-width: 1320px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.25fr); gap: clamp(54px, 7vw, 110px); align-items: center; padding: 0 var(--gutter); }
-    .story-visual { position: relative; order: 2; overflow: hidden; aspect-ratio: 5 / 2; background: var(--color-cream); box-shadow: 0 22px 58px rgba(26,26,26,0.10); }
+    .story-visual { position: relative; order: 2; overflow: hidden; aspect-ratio: 16 / 9; background: var(--color-cream); box-shadow: 0 22px 58px rgba(26,26,26,0.10); }
     .story-visual picture, .story-visual img { width: 100%; height: 100%; display: block; }
     .story-visual img { object-fit: contain; object-position: center; }
     .story-visual::after { content: ''; position: absolute; inset: 0; border: 1px solid rgba(26,26,26,.08); pointer-events: none; }
@@ -137,7 +140,7 @@
       .hero-h1 { font-size: 36px; line-height: 1.04; margin-bottom: 20px; }
       .hero-desc { font-size: 14px; line-height: 1.6; }
     }
-    @media (max-width: 768px) { .story-inner { grid-template-columns: 1fr; gap: 40px; } .story-text { order: 1; } .story-visual { order: 2; aspect-ratio: 4 / 3; } }
+    @media (max-width: 768px) { .story-inner { grid-template-columns: 1fr; gap: 40px; } .story-text { order: 1; } .story-visual { order: 2; aspect-ratio: 16 / 9; } }
     @media (max-width: 560px) { .stats-inner { grid-template-columns: 1fr; } .values-grid { grid-template-columns: 1fr; } .approach-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
@@ -167,8 +170,7 @@
     <div class="story-inner">
       <div class="story-visual reveal">
         <picture>
-          <source media="(max-width: 768px)" srcset="/assets/global/backgrounds/image-bg/generated/hero-agence-960.webp?v=7">
-          <img src="/assets/global/backgrounds/image-bg/generated/hero-agence-1920.webp?v=7" alt="Le personnage Latitude Sud avec sa Grenat en Guadeloupe" loading="lazy" decoding="async">
+          <img src="/assets/global/illustrations/agence/agence-collaboration-guadeloupe.webp" alt="Équipe créative Latitude Sud travaillant ensemble en Guadeloupe" loading="lazy" decoding="async">
         </picture>
       </div>
       <div class="story-text reveal reveal-delay-1">
@@ -232,7 +234,7 @@
   </svg>
 </button>
 
-  <script src="/js/components.js?v=113"></script>
+  <script src="/js/components.js?v=114"></script>
 <script>
   initComponents('agence');
   document.body.style.paddingTop = '0';

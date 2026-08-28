@@ -7,8 +7,14 @@
 }
 .portfolio-hero--photos {
   background-image: url('/assets/global/backgrounds/image-bg/generated/hero-photos-1920.webp?v=7');
-  background-position: center bottom;
+  background-position: 24% bottom;
+  place-items: start start;
 }
+.portfolio-hero.portfolio-hero--photos::after {
+  background: linear-gradient(90deg, rgba(250,249,247,.9) 0%, rgba(250,249,247,.8) 42%, rgba(250,249,247,.28) 66%, transparent 82%);
+}
+.portfolio-hero--photos .portfolio-hero-inner { margin-top: clamp(42px, 5vw, 74px); }
+.portfolio-hero--photos .portfolio-hero-inner > p:last-child { max-width: 580px; }
 .portfolio-hero--charte {
   background-image: url('/assets/global/backgrounds/image-bg/generated/hero-charte-1920.webp?v=7');
   background-position: center bottom;
@@ -171,6 +177,8 @@
   .portfolio-hero--charte { background-image: url('/assets/global/backgrounds/image-bg/generated/hero-charte-960.webp?v=7'); }
   .portfolio-hero--catalogue { background-image: url('/assets/global/backgrounds/image-bg/generated/hero-catalogue-960.webp?v=7'); }
   .portfolio-hero::after { background: linear-gradient(180deg, rgba(250,249,247,.34), rgba(250,249,247,.08) 44%, transparent 66%); }
+  .portfolio-hero.portfolio-hero--photos::after { background: linear-gradient(180deg, rgba(250,249,247,.82) 0%, rgba(250,249,247,.52) 42%, rgba(250,249,247,.05) 67%, transparent 78%); }
+  .portfolio-hero--photos .portfolio-hero-inner { margin-top: 0; }
   .portfolio-hero-inner { width: 100%; margin-left: 0; }
   .portfolio-hero h1 { font-size: 36px; line-height: 1.02; }
   .portfolio-hero h1, .portfolio-hero p:not(.portfolio-kicker) { margin-left: auto; margin-right: auto; }

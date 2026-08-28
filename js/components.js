@@ -106,7 +106,7 @@ function renderHeader(activePage) {
         </a>
         <div class="ls-nav-dropdown-menu" role="menu">
           <a href="/pages/photos.html" role="menuitem">Photos</a>
-          <a href="/pages/charte-graphique.html" role="menuitem">Charte graphique</a>
+<a href="/pages/charte-graphique.html" role="menuitem">Identité de marque</a>
           <a href="/pages/social.html" role="menuitem">Réseaux Sociaux</a>
           <a href="/pages/catalogue.html" role="menuitem">Catalogue</a>
         </div>
@@ -170,7 +170,7 @@ function renderHeader(activePage) {
   <a href="/pages/agence.html">Agence</a>
   <a href="/pages/realisations.html">Réalisations</a>
   <a href="/pages/photos.html"       class="ls-mobile-sub">Photos</a>
-  <a href="/pages/charte-graphique.html" class="ls-mobile-sub">Charte graphique</a>
+<a href="/pages/charte-graphique.html" class="ls-mobile-sub">Identité de marque</a>
   <a href="/pages/social.html"       class="ls-mobile-sub">Réseaux Sociaux</a>
   <a href="/pages/catalogue.html"    class="ls-mobile-sub">Catalogue</a>
   <a href="/pages/contact.html">Contact</a>
@@ -284,7 +284,7 @@ function renderFooter() {
     <div class="ls-footer-expertises-col">
       <p class="ls-footer-col-title">Expertises</p>
       <a href="/pages/photos.html">Photos</a>
-      <a href="/pages/charte-graphique.html">Charte graphique</a>
+<a href="/pages/charte-graphique.html">Identité de marque</a>
       <a href="/pages/social.html">Réseaux Sociaux</a>
       <a href="/pages/catalogue.html">Catalogue</a>
     </div>
@@ -1748,7 +1748,7 @@ function initPressingProject() {
     <div class="cist-case-backdrop pressing-case-backdrop" data-pressing-close></div>
     <div class="cist-case-dialog pressing-case-dialog" role="dialog" aria-modal="true" aria-labelledby="pressing-case-title">
       <button class="cist-case-close pressing-case-close" type="button" data-pressing-close aria-label="Fermer">&times;</button>
-      <div class="cist-case-content">
+      <div class="cist-case-content pressing-case-content">
 
         <header class="cist-case-hero pressing-case-hero">
           <div>

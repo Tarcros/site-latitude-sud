@@ -1,16 +1,16 @@
-# Graph Report - Site LS Code  (2026-08-11)
+# Graph Report - Site LS Code  (2026-08-28)
 
 ## Corpus Check
-- 30 files · ~8,601,362 words
+- 30 files · ~8,807,142 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 437 nodes · 499 edges · 74 communities (39 shown, 35 thin omitted)
+- 439 nodes · 501 edges · 74 communities (39 shown, 35 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 16 edges (avg confidence: 0.9)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d0731afc`
+- Built from commit: `691c46ca`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -110,7 +110,7 @@
 
 ### Community 1 - "Community 1"
 Cohesion: 0.06
-Nodes (55): applyCaseStudyContactCta(), CATALOGUE_APPROACH_DEFAULT, CATALOGUE_CASE_STUDIES, CATALOGUE_EXPERTISE_DEFAULT, CATALOGUE_SECTION_RENDERERS, CATALOGUE_SERVICES_DEFAULT, CCR_CASE, DECATHLON_CASE_STUDY (+47 more)
+Nodes (56): applyCaseStudyContactCta(), CASE_STUDY_CTA_TITLES, CATALOGUE_APPROACH_DEFAULT, CATALOGUE_CASE_STUDIES, CATALOGUE_EXPERTISE_DEFAULT, CATALOGUE_SECTION_RENDERERS, CATALOGUE_SERVICES_DEFAULT, CCR_CASE (+48 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.07
@@ -233,8 +233,8 @@ Cohesion: 0.16
 Nodes (21): ajouterNote(), charger(), collerDepuisChatGPT(), construirePanneau(), contexteDe(), decrireElement(), demarrer(), editer() (+13 more)
 
 ### Community 67 - "Community 67"
-Cohesion: 0.13
-Nodes (10): ambigu, applique, donnees, fichiers, introuvable, ligne, original, RACINE (+2 more)
+Cohesion: 0.12
+Nodes (11): applique, dejaFait, donnees, fichiers, introuvable, ligne, MULTI, original (+3 more)
 
 ### Community 68 - "Community 68"
 Cohesion: 0.25
@@ -253,17 +253,17 @@ Cohesion: 0.12
 Nodes (16): 10. État actuel et points ouverts, 1. Ce qu'est ce projet, 2. Nature technique, 3. Architecture des pages, 4.1 Dans le HTML des pages — environ 25 600 caractères, 4.2 Dans `js/components.js` — 559 chaînes, environ 32 000 caractères, 4.3 Templates par page, 4. Le point le plus important à comprendre : où vit le contenu (+8 more)
 
 ## Knowledge Gaps
-- **194 isolated node(s):** `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT`, `CATALOGUE_SERVICES_DEFAULT`, `CATALOGUE_CASE_STUDIES`, `CATALOGUE_SECTION_RENDERERS` (+189 more)
+- **196 isolated node(s):** `CASE_STUDY_CTA_TITLES`, `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT`, `CATALOGUE_SERVICES_DEFAULT`, `CATALOGUE_CASE_STUDIES` (+191 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **35 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **What connects `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT`, `CATALOGUE_SERVICES_DEFAULT` to the rest of the system?**
-  _196 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `CASE_STUDY_CTA_TITLES`, `CATALOGUE_APPROACH_DEFAULT`, `CATALOGUE_EXPERTISE_DEFAULT` to the rest of the system?**
+  _198 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.05817028027498678 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05683563748079877 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.06918238993710692 - nodes in this community are weakly interconnected._
 - **Should `Community 8` be split into smaller, more focused modules?**
@@ -273,4 +273,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `Community 65` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `Community 67` be split into smaller, more focused modules?**
-  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.125 - nodes in this community are weakly interconnected._

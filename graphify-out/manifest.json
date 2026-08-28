@@ -20,8 +20,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1786484405.5209153,
-    "ast_hash": "1b23949a2e02a53afef513ca29970f70",
+    "mtime": 1787934014.7295094,
+    "ast_hash": "97a28920df7243fbf00e5e162fc39f4e",
     "semantic_hash": ""
   },
   "robots.txt": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "js/components.js": {
-    "mtime": 1786483745.4051447,
-    "ast_hash": "7af76cf2777935c07fd893b93e942be0",
+    "mtime": 1787932785.619654,
+    "ast_hash": "e57516d735a103af1ff0168c5f4c5de9",
     "semantic_hash": ""
   },
   "scripts/check-local-assets.mjs": {
@@ -90,68 +90,68 @@
     "semantic_hash": ""
   },
   "pages/agence.html": {
-    "mtime": 1786484405.536027,
-    "ast_hash": "2f42edc631cb919068e02d3327b46579",
+    "mtime": 1787934014.730149,
+    "ast_hash": "3787ef08b487585b66a8ed15256ed8e9",
     "semantic_hash": ""
   },
   "pages/catalogue.html": {
-    "mtime": 1786484405.5439296,
-    "ast_hash": "d7f5bbf1d921c445956133228e83bdee",
+    "mtime": 1787934014.7309608,
+    "ast_hash": "4f1385cc05b98b885c4c5d499ef982d0",
     "semantic_hash": ""
   },
   "pages/charte-graphique.html": {
-    "mtime": 1786484405.567419,
-    "ast_hash": "4087ce2a4d63c31efa35525584200d82",
+    "mtime": 1787934014.7313657,
+    "ast_hash": "b29ef4caec6276e97e73374b6531e5ac",
     "semantic_hash": ""
   },
   "pages/contact.html": {
-    "mtime": 1786484405.580012,
-    "ast_hash": "15faaac31368e2184e0777e53e80bb79",
+    "mtime": 1787934014.7319934,
+    "ast_hash": "63956e53fd8f8a94d3092da8cb54aee7",
     "semantic_hash": ""
   },
   "pages/latitude-sud-news.html": {
-    "mtime": 1786484405.6005719,
-    "ast_hash": "73c5bf4e3953863bd722d331bf76e3a1",
+    "mtime": 1787934014.7325406,
+    "ast_hash": "001d7631352849ced1910528738e5b0c",
     "semantic_hash": ""
   },
   "pages/mentions-legales.html": {
-    "mtime": 1786484405.6336045,
-    "ast_hash": "12724e77b1957f3ab9df176ce6e66961",
+    "mtime": 1787934014.7332675,
+    "ast_hash": "80c8795d9a8b1f55de366cfddffa9221",
     "semantic_hash": ""
   },
   "pages/photos.html": {
-    "mtime": 1786484405.65284,
-    "ast_hash": "472445710b1a976cf34b2521bcfec7c6",
+    "mtime": 1787934014.7338533,
+    "ast_hash": "6e2ae7f230edfde3d654ad3e8ab931b5",
     "semantic_hash": ""
   },
   "pages/politique-de-confidentialite.html": {
-    "mtime": 1786484405.7036366,
-    "ast_hash": "c64d9f00bead276a507cac0512810904",
+    "mtime": 1787934014.7343345,
+    "ast_hash": "c7be1b7dbe7752804eb1f30fabd2e391",
     "semantic_hash": ""
   },
   "pages/print.html": {
-    "mtime": 1786484405.739058,
-    "ast_hash": "4a4500dac7c4ead4ecee7ec7e11095b9",
+    "mtime": 1787934014.7347386,
+    "ast_hash": "0f440b0e8d1dfa16ae9c10a1336b25db",
     "semantic_hash": ""
   },
   "pages/realisations.html": {
-    "mtime": 1786484405.7573814,
-    "ast_hash": "3d970e8dee123d11dba3303008f9e978",
+    "mtime": 1787934014.7351549,
+    "ast_hash": "83d41f3d5b42f7bc2ffc37137f4e0a16",
     "semantic_hash": ""
   },
   "pages/social.html": {
-    "mtime": 1786484405.957333,
-    "ast_hash": "92ec35a0335a800e6e67abe60bfc6d85",
+    "mtime": 1787934014.736101,
+    "ast_hash": "216ca96d7f9b9d4dada32fa37e138254",
     "semantic_hash": ""
   },
   "pages/video.html": {
-    "mtime": 1786484405.984082,
-    "ast_hash": "e362c68861c3ce2f3b7c7743a0bc9237",
+    "mtime": 1787934014.736786,
+    "ast_hash": "77eece81e63360797cb40aec4ca0c470",
     "semantic_hash": ""
   },
   "pages/web.html": {
-    "mtime": 1786484406.0125644,
-    "ast_hash": "e4cc89118c13eec436f1f74cc439b08a",
+    "mtime": 1787934014.7374022,
+    "ast_hash": "9588a7f5bd31b7248b8267e7ca7bcaf9",
     "semantic_hash": ""
   },
   "assets/projects/social/auto-discount/abymes-source.webp": {
@@ -635,28 +635,28 @@
     "semantic_hash": ""
   },
   "assets/global/branding/favicons/android-chrome-192x192.png": {
-    "mtime": 1781883364.0,
-    "ast_hash": "3248cd5d011b0ef372e2508b8a68f4f7",
+    "mtime": 1787929052.766663,
+    "ast_hash": "a74dd29d70cae3b0b56a27c0569c5ce3",
     "semantic_hash": ""
   },
   "assets/global/branding/favicons/android-chrome-512x512.png": {
-    "mtime": 1781883364.0,
-    "ast_hash": "f4c69d5eed8d576222e595395ce8fac9",
+    "mtime": 1787929052.7708294,
+    "ast_hash": "1ea96c044557efe72403d9ee23371808",
     "semantic_hash": ""
   },
   "assets/global/branding/favicons/apple-touch-icon.png": {
-    "mtime": 1781883364.0,
-    "ast_hash": "8273d72176b7c10aa64be95ae0377467",
+    "mtime": 1787929052.7626767,
+    "ast_hash": "847aa1c201d6679c062602c9f0c13ada",
     "semantic_hash": ""
   },
   "assets/global/branding/favicons/favicon-16x16.png": {
-    "mtime": 1781883364.0,
-    "ast_hash": "194da818a4e6e314e3f4d87352579ae3",
+    "mtime": 1787929052.7548773,
+    "ast_hash": "9b26d902dd01fb8742e8f260bcc36b05",
     "semantic_hash": ""
   },
   "assets/global/branding/favicons/favicon-32x32.png": {
-    "mtime": 1781883364.0,
-    "ast_hash": "78d5fa60a05db870742ddadb40095c1b",
+    "mtime": 1787929052.7585692,
+    "ast_hash": "50244e8262e85370d7c1b2b4f6dae600",
     "semantic_hash": ""
   },
   "assets/global/branding/logo-sud.svg": {
@@ -746,27 +746,22 @@
   },
   "assets/global/branding/logos/Logo-Clients-black-laroutedurhum.svg": {
     "mtime": 1781727149.0,
-    "ast_hash": "737cea1b39b52c00ed2b8a858f99d95e",
+    "ast_hash": "f2506b2f5fdaecca9afba0c8de02a6cf",
     "semantic_hash": ""
   },
   "assets/global/branding/logos/Logo-Clients-black-mango.svg": {
     "mtime": 1781727149.0,
-    "ast_hash": "a396c1a84401382ddc030df2a3e7aa15",
+    "ast_hash": "737cea1b39b52c00ed2b8a858f99d95e",
     "semantic_hash": ""
   },
   "assets/global/branding/logos/Logo-Clients-black-montebello.svg": {
     "mtime": 1781727149.0,
-    "ast_hash": "e0327b73d418bd4e95fec8a2c07b1d69",
+    "ast_hash": "a396c1a84401382ddc030df2a3e7aa15",
     "semantic_hash": ""
   },
   "assets/global/branding/logos/Logo-Clients-black-mr-bricolage.svg": {
     "mtime": 1785871689.289869,
     "ast_hash": "2c13709390c80921096913c94491c265",
-    "semantic_hash": ""
-  },
-  "assets/global/branding/logos/Logo-Clients-black-persepolis.svg": {
-    "mtime": 1781727149.0,
-    "ast_hash": "d0cc1980c64934a03910d1426422804f",
     "semantic_hash": ""
   },
   "assets/global/branding/logos/Logo-Clients-black-phoenicia.svg": {
@@ -776,22 +771,22 @@
   },
   "assets/global/branding/logos/Logo-Clients-black-piton.svg": {
     "mtime": 1781727149.0,
-    "ast_hash": "b274f1203dcbd7c0513346d9a3dfd47d",
+    "ast_hash": "d0cc1980c64934a03910d1426422804f",
     "semantic_hash": ""
   },
   "assets/global/branding/logos/Logo-Clients-black-porter.svg": {
     "mtime": 1781727149.0,
-    "ast_hash": "9b88d77fe1078d382378b00661dcdd48",
+    "ast_hash": "b274f1203dcbd7c0513346d9a3dfd47d",
     "semantic_hash": ""
   },
   "assets/global/branding/logos/Logo-Clients-black-siligom.svg": {
     "mtime": 1781727149.0,
-    "ast_hash": "7d8077ec8f3a50a69362ba70ae841d25",
+    "ast_hash": "9b88d77fe1078d382378b00661dcdd48",
     "semantic_hash": ""
   },
   "assets/global/branding/logos/Logo-Clients-black-sol.svg": {
     "mtime": 1781727149.0,
-    "ast_hash": "f2506b2f5fdaecca9afba0c8de02a6cf",
+    "ast_hash": "7d8077ec8f3a50a69362ba70ae841d25",
     "semantic_hash": ""
   },
   "assets/global/branding/logos/Logo-Clients-white-digilife.svg": {
@@ -2460,8 +2455,8 @@
     "semantic_hash": ""
   },
   "docs/site-architecture.md": {
-    "mtime": 1786454552.013715,
-    "ast_hash": "1f164a00b4a3806ba302e37c8061e1c4",
+    "mtime": 1787934200.8295686,
+    "ast_hash": "a2624b97fb4e32eab63434bf5c27eccc",
     "semantic_hash": ""
   },
   "assets/projects/catalogue/mr-bricolage/fete-des-meres/pages/p1.webp": {
@@ -2960,8 +2955,8 @@
     "semantic_hash": ""
   },
   "scripts/apply-corrections.mjs": {
-    "mtime": 1786483659.225557,
-    "ast_hash": "adf3195f203dd26e74ad6828b42a59db",
+    "mtime": 1787919314.322822,
+    "ast_hash": "6c8688135f62dd7ee236fb8148c45d92",
     "semantic_hash": ""
   },
   "to-del/qa/digilife-hero/build_black_composition.py": {
@@ -3082,6 +3077,101 @@
   "to-del/qa/lbe/lbe-full-desktop.png": {
     "mtime": 1786484430.0456328,
     "ast_hash": "41a53c66794878726717a5ad1211c414",
+    "semantic_hash": ""
+  },
+  "assets/favicon/android-chrome-192x192.png": {
+    "mtime": 1777072080.0,
+    "ast_hash": "58a941f4f0ee3aba245157c20a2dac7b",
+    "semantic_hash": ""
+  },
+  "assets/favicon/android-chrome-512x512.png": {
+    "mtime": 1777072080.0,
+    "ast_hash": "e7c8676e9ee53e81367edef6508735f0",
+    "semantic_hash": ""
+  },
+  "assets/favicon/apple-touch-icon.png": {
+    "mtime": 1777072080.0,
+    "ast_hash": "ae5dc6775b364bc80454db2e3a36da03",
+    "semantic_hash": ""
+  },
+  "assets/favicon/favicon-16x16.png": {
+    "mtime": 1777072080.0,
+    "ast_hash": "966d867575aa6212a52bf0211e3ccbb6",
+    "semantic_hash": ""
+  },
+  "assets/favicon/favicon-32x32.png": {
+    "mtime": 1777072080.0,
+    "ast_hash": "58a328266e7c43927cba561501369bc3",
+    "semantic_hash": ""
+  },
+  "assets/favicon/icone-linkedin copie.png": {
+    "mtime": 1777056506.9105833,
+    "ast_hash": "5cb3d934d84f5dda80aa0e83e6fa69fc",
+    "semantic_hash": ""
+  },
+  "assets/global/branding/logo-sud-vert.svg": {
+    "mtime": 1787928837.8547132,
+    "ast_hash": "9f55072f4c4ca4c051c5c1c3ffdece08",
+    "semantic_hash": ""
+  },
+  "assets/global/illustrations/agence/agence-collaboration-guadeloupe.webp": {
+    "mtime": 1787932620.7072835,
+    "ast_hash": "154b53c433e83e326218da84dd378a3b",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/so-class/instagram/so-class-instagram-collection-jazz-2022-01.webp": {
+    "mtime": 1787928746.0814304,
+    "ast_hash": "40b2087ab487aed8160984e7fd75b794",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/so-class/instagram/so-class-instagram-collection-jazz-2022-02.webp": {
+    "mtime": 1787928746.0964346,
+    "ast_hash": "805583d43f430017848777fc56709cad",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/so-class/instagram/so-class-instagram-collection-jazz-2022-03.webp": {
+    "mtime": 1787928746.1076324,
+    "ast_hash": "8a7552eb26bcdd66c3d03af11e746c53",
+    "semantic_hash": ""
+  },
+  "assets/projects/photos/so-class/instagram/so-class-instagram-collection-jazz-2022-04.webp": {
+    "mtime": 1787928746.120944,
+    "ast_hash": "3c130ae0f5a30ae6e7407509532cd456",
+    "semantic_hash": ""
+  },
+  "assets/shared/thumbnails/catalogue-mr-bricolage.webp": {
+    "mtime": 1787932620.416158,
+    "ast_hash": "4f669de23f00180ff323bbee04bba7f7",
+    "semantic_hash": ""
+  },
+  "assets/shared/thumbnails/identite-de-marque-cist.webp": {
+    "mtime": 1787932619.293632,
+    "ast_hash": "a0e8154933dfad29c610104cef4e3149",
+    "semantic_hash": ""
+  },
+  "assets/shared/thumbnails/photos-latitude-sud.webp": {
+    "mtime": 1787932619.9586148,
+    "ast_hash": "bd18fbc1820f498a952fb0af758ce2f8",
+    "semantic_hash": ""
+  },
+  "assets/shared/thumbnails/reseaux-sociaux-digilife.webp": {
+    "mtime": 1787932619.626956,
+    "ast_hash": "46e60116150ce8d1dd3e5ef757b0428c",
+    "semantic_hash": ""
+  },
+  "to-del/logos-doublons/Logo-Clients-black-montebello-ETAIT-mrbricolage.svg": {
+    "mtime": 1781727149.0,
+    "ast_hash": "e0327b73d418bd4e95fec8a2c07b1d69",
+    "semantic_hash": ""
+  },
+  "to-del/qa/lbe/lbe-full-mobile.png": {
+    "mtime": 1786484594.0389383,
+    "ast_hash": "7689004126f1693acb2f70352b102182",
+    "semantic_hash": ""
+  },
+  "to-del/qa/lbe/lbe-mobile-top.png": {
+    "mtime": 1786484648.730142,
+    "ast_hash": "f91907e7bfdbcb29a53db119b7c0aa8f",
     "semantic_hash": ""
   }
 }

@@ -16,7 +16,7 @@ Le projet est un site statique sans compilation :
 | Catégorie | Route | Dossier d’assets |
 | --- | --- | --- |
 | Photos | `/pages/photos.html` | `assets/projects/photos/` |
-| Charte graphique | `/pages/charte-graphique.html` | `assets/projects/branding/` |
+| Identité de marque | `/pages/charte-graphique.html` | `assets/projects/branding/` |
 | Réseaux sociaux | `/pages/social.html` | `assets/projects/social/` |
 | Catalogue | `/pages/catalogue.html` | `assets/projects/catalogue/` |
 
