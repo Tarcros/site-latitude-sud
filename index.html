@@ -42,8 +42,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link rel="stylesheet" href="/css/globals.css?v=176">
-<link rel="stylesheet" href="/css/hero-wave.css?v=3">
+  <link rel="stylesheet" href="/css/globals.css?v=178">
+<link rel="stylesheet" href="/css/hero-wave.css?v=4">
 
   <!-- Structured data — Organization / LocalBusiness for SEO & AI discovery -->
   <script type="application/ld+json">
@@ -91,7 +91,7 @@
     .hero {
       position: relative;
       width: 100%;
-      min-height: clamp(430px, min(64vw, 62svh), 760px);
+      min-height: clamp(400px, min(64vw, 54svh), 700px);
       background-image: url('/assets/global/backgrounds/image-bg/generated/hero-home-1920.webp?v=7');
       background-size: cover;
       background-position: center bottom;
@@ -111,7 +111,7 @@
       max-width: 1440px;
       width: 100%;
       margin: 0 auto;
-      padding: 112px 56px 0;
+      padding: clamp(88px, 11vh, 112px) 56px 0;
     }
 
     /* ── HERO LEFT ── */
@@ -389,7 +389,7 @@
     /* ── EXPERTISES SECTION ── */
     .expertises-section {
       background: var(--color-cream);
-      padding-top: 52px;
+      padding-top: clamp(22px, 2.6vh, 40px);
       padding-bottom: clamp(40px, 5vw, 64px);
     }
     .expertises-section > .container {
@@ -426,7 +426,7 @@
       grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 22px;
       max-width: 1400px;
-      margin: 0 auto 48px;
+      margin: 0 auto clamp(26px, 3.4vh, 48px);
     }
 
     .expertise-card {

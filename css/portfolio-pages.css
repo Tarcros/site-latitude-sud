@@ -9,15 +9,17 @@
   display: grid; place-items: center start;
   overflow: hidden; background-color: #FAF9F7; background-position: center; background-size: cover;
   background-repeat: no-repeat; text-align: left;
-  padding: clamp(92px, 11vh, 124px) 24px clamp(96px, 14vh, 160px);
+  padding: clamp(76px, 9vh, 104px) 24px clamp(58px, 8vh, 96px);
 }
+/* Le sujet était cadré à 24 % depuis la gauche, c'est-à-dire exactement sous
+   le bloc de titre : on ne lisait plus le texte et on ne voyait plus le
+   personnage. Il est décalé vers la droite, et le voile blanc — qui montait à
+   0,9 d'opacité et délavait toute l'illustration — revient au même niveau
+   discret que les autres pages. */
 .portfolio-hero--photos {
   background-image: url('/assets/global/backgrounds/image-bg/generated/hero-photos-1920.webp?v=7');
-  background-position: 24% bottom;
+  background-position: 72% bottom;
   place-items: start start;
-}
-.portfolio-hero.portfolio-hero--photos::after {
-  background: linear-gradient(90deg, rgba(250,249,247,.9) 0%, rgba(250,249,247,.8) 42%, rgba(250,249,247,.28) 66%, transparent 82%);
 }
 .portfolio-hero--photos .portfolio-hero-inner { margin-top: clamp(42px, 5vw, 74px); }
 .portfolio-hero--photos .portfolio-hero-inner > p:last-child { max-width: 580px; }
@@ -55,7 +57,7 @@
 .portfolio-intro p { color: var(--color-gray-mid); line-height: 1.75; }
 .project-grid {
   width: min(1400px, 100%); margin: 0 auto; display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px;
+  grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px;
 }
 .project-card { display: flex; flex-direction: column; min-width: 0; background: var(--color-white); border: 1px solid #ECEAE6; border-radius: 8px; overflow: hidden; box-shadow: 0 6px 24px rgba(28,26,22,.05); transition: transform .25s var(--ease), box-shadow .25s var(--ease); }
 .project-card:hover { transform: translateY(-6px); box-shadow: 0 18px 44px rgba(28,26,22,.12); }
