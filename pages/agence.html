@@ -28,8 +28,8 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/css/globals.css?v=178">
-  <link rel="stylesheet" href="/css/hero-wave.css?v=4">
+  <link rel="stylesheet" href="/css/globals.css?v=181">
+  <link rel="stylesheet" href="/css/hero-wave.css?v=5">
 
   <script type="application/ld+json">
   {
@@ -46,9 +46,9 @@
     /* ── HERO — même image que la home ── */
     .hero {
       position: relative; width: 100%;
-      aspect-ratio: 597 / 322; min-height: min(660px, 58svh); max-height: min(880px, 70svh);
+      min-height: max(400px, min(34svh, 470px));
       background-image: url('/assets/global/backgrounds/image-bg/generated/hero-agence-1920.webp?v=7');
-      background-size: cover; background-position: center bottom; background-repeat: no-repeat;
+      background-size: cover; background-position: 12% bottom; background-repeat: no-repeat;
       display: flex; flex-direction: column;
       background-color: #FAF9F7;
     }
@@ -57,7 +57,7 @@
       display: flex; flex-direction: column; align-items: flex-start;
       text-align: left;
       width: min(830px, calc(100% - 48px)); max-width: none; margin: 0 0 0 max(24px, calc((100% - var(--max-width)) / 2 + 40px));
-      padding: clamp(104px, 13vh, 140px) 0 0;
+      padding: clamp(78px, 8.4vh, 96px) 0 clamp(84px, 9vh, 104px);
     }
     .hero-surtitle {
       font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 600;
@@ -76,21 +76,17 @@
     }
     .hero-desc {
       font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 400;
-      color: #1A1A1A; line-height: 1.85; max-width: 560px; margin: 0 0 48px;
+      color: #1A1A1A; line-height: 1.65; max-width: 620px; margin: 0 0 32px;
     }
     /* Chapô devenu bien plus long : on le garde dans la zone claire de
        l'illustration, à gauche du personnage, sinon il devient illisible. */
-    .hero-h1--long ~ .hero-desc { max-width: 400px; line-height: 1.75; }
+    .hero-h1--long ~ .hero-desc { max-width: 540px; line-height: 1.65; }
 
     .hero-wave { position: absolute; bottom: 0; left: 0; width: 100%; line-height: 0; z-index: 3; pointer-events: none; }
-    .hero-wave > svg.wave-bg { display: block; width: 100%; height: 120px; }
-
-    .wave-cocotier { position: absolute; bottom: -20px; left: 50%; transform: translateX(-50%); z-index: 5; width: 200px; height: 140px; pointer-events: none; }
-    .wave-cocotier .arc-text-svg { position: absolute; top: 0; left: 0; }
-    .wave-cocotier .arc-palmier-icon { position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%); height: 40px; width: auto; filter: brightness(0) saturate(100%) invert(57%) sepia(13%) saturate(588%) hue-rotate(46deg) brightness(92%) contrast(86%); }
+    .hero-wave > svg.wave-bg { display: block; width: 100%; height: clamp(64px, 5.6vw, 88px); }
 
     /* ── MANIFESTE / NOTRE HISTOIRE ── */
-    .story-section { background: var(--color-white); padding: 108px 0; }
+    .story-section { background: var(--color-white); padding: 52px 0 76px; }
     .story-inner { max-width: 1320px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.25fr); gap: clamp(54px, 7vw, 110px); align-items: center; padding: 0 var(--gutter); }
     .story-visual { position: relative; order: 2; overflow: hidden; aspect-ratio: 16 / 9; background: var(--color-cream); box-shadow: 0 22px 58px rgba(26,26,26,0.10); }
     .story-visual picture, .story-visual img { width: 100%; height: 100%; display: block; }
@@ -140,8 +136,8 @@
     @media (max-width: 1000px) { .values-grid { grid-template-columns: repeat(2, 1fr); } .approach-grid { grid-template-columns: repeat(2, 1fr); gap: 40px 24px; } }
     @media (min-width: 2200px) { .hero { background-image: url('/assets/global/backgrounds/image-bg/generated/hero-agence-1920.webp?v=7'), url('/assets/global/backgrounds/image-bg/generated/hero-agence-edge-1920.webp?v=2'); background-position: left bottom; background-size: auto 100%, 100% 100%; } }
     @media (max-width: 1200px) {
-      .hero { aspect-ratio: auto; min-height: clamp(760px, 75vw, 900px); max-height: none; background-image: url('/assets/global/backgrounds/image-bg/generated/hero-agence-960.webp?v=7'); background-position: center bottom; background-size: cover; }
-      .hero-content { align-items: center; text-align: center; width: 100%; max-width: 620px; margin: 0 auto; padding: 112px 24px 0; }
+      .hero { min-height: clamp(500px, 56vw, 640px); max-height: none; background-image: url('/assets/global/backgrounds/image-bg/generated/hero-agence-960.webp?v=7'); background-position: center bottom; background-size: cover; }
+      .hero-content { align-items: center; text-align: center; width: 100%; max-width: 620px; margin: 0 auto; padding: 88px 24px 0; }
       .hero-desc { margin-left: auto; margin-right: auto; }
       .hero-h1 { font-size: 36px; line-height: 1.04; margin-bottom: 20px; }
       .hero-desc { font-size: 14px; line-height: 1.6; }
@@ -235,7 +231,7 @@
   </svg>
 </button>
 
-  <script src="/js/components.js?v=116"></script>
+  <script src="/js/components.js?v=117"></script>
 <script>
   initComponents('agence');
   document.body.style.paddingTop = '0';

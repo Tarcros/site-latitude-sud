@@ -613,17 +613,17 @@ p, .hero-desc, .portfolio-hero p, .expertise-card-desc, .story-text p {
 }
 .ls-project-cta__inner {
   width: min(1400px, 100%);
-  min-height: 330px;
+  min-height: 300px;
   margin: 0 auto;
-  padding: 48px var(--gutter) 0;
+  padding: 40px var(--gutter) 0;
   display: grid;
-  grid-template-columns: minmax(250px, 370px) auto minmax(300px, 1fr);
+  grid-template-columns: minmax(320px, 450px) auto minmax(340px, 1fr);
   align-items: center;
-  gap: clamp(22px, 3.4vw, 58px);
+  gap: clamp(20px, 2.6vw, 44px);
 }
 .ls-project-cta__copy {
   align-self: center;
-  padding-bottom: 46px;
+  padding-bottom: 40px;
 }
 .ls-project-cta__copy h2 {
   margin: 0 0 10px;
@@ -634,47 +634,50 @@ p, .hero-desc, .portfolio-hero p, .expertise-card-desc, .story-text p {
   letter-spacing: 0;
 }
 .ls-project-cta__copy p {
-  max-width: 390px;
+  max-width: 470px;
   margin: 0;
   color: var(--color-gray-dark);
   font-size: 14px;
-  line-height: 1.65;
+  line-height: 1.6;
 }
 .ls-project-cta__button {
   justify-self: start;
   align-self: center;
-  margin-bottom: 46px;
+  margin-bottom: 40px;
   white-space: nowrap;
 }
 .ls-project-cta__visual {
   position: relative;
   align-self: end;
   min-width: 0;
-  height: 280px;
+  height: 258px;
   overflow: hidden;
 }
 .ls-project-cta__visual img {
   position: absolute;
   right: 0;
   bottom: -2px;
-  width: 100%;
+  width: auto;
+  max-width: none;
   height: 100%;
   display: block;
   object-fit: contain;
   object-position: right bottom;
 }
-/* Visuel panoramique (accueil) : il file jusqu'au bord droit du bandeau au
-   lieu de s'arrêter sur la gouttière, sinon une bande vide reste à droite. */
+/* Visuel panoramique (accueil, réalisations) : le bandeau fait 1800x600, donc
+   en largeur imposée il ne mesurait plus que 173px de haut et flottait au
+   milieu d'un grand vide beige. On le cale sur la HAUTEUR du cadre : il occupe
+   toute la bande, déborde vers la gauche (rogné par overflow:hidden) et file
+   jusqu'au bord droit de l'écran. */
 .ls-project-cta__visual--landscape {
   margin-right: calc(var(--gutter) * -1);
-  overflow: visible;
 }
 .ls-project-cta__visual--landscape img {
-  width: 100%;
+  width: auto;
   height: 100%;
   max-width: none;
   right: 0;
-  object-fit: contain;
+  object-fit: cover;
   object-position: right bottom;
 }
 
@@ -4721,14 +4724,14 @@ img.arc-palmier-icon { object-fit: contain; }
   .ls-footer-bottom-links { justify-content: center; }
   .ls-clients-grid { padding: 40px 40px; gap: 32px 48px; }
   .ls-project-cta__inner {
-    min-height: 300px;
-    grid-template-columns: minmax(230px, 320px) auto minmax(240px, 1fr);
-    gap: 22px;
+    min-height: 270px;
+    grid-template-columns: minmax(280px, 420px) auto minmax(200px, 1fr);
+    gap: 20px;
     padding-inline: 28px;
   }
-  .ls-project-cta__copy { padding-bottom: 34px; }
-  .ls-project-cta__button { margin-bottom: 34px; }
-  .ls-project-cta__visual { height: 250px; }
+  .ls-project-cta__copy { padding-bottom: 30px; }
+  .ls-project-cta__button { margin-bottom: 30px; }
+  .ls-project-cta__visual { height: 230px; }
 }
 
 /* Bascule vers le menu mobile dès 1024px : en dessous, logo + nav + icônes

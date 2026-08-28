@@ -42,8 +42,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link rel="stylesheet" href="/css/globals.css?v=178">
-<link rel="stylesheet" href="/css/hero-wave.css?v=4">
+  <link rel="stylesheet" href="/css/globals.css?v=181">
+<link rel="stylesheet" href="/css/hero-wave.css?v=5">
 
   <!-- Structured data — Organization / LocalBusiness for SEO & AI discovery -->
   <script type="application/ld+json">
@@ -91,7 +91,7 @@
     .hero {
       position: relative;
       width: 100%;
-      min-height: clamp(400px, min(64vw, 54svh), 700px);
+      min-height: clamp(424px, min(50vw, 42svh), 462px);
       background-image: url('/assets/global/backgrounds/image-bg/generated/hero-home-1920.webp?v=7');
       background-size: cover;
       background-position: center bottom;
@@ -105,13 +105,13 @@
       position: relative;
       z-index: 2;
       display: grid;
-      grid-template-columns: minmax(420px, 560px);
+      grid-template-columns: minmax(420px, 720px);
       align-items: center;
       gap: clamp(40px, 4vw, 72px);
       max-width: 1440px;
       width: 100%;
       margin: 0 auto;
-      padding: clamp(88px, 11vh, 112px) 56px 0;
+      padding: clamp(64px, 8vh, 88px) 56px 0;
     }
 
     /* ── HERO LEFT ── */
@@ -119,11 +119,11 @@
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      padding-top: 32px;
+      padding-top: 0;
     }
 
     .hero h1 {
-      margin-bottom: 26px;
+      margin-bottom: 20px;
       line-height: 1.02;
     }
 
@@ -160,9 +160,10 @@
       font-size: 15px;
       font-weight: 400;
       color: #1A1A1A;
-      max-width: 360px;
-      margin-bottom: 32px;
-      line-height: 1.78;
+      /* 360px forçait 4 lignes alors que la phrase en tient 2. */
+      max-width: 620px;
+      margin-bottom: 24px;
+      line-height: 1.7;
     }
 
     /* ── HERO RIGHT — dark video player card ── */
@@ -361,36 +362,16 @@
     }
 
     /* ── COCOTIER + ARC DANS LA VAGUE ── */
-    .wave-cocotier {
-      position: absolute;
-      bottom: -10px;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 5;
-      width: 186px;
-      height: 108px;
-      pointer-events: none;
-    }
-    .wave-cocotier .arc-text-svg {
       position: absolute;
       top: 0;
       left: 0;
-    }
-    .wave-cocotier .arc-palmier-icon {
-      position: absolute;
-      bottom: 12px;
-      left: 50%;
-      transform: translateX(-50%);
-      height: 30px;
-      width: auto;
-      filter: brightness(0) saturate(100%) invert(30%) sepia(12%) saturate(1200%) hue-rotate(46deg) brightness(85%) contrast(92%);
     }
 
     /* ── EXPERTISES SECTION ── */
     .expertises-section {
       background: var(--color-cream);
-      padding-top: clamp(22px, 2.6vh, 40px);
-      padding-bottom: clamp(40px, 5vw, 64px);
+      padding-top: clamp(12px, 1.6vh, 20px);
+      padding-bottom: clamp(32px, 4vw, 52px);
     }
     .expertises-section > .container {
       max-width: 1500px;
@@ -399,15 +380,15 @@
 
     .expertises-header {
       text-align: center;
-      margin-bottom: clamp(36px, 5vw, 64px);
+      margin-bottom: clamp(16px, 1.8vw, 24px);
     }
 
     .expertises-header h2 {
       font-family: 'Poppins', sans-serif;
       font-weight: 500;
-      font-size: clamp(28px, 3.4vw, 42px);
+      font-size: clamp(26px, 2.9vw, 36px);
       line-height: 1.18;
-      max-width: 620px;
+      max-width: 720px;
       margin-inline: auto;
       margin-bottom: 10px;
       color: #1A1A1A;
@@ -424,9 +405,9 @@
     .expertises-grid {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 22px;
-      max-width: 1400px;
-      margin: 0 auto clamp(26px, 3.4vh, 48px);
+      gap: 20px;
+      max-width: 1480px;
+      margin: 0 auto clamp(14px, 1.8vh, 22px);
     }
 
     .expertise-card {
@@ -447,7 +428,7 @@
 
     .expertise-card-img-wrap {
       width: 100%;
-      aspect-ratio: 1 / 1;
+      aspect-ratio: 16 / 10;
       overflow: hidden;
     }
 
@@ -459,7 +440,7 @@
     }
 
     .expertise-card-body {
-      padding: 0 20px 24px;
+      padding: 0 18px 16px;
       display: flex;
       flex-direction: column;
       flex: 1;
@@ -476,7 +457,7 @@
       border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
       margin-top: -26px;
-      margin-bottom: 14px;
+      margin-bottom: 8px;
       position: relative; z-index: 2;
       box-shadow: 0 2px 12px rgba(0,0,0,0.10);
     }
@@ -496,8 +477,8 @@
       font-family: 'Poppins', sans-serif;
       font-size: 13px; font-weight: 400;
       color: var(--color-gray-dark);
-      line-height: 1.65;
-      margin-bottom: 16px;
+      line-height: 1.6;
+      margin-bottom: 10px;
     }
 
     .expertises-footer { text-align: center; }
@@ -560,14 +541,14 @@
     @media (max-width: 1200px) {
       .hero {
         background-image: url('/assets/global/backgrounds/image-bg/generated/hero-home-960.webp?v=7');
-        min-height: clamp(760px, 75vw, 900px);
+        min-height: clamp(520px, 58vw, 660px);
         background-position: center bottom;
         background-size: cover;
       }
       .hero-content {
         grid-template-columns: 1fr;
-        padding: 110px 32px 260px;
-        gap: 32px;
+        padding: 86px 32px 170px;
+        gap: 24px;
       }
       .hero-left { padding-top: 0; }
       .hero-right { justify-content: flex-start; }
@@ -654,7 +635,6 @@
 
   </section>
 
-
   <!-- ══════════════════════════════════════
        NOS RÉALISATIONS / EXPERTISES
   ══════════════════════════════════════ -->
@@ -688,7 +668,7 @@
               </svg>
             </div>
             <h3 class="expertise-card-title">Photos</h3>
-            <p class="expertise-card-desc">Photographie de marque, séries éditoriales, images produits…Des images qui donnent du caractère à votre marque et de la force à vos messages.</p>
+            <p class="expertise-card-desc">Photographie de marque, séries éditoriales, images produits… Des images qui donnent du caractère à votre marque et de la force à vos messages.</p>
             <a href="/pages/photos.html" class="btn-text">Voir nos réalisations</a>
           </div>
         </article>
@@ -710,7 +690,7 @@
               </svg>
             </div>
             <h3 class="expertise-card-title">Identités de marque</h3>
-            <p class="expertise-card-desc">Identités visuelles, univers de marque, déclinaisons…Des identités pensées pour être reconnues, déclinées et durer.</p>
+            <p class="expertise-card-desc">Identités visuelles, univers de marque, déclinaisons… Des identités pensées pour être reconnues, déclinées et durer.</p>
             <a href="/pages/charte-graphique.html" class="btn-text">Voir nos réalisations</a>
           </div>
         </article>
@@ -732,7 +712,7 @@
               </svg>
             </div>
             <h3 class="expertise-card-title">Réseaux Sociaux</h3>
-            <p class="expertise-card-desc">Stratégie éditoriale, création de contenus, community management…Une présence de marque pensée pour capter l’attention, créer de l’engagement et rester cohérente dans le temps.</p>
+            <p class="expertise-card-desc">Stratégie éditoriale, création de contenus, community management… Une présence de marque pensée pour capter l’attention, créer de l’engagement et rester cohérente dans le temps.</p>
             <a href="/pages/social.html" class="btn-text">Voir nos réalisations</a>
           </div>
         </article>
@@ -755,7 +735,7 @@
               </svg>
             </div>
             <h3 class="expertise-card-title">Catalogues</h3>
-            <p class="expertise-card-desc">Offres commerciales, opérations promotionnelles, temps forts…Des catalogues pensés pour présenter l’offre clairement, valoriser les produits et donner envie d’acheter.</p>
+            <p class="expertise-card-desc">Offres commerciales, opérations promotionnelles, temps forts… Des catalogues pensés pour présenter l’offre clairement, valoriser les produits et donner envie d’acheter.</p>
             <a href="/pages/catalogue.html" class="btn-text">Découvrir le catalogue</a>
           </div>
         </article>
@@ -771,7 +751,6 @@
     </div>
   </section>
 
-
   <!-- ══════════════════════════════════════
        CTA — "Et si on partait de votre objectif ?"
        (sits on top of / merges into the clients section below —
@@ -781,7 +760,7 @@
     <div class="ls-project-cta__inner">
       <div class="ls-project-cta__copy reveal">
         <h2 id="home-cta-heading">Et si on partait de votre objectif ?</h2>
-        <p>Notoriété, lancement, trafic, ventes, fidélisation…Parlons d’abord de ce que vous voulez obtenir. Nous imaginerons ensuite la stratégie, les idées et les formats pour y parvenir.</p>
+        <p>Notoriété, lancement, trafic, ventes, fidélisation… Parlons d’abord de ce que vous voulez obtenir. Nous imaginerons ensuite la stratégie, les idées et les formats pour y parvenir.</p>
       </div>
       <a href="/pages/contact.html" class="btn btn-primary btn-arrow ls-project-cta__button reveal">Lancer un projet</a>
       <div class="ls-project-cta__visual ls-project-cta__visual--landscape reveal reveal-delay-2" aria-hidden="true">
@@ -789,7 +768,6 @@
       </div>
     </div>
   </section>
-
 
   <!-- ══════════════════════════════════════
        CLIENTS / PARTENAIRES
@@ -874,7 +852,6 @@
 
   </section>
 
-
 </main>
 
 <button id="scroll-top-btn" aria-label="Retour en haut">
@@ -884,7 +861,7 @@
   </svg>
 </button>
 
-<script src="/js/components.js?v=116"></script>
+<script src="/js/components.js?v=117"></script>
 <script>
   initComponents('accueil');
   document.body.style.paddingTop = '0';
