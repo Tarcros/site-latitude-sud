@@ -30,11 +30,23 @@ if (!fichierJson || fichierJson.startsWith('--')) {
 
 const echapRegex = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
+// Classe « lettre » incluant les accents : sert à interdire qu'un texte court
+// soit retrouvé À L'INTÉRIEUR d'un mot. Sans cela, corriger « ans » toucherait
+// transform, transition, translate, dans, sans… et détruirait le site.
+const LETTRE = '0-9A-Za-zÀ-ÖØ-öø-ÿ';
+const AVANT = `(?<![${LETTRE}])`;
+const APRES = `(?![${LETTRE}])`;
+// Séparateur entre deux lignes du texte : <br>, un \n littéral dans une chaîne
+// JS, ou simplement le retour à la ligne et l'indentation du fichier source.
+const SEP = '(?:\\s*(?:<br\\s*/?>|\\\\n)\\s*|\\s+)';
+
 /**
  * Motif retrouvant `texte` dans une source, en tolérant :
  *  - les retours à la ligne / indentation du code entre deux mots ;
  *  - les sauts de ligne écrits <br>, <br/> ou <br /> ;
- *  - les esperluettes écrites & ou &amp; ; les espaces insécables.
+ *  - les esperluettes écrites & ou &amp; ; les espaces insécables ;
+ *  - les apostrophes échappées dans les chaînes JS.
+ * Le motif est borné : il ne peut jamais matcher au milieu d'un mot.
  */
 function motifDe(texte) {
   const segments = texte.split('\n').map(seg =>
@@ -44,7 +56,7 @@ function motifDe(texte) {
         .replace(/'/g, "(?:'|\\\\')")
     ).join('(?:\\s|&nbsp;)+')
   );
-  return new RegExp(segments.join('\\s*(?:<br\\s*/?>|\\\\n)\\s*'), 'g');
+  return new RegExp(AVANT + segments.join(SEP) + APRES, 'g');
 }
 
 /** Réécrit `apres` en imitant l'encodage réellement constaté dans le fragment trouvé. */
@@ -76,35 +88,42 @@ for (const f of fichiers) {
 }
 const original = new Map(sources);
 
-/* ---------- application ---------- */
-const applique = [], ambigu = [], introuvable = [], suspect = [];
+/* ---------- application ----------
+   Deux temps : on RECENSE d'abord toutes les occurrences sans rien écrire,
+   puis on n'applique que ce qui est sûr. Une correction retrouvée à plusieurs
+   endroits n'est pas appliquée d'office : elle est mise de côté et listée,
+   sauf demande explicite avec --multi. */
+const MULTI = process.argv.includes('--multi');
+const applique = [], retenu = [], introuvable = [];
 
 for (const c of corrections) {
   if (!c || typeof c.avant !== 'string' || typeof c.apres !== 'string') continue;
   if (c.avant.trim() === c.apres.trim()) continue;
 
   const motif = motifDe(c.avant);
+  const parFichier = new Map();
   let total = 0;
-  const touches = [];
 
   for (const [f, contenu] of sources) {
     motif.lastIndex = 0;
     const trouves = [...contenu.matchAll(motif)];
     if (!trouves.length) continue;
     total += trouves.length;
-    touches.push(path.relative(RACINE, f));
+    parFichier.set(f, trouves);
+  }
+
+  const touches = [...parFichier.keys()].map(f => path.relative(RACINE, f));
+  if (!total) { introuvable.push(c); continue; }
+  if (total > 1 && !MULTI) { retenu.push({ c, n: total, touches }); continue; }
+
+  for (const [f, trouves] of parFichier) {
+    let nouveau = sources.get(f);
     // Remplacement de la fin vers le début : les index restent valides.
-    let nouveau = contenu;
-    for (const m of trouves.reverse()) {
+    for (const m of [...trouves].reverse()) {
       nouveau = nouveau.slice(0, m.index) + encoderComme(c.apres, m[0]) + nouveau.slice(m.index + m[0].length);
     }
     sources.set(f, nouveau);
   }
-
-  if (!total) { introuvable.push(c); continue; }
-  if (total > 1) ambigu.push({ c, n: total, touches });
-  // Un texte court peut se retrouver par hasard dans du code : on le signale.
-  if (c.avant.trim().length < 12) suspect.push({ c, n: total });
   applique.push({ c, n: total, touches });
 }
 
@@ -122,9 +141,10 @@ const court = s => s.replace(/\n/g, ' ⏎ ').slice(0, 64);
 
 console.log(`\n${DRY ? 'SIMULATION — aucun fichier écrit (ajoutez --write pour appliquer)' : `Corrections appliquées — ${ecrits} fichier(s) réécrit(s)`}`);
 console.log(ligne);
-console.log(`  Reçues       : ${corrections.length}`);
-console.log(`  Appliquées   : ${applique.length}`);
-console.log(`  Introuvables : ${introuvable.length}`);
+console.log(`  Reçues            : ${corrections.length}`);
+console.log(`  Appliquées        : ${applique.length}`);
+console.log(`  Mises de côté     : ${retenu.length}`);
+console.log(`  Introuvables      : ${introuvable.length}`);
 console.log(ligne);
 
 for (const a of applique) {
@@ -133,15 +153,15 @@ for (const a of applique) {
   console.log(`      après : ${court(a.c.apres)}`);
 }
 
-if (ambigu.length) {
-  console.log(`\n  Présents à plusieurs endroits — corrigés partout (normal pour le menu,`);
-  console.log(`  le pied de page ou un texte réutilisé ; à vérifier sinon) :`);
-  for (const a of ambigu) console.log(`   • ${a.n}× ${court(a.c.avant)}`);
-}
-
-if (suspect.length) {
-  console.log(`\n  Textes très courts — vérifiez qu'aucun code n'a été touché :`);
-  for (const s of suspect) console.log(`   • ${s.n}× « ${s.c.avant.trim()} »`);
+if (retenu.length) {
+  console.log(`\n  NON APPLIQUÉES — présentes à plusieurs endroits, à trancher :`);
+  for (const a of retenu) {
+    console.log(`   • ${a.n}× « ${court(a.c.avant)} »`);
+    console.log(`     fichiers : ${a.touches.join(', ')}`);
+    console.log(`     ${a.c.page || '?'} — ${a.c.contexte || ''}`);
+  }
+  console.log(`\n     Si ces remplacements globaux sont voulus (menu, pied de page,`);
+  console.log(`     nom de marque…), relancez la commande avec --multi.`);
 }
 
 if (introuvable.length) {
