@@ -390,26 +390,20 @@ p { line-height: 1.7; }
   z-index: 2;
 }
 
-/* Individual nav link — au survol, la pastille verte se remplit et le texte
-   passe en blanc ; le soulignement reste pour l'onglet actif. */
+/* Individual nav link */
 .ls-nav-link {
   font-family: var(--font-poppins); font-size: 13px; font-weight: 500;
   color: var(--color-black); text-decoration: none;
   position: relative; white-space: nowrap;
-  padding: 7px 13px; border-radius: 999px;
-  transition: color var(--dur) var(--ease), background-color var(--dur) var(--ease);
+  transition: color var(--dur) var(--ease);
 }
 .ls-nav-link::after {
-  content: ''; position: absolute; bottom: 1px; left: 13px; right: 13px;
+  content: ''; position: absolute; bottom: -3px; left: 0; right: 0;
   height: 1.5px; background: var(--color-olive);
   transform: scaleX(0); transform-origin: left;
-  transition: transform var(--dur) var(--ease), background-color var(--dur) var(--ease);
+  transition: transform var(--dur) var(--ease);
 }
-.ls-nav-link:hover {
-  color: #fff;
-  background: var(--color-olive);
-}
-.ls-nav-link:hover::after { background: #fff; }
+.ls-nav-link:hover       { color: var(--color-olive); }
 .ls-nav-link.active      { color: var(--color-black); }
 .ls-nav-link:hover::after,
 .ls-nav-link.active::after { transform: scaleX(1); }
@@ -444,7 +438,7 @@ p { line-height: 1.7; }
   color: var(--color-gray-dark); border-radius: 8px; white-space: nowrap;
   transition: background var(--dur) var(--ease), color var(--dur) var(--ease);
 }
-.ls-nav-dropdown-menu a:hover { background: var(--color-cream); color: var(--color-black); }
+.ls-nav-dropdown-menu a:hover { background: var(--color-olive); color: #fff; }
 .ls-nav-caret { font-size: 10px; margin-left: 3px; transition: transform var(--dur) var(--ease); display: inline-block; }
 .ls-nav-dropdown:hover .ls-nav-caret,
 .ls-nav-dropdown.open .ls-nav-caret { transform: rotate(180deg); }
@@ -4941,20 +4935,22 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
   0%   { transform: translate3d(0,0,0); }
   100% { transform: translate3d(-50%,0,0); }
 }
+/* Les fichiers Logo-Clients-black-*.svg sont déjà monochromes noirs : le
+   filtre grayscale+brightness ne changeait rien à l'image mais forçait le
+   compositeur à re-rastériser 50 éléments à chaque frame de défilement, d'où
+   les saccades sur les machines à petit GPU. Seule l'opacité reste. */
 .ls-marquee-track img {
   height: 38px;
   width: auto;
   max-width: 160px;
   opacity: 0.55;
-  filter: grayscale(100%) brightness(0);
   object-fit: contain;
   flex-shrink: 0;
-  contain: layout paint;
   transition: opacity 0.25s var(--ease);
   display: block;
   margin-right: 72px;
 }
-.ls-marquee-track img:hover { opacity: 1; filter: grayscale(0%) brightness(1); }
+.ls-marquee-track img:hover { opacity: 1; }
 .ls-marquee-track .ls-logo-lg { height: 50px; max-width: 180px; }
 
 @media (prefers-reduced-motion: reduce) {

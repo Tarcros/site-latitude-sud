@@ -63,9 +63,7 @@ function initHeroWaves(activePage) {
       <svg class="wave-bg" viewBox="0 0 3808.73 500" preserveAspectRatio="none" focusable="false">
         <path class="hero-wave-surface" d="${wavePath}"></path>
       </svg>
-      <div class="hero-wave-mark">
-        <img class="hero-wave-mark__palm" src="/assets/global/icons/ui/icon-ui-cocotier.svg" alt="" decoding="async">
-      </div>`;
+    `;
   });
 }
 

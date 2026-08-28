@@ -28,7 +28,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/css/globals.css?v=173">
+  <link rel="stylesheet" href="/css/globals.css?v=174">
   <link rel="stylesheet" href="/css/hero-wave.css?v=3">
 
   <script type="application/ld+json">
@@ -46,7 +46,7 @@
     /* ── HERO — même image que la home ── */
     .hero {
       position: relative; width: 100%;
-      aspect-ratio: 597 / 322; min-height: 660px; max-height: 880px;
+      aspect-ratio: 597 / 322; min-height: min(660px, 58svh); max-height: min(880px, 70svh);
       background-image: url('/assets/global/backgrounds/image-bg/generated/hero-agence-1920.webp?v=7');
       background-size: cover; background-position: center bottom; background-repeat: no-repeat;
       display: flex; flex-direction: column;
@@ -56,7 +56,7 @@
       position: relative; z-index: 2;
       display: flex; flex-direction: column; align-items: flex-start;
       text-align: left;
-      max-width: 640px; width: calc(100% - 80px); margin: 0 0 0 clamp(40px, 8vw, 140px);
+      width: min(830px, calc(100% - 48px)); max-width: none; margin: 0 0 0 max(24px, calc((100% - var(--max-width)) / 2 + 40px));
       padding: 140px 0 0;
     }
     .hero-surtitle {
@@ -238,7 +238,7 @@
   </svg>
 </button>
 
-  <script src="/js/components.js?v=115"></script>
+  <script src="/js/components.js?v=116"></script>
 <script>
   initComponents('agence');
   document.body.style.paddingTop = '0';
