@@ -57,20 +57,12 @@ function initHeroWaves(activePage) {
   const wavePath = 'M3808.73,124.82v4687.56H0V124.82c136.05-33.32,289.72-38.15,429.73-29.41,260.42,10.44,505.18,153.29,769.12,126.73,250.79-13.48,331.33-143.24,546.07-200.65,423.08-102.86,512.96,196.66,894.4,202.69,247.88,12.59,480.49-117.95,725.76-128.72,147.16-10.52,300.1-5.11,443.65,29.36Z';
 
   document.querySelectorAll('.hero-wave').forEach((wave, index) => {
-    const stampPathId = `hero-wave-stamp-${index}`;
     wave.dataset.heroWave = '';
     wave.setAttribute('aria-hidden', 'true');
     wave.innerHTML = `
       <svg class="wave-bg" viewBox="0 0 3808.73 500" preserveAspectRatio="none" focusable="false">
         <path class="hero-wave-surface" d="${wavePath}"></path>
       </svg>
-      <span class="wave-cocotier">
-        <svg class="arc-text-svg" viewBox="0 0 156 92" focusable="false">
-          <defs><path id="${stampPathId}" d="M 18 69 A 60 60 0 0 1 138 69"></path></defs>
-          <text text-anchor="middle"><textPath href="#${stampPathId}" startOffset="50%">CRÉATION · STRATÉGIE · DIGITAL</textPath></text>
-        </svg>
-        <img class="arc-palmier-icon" src="/assets/global/icons/ui/icon-ui-cocotier.svg" alt="">
-      </span>
     `;
   });
 }

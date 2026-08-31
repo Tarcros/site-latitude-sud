@@ -524,7 +524,11 @@ p, .hero-desc, .portfolio-hero p, .expertise-card-desc, .story-text p {
 }
 .ls-footer-arch {
   width: 100%; height: 64px; line-height: 0;
-  margin: 0 0 -1px; overflow: hidden; background: #F5EEE6;
+  margin: 0 0 -1px; overflow: hidden;
+  /* La bande porte la couleur de la section qui la précède ; sans ça, sur
+     les pages qui finissent en blanc, un rectangle beige s'intercalait
+     entre le contenu et le footer. */
+  background: var(--footer-arch-surface, #F5EEE6);
 }
 .ls-footer-arch svg { display: block; width: 100%; height: 64px; }
 .ls-footer-wave { line-height: 0; }
@@ -650,6 +654,7 @@ p, .hero-desc, .portfolio-hero p, .expertise-card-desc, .story-text p {
 .ls-project-cta__visual {
   position: relative;
   align-self: end;
+  /* voir le bloc « bord droit » plus bas pour les écrans larges */
   min-width: 0;
   height: 258px;
   overflow: hidden;
@@ -2658,12 +2663,7 @@ img[loading="lazy"].loaded { opacity: 1; }
 }
 
 /* Cocotier icon (replaces the 🌴 emoji under the arc) */
-.arc-palmier-icon {
-  width: auto;
-  height: 34px;
-}
-img.arc-palmier-icon { object-fit: contain; }
-
+img
 /* ══════════════════════════════════════════════════════
    STAGGERED REVEAL (client logos, etc.)
    ══════════════════════════════════════════════════════ */
@@ -4877,6 +4877,10 @@ img.arc-palmier-icon { object-fit: contain; }
 }
 
 body[data-page="contact"] .ls-footer-arch { display: none; }
+/* Pages dont la dernière section est blanche. */
+body[data-page="mentions"],
+body[data-page="confidentialite"],
+body[data-page="news"] { --footer-arch-surface: var(--color-white); }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
@@ -6996,4 +7000,27 @@ body[data-page="contact"] .ls-footer-arch { display: none; }
 }
 @media (max-width:700px) {
   .ccr-gallery__split { grid-template-columns:1fr; }
+}
+
+
+/* ── CTA : le visuel rejoint le bord droit sur écran large ───────────────
+   Au-delà de 1700px, le conteneur centré (1400px) laissait une bande beige
+   vide entre la fin du visuel et le bord du bandeau. Le visuel est sorti du
+   flux de la grille et ancré sur la section, qui est pleine largeur. */
+@media (min-width: 1700px) {
+  .ls-project-cta__inner {
+    grid-template-columns: minmax(320px, 450px) auto minmax(260px, 1fr);
+  }
+  .ls-project-cta__visual {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: min(46vw, 900px);
+    height: 100%;
+    margin: 0;
+  }
+  .ls-project-cta__visual img {
+    bottom: 0;
+    height: 100%;
+  }
 }
