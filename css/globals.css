@@ -6129,7 +6129,10 @@ body[data-page="news"] { --footer-arch-surface: var(--color-white); }
 
 /* Les cartes conservées en cache restent dans le HTML sans être rendues. */
 .project-grid > .project-card[hidden] { display:none !important; }
-.project-grid.project-grid--photos-curated { grid-template-columns:repeat(2,minmax(0,1fr)); width:min(100%,980px); }
+.project-grid.project-grid--photos-curated { grid-template-columns:repeat(2,minmax(0,1fr)); width:min(100%,900px); }
+/* Deux cartes très larges : en 4/3 la vignette faisait 330px et la carte
+   dépassait le bas de l'écran. Ratio cinéma, cadrage conservé (cover). */
+.project-grid--photos-curated .project-visual { aspect-ratio: 2.1 / 1; }
 @media (max-width:600px) {
   .project-grid.project-grid--photos-curated { grid-template-columns:1fr; }
 }
