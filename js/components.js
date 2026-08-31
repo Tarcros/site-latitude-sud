@@ -96,22 +96,22 @@ function renderHeader(activePage) {
     <!-- Nav links — absolutely centered -->
     <nav class="ls-nav-links" role="navigation" aria-label="Navigation principale">
       <a href="/index.html"  class="ls-nav-link${isActive('accueil')}">Accueil</a>
-      <a href="/pages/agence.html" class="ls-nav-link${isActive('agence')}">Agence</a>
+      <a href="/agence" class="ls-nav-link${isActive('agence')}">Agence</a>
       <div class="ls-nav-dropdown" id="ls-dropdown-realisations">
-        <a href="/pages/realisations.html"
+        <a href="/realisations"
            class="ls-nav-link${isActive('realisations') || isExpertise ? ' active' : ''}"
            aria-haspopup="true" aria-expanded="false">
           Réalisations <span class="ls-nav-caret" aria-hidden="true">▾</span>
         </a>
         <div class="ls-nav-dropdown-menu" role="menu">
-          <a href="/pages/photos.html" role="menuitem">Photographies</a>
-          <a href="/pages/charte-graphique.html" role="menuitem">Identité de marque</a>
-          <a href="/pages/social.html" role="menuitem">Réseaux Sociaux</a>
-          <a href="/pages/catalogue.html" role="menuitem">Catalogues</a>
+          <a href="/catalogue" role="menuitem">Catalogues</a>
+          <a href="/reseaux-sociaux" role="menuitem">Réseaux Sociaux</a>
+          <a href="/identite-de-marque" role="menuitem">Identité de marque</a>
+          <a href="/photographie" role="menuitem">Photographies</a>
         </div>
       </div>
 
-      <a href="/pages/contact.html" class="ls-nav-link${isActive('contact')}">Contact</a>
+      <a href="/contact" class="ls-nav-link${isActive('contact')}">Contact</a>
     </nav>
 
     <!-- Right group: socials + CTA -->
@@ -140,7 +140,7 @@ function renderHeader(activePage) {
         </a>
       </div>
 
-      <a href="/pages/contact.html" class="btn btn-primary btn-arrow ls-header-cta">
+      <a href="/contact" class="btn btn-primary btn-arrow ls-header-cta">
         Nous contacter
       </a>
     </div>
@@ -166,14 +166,14 @@ function renderHeader(activePage) {
 <nav class="ls-mobile-nav" id="ls-mobile-nav"
      role="navigation" aria-label="Navigation mobile">
   <a href="/index.html">Accueil</a>
-  <a href="/pages/agence.html">Agence</a>
-  <a href="/pages/realisations.html">Réalisations</a>
-  <a href="/pages/photos.html"       class="ls-mobile-sub">Photographies</a>
-  <a href="/pages/charte-graphique.html" class="ls-mobile-sub">Identité de marque</a>
-  <a href="/pages/social.html"       class="ls-mobile-sub">Réseaux Sociaux</a>
-  <a href="/pages/catalogue.html"    class="ls-mobile-sub">Catalogues</a>
-  <a href="/pages/contact.html">Contact</a>
-  <a href="/pages/contact.html" class="btn btn-primary btn-arrow ls-mobile-cta">
+  <a href="/agence">Agence</a>
+  <a href="/realisations">Réalisations</a>
+  <a href="/catalogue"    class="ls-mobile-sub">Catalogues</a>
+  <a href="/reseaux-sociaux"       class="ls-mobile-sub">Réseaux Sociaux</a>
+  <a href="/identite-de-marque" class="ls-mobile-sub">Identité de marque</a>
+  <a href="/photographie"       class="ls-mobile-sub">Photographies</a>
+  <a href="/contact">Contact</a>
+  <a href="/contact" class="btn btn-primary btn-arrow ls-mobile-cta">
     Nous contacter
   </a>
 </nav>
@@ -275,17 +275,17 @@ function renderFooter() {
     <div class="ls-footer-nav-col">
       <p class="ls-footer-col-title">Navigation</p>
       <a href="/index.html">Accueil</a>
-      <a href="/pages/agence.html">L'agence</a>
-      <a href="/pages/realisations.html">Réalisations</a>
-      <a href="/pages/contact.html">Contact</a>
+      <a href="/agence">L'agence</a>
+      <a href="/realisations">Réalisations</a>
+      <a href="/contact">Contact</a>
     </div>
 
     <div class="ls-footer-expertises-col">
       <p class="ls-footer-col-title">Expertises</p>
-      <a href="/pages/photos.html">Photographies</a>
-      <a href="/pages/charte-graphique.html">Identité de marque</a>
-      <a href="/pages/social.html">Réseaux Sociaux</a>
-      <a href="/pages/catalogue.html">Catalogues</a>
+      <a href="/catalogue">Catalogues</a>
+      <a href="/reseaux-sociaux">Réseaux Sociaux</a>
+      <a href="/identite-de-marque">Identité de marque</a>
+      <a href="/photographie">Photographies</a>
     </div>
 
     <div class="ls-footer-contact-col">
@@ -332,8 +332,8 @@ function renderFooter() {
   <div class="ls-footer-bottom">
     <p>© ${year} Latitude Sud — Tous droits réservés</p>
     <div class="ls-footer-bottom-links">
-      <a href="/pages/mentions-legales.html">Mentions légales</a>
-      <a href="/pages/politique-de-confidentialite.html">Politique de confidentialité</a>
+      <a href="/mentions-legales">Mentions légales</a>
+      <a href="/politique-de-confidentialite">Politique de confidentialité</a>
     </div>
   </div>
 
@@ -2156,7 +2156,7 @@ function applyCaseStudyContactCta(dialog, trigger) {
     footer.innerHTML = `
       <span class="ls-case-contact-icon" aria-hidden="true">◎</span>
       <div><strong></strong><p></p></div>
-      <a href="/pages/contact.html">Nous contacter <span aria-hidden="true">→</span></a>`;
+      <a href="/contact">Nous contacter <span aria-hidden="true">→</span></a>`;
     dialog.appendChild(footer);
   }
   updateCaseStudyContactFooter(footer, message);
@@ -3637,7 +3637,7 @@ function renderMrBricolageCaseHTML() {
             <strong>UN TEMPS FORT COMMERCIAL À METTRE EN CAMPAGNE ?</strong>
             <p>Catalogue print ou digital, social media, vidéo, radio : construisons un dispositif capable de donner à vos offres toute la visibilité qu’elles méritent.</p>
           </div>
-          <a href="/pages/contact.html">Nous contacter <span aria-hidden="true">→</span></a>
+          <a href="/contact">Nous contacter <span aria-hidden="true">→</span></a>
         </footer>
       </article>`;
 }
@@ -3807,7 +3807,7 @@ function renderLesBellesEnviesCaseHTML() {
           <div class="lbe-final-cta__copy">
             <h2>${C.cta.title}</h2>
             <p>${C.cta.text}</p>
-            <a class="lbe-final-cta__button" href="/pages/realisations.html">${C.cta.btnText} <span aria-hidden="true">→</span></a>
+            <a class="lbe-final-cta__button" href="/realisations">${C.cta.btnText} <span aria-hidden="true">→</span></a>
           </div>
           <figure class="lbe-final-cta__visual"><img src="${C.cta.image.src}" width="1920" height="2400" alt="${C.cta.image.alt}" loading="lazy" decoding="async"></figure>
         </div>
@@ -3819,7 +3819,7 @@ function renderLesBellesEnviesCaseHTML() {
           <div class="lbe-project-footer__mid">${C.footer.mid}</div>
           <div class="lbe-project-footer__right">
             <strong>${C.footer.ctaText}</strong>
-            <a class="lbe-project-footer__button" href="/pages/contact.html">${C.footer.ctaBtn} <span aria-hidden="true">→</span></a>
+            <a class="lbe-project-footer__button" href="/contact">${C.footer.ctaBtn} <span aria-hidden="true">→</span></a>
           </div>
         </div>
       </footer>
@@ -3969,7 +3969,7 @@ function renderCapCreoleCaseHTML() {
           <div class="ccr-cta-block__copy">
             <h2>${C.cta.title}</h2>
             <p>${C.cta.text}</p>
-            <a class="ccr-cta-block__btn" href="/pages/realisations.html">${C.cta.btnText} <span aria-hidden="true">→</span></a>
+            <a class="ccr-cta-block__btn" href="/realisations">${C.cta.btnText} <span aria-hidden="true">→</span></a>
           </div>
           <figure class="ccr-cta-block__visual"><img src="${C.cta.image.src}" alt="${C.cta.image.alt}" loading="lazy" decoding="async"></figure>
         </div>
@@ -3981,7 +3981,7 @@ function renderCapCreoleCaseHTML() {
           <div class="ccr-footer__mid">${C.footer.mid}</div>
           <div class="ccr-footer__right">
             <strong>${C.footer.ctaText}</strong>
-            <a class="ccr-footer__btn" href="/pages/contact.html">${C.footer.ctaBtn} <span aria-hidden="true">→</span></a>
+            <a class="ccr-footer__btn" href="/contact">${C.footer.ctaBtn} <span aria-hidden="true">→</span></a>
           </div>
         </div>
       </footer>

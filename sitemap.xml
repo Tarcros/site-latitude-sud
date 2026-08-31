@@ -7,45 +7,64 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://latitudesud.gp/pages/agence.html</loc>
+    <loc>https://latitudesud.gp/agence</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://latitudesud.gp/pages/realisations.html</loc>
+    <loc>https://latitudesud.gp/realisations</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://latitudesud.gp/pages/photos.html</loc>
+    <loc>https://latitudesud.gp/photographie</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://latitudesud.gp/pages/charte-graphique.html</loc>
+    <loc>https://latitudesud.gp/identite-de-marque</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://latitudesud.gp/pages/social.html</loc>
+    <loc>https://latitudesud.gp/reseaux-sociaux</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://latitudesud.gp/pages/catalogue.html</loc>
+    <loc>https://latitudesud.gp/catalogue</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://latitudesud.gp/pages/contact.html</loc>
+    <loc>https://latitudesud.gp/contact</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url><loc>https://latitudesud.gp/catalogue/digilife</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/catalogue/mr-bricolage</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/catalogue/decathlon</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/catalogue/la-foir-fouille</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/catalogue/gamm-vert</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/catalogue/carrefour</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/reseaux-sociaux/auto-discount</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/reseaux-sociaux/digilife</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/reseaux-sociaux/les-belles-envies</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/reseaux-sociaux/digilife-influence</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/reseaux-sociaux/cap-creole</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/reseaux-sociaux/lifeon</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/identite-de-marque/cist-971</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/identite-de-marque/les-bonnes-epices</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/identite-de-marque/marina-bas-du-fort</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/identite-de-marque/smgeag</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/identite-de-marque/le-pressing</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/photographie/so-class</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://latitudesud.gp/photographie/hfwi</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
 </urlset>

@@ -32,20 +32,20 @@
     </div>
     <div class="project-grid project-grid--photos-curated">
       <!-- Conservée en cache : cette étude de cas reste accessible depuis la page Réseaux sociaux. -->
-      <article class="project-card" hidden data-project data-project-layout="custom" data-project-custom-template="tpl-cat-lbe" data-project-title="Les Belles Envies">
+      <article data-slug="les-belles-envies" class="project-card" hidden data-project data-project-layout="custom" data-project-custom-template="tpl-cat-lbe" data-project-title="Les Belles Envies">
         <div class="project-visual"><span class="project-badge">Produit · Studio</span><img src="/assets/projects/photos/les-belles-envies/hero/hero-fraisier-composition.webp" alt="Les Belles Envies" loading="lazy"></div>
         <div class="project-body"><h3>Les Belles Envies</h3><p>Photographie gourmande &amp; contenus visuels premium</p><span class="project-action">Découvrir la série</span></div>
       </article>
       <!-- Conservée en cache pour une réactivation ultérieure dans la sélection Photos. -->
-      <article class="project-card" hidden id="cap-creole-photos" data-project data-project-layout="custom" data-project-custom-template="tpl-cap-creole-photo" data-project-title="Cap Créole">
+      <article data-slug="cap-creole" class="project-card" hidden id="cap-creole-photos" data-project data-project-layout="custom" data-project-custom-template="tpl-cap-creole-photo" data-project-title="Cap Créole">
         <div class="project-visual"><span class="project-badge">Produit · Extérieur</span><img src="/assets/projects/photos/cap-creole/thumbnail/cap-creole-burger.webp" alt="Cap Créole" loading="lazy"></div>
         <div class="project-body"><h3>Cap Créole</h3><p>Produit, territoire & mise en scène</p><span class="project-action">Découvrir la série</span></div>
       </article>
-      <article class="project-card project-card--so-class" data-so-class-project>
+      <article data-slug="so-class" class="project-card project-card--so-class" data-so-class-project>
         <div class="project-visual"><span class="project-badge">Shooting avec modèles</span><img src="/assets/projects/photos/so-class/thumbnail/thumbnail-so-class-projet-photo-2022.webp" alt="Shooting photo So Class, collection Jazz" loading="lazy"></div>
         <div class="project-body"><h3>So Class</h3><p>Collection Jazz · Shooting lunettes</p><span class="project-action">Découvrir</span></div>
       </article>
-      <article class="project-card" data-product-gallery>
+      <article data-slug="hfwi" class="project-card" data-product-gallery>
         <div class="project-visual"><span class="project-badge">Produit · studio &amp; extérieur</span><img src="/assets/projects/photos/hfwi/thumbs/sol-lead.webp" alt="HFWI — boisson Sol" loading="lazy"></div>
         <div class="project-body"><h3>HFWI</h3><p>Sol · Porter 39 · Affligem</p><span class="project-action">Découvrir</span></div>
       </article>
@@ -241,7 +241,7 @@
           <strong>Votre produit mérite une vraie mise en lumière.</strong>
           <p>Réalisons ensemble des photos qui donnent envie.</p>
         </div>
-        <a href="/pages/contact.html">Nous contacter <span aria-hidden="true">→</span></a>
+        <a href="/contact">Nous contacter <span aria-hidden="true">→</span></a>
       </footer>
     </div>
   </template>
@@ -382,7 +382,7 @@
           <footer class="ls-case-contact-footer">
             <div class="ls-case-contact-icon" aria-hidden="true">◎</div>
             <div><strong>Vous avez un projet photo&nbsp;?</strong><p>Imaginons une direction photographique capable de mettre vos produits en valeur et de faire vivre votre marque sur tous ses points de contact.</p></div>
-            <a href="/pages/contact.html">Nous contacter <span aria-hidden="true">→</span></a>
+            <a href="/contact">Nous contacter <span aria-hidden="true">→</span></a>
           </footer>
         </section>
       </div>
@@ -395,13 +395,15 @@
         <h2 id="photos-cta-title">Et si on partait de votre objectif ?</h2>
         <p>Vous avez un enjeu à résoudre, une marque à créer ou à faire évoluer ou une campagne à imaginer ? Commençons par là.</p>
       </div>
-      <a class="btn btn-primary btn-arrow ls-project-cta__button" href="/pages/contact.html">Lancer un projet</a>
+      <a class="btn btn-primary btn-arrow ls-project-cta__button" href="/contact">Lancer un projet</a>
       <div class="ls-project-cta__visual" aria-hidden="true"><img src="/assets/global/illustrations/moto/grenat-video-cutout.webp" alt=""></div>
     </div>
   </section>
 </main>
 <button id="scroll-top-btn" aria-label="Retour en haut"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="18 15 12 9 6 15"/></svg></button>
 <script src="/js/components.js?v=118"></script>
+<script src="/js/routing.js?v=4"></script>
+<script src="/js/typographie.js?v=1"></script>
 <script>initComponents('photos');document.body.style.paddingTop='0';</script>
 </body>
 </html>
