@@ -25,7 +25,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link rel="stylesheet" href="/css/globals.css?v=212">
+  <link rel="stylesheet" href="/css/globals.css?v=227">
 <link rel="stylesheet" href="/css/hero-wave.css?v=10">
 
   <!-- Structured data — Organization / LocalBusiness for SEO & AI discovery -->
@@ -314,7 +314,7 @@
     /* ── EXPERTISES SECTION ── */
     .expertises-section {
       background: var(--color-cream);
-      padding-top: clamp(10px, 1.2vh, 15px);
+      padding-top: clamp(24px, 2.4vh, 28px);
       padding-bottom: clamp(32px, 4vw, 52px);
     }
     .expertises-section > .container {
@@ -324,7 +324,7 @@
 
     .expertises-header {
       text-align: center;
-      margin-bottom: clamp(12px, 1.4vw, 18px);
+      margin-bottom: clamp(20px, 1.9vw, 24px);
     }
 
     .expertises-header h2 {
@@ -349,9 +349,9 @@
     .expertises-grid {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 22px;
+      gap: 24px;
       max-width: 1400px;
-      margin: 0 auto clamp(12px, 1.5vh, 18px);
+      margin: 0 auto clamp(16px, 2vh, 24px);
     }
 
     .expertise-card {
@@ -384,7 +384,7 @@
     }
 
     .expertise-card-body {
-      padding: 0 18px 16px;
+      padding: 0 18px 12px;
       display: flex;
       flex-direction: column;
       flex: 1;
@@ -393,15 +393,15 @@
        aligns it on the same line regardless of description length */
     .expertise-card-body .btn-text {
       margin-top: auto;
-      padding-top: 4px;
+      padding-top: 2px;
     }
 
     .expertise-icon-badge {
-      width: 46px; height: 46px;
+      width: 42px; height: 42px;
       border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
-      margin-top: -23px;
-      margin-bottom: 10px;
+      margin-top: -21px;
+      margin-bottom: 6px;
       position: relative; z-index: 2;
       box-shadow: 0 2px 12px rgba(0,0,0,0.10);
     }
@@ -412,17 +412,17 @@
 
     .expertise-card-title {
       font-family: 'Poppins', sans-serif;
-      font-size: 17px; font-weight: 700;
+      font-size: 18px; font-weight: 700;
       color: #1A1A1A;
       margin-bottom: 8px;
     }
 
     .expertise-card-desc {
       font-family: 'Poppins', sans-serif;
-      font-size: 12.5px; font-weight: 400;
+      font-size: 14px; font-weight: 400;
       color: var(--color-gray-dark);
-      line-height: 1.45;
-      margin-bottom: 10px;
+      line-height: 1.55;
+      margin-bottom: 12px;
     }
 
     .expertises-footer { text-align: center; }
@@ -496,23 +496,8 @@
       .hero-right { display: none; }
     }
 
-    /* Tablette paysage : la maquette conserve 4 colonnes, donc des cartes
-       étroites (~210px). La typographie doit suivre, sinon la description
-       part sur 8 lignes et la carte double de hauteur. */
-    @media (min-width: 901px) and (max-width: 1200px) {
-      .expertises-section > .container { padding-inline: 20px; }
-      .expertises-grid { gap: 14px; }
-      .expertises-header h2 { font-size: 24px; }
-      .expertise-card-body { padding: 0 12px 12px; }
-      .expertise-icon-badge { width: 38px; height: 38px; margin-top: -19px; margin-bottom: 7px; }
-      .expertise-icon-badge svg { width: 21px; height: 21px; }
-      .expertise-card-title { font-size: 14px; margin-bottom: 6px; }
-      .expertise-card-desc { font-size: 11px; line-height: 1.4; margin-bottom: 8px; }
-      .expertise-card-body .btn-text { font-size: 11px; }
-    }
-
-    @media (max-width: 900px) {
-      .expertises-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    @media (max-width: 1100px) {
+      .expertises-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
     }
 
     @media (max-width: 480px) {
@@ -532,9 +517,9 @@
       .expertise-card-body { padding: 0 10px 12px; }
       .expertise-icon-badge { width: 36px; height: 36px; margin-top: -18px; margin-bottom: 6px; }
       .expertise-icon-badge svg { width: 20px; height: 20px; }
-      .expertise-card-title { font-size: 13px; line-height: 1.25; }
-      .expertise-card-desc { font-size: 11px; line-height: 1.45; }
-      .expertise-card-body .btn-text { font-size: 10.5px; line-height: 1.35; }
+      .expertise-card-title { font-size: 15px; line-height: 1.25; }
+      .expertise-card-desc { font-size: 13px; line-height: 1.5; }
+      .expertise-card-body .btn-text { font-size: 12px; line-height: 1.35; }
       .expertises-footer .btn { min-height: 42px; padding: 9px 18px; font-size: 12px; }
     }
   </style>

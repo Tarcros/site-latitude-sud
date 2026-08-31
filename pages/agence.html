@@ -17,7 +17,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/css/globals.css?v=212">
+  <link rel="stylesheet" href="/css/globals.css?v=227">
   <link rel="stylesheet" href="/css/hero-wave.css?v=10">
 
 
@@ -32,11 +32,18 @@
       display: flex; flex-direction: column;
       background-color: #FAF9F7;
     }
+    /* Voile de lisibilité, identique à celui des pages d'expertise : il
+       éclaircit la colonne de texte et disparaît avant le personnage, qui
+       reste entièrement visible. */
+    .hero::after {
+      content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none;
+      background: linear-gradient(90deg, rgba(250,249,247,.72), rgba(250,249,247,.42) 26%, rgba(250,249,247,.10) 46%, transparent 62%);
+    }
     .hero-content {
       position: relative; z-index: 2;
       display: flex; flex-direction: column; align-items: flex-start;
       text-align: left;
-      max-width: 640px; width: calc(100% - 80px); margin: 0 0 0 clamp(40px, 8vw, 140px);
+      max-width: 640px; width: calc(100% - (2 * var(--content-edge))); margin: 0 0 0 var(--content-edge);
       padding: clamp(92px, 10vh, 128px) 0 clamp(76px, 8vh, 110px);
     }
     .hero-surtitle {
@@ -107,6 +114,9 @@
     .approach-section { background: var(--color-white); padding: 96px 0; }
     .approach-header { text-align: center; margin-bottom: 56px; }
     .approach-header h2 { font-family: 'Poppins', sans-serif; font-weight: 500; font-size: clamp(28px, 3.4vw, 42px); color: #1A1A1A; line-height: 1.2; letter-spacing: 0; }
+    .story-lead { max-width: 96ch; }
+    .story-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(32px, 3vw, 48px); margin-top: 18px; }
+    @media (max-width: 900px) { .story-cols { grid-template-columns: 1fr; gap: 0; } }
     .approach-intro { width: min(1040px, calc(100% - (2 * var(--gutter)))); margin: -24px auto 56px; }
     .approach-intro p { font-size: 15px; line-height: 1.8; color: var(--color-gray-dark); margin-bottom: 14px; }
     .approach-grid { max-width: var(--max-width); margin: 0 auto; padding: 0 var(--gutter); display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
@@ -118,7 +128,7 @@
     @media (max-width: 1000px) { .values-grid { grid-template-columns: repeat(2, 1fr); } .approach-grid { grid-template-columns: repeat(2, 1fr); gap: 40px 24px; } }
     @media (min-width: 3600px) { .hero { background-image: url('/assets/global/backgrounds/image-bg/generated/hero-agence-1920.webp?v=7'), url('/assets/global/backgrounds/image-bg/generated/hero-agence-edge-1920.webp?v=2'); background-position: left bottom; background-size: auto 100%, 100% 100%; } }
     @media (max-width: 1200px) {
-      .hero { --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-agence-960.webp?v=7'); min-height: clamp(460px, 54vw, 640px); max-height: none; background-image: var(--hero-image); background-position: center bottom; background-size: cover; }
+      .hero { --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-agence-960.webp?v=7'); min-height: clamp(400px, min(54vw, 60svh), 620px); max-height: none; background-image: var(--hero-image); background-position: center bottom; background-size: cover; }
       .hero-content { align-items: center; text-align: center; width: 100%; max-width: 620px; margin: 0 auto; padding: clamp(88px, 10vh, 108px) 24px clamp(40px, 6vh, 72px); }
       .hero-desc { margin-left: auto; margin-right: auto; }
       .hero-h1 { font-size: 36px; line-height: 1.04; margin-bottom: 20px; }
@@ -223,9 +233,12 @@
     <div class="story-inner">
       <div class="story-text reveal reveal-delay-1">
         <span class="section-surtitle">Notre histoire</span>
-        <h2 id="story-heading">Une agence ancrée<br>dans le <span class="ls-accent">vrai.</span></h2>
-        <p>Latitude Sud est née d’une conviction simple : pour bien communiquer ici, il faut d’abord comprendre les réalités, les cultures et les usages de ceux à qui l’on s’adresse.</p>
-        <p>Notre boussole reste la même : créer du sens, créer du lien, et faire rayonner ceux qui font vivre le Sud.</p>
+        <h2 id="story-heading">25 ans à observer, comprendre et faire parler les territoires.</h2>
+        <p class="story-lead">Latitude Sud est née d’une conviction simple : pour bien communiquer ici, il faut d’abord comprendre les réalités, les cultures et les usages de ceux à qui l’on s’adresse.</p>
+        <div class="story-cols">
+          <p>Depuis 25 ans, nous accompagnons entreprises, institutions et marques dans leurs enjeux de communication, de la stratégie à la création, du premier message à son déploiement.</p>
+          <p>Au fil des projets et des territoires, notre méthode s’est affinée, mais notre conviction reste la même : une communication juste commence toujours par une bonne lecture du terrain.</p>
+        </div>
         <div class="story-sign">
           <div class="story-sign-badge">LS</div>
           <div><div class="story-sign-name">L'équipe Latitude Sud</div><div class="story-sign-role">Stratégie, création & territoires caribéens</div></div>
