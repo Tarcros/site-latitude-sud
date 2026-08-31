@@ -25,7 +25,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link rel="stylesheet" href="/css/globals.css?v=227">
+  <link rel="stylesheet" href="/css/globals.css?v=231">
 <link rel="stylesheet" href="/css/hero-wave.css?v=10">
 
   <!-- Structured data — Organization / LocalBusiness for SEO & AI discovery -->
@@ -466,6 +466,27 @@
       .expertises-grid { gap: 24px; max-width: 1400px; }
     }
 
+    /* Sur les écrans très larges, la grille suit la largeur disponible au lieu
+       de rester figée au format 1920 px. Les cartes gardent ainsi les mêmes
+       proportions tout en retrouvant la respiration visible sur la maquette. */
+    @media (min-width: 2200px) {
+      .hero-content {
+        max-width: none;
+        margin: 0;
+        padding-left: clamp(320px, 14vw, 400px);
+        padding-right: 64px;
+      }
+      .expertises-section > .container { max-width: 2000px; }
+      .expertises-grid {
+        max-width: clamp(1400px, 72vw, 1840px);
+        gap: 32px;
+      }
+      .expertise-card-body { padding: 0 24px 22px; }
+      .expertise-icon-badge { width: 48px; height: 48px; margin-top: -24px; margin-bottom: 10px; }
+      .expertise-card-title { font-size: 20px; }
+      .expertise-card-desc { font-size: 14.5px; line-height: 1.65; margin-bottom: 18px; }
+    }
+
     @media (min-width: 3600px) {
       .hero {
         background-image: url('/assets/global/backgrounds/image-bg/generated/hero-home-1920.webp?v=7'), url('/assets/global/backgrounds/image-bg/generated/hero-home-edge-1920.webp?v=2');
@@ -474,7 +495,7 @@
       }
     }
 
-    @media (max-width: 1200px) {
+    @media (max-width: 900px) {
       .hero {
         --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-home-960.webp?v=7');
         background-image: url('/assets/global/backgrounds/image-bg/generated/hero-home-960.webp?v=7');
@@ -502,17 +523,20 @@
 
     @media (max-width: 480px) {
       .hero { min-height: 520px; }
-      .hero-content { padding: 72px 18px 72px; }
+      .hero-content { padding: 72px 28px 86px; }
       .hero h1 { margin-bottom: 14px; }
       .hero-title-poppins,
       .hero-title-playfair { font-size: clamp(29px, 9.3vw, 34px); }
       .hero-desc { font-size: 13px; line-height: 1.55; margin-bottom: 18px; }
       .hero-left > .btn { min-height: 46px; padding: 10px 20px; font-size: 13px; }
       .expertises-section { padding-top: 50px; }
-      .expertises-section > .container { padding-inline: 12px; }
+      .expertises-section > .container { padding-inline: 28px; display: flex; flex-direction: column; }
+      .expertises-header { order: 1; }
+      .expertises-footer { order: 2; margin-bottom: 22px; }
+      .expertises-grid { order: 3; }
       .expertises-header h2 { font-size: 22px; line-height: 1.15; }
       .expertises-header .section-surtitle { margin-bottom: 10px; }
-      .expertises-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+      .expertises-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
       .expertise-card-img-wrap { aspect-ratio: 4 / 3; }
       .expertise-card-body { padding: 0 10px 12px; }
       .expertise-icon-badge { width: 36px; height: 36px; margin-top: -18px; margin-bottom: 6px; }
@@ -998,7 +1022,7 @@
     </ul>
   </nav>
 </noscript>
-<script src="/js/components.js?v=125"></script>
+<script src="/js/components.js?v=126"></script>
 <script src="/js/routing.js?v=11"></script>
 <script src="/js/typographie.js?v=1"></script>
 <script>

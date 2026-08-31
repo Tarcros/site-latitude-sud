@@ -17,7 +17,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/css/globals.css?v=227">
+  <link rel="stylesheet" href="/css/globals.css?v=231">
   <link rel="stylesheet" href="/css/hero-wave.css?v=10">
 
 
@@ -37,7 +37,7 @@
        reste entièrement visible. */
     .hero::after {
       content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none;
-      background: linear-gradient(90deg, rgba(250,249,247,.72), rgba(250,249,247,.42) 26%, rgba(250,249,247,.10) 46%, transparent 62%);
+      background: linear-gradient(90deg, rgba(250,249,247,.34), rgba(250,249,247,.58) 12%, rgba(250,249,247,.44) 28%, rgba(250,249,247,.10) 46%, transparent 62%);
     }
     .hero-content {
       position: relative; z-index: 2;
@@ -126,17 +126,24 @@
     .approach-step p { font-family: 'Poppins', sans-serif; font-size: 13.5px; color: var(--color-gray-dark); line-height: 1.7; }
 
     @media (max-width: 1000px) { .values-grid { grid-template-columns: repeat(2, 1fr); } .approach-grid { grid-template-columns: repeat(2, 1fr); gap: 40px 24px; } }
+    @media (min-width: 901px) {
+      .hero-content { width: min(640px, 50vw); }
+      .hero-h1--long ~ .hero-desc { max-width: min(540px, 44vw); }
+    }
     @media (min-width: 3600px) { .hero { background-image: url('/assets/global/backgrounds/image-bg/generated/hero-agence-1920.webp?v=7'), url('/assets/global/backgrounds/image-bg/generated/hero-agence-edge-1920.webp?v=2'); background-position: left bottom; background-size: auto 100%, 100% 100%; } }
-    @media (max-width: 1200px) {
-      .hero { --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-agence-960.webp?v=7'); min-height: clamp(400px, min(54vw, 60svh), 620px); max-height: none; background-image: var(--hero-image); background-position: center bottom; background-size: cover; }
-      .hero-content { align-items: center; text-align: center; width: 100%; max-width: 620px; margin: 0 auto; padding: clamp(88px, 10vh, 108px) 24px clamp(40px, 6vh, 72px); }
-      .hero-desc { margin-left: auto; margin-right: auto; }
+    @media (max-width: 900px) {
+      .hero { --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-agence-960.webp?v=7'); min-height: clamp(520px, 56svh, 650px); max-height: none; background-image: var(--hero-image); background-position: center bottom; background-size: cover; }
+      .hero::after { background: linear-gradient(180deg, rgba(250,249,247,.9) 0%, rgba(250,249,247,.7) 48%, rgba(250,249,247,.1) 72%, transparent 84%); }
+      .hero-content { align-items: flex-start; text-align: left; width: 100%; max-width: 640px; margin: 0; padding: clamp(88px, 10vh, 108px) clamp(28px, 5vw, 56px) clamp(120px, 16svh, 180px); }
       .hero-h1 { font-size: 36px; line-height: 1.04; margin-bottom: 20px; }
       .hero-desc { font-size: 14px; line-height: 1.6; }
     }
-    @media (max-width: 768px) { .story-section { padding-top: 58px; } .story-inner { width: calc(100% - 48px); margin-inline: 24px; grid-template-columns: 1fr; gap: 40px; } .story-text { order: 1; } .story-visual { order: 2; aspect-ratio: 16 / 9; } .approach-intro { width: calc(100% - 48px); margin-top: -28px; } }
+    @media (min-width: 2200px) {
+      .values-grid { max-width: 1840px; gap: 28px; }
+    }
+    @media (max-width: 768px) { .story-section { padding-top: 42px; } .story-inner { --story-edge: clamp(28px, 5vw, 38px); width: calc(100% - (2 * var(--story-edge))); margin-inline: var(--story-edge); grid-template-columns: 1fr; gap: 40px; } .story-text { order: 1; } .story-visual { order: 2; aspect-ratio: 16 / 9; } .approach-intro { width: calc(100% - 56px); margin-top: -28px; } }
     @media (max-width: 560px) {
-      .hero-content { padding-top: 80px; }
+      .hero-content { padding-top: 80px; padding-bottom: clamp(145px, 19svh, 175px); }
       .hero-h1 { font-size: clamp(29px, 8.2vw, 32px); }
       .hero-desc { font-size: 13px; line-height: 1.5; }
       .stats-inner { grid-template-columns: 1fr; }
@@ -321,7 +328,7 @@
     </ul>
   </nav>
 </noscript>
-<script src="/js/components.js?v=125"></script>
+<script src="/js/components.js?v=126"></script>
 <script src="/js/routing.js?v=11"></script>
 <script src="/js/typographie.js?v=1"></script>
 <script>

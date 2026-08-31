@@ -5,7 +5,7 @@
    (les illustrations sont ancrées en bas). */
 .portfolio-hero {
   position: relative; width: 100%;
-  min-height: clamp(420px, 53svh, 700px); display: grid; place-items: center start;
+  min-height: clamp(440px, 48svh, 620px); display: grid; place-items: center start;
   overflow: hidden; background-color: #FAF9F7; background-position: center; background-size: cover;
   background-repeat: no-repeat; text-align: left;
   padding: clamp(92px, 10vh, 128px) 24px clamp(92px, 10vh, 140px);
@@ -34,7 +34,7 @@
 .portfolio-hero--social {
   --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-social-1920.webp?v=7');
   background-image: var(--hero-image);
-  background-position: 22% bottom;
+  background-position: 10% bottom;
 }
 /* Titre le plus long du site : à 50px la 1re ligne débordait et passait sur 3
    lignes, ce qui rallongeait le hero et coupait les cartes. */
@@ -47,6 +47,9 @@
   content: ''; position: absolute; inset: 0;
   background: linear-gradient(90deg, rgba(250,249,247,.34), rgba(250,249,247,.08) 48%, transparent 72%);
 }
+.portfolio-hero--social::after {
+  background: linear-gradient(90deg, rgba(250,249,247,.9) 0%, rgba(250,249,247,.76) 34%, rgba(250,249,247,.16) 49%, transparent 60%);
+}
 /* Le bloc s'aligne sur le bord gauche du conteneur de la nav (1480px centré
    + 40px de padding) au lieu d'un décalage arbitraire en vw : le titre part
    donc exactement sous le logo. Largeur portée à 760px pour que le titre
@@ -54,7 +57,7 @@
 .portfolio-hero-inner {
   position: relative; z-index: 1;
   width: min(830px, calc(100% - 48px));
-  margin-left: max(24px, calc((100% - var(--max-width)) / 2 + 40px));
+  margin-left: var(--content-edge);
 }
 .portfolio-kicker { margin-bottom: 18px; color: var(--color-black); font-size: 11px; font-weight: 600; letter-spacing: .32em; text-transform: uppercase; }
 .portfolio-hero h1 { max-width: 830px; margin: 0 0 18px; font-size: clamp(34px, 3.4vw, 58px); line-height: 1.06; }
@@ -95,9 +98,8 @@
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 .project-grid--identity > .project-card .project-visual,
-.social-project .project-visual { aspect-ratio: 16 / 10; }
-/* Réseaux sociaux : descriptions sur 2 lignes, la rangée dépassait de 18px. */
-.project-grid--social .project-visual { aspect-ratio: 1.72 / 1; }
+.project-grid--social .project-visual,
+.social-project .project-visual { aspect-ratio: 4 / 3; }
 .project-grid--identity > .project-card,
 .project-grid--social > .project-card { grid-column: span 2; }
 /* Elargir les 2 dernieres cartes ne remplit la rangee que sur une grille de 5
@@ -135,7 +137,7 @@
 .portfolio-filter span.active { border-color: var(--color-black); color: var(--color-black); }
 .catalogue-list {
   width: min(1140px, 100%); margin: 0 auto; display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px;
 }
 .catalogue-card {
   display: flex; flex-direction: column; overflow: hidden; padding: 0;
@@ -146,7 +148,7 @@
 .catalogue-card[data-project] { cursor: pointer; }
 .catalogue-card:hover { transform: translateY(-5px); box-shadow: 0 18px 40px rgba(28,26,22,.11); }
 .catalogue-card:hover .project-visual img { transform: scale(1.04); }
-.catalogue-card .project-visual { aspect-ratio: 2.45 / 1; }
+.catalogue-card .project-visual { aspect-ratio: 16 / 10; }
 .catalogue-card .project-visual--client-logo {
   display: grid;
   place-items: center;
@@ -173,7 +175,24 @@
 .catalogue-card .cat-thumb--digilife { background: #090909; }
 .catalogue-list--clients { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 .catalogue-list--clients > .catalogue-card { grid-column: span 2; }
-@media (max-width: 900px) {
+@media (min-width: 901px) {
+  .portfolio-hero--photos .portfolio-hero-inner,
+  .portfolio-hero--social .portfolio-hero-inner { width: min(830px, 52vw); }
+  .portfolio-hero--charte .portfolio-hero-inner { width: min(650px, 52vw); }
+  .portfolio-hero--catalogue .portfolio-hero-inner { width: min(680px, 52vw); }
+}
+@media (min-width: 2200px) {
+  .portfolio-section { padding-inline: 56px; }
+  .project-grid { width: min(1840px, calc(100% - 112px)); gap: 30px; }
+  .project-grid--identity,
+  .project-grid--social,
+  .catalogue-list { width: min(1600px, calc(100% - 112px)); gap: 30px; }
+  .project-grid.project-grid--photos-curated { width: min(1400px, calc(100% - 112px)); gap: 30px; }
+  .project-body { padding: 18px 22px 22px; }
+  .project-body p { font-size: 14px; line-height: 1.7; }
+  .catalogue-card .project-body { padding: 18px 22px 22px; }
+}
+@media (max-width: 1100px) {
   .project-grid, .project-grid--identity, .project-grid--social, .catalogue-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .project-grid--identity > .project-card,
   .project-grid--social > .project-card,
@@ -191,28 +210,31 @@
   .portfolio-hero--social { background-image: url('/assets/global/backgrounds/image-bg/generated/hero-social-1920.webp?v=7'), url('/assets/global/backgrounds/image-bg/generated/hero-social-edge-1920.webp?v=2'); }
   .portfolio-hero--catalogue { background-image: url('/assets/global/backgrounds/image-bg/generated/hero-catalogue-1920.webp?v=7'), url('/assets/global/backgrounds/image-bg/generated/hero-catalogue-edge-1920.webp?v=2'); }
 }
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   .portfolio-hero {
-    min-height: clamp(430px, 52svh, 620px); max-height: none; padding: clamp(88px, 10vh, 112px) 20px clamp(70px, 9vh, 120px);
-    place-items: start center; background-position: center bottom; background-size: cover; text-align: center;
+    min-height: clamp(520px, 56svh, 650px); max-height: none;
+    padding: clamp(88px, 10vh, 112px) clamp(28px, 5vw, 56px) clamp(120px, 16svh, 180px);
+    place-items: start start; background-position: center bottom; background-size: cover; text-align: left;
   }
   .portfolio-hero--photos { --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-photos-960.webp?v=7'); background-image: var(--hero-image); }
   .portfolio-hero--social { --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-social-960.webp?v=7'); background-image: var(--hero-image); }
   .portfolio-hero--charte { --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-charte-960.webp?v=7'); background-image: var(--hero-image); }
   .portfolio-hero--catalogue { --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-catalogue-960.webp?v=7'); background-image: var(--hero-image); }
-  .portfolio-hero::after { background: linear-gradient(180deg, rgba(250,249,247,.34), rgba(250,249,247,.08) 44%, transparent 66%); }
+  .portfolio-hero::after { background: linear-gradient(180deg, rgba(250,249,247,.9) 0%, rgba(250,249,247,.72) 46%, rgba(250,249,247,.12) 70%, transparent 82%); }
   .portfolio-hero.portfolio-hero--photos::after { background: linear-gradient(180deg, rgba(250,249,247,.82) 0%, rgba(250,249,247,.52) 42%, rgba(250,249,247,.05) 67%, transparent 78%); }
   .portfolio-hero--photos .portfolio-hero-inner { margin-top: 0; }
   .portfolio-hero-inner { width: 100%; margin-left: 0; }
-  .portfolio-hero h1 { font-size: 36px; line-height: 1.02; }
-  .portfolio-hero h1, .portfolio-hero p:not(.portfolio-kicker) { margin-left: auto; margin-right: auto; }
+  .portfolio-hero h1 { font-size: 34px; line-height: 1.02; }
   .portfolio-hero p:not(.portfolio-kicker) { font-size: 14px; line-height: 1.65; }
 }
 @media (max-width: 768px) {
   .portfolio-hero { background-position: center bottom; }
 }
 @media (max-width: 600px) {
-  .portfolio-section, .portfolio-cta { padding-left: 20px; padding-right: 20px; }
+  .portfolio-hero { padding-bottom: clamp(145px, 19svh, 175px); }
+  .portfolio-hero h1 { font-size: clamp(30px, 8.4vw, 33px); }
+  .portfolio-hero p:not(.portfolio-kicker) { font-size: 13px; line-height: 1.55; }
+  .portfolio-section, .portfolio-cta { padding-left: 24px; padding-right: 24px; }
   .portfolio-section { padding-top: 30px; padding-bottom: 64px; }
   .project-grid, .project-grid--identity, .project-grid--social, .catalogue-list { grid-template-columns: 1fr; gap: 20px; }
   .social-project .project-visual { aspect-ratio: 16 / 10; }

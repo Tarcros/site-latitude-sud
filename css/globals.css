@@ -47,7 +47,10 @@
 
   --max-width: 1480px;
   --gutter:    clamp(24px, 8vw, 120px);
-  --content-edge: max(24px, calc((100% - var(--max-width)) / 2 + 40px));
+  /* Le bord suit le viewport sur laptop/tablette, puis le conteneur centré.
+     Le plafond empêche toutefois le texte de glisser sous les sujets des
+     illustrations sur les écrans très larges. */
+  --content-edge: clamp(24px, max(7vw, calc((100% - var(--max-width)) / 2 + 40px)), 320px);
   --col-gap:   24px;
 
   --shadow-card:  0 4px 24px rgba(0,0,0,0.07);
@@ -6129,10 +6132,10 @@ body[data-page="news"] { --footer-arch-surface: var(--color-white); }
 
 /* Les cartes conservées en cache restent dans le HTML sans être rendues. */
 .project-grid > .project-card[hidden] { display:none !important; }
-.project-grid.project-grid--photos-curated { grid-template-columns:repeat(2,minmax(0,1fr)); width:min(100%,900px); }
+.project-grid.project-grid--photos-curated { grid-template-columns:repeat(2,minmax(0,1fr)); width:min(100%,1000px); }
 /* Deux cartes très larges : en 4/3 la vignette faisait 330px et la carte
    dépassait le bas de l'écran. Ratio cinéma, cadrage conservé (cover). */
-.project-grid--photos-curated .project-visual { aspect-ratio: 2.1 / 1; }
+.project-grid--photos-curated .project-visual { aspect-ratio: 4 / 3; }
 @media (max-width:600px) {
   .project-grid.project-grid--photos-curated { grid-template-columns:1fr; }
 }

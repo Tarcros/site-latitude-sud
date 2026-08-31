@@ -14,7 +14,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/css/globals.css?v=227">
+  <link rel="stylesheet" href="/css/globals.css?v=231">
   <link rel="stylesheet" href="/css/hero-wave.css?v=10">
 
   <style>
@@ -24,7 +24,7 @@
        reste entièrement visible. */
     .hero::after {
       content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none;
-      background: linear-gradient(90deg, rgba(250,249,247,.72), rgba(250,249,247,.42) 26%, rgba(250,249,247,.10) 46%, transparent 62%);
+      background: linear-gradient(90deg, rgba(250,249,247,.34), rgba(250,249,247,.58) 12%, rgba(250,249,247,.44) 28%, rgba(250,249,247,.10) 46%, transparent 62%);
     }
     .hero-inner { position: relative; z-index: 2; max-width: 620px; width: calc(100% - (2 * var(--content-edge))); margin: 0 0 0 var(--content-edge); text-align: left; padding: clamp(92px, 10vh, 128px) 0 clamp(76px, 8vh, 110px); }
     .hero-surtitle { font-family: 'Poppins', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.3em; text-transform: uppercase; color: #1A1A1A; margin-bottom: 24px; }
@@ -43,16 +43,26 @@
     .expertise-block-title { font-family: 'Poppins', sans-serif; font-size: 22px; font-weight: 700; color: #1A1A1A; margin-bottom: 6px; }
     .expertise-block-desc { font-family: 'Poppins', sans-serif; font-size: 14px; color: var(--color-gray-mid); line-height: 1.6; }
 
+    @media (min-width: 901px) {
+      .hero-inner { width: min(620px, 50vw); }
+      .hero-desc { max-width: min(560px, 44vw); }
+    }
     @media (min-width: 3600px) { .hero { background-image: url('/assets/global/backgrounds/image-bg/generated/hero-realisations-1920.webp?v=7'), url('/assets/global/backgrounds/image-bg/generated/hero-realisations-edge-1920.webp?v=2'); background-position: left bottom; background-size: auto 100%, 100% 100%; } }
-    @media (max-width: 1200px) {
-      .hero { --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-realisations-960.webp?v=7'); min-height: clamp(400px, min(54vw, 60svh), 620px); max-height: none; background-image: var(--hero-image); background-position: center bottom; background-size: cover; }
-      .hero-inner { width: 100%; max-width: 620px; margin: 0 auto; text-align: center; padding: clamp(88px, 10vh, 108px) 24px clamp(40px, 6vh, 72px); }
-      .hero-desc { margin-left: auto; margin-right: auto; }
+    @media (min-width: 2200px) {
+      .realisations-page-section .container { max-width: 2000px; }
+      .expertise-grid { max-width: 1840px; gap: 30px; }
+      .expertise-block-thumb { margin-bottom: 24px; }
+      .expertise-block-desc { line-height: 1.7; }
+    }
+    @media (max-width: 900px) {
+      .hero { --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-realisations-960.webp?v=7'); min-height: clamp(520px, 56svh, 650px); max-height: none; background-image: var(--hero-image); background-position: center bottom; background-size: cover; }
+      .hero::after { background: linear-gradient(180deg, rgba(250,249,247,.9) 0%, rgba(250,249,247,.7) 48%, rgba(250,249,247,.1) 72%, transparent 84%); }
+      .hero-inner { width: 100%; max-width: 640px; margin: 0; text-align: left; padding: clamp(88px, 10vh, 108px) clamp(28px, 5vw, 56px) clamp(120px, 16svh, 180px); }
       .hero-h1 { font-size: 36px; line-height: 1.04; margin-bottom: 20px; }
       .hero-desc { font-size: 14px; line-height: 1.6; }
     }
     @media (max-width: 1080px) { .expertise-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-    @media (max-width: 620px) { .expertise-grid { grid-template-columns: 1fr; gap: 28px; } }
+    @media (max-width: 620px) { .hero-inner { padding-bottom: clamp(145px, 19svh, 175px); } .hero-h1 { font-size: clamp(30px, 8.4vw, 33px); } .hero-desc { font-size: 13px; line-height: 1.55; } .expertise-grid { grid-template-columns: 1fr; gap: 28px; } }
   </style>
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <link rel="canonical" href="https://www.latitudesud.gp/realisations">
@@ -195,7 +205,7 @@
     </ul>
   </nav>
 </noscript>
-<script src="/js/components.js?v=125"></script>
+<script src="/js/components.js?v=126"></script>
 <script src="/js/routing.js?v=11"></script>
 <script src="/js/typographie.js?v=1"></script>
 <script>initComponents('realisations');document.body.style.paddingTop='0';</script>

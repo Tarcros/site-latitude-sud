@@ -2293,11 +2293,11 @@ function initPageTransition() {
   // Entrance: fade the main content up
   document.documentElement.classList.add('ls-page-anim');
 
-  // Cream curtain with the cocotier
+  // Cream curtain, kept deliberately plain so page changes do not reintroduce
+  // the decorative cocotier removed from the site.
   const curtain = document.createElement('div');
   curtain.id = 'ls-curtain';
   curtain.setAttribute('aria-hidden', 'true');
-  curtain.innerHTML = '<img src="/assets/global/icons/ui/icon-ui-cocotier.svg" alt="" width="56" height="56">';
   document.body.appendChild(curtain);
 
   const isInternal = (a) => {
