@@ -124,14 +124,32 @@
   var ogUrl = document.querySelector('meta[property="og:url"]');
   var ogTitre = document.querySelector('meta[property="og:title"]');
 
+  /* Le domaine de référence est celui de production, jamais location.origin :
+     sur le staging Vercel, la canonical pointerait sinon vers le staging. On
+     le lit dans la canonical présente dans le HTML, qui fait autorité. */
+  var ORIGINE = (function () {
+    var href = canonical && canonical.getAttribute('href');
+    var m = href && href.match(/^(https?:\/\/[^/]+)/);
+    return m ? m[1] : 'https://www.latitudesud.gp';
+  })();
+
   function majMeta(slug) {
     var el = slug && carte(slug);
     var nom = el ? (el.querySelector('h3') ? el.querySelector('h3').textContent.trim() : slug) : null;
     document.title = nom ? nom + ' — ' + TITRE_ORIGINE : TITRE_ORIGINE;
-    var absolue = location.origin + (slug ? BASE + '/' + slug : BASE);
+    var absolue = ORIGINE + (slug ? BASE + '/' + slug : BASE);
+    /* Une étude de cas ouverte est une page à part entière : sa canonical
+       se référence elle-même, sinon Google la replierait sur la catégorie. */
     if (canonical) canonical.setAttribute('href', absolue);
     if (ogUrl) ogUrl.setAttribute('content', absolue);
     if (ogTitre) ogTitre.setAttribute('content', document.title);
+    var desc = el && el.querySelector('.project-body p');
+    var metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      if (!majMeta._desc) majMeta._desc = metaDesc.getAttribute('content');
+      metaDesc.setAttribute('content',
+        desc ? nom + ' — ' + desc.textContent.trim() : majMeta._desc);
+    }
   }
 
   // ── Écriture de l'historique ──────────────────────────────
@@ -161,11 +179,20 @@
   document.addEventListener('click', function (e) {
     var el = e.target.closest && e.target.closest('[data-slug]');
     if (!el || !porteProjets) return;
-    // Un lien à l'intérieur de la carte garde son comportement.
+    var slug = el.getAttribute('data-slug');
     var lien = e.target.closest('a[href]');
-    if (lien && el.contains(lien) && lien.getAttribute('href') &&
-        lien.getAttribute('href').charAt(0) !== '#') return;
-    pousser(el.getAttribute('data-slug'));
+    if (lien && el.contains(lien)) {
+      var href = lien.getAttribute('href') || '';
+      if (href === BASE + '/' + slug) {
+        /* Le libellé d'action de la carte est un vrai lien, pour qu'un
+           crawler sans JavaScript atteigne l'étude de cas. Pour un visiteur,
+           on ouvre la modale au lieu de recharger la page. */
+        e.preventDefault();
+      } else if (href && href.charAt(0) !== '#') {
+        return;                       // lien sortant : comportement normal
+      }
+    }
+    pousser(slug);
   }, true);
 
   // ── Fermeture : on observe la classe .open ────────────────

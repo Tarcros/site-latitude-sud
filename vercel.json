@@ -2,52 +2,192 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "trailingSlash": false,
   "redirects": [
-    { "source": "/pages/catalogue.html", "destination": "/catalogue", "permanent": true },
-    { "source": "/pages/social.html", "destination": "/reseaux-sociaux", "permanent": true },
-    { "source": "/pages/charte-graphique.html", "destination": "/identite-de-marque", "permanent": true },
-    { "source": "/pages/photos.html", "destination": "/photographie", "permanent": true },
-    { "source": "/pages/realisations.html", "destination": "/realisations", "permanent": true },
-    { "source": "/pages/agence.html", "destination": "/agence", "permanent": true },
-    { "source": "/pages/contact.html", "destination": "/contact", "permanent": true },
-    { "source": "/pages/mentions-legales.html", "destination": "/mentions-legales", "permanent": true },
-    { "source": "/pages/politique-de-confidentialite.html", "destination": "/politique-de-confidentialite", "permanent": true },
-    { "source": "/pages/latitude-sud-news.html", "destination": "/actualites", "permanent": true },
-
-    { "source": "/pages/print.html", "destination": "/identite-de-marque", "permanent": true },
-    { "source": "/pages/video.html", "destination": "/photographie", "permanent": true },
-    { "source": "/pages/web.html", "destination": "/catalogue", "permanent": true },
-
-    { "source": "/index.html", "destination": "/", "permanent": true }
+    {
+      "source": "/pages/catalogue.html",
+      "destination": "/catalogue",
+      "permanent": true
+    },
+    {
+      "source": "/pages/social.html",
+      "destination": "/reseaux-sociaux",
+      "permanent": true
+    },
+    {
+      "source": "/pages/charte-graphique.html",
+      "destination": "/identite-de-marque",
+      "permanent": true
+    },
+    {
+      "source": "/pages/photos.html",
+      "destination": "/photographie",
+      "permanent": true
+    },
+    {
+      "source": "/pages/realisations.html",
+      "destination": "/realisations",
+      "permanent": true
+    },
+    {
+      "source": "/pages/agence.html",
+      "destination": "/agence",
+      "permanent": true
+    },
+    {
+      "source": "/pages/contact.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/pages/mentions-legales.html",
+      "destination": "/mentions-legales",
+      "permanent": true
+    },
+    {
+      "source": "/pages/politique-de-confidentialite.html",
+      "destination": "/politique-de-confidentialite",
+      "permanent": true
+    },
+    {
+      "source": "/pages/latitude-sud-news.html",
+      "destination": "/actualites",
+      "permanent": true
+    },
+    {
+      "source": "/pages/print.html",
+      "destination": "/identite-de-marque",
+      "permanent": true
+    },
+    {
+      "source": "/pages/video.html",
+      "destination": "/photographie",
+      "permanent": true
+    },
+    {
+      "source": "/pages/web.html",
+      "destination": "/catalogue",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    }
   ],
   "rewrites": [
-    { "source": "/catalogue", "destination": "/pages/catalogue.html" },
-    { "source": "/catalogue/:slug", "destination": "/pages/catalogue.html" },
-
-    { "source": "/reseaux-sociaux", "destination": "/pages/social.html" },
-    { "source": "/reseaux-sociaux/:slug", "destination": "/pages/social.html" },
-
-    { "source": "/identite-de-marque", "destination": "/pages/charte-graphique.html" },
-    { "source": "/identite-de-marque/:slug", "destination": "/pages/charte-graphique.html" },
-
-    { "source": "/photographie", "destination": "/pages/photos.html" },
-    { "source": "/photographie/:slug", "destination": "/pages/photos.html" },
-
-    { "source": "/realisations", "destination": "/pages/realisations.html" },
-    { "source": "/agence", "destination": "/pages/agence.html" },
-    { "source": "/contact", "destination": "/pages/contact.html" },
-    { "source": "/mentions-legales", "destination": "/pages/mentions-legales.html" },
-    { "source": "/politique-de-confidentialite", "destination": "/pages/politique-de-confidentialite.html" },
-    { "source": "/actualites", "destination": "/pages/latitude-sud-news.html" }
+    {
+      "source": "/catalogue",
+      "destination": "/pages/catalogue.html"
+    },
+    {
+      "source": "/catalogue/:slug",
+      "destination": "/pages/catalogue.html"
+    },
+    {
+      "source": "/reseaux-sociaux",
+      "destination": "/pages/social.html"
+    },
+    {
+      "source": "/reseaux-sociaux/:slug",
+      "destination": "/pages/social.html"
+    },
+    {
+      "source": "/identite-de-marque",
+      "destination": "/pages/charte-graphique.html"
+    },
+    {
+      "source": "/identite-de-marque/:slug",
+      "destination": "/pages/charte-graphique.html"
+    },
+    {
+      "source": "/photographie",
+      "destination": "/pages/photos.html"
+    },
+    {
+      "source": "/photographie/:slug",
+      "destination": "/pages/photos.html"
+    },
+    {
+      "source": "/realisations",
+      "destination": "/pages/realisations.html"
+    },
+    {
+      "source": "/agence",
+      "destination": "/pages/agence.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/pages/contact.html"
+    },
+    {
+      "source": "/mentions-legales",
+      "destination": "/pages/mentions-legales.html"
+    },
+    {
+      "source": "/politique-de-confidentialite",
+      "destination": "/pages/politique-de-confidentialite.html"
+    },
+    {
+      "source": "/actualites",
+      "destination": "/pages/latitude-sud-news.html"
+    }
   ],
   "headers": [
     {
       "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "site-latitude-sud.vercel.app"
+        }
+      ],
       "headers": [
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains; preload" },
-        { "key": "Permissions-Policy", "value": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()" }
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(css|js)/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, must-revalidate"
+        }
       ]
     }
   ]

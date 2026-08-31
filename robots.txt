@@ -1,9 +1,61 @@
+# https://www.latitudesud.gp/robots.txt
+# Latitude Sud — agence de communication, Baie-Mahault (Guadeloupe)
+
+# ── Règle générale ───────────────────────────────────────────────────────
 User-agent: *
 Allow: /
-Disallow: /uploads/
+# Le mode relecture n'est qu'une surcouche d'édition de la même page : il ne
+# doit pas produire d'URL indexable distincte.
+Disallow: /*?relecture
+Disallow: /*&relecture
 
-# Crawlers IA — autorisés explicitement
+# ── Moteurs de recherche ─────────────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Qwantbot
+Allow: /
+
+# ── Recherche assistée par IA (citation dans les réponses) ───────────────
+# Ces agents alimentent les réponses citées, pas l'entraînement. Les laisser
+# passer est la condition pour que Latitude Sud puisse être cité.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# ── Agents d'entraînement / grounding ────────────────────────────────────
+# Autorisés volontairement : ils améliorent la connaissance de la marque par
+# les assistants. À restreindre uniquement sur décision de l'agence.
 User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
 Allow: /
 
 User-agent: Claude-Web
@@ -12,10 +64,13 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
-User-agent: Googlebot
+User-agent: Applebot-Extended
 Allow: /
 
-User-agent: Bingbot
+User-agent: meta-externalagent
 Allow: /
 
-Sitemap: https://latitudesud.gp/sitemap.xml
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://www.latitudesud.gp/sitemap.xml
