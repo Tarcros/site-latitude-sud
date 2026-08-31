@@ -14,8 +14,8 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/css/globals.css?v=231">
-  <link rel="stylesheet" href="/css/hero-wave.css?v=10">
+  <link rel="stylesheet" href="/css/globals.css?v=232">
+  <link rel="stylesheet" href="/css/hero-wave.css?v=11">
 
   <style>
     .hero { --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-realisations-1920.webp?v=7'); position: relative; width: 100%; min-height: clamp(400px, 50svh, 680px); background-image: var(--hero-image); background-size: cover; background-position: 12% bottom; background-repeat: no-repeat; display: flex; flex-direction: column; background-color: #FAF9F7; }
@@ -33,21 +33,24 @@
     .hero-wave { position: absolute; bottom: 0; left: 0; width: 100%; line-height: 0; z-index: 3; pointer-events: none; }
     .hero-wave > svg.wave-bg { display: block; width: 100%; height: clamp(70px, 5.8vw, 92px); }
 
-    .realisations-page-section { background: var(--color-white); padding-top: clamp(28px, 3.2vh, 46px); padding-bottom: var(--section-gap); }
+    .realisations-page-section { background: var(--color-white); padding-top: clamp(8px, 1.4vh, 16px); padding-bottom: var(--section-gap); }
     .realisations-page-section .container { max-width: 1500px; padding-inline: clamp(22px, 3vw, 48px); }
+    .realisations-heading { text-align:center; margin-bottom:clamp(22px,2.4vw,32px); }
+    .realisations-heading .section-surtitle { margin-bottom:10px; }
+    .realisations-heading h2 { font-size:clamp(28px,2.5vw,36px); }
     .expertise-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px; max-width: 1400px; margin: 0 auto 48px; }
     .expertise-block { text-decoration: none; display: block; }
-    .expertise-block-thumb { width: 100%; aspect-ratio: 4 / 3; border-radius: 8px; overflow: hidden; margin-bottom: 20px; background: var(--color-cream); }
-    .expertise-block-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.5s var(--ease); }
-    .expertise-block:hover .expertise-block-thumb img { transform: scale(1.04); }
+    .expertise-block-thumb { width: 100%; aspect-ratio: 1 / 1; border-radius: 8px; overflow: hidden; margin-bottom: 20px; background: var(--color-cream); }
+    .expertise-block-thumb img { width: 100%; height: 100%; object-fit: contain; display: block; transition: transform 0.5s var(--ease); }
     .expertise-block-title { font-family: 'Poppins', sans-serif; font-size: 22px; font-weight: 700; color: #1A1A1A; margin-bottom: 6px; }
     .expertise-block-desc { font-family: 'Poppins', sans-serif; font-size: 14px; color: var(--color-gray-mid); line-height: 1.6; }
 
     @media (min-width: 901px) {
+      .hero { background-image: var(--hero-image), url('/assets/global/backgrounds/image-bg/generated/hero-realisations-edge-1920.webp?v=2'); background-position:clamp(420px,24vw,900px) bottom,center; background-size:auto 100%,100% 100%; }
       .hero-inner { width: min(620px, 50vw); }
       .hero-desc { max-width: min(560px, 44vw); }
     }
-    @media (min-width: 3600px) { .hero { background-image: url('/assets/global/backgrounds/image-bg/generated/hero-realisations-1920.webp?v=7'), url('/assets/global/backgrounds/image-bg/generated/hero-realisations-edge-1920.webp?v=2'); background-position: left bottom; background-size: auto 100%, 100% 100%; } }
+    @media (min-width: 3600px) { .hero { background-image: url('/assets/global/backgrounds/image-bg/generated/hero-realisations-1920.webp?v=7'), url('/assets/global/backgrounds/image-bg/generated/hero-realisations-edge-1920.webp?v=2'); background-position: clamp(420px,24vw,900px) bottom,center; background-size: auto 100%, 100% 100%; } }
     @media (min-width: 2200px) {
       .realisations-page-section .container { max-width: 2000px; }
       .expertise-grid { max-width: 1840px; gap: 30px; }
@@ -143,6 +146,10 @@
 
   <section class="realisations-page-section">
     <div class="container">
+      <div class="realisations-heading">
+        <p class="section-surtitle">À DÉCOUVRIR</p>
+        <h2>Nos réalisations</h2>
+      </div>
       <div class="expertise-grid">
         <a href="/catalogue" class="expertise-block reveal reveal-delay-4">
           <div class="expertise-block-thumb"><img src="/assets/shared/thumbnails/catalogue-mr-bricolage.webp" alt="Catalogue Mr Bricolage Guadeloupe" loading="lazy"></div>

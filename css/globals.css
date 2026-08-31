@@ -6132,10 +6132,15 @@ body[data-page="news"] { --footer-arch-surface: var(--color-white); }
 
 /* Les cartes conservées en cache restent dans le HTML sans être rendues. */
 .project-grid > .project-card[hidden] { display:none !important; }
-.project-grid.project-grid--photos-curated { grid-template-columns:repeat(2,minmax(0,1fr)); width:min(100%,1000px); }
-/* Deux cartes très larges : en 4/3 la vignette faisait 330px et la carte
-   dépassait le bas de l'écran. Ratio cinéma, cadrage conservé (cover). */
-.project-grid--photos-curated .project-visual { aspect-ratio: 4 / 3; }
+.project-grid.project-grid--photos-curated { grid-template-columns:repeat(2,minmax(0,1fr)); width:min(100%,1200px); }
+/* Deux cartes très larges : ratio 3/2 proche des sources, affichage complet
+   sans recadrer les visuels. */
+.project-grid--photos-curated .project-visual { aspect-ratio: 3 / 2; }
+.project-grid--photos-curated .project-card--so-class .project-visual img {
+  max-width:none;
+  transform:scale(1.045);
+}
+.project-grid--photos-curated .project-card--so-class:hover .project-visual img { transform:scale(1.045); }
 @media (max-width:600px) {
   .project-grid.project-grid--photos-curated { grid-template-columns:1fr; }
 }

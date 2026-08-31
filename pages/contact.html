@@ -17,8 +17,8 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/css/globals.css?v=231">
-  <link rel="stylesheet" href="/css/hero-wave.css?v=10">
+  <link rel="stylesheet" href="/css/globals.css?v=232">
+  <link rel="stylesheet" href="/css/hero-wave.css?v=11">
 
 
   <style>
@@ -46,7 +46,7 @@
     .hero-wave { position: absolute; bottom: 0; left: 0; width: 100%; line-height: 0; z-index: 3; pointer-events: none; }
     .hero-wave > svg.wave-bg { display: block; width: 100%; height: clamp(70px, 5.8vw, 92px); }
 
-    .contact-section { background: var(--color-white); padding: clamp(30px, 3.4vh, 48px) 0 88px; }
+    .contact-section { background: var(--color-white); padding: clamp(20px, 2.5vh, 32px) 0 88px; }
     .contact-inner { max-width: var(--max-width); margin: 0 auto; padding: 0 var(--gutter); display: grid; grid-template-columns: 1.25fr 1fr; gap: 64px; align-items: start; }
     .contact-form-wrap { background: var(--color-cream); border-radius: 22px; padding: 40px; }
     .contact-form-wrap h2 { font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 24px; color: #1A1A1A; margin-bottom: 6px; }
@@ -86,10 +86,11 @@
     .info-social svg { width: 18px; height: 18px; }
 
     @media (min-width: 901px) {
+      .hero { background-image: var(--hero-image), url('/assets/global/backgrounds/image-bg/generated/hero-contact-edge-1920.webp?v=2'); background-position:clamp(420px,24vw,900px) bottom,center; background-size:auto 100%,100% 100%; }
       .hero-inner { width: min(620px, 50vw); }
       .hero-desc { max-width: min(560px, 44vw); }
     }
-    @media (min-width: 3600px) { .hero { background-image: url('/assets/global/backgrounds/image-bg/generated/hero-contact-1920.webp?v=7'), url('/assets/global/backgrounds/image-bg/generated/hero-contact-edge-1920.webp?v=2'); background-position: left bottom; background-size: auto 100%, 100% 100%; } }
+    @media (min-width: 3600px) { .hero { background-image: url('/assets/global/backgrounds/image-bg/generated/hero-contact-1920.webp?v=7'), url('/assets/global/backgrounds/image-bg/generated/hero-contact-edge-1920.webp?v=2'); background-position: clamp(420px,24vw,900px) bottom,center; background-size: auto 100%, 100% 100%; } }
     @media (max-width: 1100px) {
       .contact-inner { grid-template-columns: 1fr; gap: 48px; }
     }

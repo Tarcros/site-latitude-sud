@@ -25,8 +25,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link rel="stylesheet" href="/css/globals.css?v=231">
-<link rel="stylesheet" href="/css/hero-wave.css?v=10">
+  <link rel="stylesheet" href="/css/globals.css?v=232">
+<link rel="stylesheet" href="/css/hero-wave.css?v=11">
 
   <!-- Structured data — Organization / LocalBusiness for SEO & AI discovery -->
 
@@ -42,7 +42,7 @@
       --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-home-1920.webp?v=7');
       position: relative;
       width: 100%;
-      min-height: clamp(340px, 42svh, 640px);
+      min-height: clamp(420px, 46svh, 640px);
       background-image: var(--hero-image);
       background-size: cover;
       background-position: center bottom;
@@ -62,7 +62,7 @@
       max-width: 1440px;
       width: 100%;
       margin: 0 auto;
-      padding: clamp(72px, 8vh, 104px) 56px 0;
+      padding: clamp(72px, 8vh, 104px) var(--content-edge) 0;
     }
 
     /* ── HERO LEFT ── */
@@ -308,14 +308,14 @@
     .hero-wave > svg.wave-bg {
       display: block;
       width: 100%;
-      height: 120px;
+      height: clamp(72px, 5.5vw, 92px);
     }
 
     /* ── EXPERTISES SECTION ── */
     .expertises-section {
       background: var(--color-cream);
-      padding-top: clamp(24px, 2.4vh, 28px);
-      padding-bottom: clamp(32px, 4vw, 52px);
+      padding-top: clamp(8px, 1vh, 12px);
+      padding-bottom: clamp(40px, 4.5vw, 64px);
     }
     .expertises-section > .container {
       max-width: 1500px;
@@ -372,19 +372,20 @@
 
     .expertise-card-img-wrap {
       width: 100%;
-      aspect-ratio: 1.9 / 1;
+      aspect-ratio: 1 / 1;
       overflow: hidden;
+      background: #F4F1EC;
     }
 
     .expertise-card-img-wrap img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
       display: block;
     }
 
     .expertise-card-body {
-      padding: 0 18px 12px;
+      padding: 0 20px 20px;
       display: flex;
       flex-direction: column;
       flex: 1;
@@ -401,7 +402,7 @@
       border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
       margin-top: -21px;
-      margin-bottom: 6px;
+      margin-bottom: 10px;
       position: relative; z-index: 2;
       box-shadow: 0 2px 12px rgba(0,0,0,0.10);
     }
@@ -414,15 +415,15 @@
       font-family: 'Poppins', sans-serif;
       font-size: 18px; font-weight: 700;
       color: #1A1A1A;
-      margin-bottom: 8px;
+      margin-bottom: 10px;
     }
 
     .expertise-card-desc {
       font-family: 'Poppins', sans-serif;
       font-size: 14px; font-weight: 400;
       color: var(--color-gray-dark);
-      line-height: 1.55;
-      margin-bottom: 12px;
+      line-height: 1.65;
+      margin-bottom: 16px;
     }
 
     .expertises-footer { text-align: center; }
@@ -466,14 +467,23 @@
       .expertises-grid { gap: 24px; max-width: 1400px; }
     }
 
+    @media (min-width: 901px) {
+      .hero {
+        background-image: var(--hero-image), url('/assets/global/backgrounds/image-bg/generated/hero-home-edge-1920.webp?v=2');
+        background-position: clamp(420px, 24vw, 900px) bottom, center;
+        background-size: auto 100%, 100% 100%;
+      }
+    }
+
     /* Sur les écrans très larges, la grille suit la largeur disponible au lieu
        de rester figée au format 1920 px. Les cartes gardent ainsi les mêmes
        proportions tout en retrouvant la respiration visible sur la maquette. */
     @media (min-width: 2200px) {
       .hero-content {
+        --home-grid-width: clamp(1400px, 72vw, 1840px);
         max-width: none;
         margin: 0;
-        padding-left: clamp(320px, 14vw, 400px);
+        padding-left: max(360px, calc((100% - var(--home-grid-width)) / 2));
         padding-right: 64px;
       }
       .expertises-section > .container { max-width: 2000px; }
@@ -490,7 +500,7 @@
     @media (min-width: 3600px) {
       .hero {
         background-image: url('/assets/global/backgrounds/image-bg/generated/hero-home-1920.webp?v=7'), url('/assets/global/backgrounds/image-bg/generated/hero-home-edge-1920.webp?v=2');
-        background-position: left bottom;
+        background-position: clamp(420px, 24vw, 900px) bottom, center;
         background-size: auto 100%, 100% 100%;
       }
     }
@@ -521,6 +531,10 @@
       .expertises-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
     }
 
+    @media (max-width: 600px) {
+      .expertises-grid { grid-template-columns: 1fr; gap: 18px; }
+    }
+
     @media (max-width: 480px) {
       .hero { min-height: 520px; }
       .hero-content { padding: 72px 28px 86px; }
@@ -529,16 +543,16 @@
       .hero-title-playfair { font-size: clamp(29px, 9.3vw, 34px); }
       .hero-desc { font-size: 13px; line-height: 1.55; margin-bottom: 18px; }
       .hero-left > .btn { min-height: 46px; padding: 10px 20px; font-size: 13px; }
-      .expertises-section { padding-top: 50px; }
+      .expertises-section { padding-top: 24px; }
       .expertises-section > .container { padding-inline: 28px; display: flex; flex-direction: column; }
       .expertises-header { order: 1; }
-      .expertises-footer { order: 2; margin-bottom: 22px; }
+      .expertises-footer { order: 2; margin-bottom: 14px; }
       .expertises-grid { order: 3; }
       .expertises-header h2 { font-size: 22px; line-height: 1.15; }
       .expertises-header .section-surtitle { margin-bottom: 10px; }
-      .expertises-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-      .expertise-card-img-wrap { aspect-ratio: 4 / 3; }
-      .expertise-card-body { padding: 0 10px 12px; }
+      .expertises-grid { grid-template-columns: 1fr; gap: 18px; }
+      .expertise-card-img-wrap { aspect-ratio: 1 / 1; }
+      .expertise-card-body { padding: 0 18px 20px; }
       .expertise-icon-badge { width: 36px; height: 36px; margin-top: -18px; margin-bottom: 6px; }
       .expertise-icon-badge svg { width: 20px; height: 20px; }
       .expertise-card-title { font-size: 15px; line-height: 1.25; }

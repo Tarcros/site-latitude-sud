@@ -16,20 +16,25 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/css/globals.css?v=231">
-<link rel="stylesheet" href="/css/hero-wave.css?v=10">
+  <link rel="stylesheet" href="/css/globals.css?v=232">
+<link rel="stylesheet" href="/css/hero-wave.css?v=11">
 
   <style>
     .legal-hero {
+      --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-mentions-1920.webp?v=2');
       position: relative;
-      background: var(--color-cream);
-      min-height: 50vh;
+      background-color: var(--color-cream);
+      background-image: var(--hero-image);
+      background-position: center bottom;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: clamp(400px, 48svh, 560px);
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: flex-end;
-      padding: 150px 24px 130px;
-      text-align: center;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 96px var(--content-edge) 76px;
+      text-align: left;
       overflow: hidden;
     }
     .legal-hero .hero-surtitle {
@@ -39,7 +44,7 @@
     .legal-hero h1 {
       font-family: 'Poppins', sans-serif; font-weight: 600;
       font-size: clamp(30px, 4vw, 46px); color: #1A1A1A; letter-spacing: 0;
-      margin-bottom: 32px;
+      margin-bottom: 0;
     }
     /* Wave separator — identical pattern to every other page, instead of
        the small ad-hoc arc bubble this page had before */
@@ -48,7 +53,7 @@
 
     .legal-body {
       background: var(--color-white);
-      padding: 64px var(--gutter) var(--section-gap);
+      padding: 28px var(--gutter) var(--section-gap);
     }
     .legal-body-inner {
       max-width: 760px; margin: 0 auto;
@@ -81,6 +86,14 @@
       font-size: 13.5px; color: var(--color-gray-dark); margin-top: 32px; line-height: 1.7;
     }
     .legal-note svg { flex-shrink: 0; margin-top: 2px; color: var(--color-olive); }
+    @media (max-width: 700px) {
+      .legal-hero {
+        --hero-image: url('/assets/global/backgrounds/image-bg/generated/hero-mentions-960.webp?v=2');
+        min-height:520px; padding:76px 28px 104px; justify-content:flex-start;
+        background-image:var(--hero-image); background-position:center bottom; background-size:cover;
+      }
+      .legal-hero h1 { max-width:300px; }
+    }
   </style>
   <meta name="robots" content="noindex, follow">
   <link rel="canonical" href="https://www.latitudesud.gp/mentions-legales">
